@@ -1182,8 +1182,8 @@ tr:hover td { background: rgba(232,192,80,0.04); }
 <!-- ═══ NAV ═══ -->
 <div class="nav-wrap">
   <nav class="nav">
-    <button class="nav-item active" onclick="showSection('overview')" data-s="overview">🏠 Overview</button>
-    <button class="nav-item" onclick="showSection('growth')" data-s="growth">📈 성장 밸런스 <span class="nav-badge">준비중</span></button>
+    <button class="nav-item active" onclick="showSection('overview')" data-s="overview">🏠 개요</button>
+    <button class="nav-item" onclick="showSection('growth')" data-s="growth">📈 성장 밸런스 <span class="nav-badge ok">데이터 있음</span></button>
     <button class="nav-item" onclick="showSection('economy')" data-s="economy">💰 경제 밸런스 <span class="nav-badge ok">데이터 있음</span></button>
     <button class="nav-item" onclick="showSection('combat')" data-s="combat">⚔ 전투 밸런스</button>
     <button class="nav-item" onclick="showSection('armor')" data-s="armor">🛡 방어구 스킬 <span class="nav-badge ok">데이터 있음</span></button>
@@ -1197,29 +1197,160 @@ tr:hover td { background: rgba(232,192,80,0.04); }
 <!-- ══ OVERVIEW ══ -->
 <section class="section active" id="sec-overview">
 
-  <div class="notice-card" style="margin-bottom:14px">
+  <!-- 인트로 -->
+  <div class="notice-card" style="margin-bottom:20px">
     <span class="notice-char">👑</span>
     <div class="notice-text">
-      X7 프로젝트 밸런스 대시보드에 오신 걸 환영해요! 아직 업로드되지 않은 항목은 <strong>준비중</strong>으로 표시되어 있어요. 파일이 생기면 언제든 업로드하면 데이터가 채워질 거예요~
+      <strong>X7 프로젝트 밸런스 대시보드</strong> — 성장·경제·전투 밸런스 수치를 한눈에 볼 수 있는 기획 레퍼런스입니다. 준비 중 항목은 기획서 업로드 시 자동으로 채워집니다.
     </div>
   </div>
 
-  <div class="download-bar">
+  <!-- 장비 체계: 티어 & 등급 -->
+  <div style="margin-bottom:14px">
+    <div class="card">
+      <div class="card-head"><span style="color:var(--gold)">⚙ 장비 체계</span></div>
+      <div style="padding:16px 20px;display:grid;grid-template-columns:1fr 1fr;gap:28px">
+
+        <div>
+          <div style="font-size:.72rem;color:var(--text2);letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px">
+            Tier — 장비에 고유하게 부여, 성장으로 변경 불가
+          </div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(80,200,112,.18);color:#50c870;border:1px solid #50c87050">T1</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(130,205,90,.18);color:#82cd5a;border:1px solid #82cd5a50">T2</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(200,200,70,.18);color:#c8c846;border:1px solid #c8c84650">T3</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(232,192,80,.2);color:#e8c050;border:1px solid #e8c05055">T4</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(230,140,50,.18);color:#e68c32;border:1px solid #e68c3250">T5</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(212,48,48,.18);color:#d44040;border:1px solid #d4404050">T6</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(140,60,220,.18);color:#a060e8;border:1px solid #a060e850">T7</span>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size:.72rem;color:var(--text2);letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px">
+            Grade — 동일 티어 장비 분해 재료로 강화 가능, 티어별 범위 제한
+          </div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(160,160,160,.15);color:#aaa;border:1px solid #aaa4">일반</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(80,200,112,.15);color:#50c870;border:1px solid #50c87040">고급</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(60,140,240,.15);color:#4090f0;border:1px solid #4090f040">희귀</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(180,80,240,.15);color:#c060f0;border:1px solid #c060f040">영웅</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(240,120,30,.15);color:#f07820;border:1px solid #f0782040">전설</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(232,192,80,.2);color:#e8c050;border:1px solid #e8c05055">유물</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 무기 & 방어구 -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px">
+
+    <!-- 무기 -->
+    <div class="card">
+      <div class="card-head">
+        <span style="color:var(--gold)">⚔ 무기</span>
+        <span style="font-size:.75rem;color:var(--text3)">5종 (활 추가 예정)</span>
+      </div>
+      <div style="padding:12px 16px;display:flex;flex-direction:column;gap:7px">
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">🗡️</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">양손검</div>
+            <div style="color:var(--text3);font-size:.74rem">고화력 근거리 — 스킬 계수 최상위</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">⚔️</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">한손검</div>
+            <div style="color:var(--text3);font-size:.74rem">밸런스형 근거리 — 안정적 DPS</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">🔪</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">단검</div>
+            <div style="color:var(--text3);font-size:.74rem">속도형 근거리 — 쿨다운 특화</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">🔮</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">지팡이</div>
+            <div style="color:var(--text3);font-size:.74rem">마법 원거리 — 최고 단일 피해</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(100,100,100,.07);border-radius:6px;border-left:3px solid #555;opacity:.5">
+          <span style="font-size:1.2rem">🏹</span>
+          <div>
+            <div style="color:var(--text2);font-weight:600;font-size:.88rem">활 <span style="font-size:.7rem">(추가 예정)</span></div>
+            <div style="color:var(--text3);font-size:.74rem">원거리 — 데이터 미정</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 방어구 -->
+    <div class="card">
+      <div class="card-head">
+        <span style="color:var(--gold)">🛡 방어구</span>
+        <span style="font-size:.75rem;color:var(--text3)">재질 3 × 파츠 4</span>
+      </div>
+      <div style="padding:12px 16px">
+        <table style="width:100%;border-collapse:collapse;font-size:.82rem;text-align:center">
+          <thead>
+            <tr>
+              <th style="padding:6px 10px;color:var(--text2);text-align:left;border-bottom:1px solid #2a2a2a"></th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">🪖 투구</th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">🥋 갑옷</th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">🧤 장갑</th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">👢 신발</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background:rgba(212,184,152,.06)">
+              <td style="padding:9px 10px;color:#d4b896;font-weight:700;text-align:left;border-right:1px solid #2a2a2a">⚙ 판금</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+            </tr>
+            <tr>
+              <td style="padding:9px 10px;color:#a8c890;font-weight:700;text-align:left;border-right:1px solid #2a2a2a">🌿 가죽</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+            </tr>
+            <tr style="background:rgba(212,184,152,.06)">
+              <td style="padding:9px 10px;color:#c8a0d0;font-weight:700;text-align:left;border-right:1px solid #2a2a2a">🧵 천</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-top:12px;font-size:.74rem;color:var(--text3);line-height:1.7">
+          각 방어구마다 <strong style="color:var(--text2)">2~3개</strong>의 패시브 옵션 부여<br>
+          재질별 옵션 풀 상이 · 파츠별로 다른 옵션 조합 제공
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 다운로드 바 -->
+  <div class="download-bar" style="margin-bottom:20px">
     <span class="download-label">📂 기획서</span>
     <a class="download-btn" href="/mnt/user-data/uploads/장비_제작_및_드랍.xlsx" download>⬇ 장비_제작_및_드랍</a>
     <a class="download-btn" href="/mnt/user-data/uploads/방어구_옵션_밸런싱_최종_V2.xlsx" download>⬇ 방어구_옵션_밸런싱</a>
     <a class="download-btn" href="/mnt/user-data/uploads/X7_무기_스킬_밸런스.xlsx" download>⬇ 무기_스킬_밸런스</a>
   </div>
 
-  <div class="stats-row" style="margin-bottom:20px">
-    <div class="stat-box"><div class="stat-num">7</div><div class="stat-label">티어 (T1~T7)</div></div>
-    <div class="stat-box"><div class="stat-num">4</div><div class="stat-label">획득 경로</div></div>
-    <div class="stat-box"><div class="stat-num">4</div><div class="stat-label">무기 종류</div></div>
-    <div class="stat-box"><div class="stat-num">6</div><div class="stat-label">스킬 레벨</div></div>
-    <div class="stat-box"><div class="stat-num">15%</div><div class="stat-label">드랍률 (전리품)</div></div>
-    <div class="stat-box"><div class="stat-num">2×</div><div class="stat-label">Lv.0→5 성장</div></div>
-  </div>
-
+  <!-- 밸런스 현황 트리 -->
   <div class="cat-tree">
 
     <!-- 성장 밸런스 -->
@@ -1235,12 +1366,12 @@ tr:hover td { background: rgba(232,192,80,0.04); }
         <div class="cat-item" onclick="showSection('growth')">
           <div class="cat-item-dot" style="background:#50c870"></div>
           <div class="cat-item-name">캐릭터 레벨</div>
-          <span class="cat-item-status status-soon">⏳ 업로드 대기</span>
+          <span class="cat-item-status status-ok">✓ 데이터 확인</span>
         </div>
         <div class="cat-item" onclick="showSection('growth')">
           <div class="cat-item-dot" style="background:#50c870"></div>
           <div class="cat-item-name">숙련도</div>
-          <span class="cat-item-status status-soon">⏳ 업로드 대기</span>
+          <span class="cat-item-status status-ok">✓ 데이터 확인</span>
         </div>
       </div>
     </div>
@@ -1300,21 +1431,340 @@ tr:hover td { background: rgba(232,192,80,0.04); }
 
 </section>
 
+
 <!-- ══ GROWTH ══ -->
 <section class="section" id="sec-growth">
   <div class="sec-header">
     <div class="sec-header-text">
-    <div class="sec-title">📈 성장 밸런스</div>
-    <div class="sec-desc">캐릭터 레벨 · 숙련도</div>
+      <div class="sec-title">📈 성장 밸런스</div>
+      <div class="sec-desc">캐릭터 레벨 · 숙련도 경험치 설계</div>
+    </div>
   </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab('grw','intent',this)">📌 기획 의도</button>
+    <button class="tab-btn" onclick="switchTab('grw','charlevel',this)">📊 캐릭터 레벨</button>
+    <button class="tab-btn" onclick="switchTab('grw','proficiency',this)">🏆 숙련도</button>
   </div>
-  <div class="coming-soon">
-    <div class="coming-soon-icon">📊</div>
-    <div class="coming-soon-title">준비중입니다</div>
-    <div class="coming-soon-sub">캐릭터 레벨 및 숙련도 기획서를 업로드하면<br>자동으로 표시됩니다.</div>
-    <div class="upload-hint">📂 파일을 업로드하면 이 화면이 채워집니다</div>
+
+  <!-- INTENT ─────────────────── -->
+  <div id="grw-intent">
+    <div class="stats-row" style="margin-bottom:20px">
+      <div class="stat-box"><div class="stat-num">100</div><div class="stat-label">최대 레벨</div></div>
+      <div class="stat-box"><div class="stat-num">7</div><div class="stat-label">숙련도 티어</div></div>
+      <div class="stat-box"><div class="stat-num">330h</div><div class="stat-label">60레벨 달성</div></div>
+      <div class="stat-box"><div class="stat-num">1,200h</div><div class="stat-label">100레벨 달성</div></div>
+      <div class="stat-box"><div class="stat-num">300 XP/분</div><div class="stat-label">숙련도 기준</div></div>
+    </div>
+
+    <div class="eco-grid" style="margin-bottom:20px">
+      <div class="route-card">
+        <div class="route-card-head"><span class="route-icon">📊</span>
+          <div><div class="route-name">캐릭터 레벨 설계</div>
+          <div class="route-tagline">구간별 등차 성장</div></div>
+        </div>
+        <div class="route-body"><ul class="route-features">
+          <li class="route-feature">1레벨 4,300 XP → 60레벨 1,234,300 XP (구간별 등차 증가)</li>
+          <li class="route-feature">60레벨 = 330시간 / 100레벨 = 1,200시간 (지역 완료 기준 앵커)</li>
+          <li class="route-feature">레벨업 소요 시간이 급증하는 구간: 40레벨 이후 (하얀 숲~)</li>
+        </ul></div>
+      </div>
+      <div class="route-card">
+        <div class="route-card-head"><span class="route-icon">🏆</span>
+          <div><div class="route-name">숙련도 시스템</div>
+          <div class="route-tagline">티어 제한 경험치 획득</div></div>
+        </div>
+        <div class="route-body"><ul class="route-features">
+          <li class="route-feature">분당 300 XP 기준 / 캐릭터 XP의 약 60% 수준</li>
+          <li class="route-feature"><strong style="color:var(--gold)">자신의 숙련도 티어 이상 몬스터에서만 경험치 획득</strong></li>
+          <li class="route-feature">지역 클리어 시 해당 티어 자동 달성 — 레벨·숙련도 동기화 설계</li>
+          <li class="route-feature">상위 티어 입장 조건: 지정 캐릭터 레벨 달성 必</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span>🗺</span>
+        <div class="card-head-title">지역별 성장 기준표</div>
+        <div class="card-head-sub">지역 완료 기준 누계 플레이 타임</div>
+      </div>
+      <div class="card-body">
+        <table>
+          <tr><th>지역</th><th>레벨 구간</th><th>완료 레벨</th><th>누계 시간</th><th>구간 소요</th><th>숙련도 티어</th></tr>
+          <tr>
+          <td>이니스 섬</td><td>1~10</td>
+          <td class="td-num">10레벨</td>
+          <td class="td-num">2h</td>
+          <td class="td-num">2h</td>
+          <td><span style="color:#50c870;font-weight:700">1T</span></td>
+        </tr>
+<tr>
+          <td>솔즈리드 반도</td><td>11~20</td>
+          <td class="td-num">20레벨</td>
+          <td class="td-num">6h</td>
+          <td class="td-num">4h</td>
+          <td><span style="color:#5090e8;font-weight:700">2T</span></td>
+        </tr>
+<tr>
+          <td>릴리엇 구릉지</td><td>21~30</td>
+          <td class="td-num">30레벨</td>
+          <td class="td-num">12h</td>
+          <td class="td-num">6h</td>
+          <td><span style="color:#e8c050;font-weight:700">3T</span></td>
+        </tr>
+<tr>
+          <td>가랑돌 평원</td><td>31~35</td>
+          <td class="td-num">35레벨</td>
+          <td class="td-num">20h</td>
+          <td class="td-num">8h</td>
+          <td><span style="color:#e87830;font-weight:700">4T</span></td>
+        </tr>
+<tr>
+          <td>하얀 숲</td><td>36~40</td>
+          <td class="td-num">40레벨</td>
+          <td class="td-num">30h</td>
+          <td class="td-num">10h</td>
+          <td><span style="color:#e87830;font-weight:700">4T</span></td>
+        </tr>
+<tr>
+          <td>마리아 노플</td><td>41~45</td>
+          <td class="td-num">45레벨</td>
+          <td class="td-num">50h</td>
+          <td class="td-num">20h</td>
+          <td><span style="color:#c850c8;font-weight:700">5T</span></td>
+        </tr>
+<tr>
+          <td>황금 평원</td><td>46~50</td>
+          <td class="td-num">50레벨</td>
+          <td class="td-num">90h</td>
+          <td class="td-num">40h</td>
+          <td><span style="color:#c850c8;font-weight:700">5T</span></td>
+        </tr>
+<tr>
+          <td>지옥 늪지대</td><td>51~55</td>
+          <td class="td-num">55레벨</td>
+          <td class="td-num">170h</td>
+          <td class="td-num">80h</td>
+          <td><span style="color:#d43030;font-weight:700">6T</span></td>
+        </tr>
+<tr>
+          <td>긴 모래톱</td><td>56~60</td>
+          <td class="td-num">60레벨</td>
+          <td class="td-num">330h</td>
+          <td class="td-num">160h</td>
+          <td><span style="color:#ff5555;font-weight:700">7T</span></td>
+        </tr>
+
+        </table>
+      </div>
+    </div>
   </div>
+
+  <!-- CHAR LEVEL ─────────────── -->
+  <div id="grw-charlevel" style="display:none">
+    <div class="card">
+      <div class="card-head"><span>📊</span>
+        <div class="card-head-title">캐릭터 레벨 경험치 테이블 (1~100)</div>
+        <div class="card-head-sub">필요 XP · 누계 시간 · 지역</div>
+      </div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap" style="max-height:520px;overflow-y:auto">
+          <table id="grw-lv-tbl">
+            <thead style="position:sticky;top:0;z-index:2">
+              <tr><th>레벨</th><th>지역</th><th>필요 XP</th><th>누계 XP</th><th>누계 시간</th><th>성장폭</th></tr>
+            </thead>
+            <tbody id="grw-lv-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROFICIENCY ─────────────── -->
+  <div id="grw-proficiency" style="display:none">
+    <div class="notice-card" style="margin-bottom:16px">
+      <span class="notice-char">⚠️</span>
+      <div class="notice-text">
+        <strong>숙련도 티어 규칙</strong> — 자신의 숙련도 티어 이상의 몬스터를 대상으로만 경험치 획득 가능합니다.
+        <br>예) 2티어 숙련도 → 2티어 이상 몬스터 사냥 시에만 숙련도 XP 획득
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px">
+      
+<div class="card" style="border-color:#50c87033">
+  <div class="card-head" style="background:linear-gradient(90deg,#50c87018,transparent)">
+    <span style="color:#50c870;font-weight:900;font-size:1.1rem">1T</span>
+    <div>
+      <div class="card-head-title" style="color:#50c870">1T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>10레벨</strong> 완료 / 총 36,000 XP / 달성 2h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr style="font-weight:700"><td>Lv.1</td><td class="td-num">36,000</td><td style="color:var(--text2)">36,000</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#5090e833">
+  <div class="card-head" style="background:linear-gradient(90deg,#5090e818,transparent)">
+    <span style="color:#5090e8;font-weight:900;font-size:1.1rem">2T</span>
+    <div>
+      <div class="card-head-title" style="color:#5090e8">2T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>20레벨</strong> 완료 / 총 72,000 XP / 달성 4h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr style="font-weight:700"><td>Lv.1</td><td class="td-num">72,000</td><td style="color:var(--text2)">72,000</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#e8c05033">
+  <div class="card-head" style="background:linear-gradient(90deg,#e8c05018,transparent)">
+    <span style="color:#e8c050;font-weight:900;font-size:1.1rem">3T</span>
+    <div>
+      <div class="card-head-title" style="color:#e8c050">3T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>30레벨</strong> 완료 / 총 108,000 XP / 달성 6h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">27,700</td><td style="color:var(--text2)">27,700</td></tr>
+<tr><td>Lv.2</td><td class="td-num">36,000</td><td style="color:var(--text2)">36,000</td></tr>
+<tr style="font-weight:700"><td>Lv.3</td><td class="td-num">44,300</td><td style="color:var(--text2)">44,300</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#e8783033">
+  <div class="card-head" style="background:linear-gradient(90deg,#e8783018,transparent)">
+    <span style="color:#e87830;font-weight:900;font-size:1.1rem">4T</span>
+    <div>
+      <div class="card-head-title" style="color:#e87830">4T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>40레벨</strong> 완료 / 총 324,000 XP / 달성 18h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">83,100</td><td style="color:var(--text2)">83,100</td></tr>
+<tr><td>Lv.2</td><td class="td-num">108,000</td><td style="color:var(--text2)">108,000</td></tr>
+<tr style="font-weight:700"><td>Lv.3</td><td class="td-num">132,900</td><td style="color:var(--text2)">132,900</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#c850c833">
+  <div class="card-head" style="background:linear-gradient(90deg,#c850c818,transparent)">
+    <span style="color:#c850c8;font-weight:900;font-size:1.1rem">5T</span>
+    <div>
+      <div class="card-head-title" style="color:#c850c8">5T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>50레벨</strong> 완료 / 총 1,080,000 XP / 달성 60h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">166,200</td><td style="color:var(--text2)">166,200</td></tr>
+<tr><td>Lv.2</td><td class="td-num">191,100</td><td style="color:var(--text2)">191,100</td></tr>
+<tr><td>Lv.3</td><td class="td-num">216,000</td><td style="color:var(--text2)">216,000</td></tr>
+<tr><td>Lv.4</td><td class="td-num">240,900</td><td style="color:var(--text2)">240,900</td></tr>
+<tr style="font-weight:700"><td>Lv.5</td><td class="td-num">265,800</td><td style="color:var(--text2)">265,800</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#d4303033">
+  <div class="card-head" style="background:linear-gradient(90deg,#d4303018,transparent)">
+    <span style="color:#d43030;font-weight:900;font-size:1.1rem">6T</span>
+    <div>
+      <div class="card-head-title" style="color:#d43030">6T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>55레벨</strong> 완료 / 총 1,440,000 XP / 달성 80h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">221,500</td><td style="color:var(--text2)">221,500</td></tr>
+<tr><td>Lv.2</td><td class="td-num">254,800</td><td style="color:var(--text2)">254,800</td></tr>
+<tr><td>Lv.3</td><td class="td-num">288,000</td><td style="color:var(--text2)">288,000</td></tr>
+<tr><td>Lv.4</td><td class="td-num">321,200</td><td style="color:var(--text2)">321,200</td></tr>
+<tr style="font-weight:700"><td>Lv.5</td><td class="td-num">354,500</td><td style="color:var(--text2)">354,500</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#ff555533">
+  <div class="card-head" style="background:linear-gradient(90deg,#ff555518,transparent)">
+    <span style="color:#ff5555;font-weight:900;font-size:1.1rem">7T</span>
+    <div>
+      <div class="card-head-title" style="color:#ff5555">7T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>60레벨</strong> 완료 / 총 2,880,000 XP / 달성 160h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">246,200</td><td style="color:var(--text2)">246,200</td></tr>
+<tr><td>Lv.2</td><td class="td-num">264,600</td><td style="color:var(--text2)">264,600</td></tr>
+<tr><td>Lv.3</td><td class="td-num">283,100</td><td style="color:var(--text2)">283,100</td></tr>
+<tr><td>Lv.4</td><td class="td-num">301,500</td><td style="color:var(--text2)">301,500</td></tr>
+<tr><td>Lv.5</td><td class="td-num">320,000</td><td style="color:var(--text2)">320,000</td></tr>
+<tr><td>Lv.6</td><td class="td-num">338,500</td><td style="color:var(--text2)">338,500</td></tr>
+<tr><td>Lv.7</td><td class="td-num">356,900</td><td style="color:var(--text2)">356,900</td></tr>
+<tr><td>Lv.8</td><td class="td-num">375,400</td><td style="color:var(--text2)">375,400</td></tr>
+<tr style="font-weight:700"><td>Lv.9</td><td class="td-num">393,800</td><td style="color:var(--text2)">393,800</td></tr>
+
+    </table>
+  </div>
+</div>
+    </div>
+  </div>
+
 </section>
+
+<script>
+// ── GROWTH DATA ──────────────────────────────────────────────────────────
+const GROWTH_LEVEL = [[1, 0, 8.6, 4300, 0, "이니스 섬"], [2, 0.14, 9.3, 4700, 4300, "이니스 섬"], [3, 0.3, 10.1, 5000, 9000, "이니스 섬"], [4, 0.47, 10.9, 5400, 14000, "이니스 섬"], [5, 0.65, 11.6, 5800, 19400, "이니스 섬"], [6, 0.84, 12.4, 6200, 25200, "이니스 섬"], [7, 1.05, 13.1, 6600, 31400, "이니스 섬"], [8, 1.27, 13.9, 7000, 38000, "이니스 섬"], [9, 1.5, 14.7, 7300, 45000, "이니스 섬"], [10, 1.74, 15.4, 7700, 52300, "이니스 섬"], [11, 2.0, 17.1, 8600, 60000, "솔즈리드 반도"], [12, 2.29, 18.7, 9300, 68600, "솔즈리드 반도"], [13, 2.6, 20.2, 10100, 77900, "솔즈리드 반도"], [14, 2.93, 21.7, 10900, 88000, "솔즈리드 반도"], [15, 3.3, 23.2, 11600, 98900, "솔즈리드 반도"], [16, 3.68, 24.8, 12400, 110500, "솔즈리드 반도"], [17, 4.1, 26.3, 13100, 122900, "솔즈리드 반도"], [18, 4.53, 27.8, 13900, 136000, "솔즈리드 반도"], [19, 5.0, 29.3, 14700, 149900, "솔즈리드 반도"], [20, 5.49, 30.9, 15400, 164600, "솔즈리드 반도"], [21, 6.0, 25.7, 12900, 180000, "릴리엇 구릉지"], [22, 6.43, 28.0, 14000, 192900, "릴리엇 구릉지"], [23, 6.9, 30.3, 15100, 206900, "릴리엇 구릉지"], [24, 7.4, 32.6, 16300, 222000, "릴리엇 구릉지"], [25, 7.94, 34.9, 17400, 238300, "릴리엇 구릉지"], [26, 8.52, 37.1, 18600, 255700, "릴리엇 구릉지"], [27, 9.14, 39.4, 19700, 274300, "릴리엇 구릉지"], [28, 9.8, 41.7, 20900, 294000, "릴리엇 구릉지"], [29, 10.5, 44.0, 22000, 314900, "릴리엇 구릉지"], [30, 11.23, 46.3, 23100, 336900, "릴리엇 구릉지"], [31, 12.0, 68.6, 34300, 360000, "가랑돌 평원"], [32, 13.14, 82.3, 41100, 394300, "가랑돌 평원"], [33, 14.51, 96.0, 48000, 435400, "가랑돌 평원"], [34, 16.11, 109.7, 54900, 483400, "가랑돌 평원"], [35, 17.94, 123.4, 61700, 538300, "가랑돌 평원"], [36, 20.0, 85.7, 42900, 600000, "하얀 숲"], [37, 21.43, 102.9, 51400, 642900, "하얀 숲"], [38, 23.14, 120.0, 60000, 694300, "하얀 숲"], [39, 25.14, 137.1, 68600, 754300, "하얀 숲"], [40, 27.43, 154.3, 77100, 822900, "하얀 숲"], [41, 30.0, 171.4, 85700, 900000, "마리아 노플"], [42, 32.86, 205.7, 102900, 985700, "마리아 노플"], [43, 36.29, 240.0, 120000, 1088600, "마리아 노플"], [44, 40.29, 274.3, 137100, 1208600, "마리아 노플"], [45, 44.86, 308.6, 154300, 1345700, "마리아 노플"], [46, 50.0, 342.9, 171400, 1500000, "황금 평원"], [47, 55.71, 411.4, 205700, 1671400, "황금 평원"], [48, 62.57, 480.0, 240000, 1877100, "황금 평원"], [49, 70.57, 548.6, 274300, 2117100, "황금 평원"], [50, 79.71, 617.1, 308600, 2391400, "황금 평원"], [51, 90.0, 685.7, 342900, 2700000, "지옥 늪지대"], [52, 101.43, 822.9, 411400, 3042900, "지옥 늪지대"], [53, 115.14, 960.0, 480000, 3454300, "지옥 늪지대"], [54, 131.14, 1097.1, 548600, 3934300, "지옥 늪지대"], [55, 149.43, 1234.3, 617100, 4482900, "지옥 늪지대"], [56, 170.0, 1371.4, 685700, 5100000, "긴 모래톱"], [57, 192.86, 1645.7, 822900, 5785700, "긴 모래톱"], [58, 220.29, 1920.0, 960000, 6608600, "긴 모래톱"], [59, 252.29, 2194.3, 1097100, 7568600, "긴 모래톱"], [60, 288.86, 2468.6, 1234300, 8665700, "긴 모래톱"], [61, 330.0, 1157.1, 578600, 9900000, "(미정)"], [62, 349.29, 1260.0, 630000, 10478600, "(미정)"], [63, 370.29, 1362.9, 681400, 11108600, "(미정)"], [64, 393.0, 1465.7, 732900, 11790000, "(미정)"], [65, 417.43, 1568.6, 784300, 12522900, "(미정)"], [66, 443.57, 1671.4, 835700, 13307200, "(미정)"], [67, 471.43, 1774.3, 887100, 14142900, "(미정)"], [68, 501.0, 1877.1, 938600, 15030000, "(미정)"], [69, 532.29, 1980.0, 990000, 15968600, "(미정)"], [70, 565.29, 2082.9, 1041400, 16958600, "(미정)"], [71, 600.0, 857.1, 428600, 18000000, "(미정)"], [72, 614.29, 933.3, 466700, 18428600, "(미정)"], [73, 629.84, 1009.5, 504800, 18895300, "(미정)"], [74, 646.67, 1085.7, 542900, 19400100, "(미정)"], [75, 664.76, 1161.9, 581000, 19943000, "(미정)"], [76, 684.13, 1238.1, 619000, 20524000, "(미정)"], [77, 704.76, 1314.3, 657100, 21143000, "(미정)"], [78, 726.67, 1390.5, 695200, 21800100, "(미정)"], [79, 749.84, 1466.7, 733300, 22495300, "(미정)"], [80, 774.29, 1542.9, 771400, 23228600, "(미정)"], [81, 800.0, 642.9, 321400, 24000000, "(미정)"], [82, 810.71, 700.0, 350000, 24321400, "(미정)"], [83, 822.38, 757.1, 378600, 24671400, "(미정)"], [84, 835.0, 814.3, 407100, 25050000, "(미정)"], [85, 848.57, 871.4, 435700, 25457100, "(미정)"], [86, 863.1, 928.6, 464300, 25892800, "(미정)"], [87, 878.57, 985.7, 492900, 26357100, "(미정)"], [88, 895.0, 1042.9, 521400, 26850000, "(미정)"], [89, 912.38, 1100.0, 550000, 27371400, "(미정)"], [90, 930.71, 1157.1, 578600, 27921400, "(미정)"], [91, 950.0, 1071.4, 535700, 28500000, "(미정)"], [92, 967.86, 1166.7, 583300, 29035700, "(미정)"], [93, 987.3, 1261.9, 631000, 29619000, "(미정)"], [94, 1008.33, 1357.1, 678600, 30250000, "(미정)"], [95, 1030.95, 1452.4, 726200, 30928600, "(미정)"], [96, 1055.16, 1547.6, 773800, 31654800, "(미정)"], [97, 1080.95, 1642.9, 821400, 32428600, "(미정)"], [98, 1108.33, 1738.1, 869000, 33250000, "(미정)"], [99, 1137.3, 1833.3, 916700, 34119000, "(미정)"], [100, 1167.86, 1928.6, 964300, 35035700, "(미정)"]];
+const GROWTH_PROF  = [{"t": "1T", "target": "캐릭터 10레벨 완료", "hours": "2h", "total": 36000, "lvs": [{"lv": 1, "xp": 36000, "note": "2T 진입 가능"}]}, {"t": "2T", "target": "캐릭터 20레벨 완료", "hours": "4h", "total": 72000, "lvs": [{"lv": 1, "xp": 72000, "note": "3T 진입 가능"}]}, {"t": "3T", "target": "캐릭터 30레벨 완료", "hours": "6h", "total": 108000, "lvs": [{"lv": 1, "xp": 27700, "note": ""}, {"lv": 2, "xp": 36000, "note": ""}, {"lv": 3, "xp": 44300, "note": "4T 진입 가능"}]}, {"t": "4T", "target": "캐릭터 40레벨 완료", "hours": "18h", "total": 324000, "lvs": [{"lv": 1, "xp": 83100, "note": ""}, {"lv": 2, "xp": 108000, "note": ""}, {"lv": 3, "xp": 132900, "note": "5T 진입 가능"}]}, {"t": "5T", "target": "캐릭터 50레벨 완료", "hours": "60h", "total": 1080000, "lvs": [{"lv": 1, "xp": 166200, "note": ""}, {"lv": 2, "xp": 191100, "note": ""}, {"lv": 3, "xp": 216000, "note": ""}, {"lv": 4, "xp": 240900, "note": ""}, {"lv": 5, "xp": 265800, "note": "6T 진입 가능"}]}, {"t": "6T", "target": "캐릭터 55레벨 완료", "hours": "80h", "total": 1440000, "lvs": [{"lv": 1, "xp": 221500, "note": ""}, {"lv": 2, "xp": 254800, "note": ""}, {"lv": 3, "xp": 288000, "note": ""}, {"lv": 4, "xp": 321200, "note": ""}, {"lv": 5, "xp": 354500, "note": "7T 진입 가능"}]}, {"t": "7T", "target": "캐릭터 60레벨 완료", "hours": "160h", "total": 2880000, "lvs": [{"lv": 1, "xp": 246200, "note": ""}, {"lv": 2, "xp": 264600, "note": ""}, {"lv": 3, "xp": 283100, "note": ""}, {"lv": 4, "xp": 301500, "note": ""}, {"lv": 5, "xp": 320000, "note": ""}, {"lv": 6, "xp": 338500, "note": ""}, {"lv": 7, "xp": 356900, "note": ""}, {"lv": 8, "xp": 375400, "note": ""}, {"lv": 9, "xp": 393800, "note": ""}]}];
+const TIER_COLORS_G = {"1T": "#50c870", "2T": "#5090e8", "3T": "#e8c050", "4T": "#e87830", "5T": "#c850c8", "6T": "#d43030", "7T": "#ff5555"};
+
+const AREA_ZONE = {
+  '이니스 섬':'1T','솔즈리드 반도':'2T','릴리엇 구릉지':'3T',
+  '가랑돌 평원':'4T','하얀 숲':'4T','마리아 노플':'5T',
+  '황금 평원':'5T','지옥 늪지대':'6T','긴 모래톱':'7T','(미정)':'—'
+};
+
+function renderGrowthLevel() {
+  const body = document.getElementById('grw-lv-body');
+  if (!body || body.children.length > 0) return;
+  const maxXp = Math.max(...GROWTH_LEVEL.map(r=>r[3]));
+  let prev = null;
+  body.innerHTML = GROWTH_LEVEL.map(r => {
+    const [lv, h_cum, min_req, xp_lv, xp_cum, area] = r;
+    const tc = TIER_COLORS_G[AREA_ZONE[area]] || '#888';
+    const isMile = lv % 10 === 0;
+    const growth = prev ? ((xp_lv/prev - 1)*100).toFixed(0)+'%↑' : '—';
+    prev = xp_lv;
+    const bg = isMile ? 'background:rgba(232,192,80,0.07)' : '';
+    return `<tr style="${bg}">
+      <td style="font-weight:${isMile?700:400};color:${isMile?'var(--gold)':'inherit'}">${lv}</td>
+      <td style="color:${tc};font-size:0.78rem">${area}</td>
+      <td class="td-num">${xp_lv.toLocaleString()}</td>
+      <td class="td-num" style="color:var(--text2)">${xp_cum.toLocaleString()}</td>
+      <td class="td-num">${h_cum}h</td>
+      <td style="color:var(--text3);font-size:0.75rem">${growth}</td>
+    </tr>`;
+  }).join('');
+}
+renderGrowthLevel();
+</script>
+
 
 <!-- ══ ECONOMY ══ -->
 <section class="section" id="sec-economy">
