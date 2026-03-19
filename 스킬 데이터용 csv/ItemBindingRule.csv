@@ -1,0 +1,9 @@
+OID,Cid,Comment,Trigger,OverrideBindingType
+11,11,강화시 계정 귀속,Enhance,Account
+12,12,강화시 캐릭터 귀속,Enhance,Character
+21,21,장착시 계정 귀속,Equip,Account
+22,22,장착시 캐릭터 귀속,Equip,Character
+31,31,창고 보관시 계정 귀속,Storage,Account
+32,32,창고 보관시 캐릭터 귀속,Storage,Character
+41,41,거래소 구매시 계정 귀속,Exchange,Account
+42,42,거래소 구매시 캐릭터 귀속,Exchange,Character

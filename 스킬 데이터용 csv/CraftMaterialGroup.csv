@@ -1,0 +1,42 @@
+OID,Cid,Comment,MaterialType,Desc,MaterialCids,MaterialEquipmentCategories,MaterialConsumeKinds,MaterialEtcKinds,MaterialShipEquipmentCategories,MaterialMonsterCardCategories,MaterialCategoryTier
+300000,300000,수호자 장비,ItemUnstackable,수호자 장비,"[11030002,11030003,11030004,11030005]",,,,,,TierNone
+301011,301011,"카테고리 Tier1:OnehandSword,TwohandSword",Category,"1T 한손검, 양손검",,"[OnehandSword,TwohandSword]",,,,,Tier1
+301021,301021,"카테고리 Tier1:Food,Potion",Category,"1T 요리, 물약",,,"[Food,Potion]",,,,Tier1
+301031,301031,카테고리 Tier3:RawMaterial,Category,3T 재료,,,,[RawMaterial],,,Tier3
+301041,301041,"카테고리 Tier1:Cannon,Mast",Category,"1T 화포, 돛대",,,,,"[Cannon,Mast]",,Tier1
+301051,301051,카테고리 Tier1:All,Category,1T 공용 카드,,,,,,[All],Tier1
+310101,310101,"카테고리 Tier1:OnehandSword,TwohandSword,Dagger,Staff,Bow",Category,1T 무기,,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,Tier1
+310102,310102,"카테고리 Tier2:OnehandSword,TwohandSword,Dagger,Staff,Bow",Category,2T 무기,,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,Tier2
+310103,310103,"카테고리 Tier3:OnehandSword,TwohandSword,Dagger,Staff,Bow",Category,3T 무기,,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,Tier3
+310104,310104,"카테고리 Tier4:OnehandSword,TwohandSword,Dagger,Staff,Bow",Category,4T 무기,,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,Tier4
+310105,310105,"카테고리 Tier5:OnehandSword,TwohandSword,Dagger,Staff,Bow",Category,5T 무기,,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,Tier5
+310106,310106,"카테고리 Tier6:OnehandSword,TwohandSword,Dagger,Staff,Bow",Category,6T 무기,,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,Tier6
+310107,310107,"카테고리 Tier7:OnehandSword,TwohandSword,Dagger,Staff,Bow",Category,7T 무기,,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,Tier7
+310201,310201,"카테고리 Tier1:LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak",Category,1T 방어구,,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak]",,,,,Tier1
+310202,310202,"카테고리 Tier2:LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak",Category,2T 방어구,,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak]",,,,,Tier2
+310203,310203,"카테고리 Tier3:LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak",Category,3T 방어구,,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak]",,,,,Tier3
+310204,310204,"카테고리 Tier4:LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak",Category,4T 방어구,,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak]",,,,,Tier4
+310205,310205,"카테고리 Tier5:LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak",Category,5T 방어구,,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak]",,,,,Tier5
+310206,310206,"카테고리 Tier6:LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak",Category,6T 방어구,,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak]",,,,,Tier6
+310207,310207,"카테고리 Tier7:LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak",Category,7T 방어구,,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherShoes,PlateShoes,ClothShoes,LeatherGloves,PlateGloves,ClothGloves,Cloak]",,,,,Tier7
+310301,310301,"카테고리 Tier1:Ring,Necklace,Earring",Category,1T 장신구,,"[Ring,Necklace,Earring]",,,,,Tier1
+310302,310302,"카테고리 Tier2:Ring,Necklace,Earring",Category,2T 장신구,,"[Ring,Necklace,Earring]",,,,,Tier2
+310303,310303,"카테고리 Tier3:Ring,Necklace,Earring",Category,3T 장신구,,"[Ring,Necklace,Earring]",,,,,Tier3
+310304,310304,"카테고리 Tier4:Ring,Necklace,Earring",Category,4T 장신구,,"[Ring,Necklace,Earring]",,,,,Tier4
+310305,310305,"카테고리 Tier5:Ring,Necklace,Earring",Category,5T 장신구,,"[Ring,Necklace,Earring]",,,,,Tier5
+310306,310306,"카테고리 Tier6:Ring,Necklace,Earring",Category,6T 장신구,,"[Ring,Necklace,Earring]",,,,,Tier6
+310307,310307,"카테고리 Tier7:Ring,Necklace,Earring",Category,7T 장신구,,"[Ring,Necklace,Earring]",,,,,Tier7
+320101,320101,카테고리 Tier1:Potion,Category,1T 물약,,,[Potion],,,,Tier1
+320102,320102,카테고리 Tier2:Potion,Category,2T 물약,,,[Potion],,,,Tier2
+320103,320103,카테고리 Tier3:Potion,Category,3T 물약,,,[Potion],,,,Tier3
+320104,320104,카테고리 Tier4:Potion,Category,4T 물약,,,[Potion],,,,Tier4
+320105,320105,카테고리 Tier5:Potion,Category,5T 물약,,,[Potion],,,,Tier5
+320106,320106,카테고리 Tier6:Potion,Category,6T 물약,,,[Potion],,,,Tier6
+320107,320107,카테고리 Tier7:Potion,Category,7T 물약,,,[Potion],,,,Tier7
+320201,320201,카테고리 Tier1:Food,Category,1T 요리,,,[Food],,,,Tier1
+320202,320202,카테고리 Tier2:Food,Category,2T 요리,,,[Food],,,,Tier2
+320203,320203,카테고리 Tier3:Food,Category,3T 요리,,,[Food],,,,Tier3
+320204,320204,카테고리 Tier4:Food,Category,4T 요리,,,[Food],,,,Tier4
+320205,320205,카테고리 Tier5:Food,Category,5T 요리,,,[Food],,,,Tier5
+320206,320206,카테고리 Tier6:Food,Category,6T 요리,,,[Food],,,,Tier6
+320207,320207,카테고리 Tier7:Food,Category,7T 요리,,,[Food],,,,Tier7

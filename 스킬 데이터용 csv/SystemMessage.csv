@@ -1,0 +1,99 @@
+OID,Cid,Comment,MsgKey,SystemMsgType,Msg
+1,1,,InvalidCharacterName,Info,포함할 수 없는 문자가 있습니다.
+2,2,,CharacterNameLen,Info,캐릭터명 길이가 맞지 않습니다.
+3,3,,CannotEnterInstanceFieldEquipCargo,Info,등짐을 장착한 상태에서는 인스턴스에 입장할 수 없습니다.
+4,4,,PartyCannotLeaveInPartyInstance,Info,던전 내부에서는 파티를 탈퇴할 수 없습니다.
+5,5,,PartyCannotKickInPartyInstance,Info,던전 내부에서는 파티원을 내보낼 수 없습니다.
+6,6,,PartyCannotDisbandInPartyInstance,Info,던전 내부에 파티에 속한 인원이 한명이라도 남아있는 경우
+7,7,,DoodadInteractionNotHasStatusChange,Info,상태 요구 조건을 만족하지 못했습니다.
+8,8,,DoodadInteractionCargoExistWarning,Info,등짐을 장착 중입니다.
+9,9,,DoodadInteractionCargoNotExistWarning,Info,요구 등짐 ({0})이 없습니다.
+10,10,,TradeNoTradable,Info,판매 가능한 등짐이 없습니다.
+11,11,,CargoTeleportProhibition,Info,등짐 착용 중에는 순간이동을 할 수 없습니다.
+12,12,,VehicleSpawnSpaceWarning,Info,차량을 소환할 공간이 부족합니다.
+13,13,,VehicleSpawnZoneAreaWarning,Info,차량을 소환할 수 없는 지역입니다.
+14,14,,VehicleSpawnMaxWarning,Info,이미 소환된 내 차량이 존재합니다.
+15,15,,VehicleSpawnDestructionWarning,Info,내 차량이 파괴된 적이 있는 경우 {0}초 동안 어떤 차량도 소환할 수 없습니다.
+16,16,,VehicleDespawnCargoWarning,Info,등짐이 적재된 차량은 소환 해제 할 수 없습니다.
+17,17,,NotAllowMount,Info,탑승할 수 없습니다.
+18,18,,NotEnoughCraftMaterial,Info,재료가 부족합니다.
+19,19,,ExitInInteraction,Info,상호작용 중에는 종료할 수 없습니다.
+20,20,,CraftQueueFull,Info,제작 대기열이 가득 찼습니다.
+21,21,,CannotSpawnDoodad,Info,설치가능한 장소가 아닙니다
+22,22,,NotEnoughMastery,Info,{0} 숙련도가 부족합니다. ({1} 이상)
+23,23,,NotEnoughItem,Info,요구 아이템이 부족합니다: {0} ({1}개 소지중)
+24,24,,DuplicateCharacterName,Info,이미 존재하는 이름입니다.
+25,25,,NoAvailableServer,Info,이용 가능한 서버가 없습니다.
+26,26,,ConnectFail,Info,서버 접속에 실패했습니다.
+27,27,,MasteryTierLow,Info,숙련도가 낮습니다.
+28,28,,GoldNotEnough,Info,금화가 부족합니다.
+29,29,,EnteredWarZoneMessage,Info,<R>자유로운 PvP가 가능한 지역에 진입했습니다.</>
+30,30,,EnteredSafeZoneMessage,Info,안전지역에 진입했습니다.
+31,31,,AlreadyCarryingCargo,System,등짐을 운반 중입니다.
+32,32,,CargoExpiredBack,System,시간이 경과되어 등에 멘 등짐이 소멸되었습니다.
+33,33,,CargoExpiredInventory,System,시간이 경과되어 보관 중인 등짐이 소멸되었습니다.
+34,34,,TalkToNPC,System,대화하기
+35,35,,CraftOverviewMsgDone,System,{0} 작업이 완료되었습니다.
+36,36,,CraftOverviewMsgProductSlotFull,System,{0} 완성품 슬롯이 가득 찼습니다.
+37,37,,CraftOverviewMsgStop,System,{0} 작업이 중단되었습니다.
+38,38,,InstanceFieldVolumeOut,System,진행 중인 퀘스트 지역을 벗어났습니다. 30초 내로 다시 진입하지 않을 시 자동 퇴장됩니다. 퇴장 시 진행 중인 목표가 초기화됩니다.
+39,39,,ItemTrashComplete,System,아이템이 파괴되었습니다.
+40,40,,CannotUseInCrowdControl,Info,{0} 상태에서는 사용할 수 없습니다.
+41,41,,DoodadInteractionNotSatisfied,Info,조건을 만족하지 못했습니다.
+42,42,,NoMountRegistrationNotice,Info,등록된 탈 것이 없습니다.
+43,43,,SkillCoolTimeNotReady,Info,기술 재사용 대기시간이 남았습니다.
+44,44,,ItemCoolTimeNotReady,Info,아이템 재사용 대기시간이 남았습니다.
+45,45,,ExchangeRegisterPriceMinNotice,Info,최소 등록 가격은 {0} 입니다.
+46,46,,InventoryNotEnoughSpaceNotice,Info,가방에 빈 공간이 없습니다.
+47,47,,ExchangeSellStateChangeNotice,Info,판매 상태가 변경되었습니다.
+48,48,,ExchangeBuyAlreadySold,Info,이미 판매된 물품입니다.
+49,49,,ExchangeBuySameAccount,Info,동일 계정에서 등록한 물품입니다.
+50,50,,ExitInCombat,Info,전투 중에는 종료할 수 없습니다.
+51,51,,SkillUnavailable,Info,스킬을 사용할 수 없는 상태입니다.
+52,52,,ExchangeRegisterCannotCountLimit,Info,판매 내역이 가득 차서 판매할 수 없습니다. 판매 내역을 정리하세요.
+53,53,,ExchangeBuyCannotCountLimit,Info,구매 내역이 가득 차서 구매할 수 없습니다. 구매 내역을 정리하세요.
+54,54,,NpcShopBuyNotEnoughMoneyNotice,Info,소지금이 부족합니다.
+55,55,,NpcShopBuyRestrictionPrerequisiteNotice,Info,선행 구매 필요 물품이 존재합니다.
+56,56,,NpcShopBuyRestrictionLevelNotice,Info,구매 요구 레벨 미만입니다.
+57,57,,NpcShopBuyRestrictionLimitCount,Info,구매 수량이 제한되어 있습니다.
+58,58,,InputMethodChanged,Info,{0}로 조작법이 변경되었습니다.
+59,59,,InventoryOverloadPreAlert,Info,<R>가방이 거의 다 찼습니다. 가방을 정리하거나 확장해주세요.</>
+60,60,,InventoryOverloadAlert,Info,<R>과적재 중입니다. 일부 행위가 제한될 수 있습니다. 가방을 정리하거나 확장해주세요. </>
+61,61,,ResourceNotFound,Info,스킬 사용에 필요한 자원이 부족합니다.
+62,62,,NpcShopCanNotSellItem,Info,판매할 수 없는 아이템입니다.
+63,63,,ItemTrashCannotEquiped,Info,장착 중인 아이템은 파괴할 수 없습니다.
+64,64,,InventoryOverloadRestriction,Info,<R>과적재 상태에서 할 수 없는 행위입니다.</>
+65,65,,ExchangeRegisterCannotEquipped,Info,장착 중인 아이템은 거래소에 등록할 수 없습니다.
+66,66,,ExchangeRegisterCannotDurability,Info,내구도가 손상된 아이템은 거래소에 등록할 수 없습니다. 아이템을 수리하세요.
+67,67,,ExchangeRegisterCannotItem,Info,거래소에 등록할 수 없는 아이템입니다.
+69,69,,ExchangeBuyComplete,Info,{0}을 구매했습니다.
+70,70,,ExchangeRegisterCancelComplete,Info,아이템 등록을 취소했습니다.
+71,71,,ItemTrashCannotExist,Info,해당 수량만큼 아이템이 존재하지 않습니다.
+72,72,,ItemTrashFail,Info,아이템 파괴에 실패했습니다.
+73,73,,CastFailedWrongTarget,Info,올바른 대상이 아닙니다.
+74,74,,CanNotInteractNow,Info,지금은 상호작용할 수 없습니다.
+75,75,,CanUseInCombat,Info,전투 상태에서만 사용 가능한 아이템입니다.
+76,76,,CanUseOutOfCombat,Info,비전투 상태에서만 사용 가능한 아이템입니다.
+77,77,,RandomLocationNotice,Info,순간 이동을 할 수 없는 지역입니다.
+78,78,,TeleportFailedInCc,Info,상태 이상 중에는 순간 이동을 할 수 없습니다.
+79,79,,CanMountOutOfCombat,Info,전투 중에는 할 수 없습니다.
+80,80,,MountCanNotRegisterWhileUsingSkill,Info,스킬 사용 중 탈것을 변경 할 수 없습니다.
+81,81,,CannotDropCargoWhileUsingMount,Info,CannotDropCargoWhileUsingMount
+82,82,,Impossible,Info,비정상적인 접근입니다.
+83,83,,InvalidItem,Info,유효하지 않은 아이템입니다.
+84,84,,NotFoundInCmsItemMonsterCard,Info,몬스터 카드가 아닙니다.
+85,85,,CanNotUpgradeMore,Info,더 이상 강화할 수 없습니다.
+86,86,,NotEnoughMonsterCard,Info,강화 재료가 부족합니다.({0})
+87,87,,NotEnoughGold,Info,금화가 부족합니다.
+88,88,,QuestNotFound,Info,퀘스트를 찾을 수 없습니다.
+89,89,,CastFailedMP,Info,스킬 사용에 필요한 자원이 부족합니다.
+90,90,,MasteryTierLow,Info,숙련도가 부족하여 사용할 수 없습니다.
+91,91,,NpcShopBuyRestrictionLimitNotice,Info,구매 수량 제한만큼 이미 구매한 상품입니다.
+92,92,,InvalidDungeon,Info,던전 테이블에서 데이터를 찾을 수 없습니다.
+93,93,,InvalidDungeonPortal,Info,던전 포탈 테이블에서 데이터를 찾을 수 없습니다.
+94,94,,MaxEntryCountExceeded,Info,입장 횟수를 모두 소진하여 입장할 수 없습니다.
+95,95,,MaxStayTimeExceeded,Info,던전 이용 시간을 모두 소진하여 입장할 수 없습니다.
+96,96,,CannotReenterDungeon,Info,재입장이 불가능한 던전입니다.
+97,97,,ItemSkillOnCooldown,Info,해당 부위 기술의 재사용 대기 시간이 남아있습니다.
+98,98,,CannotMoveToPos,Info,해당 위치로 자동 이동 설정이 불가능합니다.
+99,99,,AutoMoveInterruptedByPath,Info,이동이 원활하지 않아 자동 이동이 중단되었습니다.

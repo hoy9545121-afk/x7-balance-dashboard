@@ -1,0 +1,885 @@
+OID,Cid,Milestone,Comment,SkillSlotType,SkillLevelGroupCid
+1,1,Dev,,WeaponSkill1,22
+2,2,Dev,,WeaponSkill2,26
+3,3,Dev,,WeaponSkill3,27
+4,4,Dev,,WeaponSkill1,28
+5,5,Dev,,WeaponSkill2,29
+6,6,Dev,,WeaponSkill3,30
+7,7,Dev,,ItemSlot2,10
+8,8,Dev,,WeaponSkill1,201
+9,9,Dev,,WeaponSkill2,203
+10,10,Dev,,WeaponSkill4,202
+11,11,Dev,,WeaponSkill3,202
+12,12,Dev,,WeaponSkill1,201
+13,13,Dev,,WeaponSkill2,203
+14,14,Dev,,WeaponSkill3,202
+21,21,Dev,,WeaponSkill2,74
+10001,10001,Dev,어둠의 일격 타겟팅_테스트 데이터,WeaponSkill1,10001
+10002,10002,Dev,테스트 스킬 2,WeaponSkill2,10002
+100001,100001,Dev,신비한 가시 나무 Lv.1,WeaponSkill1,100001
+100051,100051,Dev,가시 나무 덩쿨 Lv.1,WeaponSkill2,100051
+100101,100101,Dev,치유의 꽃잎 Lv.1,WeaponSkill3,100101
+100150,100150,Dev,치유의 바람 Lv.1,WeaponSkill4,100150
+100201,100201,Dev,휘두르기 Lv.1,WeaponSkill1,100201
+100251,100251,Dev,방패 돌격 Lv.1,WeaponSkill2,100251
+100301,100301,Dev,방패 투척 Lv.1,WeaponSkill3,100301
+100351,100351,Dev,파멸의 징벌 Lv.1,WeaponSkill4,100351
+100401,100401,Dev,제압 Lv.1,WeaponSkill1,100401
+100451,100451,Dev,복수의 갑옷 Lv.1,WeaponSkill2,100451
+100501,100501,Dev,모두 쉿 Lv.1,WeaponSkill3,100501
+100551,100551,Dev,진공 폭발 Lv.1,WeaponSkill4,100551
+100601,100601,Dev,성스러운 일격 Lv.1,WeaponSkill1,100601
+100651,100651,Dev,가호의 빛 Lv.1,WeaponSkill2,100651
+100701,100701,Dev,폭주하는 광휘 Lv.1,WeaponSkill3,100701
+100751,100751,Dev,광휘의 심판 Lv.1,WeaponSkill4,100751
+200000,200000,Dev,가벼운 손놀림,WeaponSkill1,200000
+200051,200051,Dev,대지 가르기,WeaponSkill2,200051
+200101,200101,Dev,회오리 베기,WeaponSkill3,200101
+200151,200151,Dev,적진으로,WeaponSkill4,200151
+200201,200201,Dev,미사용,WeaponSkill1,200201
+200251,200251,Dev,미사용,WeaponSkill2,200251
+200301,200301,Dev,미사용,WeaponSkill3,200301
+200351,200351,Dev,미사용,WeaponSkill4,200351
+200401,200401,Dev,폭주 Lv.1,WeaponSkill1,200401
+200451,200451,Dev,분노의 일격 Lv.1,WeaponSkill2,200451
+200501,200501,Dev,대지 분쇄 Lv.1,WeaponSkill3,200501
+200551,200551,Dev,공간 가르기 Lv.1,WeaponSkill4,200551
+200601,200601,Dev,몰아치기 Lv.1,WeaponSkill1,200601
+200651,200651,Dev,찌르기 Lv.1,WeaponSkill2,200651
+200701,200701,Dev,결투 돌입 Lv.1,WeaponSkill3,200701
+200751,200751,Dev,섬광의 길 Lv.1,WeaponSkill4,200751
+300001,300001,Dev,충격 사격,WeaponSkill1,300001
+300051,300051,Dev,발묶음,WeaponSkill4,300051
+300101,300101,Dev,미사용,WeaponSkill3,300101
+300151,300151,Dev,급습,WeaponSkill3,300151
+300201,300201,Dev,미사용,WeaponSkill1,300201
+300251,300251,Dev,미사용,WeaponSkill2,300251
+300301,300301,Dev,연속 쏘기,WeaponSkill2,300301
+300351,300351,Dev,미사용,WeaponSkill4,300351
+300401,300401,Dev,저격 Lv.1,WeaponSkill1,300401
+300451,300451,Dev,부채 사격 Lv.1,WeaponSkill2,300451
+300501,300501,Dev,불화살 소나기 Lv.1,WeaponSkill3,300501
+300551,300551,Dev,폭탄 화살 Lv.1,WeaponSkill4,300551
+300601,300601,Dev,섬광 화살 Lv.1,WeaponSkill1,300601
+300651,300651,Dev,천상의 그물 Lv.1,WeaponSkill2,300651
+300701,300701,Dev,재정비 도약 Lv.1,WeaponSkill3,300701
+300751,300751,Dev,금빛 섬광 Lv.1,WeaponSkill4,300751
+400001,400001,Dev,얼음 화살,WeaponSkill1,400001
+400051,400051,Dev,다후타의 손짓,WeaponSkill2,400051
+400101,400101,Dev,방울방울,WeaponSkill4,400101
+400151,400151,Dev,심판의 낙뢰,WeaponSkill3,400151
+400201,400201,Dev,화염 장막 Lv.1,WeaponSkill1,400201
+400251,400251,Dev,불의 비 Lv.1,WeaponSkill2,400251
+400301,400301,Dev,화염 폭발 Lv.1,WeaponSkill3,400301
+400351,400351,Dev,별똥별 Lv.1,WeaponSkill4,400351
+500201,500201,Dev,질풍 가르기 Lv.1,WeaponSkill1,500201
+500251,500251,Dev,무기 연마 Lv.1,WeaponSkill2,500251
+500301,500301,Dev,쌍수 달인 Lv.1,WeaponSkill3,500301
+500351,500351,Dev,암살자의 분노 Lv1,WeaponSkill4,500351
+500401,500401,Dev,내리꽂기 Lv.1,WeaponSkill1,500401
+500451,500451,Dev,어둠의 일격 Lv.1,WeaponSkill2,500451
+500501,500501,Dev,단검 투척 Lv.1,WeaponSkill3,500501
+500551,500551,Dev,난무 Lv1,WeaponSkill4,500551
+500601,500601,Dev,추격자의 발톱 Lv.1,WeaponSkill1,500601
+500651,500651,Dev,침묵의 일격 Lv.1,WeaponSkill2,500651
+500701,500701,Dev,사방의 비수 Lv.1,WeaponSkill3,500701
+500751,500751,Dev,유혈의 장막 Lv1,WeaponSkill4,500751
+700000,700000,Dev,충격파 Lv1,ArmorSkill3,700000
+700001,700001,Dev,충격파 Lv2,ArmorSkill3,700000
+700002,700002,Dev,충격파 Lv3,ArmorSkill3,700000
+700003,700003,Dev,충격파 Lv4,ArmorSkill3,700000
+700010,700010,Dev,얼음 갑옷 Lv.1,ArmorSkill2,700010
+700030,700030,Dev,지면 강타 Lv.1,ArmorSkill1,700030
+700050,700050,Dev,광전사의 폭주 Lv.1,ArmorSkill3,700050
+700060,700060,Dev,돌진 Lv.1,ArmorSkill4,700060
+700500,700500,Dev,반격 치유 Lv.1,ArmorPassiveSkill2,700500
+700501,700501,Dev,반격 치유 Lv.1,ArmorPassiveSkill3,700500
+700502,700502,Dev,반격 치유 Lv.1,ArmorPassiveSkill4,700500
+710000,710000,Dev,모두 치유 Lv.1,ArmorSkill4,710000
+710010,710010,Dev,선조의 지팡이 Lv.1 ,ArmorSkill2,710010
+710020,710020,Dev,주문 가속 Lv.1,ArmorSkill3,710020
+720000,720000,Dev,유연한 몸놀림 Lv.1,ArmorSkill2,720000
+720010,720010,Dev,집중 Lv.1,WeaponSkill3,720010
+720020,720020,Dev,침묵 Lv.1,ArmorSkill1,720020
+750000,750000,Dev,생명력 Lv.1,ArmorPassiveSkill1,750000
+750001,750001,Dev,생명력 Lv.2,ArmorPassiveSkill1,750000
+750002,750002,Dev,강타 Lv.1,ArmorPassiveSkill1,750002
+750003,750003,Dev,강타 Lv.2,ArmorPassiveSkill1,750002
+750004,750004,Dev,광속 Lv.1,ArmorPassiveSkill1,750004
+750005,750005,Dev,광속 Lv.2,ArmorPassiveSkill1,750004
+750006,750006,Dev,정밀함 Lv.1,ArmorPassiveSkill1,750006
+750007,750007,Dev,정밀함 Lv.2,ArmorPassiveSkill1,750006
+750008,750008,Dev,마력 저장 Lv.1,ArmorPassiveSkill1,750008
+750009,750009,Dev,마력 저장 Lv.2,ArmorPassiveSkill1,750008
+750010,750010,Dev,마력 회복 Lv.1,ArmorPassiveSkill1,750010
+750011,750011,Dev,마력 회복 Lv.2,ArmorPassiveSkill1,750010
+750012,750012,Dev,강타 Lv.1,ArmorPassiveSkill1,750012
+750013,750013,Dev,강타 Lv.2,ArmorPassiveSkill1,750012
+750014,750014,Dev,마력 회복 Lv.1,ArmorPassiveSkill1,750014
+750015,750015,Dev,마력 회복 Lv.2,ArmorPassiveSkill1,750014
+750016,750016,Dev,강인함 Lv.1,ArmorPassiveSkill1,750016
+750017,750017,Dev,강인함 Lv.2,ArmorPassiveSkill1,750016
+750018,750018,Dev,수호 Lv.1,ArmorPassiveSkill1,750018
+750019,750019,Dev,수호 Lv.2,ArmorPassiveSkill1,750018
+750020,750020,Dev,생명력 Lv.1,ArmorPassiveSkill1,750020
+750021,750021,Dev,생명력 Lv.2,ArmorPassiveSkill1,750020
+750022,750022,Dev,재생력 Lv.1,ArmorPassiveSkill1,750022
+750023,750023,Dev,재생력 Lv.2,ArmorPassiveSkill1,750022
+750024,750024,Dev,전투 지속 Lv.1,ArmorPassiveSkill1,750024
+750025,750025,Dev,전투 지속 Lv.2,ArmorPassiveSkill1,750024
+750026,750026,Dev,전투 지속 Lv.3,ArmorPassiveSkill1,750024
+750027,750027,Dev,광기의 심장 Lv.1,ArmorPassiveSkill1,750027
+750028,750028,Dev,광기의 심장 Lv.2,ArmorPassiveSkill1,750027
+750029,750029,Dev,광기의 심장 Lv.3,ArmorPassiveSkill1,750027
+750030,750030,Dev,정밀 타격 Lv.1,ArmorPassiveSkill1,750030
+750031,750031,Dev,정밀 타격 Lv.2,ArmorPassiveSkill1,750030
+750032,750032,Dev,정밀 타격 Lv.3,ArmorPassiveSkill1,750030
+750033,750033,Dev,투쟁 본능 Lv.1,ArmorPassiveSkill1,750033
+750034,750034,Dev,투쟁 본능 Lv.2,ArmorPassiveSkill1,750033
+750035,750035,Dev,투쟁 본능 Lv.3,ArmorPassiveSkill1,750033
+750036,750036,Dev,잔혹한 연격 Lv.1,ArmorPassiveSkill1,750036
+750037,750037,Dev,잔혹한 연격 Lv.2,ArmorPassiveSkill1,750036
+750038,750038,Dev,잔혹한 연격 Lv.3,ArmorPassiveSkill1,750036
+750039,750039,Dev,속공 태세 Lv.1,ArmorPassiveSkill1,750039
+750040,750040,Dev,속공 태세 Lv.2,ArmorPassiveSkill1,750039
+750041,750041,Dev,속공 태세 Lv.3,ArmorPassiveSkill1,750039
+750042,750042,Dev,생존 본능 Lv.1,ArmorPassiveSkill1,750042
+750043,750043,Dev,생존 본능 Lv.2,ArmorPassiveSkill1,750042
+750044,750044,Dev,생존 본능 Lv.3,ArmorPassiveSkill1,750042
+750045,750045,Dev,치명 본능 Lv.1,ArmorPassiveSkill1,750045
+750046,750046,Dev,치명 본능 Lv.2,ArmorPassiveSkill1,750045
+750047,750047,Dev,치명 본능 Lv.3,ArmorPassiveSkill1,750045
+750048,750048,Dev,마력 순환 Lv.1,ArmorPassiveSkill1,750048
+750049,750049,Dev,마력 순환 Lv.2,ArmorPassiveSkill1,750048
+750050,750050,Dev,마력 순환 Lv.3,ArmorPassiveSkill1,750048
+750051,750051,Dev,비전 감각 Lv.1,ArmorPassiveSkill1,750051
+750052,750052,Dev,비전 감각 Lv.2,ArmorPassiveSkill1,750051
+750053,750053,Dev,비전 감각 Lv.3,ArmorPassiveSkill1,750051
+750054,750054,Dev,전투 회복 Lv.1,ArmorPassiveSkill1,750054
+750055,750055,Dev,전투 회복 Lv.2,ArmorPassiveSkill1,750054
+750056,750056,Dev,전투 회복 Lv.3,ArmorPassiveSkill1,750054
+750057,750057,Dev,마력 회복 Lv.1,ArmorPassiveSkill1,750057
+750058,750058,Dev,마력 회복 Lv.2,ArmorPassiveSkill1,750057
+750059,750059,Dev,마력 회복 Lv.3,ArmorPassiveSkill1,750057
+750060,750060,Dev,전투 숙련 Lv.1,ArmorPassiveSkill1,750060
+750061,750061,Dev,전투 숙련 Lv.2,ArmorPassiveSkill1,750060
+750062,750062,Dev,전투 숙련 Lv.3,ArmorPassiveSkill1,750060
+750063,750063,Dev,마력 흡수 Lv.1,ArmorPassiveSkill1,750063
+750064,750064,Dev,마력 흡수 Lv.2,ArmorPassiveSkill1,750063
+750065,750065,Dev,마력 흡수 Lv.3,ArmorPassiveSkill1,750063
+750066,750066,Dev,생명 순환 Lv.1,ArmorPassiveSkill1,750066
+750067,750067,Dev,생명 순환 Lv.2,ArmorPassiveSkill1,750066
+750068,750068,Dev,생명 순환 Lv.3,ArmorPassiveSkill1,750066
+750069,750069,Dev,마력 회복 Lv.1,ArmorPassiveSkill1,750069
+750070,750070,Dev,마력 회복 Lv.2,ArmorPassiveSkill1,750069
+750071,750071,Dev,마력 회복 Lv.3,ArmorPassiveSkill1,750069
+750072,750072,Dev,불굴 Lv.1,ArmorPassiveSkill1,750072
+750073,750073,Dev,불굴 Lv.2,ArmorPassiveSkill1,750072
+750074,750074,Dev,불굴 Lv.3,ArmorPassiveSkill1,750072
+750075,750075,Dev,냉혹함 Lv.1,ArmorPassiveSkill1,750075
+750076,750076,Dev,냉혹함 Lv.2,ArmorPassiveSkill1,750075
+750077,750077,Dev,냉혹함 Lv.3,ArmorPassiveSkill1,750075
+750078,750078,Dev,수호 집중 Lv.1,ArmorPassiveSkill1,750078
+750079,750079,Dev,수호 집중 Lv.2,ArmorPassiveSkill1,750078
+750080,750080,Dev,수호 집중 Lv.3,ArmorPassiveSkill1,750078
+750081,750081,Dev,재생 갑주 Lv.1,ArmorPassiveSkill1,750081
+750082,750082,Dev,재생 갑주 Lv.2,ArmorPassiveSkill1,750081
+750083,750083,Dev,재생 갑주 Lv.3,ArmorPassiveSkill1,750081
+750084,750084,Dev,활력 폭주 Lv.1,ArmorPassiveSkill1,750084
+750085,750085,Dev,활력 폭주 Lv.2,ArmorPassiveSkill1,750084
+750086,750086,Dev,활력 폭주 Lv.3,ArmorPassiveSkill1,750084
+750087,750087,Dev,철벽 Lv.1,ArmorPassiveSkill1,750087
+750088,750088,Dev,철벽 Lv.2,ArmorPassiveSkill1,750087
+750089,750089,Dev,철벽 Lv.3,ArmorPassiveSkill1,750087
+750090,750090,Dev,생명의 샘 Lv.1,ArmorPassiveSkill1,750090
+750091,750091,Dev,생명의 샘 Lv.2,ArmorPassiveSkill1,750090
+750092,750092,Dev,생명의 샘 Lv.3,ArmorPassiveSkill1,750090
+750093,750093,Dev,생존 감각 Lv.1,ArmorPassiveSkill1,750093
+750094,750094,Dev,생존 감각 Lv.2,ArmorPassiveSkill1,750093
+750095,750095,Dev,생존 감각 Lv.3,ArmorPassiveSkill1,750093
+750096,750096,Dev,투지 Lv.1,ArmorPassiveSkill1,750096
+750097,750097,Dev,투지 Lv.2,ArmorPassiveSkill1,750096
+750098,750098,Dev,투지 Lv.3,ArmorPassiveSkill1,750096
+750099,750099,Dev,투지 Lv.4,ArmorPassiveSkill1,750096
+750100,750100,Dev,강타 Lv.1,ArmorPassiveSkill2,750100
+750101,750101,Dev,강타 Lv.2,ArmorPassiveSkill2,750100
+750102,750102,Dev,강타 Lv.3,ArmorPassiveSkill2,750100
+750103,750103,Dev,강타 Lv.4,ArmorPassiveSkill2,750100
+750104,750104,Dev,광기의 심장 Lv.1,ArmorPassiveSkill1,750104
+750105,750105,Dev,광기의 심장 Lv.2,ArmorPassiveSkill1,750104
+750106,750106,Dev,광기의 심장 Lv.3,ArmorPassiveSkill1,750104
+750107,750107,Dev,광기의 심장 Lv.4,ArmorPassiveSkill1,750104
+750108,750108,Dev,강타 Lv.1,ArmorPassiveSkill2,750108
+750109,750109,Dev,강타 Lv.2,ArmorPassiveSkill2,750108
+750110,750110,Dev,강타 Lv.3,ArmorPassiveSkill2,750108
+750111,750111,Dev,강타 Lv.4,ArmorPassiveSkill2,750108
+750112,750112,Dev,전투 지속 Lv.1,ArmorPassiveSkill1,750112
+750113,750113,Dev,전투 지속 Lv.2,ArmorPassiveSkill1,750112
+750114,750114,Dev,전투 지속 Lv.3,ArmorPassiveSkill1,750112
+750115,750115,Dev,전투 지속 Lv.4,ArmorPassiveSkill1,750112
+750116,750116,Dev,사냥꾼 Lv.1,ArmorPassiveSkill2,750116
+750117,750117,Dev,사냥꾼 Lv.2,ArmorPassiveSkill2,750116
+750118,750118,Dev,사냥꾼 Lv.3,ArmorPassiveSkill2,750116
+750119,750119,Dev,사냥꾼 Lv.4,ArmorPassiveSkill2,750116
+750120,750120,Dev,학살 본능 Lv.1,ArmorPassiveSkill1,750120
+750121,750121,Dev,학살 본능 Lv.2,ArmorPassiveSkill1,750120
+750122,750122,Dev,학살 본능 Lv.3,ArmorPassiveSkill1,750120
+750123,750123,Dev,학살 본능 Lv.4,ArmorPassiveSkill1,750120
+750124,750124,Dev,가속 Lv.1,ArmorPassiveSkill2,750124
+750125,750125,Dev,가속 Lv.2,ArmorPassiveSkill2,750124
+750126,750126,Dev,가속 Lv.3,ArmorPassiveSkill2,750124
+750127,750127,Dev,가속 Lv.4,ArmorPassiveSkill2,750124
+750128,750128,Dev,투쟁 본능 Lv.1,ArmorPassiveSkill1,750128
+750129,750129,Dev,투쟁 본능 Lv.2,ArmorPassiveSkill1,750128
+750130,750130,Dev,투쟁 본능 Lv.3,ArmorPassiveSkill1,750128
+750131,750131,Dev,투쟁 본능 Lv.4,ArmorPassiveSkill1,750128
+750132,750132,Dev,강인함 Lv.1,ArmorPassiveSkill2,750132
+750133,750133,Dev,강인함 Lv.2,ArmorPassiveSkill2,750132
+750134,750134,Dev,강인함 Lv.3,ArmorPassiveSkill2,750132
+750135,750135,Dev,강인함 Lv.4,ArmorPassiveSkill2,750132
+750136,750136,Dev,정밀 타격 Lv.1,ArmorPassiveSkill1,750136
+750137,750137,Dev,정밀 타격 Lv.2,ArmorPassiveSkill1,750136
+750138,750138,Dev,정밀 타격 Lv.3,ArmorPassiveSkill1,750136
+750139,750139,Dev,정밀 타격 Lv.4,ArmorPassiveSkill1,750136
+750140,750140,Dev,광속 Lv.1,ArmorPassiveSkill2,750140
+750141,750141,Dev,광속 Lv.2,ArmorPassiveSkill2,750140
+750142,750142,Dev,광속 Lv.3,ArmorPassiveSkill2,750140
+750143,750143,Dev,광속 Lv.4,ArmorPassiveSkill2,750140
+750144,750144,Dev,잔인한 일격 Lv.1,ArmorPassiveSkill1,750144
+750145,750145,Dev,잔인한 일격 Lv.2,ArmorPassiveSkill1,750144
+750146,750146,Dev,잔인한 일격 Lv.3,ArmorPassiveSkill1,750144
+750147,750147,Dev,잔인한 일격 Lv.4,ArmorPassiveSkill1,750144
+750148,750148,Dev,광속 Lv.1,ArmorPassiveSkill2,750148
+750149,750149,Dev,광속 Lv.2,ArmorPassiveSkill2,750148
+750150,750150,Dev,광속 Lv.3,ArmorPassiveSkill2,750148
+750151,750151,Dev,광속 Lv.4,ArmorPassiveSkill2,750148
+750152,750152,Dev,잔혹한 연격 Lv.1,ArmorPassiveSkill1,750152
+750153,750153,Dev,잔혹한 연격 Lv.2,ArmorPassiveSkill1,750152
+750154,750154,Dev,잔혹한 연격 Lv.3,ArmorPassiveSkill1,750152
+750155,750155,Dev,잔혹한 연격 Lv.4,ArmorPassiveSkill1,750152
+750156,750156,Dev,광폭화 Lv.1,ArmorPassiveSkill2,750156
+750157,750157,Dev,광폭화 Lv.2,ArmorPassiveSkill2,750156
+750158,750158,Dev,광폭화 Lv.3,ArmorPassiveSkill2,750156
+750159,750159,Dev,광폭화 Lv.4,ArmorPassiveSkill2,750156
+750160,750160,Dev,속공 태세 Lv.1,ArmorPassiveSkill1,750160
+750161,750161,Dev,속공 태세 Lv.2,ArmorPassiveSkill1,750160
+750162,750162,Dev,속공 태세 Lv.3,ArmorPassiveSkill1,750160
+750163,750163,Dev,속공 태세 Lv.4,ArmorPassiveSkill1,750160
+750164,750164,Dev,사냥꾼 Lv.1,ArmorPassiveSkill2,750164
+750165,750165,Dev,사냥꾼 Lv.2,ArmorPassiveSkill2,750164
+750166,750166,Dev,사냥꾼 Lv.3,ArmorPassiveSkill2,750164
+750167,750167,Dev,사냥꾼 Lv.4,ArmorPassiveSkill2,750164
+750168,750168,Dev,정밀 연타 Lv.1,ArmorPassiveSkill1,750168
+750169,750169,Dev,정밀 연타 Lv.2,ArmorPassiveSkill1,750168
+750170,750170,Dev,정밀 연타 Lv.3,ArmorPassiveSkill1,750168
+750171,750171,Dev,정밀 연타 Lv.4,ArmorPassiveSkill1,750168
+750172,750172,Dev,생명력 Lv.1,ArmorPassiveSkill2,750172
+750173,750173,Dev,생명력 Lv.2,ArmorPassiveSkill2,750172
+750174,750174,Dev,생명력 Lv.3,ArmorPassiveSkill2,750172
+750175,750175,Dev,생명력 Lv.4,ArmorPassiveSkill2,750172
+750176,750176,Dev,학살 본능 Lv.1,ArmorPassiveSkill1,750176
+750177,750177,Dev,학살 본능 Lv.2,ArmorPassiveSkill1,750176
+750178,750178,Dev,학살 본능 Lv.3,ArmorPassiveSkill1,750176
+750179,750179,Dev,학살 본능 Lv.4,ArmorPassiveSkill1,750176
+750180,750180,Dev,광속 Lv.1,ArmorPassiveSkill2,750180
+750181,750181,Dev,광속 Lv.2,ArmorPassiveSkill2,750180
+750182,750182,Dev,광속 Lv.3,ArmorPassiveSkill2,750180
+750183,750183,Dev,광속 Lv.4,ArmorPassiveSkill2,750180
+750184,750184,Dev,치명 본능 Lv.1,ArmorPassiveSkill1,750184
+750185,750185,Dev,치명 본능 Lv.2,ArmorPassiveSkill1,750184
+750186,750186,Dev,치명 본능 Lv.3,ArmorPassiveSkill1,750184
+750187,750187,Dev,치명 본능 Lv.4,ArmorPassiveSkill1,750184
+750188,750188,Dev,가속 Lv.1,ArmorPassiveSkill2,750188
+750189,750189,Dev,가속 Lv.2,ArmorPassiveSkill2,750188
+750190,750190,Dev,가속 Lv.3,ArmorPassiveSkill2,750188
+750191,750191,Dev,가속 Lv.4,ArmorPassiveSkill2,750188
+750192,750192,Dev,생존 본능 Lv.1,ArmorPassiveSkill1,750192
+750193,750193,Dev,생존 본능 Lv.2,ArmorPassiveSkill1,750192
+750194,750194,Dev,생존 본능 Lv.3,ArmorPassiveSkill1,750192
+750195,750195,Dev,생존 본능 Lv.4,ArmorPassiveSkill1,750192
+750196,750196,Dev,강인함 Lv.1,ArmorPassiveSkill2,750196
+750197,750197,Dev,강인함 Lv.2,ArmorPassiveSkill2,750196
+750198,750198,Dev,강인함 Lv.3,ArmorPassiveSkill2,750196
+750199,750199,Dev,강인함 Lv.4,ArmorPassiveSkill2,750196
+750200,750200,Dev,정밀 타격 Lv.1,ArmorPassiveSkill1,750200
+750201,750201,Dev,정밀 타격 Lv.2,ArmorPassiveSkill1,750200
+750202,750202,Dev,정밀 타격 Lv.3,ArmorPassiveSkill1,750200
+750203,750203,Dev,정밀 타격 Lv.4,ArmorPassiveSkill1,750200
+750204,750204,Dev,가속 Lv.1,ArmorPassiveSkill2,750204
+750205,750205,Dev,가속 Lv.2,ArmorPassiveSkill2,750204
+750206,750206,Dev,가속 Lv.3,ArmorPassiveSkill2,750204
+750207,750207,Dev,가속 Lv.4,ArmorPassiveSkill2,750204
+750208,750208,Dev,비전 감각 Lv.1,ArmorPassiveSkill1,750208
+750209,750209,Dev,비전 감각 Lv.2,ArmorPassiveSkill1,750208
+750210,750210,Dev,비전 감각 Lv.3,ArmorPassiveSkill1,750208
+750211,750211,Dev,비전 감각 Lv.4,ArmorPassiveSkill1,750208
+750212,750212,Dev,가속 Lv.1,ArmorPassiveSkill2,750212
+750213,750213,Dev,가속 Lv.2,ArmorPassiveSkill2,750212
+750214,750214,Dev,가속 Lv.3,ArmorPassiveSkill2,750212
+750215,750215,Dev,가속 Lv.4,ArmorPassiveSkill2,750212
+750216,750216,Dev,마력 순환 Lv.1,ArmorPassiveSkill1,750216
+750217,750217,Dev,마력 순환 Lv.2,ArmorPassiveSkill1,750216
+750218,750218,Dev,마력 순환 Lv.3,ArmorPassiveSkill1,750216
+750219,750219,Dev,마력 순환 Lv.4,ArmorPassiveSkill1,750216
+750220,750220,Dev,치유 증폭 Lv.1,ArmorPassiveSkill2,750220
+750221,750221,Dev,치유 증폭 Lv.2,ArmorPassiveSkill2,750220
+750222,750222,Dev,치유 증폭 Lv.3,ArmorPassiveSkill2,750220
+750223,750223,Dev,치유 증폭 Lv.4,ArmorPassiveSkill2,750220
+750224,750224,Dev,정밀 타격 Lv.1,ArmorPassiveSkill1,750224
+750225,750225,Dev,정밀 타격 Lv.2,ArmorPassiveSkill1,750224
+750226,750226,Dev,정밀 타격 Lv.3,ArmorPassiveSkill1,750224
+750227,750227,Dev,정밀 타격 Lv.4,ArmorPassiveSkill1,750224
+750228,750228,Dev,가속 Lv.1,ArmorPassiveSkill2,750228
+750229,750229,Dev,가속 Lv.2,ArmorPassiveSkill2,750228
+750230,750230,Dev,가속 Lv.3,ArmorPassiveSkill2,750228
+750231,750231,Dev,가속 Lv.4,ArmorPassiveSkill2,750228
+750232,750232,Dev,생명 순환 Lv.1,ArmorPassiveSkill1,750232
+750233,750233,Dev,생명 순환 Lv.2,ArmorPassiveSkill1,750232
+750234,750234,Dev,생명 순환 Lv.3,ArmorPassiveSkill1,750232
+750235,750235,Dev,생명 순환 Lv.4,ArmorPassiveSkill1,750232
+750236,750236,Dev,치유 증폭 Lv.1,ArmorPassiveSkill2,750236
+750237,750237,Dev,치유 증폭 Lv.2,ArmorPassiveSkill2,750236
+750238,750238,Dev,치유 증폭 Lv.3,ArmorPassiveSkill2,750236
+750239,750239,Dev,치유 증폭 Lv.4,ArmorPassiveSkill2,750236
+750240,750240,Dev,전투 회복 Lv.1,ArmorPassiveSkill1,750240
+750241,750241,Dev,전투 회복 Lv.2,ArmorPassiveSkill1,750240
+750242,750242,Dev,전투 회복 Lv.3,ArmorPassiveSkill1,750240
+750243,750243,Dev,전투 회복 Lv.4,ArmorPassiveSkill1,750240
+750244,750244,Dev,사냥꾼 Lv.1,ArmorPassiveSkill2,750244
+750245,750245,Dev,사냥꾼 Lv.2,ArmorPassiveSkill2,750244
+750246,750246,Dev,사냥꾼 Lv.3,ArmorPassiveSkill2,750244
+750247,750247,Dev,사냥꾼 Lv.4,ArmorPassiveSkill2,750244
+750248,750248,Dev,전투 가속 Lv.1,ArmorPassiveSkill1,750248
+750249,750249,Dev,전투 가속 Lv.2,ArmorPassiveSkill1,750248
+750250,750250,Dev,전투 가속 Lv.3,ArmorPassiveSkill1,750248
+750251,750251,Dev,전투 가속 Lv.4,ArmorPassiveSkill1,750248
+750252,750252,Dev,광속 Lv.1,ArmorPassiveSkill2,750252
+750253,750253,Dev,광속 Lv.2,ArmorPassiveSkill2,750252
+750254,750254,Dev,광속 Lv.3,ArmorPassiveSkill2,750252
+750255,750255,Dev,광속 Lv.4,ArmorPassiveSkill2,750252
+750256,750256,Dev,전투 숙련 Lv.1,ArmorPassiveSkill1,750256
+750257,750257,Dev,전투 숙련 Lv.2,ArmorPassiveSkill1,750256
+750258,750258,Dev,전투 숙련 Lv.3,ArmorPassiveSkill1,750256
+750259,750259,Dev,전투 숙련 Lv.4,ArmorPassiveSkill1,750256
+750260,750260,Dev,정밀함 Lv.1,ArmorPassiveSkill2,750260
+750261,750261,Dev,정밀함 Lv.2,ArmorPassiveSkill2,750260
+750262,750262,Dev,정밀함 Lv.3,ArmorPassiveSkill2,750260
+750263,750263,Dev,정밀함 Lv.4,ArmorPassiveSkill2,750260
+750264,750264,Dev,마력 흡수 Lv.1,ArmorPassiveSkill1,750264
+750265,750265,Dev,마력 흡수 Lv.2,ArmorPassiveSkill1,750264
+750266,750266,Dev,마력 흡수 Lv.3,ArmorPassiveSkill1,750264
+750267,750267,Dev,마력 흡수 Lv.4,ArmorPassiveSkill1,750264
+750268,750268,Dev,생명력 Lv.1,ArmorPassiveSkill2,750268
+750269,750269,Dev,생명력 Lv.2,ArmorPassiveSkill2,750268
+750270,750270,Dev,생명력 Lv.3,ArmorPassiveSkill2,750268
+750271,750271,Dev,생명력 Lv.4,ArmorPassiveSkill2,750268
+750272,750272,Dev,비전 가속 Lv.1,ArmorPassiveSkill1,750272
+750273,750273,Dev,비전 가속 Lv.2,ArmorPassiveSkill1,750272
+750274,750274,Dev,비전 가속 Lv.3,ArmorPassiveSkill1,750272
+750275,750275,Dev,비전 가속 Lv.4,ArmorPassiveSkill1,750272
+750276,750276,Dev,치유 증폭 Lv.1,ArmorPassiveSkill2,750276
+750277,750277,Dev,치유 증폭 Lv.2,ArmorPassiveSkill2,750276
+750278,750278,Dev,치유 증폭 Lv.3,ArmorPassiveSkill2,750276
+750279,750279,Dev,치유 증폭 Lv.4,ArmorPassiveSkill2,750276
+750280,750280,Dev,마력 가속 Lv.1,ArmorPassiveSkill1,750280
+750281,750281,Dev,마력 가속 Lv.2,ArmorPassiveSkill1,750280
+750282,750282,Dev,마력 가속 Lv.3,ArmorPassiveSkill1,750280
+750283,750283,Dev,마력 가속 Lv.4,ArmorPassiveSkill1,750280
+750284,750284,Dev,광속 Lv.1,ArmorPassiveSkill2,750284
+750285,750285,Dev,광속 Lv.2,ArmorPassiveSkill2,750284
+750286,750286,Dev,광속 Lv.3,ArmorPassiveSkill2,750284
+750287,750287,Dev,광속 Lv.4,ArmorPassiveSkill2,750284
+750288,750288,Dev,마력 회복 Lv.1,ArmorPassiveSkill1,750288
+750289,750289,Dev,마력 회복 Lv.2,ArmorPassiveSkill1,750288
+750290,750290,Dev,마력 회복 Lv.3,ArmorPassiveSkill1,750288
+750291,750291,Dev,마력 회복 Lv.4,ArmorPassiveSkill1,750288
+750292,750292,Dev,치유 증폭 Lv.1,ArmorPassiveSkill2,750292
+750293,750293,Dev,치유 증폭 Lv.2,ArmorPassiveSkill2,750292
+750294,750294,Dev,치유 증폭 Lv.3,ArmorPassiveSkill2,750292
+750295,750295,Dev,치유 증폭 Lv.4,ArmorPassiveSkill2,750292
+750296,750296,Dev,생명 순환 Lv.1,ArmorPassiveSkill1,750296
+750297,750297,Dev,생명 순환 Lv.2,ArmorPassiveSkill1,750296
+750298,750298,Dev,생명 순환 Lv.3,ArmorPassiveSkill1,750296
+750299,750299,Dev,생명 순환 Lv.4,ArmorPassiveSkill1,750296
+750300,750300,Dev,강인함 Lv.1,ArmorPassiveSkill2,750300
+750301,750301,Dev,강인함 Lv.2,ArmorPassiveSkill2,750300
+750302,750302,Dev,강인함 Lv.3,ArmorPassiveSkill2,750300
+750303,750303,Dev,강인함 Lv.4,ArmorPassiveSkill2,750300
+750304,750304,Dev,전투 집중 Lv.1,ArmorPassiveSkill1,750304
+750305,750305,Dev,전투 집중 Lv.2,ArmorPassiveSkill1,750304
+750306,750306,Dev,전투 집중 Lv.3,ArmorPassiveSkill1,750304
+750307,750307,Dev,전투 집중 Lv.4,ArmorPassiveSkill1,750304
+750308,750308,Dev,광속 Lv.1,ArmorPassiveSkill2,750308
+750309,750309,Dev,광속 Lv.2,ArmorPassiveSkill2,750308
+750310,750310,Dev,광속 Lv.3,ArmorPassiveSkill2,750308
+750311,750311,Dev,광속 Lv.4,ArmorPassiveSkill2,750308
+750312,750312,Dev,냉혹함 Lv.1,ArmorPassiveSkill1,750312
+750313,750313,Dev,냉혹함 Lv.2,ArmorPassiveSkill1,750312
+750314,750314,Dev,냉혹함 Lv.3,ArmorPassiveSkill1,750312
+750315,750315,Dev,냉혹함 Lv.4,ArmorPassiveSkill1,750312
+750316,750316,Dev,잔혹성 Lv.1,ArmorPassiveSkill2,750316
+750317,750317,Dev,잔혹성 Lv.2,ArmorPassiveSkill2,750316
+750318,750318,Dev,잔혹성 Lv.3,ArmorPassiveSkill2,750316
+750319,750319,Dev,잔혹성 Lv.4,ArmorPassiveSkill2,750316
+750320,750320,Dev,불굴 Lv.1,ArmorPassiveSkill1,750320
+750321,750321,Dev,불굴 Lv.2,ArmorPassiveSkill1,750320
+750322,750322,Dev,불굴 Lv.3,ArmorPassiveSkill1,750320
+750323,750323,Dev,불굴 Lv.4,ArmorPassiveSkill1,750320
+750324,750324,Dev,수호 Lv.1,ArmorPassiveSkill2,750324
+750325,750325,Dev,수호 Lv.2,ArmorPassiveSkill2,750324
+750326,750326,Dev,수호 Lv.3,ArmorPassiveSkill2,750324
+750327,750327,Dev,수호 Lv.4,ArmorPassiveSkill2,750324
+750328,750328,Dev,전투 집중 Lv.1,ArmorPassiveSkill1,750328
+750329,750329,Dev,전투 집중 Lv.2,ArmorPassiveSkill1,750328
+750330,750330,Dev,전투 집중 Lv.3,ArmorPassiveSkill1,750328
+750331,750331,Dev,전투 집중 Lv.4,ArmorPassiveSkill1,750328
+750332,750332,Dev,광폭화 Lv.1,ArmorPassiveSkill2,750332
+750333,750333,Dev,광폭화 Lv.2,ArmorPassiveSkill2,750332
+750334,750334,Dev,광폭화 Lv.3,ArmorPassiveSkill2,750332
+750335,750335,Dev,광폭화 Lv.4,ArmorPassiveSkill2,750332
+750336,750336,Dev,재생 갑주 Lv.1,ArmorPassiveSkill1,750336
+750337,750337,Dev,재생 갑주 Lv.2,ArmorPassiveSkill1,750336
+750338,750338,Dev,재생 갑주 Lv.3,ArmorPassiveSkill1,750336
+750339,750339,Dev,재생 갑주 Lv.4,ArmorPassiveSkill1,750336
+750340,750340,Dev,생명력 Lv.1,ArmorPassiveSkill2,750340
+750341,750341,Dev,생명력 Lv.2,ArmorPassiveSkill2,750340
+750342,750342,Dev,생명력 Lv.3,ArmorPassiveSkill2,750340
+750343,750343,Dev,생명력 Lv.4,ArmorPassiveSkill2,750340
+750344,750344,Dev,수호 집중 Lv.1,ArmorPassiveSkill1,750344
+750345,750345,Dev,수호 집중 Lv.2,ArmorPassiveSkill1,750344
+750346,750346,Dev,수호 집중 Lv.3,ArmorPassiveSkill1,750344
+750347,750347,Dev,수호 집중 Lv.4,ArmorPassiveSkill1,750344
+750348,750348,Dev,사냥꾼 Lv.1,ArmorPassiveSkill2,750348
+750349,750349,Dev,사냥꾼 Lv.2,ArmorPassiveSkill2,750348
+750350,750350,Dev,사냥꾼 Lv.3,ArmorPassiveSkill2,750348
+750351,750351,Dev,사냥꾼 Lv.4,ArmorPassiveSkill2,750348
+750352,750352,Dev,폭주 가속 Lv.1,ArmorPassiveSkill1,750352
+750353,750353,Dev,폭주 가속 Lv.2,ArmorPassiveSkill1,750352
+750354,750354,Dev,폭주 가속 Lv.3,ArmorPassiveSkill1,750352
+750355,750355,Dev,폭주 가속 Lv.4,ArmorPassiveSkill1,750352
+750356,750356,Dev,광속 Lv.1,ArmorPassiveSkill2,750356
+750357,750357,Dev,광속 Lv.2,ArmorPassiveSkill2,750356
+750358,750358,Dev,광속 Lv.3,ArmorPassiveSkill2,750356
+750359,750359,Dev,광속 Lv.4,ArmorPassiveSkill2,750356
+750360,750360,Dev,활력 폭주 Lv.1,ArmorPassiveSkill1,750360
+750361,750361,Dev,활력 폭주 Lv.2,ArmorPassiveSkill1,750360
+750362,750362,Dev,활력 폭주 Lv.3,ArmorPassiveSkill1,750360
+750363,750363,Dev,활력 폭주 Lv.4,ArmorPassiveSkill1,750360
+750364,750364,Dev,정밀함 Lv.1,ArmorPassiveSkill2,750364
+750365,750365,Dev,정밀함 Lv.2,ArmorPassiveSkill2,750364
+750366,750366,Dev,정밀함 Lv.3,ArmorPassiveSkill2,750364
+750367,750367,Dev,정밀함 Lv.4,ArmorPassiveSkill2,750364
+750368,750368,Dev,철벽 Lv.1,ArmorPassiveSkill1,750368
+750369,750369,Dev,철벽 Lv.2,ArmorPassiveSkill1,750368
+750370,750370,Dev,철벽 Lv.3,ArmorPassiveSkill1,750368
+750371,750371,Dev,철벽 Lv.4,ArmorPassiveSkill1,750368
+750372,750372,Dev,회복 친화 Lv.1,ArmorPassiveSkill2,750372
+750373,750373,Dev,회복 친화 Lv.2,ArmorPassiveSkill2,750372
+750374,750374,Dev,회복 친화 Lv.3,ArmorPassiveSkill2,750372
+750375,750375,Dev,회복 친화 Lv.4,ArmorPassiveSkill2,750372
+750376,750376,Dev,거인의 체력 Lv.1,ArmorPassiveSkill1,750376
+750377,750377,Dev,거인의 체력 Lv.2,ArmorPassiveSkill1,750376
+750378,750378,Dev,거인의 체력 Lv.3,ArmorPassiveSkill1,750376
+750379,750379,Dev,거인의 체력 Lv.4,ArmorPassiveSkill1,750376
+750380,750380,Dev,정화 체질 Lv.1,ArmorPassiveSkill2,750380
+750381,750381,Dev,정화 체질 Lv.2,ArmorPassiveSkill2,750380
+750382,750382,Dev,정화 체질 Lv.3,ArmorPassiveSkill2,750380
+750383,750383,Dev,정화 체질 Lv.4,ArmorPassiveSkill2,750380
+750384,750384,Dev,불굴 Lv.1,ArmorPassiveSkill1,750384
+750385,750385,Dev,불굴 Lv.2,ArmorPassiveSkill1,750384
+750386,750386,Dev,불굴 Lv.3,ArmorPassiveSkill1,750384
+750387,750387,Dev,불굴 Lv.4,ArmorPassiveSkill1,750384
+750388,750388,Dev,가속 Lv.1,ArmorPassiveSkill2,750388
+750389,750389,Dev,가속 Lv.2,ArmorPassiveSkill2,750388
+750390,750390,Dev,가속 Lv.3,ArmorPassiveSkill2,750388
+750391,750391,Dev,가속 Lv.4,ArmorPassiveSkill2,750388
+750392,750392,Dev,생명의 샘 Lv.1,ArmorPassiveSkill1,750392
+750393,750393,Dev,생명의 샘 Lv.2,ArmorPassiveSkill1,750392
+750394,750394,Dev,생명의 샘 Lv.3,ArmorPassiveSkill1,750392
+750395,750395,Dev,생명의 샘 Lv.4,ArmorPassiveSkill1,750392
+750396,750396,Dev,정화 체질 Lv.1,ArmorPassiveSkill2,750396
+750397,750397,Dev,정화 체질 Lv.2,ArmorPassiveSkill2,750396
+750398,750398,Dev,정화 체질 Lv.3,ArmorPassiveSkill2,750396
+750399,750399,Dev,정화 체질 Lv.4,ArmorPassiveSkill2,750396
+750400,750400,Dev,생존 감각 Lv.1,ArmorPassiveSkill1,750400
+750401,750401,Dev,생존 감각 Lv.2,ArmorPassiveSkill1,750400
+750402,750402,Dev,생존 감각 Lv.3,ArmorPassiveSkill1,750400
+750403,750403,Dev,생존 감각 Lv.4,ArmorPassiveSkill1,750400
+750404,750404,Dev,가속 Lv.1,ArmorPassiveSkill2,750404
+750405,750405,Dev,가속 Lv.2,ArmorPassiveSkill2,750404
+750406,750406,Dev,가속 Lv.3,ArmorPassiveSkill2,750404
+750407,750407,Dev,가속 Lv.4,ArmorPassiveSkill2,750404
+1000001,1000001,Dev,천 갑옷,ArmorSkill2,1000001
+1000051,1000051,Dev,천 머리,ArmorSkill1,1000051
+1000071,1000071,Dev,천 장갑,ArmorSkill3,1000051
+1000101,1000101,Dev,천 신발,ArmorSkill4,1000101
+1000151,1000151,Dev,천 갑옷_패시브,ArmorPassiveSkill1,1000151
+1100001,1100001,Dev,가죽 갑옷,ArmorSkill2,1100001
+1100051,1100051,Dev,가죽 머리,ArmorSkill1,1100051
+1100071,1100071,Dev,가죽 장갑,ArmorSkill3,1100051
+1100101,1100101,Dev,가죽 신발,ArmorSkill4,1100101
+1200001,1200001,Dev,판금 머리,ArmorSkill1,1200001
+1200051,1200051,Dev,판금 갑옷,ArmorSkill2,1200051
+1200071,1200071,Dev,판금 장갑,ArmorSkill3,1200051
+1200101,1200101,Dev,판금 신발,ArmorSkill4,1200101
+10000010,10000010,Dev,테스트 몬스터 소환 스킬,WeaponSkill1,10000010
+10750001,10750001,Dev,회복 스킬 S 테스트 용,PetSkill1,10750001
+10750002,10750002,Dev,점멸 스킬 W 테스트 용,PetSkill2,10750002
+11030001,11030001,Dev,보스_판금 투구로 임시,ArmorSkill1,11030001
+11110001,11110001,Dev,,WeaponSkill1,11110001
+11520001,11520001,Dev,,WeaponSkill2,11520001
+11540001,11540001,Dev,,WeaponSkill4,11540001
+12110007,12110007,Dev,,WeaponSkill4,12110007
+12520001,12520001,Dev,,WeaponSkill2,12520001
+13110001,13110001,Dev,,WeaponSkill1,13110001
+13120004,13120004,Dev,보스_판금 갑옷으로 임시,ArmorSkill2,13120004
+13130005,13130005,Dev,,WeaponSkill2,13130005
+13140006,13140006,Dev,,WeaponSkill4,13140006
+14310002,14310002,Dev,,WeaponSkill1,14310002
+14330001,14330001,Dev,,WeaponSkill3,14330001
+14340001,14340001,Dev,,WeaponSkill4,14340001
+14620001,14620001,Dev,,WeaponSkill2,14620001
+14620005,14620005,Dev,번개 이동,WeaponSkill4,14620005
+15010001,15010001,Dev,Bow 1,WeaponSkill1,15010001
+15020001,15020001,Dev,,WeaponSkill2,15020001
+15020003,15020003,Dev,가죽 신발 백덤블링,ArmorSkill3,15020003
+15210001,15210001,Dev,집중 사격,WeaponSkill1,15210001
+15540001,15540001,Dev,,WeaponSkill4,15540001
+15540002,15540002,Dev,Bow 4,WeaponSkill4,15540002
+15540003,15540003,Dev,Bow 2_다발 화살,WeaponSkill2,15540003
+15540004,15540004,Dev,활_R_멋진 논타겟 투사체 스턴,WeaponSkill4,15540004
+15540005,15540005,Dev,,WeaponSkill3,15540005
+15620001,15620001,Dev,Bow 2,WeaponSkill2,15620001
+15630001,15630001,Dev,,WeaponSkill3,15630001
+17000001,17000001,Dev,판금 투구,ArmorSkill1,17000001
+17000004,17000004,Dev,가죽 투구,ArmorSkill1,17000004
+17000101,17000101,Dev,천 투구,ArmorSkill1,17000101
+18000001,18000001,Dev,판금 갑옷,ArmorSkill2,18000001
+18000002,18000002,Dev,천 갑옷,ArmorSkill2,18000002
+18000003,18000003,Dev,가죽 갑옷,ArmorSkill2,18000003
+19000001,19000001,Dev,판금 신발,ArmorSkill4,19000001
+19000002,19000002,Dev,천 신발,ArmorSkill4,19000002
+19000003,19000003,Dev,가죽 신발,ArmorSkill4,19000003
+40010001,40010001,Dev,탈것_말_도약,WeaponSkill2,40010001
+40310001,40310001,Dev,탈것_말_적_밀어내기+이속감소 / 아군_이속증가,WeaponSkill4,40310001
+40410001,40410001,Dev,탈것_공용_질주,WeaponSkill1,40410001
+40610001,40610001,Dev,탈것_말_주인회복,WeaponSkill3,40610001
+41500001,41500001,Dev,,WeaponSkill2,41500001
+41500002,41500002,Dev,,WeaponSkill3,41500002
+41500003,41500003,Dev,,WeaponSkill4,200150
+50500001,50500001,Dev,점멸 1T,PetSkill1,30211
+50500004,50500004,Dev,점멸 4T,PetSkill2,30241
+50500005,50500005,Dev,점멸 5T,PetSkill1,30251
+50500101,50500101,Dev,점멸 1T,PetSkill2,30211
+50501001,50501001,Dev,정화 1T,PetSkill2,30311
+50501004,50501004,Dev,정화 4T,PetSkill1,30341
+50501005,50501005,Dev,정화 5T,PetSkill2,30351
+50520001,50520001,Dev,점화 1T,PetSkill1,30911
+50520004,50520004,Dev,점화 4T,PetSkill1,30941
+50520005,50520005,Dev,점화 5T,PetSkill1,30951
+50540001,50540001,Dev,방어막 1T,PetSkill1,30511
+50540004,50540004,Dev,방어막 4T,PetSkill1,30541
+50540005,50540005,Dev,방어막 5T,PetSkill1,30551
+50550001,50550001,Dev,유체화 1T,PetSkill2,30011
+50550004,50550004,Dev,유체화 4T,PetSkill1,30041
+50550005,50550005,Dev,유체화 5T,PetSkill2,30051
+50551001,50551001,Dev,고양 1T,PetSkill2,30111
+50551004,50551004,Dev,고양 4T,PetSkill2,30141
+50551005,50551005,Dev,고양 5T,PetSkill2,30151
+50560001,50560001,Dev,탈진 1T,PetSkill2,30611
+50560004,50560004,Dev,억제 4T,PetSkill2,30741
+50560005,50560005,Dev,억제 5T,PetSkill2,30751
+50561001,50561001,Dev,억제 1T,PetSkill1,30711
+50561004,50561004,Dev,억제 4T,PetSkill1,30741
+50561005,50561005,Dev,억제 5T,PetSkill1,30751
+50570001,50570001,Dev,회복 1T,PetSkill2,30411
+50570004,50570004,Dev,회복 4T,PetSkill1,30441
+50570005,50570005,Dev,회복 5T,PetSkill2,30451
+50571001,50571001,Dev,총명 1T,PetSkill1,30811
+50571004,50571004,Dev,총명 4T,PetSkill1,30841
+50571005,50571005,Dev,총명 5T,PetSkill1,30851
+50581004,50581004,Dev,탈진 4T,PetSkill2,30641
+50581005,50581005,Dev,탈진 5T,PetSkill2,30651
+60510001,60510001,Dev,,WeaponSkill1,60510001
+61210001,61210001,Dev,,WeaponSkill1,61210001
+62510001,62510001,Dev,,WeaponSkill1,62510001
+70030001,70030001,Dev,외형 변신,WeaponSkill1,23110002
+70030002,70030002,Dev,외형 변신,WeaponSkill2,20410004
+99000001,99000001,Dev,기절,WeaponSkill1,99000001
+99000002,99000002,Dev,무적,WeaponSkill1,99000002
+99000003,99000003,Dev,속박,WeaponSkill1,99000003
+99000004,99000004,Dev,어둠,WeaponSkill1,99000004
+99000005,99000005,Dev,침묵,WeaponSkill1,99000005
+99000006,99000006,Dev,빙결,WeaponSkill1,99000006
+99000007,99000007,Dev,타겟팅 무시,WeaponSkill1,99000007
+99000008,99000008,Dev,PVP 불가,WeaponSkill1,99000008
+99000009,99000009,Dev,PVE 불가,WeaponSkill1,99000009
+99000010,99000010,Dev,탑승 불가,WeaponSkill1,99000010
+99000011,99000011,Dev,성문,WeaponSkill1,99000011
+99000012,99000012,Dev,소환,WeaponSkill1,99000012
+99000013,99000013,Dev,피해 면역,WeaponSkill1,99000013
+99000014,99000014,Dev,은신,WeaponSkill1,99000014
+99000015,99000015,Dev,지속 은신,WeaponSkill1,99000015
+99000016,99000016,Dev,저지 불가,WeaponSkill1,99000016
+99000017,99000017,Dev,석화,WeaponSkill1,99000017
+99000018,99000018,Dev,부유,WeaponSkill1,99000018
+99000019,99000019,Dev,수면,WeaponSkill1,99000019
+99000020,99000020,Dev,부쉬 은신,WeaponSkill1,99000020
+99000021,99000021,Dev,넘어짐,WeaponSkill1,99000021
+1010001,1010001,Dev,1T 천 투구_최대 마력 향상,ArmorPassiveSkill1,1010001
+1010011,1010011,Dev,1T 천 갑옷_최대 마력 향상,ArmorPassiveSkill1,1010011
+1010021,1010021,Dev,1T 천 장갑_최대 마력 향상,ArmorPassiveSkill1,1010021
+1010031,1010031,Dev,1T 천 신발_최대 마력 향상,ArmorPassiveSkill1,1010031
+1010700,1010700,Dev,1T 판금 투구(제작)_받는 피해 감소 Lv.1,ArmorPassiveSkill1,1010700
+1010701,1010701,Dev,1T 판금 투구(제작)_받는 피해 감소 Lv.2,ArmorPassiveSkill1,1010701
+1020001,1020001,Dev,2T 천 투구_최대 마력 향상,ArmorPassiveSkill1,1020001
+1020011,1020011,Dev,2T 천 갑옷_최대 마력 향상,ArmorPassiveSkill1,1020011
+1020021,1020021,Dev,2T 천 장갑_최대 마력 향상,ArmorPassiveSkill1,1020021
+1020031,1020031,Dev,2T 천 신발_최대 마력 향상,ArmorPassiveSkill1,1020031
+1030001,1030001,Dev,3T 천 투구_최대 마력 향상,ArmorPassiveSkill1,1030001
+1030011,1030011,Dev,3T 천 갑옷_최대 마력 향상,ArmorPassiveSkill1,1030011
+1030021,1030021,Dev,3T 천 장갑_최대 마력 향상,ArmorPassiveSkill1,1030021
+1030031,1030031,Dev,3T 천 신발_최대 마력 향상,ArmorPassiveSkill1,1030031
+1110001,1110001,Dev,1T 가죽 투구_최대 마력 향상,ArmorPassiveSkill1,1110001
+1110011,1110011,Dev,1T 가죽 갑옷_최대 마력 향상,ArmorPassiveSkill1,1110011
+1110021,1110021,Dev,1T 가죽 장갑_최대 마력 향상,ArmorPassiveSkill1,1110021
+1110031,1110031,Dev,1T 가죽 신발_최대 마력 향상,ArmorPassiveSkill1,1110031
+1120001,1120001,Dev,2T 가죽 투구_최대 마력 향상,ArmorPassiveSkill1,1120001
+1120011,1120011,Dev,2T 가죽 갑옷_최대 마력 향상,ArmorPassiveSkill1,1120011
+1120021,1120021,Dev,2T 가죽 장갑_최대 마력 향상,ArmorPassiveSkill1,1120021
+1120031,1120031,Dev,2T 가죽 신발_최대 마력 향상,ArmorPassiveSkill1,1120031
+1130001,1130001,Dev,3T 가죽 투구_최대 마력 향상,ArmorPassiveSkill1,1130001
+1130011,1130011,Dev,3T 가죽 갑옷_최대 마력 향상,ArmorPassiveSkill1,1130011
+1130021,1130021,Dev,3T 가죽 장갑_최대 마력 향상,ArmorPassiveSkill1,1130021
+1130031,1130031,Dev,3T 가죽 신발_최대 마력 향상,ArmorPassiveSkill1,1130031
+1210001,1210001,Dev,1T 판금 투구_최대 체력 향상,ArmorPassiveSkill1,1210001
+1210011,1210011,Dev,1T 판금 갑옷_최대 체력 향상,ArmorPassiveSkill1,1210011
+1210021,1210021,Dev,1T 판금 장갑_최대 체력 향상,ArmorPassiveSkill1,1210021
+1210031,1210031,Dev,1T 판금 신발_최대 체력 향상,ArmorPassiveSkill1,1210031
+1220001,1220001,Dev,2T 판금 투구_최대 체력 향상,ArmorPassiveSkill1,1220001
+1220011,1220011,Dev,2T 판금 갑옷_최대 체력 향상,ArmorPassiveSkill1,1220011
+1220021,1220021,Dev,2T 판금 장갑_최대 체력 향상,ArmorPassiveSkill1,1220021
+1220031,1220031,Dev,2T 판금 신발_최대 체력 향상,ArmorPassiveSkill1,1220031
+1230001,1230001,Dev,3T 판금 투구_최대 체력 향상,ArmorPassiveSkill1,1230001
+1230011,1230011,Dev,3T 판금 갑옷_최대 체력 향상,ArmorPassiveSkill1,1230011
+1230021,1230021,Dev,3T 판금 장갑_최대 체력 향상,ArmorPassiveSkill1,1230021
+1230031,1230031,Dev,3T 판금 신발_최대 체력 향상,ArmorPassiveSkill1,1230031
+1010101,1010101,Dev,1T 천 투구_주는 피해 증가 향상,ArmorPassiveSkill2,1010101
+1010111,1010111,Dev,1T 천 갑옷_주는 피해 증가 향상,ArmorPassiveSkill2,1010111
+1010121,1010121,Dev,1T 천 장갑_주는 피해 증가 향상,ArmorPassiveSkill2,1010121
+1010131,1010131,Dev,1T 천 신발_주는 피해 증가 향상,ArmorPassiveSkill2,1010131
+1020101,1020101,Dev,2T 천 투구_주는 피해 증가 향상,ArmorPassiveSkill2,1020101
+1020111,1020111,Dev,2T 천 갑옷_주는 피해 증가 향상,ArmorPassiveSkill2,1020111
+1020121,1020121,Dev,2T 천 장갑_주는 피해 증가 향상,ArmorPassiveSkill2,1020121
+1020131,1020131,Dev,2T 천 신발_주는 피해 증가 향상,ArmorPassiveSkill2,1020131
+1030101,1030101,Dev,3T 천 투구_주는 피해 증가 향상,ArmorPassiveSkill2,1030101
+1030111,1030111,Dev,3T 천 갑옷_주는 피해 증가 향상,ArmorPassiveSkill2,1030111
+1030121,1030121,Dev,3T 천 장갑_주는 피해 증가 향상,ArmorPassiveSkill2,1030121
+1030131,1030131,Dev,3T 천 신발_주는 피해 증가 향상,ArmorPassiveSkill2,1030131
+1110101,1110101,Dev,1T 가죽 투구_주는 피해 증가 향상,ArmorPassiveSkill2,1110101
+1110111,1110111,Dev,1T 가죽 갑옷_주는 피해 증가 향상,ArmorPassiveSkill2,1110111
+1110121,1110121,Dev,1T 가죽 장갑_주는 피해 증가 향상,ArmorPassiveSkill2,1110121
+1110131,1110131,Dev,1T 가죽 신발_주는 피해 증가 향상,ArmorPassiveSkill2,1110131
+1120101,1120101,Dev,2T 가죽 투구_주는 피해 증가 향상,ArmorPassiveSkill2,1120101
+1120111,1120111,Dev,2T 가죽 갑옷_주는 피해 증가 향상,ArmorPassiveSkill2,1120111
+1120121,1120121,Dev,2T 가죽 장갑_주는 피해 증가 향상,ArmorPassiveSkill2,1120121
+1120131,1120131,Dev,2T 가죽 신발_주는 피해 증가 향상,ArmorPassiveSkill2,1120131
+1130101,1130101,Dev,3T 가죽 투구_주는 피해 증가 향상,ArmorPassiveSkill2,1130101
+1130111,1130111,Dev,3T 가죽 갑옷_주는 피해 증가 향상,ArmorPassiveSkill2,1130111
+1130121,1130121,Dev,3T 가죽 장갑_주는 피해 증가 향상,ArmorPassiveSkill2,1130121
+1130131,1130131,Dev,3T 가죽 신발_주는 피해 증가 향상,ArmorPassiveSkill2,1130131
+1210101,1210101,Dev,1T 판금 투구_받는 피해 감소 향상,ArmorPassiveSkill2,1210101
+1210111,1210111,Dev,1T 판금 갑옷_받는 피해 감소 향상,ArmorPassiveSkill2,1210111
+1210121,1210121,Dev,1T 판금 장갑_받는 피해 감소 향상,ArmorPassiveSkill2,1210121
+1210131,1210131,Dev,1T 판금 신발_받는 피해 감소 향상,ArmorPassiveSkill2,1210131
+1220101,1220101,Dev,2T 판금 투구_받는 피해 감소 향상,ArmorPassiveSkill2,1220101
+1220111,1220111,Dev,2T 판금 갑옷_받는 피해 감소 향상,ArmorPassiveSkill2,1220111
+1220121,1220121,Dev,2T 판금 장갑_받는 피해 감소 향상,ArmorPassiveSkill2,1220121
+1220131,1220131,Dev,2T 판금 신발_받는 피해 감소 향상,ArmorPassiveSkill2,1220131
+1230101,1230101,Dev,3T 판금 투구_받는 피해 감소 향상,ArmorPassiveSkill2,1230101
+1230111,1230111,Dev,3T 판금 갑옷_받는 피해 감소 향상,ArmorPassiveSkill2,1230111
+1230121,1230121,Dev,3T 판금 장갑_받는 피해 감소 향상,ArmorPassiveSkill2,1230121
+1230131,1230131,Dev,3T 판금 신발_받는 피해 감소 향상,ArmorPassiveSkill2,1230131
+1010201,1010201,Dev,1T 천 투구_마력 자연 회복력 향상,ArmorPassiveSkill3,1010201
+1010211,1010211,Dev,1T 천 갑옷_마력 자연 회복력 향상,ArmorPassiveSkill3,1010211
+1010221,1010221,Dev,1T 천 장갑_마력 자연 회복력 향상,ArmorPassiveSkill3,1010221
+1010231,1010231,Dev,1T 천 신발_마력 자연 회복력 향상,ArmorPassiveSkill3,1010231
+1020201,1020201,Dev,2T 천 투구_마력 자연 회복력 향상,ArmorPassiveSkill3,1020201
+1020211,1020211,Dev,2T 천 갑옷_마력 자연 회복력 향상,ArmorPassiveSkill3,1020211
+1020221,1020221,Dev,2T 천 장갑_마력 자연 회복력 향상,ArmorPassiveSkill3,1020221
+1020231,1020231,Dev,2T 천 신발_마력 자연 회복력 향상,ArmorPassiveSkill3,1020231
+1030201,1030201,Dev,3T 천 투구_마력 자연 회복력 향상,ArmorPassiveSkill3,1030201
+1030211,1030211,Dev,3T 천 갑옷_마력 자연 회복력 향상,ArmorPassiveSkill3,1030211
+1030221,1030221,Dev,3T 천 장갑_마력 자연 회복력 향상,ArmorPassiveSkill3,1030221
+1030231,1030231,Dev,3T 천 신발_마력 자연 회복력 향상,ArmorPassiveSkill3,1030231
+1110201,1110201,Dev,1T 가죽 투구_마력 자연 회복력 향상,ArmorPassiveSkill3,1110201
+1110211,1110211,Dev,1T 가죽 갑옷_마력 자연 회복력 향상,ArmorPassiveSkill3,1110211
+1110221,1110221,Dev,1T 가죽 장갑_마력 자연 회복력 향상,ArmorPassiveSkill3,1110221
+1110231,1110231,Dev,1T 가죽 신발_마력 자연 회복력 향상,ArmorPassiveSkill3,1110231
+1120201,1120201,Dev,2T 가죽 투구_마력 자연 회복력 향상,ArmorPassiveSkill3,1120201
+1120211,1120211,Dev,2T 가죽 갑옷_마력 자연 회복력 향상,ArmorPassiveSkill3,1120211
+1120221,1120221,Dev,2T 가죽 장갑_마력 자연 회복력 향상,ArmorPassiveSkill3,1120221
+1120231,1120231,Dev,2T 가죽 신발_마력 자연 회복력 향상,ArmorPassiveSkill3,1120231
+1130201,1130201,Dev,3T 가죽 투구_마력 자연 회복력 향상,ArmorPassiveSkill3,1130201
+1130211,1130211,Dev,3T 가죽 갑옷_마력 자연 회복력 향상,ArmorPassiveSkill3,1130211
+1130221,1130221,Dev,3T 가죽 장갑_마력 자연 회복력 향상,ArmorPassiveSkill3,1130221
+1130231,1130231,Dev,3T 가죽 신발_마력 자연 회복력 향상,ArmorPassiveSkill3,1130231
+1210201,1210201,Dev,1T 판금 투구_체력자연 회복력 향상,ArmorPassiveSkill3,1210201
+1210211,1210211,Dev,1T 판금 갑옷_체력자연 회복력 향상,ArmorPassiveSkill3,1210211
+1210221,1210221,Dev,1T 판금 장갑_체력자연 회복력 향상,ArmorPassiveSkill3,1210221
+1210231,1210231,Dev,1T 판금 신발_체력자연 회복력 향상,ArmorPassiveSkill3,1210231
+1220201,1220201,Dev,2T 판금 투구_체력자연 회복력 향상,ArmorPassiveSkill3,1220201
+1220211,1220211,Dev,2T 판금 갑옷_체력자연 회복력 향상,ArmorPassiveSkill3,1220211
+1220221,1220221,Dev,2T 판금 장갑_체력자연 회복력 향상,ArmorPassiveSkill3,1220221
+1220231,1220231,Dev,2T 판금 신발_체력자연 회복력 향상,ArmorPassiveSkill3,1220231
+1230201,1230201,Dev,3T 판금 투구_체력자연 회복력 향상,ArmorPassiveSkill3,1230201
+1230211,1230211,Dev,3T 판금 갑옷_체력자연 회복력 향상,ArmorPassiveSkill3,1230211
+1230221,1230221,Dev,3T 판금 장갑_체력자연 회복력 향상,ArmorPassiveSkill3,1230221
+1230231,1230231,Dev,3T 판금 신발_체력자연 회복력 향상,ArmorPassiveSkill3,1230231
+1010301,1010301,Dev,1T 천 투구_마나 소모량 감소,ArmorPassiveSkill4,1010301
+1010311,1010311,Dev,1T 천 갑옷_마법 피해 감소 향상,ArmorPassiveSkill4,1010311
+1010321,1010321,Dev,1T 천 장갑_마법 피해 증가 향상,ArmorPassiveSkill4,1010321
+1010331,1010331,Dev,1T 천 신발_치유력 향상,ArmorPassiveSkill4,1010331
+1020301,1020301,Dev,2T 천 투구_마나 소모량 감소,ArmorPassiveSkill4,1020301
+1020311,1020311,Dev,2T 천 갑옷_마법 피해 감소 향상,ArmorPassiveSkill4,1020311
+1020321,1020321,Dev,2T 천 장갑_마법 피해 증가 향상,ArmorPassiveSkill4,1020321
+1020331,1020331,Dev,2T 천 신발_치유력 향상,ArmorPassiveSkill4,1020331
+1030301,1030301,Dev,3T 천 투구_마나 소모량 감소,ArmorPassiveSkill4,1030301
+1030311,1030311,Dev,3T 천 갑옷_마법 피해 감소 향상,ArmorPassiveSkill4,1030311
+1030321,1030321,Dev,3T 천 장갑_마법 피해 증가 향상,ArmorPassiveSkill4,1030321
+1030331,1030331,Dev,3T 천 신발_치유력 향상,ArmorPassiveSkill4,1030331
+1110301,1110301,Dev,1T 가죽 투구_치명타 확률,ArmorPassiveSkill4,1110301
+1110311,1110311,Dev,1T 가죽 갑옷_물리 피해 감소 & 마법 피해 감소,ArmorPassiveSkill4,1110311
+1110321,1110321,Dev,1T 가죽 장갑_물리 피해 증가 & 마법 피해 증가,ArmorPassiveSkill4,1110321
+1110331,1110331,Dev,1T 가죽 신발_이동 속도,ArmorPassiveSkill4,1110331
+1120301,1120301,Dev,2T 가죽 투구_치명타 확률,ArmorPassiveSkill4,1120301
+1120311,1120311,Dev,2T 가죽 갑옷_물리 피해 감소 & 마법 피해 감소,ArmorPassiveSkill4,1120311
+1120321,1120321,Dev,2T 가죽 장갑_물리 피해 증가 & 마법 피해 증가,ArmorPassiveSkill4,1120321
+1120331,1120331,Dev,2T 가죽 신발_이동 속도,ArmorPassiveSkill4,1120331
+1130301,1130301,Dev,3T 가죽 투구_치명타 확률,ArmorPassiveSkill4,1130301
+1130311,1130311,Dev,3T 가죽 갑옷_물리 피해 감소 & 마법 피해 감소,ArmorPassiveSkill4,1130311
+1130321,1130321,Dev,3T 가죽 장갑_물리 피해 증가 & 마법 피해 증가,ArmorPassiveSkill4,1130321
+1130331,1130331,Dev,3T 가죽 신발_이동 속도,ArmorPassiveSkill4,1130331
+1210301,1210301,Dev,1T 판금 투구_상태 이상 저항력,ArmorPassiveSkill4,1210301
+1210311,1210311,Dev,1T 판금 갑옷_물리 피해 감소,ArmorPassiveSkill4,1210311
+1210321,1210321,Dev,1T 판금 장갑_물리 피해 증가,ArmorPassiveSkill4,1210321
+1210331,1210331,Dev,1T 판금 신발_상태 이상 저항력,ArmorPassiveSkill4,1210331
+1220301,1220301,Dev,2T 판금 투구_상태 이상 저항력,ArmorPassiveSkill4,1220301
+1220311,1220311,Dev,2T 판금 갑옷_물리 피해 감소,ArmorPassiveSkill4,1220311
+1220321,1220321,Dev,2T 판금 장갑_물리 피해 증가,ArmorPassiveSkill4,1220321
+1220331,1220331,Dev,2T 판금 신발_상태 이상 저항력,ArmorPassiveSkill4,1220331
+1230301,1230301,Dev,3T 판금 투구_상태 이상 저항력,ArmorPassiveSkill4,1230301
+1230311,1230311,Dev,3T 판금 갑옷_물리 피해 감소,ArmorPassiveSkill4,1230311
+1230321,1230321,Dev,3T 판금 장갑_물리 피해 증가,ArmorPassiveSkill4,1230321
+1230331,1230331,Dev,3T 판금 신발_상태 이상 저항력,ArmorPassiveSkill4,1230331
+1010401,1010401,Dev,1T 천 투구_PVE 피해 증가,ArmorPassiveSkill3,1010401
+1010411,1010411,Dev,1T 천 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1010411
+1010421,1010421,Dev,1T 천 장갑_PVE 피해 증가,ArmorPassiveSkill3,1010421
+1010431,1010431,Dev,1T 천 신발_PVE 피해 감소,ArmorPassiveSkill3,1010431
+1020401,1020401,Dev,2T 천 투구_PVE 피해 증가,ArmorPassiveSkill3,1020401
+1020411,1020411,Dev,2T 천 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1020411
+1020421,1020421,Dev,2T 천 장갑_PVE 피해 증가,ArmorPassiveSkill3,1020421
+1020431,1020431,Dev,2T 천 신발_PVE 피해 감소,ArmorPassiveSkill3,1020431
+1030401,1030401,Dev,3T 천 투구_PVE 피해 증가,ArmorPassiveSkill3,1030401
+1030411,1030411,Dev,3T 천 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1030411
+1030421,1030421,Dev,3T 천 장갑_PVE 피해 증가,ArmorPassiveSkill3,1030421
+1030431,1030431,Dev,3T 천 신발_PVE 피해 감소,ArmorPassiveSkill3,1030431
+1110401,1110401,Dev,1T 가죽 투구_PVE 피해 증가,ArmorPassiveSkill3,1110401
+1110411,1110411,Dev,1T 가죽 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1110411
+1110421,1110421,Dev,1T 가죽 장갑_PVE 피해 증가,ArmorPassiveSkill3,1110421
+1110431,1110431,Dev,1T 가죽 신발_PVE 피해 감소,ArmorPassiveSkill3,1110431
+1120401,1120401,Dev,2T 가죽 신발_PVE 피해 증가,ArmorPassiveSkill3,1120401
+1120411,1120411,Dev,2T 가죽 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1120411
+1120421,1120421,Dev,2T 가죽 장갑_PVE 피해 증가,ArmorPassiveSkill3,1120421
+1120431,1120431,Dev,2T 가죽 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1120431
+1130401,1130401,Dev,3T 가죽 신발_PVE 피해 증가,ArmorPassiveSkill3,1130401
+1130411,1130411,Dev,3T 가죽 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1130411
+1130421,1130421,Dev,3T 가죽 장갑_PVE 피해 증가,ArmorPassiveSkill3,1130421
+1130431,1130431,Dev,3T 가죽 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1130431
+1210401,1210401,Dev,1T 판금 투구_PVE 피해 증가,ArmorPassiveSkill3,1210401
+1210411,1210411,Dev,1T 판금 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1210411
+1210421,1210421,Dev,1T 판금 장갑_PVE 피해 증가,ArmorPassiveSkill3,1210421
+1210431,1210431,Dev,1T 판금 신발_PVE 피해 감소,ArmorPassiveSkill3,1210431
+1220401,1220401,Dev,2T 판금 투구_PVE 피해 증가,ArmorPassiveSkill3,1220401
+1220411,1220411,Dev,2T 판금 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1220411
+1220421,1220421,Dev,2T 판금 장갑_PVE 피해 증가,ArmorPassiveSkill3,1220421
+1220431,1220431,Dev,2T 판금 신발_PVE 피해 감소,ArmorPassiveSkill3,1220431
+1230401,1230401,Dev,3T 판금 투구_PVE 피해 증가,ArmorPassiveSkill3,1230401
+1230411,1230411,Dev,3T 판금 갑옷_PVE 피해 감소,ArmorPassiveSkill3,1230411
+1230421,1230421,Dev,3T 판금 장갑_PVE 피해 증가,ArmorPassiveSkill3,1230421
+1230431,1230431,Dev,3T 판금 신발_PVE 피해 감소,ArmorPassiveSkill3,1230431
+1010501,1010501,Dev,1T 천 투구_PVP 피해 증가,ArmorPassiveSkill4,1010501
+1010511,1010511,Dev,1T 천 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1010511
+1010521,1010521,Dev,1T 천 장갑_PVP 피해 증가,ArmorPassiveSkill4,1010521
+1010531,1010531,Dev,1T 천 신발_PVP 피해 감소,ArmorPassiveSkill4,1010531
+1020501,1020501,Dev,2T 천 투구_PVP 피해 증가,ArmorPassiveSkill4,1020501
+1020511,1020511,Dev,2T 천 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1020511
+1020521,1020521,Dev,2T 천 장갑_PVP 피해 증가,ArmorPassiveSkill4,1020521
+1020531,1020531,Dev,2T 천 신발_PVP 피해 감소,ArmorPassiveSkill4,1020531
+1030501,1030501,Dev,3T 천 투구_PVP 피해 증가,ArmorPassiveSkill4,1030501
+1030511,1030511,Dev,3T 천 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1030511
+1030521,1030521,Dev,3T 천 장갑_PVP 피해 증가,ArmorPassiveSkill4,1030521
+1030531,1030531,Dev,3T 천 신발_PVP 피해 감소,ArmorPassiveSkill4,1030531
+1110501,1110501,Dev,1T 가죽 투구_PVP 피해 증가,ArmorPassiveSkill4,1110501
+1110511,1110511,Dev,1T 가죽 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1110511
+1110521,1110521,Dev,1T 가죽 장갑_PVP 피해 증가,ArmorPassiveSkill4,1110521
+1110531,1110531,Dev,1T 가죽 신발_PVP 피해 감소,ArmorPassiveSkill4,1110531
+1120501,1120501,Dev,2T 가죽 신발_PVP 피해 증가,ArmorPassiveSkill4,1120501
+1120511,1120511,Dev,2T 가죽 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1120511
+1120521,1120521,Dev,2T 가죽 장갑_PVP 피해 증가,ArmorPassiveSkill4,1120521
+1120531,1120531,Dev,2T 가죽 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1120531
+1130501,1130501,Dev,3T 가죽 신발_PVP 피해 증가,ArmorPassiveSkill4,1130501
+1130511,1130511,Dev,3T 가죽 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1130511
+1130521,1130521,Dev,3T 가죽 장갑_PVP 피해 증가,ArmorPassiveSkill4,1130521
+1130531,1130531,Dev,3T 가죽 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1130531
+1210501,1210501,Dev,1T 판금 투구_PVP 피해 증가,ArmorPassiveSkill4,1210501
+1210511,1210511,Dev,1T 판금 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1210511
+1210521,1210521,Dev,1T 판금 장갑_PVP 피해 증가,ArmorPassiveSkill4,1210521
+1210531,1210531,Dev,1T 판금 신발_PVP 피해 감소,ArmorPassiveSkill4,1210531
+1220501,1220501,Dev,2T 판금 투구_PVP 피해 증가,ArmorPassiveSkill4,1220501
+1220511,1220511,Dev,2T 판금 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1220511
+1220521,1220521,Dev,2T 판금 장갑_PVP 피해 증가,ArmorPassiveSkill4,1220521
+1220531,1220531,Dev,2T 판금 신발_PVP 피해 감소,ArmorPassiveSkill4,1220531
+1230501,1230501,Dev,3T 판금 투구_PVP 피해 증가,ArmorPassiveSkill4,1230501
+1230511,1230511,Dev,3T 판금 갑옷_PVP 피해 감소,ArmorPassiveSkill4,1230511
+1230521,1230521,Dev,3T 판금 장갑_PVP 피해 증가,ArmorPassiveSkill4,1230521
+1230531,1230531,Dev,3T 판금 신발_PVP 피해 감소,ArmorPassiveSkill4,1230531
+1010601,1010601,Dev,,ArmorPassiveSkill4,1010601
+1010611,1010611,Dev,,ArmorPassiveSkill4,1010611
+1010621,1010621,Dev,,ArmorPassiveSkill4,1010621
+1010631,1010631,Dev,,ArmorPassiveSkill4,1010631
+1020601,1020601,Dev,2T 천 투구_프록,ArmorPassiveSkill4,1020601
+1020611,1020611,Dev,2T 천 갑옷_프록,ArmorPassiveSkill4,1020611
+1020621,1020621,Dev,2T 천 장갑_프록,ArmorPassiveSkill4,1020621
+1020631,1020631,Dev,2T 천 신발_프록,ArmorPassiveSkill4,1020631
+1030601,1030601,Dev,3T 천 투구_프록,ArmorPassiveSkill4,1030601
+1030611,1030611,Dev,3T 천 갑옷_프록,ArmorPassiveSkill4,1030611
+1030621,1030621,Dev,3T 천 장갑_프록,ArmorPassiveSkill4,1030621
+1030631,1030631,Dev,3T 천 신발_프록,ArmorPassiveSkill4,1030631
+1110601,1110601,Dev,,ArmorPassiveSkill4,1110601
+1110611,1110611,Dev,,ArmorPassiveSkill4,1110611
+1110621,1110621,Dev,,ArmorPassiveSkill4,1110621
+1110631,1110631,Dev,,ArmorPassiveSkill4,1110631
+1120601,1120601,Dev,2T 가죽 투구_프록,ArmorPassiveSkill4,1120601
+1120611,1120611,Dev,2T 가죽 갑옷_프록,ArmorPassiveSkill4,1120611
+1120621,1120621,Dev,2T 가죽 장갑_프록,ArmorPassiveSkill4,1120621
+1120631,1120631,Dev,2T 가죽 신발_프록,ArmorPassiveSkill4,1120631
+1130601,1130601,Dev,3T 가죽 투구_프록,ArmorPassiveSkill4,1130601
+1130611,1130611,Dev,3T 가죽 갑옷_프록,ArmorPassiveSkill4,1130611
+1130621,1130621,Dev,3T 가죽 장갑_프록,ArmorPassiveSkill4,1130621
+1130631,1130631,Dev,3T 가죽 신발_프록,ArmorPassiveSkill4,1130631
+1210601,1210601,Dev,,ArmorPassiveSkill4,1210601
+1210611,1210611,Dev,,ArmorPassiveSkill4,1210611
+1210621,1210621,Dev,,ArmorPassiveSkill4,1210621
+1210631,1210631,Dev,,ArmorPassiveSkill4,1210631
+1220601,1220601,Dev,2T 판금 투구_프록,ArmorPassiveSkill4,1220601
+1220611,1220611,Dev,2T 판금 갑옷_프록,ArmorPassiveSkill4,1220611
+1220621,1220621,Dev,2T 판금 장갑_프록,ArmorPassiveSkill4,1220621
+1220631,1220631,Dev,2T 판금 신발_프록,ArmorPassiveSkill4,1220631
+1230601,1230601,Dev,3T 판금 투구_프록,ArmorPassiveSkill4,1230601
+1230611,1230611,Dev,3T 판금 갑옷_프록,ArmorPassiveSkill4,1230611
+1230621,1230621,Dev,3T 판금 장갑_프록,ArmorPassiveSkill4,1230621
+1230631,1230631,Dev,3T 판금 신발_프록,ArmorPassiveSkill4,1230631
+10010002,10010002,Dev,PC 기도1,WeaponSkill1,10010002
+10010003,10010003,Dev,PC 기도2,WeaponSkill2,10010003
+10010004,10010004,Dev,PC 기도3,WeaponSkill3,10010004

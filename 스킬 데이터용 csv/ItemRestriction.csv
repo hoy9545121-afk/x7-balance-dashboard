@@ -1,0 +1,4 @@
+OID,Cid,Comment,SortOrder,IsSell,IsGuildStorage,IsTrash,IsLock
+1,1,default,1,TRUE,TRUE,TRUE,FALSE
+2,2,quest,2,FALSE,FALSE,FALSE,FALSE
+3,3,"상점, 거래소 판매 불가",3,FALSE,TRUE,TRUE,TRUE

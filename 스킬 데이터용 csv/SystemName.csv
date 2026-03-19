@@ -1,0 +1,30 @@
+﻿OID,Cid,Comment,KOR,ENG,JA,ZH
+1,1,,아키에이지 워,Archeage War,アーキエイジ・ウォー,上古世紀：戰爭
+2,2,,아이템을 우편으로 지급합니다.,Here is your item.,アイテムをメールで送ります。,將以信件發放道具。
+3,3,,"가방이 가득 차, 아이템을 우편으로 지급합니다. 가방을 비워주세요.","You didn't have room in your bag, so these items have been mailed to you.",インベントリに空きスペースがないため、アイテムをメールで送ります。インベントリを空けてください。,背包已滿，道具已發送至信箱，請把背包清出空位。
+4,4,,{} 처치 보상!!,{} kill reward,{}討伐報酬！,消滅{}獎勵！！
+5,5,,가방 공간이 초과하여 우편으로 지급합니다.,"You didn't have room in your bag, so your rewards have been mailed to you.",インベントリに空きスペースがないため、メールで送ります。,超過背包空間，將以信件發放。
+6,6,,상점 구매 아이템입니다.,Here is your purchase from the shop.,ショップ購入アイテムです。,此為商店購買道具。
+7,7,,가방에 지급이 불가하여 우편으로 지급합니다.,"You didn't have room in your bag, so your purchased items have been mailed to you.",インベントリに付与できないため、メールで送ります。,無法發放至背包，將以信件發放。
+8,8,,누이 여신 신관,Priestess of Nui,女神ヌイの神官,諾伊女神神官
+9,9,,{} 처치 보상,{} kill reward,{}討伐報酬！,消滅{}獎勵
+10,10,,"모험가님 덕분에 {}님께서 저희에게 기부해 주셨습니다.
+이에 누이 여신의 축복을 담아 보답을 드리고자 합니다.
+누이 여신의 은총이 함께 하시길.","Thanks to your efforts, {} has kindly donated to us.\nIn gratitude, we offer you Goddess Nui's Blessing.\nMay Nui's Grace be with you.",おかげで{}様が寄付してくださいました。\n女神ヌイの祝福の込めてお礼がしたいです。\n女神ヌイの恩寵があらん事を。,多虧冒險家的幫忙，{}捐贈給我們了，\n因此我們想要把諾伊女神的祝福當作回報，\n希望諾伊女神的恩寵與你同在。
+11,11,,초승달 왕좌 성,Crescent Throne Castle,クレセントスローン城,新月王國城堡
+12,12,,마리아노플 성,Marianople Castle,マリアノープル城,瑪瑞諾普城堡
+13,13,,{} 세금 분배 보상!!,{} Tax Distribution!,{}税金分配報酬！,{}稅金分配獎勵！！
+14,14,,{} 에서 분배된 세금을 우편으로 지급합니다.,Here is your share of the collected taxes from {}.,{}で配布した税金をメールで送ります。,{}分配的稅金將已郵件發放。
+15,15,,서버 이전권 아이템 재지급,Server Transfer Ticket Re-issued,サーバー移転チケットの再付与,重新發放伺服器轉移券道具
+16,16,,"안녕하세요, 아키에이지 워 입니다.
+이전 가능한 인원이 초과되어 서버 이전이 진행되지 않았습니다.
+자세한 내용은 서버 이전 공지사항을 확인해주세요. 고맙습니다.",Hello from the ArcheAge War Team.\nServer transfer was not completed because the transfer limit has been reached.\nPlease check the announcement on server transfer for more information. Thank you for your understanding.,こんにちは、アーキエイジウォーです。\n移転人数の上限に達したため、サーバー移転が行われませんでした。\n詳しくはサーバー移転のお知らせを確認してください。よろしくお願い致します。,大家好，這是上古世紀。\n因為超過可轉移的人數，所以無法轉移伺服器。\n詳細內容請確認伺服器轉移公告事項，謝謝。
+17,17,,"<ref table=""ItemCollection"" row=""{}"" field=""Name""/> 컬렉션이 종료 되었습니다.",,,
+18,18,,"제거되는 컬렉션 효과
+<ref table=""ItemCollection"" row=""{}""/>",,,
+19,19,,{} {:+},,,
+20,20,,{} {:+.1f}%,,,
+21,21,,{} {:+.0f}%,,,
+22,22,,캐릭터 선물권 (귀속)을 우편으로 지급합니다.,,,
+23,23,,"캐릭터 선물하기가 취소되어, 캐릭터 선물권 (귀속)을 우편으로 지급합니다.",,,
+24,24,,오르돔의 선장 아르칸스를 처치한 보상이 지급되었습니다.,,,

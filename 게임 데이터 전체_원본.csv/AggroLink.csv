@@ -1,0 +1,9 @@
+OID,Cid,Comment,TargetInfo,TargetTagCids,LinkRange,MaxAggroCount,AggroCooltime,AggroEffects
+1,1,동일 몬스터,SameMonster,,500,3,5000,
+2,2,동일 팩션,SameFaction,,700,3,5000,
+3,3,태그 몬스터,Tag,[1],700,3,10000,
+4,4,모든 몬스터,All,,2000,3,30000,
+5,5,"놀, 오크 그룹",Tag,"[20900001,20900002]",500,2,15000,
+6,6,오크 그룹,Tag,[20900002],500,2,15000,
+7,7,정령 그룹,Tag,[20900003],500,2,15000,
+8,8,피 묻은 손 그룹,SameFaction,,700,3,15000,

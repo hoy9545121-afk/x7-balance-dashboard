@@ -1,0 +1,4 @@
+OID,Cid,Comment,DescName,BindingType,AllowedChildTabs,InitialSlot,ExpSlotCount,ExpCurrencyKind,ExpCurrencyCost,QuickDepositCategory,QuickDepositDesc
+1,1,테스트_계정창고,계정 창고,User,,20,5,"[Gold,Gold,Gold,Gold,Navi,Navi,Navi,Navi,Navi,Navi]","[1000,2000,5000,10000,10,20,30,40,50,60]","[RawMaterial,Material,SpecialMaterial,EquipmentEnforce,SkillUpgrade]",재료
+2,2,테스트_가구창고,가구 창고,User,[Furniture],100,10,"[Gold,Gold,Gold,Navi,Navi,Navi]","[1000,2000,5000,100,150,200]",[Furniture],가구
+3,3,테스트_장비창고,장비 창고,User,"[Weapon,Armor,Accessory]",20,5,"[Gold,Gold,Gold,Gold,Gold]","[1000,2000,3000,4000,5000]","[Weapon,Armor,Accessory]",장비

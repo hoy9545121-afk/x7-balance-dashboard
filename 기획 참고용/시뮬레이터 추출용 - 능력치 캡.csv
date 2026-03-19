@@ -1,0 +1,36 @@
+Enum,명칭,최상위 유저 스펙
+MaxHpVary,최대 체력,12000
+MaxMpVary,최대 마력,2500
+MaxHpVaryper,최대 체력 증가율,50%
+MaxMpVaryper,최대 마력 증가율,50%
+RecoveryRegainVary,물약 회복량,30
+RecoveryRegainVaryper,물약 회복률,50%
+CostMpDownVaryper,마력 소모량 감소율,50%
+AttackVary,공격력,1500
+DefenseVary,방어력,3000
+AttackVaryper,공격력 증가율,50%
+DefenseVaryper,방어력 증가율,50%
+AtkSpeedVaryper,공격 속도 증가율,300%
+CastSpeedVaryper,캐스팅 속도,300%
+SkillSpeedVaryper,스킬 발동 속도,300%
+RegenHpVary,체력 회복,100
+RegenMpVary,마력 회복,50
+MoveSpeedVaryper,이동 속도,200%
+DamageUpVaryper,피해율,100%
+DamageDownVaryper,피해 완화율,50%
+PVEDamageUpVaryper,몬스터 피해율,100%
+PVEDamageDownVaryper,몬스터 피해 완화율,50%
+CriVaryper,치명타율,80%
+SkillCooldownAccVary,기술 가속,100
+HealAmpVaryper,치유율,100%
+SCNegativeRecoveryVary,상태 이상 저항력,1000
+PVPDamageUpVaryper,대인 피해율,100%
+PVPDamageDownVaryper,대인 피해 완화율,50%
+SkillDamageUpVaryper,기술 피해 증가율,100%
+SkillDamageDownVaryper,기술 피해 감소율,50%
+CriDamageVaryper,치명타 피해율,300%
+AddMaxHpVary,추가 최대 체력,500
+AddMaxMpVary,추가 최대 마력,250
+AddAttackVary,추가 공격력,300
+AddDefenseVary,추가 방어력,600
+HealAcceptVaryper,받는 치유율,50%

@@ -1,0 +1,6 @@
+﻿OID,Cid,Comment,ShopTabCategory,EquipmentKinds,ItemConsumeKinds
+1,1,,All,"[OnehandSword,TwohandSword,Dagger,Bow,Staff,LeatherHelm,LeatherArmor,LeatherShoes,Cloak,Earring,Necklace,Ring]","[Potion,Food,Scroll,Teleport,LootBox,Quest,EquipmentEnhance,Etc]"
+2,2,,Potion,,[Potion]
+3,3,,Weapon,"[OnehandSword,TwohandSword,Dagger,Bow,Staff]",
+4,4,,Armor,"[LeatherHelm,LeatherArmor,LeatherShoes,Cloak]",
+6,6,,Etc,,"[Food,Scroll,Teleport,LootBox,Quest,EquipmentEnhance,Etc]"

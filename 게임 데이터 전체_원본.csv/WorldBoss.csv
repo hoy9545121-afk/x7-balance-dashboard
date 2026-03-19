@@ -1,0 +1,2 @@
+﻿OID,Cid,Comment,ZoneCid,SubZoneCid,SpawnerCid,WorldLocationCid,FirstSummonTime,SecondSummonTime,SignTime,EnvRadius,EndTime
+1,1,dummy,1000,20023,1,100000,12:00:00,21:00:00,180000,80,3600000

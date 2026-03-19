@@ -1,0 +1,15 @@
+﻿OID,SpawnerId,Name,ActorCategory,Cid,Interval,bRoaming,bIsMinion,bQuestSpawner,bSpawnOnlySequence,bInstanceSpawner,NumMaxSpawn,SpawnChance,RetrialCnt,LifeTime,Points,Rotations,AIPathCids,bEventDespawn,InitialTimeMin,InitialTimeMax
+1,1,BP_SpawnDoodad_902006_C_1,Doodad,902006,0,False,False,False,False,False,1,1000,0,0,"((X=-10100.000000,Y=-3880.000000,Z=-10.000000))","((X=0.000000,Y=-0.000000,Z=0.866025,W=0.500000))",,False,0,0
+2,2,BP_SpawnDoodad_902007_C_1,Doodad,902007,0,False,False,False,False,False,1,1000,0,0,"((X=-10080.000000,Y=-3990.000000,Z=0.000000))","((X=0.000000,Y=-0.000000,Z=0.866025,W=0.500000))",,False,0,0
+3,3,BP_SpawnDoodad_902008_C_2,Doodad,902008,0,False,False,False,False,False,1,1000,0,0,"((X=-9857.622214,Y=-2263.366189,Z=-20.000000))","((X=-0.000000,Y=0.000000,Z=-0.819152,W=0.573576))",,False,0,0
+4,4,BP_SpawnDoodad_902009_C_2,Doodad,902009,0,False,False,False,False,False,1,1000,0,0,"((X=-9824.874113,Y=-2451.483451,Z=-10.000000))","((X=0.000000,Y=-0.000000,Z=0.573576,W=0.819152))",,False,0,0
+5,5,BP_SpawnDoodad_902014_C_1,Doodad,902014,0,False,False,False,False,False,1,1000,0,0,"((X=-8370.000000,Y=930.000000,Z=-30.000000))","((X=0.000000,Y=-0.000000,Z=0.342020,W=0.939693))",,False,0,0
+6,6,BP_SpawnDoodad_902015_C_1,Doodad,902015,0,False,False,False,False,False,1,1000,0,0,"((X=-9276.392076,Y=-593.656332,Z=0.000000))","((X=0.000000,Y=-0.000000,Z=0.573576,W=0.819152))",,False,0,0
+7,7,BP_SpawnDoodad_902016_C_1,Doodad,902016,0,False,False,False,False,False,1,1000,0,0,"((X=-6486.376889,Y=2104.995132,Z=-60.000000))","((X=0.000000,Y=-0.000000,Z=0.342020,W=0.939693))",,False,0,0
+8,8,BP_SpawnDoodad_902017_C_1,Doodad,902017,0,False,False,False,False,False,1,1000,0,0,"((X=-6108.134665,Y=2414.999999,Z=-110.000000))","((X=0.000000,Y=-0.000000,Z=0.258819,W=0.965926))",,False,0,0
+9,9,BP_SpawnDoodad_902018_C_1,Doodad,902018,0,False,False,False,False,False,1,1000,0,0,"((X=-5670.000000,Y=2680.000000,Z=-180.000000))","((X=0.000000,Y=-0.000000,Z=0.258819,W=0.965926))",,False,0,0
+10,10,BP_SpawnDoodad_902019_C_1,Doodad,902019,0,False,False,False,False,False,1,1000,0,0,"((X=-4349.046107,Y=3341.303021,Z=-400.000000))","((X=0.000000,Y=-0.000000,Z=0.173648,W=0.984808))",,False,0,0
+11,11,BP_SpawnDoodad_902020_C_1,Doodad,902020,0,False,False,False,False,False,1,1000,0,0,"((X=-4524.824590,Y=3297.361611,Z=-400.000000))","((X=0.000000,Y=-0.000000,Z=0.173648,W=0.984808))",,False,0,0
+12,12,BP_SpawnDoodad_902021_C_1,Doodad,902021,0,False,False,False,False,False,1,1000,0,0,"((X=-2840.000000,Y=3660.000000,Z=-480.000000))","((X=0.000000,Y=-0.000000,Z=0.000000,W=1.000000))",,False,0,0
+13,13,BP_SpawnDoodad_902022_C_1,Doodad,902022,0,False,False,False,False,False,1,1000,0,0,"((X=-1500.000000,Y=3670.000000,Z=-540.000000))","((X=0.000000,Y=-0.000000,Z=0.000000,W=1.000000))",,False,0,0
+14,14,BP_SpawnDoodad_902025_C_1,Doodad,902025,0,False,False,False,False,False,1,1000,0,0,"((X=240.485832,Y=2879.895513,Z=-545.426188))","((X=0.000000,Y=-0.000000,Z=0.030312,W=0.999540))",,False,0,0

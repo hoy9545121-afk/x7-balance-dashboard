@@ -1,0 +1,12 @@
+﻿OID,Cid,Comment,AreaType,CombatKind,Desc,DefaultPCRelation,KillPenalty,RevivalGroup,DeathPenaltyPve,DeathPenaltyPvp,StatusChangeCid
+1,1,안전지역,Safety,Peace,안전,Neutral,FALSE,1,1,1,401
+2,2,일반지역 (복수 불가) / 특수 재화가 필요한 던전,Normal,Neutral,일반,Neutral,TRUE,1,1,1,402
+3,3,보호지역,Protected,Peace,보호,Neutral,FALSE,1,1,1,403
+4,4,전쟁지역 (대련장),Duel,Hostile,대련,Hostile,FALSE,1,1,1,411
+5,5,마을지역,Town,Peace,마을,Neutral,FALSE,1,1,1,405
+7,7,원정대 아지트,GuildHome,Peace,주둔지,Friendly,FALSE,1,1,1,407
+8,8,분쟁지역(예약),Disputed,Hostile,분쟁,Hostile,FALSE,1,1,1,408
+11,11,일반 지역 (복수 가능),NormalRevengeable,Neutral,일반,Neutral,TRUE,1,1,1,415
+12,12,일반지역 (복수 불가) / 특수 재화가 필요한 던전 / 어둠,Chaos,Neutral,혼돈,Neutral,FALSE,1,1,1,412
+13,13,전쟁 지역(아르칸스) / PVP전용 지역,War,Hostile,전쟁,Hostile,FALSE,1,2,3,417
+14,14,거주 구역,Housing,Peace,주둔지,Friendly,FALSE,1,1,1,407

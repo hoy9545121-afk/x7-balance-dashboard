@@ -1,0 +1,110 @@
+﻿OID,Cid,Comment,Origin,ConditionKind,ConditionValue,StatusChangeTagCids
+1,1,,Source,HpGreaterThan,500,
+2,2,,Target,HasStatusChangeTag,0,[145]
+3,3,,Target,HasStatusChangeTag,0,[105]
+4,4,,Target,HasStatusChangeTag,0,[101]
+5,5,,Target,HasStatusChangeTag,0,[123]
+6,6,,Target,HasStatusChangeTag,0,[141]
+7,7,,Target,HasStatusChangeTag,0,[107]
+8,8,,Target,HasStatusChangeTag,0,[6004]
+9,9,,Target,HasStatusChangeTag,0,"[105,125,141,145,109]"
+10,10,,Source,HasStatusChangeTag,0,[6004]
+11,11,,Source,HasStatusChangeTag,0,[6004]
+12,12,,Source,HasStatusChangeTag,0,[6004]
+13,13,,Source,HasStatusChangeTag,0,[6004]
+14,14,,Source,HasStatusChangeTag,0,[6004]
+15,15,,Source,HasStatusChangeTag,0,[6004]
+16,16,,Source,HasStatusChangeTag,0,[6004]
+17,17,,Source,HasStatusChangeTag,0,[6004]
+18,18,,Source,HasStatusChangeTag,0,[6004]
+19,19,,Source,HasStatusChangeTag,0,[6004]
+20,20,,Source,HasStatusChangeTag,0,[6004]
+21,21,,Source,HasStatusChangeTag,0,[6004]
+22,22,,Source,HasStatusChangeTag,0,[6004]
+23,23,,Source,HasStatusChangeTag,0,[6004]
+24,24,,Source,HasStatusChangeTag,0,[6004]
+25,25,,Source,HasStatusChangeTag,0,[6004]
+26,26,,Source,HasStatusChangeTag,0,[6004]
+27,27,,Source,HasStatusChangeTag,0,
+28,28,,Source,HasStatusChangeTag,0,[6004]
+29,29,,Source,HasStatusChangeTag,0,[6004]
+30,30,,Source,InvokerSkill,170170,
+31,31,,Source,InvokerSkill,170120,
+32,32,,Target,HasStatusChangeTag,0,[123]
+33,33,,Source,InvokerSkill,120040,
+34,34,,Target,HasStatusChangeTag,0,[145]
+35,35,,Target,InvokerSkill,130010,
+36,36,,Target,InvokerSkill,130020,
+37,37,,Target,InvokerSkill,140190,
+38,38,,Target,InvokerSkill,180010,
+39,39,,Target,InvokerSkill,180020,
+40,40,,Source,HasStatusChangeTag,0,[6004]
+41,41,,Target,HasStatusChangeTag,0,[105]
+42,42,,Source,HasStatusChangeTag,0,[6004]
+43,43,,Target,HasStatusChangeTag,0,[129]
+44,44,,Source,HasStatusChangeTag,0,[6004]
+102,102,,Source,InvokerStatusChange,111,[141]
+8000,8000,구르기 중,Source,HasStatusChangeTag,0,[8000]
+9071,9071,,Source,HpLessThan,200,
+9072,9072,,Source,HpLessThan,200,
+9073,9073,,Source,HpLessThan,200,
+100201,100201,1티어 한손검 Q 스킬 Lv.1,Source,InvokerSkill,100201,
+200156,200156,적진으로 Proc Lv.1,Source,InvokerSkill,200151,
+200157,200157,적진으로 Proc Lv.2,Source,InvokerSkill,200152,
+200158,200158,적진으로 Proc Lv.3,Source,InvokerSkill,200153,
+200159,200159,적진으로 Proc Lv.4,Source,InvokerSkill,200154,
+200160,200160,적진으로 Proc Lv.5,Source,InvokerSkill,200155,
+500156,500156,어둠의 일격 타격 시 체력 회복,Source,InvokerSkill,500151,
+500157,500157,어둠의 일격 타격 시 체력 회복,Source,InvokerSkill,500152,
+500158,500158,어둠의 일격 타격 시 체력 회복,Source,InvokerSkill,500153,
+500159,500159,어둠의 일격 타격 시 체력 회복,Source,InvokerSkill,500154,
+500160,500160,어둠의 일격 타격 시 체력 회복,Source,InvokerSkill,500155,
+500701,500701,사방의 비수로 체력 20% 이하인 적을 때리면 추가 대미지,Source,HpLessThan,210,
+500506,500506,단검 투척으로 적중한 적의 체력이 50% 이하일 때 추가 피해를 입힙니다.,Target,HpLessThan,500,
+500511,500511,단검 투척으로 적중한 적의 체력이 50% 이하일 때 추가 피해를 입힙니다.,Target,InvokerSkill,500501,
+720500,720500,내 체력이 100%일 경우 공격 시 치명타확률 증가,Source,HpGreaterThan,999,
+1010601,1010601,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1010602,1010602,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1010603,1010603,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1010604,1010604,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1010605,1010605,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1020601,1020601,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1020602,1020602,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1020603,1020603,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1020604,1020604,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1020605,1020605,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1030601,1030601,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1030602,1030602,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1030603,1030603,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1030604,1030604,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1030605,1030605,체력이 30% 미만 시 10초간 보호막을 생성한다. (쿨타임 120초),Source,HpLessThan,300,
+1110601,1110601,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1110602,1110602,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1110603,1110603,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1110604,1110604,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1110605,1110605,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1120601,1120601,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1120602,1120602,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1120603,1120603,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1120604,1120604,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1120605,1120605,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1130601,1130601,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1130602,1130602,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1130603,1130603,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1130604,1130604,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1130605,1130605,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),Source,HpLessThan,300,
+1210601,1210601,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1210602,1210602,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1210603,1210603,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1210604,1210604,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1210605,1210605,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1220601,1220601,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1220602,1220602,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1220603,1220603,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1220604,1220604,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1220605,1220605,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1230601,1230601,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1230602,1230602,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1230603,1230603,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1230604,1230604,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,
+1230605,1230605,체력이 30% 미만 시 체력을 회복한다. (쿨타임 120초),Source,HpLessThan,300,

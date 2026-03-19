@@ -1,0 +1,3116 @@
+﻿OID,Cid,Comment,Category,Value
+1,1,에러 방지,AttackVary,1
+10,10,방어력 감소,PhysicalDefenseVary,-500
+11,11,PC_공용_치명상 Lv.1 ,HealAcceptVaryper,-100
+12,12,PC_공용_치명상 Lv.2,HealAcceptVaryper,-200
+13,13,PC_공용_치명상 Lv.3,HealAcceptVaryper,-300
+14,14,PC_공용_치명상 Lv.4,HealAcceptVaryper,-400
+15,15,PC_공용_치명상 Lv.5,HealAcceptVaryper,-500
+16,16,PC_공용_느려짐 Lv.1,MoveSpeedVaryper,-100
+17,17,PC_공용_느려짐 Lv.2,MoveSpeedVaryper,-150
+18,18,PC_공용_느려짐 Lv.3,MoveSpeedVaryper,-200
+19,19,PC_공용_느려짐 Lv.4,MoveSpeedVaryper,-250
+20,20,PC_공용_느려짐 Lv.5,MoveSpeedVaryper,-300
+100,100,기본 크리 피해량,CriDamageVaryper,200
+101,101,체력 Lv.1,MaxHpVary,1500
+102,102,체력 Lv.2,MaxHpVary,1600
+103,103,체력 Lv.3,MaxHpVary,1700
+104,104,체력 Lv.4,MaxHpVary,1800
+105,105,체력 Lv.5,MaxHpVary,1900
+106,106,체력 Lv.6,MaxHpVary,2000
+107,107,체력 Lv.7,MaxHpVary,2100
+108,108,체력 Lv.8,MaxHpVary,2200
+109,109,체력 Lv.9,MaxHpVary,2300
+110,110,체력 Lv.10,MaxHpVary,2400
+111,111,체력 Lv.11,MaxHpVary,2500
+112,112,체력 Lv.12,MaxHpVary,2600
+113,113,체력 Lv.13,MaxHpVary,2700
+114,114,체력 Lv.14,MaxHpVary,2800
+115,115,체력 Lv.15,MaxHpVary,2900
+116,116,체력 Lv.16,MaxHpVary,3000
+117,117,체력 Lv.17,MaxHpVary,3100
+118,118,체력 Lv.18,MaxHpVary,3200
+119,119,체력 Lv.19,MaxHpVary,3300
+120,120,체력 Lv.20,MaxHpVary,3400
+121,121,체력 Lv.21,MaxHpVary,3500
+122,122,체력 Lv.22,MaxHpVary,3600
+123,123,체력 Lv.23,MaxHpVary,3700
+124,124,체력 Lv.24,MaxHpVary,3800
+125,125,체력 Lv.25,MaxHpVary,3900
+126,126,체력 Lv.26,MaxHpVary,4000
+127,127,체력 Lv.27,MaxHpVary,4100
+128,128,체력 Lv.28,MaxHpVary,4200
+129,129,체력 Lv.29,MaxHpVary,4300
+130,130,체력 Lv.30,MaxHpVary,4400
+131,131,체력 Lv.31,MaxHpVary,4500
+132,132,체력 Lv.32,MaxHpVary,4600
+133,133,체력 Lv.33,MaxHpVary,4700
+134,134,체력 Lv.34,MaxHpVary,4800
+135,135,체력 Lv.35,MaxHpVary,4900
+136,136,체력 Lv.36,MaxHpVary,5000
+137,137,체력 Lv.37,MaxHpVary,5100
+138,138,체력 Lv.38,MaxHpVary,5200
+139,139,체력 Lv.39,MaxHpVary,5300
+140,140,체력 Lv.40,MaxHpVary,5400
+141,141,체력 Lv.41,MaxHpVary,5500
+142,142,체력 Lv.42,MaxHpVary,5600
+143,143,체력 Lv.43,MaxHpVary,5700
+144,144,체력 Lv.44,MaxHpVary,5800
+145,145,체력 Lv.45,MaxHpVary,5900
+146,146,체력 Lv.46,MaxHpVary,6000
+147,147,체력 Lv.47,MaxHpVary,6100
+148,148,체력 Lv.48,MaxHpVary,6200
+149,149,체력 Lv.49,MaxHpVary,6300
+150,150,체력 Lv.50,MaxHpVary,6400
+151,151,체력 Lv.51,MaxHpVary,6500
+152,152,체력 Lv.52,MaxHpVary,6600
+153,153,체력 Lv.53,MaxHpVary,6700
+154,154,체력 Lv.54,MaxHpVary,6800
+155,155,체력 Lv.55,MaxHpVary,6900
+156,156,체력 Lv.56,MaxHpVary,7000
+157,157,체력 Lv.57,MaxHpVary,7100
+158,158,체력 Lv.58,MaxHpVary,7200
+159,159,체력 Lv.59,MaxHpVary,7300
+160,160,체력 Lv.60,MaxHpVary,7400
+161,161,체력 Lv.61,MaxHpVary,7500
+162,162,체력 Lv.62,MaxHpVary,7600
+163,163,체력 Lv.63,MaxHpVary,7700
+164,164,체력 Lv.64,MaxHpVary,7800
+165,165,체력 Lv.65,MaxHpVary,7900
+166,166,체력 Lv.66,MaxHpVary,8000
+167,167,체력 Lv.67,MaxHpVary,8100
+168,168,체력 Lv.68,MaxHpVary,8200
+169,169,체력 Lv.69,MaxHpVary,8300
+170,170,체력 Lv.70,MaxHpVary,8400
+171,171,체력 Lv.71,MaxHpVary,8500
+172,172,체력 Lv.72,MaxHpVary,8600
+173,173,체력 Lv.73,MaxHpVary,8700
+174,174,체력 Lv.74,MaxHpVary,8800
+175,175,체력 Lv.75,MaxHpVary,8900
+176,176,체력 Lv.76,MaxHpVary,9000
+177,177,체력 Lv.77,MaxHpVary,9100
+178,178,체력 Lv.78,MaxHpVary,9200
+179,179,체력 Lv.79,MaxHpVary,9300
+180,180,체력 Lv.80,MaxHpVary,9400
+181,181,체력 Lv.81,MaxHpVary,9500
+182,182,체력 Lv.82,MaxHpVary,9600
+183,183,체력 Lv.83,MaxHpVary,9700
+184,184,체력 Lv.84,MaxHpVary,9800
+185,185,체력 Lv.85,MaxHpVary,9900
+186,186,체력 Lv.86,MaxHpVary,10000
+187,187,체력 Lv.87,MaxHpVary,10100
+188,188,체력 Lv.88,MaxHpVary,10200
+189,189,체력 Lv.89,MaxHpVary,10300
+190,190,체력 Lv.90,MaxHpVary,10400
+191,191,체력 Lv.91,MaxHpVary,10500
+192,192,체력 Lv.92,MaxHpVary,10600
+193,193,체력 Lv.93,MaxHpVary,10700
+194,194,체력 Lv.94,MaxHpVary,10800
+195,195,체력 Lv.95,MaxHpVary,10900
+196,196,체력 Lv.96,MaxHpVary,11000
+197,197,체력 Lv.97,MaxHpVary,11100
+198,198,체력 Lv.98,MaxHpVary,11200
+199,199,체력 Lv.99,MaxHpVary,11300
+200,200,체력 Lv.100,MaxHpVary,11400
+201,201,마력 Lv.1,MaxMpVary,360
+202,202,마력 Lv.2,MaxMpVary,380
+203,203,마력 Lv.3,MaxMpVary,400
+204,204,마력 Lv.4,MaxMpVary,420
+205,205,마력 Lv.5,MaxMpVary,440
+206,206,마력 Lv.6,MaxMpVary,460
+207,207,마력 Lv.7,MaxMpVary,480
+208,208,마력 Lv.8,MaxMpVary,500
+209,209,마력 Lv.9,MaxMpVary,520
+210,210,마력 Lv.10,MaxMpVary,540
+211,211,마력 Lv.11,MaxMpVary,560
+212,212,마력 Lv.12,MaxMpVary,580
+213,213,마력 Lv.13,MaxMpVary,600
+214,214,마력 Lv.14,MaxMpVary,620
+215,215,마력 Lv.15,MaxMpVary,640
+216,216,마력 Lv.16,MaxMpVary,660
+217,217,마력 Lv.17,MaxMpVary,680
+218,218,마력 Lv.18,MaxMpVary,700
+219,219,마력 Lv.19,MaxMpVary,720
+220,220,마력 Lv.20,MaxMpVary,740
+221,221,마력 Lv.21,MaxMpVary,760
+222,222,마력 Lv.22,MaxMpVary,780
+223,223,마력 Lv.23,MaxMpVary,800
+224,224,마력 Lv.24,MaxMpVary,820
+225,225,마력 Lv.25,MaxMpVary,840
+226,226,마력 Lv.26,MaxMpVary,860
+227,227,마력 Lv.27,MaxMpVary,880
+228,228,마력 Lv.28,MaxMpVary,900
+229,229,마력 Lv.29,MaxMpVary,920
+230,230,마력 Lv.30,MaxMpVary,940
+231,231,마력 Lv.31,MaxMpVary,960
+232,232,마력 Lv.32,MaxMpVary,980
+233,233,마력 Lv.33,MaxMpVary,1000
+234,234,마력 Lv.34,MaxMpVary,1020
+235,235,마력 Lv.35,MaxMpVary,1040
+236,236,마력 Lv.36,MaxMpVary,1060
+237,237,마력 Lv.37,MaxMpVary,1080
+238,238,마력 Lv.38,MaxMpVary,1100
+239,239,마력 Lv.39,MaxMpVary,1120
+240,240,마력 Lv.40,MaxMpVary,1140
+241,241,마력 Lv.41,MaxMpVary,1160
+242,242,마력 Lv.42,MaxMpVary,1180
+243,243,마력 Lv.43,MaxMpVary,1200
+244,244,마력 Lv.44,MaxMpVary,1220
+245,245,마력 Lv.45,MaxMpVary,1240
+246,246,마력 Lv.46,MaxMpVary,1260
+247,247,마력 Lv.47,MaxMpVary,1280
+248,248,마력 Lv.48,MaxMpVary,1300
+249,249,마력 Lv.49,MaxMpVary,1320
+250,250,마력 Lv.50,MaxMpVary,1340
+251,251,마력 Lv.51,MaxMpVary,1360
+252,252,마력 Lv.52,MaxMpVary,1380
+253,253,마력 Lv.53,MaxMpVary,1400
+254,254,마력 Lv.54,MaxMpVary,1420
+255,255,마력 Lv.55,MaxMpVary,1440
+256,256,마력 Lv.56,MaxMpVary,1460
+257,257,마력 Lv.57,MaxMpVary,1480
+258,258,마력 Lv.58,MaxMpVary,1500
+259,259,마력 Lv.59,MaxMpVary,1520
+260,260,마력 Lv.60,MaxMpVary,1540
+261,261,마력 Lv.61,MaxMpVary,1560
+262,262,마력 Lv.62,MaxMpVary,1580
+263,263,마력 Lv.63,MaxMpVary,1600
+264,264,마력 Lv.64,MaxMpVary,1620
+265,265,마력 Lv.65,MaxMpVary,1640
+266,266,마력 Lv.66,MaxMpVary,1660
+267,267,마력 Lv.67,MaxMpVary,1680
+268,268,마력 Lv.68,MaxMpVary,1700
+269,269,마력 Lv.69,MaxMpVary,1720
+270,270,마력 Lv.70,MaxMpVary,1740
+271,271,마력 Lv.71,MaxMpVary,1760
+272,272,마력 Lv.72,MaxMpVary,1780
+273,273,마력 Lv.73,MaxMpVary,1800
+274,274,마력 Lv.74,MaxMpVary,1820
+275,275,마력 Lv.75,MaxMpVary,1840
+276,276,마력 Lv.76,MaxMpVary,1860
+277,277,마력 Lv.77,MaxMpVary,1880
+278,278,마력 Lv.78,MaxMpVary,1900
+279,279,마력 Lv.79,MaxMpVary,1920
+280,280,마력 Lv.80,MaxMpVary,1940
+281,281,마력 Lv.81,MaxMpVary,1960
+282,282,마력 Lv.82,MaxMpVary,1980
+283,283,마력 Lv.83,MaxMpVary,2000
+284,284,마력 Lv.84,MaxMpVary,2020
+285,285,마력 Lv.85,MaxMpVary,2040
+286,286,마력 Lv.86,MaxMpVary,2060
+287,287,마력 Lv.87,MaxMpVary,2080
+288,288,마력 Lv.88,MaxMpVary,2100
+289,289,마력 Lv.89,MaxMpVary,2120
+290,290,마력 Lv.90,MaxMpVary,2140
+291,291,마력 Lv.91,MaxMpVary,2160
+292,292,마력 Lv.92,MaxMpVary,2180
+293,293,마력 Lv.93,MaxMpVary,2200
+294,294,마력 Lv.94,MaxMpVary,2220
+295,295,마력 Lv.95,MaxMpVary,2240
+296,296,마력 Lv.96,MaxMpVary,2260
+297,297,마력 Lv.97,MaxMpVary,2280
+298,298,마력 Lv.98,MaxMpVary,2300
+299,299,마력 Lv.99,MaxMpVary,2320
+300,300,마력 Lv.100,MaxMpVary,2340
+301,301,체력 재생 Lv.1,RegenHpVary,5
+302,302,체력 재생 Lv.2,RegenHpVary,5
+303,303,체력 재생 Lv.3,RegenHpVary,5
+304,304,체력 재생 Lv.4,RegenHpVary,5
+305,305,체력 재생 Lv.5,RegenHpVary,5
+306,306,체력 재생 Lv.6,RegenHpVary,5
+307,307,체력 재생 Lv.7,RegenHpVary,5
+308,308,체력 재생 Lv.8,RegenHpVary,5
+309,309,체력 재생 Lv.9,RegenHpVary,5
+310,310,체력 재생 Lv.10,RegenHpVary,5
+311,311,체력 재생 Lv.11,RegenHpVary,5
+312,312,체력 재생 Lv.12,RegenHpVary,5
+313,313,체력 재생 Lv.13,RegenHpVary,5
+314,314,체력 재생 Lv.14,RegenHpVary,5
+315,315,체력 재생 Lv.15,RegenHpVary,5
+316,316,체력 재생 Lv.16,RegenHpVary,5
+317,317,체력 재생 Lv.17,RegenHpVary,5
+318,318,체력 재생 Lv.18,RegenHpVary,5
+319,319,체력 재생 Lv.19,RegenHpVary,5
+320,320,체력 재생 Lv.20,RegenHpVary,5
+321,321,체력 재생 Lv.21,RegenHpVary,5
+322,322,체력 재생 Lv.22,RegenHpVary,5
+323,323,체력 재생 Lv.23,RegenHpVary,5
+324,324,체력 재생 Lv.24,RegenHpVary,5
+325,325,체력 재생 Lv.25,RegenHpVary,5
+326,326,체력 재생 Lv.26,RegenHpVary,5
+327,327,체력 재생 Lv.27,RegenHpVary,5
+328,328,체력 재생 Lv.28,RegenHpVary,5
+329,329,체력 재생 Lv.29,RegenHpVary,5
+330,330,체력 재생 Lv.30,RegenHpVary,5
+331,331,체력 재생 Lv.31,RegenHpVary,5
+332,332,체력 재생 Lv.32,RegenHpVary,5
+333,333,체력 재생 Lv.33,RegenHpVary,5
+334,334,체력 재생 Lv.34,RegenHpVary,5
+335,335,체력 재생 Lv.35,RegenHpVary,5
+336,336,체력 재생 Lv.36,RegenHpVary,5
+337,337,체력 재생 Lv.37,RegenHpVary,5
+338,338,체력 재생 Lv.38,RegenHpVary,5
+339,339,체력 재생 Lv.39,RegenHpVary,5
+340,340,체력 재생 Lv.40,RegenHpVary,5
+341,341,체력 재생 Lv.41,RegenHpVary,5
+342,342,체력 재생 Lv.42,RegenHpVary,5
+343,343,체력 재생 Lv.43,RegenHpVary,5
+344,344,체력 재생 Lv.44,RegenHpVary,5
+345,345,체력 재생 Lv.45,RegenHpVary,5
+346,346,체력 재생 Lv.46,RegenHpVary,5
+347,347,체력 재생 Lv.47,RegenHpVary,5
+348,348,체력 재생 Lv.48,RegenHpVary,5
+349,349,체력 재생 Lv.49,RegenHpVary,5
+350,350,체력 재생 Lv.50,RegenHpVary,5
+351,351,체력 재생 Lv.51,RegenHpVary,5
+352,352,체력 재생 Lv.52,RegenHpVary,5
+353,353,체력 재생 Lv.53,RegenHpVary,5
+354,354,체력 재생 Lv.54,RegenHpVary,5
+355,355,체력 재생 Lv.55,RegenHpVary,5
+356,356,체력 재생 Lv.56,RegenHpVary,5
+357,357,체력 재생 Lv.57,RegenHpVary,5
+358,358,체력 재생 Lv.58,RegenHpVary,5
+359,359,체력 재생 Lv.59,RegenHpVary,5
+360,360,체력 재생 Lv.60,RegenHpVary,5
+361,361,체력 재생 Lv.61,RegenHpVary,5
+362,362,체력 재생 Lv.62,RegenHpVary,5
+363,363,체력 재생 Lv.63,RegenHpVary,5
+364,364,체력 재생 Lv.64,RegenHpVary,5
+365,365,체력 재생 Lv.65,RegenHpVary,5
+366,366,체력 재생 Lv.66,RegenHpVary,5
+367,367,체력 재생 Lv.67,RegenHpVary,5
+368,368,체력 재생 Lv.68,RegenHpVary,5
+369,369,체력 재생 Lv.69,RegenHpVary,5
+370,370,체력 재생 Lv.70,RegenHpVary,5
+371,371,체력 재생 Lv.71,RegenHpVary,5
+372,372,체력 재생 Lv.72,RegenHpVary,5
+373,373,체력 재생 Lv.73,RegenHpVary,5
+374,374,체력 재생 Lv.74,RegenHpVary,5
+375,375,체력 재생 Lv.75,RegenHpVary,5
+376,376,체력 재생 Lv.76,RegenHpVary,5
+377,377,체력 재생 Lv.77,RegenHpVary,5
+378,378,체력 재생 Lv.78,RegenHpVary,5
+379,379,체력 재생 Lv.79,RegenHpVary,5
+380,380,체력 재생 Lv.80,RegenHpVary,5
+381,381,체력 재생 Lv.81,RegenHpVary,5
+382,382,체력 재생 Lv.82,RegenHpVary,5
+383,383,체력 재생 Lv.83,RegenHpVary,5
+384,384,체력 재생 Lv.84,RegenHpVary,5
+385,385,체력 재생 Lv.85,RegenHpVary,5
+386,386,체력 재생 Lv.86,RegenHpVary,5
+387,387,체력 재생 Lv.87,RegenHpVary,5
+388,388,체력 재생 Lv.88,RegenHpVary,5
+389,389,체력 재생 Lv.89,RegenHpVary,5
+390,390,체력 재생 Lv.90,RegenHpVary,5
+391,391,체력 재생 Lv.91,RegenHpVary,5
+392,392,체력 재생 Lv.92,RegenHpVary,5
+393,393,체력 재생 Lv.93,RegenHpVary,5
+394,394,체력 재생 Lv.94,RegenHpVary,5
+395,395,체력 재생 Lv.95,RegenHpVary,5
+396,396,체력 재생 Lv.96,RegenHpVary,5
+397,397,체력 재생 Lv.97,RegenHpVary,5
+398,398,체력 재생 Lv.98,RegenHpVary,5
+399,399,체력 재생 Lv.99,RegenHpVary,5
+400,400,체력 재생 Lv.100,RegenHpVary,5
+401,401,마력 재생 Lv.1,RegenMpVary,3
+402,402,마력 재생 Lv.2,RegenMpVary,3
+403,403,마력 재생 Lv.3,RegenMpVary,3
+404,404,마력 재생 Lv.4,RegenMpVary,3
+405,405,마력 재생 Lv.5,RegenMpVary,3
+406,406,마력 재생 Lv.6,RegenMpVary,3
+407,407,마력 재생 Lv.7,RegenMpVary,3
+408,408,마력 재생 Lv.8,RegenMpVary,3
+409,409,마력 재생 Lv.9,RegenMpVary,3
+410,410,마력 재생 Lv.10,RegenMpVary,3
+411,411,마력 재생 Lv.11,RegenMpVary,3
+412,412,마력 재생 Lv.12,RegenMpVary,3
+413,413,마력 재생 Lv.13,RegenMpVary,3
+414,414,마력 재생 Lv.14,RegenMpVary,3
+415,415,마력 재생 Lv.15,RegenMpVary,3
+416,416,마력 재생 Lv.16,RegenMpVary,3
+417,417,마력 재생 Lv.17,RegenMpVary,3
+418,418,마력 재생 Lv.18,RegenMpVary,3
+419,419,마력 재생 Lv.19,RegenMpVary,3
+420,420,마력 재생 Lv.20,RegenMpVary,3
+421,421,마력 재생 Lv.21,RegenMpVary,3
+422,422,마력 재생 Lv.22,RegenMpVary,3
+423,423,마력 재생 Lv.23,RegenMpVary,3
+424,424,마력 재생 Lv.24,RegenMpVary,3
+425,425,마력 재생 Lv.25,RegenMpVary,3
+426,426,마력 재생 Lv.26,RegenMpVary,3
+427,427,마력 재생 Lv.27,RegenMpVary,3
+428,428,마력 재생 Lv.28,RegenMpVary,3
+429,429,마력 재생 Lv.29,RegenMpVary,3
+430,430,마력 재생 Lv.30,RegenMpVary,3
+431,431,마력 재생 Lv.31,RegenMpVary,3
+432,432,마력 재생 Lv.32,RegenMpVary,3
+433,433,마력 재생 Lv.33,RegenMpVary,3
+434,434,마력 재생 Lv.34,RegenMpVary,3
+435,435,마력 재생 Lv.35,RegenMpVary,3
+436,436,마력 재생 Lv.36,RegenMpVary,3
+437,437,마력 재생 Lv.37,RegenMpVary,3
+438,438,마력 재생 Lv.38,RegenMpVary,3
+439,439,마력 재생 Lv.39,RegenMpVary,3
+440,440,마력 재생 Lv.40,RegenMpVary,3
+441,441,마력 재생 Lv.41,RegenMpVary,3
+442,442,마력 재생 Lv.42,RegenMpVary,3
+443,443,마력 재생 Lv.43,RegenMpVary,3
+444,444,마력 재생 Lv.44,RegenMpVary,3
+445,445,마력 재생 Lv.45,RegenMpVary,3
+446,446,마력 재생 Lv.46,RegenMpVary,3
+447,447,마력 재생 Lv.47,RegenMpVary,3
+448,448,마력 재생 Lv.48,RegenMpVary,3
+449,449,마력 재생 Lv.49,RegenMpVary,3
+450,450,마력 재생 Lv.50,RegenMpVary,3
+451,451,마력 재생 Lv.51,RegenMpVary,3
+452,452,마력 재생 Lv.52,RegenMpVary,3
+453,453,마력 재생 Lv.53,RegenMpVary,3
+454,454,마력 재생 Lv.54,RegenMpVary,3
+455,455,마력 재생 Lv.55,RegenMpVary,3
+456,456,마력 재생 Lv.56,RegenMpVary,3
+457,457,마력 재생 Lv.57,RegenMpVary,3
+458,458,마력 재생 Lv.58,RegenMpVary,3
+459,459,마력 재생 Lv.59,RegenMpVary,3
+460,460,마력 재생 Lv.60,RegenMpVary,3
+461,461,마력 재생 Lv.61,RegenMpVary,3
+462,462,마력 재생 Lv.62,RegenMpVary,3
+463,463,마력 재생 Lv.63,RegenMpVary,3
+464,464,마력 재생 Lv.64,RegenMpVary,3
+465,465,마력 재생 Lv.65,RegenMpVary,3
+466,466,마력 재생 Lv.66,RegenMpVary,3
+467,467,마력 재생 Lv.67,RegenMpVary,3
+468,468,마력 재생 Lv.68,RegenMpVary,3
+469,469,마력 재생 Lv.69,RegenMpVary,3
+470,470,마력 재생 Lv.70,RegenMpVary,3
+471,471,마력 재생 Lv.71,RegenMpVary,3
+472,472,마력 재생 Lv.72,RegenMpVary,3
+473,473,마력 재생 Lv.73,RegenMpVary,3
+474,474,마력 재생 Lv.74,RegenMpVary,3
+475,475,마력 재생 Lv.75,RegenMpVary,3
+476,476,마력 재생 Lv.76,RegenMpVary,3
+477,477,마력 재생 Lv.77,RegenMpVary,3
+478,478,마력 재생 Lv.78,RegenMpVary,3
+479,479,마력 재생 Lv.79,RegenMpVary,3
+480,480,마력 재생 Lv.80,RegenMpVary,3
+481,481,마력 재생 Lv.81,RegenMpVary,3
+482,482,마력 재생 Lv.82,RegenMpVary,3
+483,483,마력 재생 Lv.83,RegenMpVary,3
+484,484,마력 재생 Lv.84,RegenMpVary,3
+485,485,마력 재생 Lv.85,RegenMpVary,3
+486,486,마력 재생 Lv.86,RegenMpVary,3
+487,487,마력 재생 Lv.87,RegenMpVary,3
+488,488,마력 재생 Lv.88,RegenMpVary,3
+489,489,마력 재생 Lv.89,RegenMpVary,3
+490,490,마력 재생 Lv.90,RegenMpVary,3
+491,491,마력 재생 Lv.91,RegenMpVary,3
+492,492,마력 재생 Lv.92,RegenMpVary,3
+493,493,마력 재생 Lv.93,RegenMpVary,3
+494,494,마력 재생 Lv.94,RegenMpVary,3
+495,495,마력 재생 Lv.95,RegenMpVary,3
+496,496,마력 재생 Lv.96,RegenMpVary,3
+497,497,마력 재생 Lv.97,RegenMpVary,3
+498,498,마력 재생 Lv.98,RegenMpVary,3
+499,499,마력 재생 Lv.99,RegenMpVary,3
+500,500,마력 재생 Lv.100,RegenMpVary,3
+601,601,누이여신 회복력 증가,RegenHpVary,25
+602,602,누이여신 회복력 증가,RegenMpVary,25
+603,603,누이 여신 기도 효과 : 공격력 증가,AttackVary,50
+604,604,누이 여신 기도 효과 : 방어력 증가,PhysicalDefenseVary,100
+605,605,누이 여신 기도 효과 : 이동 속도 증가,MoveSpeedVaryper,300
+606,606,누이 여신 기도 효과 : 재사용 대기 시간 감소,SkillCooldownAccVary,30
+1101,1101,무기 Tier1,AttackVary,60
+1102,1102,무기 Tier2,AttackVary,80
+1103,1103,무기 Tier3,AttackVary,120
+1104,1104,무기 Tier4,AttackVary,180
+1105,1105,무기 Tier5,AttackVary,260
+1106,1106,무기 Tier6,AttackVary,360
+1107,1107,무기 Tier7,AttackVary,480
+1201,1201,방어구 Tier1,PhysicalDefenseVary,30
+1202,1202,방어구 Tier2,PhysicalDefenseVary,40
+1203,1203,방어구 Tier3,PhysicalDefenseVary,60
+1204,1204,방어구 Tier4,PhysicalDefenseVary,90
+1205,1205,방어구 Tier5,PhysicalDefenseVary,130
+1206,1206,방어구 Tier6,PhysicalDefenseVary,180
+1207,1207,방어구 Tier7,PhysicalDefenseVary,240
+1301,1301,장신구(공격력) Tier1,AttackVary,15
+1302,1302,장신구(공격력) Tier2,AttackVary,20
+1303,1303,장신구(공격력) Tier3,AttackVary,30
+1304,1304,장신구(공격력) Tier4,AttackVary,45
+1305,1305,장신구(공격력) Tier5,AttackVary,65
+1306,1306,장신구(공격력) Tier6,AttackVary,90
+1307,1307,장신구(공격력) Tier7,AttackVary,120
+1401,1401,장신구(방어력) Tier1,PhysicalDefenseVary,30
+1402,1402,장신구(방어력) Tier2,PhysicalDefenseVary,40
+1403,1403,장신구(방어력) Tier3,PhysicalDefenseVary,60
+1404,1404,장신구(방어력) Tier4,PhysicalDefenseVary,90
+1405,1405,장신구(방어력) Tier5,PhysicalDefenseVary,130
+1406,1406,장신구(방어력) Tier6,PhysicalDefenseVary,180
+1407,1407,장신구(방어력) Tier7,PhysicalDefenseVary,240
+2102,2102,무기_고급 등급 능력치,AttackVary,20
+2103,2103,무기_희귀 등급 능력치,AttackVary,40
+2104,2104,무기_영웅 등급 능력치,AttackVary,60
+2105,2105,무기_고대 등급 능력치,AttackVary,80
+2106,2106,무기_유일 등급 능력치,AttackVary,100
+2107,2107,무기_유물 등급 능력치,AttackVary,120
+2202,2202,방어구_고급 등급 능력치,PhysicalDefenseVary,10
+2203,2203,방어구_희귀 등급 능력치,PhysicalDefenseVary,20
+2204,2204,방어구_영웅 등급 능력치,PhysicalDefenseVary,30
+2205,2205,방어구_고대 등급 능력치,PhysicalDefenseVary,40
+2206,2206,방어구_유일 등급 능력치,PhysicalDefenseVary,50
+2207,2207,방어구_유물 등급 능력치,PhysicalDefenseVary,60
+2302,2302,장신구(공격력)_고급 등급 능력치,AttackVary,5
+2303,2303,장신구(공격력)_희귀 등급 능력치,AttackVary,10
+2304,2304,장신구(공격력)_영웅 등급 능력치,AttackVary,15
+2305,2305,장신구(공격력)_고대 등급 능력치,AttackVary,20
+2306,2306,장신구(공격력)_유일 등급 능력치,AttackVary,25
+2307,2307,장신구(공격력)_유물 등급 능력치,AttackVary,30
+2402,2402,장신구(방어력)_고급 등급 능력치,PhysicalDefenseVary,10
+2403,2403,장신구(방어력)_희귀 등급 능력치,PhysicalDefenseVary,20
+2404,2404,장신구(방어력)_영웅 등급 능력치,PhysicalDefenseVary,30
+2405,2405,장신구(방어력)_고대 등급 능력치,PhysicalDefenseVary,40
+2406,2406,장신구(방어력)_유일 등급 능력치,PhysicalDefenseVary,50
+2407,2407,장신구(방어력)_유물 등급 능력치,PhysicalDefenseVary,60
+5000,5000,테스트 쾌속정,AttackVary,200
+5001,5001,테스트 쾌속정,ShipHitVary,100
+5002,5002,테스트 쾌속정,ShipMaxHpVary,2000
+5003,5003,테스트 쾌속정,ShipDefVary,50
+5004,5004,테스트 무역함,AttackVary,100
+5005,5005,테스트 무역함,ShipHitVary,100
+5006,5006,테스트 무역함,ShipMaxHpVary,3000
+5007,5007,테스트 무역함,ShipDefVary,100
+5008,5008,테스트 전투함,AttackVary,300
+5009,5009,테스트 전투함,ShipHitVary,100
+5010,5010,테스트 전투함,ShipMaxHpVary,4000
+5011,5011,테스트 전투함,ShipDefVary,150
+10101,10101,1티어 무기 1강,AttackVary,8
+10102,10102,1티어 무기 2강,AttackVary,16
+10103,10103,1티어 무기 3강,AttackVary,24
+10104,10104,1티어 무기 4강,AttackVary,32
+10105,10105,1티어 무기 5강,AttackVary,40
+10106,10106,1티어 무기 6강,AttackVary,48
+10107,10107,1티어 무기 7강,AttackVary,56
+10108,10108,1티어 무기 8강,AttackVary,64
+10109,10109,1티어 무기 9강,AttackVary,72
+10110,10110,1티어 무기 10강,AttackVary,80
+10201,10201,2티어 무기 1강,AttackVary,10
+10202,10202,2티어 무기 2강,AttackVary,20
+10203,10203,2티어 무기 3강,AttackVary,30
+10204,10204,2티어 무기 4강,AttackVary,40
+10205,10205,2티어 무기 5강,AttackVary,50
+10206,10206,2티어 무기 6강,AttackVary,60
+10207,10207,2티어 무기 7강,AttackVary,70
+10208,10208,2티어 무기 8강,AttackVary,80
+10209,10209,2티어 무기 9강,AttackVary,90
+10210,10210,2티어 무기 10강,AttackVary,100
+10301,10301,3티어 무기 1강,AttackVary,12
+10302,10302,3티어 무기 2강,AttackVary,24
+10303,10303,3티어 무기 3강,AttackVary,36
+10304,10304,3티어 무기 4강,AttackVary,48
+10305,10305,3티어 무기 5강,AttackVary,60
+10306,10306,3티어 무기 6강,AttackVary,72
+10307,10307,3티어 무기 7강,AttackVary,84
+10308,10308,3티어 무기 8강,AttackVary,96
+10309,10309,3티어 무기 9강,AttackVary,108
+10310,10310,3티어 무기 10강,AttackVary,120
+10401,10401,4티어 무기 1강,AttackVary,14
+10402,10402,4티어 무기 2강,AttackVary,28
+10403,10403,4티어 무기 3강,AttackVary,42
+10404,10404,4티어 무기 4강,AttackVary,56
+10405,10405,4티어 무기 5강,AttackVary,70
+10406,10406,4티어 무기 6강,AttackVary,84
+10407,10407,4티어 무기 7강,AttackVary,98
+10408,10408,4티어 무기 8강,AttackVary,112
+10409,10409,4티어 무기 9강,AttackVary,126
+10410,10410,4티어 무기 10강,AttackVary,140
+10501,10501,5티어 무기 1강,AttackVary,16
+10502,10502,5티어 무기 2강,AttackVary,32
+10503,10503,5티어 무기 3강,AttackVary,48
+10504,10504,5티어 무기 4강,AttackVary,64
+10505,10505,5티어 무기 5강,AttackVary,80
+10506,10506,5티어 무기 6강,AttackVary,96
+10507,10507,5티어 무기 7강,AttackVary,112
+10508,10508,5티어 무기 8강,AttackVary,128
+10509,10509,5티어 무기 9강,AttackVary,144
+10510,10510,5티어 무기 10강,AttackVary,160
+10601,10601,6티어 무기 1강,AttackVary,18
+10602,10602,6티어 무기 2강,AttackVary,36
+10603,10603,6티어 무기 3강,AttackVary,54
+10604,10604,6티어 무기 4강,AttackVary,72
+10605,10605,6티어 무기 5강,AttackVary,90
+10606,10606,6티어 무기 6강,AttackVary,108
+10607,10607,6티어 무기 7강,AttackVary,126
+10608,10608,6티어 무기 8강,AttackVary,144
+10609,10609,6티어 무기 9강,AttackVary,162
+10610,10610,6티어 무기 10강,AttackVary,180
+10701,10701,7티어 무기 1강,AttackVary,20
+10702,10702,7티어 무기 2강,AttackVary,40
+10703,10703,7티어 무기 3강,AttackVary,60
+10704,10704,7티어 무기 4강,AttackVary,80
+10705,10705,7티어 무기 5강,AttackVary,100
+10706,10706,7티어 무기 6강,AttackVary,120
+10707,10707,7티어 무기 7강,AttackVary,140
+10708,10708,7티어 무기 8강,AttackVary,160
+10709,10709,7티어 무기 9강,AttackVary,180
+10710,10710,7티어 무기 10강,AttackVary,200
+20101,20101,1티어 방어구 1강,PhysicalDefenseVary,4
+20102,20102,1티어 방어구 2강,PhysicalDefenseVary,8
+20103,20103,1티어 방어구 3강,PhysicalDefenseVary,12
+20104,20104,1티어 방어구 4강,PhysicalDefenseVary,16
+20105,20105,1티어 방어구 5강,PhysicalDefenseVary,20
+20106,20106,1티어 방어구 6강,PhysicalDefenseVary,24
+20107,20107,1티어 방어구 7강,PhysicalDefenseVary,28
+20108,20108,1티어 방어구 8강,PhysicalDefenseVary,32
+20109,20109,1티어 방어구 9강,PhysicalDefenseVary,36
+20110,20110,1티어 방어구 10강,PhysicalDefenseVary,40
+20201,20201,2티어 방어구 1강,PhysicalDefenseVary,5
+20202,20202,2티어 방어구 2강,PhysicalDefenseVary,10
+20203,20203,2티어 방어구 3강,PhysicalDefenseVary,15
+20204,20204,2티어 방어구 4강,PhysicalDefenseVary,20
+20205,20205,2티어 방어구 5강,PhysicalDefenseVary,25
+20206,20206,2티어 방어구 6강,PhysicalDefenseVary,30
+20207,20207,2티어 방어구 7강,PhysicalDefenseVary,35
+20208,20208,2티어 방어구 8강,PhysicalDefenseVary,40
+20209,20209,2티어 방어구 9강,PhysicalDefenseVary,45
+20210,20210,2티어 방어구 10강,PhysicalDefenseVary,50
+20301,20301,3티어 방어구 1강,PhysicalDefenseVary,6
+20302,20302,3티어 방어구 2강,PhysicalDefenseVary,12
+20303,20303,3티어 방어구 3강,PhysicalDefenseVary,18
+20304,20304,3티어 방어구 4강,PhysicalDefenseVary,24
+20305,20305,3티어 방어구 5강,PhysicalDefenseVary,30
+20306,20306,3티어 방어구 6강,PhysicalDefenseVary,36
+20307,20307,3티어 방어구 7강,PhysicalDefenseVary,42
+20308,20308,3티어 방어구 8강,PhysicalDefenseVary,48
+20309,20309,3티어 방어구 9강,PhysicalDefenseVary,54
+20310,20310,3티어 방어구 10강,PhysicalDefenseVary,60
+20401,20401,4티어 방어구 1강,PhysicalDefenseVary,7
+20402,20402,4티어 방어구 2강,PhysicalDefenseVary,14
+20403,20403,4티어 방어구 3강,PhysicalDefenseVary,21
+20404,20404,4티어 방어구 4강,PhysicalDefenseVary,28
+20405,20405,4티어 방어구 5강,PhysicalDefenseVary,35
+20406,20406,4티어 방어구 6강,PhysicalDefenseVary,42
+20407,20407,4티어 방어구 7강,PhysicalDefenseVary,49
+20408,20408,4티어 방어구 8강,PhysicalDefenseVary,56
+20409,20409,4티어 방어구 9강,PhysicalDefenseVary,63
+20410,20410,4티어 방어구 10강,PhysicalDefenseVary,70
+20501,20501,5티어 방어구 1강,PhysicalDefenseVary,8
+20502,20502,5티어 방어구 2강,PhysicalDefenseVary,16
+20503,20503,5티어 방어구 3강,PhysicalDefenseVary,24
+20504,20504,5티어 방어구 4강,PhysicalDefenseVary,32
+20505,20505,5티어 방어구 5강,PhysicalDefenseVary,40
+20506,20506,5티어 방어구 6강,PhysicalDefenseVary,48
+20507,20507,5티어 방어구 7강,PhysicalDefenseVary,56
+20508,20508,5티어 방어구 8강,PhysicalDefenseVary,64
+20509,20509,5티어 방어구 9강,PhysicalDefenseVary,72
+20510,20510,5티어 방어구 10강,PhysicalDefenseVary,80
+20601,20601,6티어 방어구 1강,PhysicalDefenseVary,9
+20602,20602,6티어 방어구 2강,PhysicalDefenseVary,18
+20603,20603,6티어 방어구 3강,PhysicalDefenseVary,27
+20604,20604,6티어 방어구 4강,PhysicalDefenseVary,36
+20605,20605,6티어 방어구 5강,PhysicalDefenseVary,45
+20606,20606,6티어 방어구 6강,PhysicalDefenseVary,54
+20607,20607,6티어 방어구 7강,PhysicalDefenseVary,63
+20608,20608,6티어 방어구 8강,PhysicalDefenseVary,72
+20609,20609,6티어 방어구 9강,PhysicalDefenseVary,81
+20610,20610,6티어 방어구 10강,PhysicalDefenseVary,90
+20701,20701,7티어 방어구 1강,PhysicalDefenseVary,10
+20702,20702,7티어 방어구 2강,PhysicalDefenseVary,20
+20703,20703,7티어 방어구 3강,PhysicalDefenseVary,30
+20704,20704,7티어 방어구 4강,PhysicalDefenseVary,40
+20705,20705,7티어 방어구 5강,PhysicalDefenseVary,50
+20706,20706,7티어 방어구 6강,PhysicalDefenseVary,60
+20707,20707,7티어 방어구 7강,PhysicalDefenseVary,70
+20708,20708,7티어 방어구 8강,PhysicalDefenseVary,80
+20709,20709,7티어 방어구 9강,PhysicalDefenseVary,90
+20710,20710,7티어 방어구 10강,PhysicalDefenseVary,100
+30301,30301,3티어 악세(공격력) 1강,AttackVary,6
+30302,30302,3티어 악세(공격력) 2강,AttackVary,12
+30303,30303,3티어 악세(공격력) 3강,AttackVary,18
+30304,30304,3티어 악세(공격력) 4강,AttackVary,24
+30305,30305,3티어 악세(공격력) 5강,AttackVary,30
+30306,30306,3티어 악세(공격력) 6강,AttackVary,36
+30307,30307,3티어 악세(공격력) 7강,AttackVary,42
+30308,30308,3티어 악세(공격력) 8강,AttackVary,48
+30309,30309,3티어 악세(공격력) 9강,AttackVary,54
+30310,30310,3티어 악세(공격력) 10강,AttackVary,60
+30401,30401,4티어 악세(공격력) 1강,AttackVary,7
+30402,30402,4티어 악세(공격력) 2강,AttackVary,14
+30403,30403,4티어 악세(공격력) 3강,AttackVary,21
+30404,30404,4티어 악세(공격력) 4강,AttackVary,28
+30405,30405,4티어 악세(공격력) 5강,AttackVary,35
+30406,30406,4티어 악세(공격력) 6강,AttackVary,42
+30407,30407,4티어 악세(공격력) 7강,AttackVary,49
+30408,30408,4티어 악세(공격력) 8강,AttackVary,56
+30409,30409,4티어 악세(공격력) 9강,AttackVary,63
+30410,30410,4티어 악세(공격력) 10강,AttackVary,70
+30501,30501,5티어 악세(공격력) 1강,AttackVary,8
+30502,30502,5티어 악세(공격력) 2강,AttackVary,16
+30503,30503,5티어 악세(공격력) 3강,AttackVary,24
+30504,30504,5티어 악세(공격력) 4강,AttackVary,32
+30505,30505,5티어 악세(공격력) 5강,AttackVary,40
+30506,30506,5티어 악세(공격력) 6강,AttackVary,48
+30507,30507,5티어 악세(공격력) 7강,AttackVary,56
+30508,30508,5티어 악세(공격력) 8강,AttackVary,64
+30509,30509,5티어 악세(공격력) 9강,AttackVary,72
+30510,30510,5티어 악세(공격력) 10강,AttackVary,80
+30601,30601,6티어 악세(공격력) 1강,AttackVary,9
+30602,30602,6티어 악세(공격력) 2강,AttackVary,18
+30603,30603,6티어 악세(공격력) 3강,AttackVary,27
+30604,30604,6티어 악세(공격력) 4강,AttackVary,36
+30605,30605,6티어 악세(공격력) 5강,AttackVary,45
+30606,30606,6티어 악세(공격력) 6강,AttackVary,54
+30607,30607,6티어 악세(공격력) 7강,AttackVary,63
+30608,30608,6티어 악세(공격력) 8강,AttackVary,72
+30609,30609,6티어 악세(공격력) 9강,AttackVary,81
+30610,30610,6티어 악세(공격력) 10강,AttackVary,90
+30701,30701,7티어 악세(공격력) 1강,AttackVary,10
+30702,30702,7티어 악세(공격력) 2강,AttackVary,20
+30703,30703,7티어 악세(공격력) 3강,AttackVary,30
+30704,30704,7티어 악세(공격력) 4강,AttackVary,40
+30705,30705,7티어 악세(공격력) 5강,AttackVary,50
+30706,30706,7티어 악세(공격력) 6강,AttackVary,60
+30707,30707,7티어 악세(공격력) 7강,AttackVary,70
+30708,30708,7티어 악세(공격력) 8강,AttackVary,80
+30709,30709,7티어 악세(공격력) 9강,AttackVary,90
+30710,30710,7티어 악세(공격력) 10강,AttackVary,100
+40301,40301,3티어 악세(방어력) 1강,PhysicalDefenseVary,6
+40302,40302,3티어 악세(방어력) 2강,PhysicalDefenseVary,12
+40303,40303,3티어 악세(방어력) 3강,PhysicalDefenseVary,18
+40304,40304,3티어 악세(방어력) 4강,PhysicalDefenseVary,24
+40305,40305,3티어 악세(방어력) 5강,PhysicalDefenseVary,30
+40306,40306,3티어 악세(방어력) 6강,PhysicalDefenseVary,36
+40307,40307,3티어 악세(방어력) 7강,PhysicalDefenseVary,42
+40308,40308,3티어 악세(방어력) 8강,PhysicalDefenseVary,48
+40309,40309,3티어 악세(방어력) 9강,PhysicalDefenseVary,54
+40310,40310,3티어 악세(방어력) 10강,PhysicalDefenseVary,60
+40401,40401,4티어 악세(방어력) 1강,PhysicalDefenseVary,7
+40402,40402,4티어 악세(방어력) 2강,PhysicalDefenseVary,14
+40403,40403,4티어 악세(방어력) 3강,PhysicalDefenseVary,21
+40404,40404,4티어 악세(방어력) 4강,PhysicalDefenseVary,28
+40405,40405,4티어 악세(방어력) 5강,PhysicalDefenseVary,35
+40406,40406,4티어 악세(방어력) 6강,PhysicalDefenseVary,42
+40407,40407,4티어 악세(방어력) 7강,PhysicalDefenseVary,49
+40408,40408,4티어 악세(방어력) 8강,PhysicalDefenseVary,56
+40409,40409,4티어 악세(방어력) 9강,PhysicalDefenseVary,63
+40410,40410,4티어 악세(방어력) 10강,PhysicalDefenseVary,70
+40501,40501,5티어 악세(방어력) 1강,PhysicalDefenseVary,8
+40502,40502,5티어 악세(방어력) 2강,PhysicalDefenseVary,16
+40503,40503,5티어 악세(방어력) 3강,PhysicalDefenseVary,24
+40504,40504,5티어 악세(방어력) 4강,PhysicalDefenseVary,32
+40505,40505,5티어 악세(방어력) 5강,PhysicalDefenseVary,40
+40506,40506,5티어 악세(방어력) 6강,PhysicalDefenseVary,48
+40507,40507,5티어 악세(방어력) 7강,PhysicalDefenseVary,56
+40508,40508,5티어 악세(방어력) 8강,PhysicalDefenseVary,64
+40509,40509,5티어 악세(방어력) 9강,PhysicalDefenseVary,72
+40510,40510,5티어 악세(방어력) 10강,PhysicalDefenseVary,80
+40601,40601,6티어 악세(방어력) 1강,PhysicalDefenseVary,9
+40602,40602,6티어 악세(방어력) 2강,PhysicalDefenseVary,18
+40603,40603,6티어 악세(방어력) 3강,PhysicalDefenseVary,27
+40604,40604,6티어 악세(방어력) 4강,PhysicalDefenseVary,36
+40605,40605,6티어 악세(방어력) 5강,PhysicalDefenseVary,45
+40606,40606,6티어 악세(방어력) 6강,PhysicalDefenseVary,54
+40607,40607,6티어 악세(방어력) 7강,PhysicalDefenseVary,63
+40608,40608,6티어 악세(방어력) 8강,PhysicalDefenseVary,72
+40609,40609,6티어 악세(방어력) 9강,PhysicalDefenseVary,81
+40610,40610,6티어 악세(방어력) 10강,PhysicalDefenseVary,90
+40701,40701,7티어 악세(방어력) 1강,PhysicalDefenseVary,10
+40702,40702,7티어 악세(방어력) 2강,PhysicalDefenseVary,20
+40703,40703,7티어 악세(방어력) 3강,PhysicalDefenseVary,30
+40704,40704,7티어 악세(방어력) 4강,PhysicalDefenseVary,40
+40705,40705,7티어 악세(방어력) 5강,PhysicalDefenseVary,50
+40706,40706,7티어 악세(방어력) 6강,PhysicalDefenseVary,60
+40707,40707,7티어 악세(방어력) 7강,PhysicalDefenseVary,70
+40708,40708,7티어 악세(방어력) 8강,PhysicalDefenseVary,80
+40709,40709,7티어 악세(방어력) 9강,PhysicalDefenseVary,90
+40710,40710,7티어 악세(방어력) 10강,PhysicalDefenseVary,100
+59101,59101,손재주 숙련도 보상_손재주 주사위 최댓값+3,DexterityDiceSideVary,3
+59102,59102,손재주 숙련도 보상_손재주 주사위 최댓값+6,DexterityDiceSideVary,6
+59103,59103,손재주 숙련도 보상_손재주 주사위 최댓값+10,DexterityDiceSideVary,10
+59104,59104,손재주 숙련도 보상_손재주 주사위 최댓값+15,DexterityDiceSideVary,15
+59105,59105,손재주 숙련도 보상_손재주 주사위 최댓값+20,DexterityDiceSideVary,20
+59106,59106,손재주 숙련도 보상_손재주 주사위 최댓값+25,DexterityDiceSideVary,25
+59107,59107,손재주 숙련도 보상_손재주 주사위 최댓값+30,DexterityDiceSideVary,30
+59150,59150,손재주 숙련도 보상_손재주 주사위 보너스+3,DexterityDiceModifierVary,3
+59151,59151,손재주 숙련도 보상_손재주 주사위 보너스+6,DexterityDiceModifierVary,6
+59152,59152,손재주 숙련도 보상_손재주 주사위 보너스+9,DexterityDiceModifierVary,9
+60001,60001,누이안 카드,MaxHpVary,25
+60002,60002,누이안 카드,MaxHpVary,40
+60003,60003,누이안 카드,MaxHpVary,55
+60004,60004,누이안 카드,MaxHpVary,70
+60005,60005,누이안 카드,MaxHpVary,85
+60006,60006,누이안 카드,MaxHpVary,100
+60007,60007,놀 카드,PhysicalDefenseVary,10
+60008,60008,놀 카드,PhysicalDefenseVary,15
+60009,60009,놀 카드,PhysicalDefenseVary,20
+60010,60010,놀 카드,PhysicalDefenseVary,25
+60011,60011,놀 카드,PhysicalDefenseVary,30
+60012,60012,놀 카드,PhysicalDefenseVary,35
+60013,60013,오크 카드,PhysicalDefenseVary,10
+60014,60014,오크 카드,PhysicalDefenseVary,15
+60015,60015,오크 카드,PhysicalDefenseVary,20
+60016,60016,오크 카드,PhysicalDefenseVary,25
+60017,60017,오크 카드,PhysicalDefenseVary,30
+60018,60018,오크 카드,PhysicalDefenseVary,35
+60019,60019,도바비안 카드,RegenHpVary,3
+60020,60020,도바비안 카드,RegenHpVary,5
+60021,60021,도바비안 카드,RegenHpVary,7
+60022,60022,도바비안 카드,RegenHpVary,9
+60023,60023,도바비안 카드,RegenHpVary,11
+60024,60024,도바비안 카드,RegenHpVary,13
+60025,60025,놀 우두머리 카드,MoveSpeedVaryper,30
+60026,60026,놀 우두머리 카드,MoveSpeedVaryper,50
+60027,60027,놀 우두머리 카드,MoveSpeedVaryper,70
+60028,60028,놀 우두머리 카드,MoveSpeedVaryper,90
+60029,60029,놀 우두머리 카드,MoveSpeedVaryper,110
+60030,60030,놀 우두머리 카드,MoveSpeedVaryper,130
+60031,60031,오크 족장 카드,AtkSpeedVaryper,40
+60032,60032,오크 족장 카드,AtkSpeedVaryper,60
+60033,60033,오크 족장 카드,AtkSpeedVaryper,80
+60034,60034,오크 족장 카드,AtkSpeedVaryper,100
+60035,60035,오크 족장 카드,AtkSpeedVaryper,120
+60036,60036,오크 족장 카드,AtkSpeedVaryper,140
+60037,60037,오우거 카드,AttackVary,3
+60038,60038,오우거 카드,AttackVary,5
+60039,60039,오우거 카드,AttackVary,7
+60040,60040,오우거 카드,AttackVary,9
+60041,60041,오우거 카드,AttackVary,11
+60042,60042,오우거 카드,AttackVary,13
+60043,60043,스켈레톤 카드,RegenMpVary,3
+60044,60044,스켈레톤 카드,RegenMpVary,5
+60045,60045,스켈레톤 카드,RegenMpVary,7
+60046,60046,스켈레톤 카드,RegenMpVary,9
+60047,60047,스켈레톤 카드,RegenMpVary,11
+60048,60048,스켈레톤 카드,RegenMpVary,13
+60049,60049,팬텀 카드,SkillCooldownAccVary,3
+60050,60050,팬텀 카드,SkillCooldownAccVary,5
+60051,60051,팬텀 카드,SkillCooldownAccVary,7
+60052,60052,팬텀 카드,SkillCooldownAccVary,9
+60053,60053,팬텀 카드,SkillCooldownAccVary,11
+60054,60054,팬텀 카드,SkillCooldownAccVary,13
+60055,60055,스칼니토스 카드,PVEDamageDownVaryper,20
+60056,60056,스칼니토스 카드,PVEDamageDownVaryper,30
+60057,60057,스칼니토스 카드,PVEDamageDownVaryper,40
+60058,60058,스칼니토스 카드,PVEDamageDownVaryper,50
+60059,60059,스칼니토스 카드,PVEDamageDownVaryper,60
+60060,60060,스칼니토스 카드,PVEDamageDownVaryper,70
+60061,60061,말라카돈 카드,PVEDamageUpVaryper,20
+60062,60062,말라카돈 카드,PVEDamageUpVaryper,30
+60063,60063,말라카돈 카드,PVEDamageUpVaryper,40
+60064,60064,말라카돈 카드,PVEDamageUpVaryper,50
+60065,60065,말라카돈 카드,PVEDamageUpVaryper,60
+60066,60066,말라카돈 카드,PVEDamageUpVaryper,70
+70030,70030,건강 증진,MaxHpVary,120
+70033,70033,건강 증진+3,MaxHpVary,200
+70035,70035,건강 증진+5,MaxHpVary,300
+70040,70040,명석함,MaxMpVary,60
+70043,70043,명석함+3,MaxMpVary,100
+70045,70045,명석함+5,MaxMpVary,150
+70050,70050,숲속 친구들 0,SCNegativeRecoveryVary,10
+70053,70053,숲속 친구들 3,SCNegativeRecoveryVary,20
+70055,70055,숲속 친구들 5,SCNegativeRecoveryVary,30
+70060,70060,어깨 동무 0,PhysicalDamageDownVaryper,30
+70063,70063,어깨 동무 3,PhysicalDamageDownVaryper,50
+70065,70065,어깨 동무 5,PhysicalDamageDownVaryper,70
+70070,70070,3대 500 0,PhysicalDamageDownVaryper,30
+70073,70073,3대 500 3,PhysicalDamageDownVaryper,50
+70075,70075,3대 500 5,PhysicalDamageDownVaryper,70
+70080,70080,이니스의 지배자 0,PVPDamageUpVaryper,30
+70083,70083,이니스의 지배자 3,PVPDamageUpVaryper,50
+70085,70085,이니스의 지배자 5,PVPDamageUpVaryper,70
+70090,70090,악의 무리 0,PVPDamageDownVaryper,30
+70093,70093,악의 무리 3,PVPDamageDownVaryper,50
+70095,70095,악의 무리 5,PVPDamageDownVaryper,70
+70100,70100,뼈다구와 멍멍이 0,CostMpDownVaryper,30
+70103,70103,뼈다구와 멍멍이 3,CostMpDownVaryper,50
+70105,70105,뼈다구와 멍멍이 5,CostMpDownVaryper,70
+70110,70110,덩치들 0,DamageUpVaryper,30
+70113,70113,덩치들 3,DamageUpVaryper,50
+70115,70115,덩치들 5,DamageUpVaryper,70
+70120,70120,언데드 친구들 0,DamageDownVaryper,30
+70123,70123,언데드 친구들 3,DamageDownVaryper,50
+70125,70125,언데드 친구들 5,DamageDownVaryper,70
+100451,100451,2티어 한손검 W 스킬_받는 피해 감소 Lv.1,DamageDownVaryper,30
+100551,100551,2티어 한손검 R 스킬_느려짐 Lv.1,MoveSpeedVaryper,-300
+100651,100651,가호의 빛(방어력 상승) Lv.1,DefenseVaryper,300
+100656,100656,가호의 빛(이동 속도 상승) Lv.1,MoveSpeedVaryper,300
+110101,110101,무기 숙련도 Tier1 1레벨,AttackVary,6
+110201,110201,무기 숙련도 Tier2 1레벨,AttackVary,12
+110301,110301,무기 숙련도 Tier3 1레벨,AttackVary,18
+110302,110302,무기 숙련도 Tier3 2레벨,AttackVary,24
+110303,110303,무기 숙련도 Tier3 3레벨,AttackVary,30
+110401,110401,무기 숙련도 Tier4 1레벨,AttackVary,36
+110402,110402,무기 숙련도 Tier4 2레벨,AttackVary,42
+110403,110403,무기 숙련도 Tier4 3레벨,AttackVary,48
+110501,110501,무기 숙련도 Tier5 1레벨,AttackVary,54
+110502,110502,무기 숙련도 Tier5 2레벨,AttackVary,60
+110503,110503,무기 숙련도 Tier5 3레벨,AttackVary,66
+110504,110504,무기 숙련도 Tier5 4레벨,AttackVary,72
+110505,110505,무기 숙련도 Tier5 5레벨,AttackVary,78
+110601,110601,무기 숙련도 Tier6 1레벨,AttackVary,84
+110602,110602,무기 숙련도 Tier6 2레벨,AttackVary,90
+110603,110603,무기 숙련도 Tier6 3레벨,AttackVary,96
+110604,110604,무기 숙련도 Tier6 4레벨,AttackVary,102
+110605,110605,무기 숙련도 Tier6 5레벨,AttackVary,108
+110701,110701,무기 숙련도 Tier7 1레벨,AttackVary,114
+110702,110702,무기 숙련도 Tier7 2레벨,AttackVary,120
+110703,110703,무기 숙련도 Tier7 3레벨,AttackVary,126
+110704,110704,무기 숙련도 Tier7 4레벨,AttackVary,132
+110705,110705,무기 숙련도 Tier7 5레벨,AttackVary,138
+110706,110706,무기 숙련도 Tier7 6레벨,AttackVary,144
+110707,110707,무기 숙련도 Tier7 7레벨,AttackVary,150
+110708,110708,무기 숙련도 Tier7 8레벨,AttackVary,156
+110709,110709,무기 숙련도 Tier7 9레벨,AttackVary,162
+120101,120101,방어구 숙련도 Tier1 1레벨,PhysicalDefenseVary,2
+120201,120201,방어구 숙련도 Tier2 1레벨,PhysicalDefenseVary,4
+120301,120301,방어구 숙련도 Tier3 1레벨,PhysicalDefenseVary,6
+120302,120302,방어구 숙련도 Tier3 2레벨,PhysicalDefenseVary,8
+120303,120303,방어구 숙련도 Tier3 3레벨,PhysicalDefenseVary,10
+120401,120401,방어구 숙련도 Tier4 1레벨,PhysicalDefenseVary,12
+120402,120402,방어구 숙련도 Tier4 2레벨,PhysicalDefenseVary,14
+120403,120403,방어구 숙련도 Tier4 3레벨,PhysicalDefenseVary,16
+120501,120501,방어구 숙련도 Tier5 1레벨,PhysicalDefenseVary,18
+120502,120502,방어구 숙련도 Tier5 2레벨,PhysicalDefenseVary,20
+120503,120503,방어구 숙련도 Tier5 3레벨,PhysicalDefenseVary,22
+120504,120504,방어구 숙련도 Tier5 4레벨,PhysicalDefenseVary,24
+120505,120505,방어구 숙련도 Tier5 5레벨,PhysicalDefenseVary,26
+120601,120601,방어구 숙련도 Tier6 1레벨,PhysicalDefenseVary,28
+120602,120602,방어구 숙련도 Tier6 2레벨,PhysicalDefenseVary,30
+120603,120603,방어구 숙련도 Tier6 3레벨,PhysicalDefenseVary,32
+120604,120604,방어구 숙련도 Tier6 4레벨,PhysicalDefenseVary,34
+120605,120605,방어구 숙련도 Tier6 5레벨,PhysicalDefenseVary,36
+120701,120701,방어구 숙련도 Tier7 1레벨,PhysicalDefenseVary,38
+120702,120702,방어구 숙련도 Tier7 2레벨,PhysicalDefenseVary,40
+120703,120703,방어구 숙련도 Tier7 3레벨,PhysicalDefenseVary,42
+120704,120704,방어구 숙련도 Tier7 4레벨,PhysicalDefenseVary,44
+120705,120705,방어구 숙련도 Tier7 5레벨,PhysicalDefenseVary,46
+120706,120706,방어구 숙련도 Tier7 6레벨,PhysicalDefenseVary,48
+120707,120707,방어구 숙련도 Tier7 7레벨,PhysicalDefenseVary,50
+120708,120708,방어구 숙련도 Tier7 8레벨,PhysicalDefenseVary,52
+120709,120709,방어구 숙련도 Tier7 9레벨,PhysicalDefenseVary,54
+110001,110001,신발 이속 10%,MoveSpeedVaryper,100
+140101,140101,1티어 공속 망토 9%,AtkSpeedVaryper,90
+140201,140201,2티어 공속 망토 12%,AtkSpeedVaryper,120
+140301,140301,3티어 공속 망토 16%,AtkSpeedVaryper,160
+140401,140401,4티어 공속 망토 21%,AtkSpeedVaryper,210
+140402,140402,4티어 이속 망토 12%,PhysicalDefenseVary,3
+140403,140403,4티어 이속 망토 12%,PhysicalDefenseVary,3
+140501,140501,5티어 공속 망토 27%,AtkSpeedVaryper,270
+140601,140601,6티어 공속 망토 35%,AtkSpeedVaryper,350
+140602,140602,6티어 이속 망토 21%,PhysicalDefenseVary,5
+140603,140603,6티어 이속 망토 21%,PhysicalDefenseVary,5
+140701,140701,7티어 공속 망토 45%,AtkSpeedVaryper,450
+141101,141101,1티어 이속 망토 5%,MoveSpeedVaryper,50
+141201,141201,2티어 이속 망토 7%,MoveSpeedVaryper,70
+141301,141301,3티어 이속 망토 9%,MoveSpeedVaryper,90
+141401,141401,4티어 이속 망토 12%,MoveSpeedVaryper,120
+141402,141402,4티어 이속 망토 12%,PhysicalDefenseVary,3
+141403,141403,4티어 이속 망토 12%,PhysicalDefenseVary,3
+141501,141501,5티어 이속 망토 16%,MoveSpeedVaryper,160
+141601,141601,6티어 이속 망토 21%,MoveSpeedVaryper,210
+141602,141602,6티어 이속 망토 21%,PhysicalDefenseVary,5
+141603,141603,6티어 이속 망토 21%,PhysicalDefenseVary,5
+141701,141701,7티어 이속 망토 30%,MoveSpeedVaryper,300
+141801,141801,스칼니토스 공속 망토,AtkSpeedVaryper,350
+141802,141802,스칼니토스 공속 망토,PVPDamageUpVaryper,50
+141803,141803,스칼니토스 공속 망토,PhysicalDefenseVary,5
+141804,141804,스칼니토스 공속 망토,PhysicalDefenseVary,5
+141901,141901,스칼니토스 이속 망토,MoveSpeedVaryper,210
+141902,141902,스칼니토스 이속 망토,PVPDamageUpVaryper,50
+141903,141903,스칼니토스 공속 망토,PhysicalDefenseVary,5
+141904,141904,스칼니토스 공속 망토,PhysicalDefenseVary,5
+142001,142001,깊은 심연의 틈 망토: 각성,SkillCooldownAccVary,120
+142002,142002,깊은 심연의 틈 망토: 각성,SkillCooldownAccVary,120
+142003,142003,깊은 심연의 틈 망토: 각성,SkillCooldownAccVary,120
+142004,142004,깊은 심연의 틈 망토: 각성,SkillCooldownAccVary,120
+142005,142005,깊은 심연의 틈 망토: 각성,SkillCooldownAccVary,120
+142006,142006,깊은 심연의 틈 망토: 각성,SkillCooldownAccVary,120
+142101,142101,1T 재사용 대기 시간 감소 망토 3%,SkillCooldownAccVary,30
+142102,142102,1T 재사용 대기 시간 감소 망토 3%,SkillCooldownAccVary,30
+142103,142103,1T 재사용 대기 시간 감소 망토 3%,SkillCooldownAccVary,30
+142104,142104,1T 재사용 대기 시간 감소 망토 3%,SkillCooldownAccVary,30
+142105,142105,1T 재사용 대기 시간 감소 망토 3%,SkillCooldownAccVary,30
+142106,142106,1T 재사용 대기 시간 감소 망토 3%,SkillCooldownAccVary,30
+142201,142201,2T 재사용 대기 시간 감소 망토 4%,SkillCooldownAccVary,40
+142202,142202,2T 재사용 대기 시간 감소 망토 4%,SkillCooldownAccVary,40
+142203,142203,2T 재사용 대기 시간 감소 망토 4%,SkillCooldownAccVary,40
+142204,142204,2T 재사용 대기 시간 감소 망토 4%,SkillCooldownAccVary,40
+142205,142205,2T 재사용 대기 시간 감소 망토 4%,SkillCooldownAccVary,40
+142206,142206,2T 재사용 대기 시간 감소 망토 4%,SkillCooldownAccVary,40
+142301,142301,3T 재사용 대기 시간 감소 망토 5%,SkillCooldownAccVary,50
+142302,142302,3T 재사용 대기 시간 감소 망토 5%,SkillCooldownAccVary,50
+142303,142303,3T 재사용 대기 시간 감소 망토 5%,SkillCooldownAccVary,50
+142304,142304,3T 재사용 대기 시간 감소 망토 5%,SkillCooldownAccVary,50
+142305,142305,3T 재사용 대기 시간 감소 망토 5%,SkillCooldownAccVary,50
+142306,142306,3T 재사용 대기 시간 감소 망토 5%,SkillCooldownAccVary,50
+142401,142401,4T 재사용 대기시간 망토 7%,SkillCooldownAccVary,70
+142402,142402,4T 재사용 대기시간 망토 7%,SkillCooldownAccVary,70
+142403,142403,4T 재사용 대기시간 망토 7%,SkillCooldownAccVary,70
+142404,142404,4T 재사용 대기시간 망토 7%,SkillCooldownAccVary,70
+142405,142405,4T 재사용 대기시간 망토 7%,SkillCooldownAccVary,70
+142406,142406,4T 재사용 대기시간 망토 7%,SkillCooldownAccVary,70
+142501,142501,5T 재사용 대기 시간 감소 망토 9%,SkillCooldownAccVary,90
+142502,142502,5T 재사용 대기 시간 감소 망토 9%,SkillCooldownAccVary,90
+142503,142503,5T 재사용 대기 시간 감소 망토 9%,SkillCooldownAccVary,90
+142504,142504,5T 재사용 대기 시간 감소 망토 9%,SkillCooldownAccVary,90
+142505,142505,5T 재사용 대기 시간 감소 망토 9%,SkillCooldownAccVary,90
+142506,142506,5T 재사용 대기 시간 감소 망토 9%,SkillCooldownAccVary,90
+142601,142601,6T 재사용 대기시간 망토 12%,SkillCooldownAccVary,120
+142602,142602,6T 재사용 대기시간 망토 12%,SkillCooldownAccVary,120
+142603,142603,6T 재사용 대기시간 망토 12%,SkillCooldownAccVary,120
+142604,142604,6T 재사용 대기시간 망토 12%,SkillCooldownAccVary,120
+142605,142605,6T 재사용 대기시간 망토 12%,SkillCooldownAccVary,120
+142606,142606,6T 재사용 대기시간 망토 12%,SkillCooldownAccVary,120
+142701,142701,7T 재사용 대기 시간 감소 망토 15%,SkillCooldownAccVary,150
+142702,142702,7T 재사용 대기 시간 감소 망토 15%,SkillCooldownAccVary,150
+142703,142703,7T 재사용 대기 시간 감소 망토 15%,SkillCooldownAccVary,150
+142704,142704,7T 재사용 대기 시간 감소 망토 15%,SkillCooldownAccVary,150
+142705,142705,7T 재사용 대기 시간 감소 망토 15%,SkillCooldownAccVary,150
+142706,142706,7T 재사용 대기 시간 감소 망토 15%,SkillCooldownAccVary,150
+150001,150001,망토,AtkSpeedVaryper,500
+150002,150002,망토,AtkSpeedVaryper,1000
+150003,150003,망토,AtkSpeedVaryper,1500
+150004,150004,망토,AtkSpeedVaryper,2000
+150005,150005,망토,AtkSpeedVaryper,2500
+150006,150006,망토,AtkSpeedVaryper,3000
+150007,150007,망토,AtkSpeedVaryper,9999
+150008,150008,망토,MoveSpeedVaryper,6000
+200000,200000,가벼운 손놀림 Lv.1,MoveSpeedVaryper,100
+200002,200002,가벼운 손놀림 Lv.2,MoveSpeedVaryper,200
+200004,200004,가벼운 손놀림 Lv.3,MoveSpeedVaryper,300
+200006,200006,가벼운 손놀림 Lv.4,MoveSpeedVaryper,400
+200008,200008,가벼운 손놀림 Lv.5,MoveSpeedVaryper,500
+200051,200051,대지 가르기 Lv.1,MoveSpeedVaryper,-100
+200052,200052,대지 가르기 Lv.2,MoveSpeedVaryper,-200
+200053,200053,대지 가르기 Lv.3,MoveSpeedVaryper,-300
+200054,200054,대지 가르기 Lv.4,MoveSpeedVaryper,-400
+200055,200055,대지 가르기 Lv.5,MoveSpeedVaryper,-500
+200151,200151,적진으로(넉다운) Lv.1,PhysicalDefenseVary,-10
+200152,200152,적진으로(넉다운) Lv.2,PhysicalDefenseVary,-20
+200153,200153,적진으로(넉다운) Lv.3,PhysicalDefenseVary,-30
+200154,200154,적진으로(넉다운) Lv.4,PhysicalDefenseVary,-40
+200155,200155,적진으로(넉다운) Lv.5,PhysicalDefenseVary,-50
+200256,200256,폭주_중첩 Lv.1,AttackVary,3
+200257,200257,폭주_중첩 Lv.2,AttackVary,4
+200258,200258,폭주_중첩 Lv.3,AttackVary,5
+200259,200259,폭주_중첩 Lv.4,AttackVary,6
+200260,200260,폭주_중첩 Lv.5,AttackVary,7
+200261,200261,폭주_이동 속도 증가 Lv.1,MoveSpeedVaryper,100
+200262,200262,폭주_이동 속도 증가 Lv.2,MoveSpeedVaryper,120
+200263,200263,폭주_이동 속도 증가 Lv.3,MoveSpeedVaryper,140
+200264,200264,폭주_이동 속도 증가 Lv.4,MoveSpeedVaryper,160
+200265,200265,폭주_이동 속도 증가 Lv.5,MoveSpeedVaryper,180
+200351,200351,위축_이동 속도 감소 Lv.1,MoveSpeedVaryper,-500
+200352,200352,위축_이동 속도 감소 Lv.2,MoveSpeedVaryper,-500
+200353,200353,위축_이동 속도 감소 Lv.3,MoveSpeedVaryper,-500
+200354,200354,위축_이동 속도 감소 Lv.4,MoveSpeedVaryper,-500
+200355,200355,위축_이동 속도 감소 Lv.5,MoveSpeedVaryper,-500
+200361,200361,위축_공격 속도 감소 Lv.1,AtkSpeedVaryper,-500
+200362,200362,위축_공격 속도 감소 Lv.2,AtkSpeedVaryper,-500
+200363,200363,위축_공격 속도 감소 Lv.3,AtkSpeedVaryper,-500
+200364,200364,위축_공격 속도 감소 Lv.4,AtkSpeedVaryper,-500
+200365,200365,위축_공격 속도 감소 Lv.5,AtkSpeedVaryper,-500
+200366,200366,위축_공격력 감소 Lv.1,AttackVary,-20
+200367,200367,위축_공격력 감소 Lv.2,AttackVary,-25
+200368,200368,위축_공격력 감소 Lv.3,AttackVary,-30
+200369,200369,위축_공격력 감소 Lv.4,AttackVary,-35
+200370,200370,위축_공격력 감소 Lv.5,AttackVary,-40
+200601,200601,2티어 양손검 몰아치기 Lv.1 공격 속도 330%,AtkSpeedVaryper,3300
+200651,200651,2티어 양손검 찌르기 스킬 느려짐 Lv.1,MoveSpeedVaryper,-300
+200751,200751,2티어 양손검 섬광의 길 스킬 아군 이동 속도 버프 Lv.1,MoveSpeedVaryper,600
+300161,300161,급습_Lv.1,AtkSpeedVaryper,500
+300162,300162,급습_Lv.2,AtkSpeedVaryper,550
+300163,300163,급습_Lv.3,AtkSpeedVaryper,600
+300164,300164,급습_Lv.4,AtkSpeedVaryper,650
+300165,300165,급습_Lv.5,AtkSpeedVaryper,700
+300171,300171,급습_Lv.1,CriVaryper,200
+300172,300172,급습_Lv.2,CriVaryper,200
+300173,300173,급습_Lv.3,CriVaryper,200
+300174,300174,급습_Lv.4,CriVaryper,200
+300175,300175,급습_Lv.5,CriVaryper,200
+300251,300251,방출 사격(슬로우) Lv.1,MoveSpeedVaryper,-400
+300252,300252,방출 사격(슬로우) Lv.2,MoveSpeedVaryper,-400
+300253,300253,방출 사격(슬로우) Lv.3,MoveSpeedVaryper,-400
+300254,300254,방출 사격(슬로우) Lv.4,MoveSpeedVaryper,-400
+300255,300255,방출 사격(슬로우) Lv.5,MoveSpeedVaryper,-400
+300301,300301,생존 본능_이속 증가,MoveSpeedVaryper,400
+300302,300302,생존 본능_이속 증가,MoveSpeedVaryper,450
+300303,300303,생존 본능_이속 증가,MoveSpeedVaryper,500
+300304,300304,생존 본능_이속 증가,MoveSpeedVaryper,550
+300305,300305,생존 본능_이속 증가,MoveSpeedVaryper,600
+300601,300601,2티어 활 Q 스킬_공격 속도 Lv.1,AtkSpeedVaryper,300
+300606,300606,2티어 활 Q 스킬_방어력 Lv.1,PhysicalDefenseVary,500
+300651,300651,2티어 활 W 스킬_느려짐 Lv.1,MoveSpeedVaryper,-300
+300701,300701,2티어 활 E 스킬_이동 속도 증가 Lv.1,MoveSpeedVaryper,300
+400045,400045,빙결 공격력 감소,AtkSpeedVaryper,-300
+400051,400051,젖음 느려짐 Lv.1 ,MoveSpeedVaryper,-150
+400052,400052,젖음 느려짐 Lv.2,MoveSpeedVaryper,-170
+400053,400053,젖음 느려짐 Lv.3,MoveSpeedVaryper,-190
+400054,400054,젖음 느려짐 Lv.4,MoveSpeedVaryper,-210
+400055,400055,젖음 느려짐 Lv.5,MoveSpeedVaryper,-300
+400201,400201,불의 장막 느려짐 Lv.1,MoveSpeedVaryper,-150
+500051,500051,신속_이동 속도 증가 Lv.1,MoveSpeedVaryper,700
+500052,500052,신속_이동 속도 증가 Lv.2,MoveSpeedVaryper,700
+500053,500053,신속_이동 속도 증가 Lv.3,MoveSpeedVaryper,700
+500054,500054,신속_이동 속도 증가 Lv.4,MoveSpeedVaryper,700
+500055,500055,신속_이동 속도 증가 Lv.5,MoveSpeedVaryper,700
+500056,500056,신속_공격력 증가 Lv.1,AttackVaryper,300
+500057,500057,신속_공격력 증가 Lv.2,AttackVaryper,330
+500058,500058,신속_공격력 증가 Lv.3,AttackVaryper,360
+500059,500059,신속_공격력 증가 Lv.4,AttackVaryper,390
+500060,500060,신속_공격력 증가 Lv.5,AttackVaryper,420
+500351,500351,R_암살자의 분노_치명타 확률 증가_Lv.1,CriVaryper,300
+500352,500352,R_암살자의 분노_치명타 확률 증가_Lv.2,CriVaryper,330
+500353,500353,R_암살자의 분노_치명타 확률 증가_Lv.3,CriVaryper,360
+500354,500354,R_암살자의 분노_치명타 확률 증가_Lv.4,CriVaryper,390
+500355,500355,R_암살자의 분노_치명타 확률 증가_Lv.5,CriVaryper,420
+500356,500356,R_암살자의 분노_치명타 대미지 증가_Lv.1,CriDamageVaryper,500
+500357,500357,R_암살자의 분노_치명타 대미지 증가_Lv.2,CriDamageVaryper,500
+500358,500358,R_암살자의 분노_치명타 대미지 증가_Lv.3,CriDamageVaryper,500
+500359,500359,R_암살자의 분노_치명타 대미지 증가_Lv.4,CriDamageVaryper,500
+500360,500360,R_암살자의 분노_치명타 대미지 증가_Lv.5,CriDamageVaryper,500
+500361,500361,R_암살자의 분노_공격 속도 증가_Lv.1,AtkSpeedVaryper,500
+500362,500362,R_암살자의 분노_공격 속도 증가_Lv.2,AtkSpeedVaryper,500
+500363,500363,R_암살자의 분노_공격 속도 증가_Lv.3,AtkSpeedVaryper,500
+500364,500364,R_암살자의 분노_공격 속도 증가_Lv.4,AtkSpeedVaryper,500
+500365,500365,R_암살자의 분노_공격 속도 증가_Lv.5,AtkSpeedVaryper,500
+500366,500366,R_암살자의 분노_이동 속도 증가_Lv.1,MoveSpeedVaryper,500
+500367,500367,R_암살자의 분노_이동 속도 증가_Lv.2,MoveSpeedVaryper,500
+500368,500368,R_암살자의 분노_이동 속도 증가_Lv.3,MoveSpeedVaryper,500
+500369,500369,R_암살자의 분노_이동 속도 증가_Lv.4,MoveSpeedVaryper,500
+500370,500370,R_암살자의 분노_이동 속도 증가_Lv.5,MoveSpeedVaryper,500
+500751,500751,유혈의 장막_느려짐_Lv.1,MoveSpeedVaryper,-300
+700019,700019,얼음 갑옷 Lv.1,MoveSpeedVaryper,-500
+700030,700030,지면 강타 Lv.1,MoveSpeedVaryper,-500
+700050,700050,광전사의 폭주 Lv.1,AtkSpeedVaryper,1000
+700500,700500,1T 천 갑옷(제작)_최대 마력 Lv.1,MaxMpVary,20
+700501,700501,1T 천 갑옷(제작)_최대 마력 Lv.2,MaxMpVary,24
+700502,700502,1T 가죽 갑옷(제작)_최대 생명력 Lv.1,MaxHpVary,75
+700503,700503,1T 가죽 갑옷(제작)_최대 생명력 Lv.2,MaxHpVary,85
+700504,700504,1T 판금 갑옷(제작)_받는 피해 감소 Lv.1,DamageDownVaryper,10
+700505,700505,1T 판금 갑옷(제작)_받는 피해 감소 Lv.2,DamageDownVaryper,12
+700506,700506,1T 천 장갑(제작)_공격력 Lv.1,AttackVary,5
+700507,700507,1T 천 장갑(제작)_공격력 Lv.2,AttackVary,6
+700508,700508,1T 가죽 장갑(제작)_공속 Lv.1,AtkSpeedVaryper,20
+700509,700509,1T 가죽 장갑(제작)_공속 Lv.2,AtkSpeedVaryper,23
+700510,700510,1T 판금 장갑(제작)_최대 생명력 Lv.1,MaxHpVary,75
+700511,700511,1T 판금 장갑(제작)_최대 생명력 Lv.2,MaxHpVary,85
+700512,700512,1T 천 투구(제작)_마력 자연 회복 Lv.1,RegenMpVary,3
+700513,700513,1T 천 투구(제작)_마력 자연 회복 Lv.2,RegenMpVary,4
+700514,700514,1T 가죽 투구(제작)_치명타 확률 Lv.1,CriVaryper,12
+700515,700515,1T 가죽 투구(제작)_치명타 확률 Lv.2,CriVaryper,14
+700516,700516,1T 판금 투구(제작)_생명력 자연 회복 Lv.1,RegenHpVary,5
+700517,700517,1T 판금 투구(제작)_생명력 자연 회복 Lv.2,RegenHpVary,6
+700518,700518,1T 천 신발(제작)_마력 자연 회복 Lv.1,RegenMpVary,3
+700519,700519,1T 천 신발(제작)_마력 자연 회복 Lv.2,RegenMpVary,4
+700520,700520,1T 가죽 신발(제작)_공격력 Lv.1,AttackVary,5
+700521,700521,1T 가죽 신발(제작)_공격력 Lv.2,AttackVary,6
+700522,700522,1T 판금 신발(제작)_방어력 Lv.1,DefenseVary,20
+700523,700523,1T 판금 신발(제작)_방어력 Lv.2,DefenseVary,24
+700524,700524,2T 천 갑옷(던전코어_a)_최대 마력 Lv.1,MaxMpVary,32
+700525,700525,2T 천 갑옷(던전코어_a)_마력 자연 회복 Lv.1,RegenMpVary,5
+700526,700526,2T 천 갑옷(던전코어_a)_최대 마력 Lv.2,MaxMpVary,36
+700527,700527,2T 천 갑옷(던전코어_a)_마력 자연 회복 Lv.2,RegenMpVary,6
+700528,700528,2T 천 갑옷(던전코어_a)_최대 마력 Lv.3,MaxMpVary,42
+700529,700529,2T 천 갑옷(던전코어_a)_마력 자연 회복 Lv.3,RegenMpVary,7
+700530,700530,2T 천 갑옷(던전코어_b)_최대 마력 Lv.1,MaxMpVary,32
+700531,700531,2T 천 갑옷(던전코어_b)_치명타 확률 Lv.1,CriVaryper,19
+700532,700532,2T 천 갑옷(던전코어_b)_최대 마력 Lv.2,MaxMpVary,36
+700533,700533,2T 천 갑옷(던전코어_b)_치명타 확률 Lv.2,CriVaryper,22
+700534,700534,2T 천 갑옷(던전코어_b)_최대 마력 Lv.3,MaxMpVary,42
+700535,700535,2T 천 갑옷(던전코어_b)_치명타 확률 Lv.3,CriVaryper,25
+700536,700536,2T 가죽 갑옷(던전코어_a)_최대 생명력 Lv.1,MaxHpVary,120
+700537,700537,2T 가죽 갑옷(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,8
+700538,700538,2T 가죽 갑옷(던전코어_a)_최대 생명력 Lv.2,MaxHpVary,140
+700539,700539,2T 가죽 갑옷(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,9
+700540,700540,2T 가죽 갑옷(던전코어_a)_최대 생명력 Lv.3,MaxHpVary,160
+700541,700541,2T 가죽 갑옷(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,10
+700542,700542,2T 가죽 갑옷(던전코어_b)_최대 생명력 Lv.1,MaxHpVary,120
+700543,700543,2T 가죽 갑옷(던전코어_b)_치명타 피해 Lv.1,CriDamageVaryper,95
+700544,700544,2T 가죽 갑옷(던전코어_b)_최대 생명력 Lv.2,MaxHpVary,140
+700545,700545,2T 가죽 갑옷(던전코어_b)_치명타 피해 Lv.2,CriDamageVaryper,109
+700546,700546,2T 가죽 갑옷(던전코어_b)_최대 생명력 Lv.3,MaxHpVary,160
+700547,700547,2T 가죽 갑옷(던전코어_b)_치명타 피해 Lv.3,CriDamageVaryper,126
+700548,700548,2T 판금 갑옷(던전코어_a)_받는 피해 감소 Lv.1,DamageDownVaryper,16
+700549,700549,2T 판금 갑옷(던전코어_a)_최대 생명력 Lv.1,MaxHpVary,120
+700550,700550,2T 판금 갑옷(던전코어_a)_받는 피해 감소 Lv.2,DamageDownVaryper,18
+700551,700551,2T 판금 갑옷(던전코어_a)_최대 생명력 Lv.2,MaxHpVary,140
+700552,700552,2T 판금 갑옷(던전코어_a)_받는 피해 감소 Lv.3,DamageDownVaryper,21
+700553,700553,2T 판금 갑옷(던전코어_a)_최대 생명력 Lv.3,MaxHpVary,160
+700554,700554,2T 판금 갑옷(던전코어_b)_받는 피해 감소 Lv.1,DamageDownVaryper,16
+700555,700555,2T 판금 갑옷(던전코어_b)_치명타 확률 Lv.1,CriVaryper,19
+700556,700556,2T 판금 갑옷(던전코어_b)_받는 피해 감소 Lv.2,DamageDownVaryper,18
+700557,700557,2T 판금 갑옷(던전코어_b)_치명타 확률 Lv.2,CriVaryper,22
+700558,700558,2T 판금 갑옷(던전코어_b)_받는 피해 감소 Lv.3,DamageDownVaryper,21
+700559,700559,2T 판금 갑옷(던전코어_b)_치명타 확률 Lv.3,CriVaryper,25
+700560,700560,2T 천 장갑(던전코어_a)_공격력 Lv.1,AttackVary,8
+700561,700561,2T 천 장갑(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,8
+700562,700562,2T 천 장갑(던전코어_a)_공격력 Lv.2,AttackVary,9
+700563,700563,2T 천 장갑(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,9
+700564,700564,2T 천 장갑(던전코어_a)_공격력 Lv.3,AttackVary,10
+700565,700565,2T 천 장갑(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,10
+700566,700566,2T 가죽 장갑(던전코어_a)_공속 Lv.1,AtkSpeedVaryper,32
+700567,700567,2T 가죽 장갑(던전코어_a)_치명타 피해 Lv.1,CriDamageVaryper,95
+700568,700568,2T 가죽 장갑(던전코어_a)_공속 Lv.2,AtkSpeedVaryper,37
+700569,700569,2T 가죽 장갑(던전코어_a)_치명타 피해 Lv.2,CriDamageVaryper,109
+700570,700570,2T 가죽 장갑(던전코어_a)_공속 Lv.3,AtkSpeedVaryper,42
+700571,700571,2T 가죽 장갑(던전코어_a)_치명타 피해 Lv.3,CriDamageVaryper,126
+700572,700572,2T 판금 장갑(던전코어_a)_최대 생명력 Lv.1,MaxHpVary,120
+700573,700573,2T 판금 장갑(던전코어_a)_공속 Lv.1,AtkSpeedVaryper,32
+700574,700574,2T 판금 장갑(던전코어_a)_최대 생명력 Lv.2,MaxHpVary,140
+700575,700575,2T 판금 장갑(던전코어_a)_공속 Lv.2,AtkSpeedVaryper,37
+700576,700576,2T 판금 장갑(던전코어_a)_최대 생명력 Lv.3,MaxHpVary,160
+700577,700577,2T 판금 장갑(던전코어_a)_공속 Lv.3,AtkSpeedVaryper,42
+700578,700578,2T 천 신발(보스드랍)_마력 자연 회복 Lv.1,RegenMpVary,5
+700579,700579,2T 천 신발(보스드랍)_공격력 Lv.1,AttackVary,8
+700580,700580,2T 천 신발(보스드랍)_마력 자연 회복 Lv.2,RegenMpVary,6
+700581,700581,2T 천 신발(보스드랍)_공격력 Lv.2,AttackVary,9
+700582,700582,2T 천 신발(보스드랍)_마력 자연 회복 Lv.3,RegenMpVary,7
+700583,700583,2T 천 신발(보스드랍)_공격력 Lv.3,AttackVary,10
+700584,700584,2T 가죽 신발(보스드랍)_공격력 Lv.1,AttackVary,8
+700585,700585,2T 가죽 신발(보스드랍)_치명타 확률 Lv.1,CriVaryper,19
+700586,700586,2T 가죽 신발(보스드랍)_공격력 Lv.2,AttackVary,9
+700587,700587,2T 가죽 신발(보스드랍)_치명타 확률 Lv.2,CriVaryper,22
+700588,700588,2T 가죽 신발(보스드랍)_공격력 Lv.3,AttackVary,10
+700589,700589,2T 가죽 신발(보스드랍)_치명타 확률 Lv.3,CriVaryper,25
+700590,700590,2T 판금 신발(보스드랍)_방어력 Lv.1,DefenseVary,32
+700591,700591,2T 판금 신발(보스드랍)_스킬 가속 Lv.1,SkillCooldownAccVary,8
+700592,700592,2T 판금 신발(보스드랍)_방어력 Lv.2,DefenseVary,36
+700593,700593,2T 판금 신발(보스드랍)_스킬 가속 Lv.2,SkillCooldownAccVary,9
+700594,700594,2T 판금 신발(보스드랍)_방어력 Lv.3,DefenseVary,42
+700595,700595,2T 판금 신발(보스드랍)_스킬 가속 Lv.3,SkillCooldownAccVary,10
+700596,700596,2T 천 장갑(전리품)_공격력 Lv.1,AttackVary,8
+700597,700597,2T 천 장갑(전리품)_마력 자연 회복 Lv.1,RegenMpVary,5
+700598,700598,2T 천 장갑(전리품)_공격력 Lv.2,AttackVary,9
+700599,700599,2T 천 장갑(전리품)_마력 자연 회복 Lv.2,RegenMpVary,6
+700600,700600,2T 천 장갑(전리품)_공격력 Lv.3,AttackVary,10
+700601,700601,2T 천 장갑(전리품)_마력 자연 회복 Lv.3,RegenMpVary,7
+700602,700602,2T 가죽 장갑(전리품)_공속 Lv.1,AtkSpeedVaryper,32
+700603,700603,2T 가죽 장갑(전리품)_스킬 가속 Lv.1,SkillCooldownAccVary,8
+700604,700604,2T 가죽 장갑(전리품)_공속 Lv.2,AtkSpeedVaryper,37
+700605,700605,2T 가죽 장갑(전리품)_스킬 가속 Lv.2,SkillCooldownAccVary,9
+700606,700606,2T 가죽 장갑(전리품)_공속 Lv.3,AtkSpeedVaryper,42
+700607,700607,2T 가죽 장갑(전리품)_스킬 가속 Lv.3,SkillCooldownAccVary,10
+700608,700608,2T 판금 장갑(전리품)_최대 생명력 Lv.1,MaxHpVary,120
+700609,700609,2T 판금 장갑(전리품)_받는 피해 감소 Lv.1,DamageDownVaryper,16
+700610,700610,2T 판금 장갑(전리품)_최대 생명력 Lv.2,MaxHpVary,140
+700611,700611,2T 판금 장갑(전리품)_받는 피해 감소 Lv.2,DamageDownVaryper,18
+700612,700612,2T 판금 장갑(전리품)_최대 생명력 Lv.3,MaxHpVary,160
+700613,700613,2T 판금 장갑(전리품)_받는 피해 감소 Lv.3,DamageDownVaryper,21
+700614,700614,2T 천 투구(전리품_a)_마력 자연 회복 Lv.1,RegenMpVary,5
+700615,700615,2T 천 투구(전리품_a)_최대 생명력 Lv.1,MaxHpVary,120
+700616,700616,2T 천 투구(전리품_a)_마력 자연 회복 Lv.2,RegenMpVary,6
+700617,700617,2T 천 투구(전리품_a)_최대 생명력 Lv.2,MaxHpVary,140
+700618,700618,2T 천 투구(전리품_a)_마력 자연 회복 Lv.3,RegenMpVary,7
+700619,700619,2T 천 투구(전리품_a)_최대 생명력 Lv.3,MaxHpVary,160
+700620,700620,2T 천 투구(전리품_b)_마력 자연 회복 Lv.1,RegenMpVary,10
+700621,700621,2T 천 투구(전리품_b)_마력 자연 회복 Lv.2,RegenMpVary,12
+700622,700622,2T 천 투구(전리품_b)_마력 자연 회복 Lv.3,RegenMpVary,14
+700623,700623,2T 가죽 투구(전리품_a)_치명타 확률 Lv.1,CriVaryper,19
+700624,700624,2T 가죽 투구(전리품_a)_최대 생명력 Lv.1,MaxHpVary,120
+700625,700625,2T 가죽 투구(전리품_a)_치명타 확률 Lv.2,CriVaryper,22
+700626,700626,2T 가죽 투구(전리품_a)_최대 생명력 Lv.2,MaxHpVary,140
+700627,700627,2T 가죽 투구(전리품_a)_치명타 확률 Lv.3,CriVaryper,25
+700628,700628,2T 가죽 투구(전리품_a)_최대 생명력 Lv.3,MaxHpVary,160
+700629,700629,2T 가죽 투구(전리품_b)_치명타 확률 Lv.1,CriVaryper,19
+700630,700630,2T 가죽 투구(전리품_b)_공격력 Lv.1,AttackVary,8
+700631,700631,2T 가죽 투구(전리품_b)_치명타 확률 Lv.2,CriVaryper,22
+700632,700632,2T 가죽 투구(전리품_b)_공격력 Lv.2,AttackVary,9
+700633,700633,2T 가죽 투구(전리품_b)_치명타 확률 Lv.3,CriVaryper,25
+700634,700634,2T 가죽 투구(전리품_b)_공격력 Lv.3,AttackVary,10
+700635,700635,2T 판금 투구(전리품_a)_생명력 자연 회복 Lv.1,RegenHpVary,8
+700636,700636,2T 판금 투구(전리품_a)_최대 생명력 Lv.1,MaxHpVary,120
+700637,700637,2T 판금 투구(전리품_a)_생명력 자연 회복 Lv.2,RegenHpVary,9
+700638,700638,2T 판금 투구(전리품_a)_최대 생명력 Lv.2,MaxHpVary,140
+700639,700639,2T 판금 투구(전리품_a)_생명력 자연 회복 Lv.3,RegenHpVary,10
+700640,700640,2T 판금 투구(전리품_a)_최대 생명력 Lv.3,MaxHpVary,160
+700641,700641,2T 판금 투구(전리품_b)_생명력 자연 회복 Lv.1,RegenHpVary,8
+700642,700642,2T 판금 투구(전리품_b)_치명타 확률 Lv.1,CriVaryper,19
+700643,700643,2T 판금 투구(전리품_b)_생명력 자연 회복 Lv.2,RegenHpVary,9
+700644,700644,2T 판금 투구(전리품_b)_치명타 확률 Lv.2,CriVaryper,22
+700645,700645,2T 판금 투구(전리품_b)_생명력 자연 회복 Lv.3,RegenHpVary,10
+700646,700646,2T 판금 투구(전리품_b)_치명타 확률 Lv.3,CriVaryper,25
+700647,700647,2T 천 신발(전리품)_마력 자연 회복 Lv.1,RegenMpVary,10
+700648,700648,2T 천 신발(전리품)_마력 자연 회복 Lv.2,RegenMpVary,12
+700649,700649,2T 천 신발(전리품)_마력 자연 회복 Lv.3,RegenMpVary,14
+700650,700650,2T 가죽 신발(전리품)_공격력 Lv.1,AttackVary,8
+700651,700651,2T 가죽 신발(전리품)_최대 생명력 Lv.1,MaxHpVary,120
+700652,700652,2T 가죽 신발(전리품)_공격력 Lv.2,AttackVary,9
+700653,700653,2T 가죽 신발(전리품)_최대 생명력 Lv.2,MaxHpVary,140
+700654,700654,2T 가죽 신발(전리품)_공격력 Lv.3,AttackVary,10
+700655,700655,2T 가죽 신발(전리품)_최대 생명력 Lv.3,MaxHpVary,160
+700656,700656,2T 판금 신발(전리품)_방어력 Lv.1,DefenseVary,32
+700657,700657,2T 판금 신발(전리품)_생명력 자연 회복 Lv.1,RegenHpVary,8
+700658,700658,2T 판금 신발(전리품)_방어력 Lv.2,DefenseVary,36
+700659,700659,2T 판금 신발(전리품)_생명력 자연 회복 Lv.2,RegenHpVary,9
+700660,700660,2T 판금 신발(전리품)_방어력 Lv.3,DefenseVary,42
+700661,700661,2T 판금 신발(전리품)_생명력 자연 회복 Lv.3,RegenHpVary,10
+700662,700662,3T 천 갑옷(던전코어_a)_공격력 Lv.1,AttackVary,12
+700663,700663,3T 천 갑옷(던전코어_a)_치명타 확률 Lv.1,CriVaryper,30
+700664,700664,3T 천 갑옷(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700665,700665,3T 천 갑옷(던전코어_a)_공격력 Lv.2,AttackVary,14
+700666,700666,3T 천 갑옷(던전코어_a)_치명타 확률 Lv.2,CriVaryper,34
+700667,700667,3T 천 갑옷(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700668,700668,3T 천 갑옷(던전코어_a)_공격력 Lv.3,AttackVary,16
+700669,700669,3T 천 갑옷(던전코어_a)_치명타 확률 Lv.3,CriVaryper,39
+700670,700670,3T 천 갑옷(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700671,700671,3T 천 갑옷(던전코어_a)_공격력 Lv.4,AttackVary,20
+700672,700672,3T 천 갑옷(던전코어_a)_치명타 확률 Lv.4,CriVaryper,45
+700673,700673,3T 천 갑옷(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700674,700674,3T 가죽 갑옷(던전코어_a)_최대 생명력 Lv.1,MaxHpVary,190
+700675,700675,3T 가죽 갑옷(던전코어_a)_치명타 확률 Lv.1,CriVaryper,30
+700676,700676,3T 가죽 갑옷(던전코어_a)_공격력 Lv.1,AttackVary,12
+700677,700677,3T 가죽 갑옷(던전코어_a)_최대 생명력 Lv.2,MaxHpVary,220
+700678,700678,3T 가죽 갑옷(던전코어_a)_치명타 확률 Lv.2,CriVaryper,34
+700679,700679,3T 가죽 갑옷(던전코어_a)_공격력 Lv.2,AttackVary,14
+700680,700680,3T 가죽 갑옷(던전코어_a)_최대 생명력 Lv.3,MaxHpVary,250
+700681,700681,3T 가죽 갑옷(던전코어_a)_치명타 확률 Lv.3,CriVaryper,39
+700682,700682,3T 가죽 갑옷(던전코어_a)_공격력 Lv.3,AttackVary,16
+700683,700683,3T 가죽 갑옷(던전코어_a)_최대 생명력 Lv.4,MaxHpVary,290
+700684,700684,3T 가죽 갑옷(던전코어_a)_치명타 확률 Lv.4,CriVaryper,45
+700685,700685,3T 가죽 갑옷(던전코어_a)_공격력 Lv.4,AttackVary,20
+700686,700686,3T 판금 갑옷(던전코어_a)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+700687,700687,3T 판금 갑옷(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700688,700688,3T 판금 갑옷(던전코어_a)_공속 Lv.1,AtkSpeedVaryper,50
+700689,700689,3T 판금 갑옷(던전코어_a)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+700690,700690,3T 판금 갑옷(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700691,700691,3T 판금 갑옷(던전코어_a)_공속 Lv.2,AtkSpeedVaryper,57
+700692,700692,3T 판금 갑옷(던전코어_a)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+700693,700693,3T 판금 갑옷(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700694,700694,3T 판금 갑옷(던전코어_a)_공속 Lv.3,AtkSpeedVaryper,66
+700695,700695,3T 판금 갑옷(던전코어_a)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+700696,700696,3T 판금 갑옷(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700697,700697,3T 판금 갑옷(던전코어_a)_공속 Lv.4,AtkSpeedVaryper,76
+700698,700698,3T 천 장갑(던전코어_a)_공격력 Lv.1,AttackVary,12
+700699,700699,3T 천 장갑(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700700,700700,3T 천 장갑(던전코어_a)_치명타 확률 Lv.1,CriVaryper,30
+700701,700701,3T 천 장갑(던전코어_a)_공격력 Lv.2,AttackVary,14
+700702,700702,3T 천 장갑(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700703,700703,3T 천 장갑(던전코어_a)_치명타 확률 Lv.2,CriVaryper,34
+700704,700704,3T 천 장갑(던전코어_a)_공격력 Lv.3,AttackVary,16
+700705,700705,3T 천 장갑(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700706,700706,3T 천 장갑(던전코어_a)_치명타 확률 Lv.3,CriVaryper,39
+700707,700707,3T 천 장갑(던전코어_a)_공격력 Lv.4,AttackVary,20
+700708,700708,3T 천 장갑(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700709,700709,3T 천 장갑(던전코어_a)_치명타 확률 Lv.4,CriVaryper,45
+700710,700710,3T 가죽 장갑(던전코어_a)_공속 Lv.1,AtkSpeedVaryper,50
+700711,700711,3T 가죽 장갑(던전코어_a)_치명타 피해 Lv.1,CriDamageVaryper,149
+700712,700712,3T 가죽 장갑(던전코어_a)_피해 증가 Lv.1,DamageUpVaryper,40
+700713,700713,3T 가죽 장갑(던전코어_a)_공속 Lv.2,AtkSpeedVaryper,57
+700714,700714,3T 가죽 장갑(던전코어_a)_치명타 피해 Lv.2,CriDamageVaryper,171
+700715,700715,3T 가죽 장갑(던전코어_a)_피해 증가 Lv.2,DamageUpVaryper,46
+700716,700716,3T 가죽 장갑(던전코어_a)_공속 Lv.3,AtkSpeedVaryper,66
+700717,700717,3T 가죽 장갑(던전코어_a)_치명타 피해 Lv.3,CriDamageVaryper,197
+700718,700718,3T 가죽 장갑(던전코어_a)_피해 증가 Lv.3,DamageUpVaryper,53
+700719,700719,3T 가죽 장갑(던전코어_a)_공속 Lv.4,AtkSpeedVaryper,76
+700720,700720,3T 가죽 장갑(던전코어_a)_치명타 피해 Lv.4,CriDamageVaryper,227
+700721,700721,3T 가죽 장갑(던전코어_a)_피해 증가 Lv.4,DamageUpVaryper,61
+700722,700722,3T 판금 장갑(던전코어_a)_최대 생명력 Lv.1,MaxHpVary,190
+700723,700723,3T 판금 장갑(던전코어_a)_공속 Lv.1,AtkSpeedVaryper,50
+700724,700724,3T 판금 장갑(던전코어_a)_치명타 확률 Lv.1,CriVaryper,30
+700725,700725,3T 판금 장갑(던전코어_a)_최대 생명력 Lv.2,MaxHpVary,220
+700726,700726,3T 판금 장갑(던전코어_a)_공속 Lv.2,AtkSpeedVaryper,57
+700727,700727,3T 판금 장갑(던전코어_a)_치명타 확률 Lv.2,CriVaryper,34
+700728,700728,3T 판금 장갑(던전코어_a)_최대 생명력 Lv.3,MaxHpVary,250
+700729,700729,3T 판금 장갑(던전코어_a)_공속 Lv.3,AtkSpeedVaryper,66
+700730,700730,3T 판금 장갑(던전코어_a)_치명타 확률 Lv.3,CriVaryper,39
+700731,700731,3T 판금 장갑(던전코어_a)_최대 생명력 Lv.4,MaxHpVary,290
+700732,700732,3T 판금 장갑(던전코어_a)_공속 Lv.4,AtkSpeedVaryper,76
+700733,700733,3T 판금 장갑(던전코어_a)_치명타 확률 Lv.4,CriVaryper,45
+700734,700734,3T 천 투구(던전코어_a)_마력 자연 회복 Lv.1,RegenMpVary,8
+700735,700735,3T 천 투구(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700736,700736,3T 천 투구(던전코어_a)_공속 Lv.1,AtkSpeedVaryper,50
+700737,700737,3T 천 투구(던전코어_a)_마력 자연 회복 Lv.2,RegenMpVary,9
+700738,700738,3T 천 투구(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700739,700739,3T 천 투구(던전코어_a)_공속 Lv.2,AtkSpeedVaryper,57
+700740,700740,3T 천 투구(던전코어_a)_마력 자연 회복 Lv.3,RegenMpVary,10
+700741,700741,3T 천 투구(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700742,700742,3T 천 투구(던전코어_a)_공속 Lv.3,AtkSpeedVaryper,66
+700743,700743,3T 천 투구(던전코어_a)_마력 자연 회복 Lv.4,RegenMpVary,12
+700744,700744,3T 천 투구(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700745,700745,3T 천 투구(던전코어_a)_공속 Lv.4,AtkSpeedVaryper,76
+700746,700746,3T 가죽 투구(던전코어_a)_치명타 확률 Lv.1,CriVaryper,30
+700747,700747,3T 가죽 투구(던전코어_a)_치명타 피해 Lv.1,CriDamageVaryper,149
+700748,700748,3T 가죽 투구(던전코어_a)_공속 Lv.1,AtkSpeedVaryper,50
+700749,700749,3T 가죽 투구(던전코어_a)_치명타 확률 Lv.2,CriVaryper,34
+700750,700750,3T 가죽 투구(던전코어_a)_치명타 피해 Lv.2,CriDamageVaryper,171
+700751,700751,3T 가죽 투구(던전코어_a)_공속 Lv.2,AtkSpeedVaryper,57
+700752,700752,3T 가죽 투구(던전코어_a)_치명타 확률 Lv.3,CriVaryper,39
+700753,700753,3T 가죽 투구(던전코어_a)_치명타 피해 Lv.3,CriDamageVaryper,197
+700754,700754,3T 가죽 투구(던전코어_a)_공속 Lv.3,AtkSpeedVaryper,66
+700755,700755,3T 가죽 투구(던전코어_a)_치명타 확률 Lv.4,CriVaryper,45
+700756,700756,3T 가죽 투구(던전코어_a)_치명타 피해 Lv.4,CriDamageVaryper,227
+700757,700757,3T 가죽 투구(던전코어_a)_공속 Lv.4,AtkSpeedVaryper,76
+700758,700758,3T 판금 투구(던전코어_a)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+700759,700759,3T 판금 투구(던전코어_a)_최대 생명력 Lv.1,MaxHpVary,190
+700760,700760,3T 판금 투구(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700761,700761,3T 판금 투구(던전코어_a)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+700762,700762,3T 판금 투구(던전코어_a)_최대 생명력 Lv.2,MaxHpVary,220
+700763,700763,3T 판금 투구(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700764,700764,3T 판금 투구(던전코어_a)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+700765,700765,3T 판금 투구(던전코어_a)_최대 생명력 Lv.3,MaxHpVary,250
+700766,700766,3T 판금 투구(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700767,700767,3T 판금 투구(던전코어_a)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+700768,700768,3T 판금 투구(던전코어_a)_최대 생명력 Lv.4,MaxHpVary,290
+700769,700769,3T 판금 투구(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700770,700770,3T 천 신발(던전코어_a)_공격력 Lv.1,AttackVary,12
+700771,700771,3T 천 신발(던전코어_a)_치명타 확률 Lv.1,CriVaryper,30
+700772,700772,3T 천 신발(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700773,700773,3T 천 신발(던전코어_a)_공격력 Lv.2,AttackVary,14
+700774,700774,3T 천 신발(던전코어_a)_치명타 확률 Lv.2,CriVaryper,34
+700775,700775,3T 천 신발(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700776,700776,3T 천 신발(던전코어_a)_공격력 Lv.3,AttackVary,16
+700777,700777,3T 천 신발(던전코어_a)_치명타 확률 Lv.3,CriVaryper,39
+700778,700778,3T 천 신발(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700779,700779,3T 천 신발(던전코어_a)_공격력 Lv.4,AttackVary,20
+700780,700780,3T 천 신발(던전코어_a)_치명타 확률 Lv.4,CriVaryper,45
+700781,700781,3T 천 신발(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700782,700782,3T 가죽 신발(던전코어_a)_치명타 확률 Lv.1,CriVaryper,30
+700783,700783,3T 가죽 신발(던전코어_a)_치명타 피해 Lv.1,CriDamageVaryper,149
+700784,700784,3T 가죽 신발(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700785,700785,3T 가죽 신발(던전코어_a)_치명타 확률 Lv.2,CriVaryper,34
+700786,700786,3T 가죽 신발(던전코어_a)_치명타 피해 Lv.2,CriDamageVaryper,171
+700787,700787,3T 가죽 신발(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700788,700788,3T 가죽 신발(던전코어_a)_치명타 확률 Lv.3,CriVaryper,39
+700789,700789,3T 가죽 신발(던전코어_a)_치명타 피해 Lv.3,CriDamageVaryper,197
+700790,700790,3T 가죽 신발(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700791,700791,3T 가죽 신발(던전코어_a)_치명타 확률 Lv.4,CriVaryper,45
+700792,700792,3T 가죽 신발(던전코어_a)_치명타 피해 Lv.4,CriDamageVaryper,227
+700793,700793,3T 가죽 신발(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700794,700794,3T 판금 신발(던전코어_a)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+700795,700795,3T 판금 신발(던전코어_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700796,700796,3T 판금 신발(던전코어_a)_피해 증가 Lv.1,DamageUpVaryper,40
+700797,700797,3T 판금 신발(던전코어_a)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+700798,700798,3T 판금 신발(던전코어_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700799,700799,3T 판금 신발(던전코어_a)_피해 증가 Lv.2,DamageUpVaryper,46
+700800,700800,3T 판금 신발(던전코어_a)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+700801,700801,3T 판금 신발(던전코어_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700802,700802,3T 판금 신발(던전코어_a)_피해 증가 Lv.3,DamageUpVaryper,53
+700803,700803,3T 판금 신발(던전코어_a)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+700804,700804,3T 판금 신발(던전코어_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700805,700805,3T 판금 신발(던전코어_a)_피해 증가 Lv.4,DamageUpVaryper,61
+700806,700806,3T 천 갑옷(드랍)_최대 마력 Lv.1,MaxMpVary,50
+700807,700807,3T 천 갑옷(드랍)_치명타 확률 Lv.1,CriVaryper,30
+700808,700808,3T 천 갑옷(드랍)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700809,700809,3T 천 갑옷(드랍)_최대 마력 Lv.2,MaxMpVary,55
+700810,700810,3T 천 갑옷(드랍)_치명타 확률 Lv.2,CriVaryper,34
+700811,700811,3T 천 갑옷(드랍)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700812,700812,3T 천 갑옷(드랍)_최대 마력 Lv.3,MaxMpVary,65
+700813,700813,3T 천 갑옷(드랍)_치명타 확률 Lv.3,CriVaryper,39
+700814,700814,3T 천 갑옷(드랍)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700815,700815,3T 천 갑옷(드랍)_최대 마력 Lv.4,MaxMpVary,75
+700816,700816,3T 천 갑옷(드랍)_치명타 확률 Lv.4,CriVaryper,45
+700817,700817,3T 천 갑옷(드랍)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700818,700818,3T 가죽 갑옷(드랍)_최대 생명력 Lv.1,MaxHpVary,190
+700819,700819,3T 가죽 갑옷(드랍)_치명타 피해 Lv.1,CriDamageVaryper,149
+700820,700820,3T 가죽 갑옷(드랍)_공격력 Lv.1,AttackVary,12
+700821,700821,3T 가죽 갑옷(드랍)_최대 생명력 Lv.2,MaxHpVary,220
+700822,700822,3T 가죽 갑옷(드랍)_치명타 피해 Lv.2,CriDamageVaryper,171
+700823,700823,3T 가죽 갑옷(드랍)_공격력 Lv.2,AttackVary,14
+700824,700824,3T 가죽 갑옷(드랍)_최대 생명력 Lv.3,MaxHpVary,250
+700825,700825,3T 가죽 갑옷(드랍)_치명타 피해 Lv.3,CriDamageVaryper,197
+700826,700826,3T 가죽 갑옷(드랍)_공격력 Lv.3,AttackVary,16
+700827,700827,3T 가죽 갑옷(드랍)_최대 생명력 Lv.4,MaxHpVary,290
+700828,700828,3T 가죽 갑옷(드랍)_치명타 피해 Lv.4,CriDamageVaryper,227
+700829,700829,3T 가죽 갑옷(드랍)_공격력 Lv.4,AttackVary,20
+700830,700830,3T 판금 갑옷(드랍)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+700831,700831,3T 판금 갑옷(드랍)_치명타 확률 Lv.1,CriVaryper,30
+700832,700832,3T 판금 갑옷(드랍)_치명타 피해 Lv.1,CriDamageVaryper,149
+700833,700833,3T 판금 갑옷(드랍)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+700834,700834,3T 판금 갑옷(드랍)_치명타 확률 Lv.2,CriVaryper,34
+700835,700835,3T 판금 갑옷(드랍)_치명타 피해 Lv.2,CriDamageVaryper,171
+700836,700836,3T 판금 갑옷(드랍)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+700837,700837,3T 판금 갑옷(드랍)_치명타 확률 Lv.3,CriVaryper,39
+700838,700838,3T 판금 갑옷(드랍)_치명타 피해 Lv.3,CriDamageVaryper,197
+700839,700839,3T 판금 갑옷(드랍)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+700840,700840,3T 판금 갑옷(드랍)_치명타 확률 Lv.4,CriVaryper,45
+700841,700841,3T 판금 갑옷(드랍)_치명타 피해 Lv.4,CriDamageVaryper,227
+700842,700842,3T 천 투구(드랍)_마력 자연 회복 Lv.1,RegenMpVary,16
+700843,700843,3T 천 투구(드랍)_치유력 Lv.1,HealAmpVaryper,43
+700844,700844,3T 천 투구(드랍)_마력 자연 회복 Lv.2,RegenMpVary,18
+700845,700845,3T 천 투구(드랍)_치유력 Lv.2,HealAmpVaryper,50
+700846,700846,3T 천 투구(드랍)_마력 자연 회복 Lv.3,RegenMpVary,20
+700847,700847,3T 천 투구(드랍)_치유력 Lv.3,HealAmpVaryper,57
+700848,700848,3T 천 투구(드랍)_마력 자연 회복 Lv.4,RegenMpVary,24
+700849,700849,3T 천 투구(드랍)_치유력 Lv.4,HealAmpVaryper,65
+700850,700850,3T 가죽 투구(드랍)_치명타 확률 Lv.1,CriVaryper,30
+700851,700851,3T 가죽 투구(드랍)_공격력 Lv.1,AttackVary,12
+700852,700852,3T 가죽 투구(드랍)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700853,700853,3T 가죽 투구(드랍)_치명타 확률 Lv.2,CriVaryper,34
+700854,700854,3T 가죽 투구(드랍)_공격력 Lv.2,AttackVary,14
+700855,700855,3T 가죽 투구(드랍)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700856,700856,3T 가죽 투구(드랍)_치명타 확률 Lv.3,CriVaryper,39
+700857,700857,3T 가죽 투구(드랍)_공격력 Lv.3,AttackVary,16
+700858,700858,3T 가죽 투구(드랍)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700859,700859,3T 가죽 투구(드랍)_치명타 확률 Lv.4,CriVaryper,45
+700860,700860,3T 가죽 투구(드랍)_공격력 Lv.4,AttackVary,20
+700861,700861,3T 가죽 투구(드랍)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700862,700862,3T 판금 투구(드랍)_생명력 자연 회복 Lv.1,RegenHpVary,12
+700863,700863,3T 판금 투구(드랍)_최대 생명력 Lv.1,MaxHpVary,190
+700864,700864,3T 판금 투구(드랍)_상태이상 저항력 Lv.1,SCNegativeRecoveryVary,50
+700865,700865,3T 판금 투구(드랍)_생명력 자연 회복 Lv.2,RegenHpVary,14
+700866,700866,3T 판금 투구(드랍)_최대 생명력 Lv.2,MaxHpVary,220
+700867,700867,3T 판금 투구(드랍)_상태이상 저항력 Lv.2,SCNegativeRecoveryVary,57
+700868,700868,3T 판금 투구(드랍)_생명력 자연 회복 Lv.3,RegenHpVary,16
+700869,700869,3T 판금 투구(드랍)_최대 생명력 Lv.3,MaxHpVary,250
+700870,700870,3T 판금 투구(드랍)_상태이상 저항력 Lv.3,SCNegativeRecoveryVary,66
+700871,700871,3T 판금 투구(드랍)_생명력 자연 회복 Lv.4,RegenHpVary,20
+700872,700872,3T 판금 투구(드랍)_최대 생명력 Lv.4,MaxHpVary,290
+700873,700873,3T 판금 투구(드랍)_상태이상 저항력 Lv.4,SCNegativeRecoveryVary,76
+700874,700874,3T 천 신발(드랍_a)_마력 자연 회복 Lv.1,RegenMpVary,8
+700875,700875,3T 천 신발(드랍_a)_최대 생명력 Lv.1,MaxHpVary,190
+700876,700876,3T 천 신발(드랍_a)_치유력 Lv.1,HealAmpVaryper,43
+700877,700877,3T 천 신발(드랍_a)_마력 자연 회복 Lv.2,RegenMpVary,9
+700878,700878,3T 천 신발(드랍_a)_최대 생명력 Lv.2,MaxHpVary,220
+700879,700879,3T 천 신발(드랍_a)_치유력 Lv.2,HealAmpVaryper,50
+700880,700880,3T 천 신발(드랍_a)_마력 자연 회복 Lv.3,RegenMpVary,10
+700881,700881,3T 천 신발(드랍_a)_최대 생명력 Lv.3,MaxHpVary,250
+700882,700882,3T 천 신발(드랍_a)_치유력 Lv.3,HealAmpVaryper,57
+700883,700883,3T 천 신발(드랍_a)_마력 자연 회복 Lv.4,RegenMpVary,12
+700884,700884,3T 천 신발(드랍_a)_최대 생명력 Lv.4,MaxHpVary,290
+700885,700885,3T 천 신발(드랍_a)_치유력 Lv.4,HealAmpVaryper,65
+700886,700886,3T 천 신발(드랍_b)_마력 자연 회복 Lv.1,RegenMpVary,8
+700887,700887,3T 천 신발(드랍_b)_공격력 Lv.1,AttackVary,12
+700888,700888,3T 천 신발(드랍_b)_PVE 피해 증가 Lv.1,PVEDamageUpVaryper,40
+700889,700889,3T 천 신발(드랍_b)_마력 자연 회복 Lv.2,RegenMpVary,9
+700890,700890,3T 천 신발(드랍_b)_공격력 Lv.2,AttackVary,14
+700891,700891,3T 천 신발(드랍_b)_PVE 피해 증가 Lv.2,PVEDamageUpVaryper,46
+700892,700892,3T 천 신발(드랍_b)_마력 자연 회복 Lv.3,RegenMpVary,10
+700893,700893,3T 천 신발(드랍_b)_공격력 Lv.3,AttackVary,16
+700894,700894,3T 천 신발(드랍_b)_PVE 피해 증가 Lv.3,PVEDamageUpVaryper,53
+700895,700895,3T 천 신발(드랍_b)_마력 자연 회복 Lv.4,RegenMpVary,12
+700896,700896,3T 천 신발(드랍_b)_공격력 Lv.4,AttackVary,20
+700897,700897,3T 천 신발(드랍_b)_PVE 피해 증가 Lv.4,PVEDamageUpVaryper,61
+700898,700898,3T 천 신발(드랍_c)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700899,700899,3T 천 신발(드랍_c)_공격력 Lv.1,AttackVary,12
+700900,700900,3T 천 신발(드랍_c)_공속 Lv.1,AtkSpeedVaryper,50
+700901,700901,3T 천 신발(드랍_c)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700902,700902,3T 천 신발(드랍_c)_공격력 Lv.2,AttackVary,14
+700903,700903,3T 천 신발(드랍_c)_공속 Lv.2,AtkSpeedVaryper,57
+700904,700904,3T 천 신발(드랍_c)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700905,700905,3T 천 신발(드랍_c)_공격력 Lv.3,AttackVary,16
+700906,700906,3T 천 신발(드랍_c)_공속 Lv.3,AtkSpeedVaryper,66
+700907,700907,3T 천 신발(드랍_c)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700908,700908,3T 천 신발(드랍_c)_공격력 Lv.4,AttackVary,20
+700909,700909,3T 천 신발(드랍_c)_공속 Lv.4,AtkSpeedVaryper,76
+700910,700910,3T 가죽 신발(드랍_a)_공격력 Lv.1,AttackVary,12
+700911,700911,3T 가죽 신발(드랍_a)_최대 생명력 Lv.1,MaxHpVary,190
+700912,700912,3T 가죽 신발(드랍_a)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+700913,700913,3T 가죽 신발(드랍_a)_공격력 Lv.2,AttackVary,14
+700914,700914,3T 가죽 신발(드랍_a)_최대 생명력 Lv.2,MaxHpVary,220
+700915,700915,3T 가죽 신발(드랍_a)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+700916,700916,3T 가죽 신발(드랍_a)_공격력 Lv.3,AttackVary,16
+700917,700917,3T 가죽 신발(드랍_a)_최대 생명력 Lv.3,MaxHpVary,250
+700918,700918,3T 가죽 신발(드랍_a)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+700919,700919,3T 가죽 신발(드랍_a)_공격력 Lv.4,AttackVary,20
+700920,700920,3T 가죽 신발(드랍_a)_최대 생명력 Lv.4,MaxHpVary,290
+700921,700921,3T 가죽 신발(드랍_a)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+700922,700922,3T 가죽 신발(드랍_b)_공격력 Lv.1,AttackVary,12
+700923,700923,3T 가죽 신발(드랍_b)_치명타 확률 Lv.1,CriVaryper,30
+700924,700924,3T 가죽 신발(드랍_b)_공속 Lv.1,AtkSpeedVaryper,50
+700925,700925,3T 가죽 신발(드랍_b)_공격력 Lv.2,AttackVary,14
+700926,700926,3T 가죽 신발(드랍_b)_치명타 확률 Lv.2,CriVaryper,34
+700927,700927,3T 가죽 신발(드랍_b)_공속 Lv.2,AtkSpeedVaryper,57
+700928,700928,3T 가죽 신발(드랍_b)_공격력 Lv.3,AttackVary,16
+700929,700929,3T 가죽 신발(드랍_b)_치명타 확률 Lv.3,CriVaryper,39
+700930,700930,3T 가죽 신발(드랍_b)_공속 Lv.3,AtkSpeedVaryper,66
+700931,700931,3T 가죽 신발(드랍_b)_공격력 Lv.4,AttackVary,20
+700932,700932,3T 가죽 신발(드랍_b)_치명타 확률 Lv.4,CriVaryper,45
+700933,700933,3T 가죽 신발(드랍_b)_공속 Lv.4,AtkSpeedVaryper,76
+700934,700934,3T 가죽 신발(드랍_c)_공격력 Lv.1,AttackVary,12
+700935,700935,3T 가죽 신발(드랍_c)_치명타 피해 Lv.1,CriDamageVaryper,149
+700936,700936,3T 가죽 신발(드랍_c)_공속 Lv.1,AtkSpeedVaryper,50
+700937,700937,3T 가죽 신발(드랍_c)_공격력 Lv.2,AttackVary,14
+700938,700938,3T 가죽 신발(드랍_c)_치명타 피해 Lv.2,CriDamageVaryper,171
+700939,700939,3T 가죽 신발(드랍_c)_공속 Lv.2,AtkSpeedVaryper,57
+700940,700940,3T 가죽 신발(드랍_c)_공격력 Lv.3,AttackVary,16
+700941,700941,3T 가죽 신발(드랍_c)_치명타 피해 Lv.3,CriDamageVaryper,197
+700942,700942,3T 가죽 신발(드랍_c)_공속 Lv.3,AtkSpeedVaryper,66
+700943,700943,3T 가죽 신발(드랍_c)_공격력 Lv.4,AttackVary,20
+700944,700944,3T 가죽 신발(드랍_c)_치명타 피해 Lv.4,CriDamageVaryper,227
+700945,700945,3T 가죽 신발(드랍_c)_공속 Lv.4,AtkSpeedVaryper,76
+700946,700946,3T 판금 신발(드랍_a)_방어력 Lv.1,DefenseVary,50
+700947,700947,3T 판금 신발(드랍_a)_생명력 자연 회복 Lv.1,RegenHpVary,12
+700948,700948,3T 판금 신발(드랍_a)_최대 생명력 Lv.1,MaxHpVary,190
+700949,700949,3T 판금 신발(드랍_a)_방어력 Lv.2,DefenseVary,55
+700950,700950,3T 판금 신발(드랍_a)_생명력 자연 회복 Lv.2,RegenHpVary,14
+700951,700951,3T 판금 신발(드랍_a)_최대 생명력 Lv.2,MaxHpVary,220
+700952,700952,3T 판금 신발(드랍_a)_방어력 Lv.3,DefenseVary,65
+700953,700953,3T 판금 신발(드랍_a)_생명력 자연 회복 Lv.3,RegenHpVary,16
+700954,700954,3T 판금 신발(드랍_a)_최대 생명력 Lv.3,MaxHpVary,250
+700955,700955,3T 판금 신발(드랍_a)_방어력 Lv.4,DefenseVary,75
+700956,700956,3T 판금 신발(드랍_a)_생명력 자연 회복 Lv.4,RegenHpVary,20
+700957,700957,3T 판금 신발(드랍_a)_최대 생명력 Lv.4,MaxHpVary,290
+700958,700958,3T 판금 신발(드랍_b)_방어력 Lv.1,DefenseVary,50
+700959,700959,3T 판금 신발(드랍_b)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700960,700960,3T 판금 신발(드랍_b)_PVE 피해 증가 Lv.1,PVEDamageUpVaryper,40
+700961,700961,3T 판금 신발(드랍_b)_방어력 Lv.2,DefenseVary,55
+700962,700962,3T 판금 신발(드랍_b)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700963,700963,3T 판금 신발(드랍_b)_PVE 피해 증가 Lv.2,PVEDamageUpVaryper,46
+700964,700964,3T 판금 신발(드랍_b)_방어력 Lv.3,DefenseVary,65
+700965,700965,3T 판금 신발(드랍_b)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700966,700966,3T 판금 신발(드랍_b)_PVE 피해 증가 Lv.3,PVEDamageUpVaryper,53
+700967,700967,3T 판금 신발(드랍_b)_방어력 Lv.4,DefenseVary,75
+700968,700968,3T 판금 신발(드랍_b)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700969,700969,3T 판금 신발(드랍_b)_PVE 피해 증가 Lv.4,PVEDamageUpVaryper,61
+700970,700970,3T 판금 신발(드랍_c)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700971,700971,3T 판금 신발(드랍_c)_피해 증가 Lv.1,DamageUpVaryper,40
+700972,700972,3T 판금 신발(드랍_c)_공속 Lv.1,AtkSpeedVaryper,50
+700973,700973,3T 판금 신발(드랍_c)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700974,700974,3T 판금 신발(드랍_c)_피해 증가 Lv.2,DamageUpVaryper,46
+700975,700975,3T 판금 신발(드랍_c)_공속 Lv.2,AtkSpeedVaryper,57
+700976,700976,3T 판금 신발(드랍_c)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+700977,700977,3T 판금 신발(드랍_c)_피해 증가 Lv.3,DamageUpVaryper,53
+700978,700978,3T 판금 신발(드랍_c)_공속 Lv.3,AtkSpeedVaryper,66
+700979,700979,3T 판금 신발(드랍_c)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+700980,700980,3T 판금 신발(드랍_c)_피해 증가 Lv.4,DamageUpVaryper,61
+700981,700981,3T 판금 신발(드랍_c)_공속 Lv.4,AtkSpeedVaryper,76
+700982,700982,3T 천 갑옷(전리품)_최대 마력 Lv.1,MaxMpVary,50
+700983,700983,3T 천 갑옷(전리품)_마력 자연 회복 Lv.1,RegenMpVary,8
+700984,700984,3T 천 갑옷(전리품)_치유력 Lv.1,HealAmpVaryper,43
+700985,700985,3T 천 갑옷(전리품)_최대 마력 Lv.2,MaxMpVary,55
+700986,700986,3T 천 갑옷(전리품)_마력 자연 회복 Lv.2,RegenMpVary,9
+700987,700987,3T 천 갑옷(전리품)_치유력 Lv.2,HealAmpVaryper,50
+700988,700988,3T 천 갑옷(전리품)_최대 마력 Lv.3,MaxMpVary,65
+700989,700989,3T 천 갑옷(전리품)_마력 자연 회복 Lv.3,RegenMpVary,10
+700990,700990,3T 천 갑옷(전리품)_치유력 Lv.3,HealAmpVaryper,57
+700991,700991,3T 천 갑옷(전리품)_최대 마력 Lv.4,MaxMpVary,75
+700992,700992,3T 천 갑옷(전리품)_마력 자연 회복 Lv.4,RegenMpVary,12
+700993,700993,3T 천 갑옷(전리품)_치유력 Lv.4,HealAmpVaryper,65
+700994,700994,3T 가죽 갑옷(전리품)_최대 생명력 Lv.1,MaxHpVary,190
+700995,700995,3T 가죽 갑옷(전리품)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+700996,700996,3T 가죽 갑옷(전리품)_PVE 피해 증가 Lv.1,PVEDamageUpVaryper,40
+700997,700997,3T 가죽 갑옷(전리품)_최대 생명력 Lv.2,MaxHpVary,220
+700998,700998,3T 가죽 갑옷(전리품)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+700999,700999,3T 가죽 갑옷(전리품)_PVE 피해 증가 Lv.2,PVEDamageUpVaryper,46
+701000,701000,3T 가죽 갑옷(전리품)_최대 생명력 Lv.3,MaxHpVary,250
+701001,701001,3T 가죽 갑옷(전리품)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+701002,701002,3T 가죽 갑옷(전리품)_PVE 피해 증가 Lv.3,PVEDamageUpVaryper,53
+701003,701003,3T 가죽 갑옷(전리품)_최대 생명력 Lv.4,MaxHpVary,290
+701004,701004,3T 가죽 갑옷(전리품)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+701005,701005,3T 가죽 갑옷(전리품)_PVE 피해 증가 Lv.4,PVEDamageUpVaryper,61
+701006,701006,3T 판금 갑옷(전리품)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+701007,701007,3T 판금 갑옷(전리품)_최대 생명력 Lv.1,MaxHpVary,190
+701008,701008,3T 판금 갑옷(전리품)_방어력 Lv.1,DefenseVary,50
+701009,701009,3T 판금 갑옷(전리품)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+701010,701010,3T 판금 갑옷(전리품)_최대 생명력 Lv.2,MaxHpVary,220
+701011,701011,3T 판금 갑옷(전리품)_방어력 Lv.2,DefenseVary,55
+701012,701012,3T 판금 갑옷(전리품)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+701013,701013,3T 판금 갑옷(전리품)_최대 생명력 Lv.3,MaxHpVary,250
+701014,701014,3T 판금 갑옷(전리품)_방어력 Lv.3,DefenseVary,65
+701015,701015,3T 판금 갑옷(전리품)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+701016,701016,3T 판금 갑옷(전리품)_최대 생명력 Lv.4,MaxHpVary,290
+701017,701017,3T 판금 갑옷(전리품)_방어력 Lv.4,DefenseVary,75
+701018,701018,3T 천 장갑(전리품_a)_공격력 Lv.1,AttackVary,12
+701019,701019,3T 천 장갑(전리품_a)_마력 자연 회복 Lv.1,RegenMpVary,8
+701020,701020,3T 천 장갑(전리품_a)_최대 생명력 Lv.1,MaxHpVary,190
+701021,701021,3T 천 장갑(전리품_a)_공격력 Lv.2,AttackVary,14
+701022,701022,3T 천 장갑(전리품_a)_마력 자연 회복 Lv.2,RegenMpVary,9
+701023,701023,3T 천 장갑(전리품_a)_최대 생명력 Lv.2,MaxHpVary,220
+701024,701024,3T 천 장갑(전리품_a)_공격력 Lv.3,AttackVary,16
+701025,701025,3T 천 장갑(전리품_a)_마력 자연 회복 Lv.3,RegenMpVary,10
+701026,701026,3T 천 장갑(전리품_a)_최대 생명력 Lv.3,MaxHpVary,250
+701027,701027,3T 천 장갑(전리품_a)_공격력 Lv.4,AttackVary,20
+701028,701028,3T 천 장갑(전리품_a)_마력 자연 회복 Lv.4,RegenMpVary,12
+701029,701029,3T 천 장갑(전리품_a)_최대 생명력 Lv.4,MaxHpVary,290
+701030,701030,3T 천 장갑(전리품_b)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+701031,701031,3T 천 장갑(전리품_b)_마력 자연 회복 Lv.1,RegenMpVary,8
+701032,701032,3T 천 장갑(전리품_b)_치유력 Lv.1,HealAmpVaryper,43
+701033,701033,3T 천 장갑(전리품_b)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+701034,701034,3T 천 장갑(전리품_b)_마력 자연 회복 Lv.2,RegenMpVary,9
+701035,701035,3T 천 장갑(전리품_b)_치유력 Lv.2,HealAmpVaryper,50
+701036,701036,3T 천 장갑(전리품_b)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+701037,701037,3T 천 장갑(전리품_b)_마력 자연 회복 Lv.3,RegenMpVary,10
+701038,701038,3T 천 장갑(전리품_b)_치유력 Lv.3,HealAmpVaryper,57
+701039,701039,3T 천 장갑(전리품_b)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+701040,701040,3T 천 장갑(전리품_b)_마력 자연 회복 Lv.4,RegenMpVary,12
+701041,701041,3T 천 장갑(전리품_b)_치유력 Lv.4,HealAmpVaryper,65
+701042,701042,3T 가죽 장갑(전리품_a)_공속 Lv.1,AtkSpeedVaryper,50
+701043,701043,3T 가죽 장갑(전리품_a)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+701044,701044,3T 가죽 장갑(전리품_a)_PVE 피해 증가 Lv.1,PVEDamageUpVaryper,40
+701045,701045,3T 가죽 장갑(전리품_a)_공속 Lv.2,AtkSpeedVaryper,57
+701046,701046,3T 가죽 장갑(전리품_a)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+701047,701047,3T 가죽 장갑(전리품_a)_PVE 피해 증가 Lv.2,PVEDamageUpVaryper,46
+701048,701048,3T 가죽 장갑(전리품_a)_공속 Lv.3,AtkSpeedVaryper,66
+701049,701049,3T 가죽 장갑(전리품_a)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+701050,701050,3T 가죽 장갑(전리품_a)_PVE 피해 증가 Lv.3,PVEDamageUpVaryper,53
+701051,701051,3T 가죽 장갑(전리품_a)_공속 Lv.4,AtkSpeedVaryper,76
+701052,701052,3T 가죽 장갑(전리품_a)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+701053,701053,3T 가죽 장갑(전리품_a)_PVE 피해 증가 Lv.4,PVEDamageUpVaryper,61
+701054,701054,3T 가죽 장갑(전리품_b)_공속 Lv.1,AtkSpeedVaryper,50
+701055,701055,3T 가죽 장갑(전리품_b)_치명타 확률 Lv.1,CriVaryper,30
+701056,701056,3T 가죽 장갑(전리품_b)_최대 생명력 Lv.1,MaxHpVary,190
+701057,701057,3T 가죽 장갑(전리품_b)_공속 Lv.2,AtkSpeedVaryper,57
+701058,701058,3T 가죽 장갑(전리품_b)_치명타 확률 Lv.2,CriVaryper,34
+701059,701059,3T 가죽 장갑(전리품_b)_최대 생명력 Lv.2,MaxHpVary,220
+701060,701060,3T 가죽 장갑(전리품_b)_공속 Lv.3,AtkSpeedVaryper,66
+701061,701061,3T 가죽 장갑(전리품_b)_치명타 확률 Lv.3,CriVaryper,39
+701062,701062,3T 가죽 장갑(전리품_b)_최대 생명력 Lv.3,MaxHpVary,250
+701063,701063,3T 가죽 장갑(전리품_b)_공속 Lv.4,AtkSpeedVaryper,76
+701064,701064,3T 가죽 장갑(전리품_b)_치명타 확률 Lv.4,CriVaryper,45
+701065,701065,3T 가죽 장갑(전리품_b)_최대 생명력 Lv.4,MaxHpVary,290
+701066,701066,3T 판금 장갑(전리품_a)_최대 생명력 Lv.1,MaxHpVary,190
+701067,701067,3T 판금 장갑(전리품_a)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+701068,701068,3T 판금 장갑(전리품_a)_받는 치유량 Lv.1,HealAcceptVary,75
+701069,701069,3T 판금 장갑(전리품_a)_최대 생명력 Lv.2,MaxHpVary,220
+701070,701070,3T 판금 장갑(전리품_a)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+701071,701071,3T 판금 장갑(전리품_a)_받는 치유량 Lv.2,HealAcceptVary,86
+701072,701072,3T 판금 장갑(전리품_a)_최대 생명력 Lv.3,MaxHpVary,250
+701073,701073,3T 판금 장갑(전리품_a)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+701074,701074,3T 판금 장갑(전리품_a)_받는 치유량 Lv.3,HealAcceptVary,99
+701075,701075,3T 판금 장갑(전리품_a)_최대 생명력 Lv.4,MaxHpVary,290
+701076,701076,3T 판금 장갑(전리품_a)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+701077,701077,3T 판금 장갑(전리품_a)_받는 치유량 Lv.4,HealAcceptVary,114
+701078,701078,3T 판금 장갑(전리품_b)_최대 생명력 Lv.1,MaxHpVary,190
+701079,701079,3T 판금 장갑(전리품_b)_방어력 Lv.1,DefenseVary,50
+701080,701080,3T 판금 장갑(전리품_b)_상태이상 저항력 Lv.1,SCNegativeRecoveryVary,50
+701081,701081,3T 판금 장갑(전리품_b)_최대 생명력 Lv.2,MaxHpVary,220
+701082,701082,3T 판금 장갑(전리품_b)_방어력 Lv.2,DefenseVary,55
+701083,701083,3T 판금 장갑(전리품_b)_상태이상 저항력 Lv.2,SCNegativeRecoveryVary,57
+701084,701084,3T 판금 장갑(전리품_b)_최대 생명력 Lv.3,MaxHpVary,250
+701085,701085,3T 판금 장갑(전리품_b)_방어력 Lv.3,DefenseVary,65
+701086,701086,3T 판금 장갑(전리품_b)_상태이상 저항력 Lv.3,SCNegativeRecoveryVary,66
+701087,701087,3T 판금 장갑(전리품_b)_최대 생명력 Lv.4,MaxHpVary,290
+701088,701088,3T 판금 장갑(전리품_b)_방어력 Lv.4,DefenseVary,75
+701089,701089,3T 판금 장갑(전리품_b)_상태이상 저항력 Lv.4,SCNegativeRecoveryVary,76
+701090,701090,3T 천 투구(전리품)_마력 자연 회복 Lv.1,RegenMpVary,8
+701091,701091,3T 천 투구(전리품)_최대 생명력 Lv.1,MaxHpVary,190
+701092,701092,3T 천 투구(전리품)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+701093,701093,3T 천 투구(전리품)_마력 자연 회복 Lv.2,RegenMpVary,9
+701094,701094,3T 천 투구(전리품)_최대 생명력 Lv.2,MaxHpVary,220
+701095,701095,3T 천 투구(전리품)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+701096,701096,3T 천 투구(전리품)_마력 자연 회복 Lv.3,RegenMpVary,10
+701097,701097,3T 천 투구(전리품)_최대 생명력 Lv.3,MaxHpVary,250
+701098,701098,3T 천 투구(전리품)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+701099,701099,3T 천 투구(전리품)_마력 자연 회복 Lv.4,RegenMpVary,12
+701100,701100,3T 천 투구(전리품)_최대 생명력 Lv.4,MaxHpVary,290
+701101,701101,3T 천 투구(전리품)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+701102,701102,3T 가죽 투구(전리품)_치명타 확률 Lv.1,CriVaryper,30
+701103,701103,3T 가죽 투구(전리품)_최대 생명력 Lv.1,MaxHpVary,190
+701104,701104,3T 가죽 투구(전리품)_받는 피해 감소 Lv.1,DamageDownVaryper,25
+701105,701105,3T 가죽 투구(전리품)_치명타 확률 Lv.2,CriVaryper,34
+701106,701106,3T 가죽 투구(전리품)_최대 생명력 Lv.2,MaxHpVary,220
+701107,701107,3T 가죽 투구(전리품)_받는 피해 감소 Lv.2,DamageDownVaryper,29
+701108,701108,3T 가죽 투구(전리품)_치명타 확률 Lv.3,CriVaryper,39
+701109,701109,3T 가죽 투구(전리품)_최대 생명력 Lv.3,MaxHpVary,250
+701110,701110,3T 가죽 투구(전리품)_받는 피해 감소 Lv.3,DamageDownVaryper,33
+701111,701111,3T 가죽 투구(전리품)_치명타 확률 Lv.4,CriVaryper,45
+701112,701112,3T 가죽 투구(전리품)_최대 생명력 Lv.4,MaxHpVary,290
+701113,701113,3T 가죽 투구(전리품)_받는 피해 감소 Lv.4,DamageDownVaryper,38
+701114,701114,3T 판금 투구(전리품)_생명력 자연 회복 Lv.1,RegenHpVary,12
+701115,701115,3T 판금 투구(전리품)_치명타 확률 Lv.1,CriVaryper,30
+701116,701116,3T 판금 투구(전리품)_스킬 가속 Lv.1,SkillCooldownAccVary,12
+701117,701117,3T 판금 투구(전리품)_생명력 자연 회복 Lv.2,RegenHpVary,14
+701118,701118,3T 판금 투구(전리품)_치명타 확률 Lv.2,CriVaryper,34
+701119,701119,3T 판금 투구(전리품)_스킬 가속 Lv.2,SkillCooldownAccVary,14
+701120,701120,3T 판금 투구(전리품)_생명력 자연 회복 Lv.3,RegenHpVary,16
+701121,701121,3T 판금 투구(전리품)_치명타 확률 Lv.3,CriVaryper,39
+701122,701122,3T 판금 투구(전리품)_스킬 가속 Lv.3,SkillCooldownAccVary,16
+701123,701123,3T 판금 투구(전리품)_생명력 자연 회복 Lv.4,RegenHpVary,20
+701124,701124,3T 판금 투구(전리품)_치명타 확률 Lv.4,CriVaryper,45
+701125,701125,3T 판금 투구(전리품)_스킬 가속 Lv.4,SkillCooldownAccVary,18
+710010,710010,선조의 지팡이 Lv.1,AttackVaryper,300
+710020,710020,주문 가속 Lv.1,SkillCooldownAccVary,300
+720000,720000,유연한 몸놀림 Lv.1,DodgeVaryper,1000
+720010,720010,집중 Lv.1,CriDamageVaryper,500
+800004,800004,길잡이의 축복(이동속도 증가),MoveSpeedVaryper,30
+800007,800007,이동속도 증가 구슬 10%,MoveSpeedVaryper,100
+800010,800010,공격속도 증가 구슬 10%,AtkSpeedVaryper,100
+800016,800016,시전시간 감소 구슬 10%,SkillCooldownAccVary,100
+1000001,1000001,명상 Lv.1 ,MoveSpeedVaryper,-500
+1000002,1000002,명상 Lv.2,MoveSpeedVaryper,-450
+1000003,1000003,명상 Lv.3,MoveSpeedVaryper,-400
+1000004,1000004,명상 Lv.4,MoveSpeedVaryper,-350
+1000005,1000005,명상 Lv.5,MoveSpeedVaryper,-300
+1000051,1000051,곤의 유산,SCNegativeAllResistVaryper,1000
+1000101,1000101,쉼없는 마나샘,MoveSpeedVaryper,300
+1000102,1000102,쉼없는 마나샘,MoveSpeedVaryper,350
+1000103,1000103,쉼없는 마나샘,MoveSpeedVaryper,400
+1000104,1000104,쉼없는 마나샘,MoveSpeedVaryper,450
+1000105,1000105,쉼없는 마나샘,MoveSpeedVaryper,500
+1000151,1000151,마법 반사 천 재질 Lv.1,PhysicalDefenseVary,500
+1000152,1000152,마법 반사 천 재질 Lv.2,PhysicalDefenseVary,500
+1000153,1000153,마법 반사 천 재질 Lv.3,PhysicalDefenseVary,500
+1000154,1000154,마법 반사 천 재질 Lv.4,PhysicalDefenseVary,500
+1000155,1000155,마법 반사 천 재질 Lv.5,PhysicalDefenseVary,500
+1010001,1010001,1T 천 투구(시작템)_최대 마력 향상  Lv.1,MaxMpVary,40
+1010002,1010002,1T 천 투구(시작템)_최대 마력 향상  Lv.2,MaxMpVary,48
+1010003,1010003,1T 천 투구(시작템)_최대 마력 향상  Lv.3,MaxMpVary,56
+1010004,1010004,1T 천 투구(시작템)_최대 마력 향상  Lv.4,MaxMpVary,64
+1010005,1010005,1T 천 투구(시작템)_최대 마력 향상  Lv.5,MaxMpVary,72
+1010011,1010011,1T 천 갑옷(시작템)_최대 마력 향상  Lv.1,MaxMpVary,40
+1010012,1010012,1T 천 갑옷(시작템)_최대 마력 향상  Lv.2,MaxMpVary,48
+1010013,1010013,1T 천 갑옷(시작템)_최대 마력 향상  Lv.3,MaxMpVary,56
+1010014,1010014,1T 천 갑옷(시작템)_최대 마력 향상  Lv.4,MaxMpVary,64
+1010015,1010015,1T 천 갑옷(시작템)_최대 마력 향상  Lv.5,MaxMpVary,72
+1010021,1010021,1T 천 장갑(시작템)_최대 마력 향상  Lv.1,MaxMpVary,40
+1010022,1010022,1T 천 장갑(시작템)_최대 마력 향상  Lv.2,MaxMpVary,48
+1010023,1010023,1T 천 장갑(시작템)_최대 마력 향상  Lv.3,MaxMpVary,56
+1010024,1010024,1T 천 장갑(시작템)_최대 마력 향상  Lv.4,MaxMpVary,64
+1010025,1010025,1T 천 장갑(시작템)_최대 마력 향상  Lv.5,MaxMpVary,72
+1010031,1010031,1T 천 신발(시작템)_최대 마력 향상  Lv.1,MaxMpVary,40
+1010032,1010032,1T 천 신발(시작템)_최대 마력 향상  Lv.2,MaxMpVary,48
+1010033,1010033,1T 천 신발(시작템)_최대 마력 향상  Lv.3,MaxMpVary,56
+1010034,1010034,1T 천 신발(시작템)_최대 마력 향상  Lv.4,MaxMpVary,64
+1010035,1010035,1T 천 신발(시작템)_최대 마력 향상  Lv.5,MaxMpVary,72
+1010101,1010101,1T 천 투구(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,30
+1010102,1010102,1T 천 투구(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,36
+1010103,1010103,1T 천 투구(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,42
+1010104,1010104,1T 천 투구(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,48
+1010105,1010105,1T 천 투구(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,54
+1010111,1010111,1T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,30
+1010112,1010112,1T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,36
+1010113,1010113,1T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,42
+1010114,1010114,1T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,48
+1010115,1010115,1T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,54
+1010121,1010121,1T 천 장갑(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,30
+1010122,1010122,1T 천 장갑(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,36
+1010123,1010123,1T 천 장갑(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,42
+1010124,1010124,1T 천 장갑(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,48
+1010125,1010125,1T 천 장갑(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,54
+1010131,1010131,1T 천 신발(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,30
+1010132,1010132,1T 천 신발(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,36
+1010133,1010133,1T 천 신발(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,42
+1010134,1010134,1T 천 신발(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,48
+1010135,1010135,1T 천 신발(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,54
+1010201,1010201,1T 천 투구(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1010202,1010202,1T 천 투구(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1010203,1010203,1T 천 투구(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1010204,1010204,1T 천 투구(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1010205,1010205,1T 천 투구(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1010211,1010211,1T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1010212,1010212,1T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1010213,1010213,1T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1010214,1010214,1T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1010215,1010215,1T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1010221,1010221,1T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1010222,1010222,1T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1010223,1010223,1T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1010224,1010224,1T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1010225,1010225,1T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1010231,1010231,1T 천 신발(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1010232,1010232,1T 천 신발(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1010233,1010233,1T 천 신발(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1010234,1010234,1T 천 신발(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1010235,1010235,1T 천 신발(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1010301,1010301,1T 천 투구(시작템)_마나 소모량 감소  Lv.1,CostMpDownVaryper,30
+1010302,1010302,1T 천 투구(시작템)_마나 소모량 감소  Lv.2,CostMpDownVaryper,36
+1010303,1010303,1T 천 투구(시작템)_마나 소모량 감소  Lv.3,CostMpDownVaryper,42
+1010304,1010304,1T 천 투구(시작템)_마나 소모량 감소  Lv.4,CostMpDownVaryper,48
+1010305,1010305,1T 천 투구(시작템)_마나 소모량 감소  Lv.5,CostMpDownVaryper,54
+1010311,1010311,1T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.1,PhysicalDamageDownVaryper,10
+1010312,1010312,1T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.2,PhysicalDamageDownVaryper,12
+1010313,1010313,1T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.3,PhysicalDamageDownVaryper,14
+1010314,1010314,1T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.4,PhysicalDamageDownVaryper,16
+1010315,1010315,1T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.5,PhysicalDamageDownVaryper,18
+1010321,1010321,1T 천 장갑(시작템)_마법 피해 증가 향상  Lv.1,PhysicalDamageUpVaryper,10
+1010322,1010322,1T 천 장갑(시작템)_마법 피해 증가 향상  Lv.2,PhysicalDamageUpVaryper,12
+1010323,1010323,1T 천 장갑(시작템)_마법 피해 증가 향상  Lv.3,PhysicalDamageUpVaryper,14
+1010324,1010324,1T 천 장갑(시작템)_마법 피해 증가 향상  Lv.4,PhysicalDamageUpVaryper,16
+1010325,1010325,1T 천 장갑(시작템)_마법 피해 증가 향상  Lv.5,PhysicalDamageUpVaryper,18
+1010331,1010331,1T 천 신발(시작템)_치유력 향상  Lv.1,HealAmpVaryper,30
+1010332,1010332,1T 천 신발(시작템)_치유력 향상  Lv.2,HealAmpVaryper,36
+1010333,1010333,1T 천 신발(시작템)_치유력 향상  Lv.3,HealAmpVaryper,42
+1010334,1010334,1T 천 신발(시작템)_치유력 향상  Lv.4,HealAmpVaryper,48
+1010335,1010335,1T 천 신발(시작템)_치유력 향상  Lv.5,HealAmpVaryper,54
+1010401,1010401,1T 천 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1010402,1010402,1T 천 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1010403,1010403,1T 천 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1010404,1010404,1T 천 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1010405,1010405,1T 천 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1010411,1010411,1T 천 갑옷(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1010412,1010412,1T 천 갑옷(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1010413,1010413,1T 천 갑옷(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1010414,1010414,1T 천 갑옷(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1010415,1010415,1T 천 갑옷(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1010421,1010421,1T 천 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1010422,1010422,1T 천 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1010423,1010423,1T 천 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1010424,1010424,1T 천 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1010425,1010425,1T 천 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1010431,1010431,1T 천 신발(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1010432,1010432,1T 천 신발(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1010433,1010433,1T 천 신발(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1010434,1010434,1T 천 신발(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1010435,1010435,1T 천 신발(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1010501,1010501,1T 천 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1010502,1010502,1T 천 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1010503,1010503,1T 천 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1010504,1010504,1T 천 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1010505,1010505,1T 천 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1010511,1010511,1T 천 갑옷(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1010512,1010512,1T 천 갑옷(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1010513,1010513,1T 천 갑옷(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1010514,1010514,1T 천 갑옷(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1010515,1010515,1T 천 갑옷(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1010521,1010521,1T 천 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1010522,1010522,1T 천 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1010523,1010523,1T 천 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1010524,1010524,1T 천 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1010525,1010525,1T 천 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1010531,1010531,1T 천 신발(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1010532,1010532,1T 천 신발(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1010533,1010533,1T 천 신발(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1010534,1010534,1T 천 신발(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1010535,1010535,1T 천 신발(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1010616,1010616,피격 시 5% 확률로 마법 방어력이 3초간 대폭 상승한다.  (쿨타임 120초),PhysicalDefenseVary,500
+1010617,1010617,피격 시 5% 확률로 마법 방어력이 3초간 대폭 상승한다.  (쿨타임 120초),PhysicalDefenseVary,500
+1010618,1010618,피격 시 5% 확률로 마법 방어력이 3초간 대폭 상승한다.  (쿨타임 120초),PhysicalDefenseVary,500
+1010619,1010619,피격 시 5% 확률로 마법 방어력이 3초간 대폭 상승한다.  (쿨타임 120초),PhysicalDefenseVary,500
+1010620,1010620,피격 시 5% 확률로 마법 방어력이 3초간 대폭 상승한다.  (쿨타임 120초),PhysicalDefenseVary,500
+1010700,1010700,1T 판금 투구(제작)_받는 피해 감소 Lv.1,DamageDownVaryper,20
+1010701,1010701,1T 판금 투구(제작)_받는 피해 감소 Lv.2,DamageDownVaryper,30
+1020001,1020001,2T 천 투구(시작템)_최대 마력 향상  Lv.1,MaxMpVary,56
+1020002,1020002,2T 천 투구(시작템)_최대 마력 향상  Lv.2,MaxMpVary,64
+1020003,1020003,2T 천 투구(시작템)_최대 마력 향상  Lv.3,MaxMpVary,72
+1020004,1020004,2T 천 투구(시작템)_최대 마력 향상  Lv.4,MaxMpVary,80
+1020005,1020005,2T 천 투구(시작템)_최대 마력 향상  Lv.5,MaxMpVary,88
+1020011,1020011,2T 천 갑옷(시작템)_최대 마력 향상  Lv.1,MaxMpVary,56
+1020012,1020012,2T 천 갑옷(시작템)_최대 마력 향상  Lv.2,MaxMpVary,64
+1020013,1020013,2T 천 갑옷(시작템)_최대 마력 향상  Lv.3,MaxMpVary,72
+1020014,1020014,2T 천 갑옷(시작템)_최대 마력 향상  Lv.4,MaxMpVary,80
+1020015,1020015,2T 천 갑옷(시작템)_최대 마력 향상  Lv.5,MaxMpVary,88
+1020021,1020021,2T 천 장갑(시작템)_최대 마력 향상  Lv.1,MaxMpVary,56
+1020022,1020022,2T 천 장갑(시작템)_최대 마력 향상  Lv.2,MaxMpVary,64
+1020023,1020023,2T 천 장갑(시작템)_최대 마력 향상  Lv.3,MaxMpVary,72
+1020024,1020024,2T 천 장갑(시작템)_최대 마력 향상  Lv.4,MaxMpVary,80
+1020025,1020025,2T 천 장갑(시작템)_최대 마력 향상  Lv.5,MaxMpVary,88
+1020031,1020031,2T 천 신발(시작템)_최대 마력 향상  Lv.1,MaxMpVary,56
+1020032,1020032,2T 천 신발(시작템)_최대 마력 향상  Lv.2,MaxMpVary,64
+1020033,1020033,2T 천 신발(시작템)_최대 마력 향상  Lv.3,MaxMpVary,72
+1020034,1020034,2T 천 신발(시작템)_최대 마력 향상  Lv.4,MaxMpVary,80
+1020035,1020035,2T 천 신발(시작템)_최대 마력 향상  Lv.5,MaxMpVary,88
+1020101,1020101,2T 천 투구(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,42
+1020102,1020102,2T 천 투구(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,48
+1020103,1020103,2T 천 투구(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,54
+1020104,1020104,2T 천 투구(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,60
+1020105,1020105,2T 천 투구(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,66
+1020111,1020111,2T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,42
+1020112,1020112,2T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,48
+1020113,1020113,2T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,54
+1020114,1020114,2T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,60
+1020115,1020115,2T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,66
+1020121,1020121,2T 천 장갑(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,42
+1020122,1020122,2T 천 장갑(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,48
+1020123,1020123,2T 천 장갑(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,54
+1020124,1020124,2T 천 장갑(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,60
+1020125,1020125,2T 천 장갑(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,66
+1020131,1020131,2T 천 신발(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,42
+1020132,1020132,2T 천 신발(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,48
+1020133,1020133,2T 천 신발(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,54
+1020134,1020134,2T 천 신발(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,60
+1020135,1020135,2T 천 신발(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,66
+1020201,1020201,2T 천 투구(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1020202,1020202,2T 천 투구(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1020203,1020203,2T 천 투구(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1020204,1020204,2T 천 투구(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1020205,1020205,2T 천 투구(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1020211,1020211,2T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1020212,1020212,2T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1020213,1020213,2T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1020214,1020214,2T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1020215,1020215,2T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1020221,1020221,2T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1020222,1020222,2T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1020223,1020223,2T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1020224,1020224,2T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1020225,1020225,2T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1020231,1020231,2T 천 신발(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1020232,1020232,2T 천 신발(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1020233,1020233,2T 천 신발(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1020234,1020234,2T 천 신발(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1020235,1020235,2T 천 신발(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1020301,1020301,2T 천 투구(시작템)_마나 소모량 감소  Lv.1,CostMpDownVaryper,42
+1020302,1020302,2T 천 투구(시작템)_마나 소모량 감소  Lv.2,CostMpDownVaryper,48
+1020303,1020303,2T 천 투구(시작템)_마나 소모량 감소  Lv.3,CostMpDownVaryper,54
+1020304,1020304,2T 천 투구(시작템)_마나 소모량 감소  Lv.4,CostMpDownVaryper,60
+1020305,1020305,2T 천 투구(시작템)_마나 소모량 감소  Lv.5,CostMpDownVaryper,66
+1020311,1020311,2T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.1,PhysicalDamageDownVaryper,14
+1020312,1020312,2T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.2,PhysicalDamageDownVaryper,16
+1020313,1020313,2T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.3,PhysicalDamageDownVaryper,18
+1020314,1020314,2T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.4,PhysicalDamageDownVaryper,20
+1020315,1020315,2T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.5,PhysicalDamageDownVaryper,22
+1020321,1020321,2T 천 장갑(시작템)_마법 피해 증가 향상  Lv.1,PhysicalDamageUpVaryper,14
+1020322,1020322,2T 천 장갑(시작템)_마법 피해 증가 향상  Lv.2,PhysicalDamageUpVaryper,16
+1020323,1020323,2T 천 장갑(시작템)_마법 피해 증가 향상  Lv.3,PhysicalDamageUpVaryper,18
+1020324,1020324,2T 천 장갑(시작템)_마법 피해 증가 향상  Lv.4,PhysicalDamageUpVaryper,20
+1020325,1020325,2T 천 장갑(시작템)_마법 피해 증가 향상  Lv.5,PhysicalDamageUpVaryper,22
+1020331,1020331,2T 천 신발(시작템)_치유력 향상  Lv.1,HealAmpVaryper,42
+1020332,1020332,2T 천 신발(시작템)_치유력 향상  Lv.2,HealAmpVaryper,48
+1020333,1020333,2T 천 신발(시작템)_치유력 향상  Lv.3,HealAmpVaryper,54
+1020334,1020334,2T 천 신발(시작템)_치유력 향상  Lv.4,HealAmpVaryper,60
+1020335,1020335,2T 천 신발(시작템)_치유력 향상  Lv.5,HealAmpVaryper,66
+1020401,1020401,2T 천 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1020402,1020402,2T 천 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1020403,1020403,2T 천 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1020404,1020404,2T 천 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1020405,1020405,2T 천 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1020411,1020411,2T 천 갑옷(시작템)_PVE 피해 증가  Lv.1,PVEDamageDownVaryper,20
+1020412,1020412,2T 천 갑옷(시작템)_PVE 피해 증가  Lv.2,PVEDamageDownVaryper,24
+1020413,1020413,2T 천 갑옷(시작템)_PVE 피해 증가  Lv.3,PVEDamageDownVaryper,28
+1020414,1020414,2T 천 갑옷(시작템)_PVE 피해 증가  Lv.4,PVEDamageDownVaryper,32
+1020415,1020415,2T 천 갑옷(시작템)_PVE 피해 증가  Lv.5,PVEDamageDownVaryper,36
+1020421,1020421,2T 천 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1020422,1020422,2T 천 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1020423,1020423,2T 천 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1020424,1020424,2T 천 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1020425,1020425,2T 천 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1020431,1020431,2T 천 신발(시작템)_PVE 피해 증가  Lv.1,PVEDamageDownVaryper,20
+1020432,1020432,2T 천 신발(시작템)_PVE 피해 증가  Lv.2,PVEDamageDownVaryper,24
+1020433,1020433,2T 천 신발(시작템)_PVE 피해 증가  Lv.3,PVEDamageDownVaryper,28
+1020434,1020434,2T 천 신발(시작템)_PVE 피해 증가  Lv.4,PVEDamageDownVaryper,32
+1020435,1020435,2T 천 신발(시작템)_PVE 피해 증가  Lv.5,PVEDamageDownVaryper,36
+1020501,1020501,2T 천 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1020502,1020502,2T 천 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1020503,1020503,2T 천 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1020504,1020504,2T 천 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1020505,1020505,2T 천 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1020511,1020511,2T 천 갑옷(시작템)_PVP 피해 증가  Lv.1,PVPDamageDownVaryper,20
+1020512,1020512,2T 천 갑옷(시작템)_PVP 피해 증가  Lv.2,PVPDamageDownVaryper,24
+1020513,1020513,2T 천 갑옷(시작템)_PVP 피해 증가  Lv.3,PVPDamageDownVaryper,28
+1020514,1020514,2T 천 갑옷(시작템)_PVP 피해 증가  Lv.4,PVPDamageDownVaryper,32
+1020515,1020515,2T 천 갑옷(시작템)_PVP 피해 증가  Lv.5,PVPDamageDownVaryper,36
+1020521,1020521,2T 천 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1020522,1020522,2T 천 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1020523,1020523,2T 천 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1020524,1020524,2T 천 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1020525,1020525,2T 천 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1020531,1020531,2T 천 신발(시작템)_PVP 피해 증가  Lv.1,PVPDamageDownVaryper,20
+1020532,1020532,2T 천 신발(시작템)_PVP 피해 증가  Lv.2,PVPDamageDownVaryper,24
+1020533,1020533,2T 천 신발(시작템)_PVP 피해 증가  Lv.3,PVPDamageDownVaryper,28
+1020534,1020534,2T 천 신발(시작템)_PVP 피해 증가  Lv.4,PVPDamageDownVaryper,32
+1020535,1020535,2T 천 신발(시작템)_PVP 피해 증가  Lv.5,PVPDamageDownVaryper,36
+1020616,1020616,2T 천 투구_프록  Lv.1 proc,PhysicalDefenseVary,500
+1020617,1020617,2T 천 투구_프록  Lv.2 proc,PhysicalDefenseVary,500
+1020618,1020618,2T 천 투구_프록  Lv.3 proc,PhysicalDefenseVary,500
+1020619,1020619,2T 천 투구_프록  Lv.4 proc,PhysicalDefenseVary,500
+1020620,1020620,2T 천 투구_프록  Lv.5 proc,PhysicalDefenseVary,500
+1030001,1030001,3T 천 투구(시작템)_최대 마력 향상  Lv.1,MaxMpVary,72
+1030002,1030002,3T 천 투구(시작템)_최대 마력 향상  Lv.2,MaxMpVary,80
+1030003,1030003,3T 천 투구(시작템)_최대 마력 향상  Lv.3,MaxMpVary,88
+1030004,1030004,3T 천 투구(시작템)_최대 마력 향상  Lv.4,MaxMpVary,96
+1030005,1030005,3T 천 투구(시작템)_최대 마력 향상  Lv.5,MaxMpVary,104
+1030011,1030011,3T 천 갑옷(시작템)_최대 마력 향상  Lv.1,MaxMpVary,72
+1030012,1030012,3T 천 갑옷(시작템)_최대 마력 향상  Lv.2,MaxMpVary,80
+1030013,1030013,3T 천 갑옷(시작템)_최대 마력 향상  Lv.3,MaxMpVary,88
+1030014,1030014,3T 천 갑옷(시작템)_최대 마력 향상  Lv.4,MaxMpVary,96
+1030015,1030015,3T 천 갑옷(시작템)_최대 마력 향상  Lv.5,MaxMpVary,104
+1030021,1030021,3T 천 장갑(시작템)_최대 마력 향상  Lv.1,MaxMpVary,72
+1030022,1030022,3T 천 장갑(시작템)_최대 마력 향상  Lv.2,MaxMpVary,80
+1030023,1030023,3T 천 장갑(시작템)_최대 마력 향상  Lv.3,MaxMpVary,88
+1030024,1030024,3T 천 장갑(시작템)_최대 마력 향상  Lv.4,MaxMpVary,96
+1030025,1030025,3T 천 장갑(시작템)_최대 마력 향상  Lv.5,MaxMpVary,104
+1030031,1030031,3T 천 신발(시작템)_최대 마력 향상  Lv.1,MaxMpVary,72
+1030032,1030032,3T 천 신발(시작템)_최대 마력 향상  Lv.2,MaxMpVary,80
+1030033,1030033,3T 천 신발(시작템)_최대 마력 향상  Lv.3,MaxMpVary,88
+1030034,1030034,3T 천 신발(시작템)_최대 마력 향상  Lv.4,MaxMpVary,96
+1030035,1030035,3T 천 신발(시작템)_최대 마력 향상  Lv.5,MaxMpVary,104
+1030101,1030101,3T 천 투구(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,54
+1030102,1030102,3T 천 투구(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,60
+1030103,1030103,3T 천 투구(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,66
+1030104,1030104,3T 천 투구(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,72
+1030105,1030105,3T 천 투구(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,78
+1030111,1030111,3T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,54
+1030112,1030112,3T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,60
+1030113,1030113,3T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,66
+1030114,1030114,3T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,72
+1030115,1030115,3T 천 갑옷(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,78
+1030121,1030121,3T 천 장갑(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,54
+1030122,1030122,3T 천 장갑(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,60
+1030123,1030123,3T 천 장갑(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,66
+1030124,1030124,3T 천 장갑(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,72
+1030125,1030125,3T 천 장갑(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,78
+1030131,1030131,3T 천 신발(시작템)_주는 피해 증가 향상  Lv.1,DamageUpVaryper,54
+1030132,1030132,3T 천 신발(시작템)_주는 피해 증가 향상  Lv.2,DamageUpVaryper,60
+1030133,1030133,3T 천 신발(시작템)_주는 피해 증가 향상  Lv.3,DamageUpVaryper,66
+1030134,1030134,3T 천 신발(시작템)_주는 피해 증가 향상  Lv.4,DamageUpVaryper,72
+1030135,1030135,3T 천 신발(시작템)_주는 피해 증가 향상  Lv.5,DamageUpVaryper,78
+1030201,1030201,3T 천 투구(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1030202,1030202,3T 천 투구(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1030203,1030203,3T 천 투구(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1030204,1030204,3T 천 투구(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1030205,1030205,3T 천 투구(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1030211,1030211,3T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1030212,1030212,3T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1030213,1030213,3T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1030214,1030214,3T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1030215,1030215,3T 천 갑옷(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1030221,1030221,3T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1030222,1030222,3T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1030223,1030223,3T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1030224,1030224,3T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1030225,1030225,3T 천 장갑(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1030231,1030231,3T 천 신발(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1030232,1030232,3T 천 신발(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1030233,1030233,3T 천 신발(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1030234,1030234,3T 천 신발(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1030235,1030235,3T 천 신발(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1030301,1030301,3T 천 투구(시작템)_마나 소모량 감소  Lv.1,CostMpDownVaryper,54
+1030302,1030302,3T 천 투구(시작템)_마나 소모량 감소  Lv.2,CostMpDownVaryper,60
+1030303,1030303,3T 천 투구(시작템)_마나 소모량 감소  Lv.3,CostMpDownVaryper,66
+1030304,1030304,3T 천 투구(시작템)_마나 소모량 감소  Lv.4,CostMpDownVaryper,72
+1030305,1030305,3T 천 투구(시작템)_마나 소모량 감소  Lv.5,CostMpDownVaryper,78
+1030311,1030311,3T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.1,PhysicalDamageDownVaryper,18
+1030312,1030312,3T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.2,PhysicalDamageDownVaryper,20
+1030313,1030313,3T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.3,PhysicalDamageDownVaryper,22
+1030314,1030314,3T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.4,PhysicalDamageDownVaryper,24
+1030315,1030315,3T 천 갑옷(시작템)_마법 피해 감소 향상  Lv.5,PhysicalDamageDownVaryper,26
+1030321,1030321,3T 천 장갑(시작템)_마법 피해 증가 향상  Lv.1,PhysicalDamageUpVaryper,18
+1030322,1030322,3T 천 장갑(시작템)_마법 피해 증가 향상  Lv.2,PhysicalDamageUpVaryper,20
+1030323,1030323,3T 천 장갑(시작템)_마법 피해 증가 향상  Lv.3,PhysicalDamageUpVaryper,22
+1030324,1030324,3T 천 장갑(시작템)_마법 피해 증가 향상  Lv.4,PhysicalDamageUpVaryper,24
+1030325,1030325,3T 천 장갑(시작템)_마법 피해 증가 향상  Lv.5,PhysicalDamageUpVaryper,26
+1030331,1030331,3T 천 신발(시작템)_치유력 향상  Lv.1,HealAmpVaryper,54
+1030332,1030332,3T 천 신발(시작템)_치유력 향상  Lv.2,HealAmpVaryper,60
+1030333,1030333,3T 천 신발(시작템)_치유력 향상  Lv.3,HealAmpVaryper,66
+1030334,1030334,3T 천 신발(시작템)_치유력 향상  Lv.4,HealAmpVaryper,72
+1030335,1030335,3T 천 신발(시작템)_치유력 향상  Lv.5,HealAmpVaryper,78
+1030401,1030401,3T 천 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,28
+1030402,1030402,3T 천 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,32
+1030403,1030403,3T 천 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,36
+1030404,1030404,3T 천 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,40
+1030405,1030405,3T 천 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,44
+1030411,1030411,3T 천 갑옷(시작템)_PVE 피해 증가  Lv.1,PVEDamageDownVaryper,28
+1030412,1030412,3T 천 갑옷(시작템)_PVE 피해 증가  Lv.2,PVEDamageDownVaryper,32
+1030413,1030413,3T 천 갑옷(시작템)_PVE 피해 증가  Lv.3,PVEDamageDownVaryper,36
+1030414,1030414,3T 천 갑옷(시작템)_PVE 피해 증가  Lv.4,PVEDamageDownVaryper,40
+1030415,1030415,3T 천 갑옷(시작템)_PVE 피해 증가  Lv.5,PVEDamageDownVaryper,44
+1030421,1030421,3T 천 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,28
+1030422,1030422,3T 천 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,32
+1030423,1030423,3T 천 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,36
+1030424,1030424,3T 천 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,40
+1030425,1030425,3T 천 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,44
+1030431,1030431,3T 천 신발(시작템)_PVE 피해 증가  Lv.1,PVEDamageDownVaryper,28
+1030432,1030432,3T 천 신발(시작템)_PVE 피해 증가  Lv.2,PVEDamageDownVaryper,32
+1030433,1030433,3T 천 신발(시작템)_PVE 피해 증가  Lv.3,PVEDamageDownVaryper,36
+1030434,1030434,3T 천 신발(시작템)_PVE 피해 증가  Lv.4,PVEDamageDownVaryper,40
+1030435,1030435,3T 천 신발(시작템)_PVE 피해 증가  Lv.5,PVEDamageDownVaryper,44
+1030501,1030501,3T 천 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,28
+1030502,1030502,3T 천 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,32
+1030503,1030503,3T 천 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,36
+1030504,1030504,3T 천 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,40
+1030505,1030505,3T 천 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,44
+1030511,1030511,3T 천 갑옷(시작템)_PVP 피해 증가  Lv.1,PVPDamageDownVaryper,28
+1030512,1030512,3T 천 갑옷(시작템)_PVP 피해 증가  Lv.2,PVPDamageDownVaryper,32
+1030513,1030513,3T 천 갑옷(시작템)_PVP 피해 증가  Lv.3,PVPDamageDownVaryper,36
+1030514,1030514,3T 천 갑옷(시작템)_PVP 피해 증가  Lv.4,PVPDamageDownVaryper,40
+1030515,1030515,3T 천 갑옷(시작템)_PVP 피해 증가  Lv.5,PVPDamageDownVaryper,44
+1030521,1030521,3T 천 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,28
+1030522,1030522,3T 천 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,32
+1030523,1030523,3T 천 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,36
+1030524,1030524,3T 천 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,40
+1030525,1030525,3T 천 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,44
+1030531,1030531,3T 천 신발(시작템)_PVP 피해 증가  Lv.1,PVPDamageDownVaryper,28
+1030532,1030532,3T 천 신발(시작템)_PVP 피해 증가  Lv.2,PVPDamageDownVaryper,32
+1030533,1030533,3T 천 신발(시작템)_PVP 피해 증가  Lv.3,PVPDamageDownVaryper,36
+1030534,1030534,3T 천 신발(시작템)_PVP 피해 증가  Lv.4,PVPDamageDownVaryper,40
+1030535,1030535,3T 천 신발(시작템)_PVP 피해 증가  Lv.5,PVPDamageDownVaryper,44
+1030616,1030616,3T 천 갑옷(시작템)_프록  Lv.1,PhysicalDefenseVary,500
+1030617,1030617,3T 천 갑옷(시작템)_프록  Lv.2,PhysicalDefenseVary,500
+1030618,1030618,3T 천 갑옷(시작템)_프록  Lv.3,PhysicalDefenseVary,500
+1030619,1030619,3T 천 갑옷(시작템)_프록  Lv.4,PhysicalDefenseVary,500
+1030620,1030620,3T 천 갑옷(시작템)_프록  Lv.5,PhysicalDefenseVary,500
+1100001,1100001,숨 고르기  Lv.1,MoveSpeedVaryper,-500
+1100002,1100002,숨 고르기  Lv.2,MoveSpeedVaryper,-450
+1100003,1100003,숨 고르기  Lv.3,MoveSpeedVaryper,-400
+1100004,1100004,숨 고르기  Lv.4,MoveSpeedVaryper,-350
+1100005,1100005,숨 고르기  Lv.5,MoveSpeedVaryper,-300
+1100051,1100051,멜리사라의 그림자 공용 SC,DodgeVaryper,1000
+1100101,1100101,물러서기 Lv.1,MoveSpeedVaryper,300
+1100102,1100102,물러서기 Lv.2,MoveSpeedVaryper,350
+1100103,1100103,물러서기 Lv.3,MoveSpeedVaryper,400
+1100104,1100104,물러서기 Lv.4,MoveSpeedVaryper,450
+1100105,1100105,물러서기 Lv.5,MoveSpeedVaryper,500
+1110001,1110001,1T 가죽 투구(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,20
+1110002,1110002,1T 가죽 투구(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,24
+1110003,1110003,1T 가죽 투구(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,28
+1110004,1110004,1T 가죽 투구(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,32
+1110005,1110005,1T 가죽 투구(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,36
+1110011,1110011,1T 가죽 갑옷(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,20
+1110012,1110012,1T 가죽 갑옷(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,24
+1110013,1110013,1T 가죽 갑옷(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,28
+1110014,1110014,1T 가죽 갑옷(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,32
+1110015,1110015,1T 가죽 갑옷(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,36
+1110021,1110021,1T 가죽 장갑(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,20
+1110022,1110022,1T 가죽 장갑(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,24
+1110023,1110023,1T 가죽 장갑(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,28
+1110024,1110024,1T 가죽 장갑(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,32
+1110025,1110025,1T 가죽 장갑(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,36
+1110031,1110031,1T 가죽 신발(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,20
+1110032,1110032,1T 가죽 신발(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,24
+1110033,1110033,1T 가죽 신발(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,28
+1110034,1110034,1T 가죽 신발(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,32
+1110035,1110035,1T 가죽 신발(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,36
+1110101,1110101,1T 가죽 투구(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,100
+1110102,1110102,1T 가죽 투구(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,120
+1110103,1110103,1T 가죽 투구(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,140
+1110104,1110104,1T 가죽 투구(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,160
+1110105,1110105,1T 가죽 투구(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,180
+1110111,1110111,1T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,100
+1110112,1110112,1T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,120
+1110113,1110113,1T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,140
+1110114,1110114,1T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,160
+1110115,1110115,1T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,180
+1110121,1110121,1T 가죽 장갑(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,100
+1110122,1110122,1T 가죽 장갑(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,120
+1110123,1110123,1T 가죽 장갑(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,140
+1110124,1110124,1T 가죽 장갑(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,160
+1110125,1110125,1T 가죽 장갑(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,180
+1110131,1110131,1T 가죽 신발(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,100
+1110132,1110132,1T 가죽 신발(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,120
+1110133,1110133,1T 가죽 신발(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,140
+1110134,1110134,1T 가죽 신발(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,160
+1110135,1110135,1T 가죽 신발(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,180
+1110201,1110201,1T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1110202,1110202,1T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1110203,1110203,1T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1110204,1110204,1T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1110205,1110205,1T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1110211,1110211,1T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1110212,1110212,1T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1110213,1110213,1T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1110214,1110214,1T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1110215,1110215,1T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1110221,1110221,1T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1110222,1110222,1T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1110223,1110223,1T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1110224,1110224,1T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1110225,1110225,1T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1110231,1110231,1T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,1
+1110232,1110232,1T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,2
+1110233,1110233,1T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,3
+1110234,1110234,1T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,4
+1110235,1110235,1T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,5
+1110301,1110301,1T 가죽 투구(시작템)_치명타 확률  Lv.1,CriVaryper,20
+1110302,1110302,1T 가죽 투구(시작템)_치명타 확률  Lv.2,CriVaryper,24
+1110303,1110303,1T 가죽 투구(시작템)_치명타 확률  Lv.3,CriVaryper,28
+1110304,1110304,1T 가죽 투구(시작템)_치명타 확률  Lv.4,CriVaryper,32
+1110305,1110305,1T 가죽 투구(시작템)_치명타 확률  Lv.5,CriVaryper,36
+1110311,1110311,1T 가죽 갑옷(시작템)_마법 피해 감소  Lv.1,PhysicalDamageDownVaryper,10
+1110312,1110312,1T 가죽 갑옷(시작템)_마법 피해 감소  Lv.2,PhysicalDamageDownVaryper,12
+1110313,1110313,1T 가죽 갑옷(시작템)_마법 피해 감소  Lv.3,PhysicalDamageDownVaryper,14
+1110314,1110314,1T 가죽 갑옷(시작템)_마법 피해 감소  Lv.4,PhysicalDamageDownVaryper,16
+1110315,1110315,1T 가죽 갑옷(시작템)_마법 피해 감소  Lv.5,PhysicalDamageDownVaryper,18
+1110321,1110321,1T 가죽 장갑(시작템)_물리 피해 증가 Lv.1,PhysicalDamageUpVaryper,10
+1110322,1110322,1T 가죽 장갑(시작템)_물리 피해 증가 Lv.2,PhysicalDamageUpVaryper,12
+1110323,1110323,1T 가죽 장갑(시작템)_물리 피해 증가 Lv.3,PhysicalDamageUpVaryper,14
+1110324,1110324,1T 가죽 장갑(시작템)_물리 피해 증가 Lv.4,PhysicalDamageUpVaryper,16
+1110325,1110325,1T 가죽 장갑(시작템)_물리 피해 증가 Lv.5,PhysicalDamageUpVaryper,18
+1110331,1110331,1T 가죽 신발(시작템)_이동 속도  Lv.1,MoveSpeedVaryper,150
+1110332,1110332,1T 가죽 신발(시작템)_이동 속도  Lv.2,MoveSpeedVaryper,160
+1110333,1110333,1T 가죽 신발(시작템)_이동 속도  Lv.3,MoveSpeedVaryper,170
+1110334,1110334,1T 가죽 신발(시작템)_이동 속도  Lv.4,MoveSpeedVaryper,180
+1110335,1110335,1T 가죽 신발(시작템)_이동 속도  Lv.5,MoveSpeedVaryper,190
+1110401,1110401,1T 가죽 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1110402,1110402,1T 가죽 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1110403,1110403,1T 가죽 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1110404,1110404,1T 가죽 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1110405,1110405,1T 가죽 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1110411,1110411,1T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1110412,1110412,1T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1110413,1110413,1T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1110414,1110414,1T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1110415,1110415,1T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1110421,1110421,1T 가죽 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1110422,1110422,1T 가죽 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1110423,1110423,1T 가죽 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1110424,1110424,1T 가죽 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1110425,1110425,1T 가죽 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1110431,1110431,1T 가죽 신발(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1110432,1110432,1T 가죽 신발(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1110433,1110433,1T 가죽 신발(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1110434,1110434,1T 가죽 신발(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1110435,1110435,1T 가죽 신발(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1110501,1110501,1T 가죽 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1110502,1110502,1T 가죽 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1110503,1110503,1T 가죽 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1110504,1110504,1T 가죽 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1110505,1110505,1T 가죽 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1110511,1110511,1T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1110512,1110512,1T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1110513,1110513,1T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1110514,1110514,1T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1110515,1110515,1T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1110521,1110521,1T 가죽 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1110522,1110522,1T 가죽 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1110523,1110523,1T 가죽 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1110524,1110524,1T 가죽 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1110525,1110525,1T 가죽 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1110531,1110531,1T 가죽 신발(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1110532,1110532,1T 가죽 신발(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1110533,1110533,1T 가죽 신발(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1110534,1110534,1T 가죽 신발(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1110535,1110535,1T 가죽 신발(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1110606,1110606,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1110607,1110607,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1110608,1110608,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1110609,1110609,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1110610,1110610,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1110616,1110616,1T 가죽 갑옷(시작템)_프록  Lv.1,DefenseVary,200
+1110617,1110617,1T 가죽 갑옷(시작템)_프록  Lv.2,DefenseVary,200
+1110618,1110618,1T 가죽 갑옷(시작템)_프록  Lv.3,DefenseVary,200
+1110619,1110619,1T 가죽 갑옷(시작템)_프록  Lv.4,DefenseVary,200
+1110620,1110620,1T 가죽 갑옷(시작템)_프록  Lv.5,DefenseVary,200
+1110636,1110636,1T 가죽 신발(시작템)_프록_회피 100%  Lv.1,DodgeVaryper,1000
+1110637,1110637,1T 가죽 신발(시작템)_프록_회피 100%  Lv.2,DodgeVaryper,1000
+1110638,1110638,1T 가죽 신발(시작템)_프록_회피 100%  Lv.3,DodgeVaryper,1000
+1110639,1110639,1T 가죽 신발(시작템)_프록_회피 100%  Lv.4,DodgeVaryper,1000
+1110640,1110640,1T 가죽 신발(시작템)_프록_회피 100%  Lv.5,DodgeVaryper,1000
+1120001,1120001,2T 가죽 투구(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,28
+1120002,1120002,2T 가죽 투구(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,32
+1120003,1120003,2T 가죽 투구(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,36
+1120004,1120004,2T 가죽 투구(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,40
+1120005,1120005,2T 가죽 투구(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,44
+1120011,1120011,2T 가죽 갑옷(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,28
+1120012,1120012,2T 가죽 갑옷(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,32
+1120013,1120013,2T 가죽 갑옷(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,36
+1120014,1120014,2T 가죽 갑옷(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,40
+1120015,1120015,2T 가죽 갑옷(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,44
+1120021,1120021,2T 가죽 장갑(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,28
+1120022,1120022,2T 가죽 장갑(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,32
+1120023,1120023,2T 가죽 장갑(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,36
+1120024,1120024,2T 가죽 장갑(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,40
+1120025,1120025,2T 가죽 장갑(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,44
+1120031,1120031,2T 가죽 신발(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,28
+1120032,1120032,2T 가죽 신발(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,32
+1120033,1120033,2T 가죽 신발(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,36
+1120034,1120034,2T 가죽 신발(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,40
+1120035,1120035,2T 가죽 신발(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,44
+1120101,1120101,2T 가죽 투구(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,140
+1120102,1120102,2T 가죽 투구(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,160
+1120103,1120103,2T 가죽 투구(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,180
+1120104,1120104,2T 가죽 투구(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,200
+1120105,1120105,2T 가죽 투구(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,220
+1120111,1120111,2T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,140
+1120112,1120112,2T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,160
+1120113,1120113,2T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,180
+1120114,1120114,2T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,200
+1120115,1120115,2T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,220
+1120121,1120121,2T 가죽 장갑(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,140
+1120122,1120122,2T 가죽 장갑(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,160
+1120123,1120123,2T 가죽 장갑(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,180
+1120124,1120124,2T 가죽 장갑(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,200
+1120125,1120125,2T 가죽 장갑(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,220
+1120131,1120131,2T 가죽 신발(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,140
+1120132,1120132,2T 가죽 신발(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,160
+1120133,1120133,2T 가죽 신발(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,180
+1120134,1120134,2T 가죽 신발(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,200
+1120135,1120135,2T 가죽 신발(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,220
+1120201,1120201,2T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1120202,1120202,2T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1120203,1120203,2T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1120204,1120204,2T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1120205,1120205,2T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1120211,1120211,2T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1120212,1120212,2T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1120213,1120213,2T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1120214,1120214,2T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1120215,1120215,2T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1120221,1120221,2T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1120222,1120222,2T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1120223,1120223,2T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1120224,1120224,2T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1120225,1120225,2T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1120231,1120231,2T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,2
+1120232,1120232,2T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,3
+1120233,1120233,2T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,4
+1120234,1120234,2T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,5
+1120235,1120235,2T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,6
+1120301,1120301,2T 가죽 투구(시작템)_치명타 확률  Lv.1,CriVaryper,28
+1120302,1120302,2T 가죽 투구(시작템)_치명타 확률  Lv.2,CriVaryper,32
+1120303,1120303,2T 가죽 투구(시작템)_치명타 확률  Lv.3,CriVaryper,36
+1120304,1120304,2T 가죽 투구(시작템)_치명타 확률  Lv.4,CriVaryper,40
+1120305,1120305,2T 가죽 투구(시작템)_치명타 확률  Lv.5,CriVaryper,44
+1120311,1120311,2T 가죽 갑옷(시작템)_마법 피해 감소  Lv.1,PhysicalDamageDownVaryper,14
+1120312,1120312,2T 가죽 갑옷(시작템)_마법 피해 감소  Lv.2,PhysicalDamageDownVaryper,16
+1120313,1120313,2T 가죽 갑옷(시작템)_마법 피해 감소  Lv.3,PhysicalDamageDownVaryper,18
+1120314,1120314,2T 가죽 갑옷(시작템)_마법 피해 감소  Lv.4,PhysicalDamageDownVaryper,20
+1120315,1120315,2T 가죽 갑옷(시작템)_마법 피해 감소  Lv.5,PhysicalDamageDownVaryper,22
+1120321,1120321,2T 가죽 장갑(시작템)_물리 피해 증가 Lv.1,PhysicalDamageUpVaryper,14
+1120322,1120322,2T 가죽 장갑(시작템)_물리 피해 증가 Lv.2,PhysicalDamageUpVaryper,16
+1120323,1120323,2T 가죽 장갑(시작템)_물리 피해 증가 Lv.3,PhysicalDamageUpVaryper,18
+1120324,1120324,2T 가죽 장갑(시작템)_물리 피해 증가 Lv.4,PhysicalDamageUpVaryper,20
+1120325,1120325,2T 가죽 장갑(시작템)_물리 피해 증가 Lv.5,PhysicalDamageUpVaryper,22
+1120331,1120331,2T 가죽 신발(시작템)_이동 속도  Lv.1,MoveSpeedVaryper,170
+1120332,1120332,2T 가죽 신발(시작템)_이동 속도  Lv.2,MoveSpeedVaryper,180
+1120333,1120333,2T 가죽 신발(시작템)_이동 속도  Lv.3,MoveSpeedVaryper,190
+1120334,1120334,2T 가죽 신발(시작템)_이동 속도  Lv.4,MoveSpeedVaryper,200
+1120335,1120335,2T 가죽 신발(시작템)_이동 속도  Lv.5,MoveSpeedVaryper,210
+1120401,1120401,2T 가죽 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1120402,1120402,2T 가죽 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1120403,1120403,2T 가죽 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1120404,1120404,2T 가죽 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1120405,1120405,2T 가죽 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1120411,1120411,2T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1120412,1120412,2T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1120413,1120413,2T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1120414,1120414,2T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1120415,1120415,2T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1120421,1120421,2T 가죽 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1120422,1120422,2T 가죽 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1120423,1120423,2T 가죽 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1120424,1120424,2T 가죽 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1120425,1120425,2T 가죽 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1120431,1120431,2T 가죽 신발(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1120432,1120432,2T 가죽 신발(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1120433,1120433,2T 가죽 신발(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1120434,1120434,2T 가죽 신발(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1120435,1120435,2T 가죽 신발(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1120501,1120501,2T 가죽 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1120502,1120502,2T 가죽 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1120503,1120503,2T 가죽 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1120504,1120504,2T 가죽 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1120505,1120505,2T 가죽 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1120511,1120511,2T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1120512,1120512,2T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1120513,1120513,2T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1120514,1120514,2T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1120515,1120515,2T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1120521,1120521,2T 가죽 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1120522,1120522,2T 가죽 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1120523,1120523,2T 가죽 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1120524,1120524,2T 가죽 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1120525,1120525,2T 가죽 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1120531,1120531,2T 가죽 신발(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1120532,1120532,2T 가죽 신발(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1120533,1120533,2T 가죽 신발(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1120534,1120534,2T 가죽 신발(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1120535,1120535,2T 가죽 신발(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1120606,1120606,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1120607,1120607,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1120608,1120608,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1120609,1120609,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1120610,1120610,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1120616,1120616,2T 가죽 갑옷(시작템)_프록  Lv.1,DefenseVary,200
+1120617,1120617,2T 가죽 갑옷(시작템)_프록  Lv.2,DefenseVary,200
+1120618,1120618,2T 가죽 갑옷(시작템)_프록  Lv.3,DefenseVary,200
+1120619,1120619,2T 가죽 갑옷(시작템)_프록  Lv.4,DefenseVary,200
+1120620,1120620,2T 가죽 갑옷(시작템)_프록  Lv.5,DefenseVary,200
+1120636,1120636,2T 가죽 신발(시작템)_프록_이동속도 증가  Lv.1,MoveSpeedVaryper,100
+1120637,1120637,2T 가죽 신발(시작템)_프록_이동속도 증가  Lv.2,MoveSpeedVaryper,120
+1120638,1120638,2T 가죽 신발(시작템)_프록_이동속도 증가  Lv.3,MoveSpeedVaryper,140
+1120639,1120639,2T 가죽 신발(시작템)_프록_이동속도 증가  Lv.4,MoveSpeedVaryper,160
+1120640,1120640,2T 가죽 신발(시작템)_프록_이동속도 증가  Lv.5,MoveSpeedVaryper,180
+1130001,1130001,3T 가죽 투구(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,36
+1130002,1130002,3T 가죽 투구(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,40
+1130003,1130003,3T 가죽 투구(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,44
+1130004,1130004,3T 가죽 투구(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,48
+1130005,1130005,3T 가죽 투구(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,52
+1130011,1130011,3T 가죽 갑옷(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,36
+1130012,1130012,3T 가죽 갑옷(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,40
+1130013,1130013,3T 가죽 갑옷(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,44
+1130014,1130014,3T 가죽 갑옷(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,48
+1130015,1130015,3T 가죽 갑옷(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,52
+1130021,1130021,3T 가죽 장갑(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,36
+1130022,1130022,3T 가죽 장갑(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,40
+1130023,1130023,3T 가죽 장갑(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,44
+1130024,1130024,3T 가죽 장갑(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,48
+1130025,1130025,3T 가죽 장갑(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,52
+1130031,1130031,3T 가죽 신발(시작템)_공격 속도 향상 Lv.1,AtkSpeedVaryper,36
+1130032,1130032,3T 가죽 신발(시작템)_공격 속도 향상 Lv.2,AtkSpeedVaryper,40
+1130033,1130033,3T 가죽 신발(시작템)_공격 속도 향상 Lv.3,AtkSpeedVaryper,44
+1130034,1130034,3T 가죽 신발(시작템)_공격 속도 향상 Lv.4,AtkSpeedVaryper,48
+1130035,1130035,3T 가죽 신발(시작템)_공격 속도 향상 Lv.5,AtkSpeedVaryper,52
+1130101,1130101,3T 가죽 투구(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,180
+1130102,1130102,3T 가죽 투구(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,200
+1130103,1130103,3T 가죽 투구(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,220
+1130104,1130104,3T 가죽 투구(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,240
+1130105,1130105,3T 가죽 투구(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,260
+1130111,1130111,3T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,180
+1130112,1130112,3T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,200
+1130113,1130113,3T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,220
+1130114,1130114,3T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,240
+1130115,1130115,3T 가죽 갑옷(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,260
+1130121,1130121,3T 가죽 장갑(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,180
+1130122,1130122,3T 가죽 장갑(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,200
+1130123,1130123,3T 가죽 장갑(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,220
+1130124,1130124,3T 가죽 장갑(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,240
+1130125,1130125,3T 가죽 장갑(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,260
+1130131,1130131,3T 가죽 신발(시작템)_치명타 피해 향상  Lv.1,CriDamageVaryper,180
+1130132,1130132,3T 가죽 신발(시작템)_치명타 피해 향상  Lv.2,CriDamageVaryper,200
+1130133,1130133,3T 가죽 신발(시작템)_치명타 피해 향상  Lv.3,CriDamageVaryper,220
+1130134,1130134,3T 가죽 신발(시작템)_치명타 피해 향상  Lv.4,CriDamageVaryper,240
+1130135,1130135,3T 가죽 신발(시작템)_치명타 피해 향상  Lv.5,CriDamageVaryper,260
+1130201,1130201,3T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1130202,1130202,3T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1130203,1130203,3T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1130204,1130204,3T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1130205,1130205,3T 가죽 투구(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1130211,1130211,3T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1130212,1130212,3T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1130213,1130213,3T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1130214,1130214,3T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1130215,1130215,3T 가죽 갑옷(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1130221,1130221,3T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1130222,1130222,3T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1130223,1130223,3T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1130224,1130224,3T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1130225,1130225,3T 가죽 장갑(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1130231,1130231,3T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.1,RegenMpVary,3
+1130232,1130232,3T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.2,RegenMpVary,4
+1130233,1130233,3T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.3,RegenMpVary,5
+1130234,1130234,3T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.4,RegenMpVary,6
+1130235,1130235,3T 가죽 신발(시작템)_마력 자연 회복력 향상  Lv.5,RegenMpVary,7
+1130301,1130301,3T 가죽 투구(시작템)_치명타 확률  Lv.1,CriVaryper,36
+1130302,1130302,3T 가죽 투구(시작템)_치명타 확률  Lv.2,CriVaryper,40
+1130303,1130303,3T 가죽 투구(시작템)_치명타 확률  Lv.3,CriVaryper,44
+1130304,1130304,3T 가죽 투구(시작템)_치명타 확률  Lv.4,CriVaryper,48
+1130305,1130305,3T 가죽 투구(시작템)_치명타 확률  Lv.5,CriVaryper,52
+1130311,1130311,3T 가죽 갑옷(시작템)_마법 피해 감소  Lv.1,PhysicalDamageDownVaryper,18
+1130312,1130312,3T 가죽 갑옷(시작템)_마법 피해 감소  Lv.2,PhysicalDamageDownVaryper,20
+1130313,1130313,3T 가죽 갑옷(시작템)_마법 피해 감소  Lv.3,PhysicalDamageDownVaryper,22
+1130314,1130314,3T 가죽 갑옷(시작템)_마법 피해 감소  Lv.4,PhysicalDamageDownVaryper,24
+1130315,1130315,3T 가죽 갑옷(시작템)_마법 피해 감소  Lv.5,PhysicalDamageDownVaryper,26
+1130321,1130321,3T 가죽 장갑(시작템)_물리 피해 증가 Lv.1,PhysicalDamageUpVaryper,18
+1130322,1130322,3T 가죽 장갑(시작템)_물리 피해 증가 Lv.2,PhysicalDamageUpVaryper,20
+1130323,1130323,3T 가죽 장갑(시작템)_물리 피해 증가 Lv.3,PhysicalDamageUpVaryper,22
+1130324,1130324,3T 가죽 장갑(시작템)_물리 피해 증가 Lv.4,PhysicalDamageUpVaryper,24
+1130325,1130325,3T 가죽 장갑(시작템)_물리 피해 증가 Lv.5,PhysicalDamageUpVaryper,26
+1130331,1130331,3T 가죽 신발(시작템)_이동 속도  Lv.1,MoveSpeedVaryper,190
+1130332,1130332,3T 가죽 신발(시작템)_이동 속도  Lv.2,MoveSpeedVaryper,200
+1130333,1130333,3T 가죽 신발(시작템)_이동 속도  Lv.3,MoveSpeedVaryper,210
+1130334,1130334,3T 가죽 신발(시작템)_이동 속도  Lv.4,MoveSpeedVaryper,220
+1130335,1130335,3T 가죽 신발(시작템)_이동 속도  Lv.5,MoveSpeedVaryper,230
+1130401,1130401,3T 가죽 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,28
+1130402,1130402,3T 가죽 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,32
+1130403,1130403,3T 가죽 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,36
+1130404,1130404,3T 가죽 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,40
+1130405,1130405,3T 가죽 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,44
+1130411,1130411,3T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,28
+1130412,1130412,3T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,32
+1130413,1130413,3T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,36
+1130414,1130414,3T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,40
+1130415,1130415,3T 가죽 갑옷(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,44
+1130421,1130421,3T 가죽 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,28
+1130422,1130422,3T 가죽 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,32
+1130423,1130423,3T 가죽 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,36
+1130424,1130424,3T 가죽 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,40
+1130425,1130425,3T 가죽 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,44
+1130431,1130431,3T 가죽 신발(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,28
+1130432,1130432,3T 가죽 신발(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,32
+1130433,1130433,3T 가죽 신발(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,36
+1130434,1130434,3T 가죽 신발(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,40
+1130435,1130435,3T 가죽 신발(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,44
+1130501,1130501,3T 가죽 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,28
+1130502,1130502,3T 가죽 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,32
+1130503,1130503,3T 가죽 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,36
+1130504,1130504,3T 가죽 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,40
+1130505,1130505,3T 가죽 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,44
+1130511,1130511,3T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,28
+1130512,1130512,3T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,32
+1130513,1130513,3T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,36
+1130514,1130514,3T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,40
+1130515,1130515,3T 가죽 갑옷(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,44
+1130521,1130521,3T 가죽 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,28
+1130522,1130522,3T 가죽 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,32
+1130523,1130523,3T 가죽 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,36
+1130524,1130524,3T 가죽 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,40
+1130525,1130525,3T 가죽 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,44
+1130531,1130531,3T 가죽 신발(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,28
+1130532,1130532,3T 가죽 신발(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,32
+1130533,1130533,3T 가죽 신발(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,36
+1130534,1130534,3T 가죽 신발(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,40
+1130535,1130535,3T 가죽 신발(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,44
+1130606,1130606,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1130607,1130607,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1130608,1130608,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1130609,1130609,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1130610,1130610,체력이 30% 미만 시 5초간 기본 공격을 모두 회피한다.(쿨타임 120초),DodgeVaryper,1000
+1130616,1130616,3T 가죽 갑옷(시작템)_프록  Lv.1,DefenseVary,200
+1130617,1130617,3T 가죽 갑옷(시작템)_프록  Lv.2,DefenseVary,200
+1130618,1130618,3T 가죽 갑옷(시작템)_프록  Lv.3,DefenseVary,200
+1130619,1130619,3T 가죽 갑옷(시작템)_프록  Lv.4,DefenseVary,200
+1130620,1130620,3T 가죽 갑옷(시작템)_프록  Lv.5,DefenseVary,200
+1130636,1130636,3T 가죽 신발(시작템)_프록_이동 속도 증가  Lv.1,MoveSpeedVaryper,100
+1130637,1130637,3T 가죽 신발(시작템)_프록_이동 속도 증가  Lv.2,MoveSpeedVaryper,120
+1130638,1130638,3T 가죽 신발(시작템)_프록_이동 속도 증가  Lv.3,MoveSpeedVaryper,140
+1130639,1130639,3T 가죽 신발(시작템)_프록_이동 속도 증가  Lv.4,MoveSpeedVaryper,160
+1130640,1130640,3T 가죽 신발(시작템)_프록_이동 속도 증가  Lv.5,MoveSpeedVaryper,180
+1200051,1200051,누이의 가호 Lv.1,MaxHpVary,300
+1200052,1200052,누이의 가호 Lv.2,MaxHpVary,350
+1200053,1200053,누이의 가호 Lv.3,MaxHpVary,400
+1200054,1200054,누이의 가호 Lv.4,MaxHpVary,450
+1200055,1200055,누이의 가호 Lv.5,MaxHpVary,500
+1200101,1200101,강인한 의지 Lv.1,SCNegativeAllResistVaryper,1000
+1200102,1200102,강인한 의지 Lv.2,SCNegativeAllResistVaryper,1000
+1200103,1200103,강인한 의지 Lv.3,SCNegativeAllResistVaryper,1000
+1200104,1200104,강인한 의지 Lv.4,SCNegativeAllResistVaryper,1000
+1200105,1200105,강인한 의지 Lv.5,SCNegativeAllResistVaryper,1000
+1210001,1210001,1T 판금 투구(시작템)_최대 체력 향상  Lv.1,MaxHpVary,60
+1210002,1210002,1T 판금 투구(시작템)_최대 체력 향상  Lv.2,MaxHpVary,72
+1210003,1210003,1T 판금 투구(시작템)_최대 체력 향상  Lv.3,MaxHpVary,84
+1210004,1210004,1T 판금 투구(시작템)_최대 체력 향상  Lv.4,MaxHpVary,96
+1210005,1210005,1T 판금 투구(시작템)_최대 체력 향상  Lv.5,MaxHpVary,108
+1210011,1210011,1T 판금 갑옷(시작템)_최대 체력 향상  Lv.1,MaxHpVary,60
+1210012,1210012,1T 판금 갑옷(시작템)_최대 체력 향상  Lv.2,MaxHpVary,72
+1210013,1210013,1T 판금 갑옷(시작템)_최대 체력 향상  Lv.3,MaxHpVary,84
+1210014,1210014,1T 판금 갑옷(시작템)_최대 체력 향상  Lv.4,MaxHpVary,96
+1210015,1210015,1T 판금 갑옷(시작템)_최대 체력 향상  Lv.5,MaxHpVary,108
+1210021,1210021,1T 판금 장갑(시작템)_최대 체력 향상  Lv.1,MaxHpVary,60
+1210022,1210022,1T 판금 장갑(시작템)_최대 체력 향상  Lv.2,MaxHpVary,72
+1210023,1210023,1T 판금 장갑(시작템)_최대 체력 향상  Lv.3,MaxHpVary,84
+1210024,1210024,1T 판금 장갑(시작템)_최대 체력 향상  Lv.4,MaxHpVary,96
+1210025,1210025,1T 판금 장갑(시작템)_최대 체력 향상  Lv.5,MaxHpVary,108
+1210031,1210031,1T 판금 신발(시작템)_최대 체력 향상  Lv.1,MaxHpVary,60
+1210032,1210032,1T 판금 신발(시작템)_최대 체력 향상  Lv.2,MaxHpVary,72
+1210033,1210033,1T 판금 신발(시작템)_최대 체력 향상  Lv.3,MaxHpVary,84
+1210034,1210034,1T 판금 신발(시작템)_최대 체력 향상  Lv.4,MaxHpVary,96
+1210035,1210035,1T 판금 신발(시작템)_최대 체력 향상  Lv.5,MaxHpVary,108
+1210101,1210101,1T 판금 투구(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,20
+1210102,1210102,1T 판금 투구(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,24
+1210103,1210103,1T 판금 투구(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,28
+1210104,1210104,1T 판금 투구(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,32
+1210105,1210105,1T 판금 투구(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,36
+1210111,1210111,1T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,20
+1210112,1210112,1T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,24
+1210113,1210113,1T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,28
+1210114,1210114,1T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,32
+1210115,1210115,1T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,36
+1210121,1210121,1T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,20
+1210122,1210122,1T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,24
+1210123,1210123,1T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,28
+1210124,1210124,1T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,32
+1210125,1210125,1T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,36
+1210131,1210131,1T 판금 신발(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,20
+1210132,1210132,1T 판금 신발(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,24
+1210133,1210133,1T 판금 신발(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,28
+1210134,1210134,1T 판금 신발(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,32
+1210135,1210135,1T 판금 신발(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,36
+1210201,1210201,1T 판금 투구(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,1
+1210202,1210202,1T 판금 투구(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,2
+1210203,1210203,1T 판금 투구(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,3
+1210204,1210204,1T 판금 투구(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,4
+1210205,1210205,1T 판금 투구(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,5
+1210211,1210211,1T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,1
+1210212,1210212,1T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,2
+1210213,1210213,1T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,3
+1210214,1210214,1T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,4
+1210215,1210215,1T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,5
+1210221,1210221,1T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,1
+1210222,1210222,1T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,2
+1210223,1210223,1T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,3
+1210224,1210224,1T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,4
+1210225,1210225,1T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,5
+1210231,1210231,1T 판금 신발(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,1
+1210232,1210232,1T 판금 신발(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,2
+1210233,1210233,1T 판금 신발(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,3
+1210234,1210234,1T 판금 신발(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,4
+1210235,1210235,1T 판금 신발(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,5
+1210301,1210301,1T 판금 투구(시작템)_상태 이상 저항력  Lv.1,SCNegativeRecoveryVary,5
+1210302,1210302,1T 판금 투구(시작템)_상태 이상 저항력  Lv.2,SCNegativeRecoveryVary,6
+1210303,1210303,1T 판금 투구(시작템)_상태 이상 저항력  Lv.3,SCNegativeRecoveryVary,7
+1210304,1210304,1T 판금 투구(시작템)_상태 이상 저항력  Lv.4,SCNegativeRecoveryVary,8
+1210305,1210305,1T 판금 투구(시작템)_상태 이상 저항력  Lv.5,SCNegativeRecoveryVary,9
+1210311,1210311,1T 판금 갑옷(시작템)_물리 피해 감소  Lv.1,PhysicalDamageDownVaryper,10
+1210312,1210312,1T 판금 갑옷(시작템)_물리 피해 감소  Lv.2,PhysicalDamageDownVaryper,12
+1210313,1210313,1T 판금 갑옷(시작템)_물리 피해 감소  Lv.3,PhysicalDamageDownVaryper,14
+1210314,1210314,1T 판금 갑옷(시작템)_물리 피해 감소  Lv.4,PhysicalDamageDownVaryper,16
+1210315,1210315,1T 판금 갑옷(시작템)_물리 피해 감소  Lv.5,PhysicalDamageDownVaryper,18
+1210321,1210321,1T 판금 장갑(시작템)_물리 피해 증가 Lv.1,PhysicalDamageUpVaryper,10
+1210322,1210322,1T 판금 장갑(시작템)_물리 피해 증가 Lv.2,PhysicalDamageUpVaryper,12
+1210323,1210323,1T 판금 장갑(시작템)_물리 피해 증가 Lv.3,PhysicalDamageUpVaryper,14
+1210324,1210324,1T 판금 장갑(시작템)_물리 피해 증가 Lv.4,PhysicalDamageUpVaryper,16
+1210325,1210325,1T 판금 장갑(시작템)_물리 피해 증가 Lv.5,PhysicalDamageUpVaryper,18
+1210331,1210331,1T 판금 신발(시작템)_상태 이상 저항력  Lv.1,SCNegativeRecoveryVary,5
+1210332,1210332,1T 판금 신발(시작템)_상태 이상 저항력  Lv.2,SCNegativeRecoveryVary,6
+1210333,1210333,1T 판금 신발(시작템)_상태 이상 저항력  Lv.3,SCNegativeRecoveryVary,7
+1210334,1210334,1T 판금 신발(시작템)_상태 이상 저항력  Lv.4,SCNegativeRecoveryVary,8
+1210335,1210335,1T 판금 신발(시작템)_상태 이상 저항력  Lv.5,SCNegativeRecoveryVary,9
+1210401,1210401,1T 판금 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1210402,1210402,1T 판금 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1210403,1210403,1T 판금 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1210404,1210404,1T 판금 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1210405,1210405,1T 판금 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1210411,1210411,1T 판금 갑옷(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1210412,1210412,1T 판금 갑옷(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1210413,1210413,1T 판금 갑옷(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1210414,1210414,1T 판금 갑옷(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1210415,1210415,1T 판금 갑옷(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1210421,1210421,1T 판금 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,20
+1210422,1210422,1T 판금 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,24
+1210423,1210423,1T 판금 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,28
+1210424,1210424,1T 판금 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,32
+1210425,1210425,1T 판금 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,36
+1210431,1210431,1T 판금 신발(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,20
+1210432,1210432,1T 판금 신발(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,24
+1210433,1210433,1T 판금 신발(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,28
+1210434,1210434,1T 판금 신발(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,32
+1210435,1210435,1T 판금 신발(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,36
+1210501,1210501,1T 판금 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1210502,1210502,1T 판금 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1210503,1210503,1T 판금 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1210504,1210504,1T 판금 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1210505,1210505,1T 판금 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1210511,1210511,1T 판금 갑옷(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1210512,1210512,1T 판금 갑옷(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1210513,1210513,1T 판금 갑옷(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1210514,1210514,1T 판금 갑옷(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1210515,1210515,1T 판금 갑옷(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1210521,1210521,1T 판금 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,20
+1210522,1210522,1T 판금 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,24
+1210523,1210523,1T 판금 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,28
+1210524,1210524,1T 판금 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,32
+1210525,1210525,1T 판금 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,36
+1210531,1210531,1T 판금 신발(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,20
+1210532,1210532,1T 판금 신발(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,24
+1210533,1210533,1T 판금 신발(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,28
+1210534,1210534,1T 판금 신발(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,32
+1210535,1210535,1T 판금 신발(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,36
+1210616,1210616,1T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.1,PhysicalDefenseVary,500
+1210617,1210617,1T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.2,PhysicalDefenseVary,500
+1210618,1210618,1T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.3,PhysicalDefenseVary,500
+1210619,1210619,1T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.4,PhysicalDefenseVary,500
+1210620,1210620,1T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.5,PhysicalDefenseVary,500
+1210636,1210636,1T 판금 신발(시작템)_프록_방어력증가   Lv.1,DefenseVaryper,100
+1210637,1210637,1T 판금 신발(시작템)_프록_방어력증가   Lv.2,DefenseVaryper,110
+1210638,1210638,1T 판금 신발(시작템)_프록_방어력증가   Lv.3,DefenseVaryper,120
+1210639,1210639,1T 판금 신발(시작템)_프록_방어력증가   Lv.4,DefenseVaryper,130
+1210640,1210640,1T 판금 신발(시작템)_프록_방어력증가   Lv.5,DefenseVaryper,140
+1220001,1220001,2T 판금 투구(시작템)_최대 체력 향상  Lv.1,MaxHpVary,84
+1220002,1220002,2T 판금 투구(시작템)_최대 체력 향상  Lv.2,MaxHpVary,96
+1220003,1220003,2T 판금 투구(시작템)_최대 체력 향상  Lv.3,MaxHpVary,108
+1220004,1220004,2T 판금 투구(시작템)_최대 체력 향상  Lv.4,MaxHpVary,120
+1220005,1220005,2T 판금 투구(시작템)_최대 체력 향상  Lv.5,MaxHpVary,132
+1220011,1220011,2T 판금 갑옷(시작템)_최대 체력 향상  Lv.1,MaxHpVary,84
+1220012,1220012,2T 판금 갑옷(시작템)_최대 체력 향상  Lv.2,MaxHpVary,96
+1220013,1220013,2T 판금 갑옷(시작템)_최대 체력 향상  Lv.3,MaxHpVary,108
+1220014,1220014,2T 판금 갑옷(시작템)_최대 체력 향상  Lv.4,MaxHpVary,120
+1220015,1220015,2T 판금 갑옷(시작템)_최대 체력 향상  Lv.5,MaxHpVary,132
+1220021,1220021,2T 판금 장갑(시작템)_최대 체력 향상  Lv.1,MaxHpVary,84
+1220022,1220022,2T 판금 장갑(시작템)_최대 체력 향상  Lv.2,MaxHpVary,96
+1220023,1220023,2T 판금 장갑(시작템)_최대 체력 향상  Lv.3,MaxHpVary,108
+1220024,1220024,2T 판금 장갑(시작템)_최대 체력 향상  Lv.4,MaxHpVary,120
+1220025,1220025,2T 판금 장갑(시작템)_최대 체력 향상  Lv.5,MaxHpVary,132
+1220031,1220031,2T 판금 신발(시작템)_최대 체력 향상  Lv.1,MaxHpVary,84
+1220032,1220032,2T 판금 신발(시작템)_최대 체력 향상  Lv.2,MaxHpVary,96
+1220033,1220033,2T 판금 신발(시작템)_최대 체력 향상  Lv.3,MaxHpVary,108
+1220034,1220034,2T 판금 신발(시작템)_최대 체력 향상  Lv.4,MaxHpVary,120
+1220035,1220035,2T 판금 신발(시작템)_최대 체력 향상  Lv.5,MaxHpVary,132
+1220101,1220101,2T 판금 투구(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,28
+1220102,1220102,2T 판금 투구(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,32
+1220103,1220103,2T 판금 투구(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,36
+1220104,1220104,2T 판금 투구(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,40
+1220105,1220105,2T 판금 투구(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,44
+1220111,1220111,2T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,28
+1220112,1220112,2T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,32
+1220113,1220113,2T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,36
+1220114,1220114,2T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,40
+1220115,1220115,2T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,44
+1220121,1220121,2T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,28
+1220122,1220122,2T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,32
+1220123,1220123,2T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,36
+1220124,1220124,2T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,40
+1220125,1220125,2T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,44
+1220131,1220131,2T 판금 신발(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,28
+1220132,1220132,2T 판금 신발(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,32
+1220133,1220133,2T 판금 신발(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,36
+1220134,1220134,2T 판금 신발(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,40
+1220135,1220135,2T 판금 신발(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,44
+1220201,1220201,2T 판금 투구(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,2
+1220202,1220202,2T 판금 투구(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,3
+1220203,1220203,2T 판금 투구(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,4
+1220204,1220204,2T 판금 투구(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,5
+1220205,1220205,2T 판금 투구(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,6
+1220211,1220211,2T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,2
+1220212,1220212,2T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,3
+1220213,1220213,2T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,4
+1220214,1220214,2T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,5
+1220215,1220215,2T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,6
+1220221,1220221,2T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,2
+1220222,1220222,2T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,3
+1220223,1220223,2T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,4
+1220224,1220224,2T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,5
+1220225,1220225,2T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,6
+1220231,1220231,2T 판금 신발(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,2
+1220232,1220232,2T 판금 신발(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,3
+1220233,1220233,2T 판금 신발(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,4
+1220234,1220234,2T 판금 신발(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,5
+1220235,1220235,2T 판금 신발(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,6
+1220301,1220301,2T 판금 투구(시작템)_상태 이상 저항력  Lv.1,SCNegativeRecoveryVary,7
+1220302,1220302,2T 판금 투구(시작템)_상태 이상 저항력  Lv.2,SCNegativeRecoveryVary,8
+1220303,1220303,2T 판금 투구(시작템)_상태 이상 저항력  Lv.3,SCNegativeRecoveryVary,9
+1220304,1220304,2T 판금 투구(시작템)_상태 이상 저항력  Lv.4,SCNegativeRecoveryVary,10
+1220305,1220305,2T 판금 투구(시작템)_상태 이상 저항력  Lv.5,SCNegativeRecoveryVary,11
+1220311,1220311,2T 판금 갑옷(시작템)_물리 피해 감소  Lv.1,PhysicalDamageDownVaryper,14
+1220312,1220312,2T 판금 갑옷(시작템)_물리 피해 감소  Lv.2,PhysicalDamageDownVaryper,16
+1220313,1220313,2T 판금 갑옷(시작템)_물리 피해 감소  Lv.3,PhysicalDamageDownVaryper,18
+1220314,1220314,2T 판금 갑옷(시작템)_물리 피해 감소  Lv.4,PhysicalDamageDownVaryper,20
+1220315,1220315,2T 판금 갑옷(시작템)_물리 피해 감소  Lv.5,PhysicalDamageDownVaryper,22
+1220321,1220321,2T 판금 장갑(시작템)_물리 피해 증가 Lv.1,PhysicalDamageUpVaryper,14
+1220322,1220322,2T 판금 장갑(시작템)_물리 피해 증가 Lv.2,PhysicalDamageUpVaryper,16
+1220323,1220323,2T 판금 장갑(시작템)_물리 피해 증가 Lv.3,PhysicalDamageUpVaryper,18
+1220324,1220324,2T 판금 장갑(시작템)_물리 피해 증가 Lv.4,PhysicalDamageUpVaryper,20
+1220325,1220325,2T 판금 장갑(시작템)_물리 피해 증가 Lv.5,PhysicalDamageUpVaryper,22
+1220331,1220331,2T 판금 신발(시작템)_상태 이상 저항력  Lv.1,SCNegativeRecoveryVary,7
+1220332,1220332,2T 판금 신발(시작템)_상태 이상 저항력  Lv.2,SCNegativeRecoveryVary,8
+1220333,1220333,2T 판금 신발(시작템)_상태 이상 저항력  Lv.3,SCNegativeRecoveryVary,9
+1220334,1220334,2T 판금 신발(시작템)_상태 이상 저항력  Lv.4,SCNegativeRecoveryVary,10
+1220335,1220335,2T 판금 신발(시작템)_상태 이상 저항력  Lv.5,SCNegativeRecoveryVary,11
+1220401,1220401,2T 판금 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,28
+1220402,1220402,2T 판금 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,32
+1220403,1220403,2T 판금 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,36
+1220404,1220404,2T 판금 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,40
+1220405,1220405,2T 판금 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,44
+1220411,1220411,2T 판금 갑옷(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,28
+1220412,1220412,2T 판금 갑옷(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,32
+1220413,1220413,2T 판금 갑옷(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,36
+1220414,1220414,2T 판금 갑옷(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,40
+1220415,1220415,2T 판금 갑옷(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,44
+1220421,1220421,2T 판금 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,28
+1220422,1220422,2T 판금 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,32
+1220423,1220423,2T 판금 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,36
+1220424,1220424,2T 판금 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,40
+1220425,1220425,2T 판금 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,44
+1220431,1220431,2T 판금 신발(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,28
+1220432,1220432,2T 판금 신발(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,32
+1220433,1220433,2T 판금 신발(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,36
+1220434,1220434,2T 판금 신발(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,40
+1220435,1220435,2T 판금 신발(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,44
+1220501,1220501,2T 판금 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,28
+1220502,1220502,2T 판금 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,32
+1220503,1220503,2T 판금 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,36
+1220504,1220504,2T 판금 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,40
+1220505,1220505,2T 판금 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,44
+1220511,1220511,2T 판금 갑옷(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,28
+1220512,1220512,2T 판금 갑옷(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,32
+1220513,1220513,2T 판금 갑옷(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,36
+1220514,1220514,2T 판금 갑옷(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,40
+1220515,1220515,2T 판금 갑옷(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,44
+1220521,1220521,2T 판금 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,28
+1220522,1220522,2T 판금 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,32
+1220523,1220523,2T 판금 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,36
+1220524,1220524,2T 판금 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,40
+1220525,1220525,2T 판금 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,44
+1220531,1220531,2T 판금 신발(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,28
+1220532,1220532,2T 판금 신발(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,32
+1220533,1220533,2T 판금 신발(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,36
+1220534,1220534,2T 판금 신발(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,40
+1220535,1220535,2T 판금 신발(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,44
+1220616,1220616,2T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.1,PhysicalDefenseVary,500
+1220617,1220617,2T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.2,PhysicalDefenseVary,500
+1220618,1220618,2T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.3,PhysicalDefenseVary,500
+1220619,1220619,2T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.4,PhysicalDefenseVary,500
+1220620,1220620,2T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.5,PhysicalDefenseVary,500
+1220636,1220636,2T 판금 신발(시작템)_프록_방어력증가   Lv.1,DefenseVaryper,100
+1220637,1220637,2T 판금 신발(시작템)_프록_방어력증가   Lv.2,DefenseVaryper,110
+1220638,1220638,2T 판금 신발(시작템)_프록_방어력증가   Lv.3,DefenseVaryper,120
+1220639,1220639,2T 판금 신발(시작템)_프록_방어력증가   Lv.4,DefenseVaryper,130
+1220640,1220640,2T 판금 신발(시작템)_프록_방어력증가   Lv.5,DefenseVaryper,140
+1230001,1230001,3T 판금 투구(시작템)_최대 체력 향상  Lv.1,MaxHpVary,108
+1230002,1230002,3T 판금 투구(시작템)_최대 체력 향상  Lv.2,MaxHpVary,120
+1230003,1230003,3T 판금 투구(시작템)_최대 체력 향상  Lv.3,MaxHpVary,132
+1230004,1230004,3T 판금 투구(시작템)_최대 체력 향상  Lv.4,MaxHpVary,144
+1230005,1230005,3T 판금 투구(시작템)_최대 체력 향상  Lv.5,MaxHpVary,156
+1230011,1230011,3T 판금 갑옷(시작템)_최대 체력 향상  Lv.1,MaxHpVary,108
+1230012,1230012,3T 판금 갑옷(시작템)_최대 체력 향상  Lv.2,MaxHpVary,120
+1230013,1230013,3T 판금 갑옷(시작템)_최대 체력 향상  Lv.3,MaxHpVary,132
+1230014,1230014,3T 판금 갑옷(시작템)_최대 체력 향상  Lv.4,MaxHpVary,144
+1230015,1230015,3T 판금 갑옷(시작템)_최대 체력 향상  Lv.5,MaxHpVary,156
+1230021,1230021,3T 판금 장갑(시작템)_최대 체력 향상  Lv.1,MaxHpVary,108
+1230022,1230022,3T 판금 장갑(시작템)_최대 체력 향상  Lv.2,MaxHpVary,120
+1230023,1230023,3T 판금 장갑(시작템)_최대 체력 향상  Lv.3,MaxHpVary,132
+1230024,1230024,3T 판금 장갑(시작템)_최대 체력 향상  Lv.4,MaxHpVary,144
+1230025,1230025,3T 판금 장갑(시작템)_최대 체력 향상  Lv.5,MaxHpVary,156
+1230031,1230031,3T 판금 신발(시작템)_최대 체력 향상  Lv.1,MaxHpVary,108
+1230032,1230032,3T 판금 신발(시작템)_최대 체력 향상  Lv.2,MaxHpVary,120
+1230033,1230033,3T 판금 신발(시작템)_최대 체력 향상  Lv.3,MaxHpVary,132
+1230034,1230034,3T 판금 신발(시작템)_최대 체력 향상  Lv.4,MaxHpVary,144
+1230035,1230035,3T 판금 신발(시작템)_최대 체력 향상  Lv.5,MaxHpVary,156
+1230101,1230101,3T 판금 투구(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,36
+1230102,1230102,3T 판금 투구(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,40
+1230103,1230103,3T 판금 투구(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,44
+1230104,1230104,3T 판금 투구(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,48
+1230105,1230105,3T 판금 투구(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,52
+1230111,1230111,3T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,36
+1230112,1230112,3T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,40
+1230113,1230113,3T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,44
+1230114,1230114,3T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,48
+1230115,1230115,3T 판금 갑옷(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,52
+1230121,1230121,3T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,36
+1230122,1230122,3T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,40
+1230123,1230123,3T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,44
+1230124,1230124,3T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,48
+1230125,1230125,3T 판금 장갑(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,52
+1230131,1230131,3T 판금 신발(시작템)_받는 피해 감소 향상  Lv.1,DamageDownVaryper,36
+1230132,1230132,3T 판금 신발(시작템)_받는 피해 감소 향상  Lv.2,DamageDownVaryper,40
+1230133,1230133,3T 판금 신발(시작템)_받는 피해 감소 향상  Lv.3,DamageDownVaryper,44
+1230134,1230134,3T 판금 신발(시작템)_받는 피해 감소 향상  Lv.4,DamageDownVaryper,48
+1230135,1230135,3T 판금 신발(시작템)_받는 피해 감소 향상  Lv.5,DamageDownVaryper,52
+1230201,1230201,3T 판금 투구(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,3
+1230202,1230202,3T 판금 투구(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,4
+1230203,1230203,3T 판금 투구(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,5
+1230204,1230204,3T 판금 투구(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,6
+1230205,1230205,3T 판금 투구(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,7
+1230211,1230211,3T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,3
+1230212,1230212,3T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,4
+1230213,1230213,3T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,5
+1230214,1230214,3T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,6
+1230215,1230215,3T 판금 갑옷(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,7
+1230221,1230221,3T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,3
+1230222,1230222,3T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,4
+1230223,1230223,3T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,5
+1230224,1230224,3T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,6
+1230225,1230225,3T 판금 장갑(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,7
+1230231,1230231,3T 판금 신발(시작템)_체력자연 회복력 향상  Lv.1,RegenHpVary,3
+1230232,1230232,3T 판금 신발(시작템)_체력자연 회복력 향상  Lv.2,RegenHpVary,4
+1230233,1230233,3T 판금 신발(시작템)_체력자연 회복력 향상  Lv.3,RegenHpVary,5
+1230234,1230234,3T 판금 신발(시작템)_체력자연 회복력 향상  Lv.4,RegenHpVary,6
+1230235,1230235,3T 판금 신발(시작템)_체력자연 회복력 향상  Lv.5,RegenHpVary,7
+1230301,1230301,3T 판금 투구(시작템)_상태 이상 저항력  Lv.1,SCNegativeRecoveryVary,9
+1230302,1230302,3T 판금 투구(시작템)_상태 이상 저항력  Lv.2,SCNegativeRecoveryVary,10
+1230303,1230303,3T 판금 투구(시작템)_상태 이상 저항력  Lv.3,SCNegativeRecoveryVary,11
+1230304,1230304,3T 판금 투구(시작템)_상태 이상 저항력  Lv.4,SCNegativeRecoveryVary,12
+1230305,1230305,3T 판금 투구(시작템)_상태 이상 저항력  Lv.5,SCNegativeRecoveryVary,13
+1230311,1230311,3T 판금 갑옷(시작템)_물리 피해 감소  Lv.1,PhysicalDamageDownVaryper,18
+1230312,1230312,3T 판금 갑옷(시작템)_물리 피해 감소  Lv.2,PhysicalDamageDownVaryper,20
+1230313,1230313,3T 판금 갑옷(시작템)_물리 피해 감소  Lv.3,PhysicalDamageDownVaryper,22
+1230314,1230314,3T 판금 갑옷(시작템)_물리 피해 감소  Lv.4,PhysicalDamageDownVaryper,24
+1230315,1230315,3T 판금 갑옷(시작템)_물리 피해 감소  Lv.5,PhysicalDamageDownVaryper,26
+1230321,1230321,3T 판금 장갑(시작템)_물리 피해 증가 Lv.1,PhysicalDamageUpVaryper,18
+1230322,1230322,3T 판금 장갑(시작템)_물리 피해 증가 Lv.2,PhysicalDamageUpVaryper,20
+1230323,1230323,3T 판금 장갑(시작템)_물리 피해 증가 Lv.3,PhysicalDamageUpVaryper,22
+1230324,1230324,3T 판금 장갑(시작템)_물리 피해 증가 Lv.4,PhysicalDamageUpVaryper,24
+1230325,1230325,3T 판금 장갑(시작템)_물리 피해 증가 Lv.5,PhysicalDamageUpVaryper,26
+1230331,1230331,3T 판금 신발(시작템)_상태 이상 저항력  Lv.1,SCNegativeRecoveryVary,9
+1230332,1230332,3T 판금 신발(시작템)_상태 이상 저항력  Lv.2,SCNegativeRecoveryVary,10
+1230333,1230333,3T 판금 신발(시작템)_상태 이상 저항력  Lv.3,SCNegativeRecoveryVary,11
+1230334,1230334,3T 판금 신발(시작템)_상태 이상 저항력  Lv.4,SCNegativeRecoveryVary,12
+1230335,1230335,3T 판금 신발(시작템)_상태 이상 저항력  Lv.5,SCNegativeRecoveryVary,13
+1230401,1230401,3T 판금 투구(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,36
+1230402,1230402,3T 판금 투구(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,40
+1230403,1230403,3T 판금 투구(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,44
+1230404,1230404,3T 판금 투구(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,48
+1230405,1230405,3T 판금 투구(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,52
+1230411,1230411,3T 판금 갑옷(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,36
+1230412,1230412,3T 판금 갑옷(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,40
+1230413,1230413,3T 판금 갑옷(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,44
+1230414,1230414,3T 판금 갑옷(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,48
+1230415,1230415,3T 판금 갑옷(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,52
+1230421,1230421,3T 판금 장갑(시작템)_PVE 피해 증가  Lv.1,PVEDamageUpVaryper,36
+1230422,1230422,3T 판금 장갑(시작템)_PVE 피해 증가  Lv.2,PVEDamageUpVaryper,40
+1230423,1230423,3T 판금 장갑(시작템)_PVE 피해 증가  Lv.3,PVEDamageUpVaryper,44
+1230424,1230424,3T 판금 장갑(시작템)_PVE 피해 증가  Lv.4,PVEDamageUpVaryper,48
+1230425,1230425,3T 판금 장갑(시작템)_PVE 피해 증가  Lv.5,PVEDamageUpVaryper,52
+1230431,1230431,3T 판금 신발(시작템)_PVE 피해 감소  Lv.1,PVEDamageDownVaryper,36
+1230432,1230432,3T 판금 신발(시작템)_PVE 피해 감소  Lv.2,PVEDamageDownVaryper,40
+1230433,1230433,3T 판금 신발(시작템)_PVE 피해 감소  Lv.3,PVEDamageDownVaryper,44
+1230434,1230434,3T 판금 신발(시작템)_PVE 피해 감소  Lv.4,PVEDamageDownVaryper,48
+1230435,1230435,3T 판금 신발(시작템)_PVE 피해 감소  Lv.5,PVEDamageDownVaryper,52
+1230501,1230501,3T 판금 투구(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,36
+1230502,1230502,3T 판금 투구(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,40
+1230503,1230503,3T 판금 투구(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,44
+1230504,1230504,3T 판금 투구(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,48
+1230505,1230505,3T 판금 투구(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,52
+1230511,1230511,3T 판금 갑옷(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,36
+1230512,1230512,3T 판금 갑옷(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,40
+1230513,1230513,3T 판금 갑옷(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,44
+1230514,1230514,3T 판금 갑옷(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,48
+1230515,1230515,3T 판금 갑옷(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,52
+1230521,1230521,3T 판금 장갑(시작템)_PVP 피해 증가  Lv.1,PVPDamageUpVaryper,36
+1230522,1230522,3T 판금 장갑(시작템)_PVP 피해 증가  Lv.2,PVPDamageUpVaryper,40
+1230523,1230523,3T 판금 장갑(시작템)_PVP 피해 증가  Lv.3,PVPDamageUpVaryper,44
+1230524,1230524,3T 판금 장갑(시작템)_PVP 피해 증가  Lv.4,PVPDamageUpVaryper,48
+1230525,1230525,3T 판금 장갑(시작템)_PVP 피해 증가  Lv.5,PVPDamageUpVaryper,52
+1230531,1230531,3T 판금 신발(시작템)_PVP 피해 감소  Lv.1,PVPDamageDownVaryper,36
+1230532,1230532,3T 판금 신발(시작템)_PVP 피해 감소  Lv.2,PVPDamageDownVaryper,40
+1230533,1230533,3T 판금 신발(시작템)_PVP 피해 감소  Lv.3,PVPDamageDownVaryper,44
+1230534,1230534,3T 판금 신발(시작템)_PVP 피해 감소  Lv.4,PVPDamageDownVaryper,48
+1230535,1230535,3T 판금 신발(시작템)_PVP 피해 감소  Lv.5,PVPDamageDownVaryper,52
+1230616,1230616,3T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.1,PhysicalDefenseVary,500
+1230617,1230617,3T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.2,PhysicalDefenseVary,500
+1230618,1230618,3T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.3,PhysicalDefenseVary,500
+1230619,1230619,3T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.4,PhysicalDefenseVary,500
+1230620,1230620,3T 판금 갑옷(시작템)_프록_물리 방어력 증가  Lv.5,PhysicalDefenseVary,500
+1230636,1230636,3T 판금 신발(시작템)_프록_방어력 증가  Lv.1,DefenseVaryper,100
+1230637,1230637,3T 판금 신발(시작템)_프록_방어력 증가  Lv.2,DefenseVaryper,110
+1230638,1230638,3T 판금 신발(시작템)_프록_방어력 증가  Lv.3,DefenseVaryper,120
+1230639,1230639,3T 판금 신발(시작템)_프록_방어력 증가  Lv.4,DefenseVaryper,130
+1230640,1230640,3T 판금 신발(시작템)_프록_방어력 증가  Lv.5,DefenseVaryper,140
+10000001,10000001,치유의 바람 이동 속도 증가 15 %,MoveSpeedVaryper,150
+10000002,10000002,등짐 착용(무겁다-일반),MoveSpeedVaryper,-500
+10001002,10001002,공속 버프,AtkSpeedVaryper,300
+10500002,10500002,점령대 버프,PVEDamageUpVaryper,500
+11540001,11540001,물리 방어력 증가,PhysicalDefenseVary,100
+11540002,11540002,물리 방어력 증가,PhysicalDefenseVary,100
+11540003,11540003,물리 방어력 증가,PhysicalDefenseVary,100
+12140001,12140001,상태 이상 저항,SCNegativeAllResistVaryper,1000
+12140002,12140002,주는 피해 증가,DamageUpVaryper,50
+12140003,12140003,받는 피해 증가,DamageDownVaryper,-30
+12230001,12230001,물리 방어력 30% 감소,PhysicalDamageDownVaryper,300
+12230002,12230002,이동 속도 30% 증가,MoveSpeedVaryper,300
+12520001,12520001,이동 속도 증가,MoveSpeedVaryper,300
+12520002,12520002,물리 피해 증가,PhysicalDamageUpVaryper,300
+13120004,13120004,은신 이동 속도 증가,MoveSpeedVaryper,300
+13120005,13120005,은신 공격 속도 증가,AtkSpeedVaryper,500
+14310000,14310000,젖음 표식,MoveSpeedVaryper,-300
+15010003,15010003,시전자 포착 부여(공속 증가),AtkSpeedVaryper,400
+15010004,15010004,시전자 포착 부여 (이속 증가),MoveSpeedVaryper,300
+15020003,15020003,물러서기,MoveSpeedVaryper,300
+15540001,15540001,쿨감,SkillCooldownAccVary,20
+15540003,15540003,활_W_다발 화살,MoveSpeedVaryper,-300
+15540013,15540013,활_W_다발 화살,MoveSpeedVaryper,-330
+15540023,15540023,활_W_다발 화살,MoveSpeedVaryper,-360
+15540033,15540033,활_W_다발 화살,MoveSpeedVaryper,-390
+15540043,15540043,활_W_다발 화살,MoveSpeedVaryper,-420
+15630001,15630001,물리 방어력 감소,PhysicalDefenseVary,-50
+15630002,15630002,이동속도 감소,MoveSpeedVaryper,-300
+17000001,17000001,이속 디버프,MoveSpeedVaryper,-150
+17000002,17000002,공속 버프,AtkSpeedVaryper,150
+17000004,17000004,응급 처치,MoveSpeedVaryper,-500
+17000101,17000101,명상,MoveSpeedVaryper,-500
+18000001,18000001,반신화,MaxHpVary,500
+18000006,18000006,기름칠,DodgeVaryper,1000
+18000007,18000007,황금에 숨어라 (상태 이상 면역),SCNegativeAllResistVaryper,1000
+19000001,19000001,근력 강화,SCNegativeRecoveryVary,50
+19000002,19000002,넘치는 마나,MoveSpeedVaryper,450
+19999911,19999911,몬스터 공속 버프,AtkSpeedVaryper,300
+19999912,19999912,몬스터 이속 버프,MoveSpeedVaryper,300
+19999921,19999921,몬스터 공격력 버프,AttackVary,1000
+19999922,19999922,몬스터 물리 방어력 버프,PhysicalDefenseVary,1000
+19999931,19999931,몬스터 물리 피해 증가,PhysicalDamageUpVaryper,100
+19999932,19999932,몬스터 치명타 확률,CriVaryper,100
+19999941,19999941,몬스터 치명타 피해,CriDamageVaryper,100
+19999942,19999942,몬스터 회피율 버프,DodgeVaryper,100
+19999991,19999991,테스트용_최대 생명력 증가,MaxHpVary,10000000
+19999992,19999992,테스트용_최대 활력 증가,MaxMpVary,10000000
+19999993,19999993,테스트용_생명력 회복 증가,RegenHpVary,100000
+19999994,19999994,테스트용_활력 회복 증가,RegenMpVary,100000
+19999995,19999995,테스트용_이동 속도 증가,MoveSpeedVaryper,1000
+20000001,20000001,몬스터_공용_느려짐 Lv.1,MoveSpeedVaryper,-100
+20000002,20000002,몬스터_공용_느려짐 Lv.2,MoveSpeedVaryper,-200
+20000003,20000003,몬스터_공용_느려짐 Lv.3,MoveSpeedVaryper,-300
+20000004,20000004,몬스터_공용_느려짐 Lv.4,MoveSpeedVaryper,-400
+20000005,20000005,몬스터_공용_느려짐 Lv.5,MoveSpeedVaryper,-500
+20000006,20000006,몬스터_공용_느려짐 Lv.6,MoveSpeedVaryper,-600
+20000007,20000007,몬스터_공용_느려짐 Lv.7,MoveSpeedVaryper,-700
+20000008,20000008,몬스터_공용_느려짐 Lv.8,MoveSpeedVaryper,-800
+20000009,20000009,몬스터_공용_느려짐 Lv.9,MoveSpeedVaryper,-900
+20000010,20000010,몬스터_공용_느려짐 Lv.10,MoveSpeedVaryper,-1000
+20000011,20000011,몬스터_공용_분노 Lv.1,AttackVary,10
+20000012,20000012,몬스터_공용_분노 Lv.2,AttackVary,20
+20000013,20000013,몬스터_공용_분노 Lv.3,AttackVary,30
+20000014,20000014,몬스터_공용_분노 Lv.4,AttackVary,40
+20000015,20000015,몬스터_공용_분노 Lv.5,AttackVary,50
+20000016,20000016,몬스터_공용_분노 Lv.6,AttackVary,60
+20000017,20000017,몬스터_공용_분노 Lv.7,AttackVary,70
+20000018,20000018,몬스터_공용_분노 Lv.8,AttackVary,80
+20000019,20000019,몬스터_공용_분노 Lv.9,AttackVary,90
+20000020,20000020,몬스터_공용_분노 Lv.10,AttackVary,100
+20000021,20000021,몬스터_공용_분노 Lv.1,AtkSpeedVaryper,50
+20000022,20000022,몬스터_공용_분노 Lv.2,AtkSpeedVaryper,70
+20000023,20000023,몬스터_공용_분노 Lv.3,AtkSpeedVaryper,90
+20000024,20000024,몬스터_공용_분노 Lv.4,AtkSpeedVaryper,110
+20000025,20000025,몬스터_공용_분노 Lv.5,AtkSpeedVaryper,130
+20000026,20000026,몬스터_공용_분노 Lv.6,AtkSpeedVaryper,150
+20000027,20000027,몬스터_공용_분노 Lv.7,AtkSpeedVaryper,200
+20000028,20000028,몬스터_공용_분노 Lv.8,AtkSpeedVaryper,250
+20000029,20000029,몬스터_공용_분노 Lv.9,AtkSpeedVaryper,300
+20000030,20000030,몬스터_공용_분노 Lv.10,AtkSpeedVaryper,500
+20000031,20000031,몬스터_공용_분노 Lv.1,PhysicalDefenseVary,-5
+20000032,20000032,몬스터_공용_분노 Lv.2,PhysicalDefenseVary,-10
+20000033,20000033,몬스터_공용_분노 Lv.3,PhysicalDefenseVary,-15
+20000034,20000034,몬스터_공용_분노 Lv.4,PhysicalDefenseVary,-20
+20000035,20000035,몬스터_공용_분노 Lv.5,PhysicalDefenseVary,-25
+20000036,20000036,몬스터_공용_분노 Lv.6,PhysicalDefenseVary,-30
+20000037,20000037,몬스터_공용_분노 Lv.7,PhysicalDefenseVary,-40
+20000038,20000038,몬스터_공용_분노 Lv.8,PhysicalDefenseVary,-50
+20000039,20000039,몬스터_공용_분노 Lv.9,PhysicalDefenseVary,-70
+20000040,20000040,몬스터_공용_분노 Lv.10,PhysicalDefenseVary,-100
+21000005,21000005,이즈나의 메아리 - 폴라리우스의 파편 조각 피해,DamageDownVaryper,-200
+21000006,21000006,이즈나의 메아리 - 폴라리우스의 파편 조각(효과),DamageDownVaryper,300
+21000007,21000007,이즈나의 메아리 - 폴라리우스의 파편 조각(효과),DamageUpVaryper,200
+20410001,20410001,몬스터 광폭화,AttackVary,100
+20410002,20410002,몬스터 광폭화,MoveSpeedVaryper,625
+20410003,20410003,몬스터 광폭화,CriVaryper,1000
+20410005,20410005,보스 몬스터 CC면역,SCNegativeAllResistVaryper,1000
+30410006,30410006,이동속도 -50%,MoveSpeedVaryper,-500
+30410104,30410104,말카바돈 이동속도 -20%,MoveSpeedVaryper,-200
+30410105,30410105,말카바돈 상태이상 저항력 감소 25,SCNegativeRecoveryVary,-25
+40100025,40100025,공속 증가(궁신),AtkSpeedVaryper,500
+40100026,40100026,이속 증가(궁신),MoveSpeedVaryper,500
+40100027,40100027,치명타 추가 피해 증가(궁신),CriDamageVaryper,500
+40310001,40310001,탈것_말_적대상_이속감소,MountSpeedVaryper,-250
+40310002,40310002,탈것_말_아군대상_이속증가,MountSpeedVaryper,50
+40410001,40410001,탈것_공용_질주 Lv.1,MountSpeedVaryper,200
+40410002,40410002,탈것_공용_질주 Lv.2,MountSpeedVaryper,250
+40410003,40410003,탈것_공용_질주 Lv.3,MountSpeedVaryper,300
+40410004,40410004,탈것_공용_질주 Lv.4,MountSpeedVaryper,350
+40410005,40410005,탈것_공용_질주 Lv.5,MountSpeedVaryper,400
+40410006,40410006,탈것_공용_질주 Lv.6,MountSpeedVaryper,450
+40410007,40410007,탈것_공용_질주 Lv.7,MountSpeedVaryper,500
+40410008,40410008,탈것_공용_질주 Lv.8,MountSpeedVaryper,500
+40410009,40410009,탈것_공용_질주 Lv.9,MountSpeedVaryper,500
+40410010,40410010,탈것_공용_질주 Lv.10,MountSpeedVaryper,500
+41010008,41010008,하급 과일차_받는 피해 감소,DamageDownVaryper,50
+41010009,41010009,하급 발효주_주는 피해 증가,DamageUpVaryper,50
+41030005,41030005,중급 과일차_받는 피해 감소,DamageDownVaryper,100
+41030006,41030006,중급 발효주_주는 피해 증가,DamageUpVaryper,100
+41500001,41500001,탈 것 이속 증가 (꿈꾸는 당나귀),MountSpeedVaryper,90
+41500002,41500002,탈 것 이속 증가 (라만차의 부름),MountSpeedVaryper,130
+50540003,50540003,방어막_3T,DamageDownVaryper,200
+50550001,50550001,유체화Lv1_이속증가,MoveSpeedVaryper,300
+50550002,50550002,유체화Lv2_이속증가,MoveSpeedVaryper,300
+50550003,50550003,유체화Lv3_이속증가,MoveSpeedVaryper,300
+50550004,50550004,유체화Lv4_이속증가,MoveSpeedVaryper,400
+50550005,50550005,유체화Lv5_이속증가,MoveSpeedVaryper,400
+50550006,50550006,유체화Lv6_이속증가,MoveSpeedVaryper,400
+50550007,50550007,유체화Lv7_이속증가,MoveSpeedVaryper,500
+50551001,50551001,고양Lv1_공속증가,AtkSpeedVaryper,150
+50551002,50551002,고양Lv1_공업,DamageUpVaryper,100
+50551003,50551003,고양Lv2_공속증가,AtkSpeedVaryper,200
+50551004,50551004,고양Lv2_공업,DamageUpVaryper,150
+50551005,50551005,고양Lv3_공속증가,AtkSpeedVaryper,200
+50551006,50551006,고양Lv3_공업,DamageUpVaryper,150
+50551007,50551007,고양Lv4_공속증가,AtkSpeedVaryper,250
+50551008,50551008,고양Lv4_공업,DamageUpVaryper,150
+50551009,50551009,고양Lv5_공속증가,AtkSpeedVaryper,250
+50551010,50551010,고양Lv5_공업,DamageUpVaryper,150
+50551011,50551011,고양Lv6_공속증가,AtkSpeedVaryper,300
+50551012,50551012,고양Lv6_공업,DamageUpVaryper,200
+50551013,50551013,고양Lv7_공속증가,AtkSpeedVaryper,300
+50551014,50551014,고양Lv7_공업,DamageUpVaryper,200
+50560000,50560000,탈진Lv1_공속 감소,AtkSpeedVaryper,-500
+50560001,50560001,탈진Lv1_이속 감소,MoveSpeedVaryper,-500
+50560006,50560006,탈진Lv4_공속 감소,AtkSpeedVaryper,-500
+50560007,50560007,탈진Lv4_이속 감소,MoveSpeedVaryper,-500
+50560008,50560008,탈진Lv5_공속 감소,AtkSpeedVaryper,-500
+50560009,50560009,탈진Lv5_이속 감소,MoveSpeedVaryper,-500
+60000000,60000000,테스트용 이속버프,ShipMaxSpeedVaryper,20000
+60000001,60000001,테스트용 공격력 버프,AttackVary,1000
+62510001,62510001,쾌속정_이속버프,ShipMaxSpeedVaryper,500
+70000001,70000001,사슬탄,ShipMaxSpeedVaryper,-500
+71700100,71700100,손재주 주사위 보너스+100,DexterityDiceModifierVary,100
+71700101,71700101,손재주 주사위 보너스+10,DexterityDiceModifierVary,10
+71700102,71700102,손재주 주사위 최댓값+10,DexterityDiceSideVary,10
+71700103,71700103,손재주 주사위 최댓값-99,DexterityDiceSideVary,-99
+71700104,71700104,손재주 주사위 최댓값-50,DexterityDiceSideVary,-50
+72500001,72500001,테스트 음식_1,RegenHpVary,20
+72500002,72500002,테스트 음식_2,RegenMpVary,10
+72500003,72500003,과일차_받는 대미지 감소,DamageDownVaryper,50
+72500004,72500004,발효주_주는 대미지 증가,DamageUpVaryper,50
+80000001,80000001,몬스터 회귀 버프,MoveSpeedVaryper,1000
+90100001,90100001,모닥불은 맞지 않아,SCNegativeAllResistVaryper,1000
+99000022,99000022,몬스터 스탯 테스트_AttackVary,AttackVary,1000
+99000023,99000023,몬스터 스탯 테스트_PhysicalDefenseVary,PhysicalDefenseVary,1000
+99000024,99000024,몬스터 스탯 테스트_MagicDefenseVary,PhysicalDefenseVary,1000
+99000025,99000025,몬스터 스탯 테스트_AtkSpeedVaryper,AtkSpeedVaryper,1000
+99000026,99000026,몬스터 스탯 테스트_MoveSpeedVaryper,MoveSpeedVaryper,1000
+99000027,99000027,몬스터 스탯 테스트_MaxHpVary,MaxHpVaryper,1000
+99000028,99000028,몬스터 스탯 테스트_MaxMpVary,MaxMpVary,1000
+99000029,99000029,몬스터 스탯 테스트_RegenHpVary,RegenHpVary,1000
+99000030,99000030,몬스터 스탯 테스트_RegenMpVary,RegenMpVary,1000
+99000031,99000031,몬스터 스탯 테스트_DamageUpVaryper,DamageUpVaryper,1000
+99000032,99000032,몬스터 스탯 테스트_DamageDownVaryPer,DamageDownVaryper,1000
+99000033,99000033,몬스터 스탯 테스트_PhysicalDamageUpPer,PhysicalDamageUpVaryper,1000
+99000034,99000034,몬스터 스탯 테스트_PhysicalDamageDownPer,PhysicalDamageDownVaryper,1000
+99000035,99000035,몬스터 스탯 테스트_MagicDamageUpPer,PhysicalDamageUpVaryper,1000
+99000036,99000036,몬스터 스탯 테스트_MagicDamageDownPer,PhysicalDamageDownVaryper,1000
+99000037,99000037,몬스터 스탯 테스트_PVEDamageUpPer,SCNegativeStunResistVaryper,1000
+99000038,99000038,몬스터 스탯 테스트_PVEDamageDownPer,SCNegativeTrapResistVaryper,1000
+99000039,99000039,몬스터 스탯 테스트_PVPDamageUpPer,SCNegativeFloatingResistVaryper,1000
+99000040,99000040,몬스터 스탯 테스트_PVPDamageDownPer,SCNegativeKnockdownResistVaryper,1000
+99000041,99000041,몬스터 스탯 테스트_DodgePer,DodgeVaryper,1000
+99000042,99000042,몬스터 스탯 테스트_CriPer,CriVaryper,1000
+99000043,99000043,몬스터 스탯 테스트_CriDamageper,CriDamageVaryper,1000
+99000044,99000044,몬스터 스탯 테스트_CoolTimeDecVaryper,SkillCooldownAccVary,1000
+99000045,99000045,몬스터 스탯 테스트_SCNegativeRecoveryVary,SCNegativeRecoveryVary,1000
+99999998,99999998,테스트용 공격력,AttackVary,999999999
+99999999,99999999,테스트용 방어력,DefenseVary,999999999

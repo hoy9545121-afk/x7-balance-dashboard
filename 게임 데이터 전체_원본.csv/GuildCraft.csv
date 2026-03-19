@@ -1,0 +1,2 @@
+﻿OID,Cid,Milestone,Comment,GuildCraftCategoryCid,Name,ProductionCid,ProductionAmount,ConditionLevel,ResultItemCids,ResultItemAmount,ResultChance,Broadcast,ScheduleId,AuthRole,WaitTime
+1,1,Dev,,1,치유의 샘,"[1,2,3,4,5,6,7,8,9]","[1,1,1,1,1,1,1,1,1]",4,"[1,1,0]","[1,1,0]","[50,250,700]",FALSE,0,"[Manager,Master]",86400

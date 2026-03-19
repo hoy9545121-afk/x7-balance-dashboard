@@ -1,0 +1,13 @@
+﻿OID,Cid,Comment,Category,Group,Name
+1,1,,OnehandSword,weapon,무기
+2,2,,TwohandSword,weapon,무기
+3,3,,Dagger,weapon,무기
+4,4,,Staff,weapon,무기
+5,5,,Bow,weapon,무기
+6,6,,LeatherHelm,armor,방어구
+7,7,,LeatherArmor,armor,방어구
+8,8,,LeatherShoes,armor,방어구
+9,9,,Cloak,armor,방어구
+10,10,,Earring,accessory,장신구
+11,11,,Necklace,accessory,장신구
+12,12,,Ring,accessory,장신구

@@ -1,0 +1,95 @@
+root_id,root_type,root_name,nodeId,comment,status_tag_condition_cids,chance,movement,obstacle_jump,move_time,offset_angle,offset_distance,absolute_distance,camera_lag,camera_lag_speed,camera_lag_interp_speed,on_begin_status_change_cid,on_success_skill,on_success_status_change_cid,ignore_resistance
+8000,skill_root,구르기,80000020006,,[],1000,Linear,false,450,0,300,false,false,10,2,8000,,0,false
+10001,skill_root,단일 leap 테스트 스킬,100010020007,,[],1000,Linear,false,2000,0,0,false,false,0,0,0,,0,false
+30211,skill_root,점멸 1T,302110020006,,[],1000,Blink,true,0,0,0,false,true,10,2,0,,0,false
+30241,skill_root,섬광,302410020006,,[],1000,Blink,true,0,0,0,false,true,10,2,0,,0,false
+30251,skill_root,점멸 5T,302510020006,,[],1000,Blink,true,0,0,300,false,true,10,2,0,,0,false
+100251,skill_root,방패 돌진 Lv.1,1002510020007,,[],1000,Linear,false,200,0,0,false,false,0,0,0,,0,false
+100401,skill_root,제압 Lv.1,1004010020007,,[],1000,Linear,true,300,0,500,false,false,0,0,0,,0,false
+100551,skill_root,진공 폭발 Lv.1,1005510020007,,[],1000,Linear,false,300,0,500,false,false,0,0,0,,0,false
+100701,skill_root,폭주하는 광휘 Lv.1,1007010020009,,[],1000,Linear,false,450,0,500,false,false,0,0,0,,0,false
+100702,skill_root,폭주하는 광휘 Lv.2 백업용,1007020020009,,[],1000,Linear,true,300,0,0,false,false,0,0,0,,0,false
+200151,skill_root,적진으로 Lv.1,2001510020006,적진으로,[],1000,Linear,false,480,0,0,false,false,10,2,0,2001510020007,0,false
+200152,skill_root,적진으로 Lv.2,2001520020006,적진으로,[],1000,Linear,false,480,0,0,false,false,10,2,0,2001520020007,0,false
+200153,skill_root,적진으로 Lv.3,2001530020006,적진으로,[],1000,Linear,false,480,0,0,false,false,10,2,0,2001530020007,0,false
+200154,skill_root,적진으로 Lv.4,2001540020006,적진으로,[],1000,Linear,false,480,0,0,false,false,10,2,0,2001540020007,0,false
+200155,skill_root,적진으로 Lv.5,2001550020006,적진으로,[],1000,Linear,false,480,0,0,false,false,10,2,0,2001550020007,0,false
+200401,skill_root,폭주 Lv.1,2004010020006,,[],1000,Linear,true,200,0,200,false,true,5,1,0,2004010020007,0,false
+200401,skill_root,폭주 Lv.1,2004010020016,,[],1000,Linear,true,200,0,150,false,true,5,1,0,2004010020017,0,false
+200701,skill_root,결투 돌입 Lv.1,2007010020007,,[],1000,Linear,true,200,0,0,false,true,5,1,0,,0,false
+300151,skill_root,급습 Lv.1,3001510020006,,[],1000,Blink,true,0,0,0,false,true,1,0.1,0,,0,false
+300152,skill_root,급습 Lv.2,3001520020006,,[],1000,Blink,true,0,0,0,false,true,1,0.1,0,,0,false
+300153,skill_root,급습 Lv.3,3001530020006,,[],1000,Blink,true,0,0,0,false,true,1,0.1,0,,0,false
+300154,skill_root,급습 Lv.4,3001540020006,,[],1000,Blink,true,0,0,0,false,true,1,0.1,0,,0,false
+300155,skill_root,급습 Lv.5,3001550020006,,[],1000,Blink,true,0,0,0,false,true,1,0.1,0,,0,false
+300251,skill_root,방출 사격 Lv.1,3002510020007,,[],1000,Linear,false,100,0,-150,true,false,0,0,0,,0,false
+300252,skill_root,방출 사격 Lv.2,3002520020007,,[],1000,Linear,false,100,0,-150,true,false,0,0,0,,0,false
+300253,skill_root,방출 사격 Lv.3,3002530020007,,[],1000,Linear,false,100,0,-150,true,false,0,0,0,,0,false
+300254,skill_root,방출 사격 Lv.4,3002540020007,,[],1000,Linear,false,100,0,-150,true,false,0,0,0,,0,false
+300255,skill_root,방출 사격 Lv.5,3002550020007,,[],1000,Linear,false,100,0,-150,true,false,0,0,0,,0,false
+300701,skill_root,재정비 도약 Lv.1,3007010020006,,[],1000,Linear,true,200,0,0,false,true,5,1,0,,0,false
+400151,skill_root,심판의 낙뢰 Lv.1,4001510020012,,[],1000,Linear,true,100,0,0,false,true,10,2,0,4001510020013,0,false
+400152,skill_root,심판의 낙뢰 Lv.2,4001520020012,,[],1000,Blink,true,0,0,0,false,false,10,2,0,4001520020013,0,false
+400153,skill_root,심판의 낙뢰 Lv.3,4001530020012,,[],1000,Blink,true,0,0,0,false,false,10,2,0,4001530020013,0,false
+400154,skill_root,심판의 낙뢰 Lv.4,4001540020012,,[],1000,Blink,true,0,0,0,false,false,10,2,0,4001540020013,0,false
+400155,skill_root,심판의 낙뢰 Lv.5,4001550020012,,[],1000,Blink,true,0,0,0,false,false,10,2,0,4001550020013,0,false
+500201,skill_root,Q_질풍 가르기 Lv.1,5002010020006,,[],1000,Linear,false,200,0,300,false,false,10,2,0,5002010020007,0,false
+500202,skill_root,Q_질풍 가르기 Lv.2,5002020020006,,[],1000,Linear,false,200,0,300,false,false,10,2,0,5002020020007,0,false
+500203,skill_root,Q_질풍 가르기 Lv.3,5002030020006,,[],1000,Linear,false,200,0,300,false,false,10,2,0,5002030020007,0,false
+500204,skill_root,Q_질풍 가르기 Lv.4,5002040020006,,[],1000,Linear,false,200,0,300,false,false,10,2,0,5002040020007,0,false
+500205,skill_root,Q_질풍 가르기 Lv.5,5002050020006,,[],1000,Linear,false,200,0,300,false,false,10,2,0,5002050020007,0,false
+500351,skill_root,R_암살자의 분노 Lv1,5003510020012,,[],1000,Linear,true,400,0,0,false,true,5,1,0,,0,false
+500352,skill_root,R_암살자의 분노 Lv2,5003520020012,,[],1000,Linear,true,400,0,0,false,true,5,1,0,,0,false
+500353,skill_root,R_암살자의 분노 Lv3,5003530020012,,[],1000,Linear,true,400,0,0,false,true,5,1,0,,0,false
+500354,skill_root,R_암살자의 분노 Lv4,5003540020012,,[],1000,Linear,true,400,0,0,false,true,5,1,0,,0,false
+500355,skill_root,R_암살자의 분노 Lv5,5003550020012,,[],1000,Linear,true,400,0,0,false,true,5,1,0,,0,false
+500451,skill_root,어둠의 일격 Lv.1,5004510020007,,[],1000,Linear,true,200,0,0,false,true,5,1,0,,0,false
+500451,skill_root,어둠의 일격 Lv.1,5004510020013,,[],1000,Linear,true,200,0,0,false,true,5,1,0,,0,false
+500601,skill_root,추격자의 발톱 Lv.1,5006010020007,,[],1000,Linear,false,150,0,0,false,false,0,0,0,,0,false
+700060,skill_root,돌진 Lv.1,7000600020007,,[],1000,Linear,true,200,0,0,false,true,5,1,0,,0,false
+1100101,skill_root,물러서기 Lv.1,11001010020006,,[],1000,Linear,false,300,0,-400,false,false,10,0.5,0,,1100101,false
+1100102,skill_root,물러서기 Lv.2,11001020020006,,[],1000,Linear,false,300,0,-400,false,false,10,0.5,0,,1100102,false
+1100103,skill_root,물러서기 Lv.3,11001030020006,,[],1000,Linear,false,300,0,-400,false,false,10,0.5,0,,1100103,false
+1100104,skill_root,물러서기 Lv.4,11001040020006,,[],1000,Linear,false,300,0,-400,false,false,10,0.5,0,,1100104,false
+1100105,skill_root,물러서기 Lv.5,11001050020006,,[],1000,Linear,false,300,0,-400,false,false,10,0.5,0,,1100105,false
+1200000,skill_root,3T 가죽 갑옷(시작템)_프록  Lv.5,12000000020006,,[],1000,Linear,false,300,0,500,false,false,0,0,1200000,,0,false
+1200001,skill_root,3T 가죽 장갑(시작템)_프록  Lv.1,12000010020006,진공 폭발Lv.1,[],1000,Linear,false,300,0,300,false,false,0,0,1200000,,0,false
+1200002,skill_root,3T 가죽 장갑(시작템)_프록  Lv.2,12000020020006,,[],1000,Linear,false,300,0,350,false,false,0,0,1200000,,0,false
+1200003,skill_root,3T 가죽 장갑(시작템)_프록  Lv.3,12000030020006,,[],1000,Linear,false,300,0,400,false,false,0,0,1200000,,0,false
+1200004,skill_root,3T 가죽 장갑(시작템)_프록  Lv.4,12000040020006,,[],1000,Linear,false,300,0,450,false,false,0,0,1200000,,0,false
+1200005,skill_root,3T 가죽 장갑(시작템)_프록  Lv.5,12000050020006,,[],1000,Linear,false,300,0,500,false,false,0,0,1200000,,0,false
+21110035,skill_root,몬스터 팬텀 창병_평타1_2회 찌르기,211100350020008,,[],1000,Linear,false,300,0,100,true,false,0,0,0,,0,false
+21110037,skill_root,몬스터 팬텀 창병_기술2_휘두르고 찌르기,211100370020008,,[],1000,Linear,false,400,0,100,true,false,0,0,0,,0,false
+21110040,skill_root,몬스터 팬텀 검병_기술1_점프 내려배기,211100400020008,,[],1000,Linear,false,700,0,-50,false,false,0,0,0,,0,false
+21110041,skill_root,"몬스터 팬텀 검병_기술2_횡배기 2회, 찌르기",211100410020008,,[],1000,Linear,false,1300,0,350,true,false,0,0,0,,0,false
+21110067,skill_root,몬스터_망가진 시체 전사_기술1_강타,211100670020008,,[],1000,Linear,false,200,0,150,true,false,0,0,0,,0,false
+21150005,skill_root,몬스터_망가진 시체 투사_평타(2Hit),211500050020008,,[],1000,Linear,false,700,0,150,true,false,0,0,0,,0,false
+21250018,skill_root,몬스터 피 묻은 손 암살자_급습,212500180020008,,[],1000,Linear,false,600,0,-100,false,false,0,0,0,,0,false
+21310008,skill_root,몬스터 바위 정령 돌진,213100080020006,,[],1000,Linear,false,1200,0,500,true,false,0,0,0,,0,false
+21350001,skill_root,몬스터_멧돼지 돌진 공격,213500010020008,,[],1000,Linear,false,350,0,-100,true,false,0,0,0,,0,false
+23110005,skill_root,몬스터_성난 불곰 타격,231100050020008,,[],1000,Linear,false,600,0,150,true,false,0,0,0,,0,false
+25110003,skill_root,몬스터 오우거 곤봉 기술1_리프 어택,251100030020008,,[],1000,Linear,false,500,0,-150,false,false,0,0,0,,0,false
+25110004,skill_root,몬스터 오우거 곤봉 기술2_휘두르고 밟기,251100040020008,,[],1000,Linear,false,1100,0,380,true,false,0,0,0,,0,false
+25110005,skill_root,몬스터 오우거 곤봉 기술3 뛰어 찍기,251100050020009,,[],1000,Linear,false,770,0,-150,false,false,0,0,0,,0,false
+25110006,skill_root,몬스터 오우거 곤봉 기술3_좌우타격,251100060020008,,[],1000,Linear,false,500,0,200,true,false,0,0,0,,0,false
+25110007,skill_root,몬스터 오우거 곤봉 기술5 발차기,251100070020007,,[],1000,Linear,false,300,0,400,false,false,0,0,20000007,,0,false
+25110011,skill_root,몬스터 오우거 도끼_기술4_2회전 배기,251100110020008,,[],1000,Linear,false,500,0,200,true,false,0,0,0,,0,false
+25110014,skill_root,"몬스터 오우거 기술3_점프 강찍기,약찍기",251100140020008,,[],1000,Linear,false,500,0,-400,false,false,0,0,0,,0,false
+25110018,skill_root,몬스터 팬텀 지휘관_기술1_강한 횡배기,251100180020007,,[],500,Linear,false,500,0,250,false,true,2,1,0,,0,false
+25110019,skill_root,몬스터 팬텀 지휘관_기술3_찍고 점프찍기,251100190020008,,[],1000,Linear,false,1200,0,300,true,false,0,0,0,,0,false
+25110020,skill_root,몬스터 팬텀 지휘관_기술4_양손 강배기 2회,251100200020008,,[],1000,Linear,false,400,0,100,true,false,0,0,0,,0,false
+25550001,skill_root,몬스터 팬텀 지휘관_기술5_당기기,255500010020006,,[],1000,Linear,false,600,0,1000,false,true,3,2,0,,0,false
+25750001,skill_root,몬스터 오우거 카이팅: 리프 찍기,257500010020008,,[],1000,Linear,false,420,0,-150,false,false,10,2,0,,0,false
+29310002,skill_root,몬스터 피 묻은 손 간부_밀어내기,293100020020007,,[],300,Linear,false,500,0,300,true,true,4,2,0,,20000301,false
+30110022,skill_root,몬스터_하얀 모래의 페르눈 기술8 돌진,301100220020007,,[],1000,Linear,false,1500,0,1500,true,true,10,4,0,,0,false
+30150001,skill_root,몬스터 부활한 피 묻은 손 간부_방패 밀치기,301500010020008,,[],1000,Linear,false,80,0,-150,false,false,0,0,0,,0,false
+30250003,skill_root,몬스터 부활한 피 묻은 손 간부_급습,302500030020008,,[],1000,Linear,false,980,0,-250,false,false,0,0,0,,0,false
+30310002,skill_root,몬스터 스칼니토스 사슬분사,303100020020007,,[],1000,Linear,false,800,0,1500,false,false,0,0,0,,0,true
+30310020,skill_root,몬스터_심연의 코맥 기술2 배기,303100200020008,,[],1000,Linear,false,900,0,-150,false,true,10,2,0,,0,false
+30350003,skill_root,몬스터_하얀 모래의 페르눈 기술5 파고들기-뛰어오르기,303500030020007,,[],1000,Linear,true,1400,0,0,false,false,0,0,0,,0,false
+30350004,skill_root,몬스터_하얀 모래의 페르눈 기술6 짧은 점프,303500040020008,,[],1000,Linear,false,820,0,-100,false,true,10,2,0,,0,false
+30410002,skill_root,몬스터 스칼니토스 심연의 포효,304100020020006,,[],1000,Linear,false,500,0,500,true,false,0,0,0,,30410005,false
+30410003,skill_root,몬스터 스칼니토스 어둠의 압력,304100030020006,,[],1000,Linear,false,2800,0,1200,false,false,0,0,0,,0,false
+30510001,skill_root,몬스터_영혼을 거두는 모르가리스 약화 영혼 수확,305100010020006,이동,[],1000,Linear,false,2350,0,1500,true,false,0,0,0,,0,false
+40010001,skill_root,탈것_말_도약,400100010020006,탈것_공용_도약,[],1000,Linear,false,700,0,1200,false,false,10,2,0,,0,false
+40310001,skill_root,탈것_말_주변 적 밀어내기_아군 지원,403100010020006,,[],1000,Linear,false,500,0,300,true,false,0,0,0,,40310001,false

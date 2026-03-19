@@ -1,0 +1,243 @@
+OID,Cid,Comment,DescName,Mastery,ConditionType,ConditionValue,Permission,InteractionAnimName,InteractionDesc,InterruptionEffect,InteractionDuration,Dice,IsAlwaysDisplay
+1,1,없음,없음,,None,[],Public,None,,None,0,,True
+100001011,100001011,광맥 1T_소환->광맥 1T_소진됨,채광,401,None,[],Public,Mining,구리 채광 중...,Reset,1500,,True
+100002011,100002011,광맥 2T_소환->광맥 2T_소진됨,채광,401,None,[],Public,Mining,주석 채광 중...,Reset,1500,,True
+100003011,100003011,광맥 3T_소환->광맥 3T_소진됨,채광,401,None,[],Public,Mining,자수정 채광 중...,Reset,1500,,True
+100004011,100004011,광맥 4T_소환->광맥 4T_소진됨,채광,401,None,[],Public,Mining,철 채광 중...,Reset,1500,,True
+100005011,100005011,광맥 5T_소환->광맥 5T_소진됨,채광,401,None,[],Public,Mining,청수정 채광 중...,Reset,1500,,True
+100006011,100006011,광맥 6T_소환->광맥 6T_소진됨,채광,401,None,[],Public,Mining,황수정 채광 중...,Reset,1500,,True
+101001011,101001011,섬유 1T_소환->섬유 1T_소진됨,채집,402,None,[],Public,OperateLower,목화 채집 중...,Reset,1500,,True
+101002011,101002011,섬유 2T_소환->섬유 2T_소진됨,채집,402,None,[],Public,OperateLower,아마꽃 채집 중...,Reset,1500,,True
+101003011,101003011,섬유 3T_소환->섬유 3T_소진됨,채집,402,None,[],Public,OperateLower,모시풀 채집 중...,Reset,1500,,True
+101004011,101004011,섬유 4T_소환->섬유 4T_소진됨,채집,402,None,[],Public,OperateLower,별빛초 채집 중...,Reset,1500,,True
+101005011,101005011,섬유 5T_소환->섬유 5T_소진됨,채집,402,None,[],Public,OperateLower,달빛초 채집 중...,Reset,1500,,True
+101006011,101006011,섬유 6T_소환->섬유 6T_소진됨,채집,402,None,[],Public,OperateLower,햇빛초 채집 중...,Reset,1500,,True
+102001011,102001011,목재 1T_소환->목재 1T_소진됨,벌목,403,None,[],Public,Felling,참나무 벌목 중...,Reset,1500,,True
+102002011,102002011,목재 2T_소환->목재 2T_소진됨,벌목,403,None,[],Public,Felling,단풍나무 벌목 중...,Reset,1500,,True
+102003011,102003011,목재 3T_소환->목재 3T_소진됨,벌목,403,None,[],Public,Felling,은행나무 벌목 중...,Reset,1500,,True
+102004011,102004011,목재 4T_소환->목재 4T_소진됨,벌목,403,None,[],Public,Felling,자작나무 벌목 중...,Reset,1500,,True
+102005011,102005011,목재 5T_소환->목재 5T_소진됨,벌목,403,None,[],Public,Felling,호두나무 벌목 중...,Reset,1500,,True
+102006011,102006011,목재 6T_소환->목재 6T_소진됨,벌목,403,None,[],Public,Felling,흑단나무 벌목 중...,Reset,1500,,True
+103001011,103001011,가죽 1T_시체생성 -> 소진됨,무두질,404,None,[],Public,OperateLower,토끼 무두질 중...,Reset,1500,,True
+103002011,103002011,가죽 2T_시체생성 -> 소진됨,무두질,404,None,[],Public,OperateLower,사슴 무두질 중...,Reset,1500,,True
+103003011,103003011,가죽 3T_시체생성 -> 소진됨,무두질,404,None,[],Public,OperateLower,여우 무두질 중...,Reset,1500,,True
+103004011,103004011,가죽 4T_시체생성 -> 소진됨,무두질,404,None,[],Public,OperateLower,멧돼지 무두질 중...,Reset,1500,,True
+103005011,103005011,가죽 5T_시체생성 -> 소진됨,무두질,404,None,[],Public,OperateLower,늑대 무두질 중...,Reset,1500,,True
+103006011,103006011,가죽 6T_시체생성 -> 소진됨,무두질,404,None,[],Public,OperateLower,무스 무두질 중...,Reset,1500,,True
+103007011,103007011,가죽 7T_시체생성 -> 소진됨,무두질,404,None,[],Public,OperateLower,곰 무두질 중...,Reset,1500,,True
+200001011,200001011,제작대_UI오픈(Public),제작 하기,,None,[],Public,None,,None,0,,True
+200001012,200001012,무기 제작대_가구 회수,가구 회수,,None,[],OwnerAccount,OperateMid,가구 회수 중...,None,3000,,True
+201001012,201001012,방어구 제작대_가구 회수,가구 회수,,None,[],OwnerCharacter,OperateMid,가구 회수 중...,None,3000,,True
+202001012,202001012,장신구 제작대_가구 회수,가구 회수,,None,[],OwnerCharacter,OperateMid,가구 회수 중...,None,3000,,True
+210001011,210001011,제작대_UI오픈(OwnerAccount),제작 하기,,None,[],OwnerAccount,None,,None,0,,True
+210001012,210001012,요리 제작대_가구 회수,가구 회수,,None,[],OwnerCharacter,OperateMid,가구 회수 중...,None,3000,,True
+220001012,220001012,주괴 가공대_가구 회수,가구 회수,,None,[],OwnerCharacter,OperateMid,가구 회수 중...,None,3000,,True
+221001012,221001012,섬유 가공대_가구 회수,가구 회수,,None,[],OwnerCharacter,OperateMid,가구 회수 중...,None,3000,,True
+222001012,222001012,목재 가공대_가구 회수,가구 회수,,None,[],OwnerCharacter,OperateMid,가구 회수 중...,None,3000,,True
+223001012,223001012,가죽 가공대_가구 회수,가구 회수,,None,[],OwnerCharacter,OperateMid,가구 회수 중...,None,3000,,True
+310001011,310001011,TEST_판매 불가 등짐_메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310002011,310002011,TEST_골드 보상 등짐_메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310003011,310003011,TEST_아이템 보상 등짐_메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310004011,310004011,우편 수행자의 등짐_메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310101011,310101011,1T 무기 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310102011,310102011,1T 방어구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310103011,310103011,1T 장신구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310104011,310104011,1T 요리 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310105011,310105011,1T 연금 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310106011,310106011,1T 주괴 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310107011,310107011,1T 피혁 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310108011,310108011,1T 천 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310109011,310109011,1T 목재 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310201011,310201011,2T 무기 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310202011,310202011,2T 방어구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310203011,310203011,2T 장신구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310204011,310204011,2T 요리 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310205011,310205011,2T 연금 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310206011,310206011,2T 주괴 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310207011,310207011,2T 피혁 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310208011,310208011,2T 천 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310209011,310209011,2T 목재 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310301011,310301011,3T 무기 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310302011,310302011,3T 방어구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310303011,310303011,3T 장신구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310304011,310304011,3T 요리 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310305011,310305011,3T 연금 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310306011,310306011,3T 주괴 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310307011,310307011,3T 피혁 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310308011,310308011,3T 천 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310309011,310309011,3T 목재 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310401011,310401011,4T 무기 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310402011,310402011,4T 방어구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310403011,310403011,4T 장신구 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310404011,310404011,4T 요리 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310405011,310405011,4T 연금 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310406011,310406011,4T 주괴 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310407011,310407011,4T 피혁 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310408011,310408011,4T 천 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+310409011,310409011,4T 목재 보급품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320001011,320001011,TEST_델피나드의 별 보상 등짐_메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320002011,320002011,이니스 섬 견습생의 무기 군수품_메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320501011,320501011,5T 무기 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320502011,320502011,5T 방어구 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320503011,320503011,5T 장신구 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320504011,320504011,5T 요리 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320505011,320505011,5T 연금 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320506011,320506011,5T 주괴 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320507011,320507011,5T 피혁 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320508011,320508011,5T 천 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320509011,320509011,5T 목재 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320601011,320601011,6T 무기 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320602011,320602011,6T 방어구 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320603011,320603011,6T 장신구 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320604011,320604011,6T 요리 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320605011,320605011,6T 연금 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320606011,320606011,6T 주괴 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320607011,320607011,6T 피혁 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320608011,320608011,6T 천 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320609011,320609011,6T 목재 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320701011,320701011,7T 무기 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320702011,320702011,7T 방어구 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320703011,320703011,7T 장신구 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320704011,320704011,7T 요리 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320705011,320705011,7T 연금 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320706011,320706011,7T 주괴 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320707011,320707011,7T 피혁 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320708011,320708011,7T 천 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+320709011,320709011,7T 목재 교역품 메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+330001011,330001011,TEST_에노아의 태양 보상 등짐_메기,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+401001011,401001011,솔로 던전 3티어_M11 스펙,이즈나의 메아리 입장,,None,[],Public,Portal,1인 던전에 입장하는 중...,None,0,,True
+401002011,401002011,솔로 던전 4티어_M11 스펙,망자의 균열: 4단계 입장,,None,[],Public,Portal,1인 던전에 입장하는 중...,None,0,,True
+401003011,401003011,솔로 던전 5티어_M11 스펙,망자의 균열: 5단계 입장,,None,[],Public,Portal,1인 던전에 입장하는 중...,None,0,,True
+401004011,401004011,파티 던전 6티어_M11 스펙,되살아난 망령의 제단 입장,,None,[],Public,Portal,파티 던전에 입장하는 중...,None,0,,True
+401005011,401005011,오픈 던전 6티어_M11 스펙,뒤틀린 생명의 균열 입장,,None,[],Public,Portal,오픈 던전에 입장하는 중...,None,0,,True
+401007011,401007011,이즈나의 메아리 포탈 진입_고정 버전,이즈나의 메아리 입장,,None,[],Public,Portal,메아리와 공명하는 중...,None,0,,True
+401008011,401008011,침묵하는 잔해의 전장 진입,침묵하는 잔해의 전장 입장,,None,[],Public,Portal,잔해의 전장으로 입장하는 중...,None,0,,True
+401009011,401009011,침묵하는 잔해의 전장 진입,침묵하는 잔해의 전장 입장,,None,[],Public,Portal,잔해의 전장으로 입장하는 중...,None,0,,True
+401010011,401010011,이즈나의 메아리 포탈 파티 진입,이즈나의 메아리 파티 입장,,None,[],Public,Portal,메아리와 공명하는 중...,None,0,,True
+402001011,402001011,이니스 부두 포털,이니스 부두로,,None,[],Public,OperateMid,이니스 부두로 이동 중... ,None,3000,,True
+601000011,601000011,깨망균 보스상자 1T 열기,상자 열기,,Item,"[53030019,1]",Public,OperateMid,,Cancel,0,,True
+601001011,601001011,깨망균 보스상자 2T 열기,상자 열기,,Item,"[53030019,1]",Public,OperateMid,,Cancel,0,,True
+601002011,601002011,깨망균 보스상자 3T 열기,상자 열기,,Item,"[53030019,1]",Public,OperateMid,,Cancel,0,,True
+601003011,601003011,깨망균 보스상자 4T 열기,상자 열기,,Item,"[53030019,1]",Public,OperateMid,,Cancel,0,,True
+601004011,601004011,깨망균 보스상자 5T 열기,상자 열기,,Item,"[53030019,1]",Public,OperateMid,,Cancel,0,,True
+601005011,601005011,깨망균 보스상자 6T 열기,상자 열기,,Item,"[53030019,1]",Public,OperateMid,,Cancel,0,,True
+601006011,601006011,깨망균 보스상자 7T 열기,상자 열기,,Item,"[53030019,1]",Public,OperateMid,,Cancel,0,,True
+901001011,901001011,모래 둔턱 파기,모래 파내기,,QuestStep,[100003],Public,OperateLower,모래 둔턱 안에 무언가 있다.,Cancel,1500,,False
+901001021,901001021,거북알 가져가기,거북알 가져가기,,QuestStep,[100003],Public,OperateLower,요리 재료로 사용할 알을 챙기자.,Cancel,1500,,False
+901002011,901002011,모닥불 켜기,불 붙이기,,QuestStep,[100005],Public,OperateLower,모닥불의 불씨가 아직 살아있다.,None,3000,,False
+901002021,901002021,요리 진행하기,스튜 만들기,,QuestStep,[100006],Public,OperateMid,맛있는 냄새가 난다.,None,0,,False
+901002031,901002031,스튜 챙기기,남은 스튜 챙기기,,QuestStep,[100007],Public,OperateMid,남은 스튜를 가방에 넣는 중...,None,3000,,False
+901003011,901003011,달구지 수리하기,달구지 수리하기,,QuestStep,[100106],Public,OperateMid,나무를 덧대어 수리하는 중...,None,3000,,False
+901004011,901004011,풀숲 확인하기,풀숲 확인하기,,QuestStep,[100306],Public,OperateLower,풀숲에 떨어진 짐은 없는지 살펴보자.,Cancel,3000,,False
+901005011,901005011,누군가의 발자국 확인하기,흔적 확인하기,,QuestStep,[100403],Public,OperateLower,누군가의 발자국이 남아있다.,Cancel,3000,,False
+901006011,901006011,누군가의 가방 확인하기,흔적 확인하기,,QuestStep,[100404],Public,OperateLower,신관이 사용하던 가방으로 추정된다.,Cancel,3000,,False
+901007011,901007011,천 쪼가리 확인하기,흔적 확인하기,,QuestStep,[100405],Public,OperateLower,무언가 찢겨진 흔적이 있다.,Cancel,3000,,False
+901008011,901008011,흩뿌려진 피 확인하기,흔적 확인하기,,QuestStep,[100406],Public,OperateLower,누군가 큰 상처를 입은 듯 하다.,Cancel,3000,,False
+901009011,901009011,커다란 짐승의 발톱 자국 확인하기,흔적 확인하기,,QuestStep,[100407],Public,OperateLower,커다란 짐승이 할퀸 듯한 흔적이 보인다.,Cancel,3000,,False
+901010011,901010011,누이 여신상 기도하기,기도하기,,QuestStep,[100411],Public,Pray,누이 여신상에 기도를 올린다.,None,0,,False
+901011011,901011011,갈색 말 고르기,갈색 말 고르기,,QuestStep,[100606],Public,OperateMid,따스한 흙빛의 갈색 말을 동행으로 정한다.,None,3000,,False
+901011012,901011012,흰색 말 고르기,흰색 말 고르기,,QuestStep,[100606],Public,OperateMid,새벽의 빛을 품은 흰색 말을 동행으로 정한다.,None,3000,,False
+901011013,901011013,검은색 말 고르기,검은색 말 고르기,,QuestStep,[100606],Public,OperateMid,밤의 질주를 함께할 검은색 말을 동행으로 정한다.,None,3000,,False
+901012011,901012011,인력 게시판 확인하기,인력 게시판 확인하기,,QuestStep,[100609],Public,OperateMid,이니스 제례로 인해 일손이 부족한 곳이 많은 모양이다.,None,3000,,False
+901013011,901013011,우편 가방 챙기기,우편 가방 챙기기,,QuestStep,[100805],Public,OperateLower,부탁 받았던 우편 가방을 발견했다.,Cancel,3000,,False
+901014011,901014011,손과 얼굴 씻기,손 씻기,,None,[],Public,OperateMid,어지럽던 마음까지 차분히 가라앉는다.,None,3000,,True
+901015011,901015011,신관과 인사하기,인사하기,,None,[],Public,Bow,누이 신관께 정중히 인사를 올린다.,None,3000,,True
+901016011,901016011,향 피우기,향 피우기,,None,[],Public,Give,백합 향이 고요히 타오르며 허공에 물결을 그린다.,None,3000,,True
+901017011,901017011,성수로 정화하기,정화하기,,None,[],Public,OperateMid,성수가 스며들어 저승의 기운이 걷히는 듯하다.,None,3000,,True
+901018011,901018011,초에 불 붙이기,불 붙이기,,None,[],Public,OperateLower,작은 불씨가 일렁이며 어둠을 밀어낸다.,None,3000,,True
+901019011,901019011,첫번째 결계 교란하기,결계 교란하기,,None,[],Public,Pat,경비병의 눈을 피해 성물의 결계를 교란시킨다.,Cancel,3000,,True
+901020011,901020011,두번째 결계 교란하기,결계 교란하기,,None,[],Public,Pat,이쯤 어딘가를 건드리면 된다고 했던 것 같은데...,Cancel,3000,,True
+901021011,901021011,세번째 결계 교란하기,결계 교란하기,,None,[],Public,Pat,생각보다 단단한 결계가 걸려있다.,Cancel,5000,,True
+901022011,901022011,네번째 결계 교란하기,결계 교란하기,,None,[],Public,Pat,결계를 교란시키기 쉽지 않아 보인다.,Cancel,5000,,True
+901023011,901023011,중앙 성물 훔치기,성물 훔치기,,None,[],Public,OperateMid,결계가 해제된 틈을 타 성물을 챙긴다.,Cancel,3000,,True
+901024011,901024011,우편 수행자의 모자 확인하기,흔적 확인하기,,QuestStep,[100706],Public,OperateLower,우편 수행자의 것으로 보이는 모자를 발견했다.,Cancel,3000,,False
+901025011,901025011,흩어진 종이 확인하기,흔적 확인하기,,QuestStep,[100707],Public,OperateLower,우편으로 추정되는 종이들이 보인다.,Cancel,3000,,False
+901026011,901026011,찢어진 가방 조각 확인하기,흔적 확인하기,,QuestStep,[100708],Public,OperateLower,우편 가방에서 떨어져 나온 듯한 가방 조각이다.,Cancel,3000,,False
+901027011,901027011,우편 가방 내려놓기,우편 가방 내려놓기,,QuestStep,[100806],Public,OperateLower,우편 가방을 명상의 샘 앞에 내려놓는다.,Cancel,3000,,False
+901028011,901028011,모닥불 켜기,불 붙이기,,QuestStep,[100005],Public,OperateLower,모닥불의 불씨가 아직 살아있다.,None,3000,,False
+901029011,901029011,요리 진행하기,스튜 만들기,,QuestStep,[100006],Public,OperateMid,맛있는 냄새가 난다.,None,0,,False
+901030011,901030011,스튜 챙기기,남은 스튜 챙기기,,QuestStep,[100007],Public,OperateMid,남은 스튜를 가방에 넣는 중...,None,3000,,False
+901031011,901031011,풀숲 확인하기,풀숲 확인하기,,QuestStep,[100307],Public,OperateLower,풀숲에 떨어진 짐은 없는지 살펴보자.,Cancel,3000,,False
+901032011,901032011,풀숲 확인하기,풀숲 확인하기,,QuestStep,[100308],Public,OperateLower,풀숲에 떨어진 짐은 없는지 살펴보자.,Cancel,3000,,False
+901033011,901033011,풀숲 확인하기,풀숲 확인하기,,QuestStep,[100309],Public,OperateLower,풀숲에 떨어진 짐은 없는지 살펴보자.,Cancel,3000,,False
+901034011,901034011,풀숲 확인하기,풀숲 확인하기,,QuestStep,[100310],Public,OperateLower,풀숲에 떨어진 짐은 없는지 살펴보자.,Cancel,3000,,False
+901035011,901035011,풀숲 확인하기,풀숲 확인하기,,QuestStep,[100311],Public,OperateLower,풀숲에 떨어진 짐은 없는지 살펴보자.,Cancel,3000,,False
+901036011,901036011,절벽 내려가기,절벽 내려가기,,None,[],Public,OperateMid,,None,0,,True
+901037011,901037011,목재 챙기기,목재 챙기기,,QuestStep,[100105],Public,OperateMid,수리에 사용할 수 있는 목재를 골라보자.,None,3000,,False
+901038011,901038011,절벽 올라가기,절벽 올라가기,,None,[],Public,OperateMid,,None,0,,True
+901039011,901039011,포로로 잡힌 신관_신관의 상태 확인하기,신관의 상태 확인하기,,QuestStep,[900306],Public,OperateMid,붙잡힌 신관들의 상태를 살핀다.,Cancel,3000,,False
+901040011,901040011,포로로 잡힌 주민_주민의 상태 확인하기,주민의 상태 확인하기,,QuestStep,[900403],Public,OperateMid,주민들이 무사한지 확인한다.,Cancel,3000,,False
+901041011,901041011,포로로 잡힌 주민_주민의 상태 확인하기,주민의 상태 확인하기,,QuestStep,[900404],Public,OperateMid,불안해하는 주민들을 안정시킨다.,Cancel,3000,,False
+901042011,901042011,포로로 잡힌 주민_주민의 상태 확인하기,주민의 상태 확인하기,,QuestStep,[900405],Public,OperateMid,겁에 질린 주민들을 진정시킨다.,Cancel,3000,,False
+901043011,901043011,포로로 잡힌 신관_신관의 상태 확인하기,신관의 상태 확인하기,,QuestStep,[900306],Public,OperateMid,신관의 상태를 차분히 살핀다.,Cancel,3000,,False
+901044011,901044011,고양이 석상_버프 받기,고양이 석상 살펴보기,,None,,Public,OperateMid,고양이 석상을 살핀다.,Cancel,3000,,False
+902001011,902001011,통로를 막은 벽에 폭탄 설치하기,폭탄 설치하기,,Item,"[53030020,1]",Public,IgniteEndSitLoop,벽 앞에 폭탄을 설치하는 중...,Reset,2000,,True
+902002011,902002011,통로를 막은 벽에 폭탄 설치하기,폭탄 설치하기,,Item,"[53030020,1]",Public,IgniteEndSitLoop,벽 앞에 폭탄을 설치하는 중...,Reset,2000,,True
+902003011,902003011,축복의 성소 활성화 하기,성소 활성화 하기,,None,,Public,OperateMid,축복의 성소 활성화 하는 중...,Reset,0,,True
+902044011,902044011,격노의 잔재 말카바돈 타임어택 10분 스폰 인터렉션,모여드는 잔재와 공명하기,,None,[],Public,OperateMid,분노의 잔재와 공명하는 중...,Reset,2000,,True
+902044021,902044021,10분 이후부터 분노의 잔재 말카바돈 스폰 인터렉션,모여드는 잔재와 공명하기,,None,[],Public,OperateMid,격노의 잔재와 공명하는 중...,Reset,2000,,True
+902043011,902043011,말카바돈 처치 후 보물 상자_닫힘 idle,잔재의 보물 상자 열기,,None,[],Public,OperateMid,잔재의 흔적을 뒤져보는 중...,Reset,3000,,True
+902045011,902045011,말카바돈 처치 후 보물 상자_닫힘 idle,잔재의 보물 상자 열기,,None,[],Public,OperateMid,잔재의 흔적을 뒤져보는 중...,Reset,3000,,True
+5990101,5990101,테스트 등짐 제작대_UI오픈,등짐 제작,,None,[],Public,OperateMid,,None,0,,True
+9985011,9985011,깨어난 망자의 균열 (파티),파티 던전 입장하기,,None,[],Public,Portal,파티 던전에 입장하는 중...,None,0,,True
+9986011,9986011,깨어난 망자의 균열 (오픈),오픈 던전 입장하기,,None,[],Public,Portal,오픈 던전에 입장하는 중...,None,0,,True
+9987011,9987011,깨어난 망자의 균열 (고정 1인),솔로 던전 입장하기,,None,[],Public,Portal,솔로 던전에 입장하는 중...,None,0,,True
+990011,990011,망균 1~7T 중보방 문 열기,열기,,Item,"[53030018,1]",Public,OperateMid,,None,0,,True
+991011,991011,망자의 균열 1T,망자의 균열 1T,,None,[],Public,Portal,망자의 균열 1T 입장중,None,0,,True
+992011,992011,망자의 균열 2T,망자의 균열 2T,,None,[],Public,Portal,망자의 균열 2T 입장중,None,0,,True
+993011,993011,망자의 균열 3T,망자의 균열 3T,,None,[],Public,Portal,망자의 균열 3T 입장중,None,0,,True
+994011,994011,망자의 균열 4T,망자의 균열 4T,,None,[],Public,Portal,망자의 균열 4T 입장중,None,0,,True
+995011,995011,망자의 균열 5T,망자의 균열 5T,,None,[],Public,Portal,망자의 균열 5T 입장중,None,0,,True
+996011,996011,망자의 균열 6T,망자의 균열 6T,,None,[],Public,Portal,망자의 균열 6T 입장중,None,0,,True
+997011,997011,망자의 균열 7T,망자의 균열 7T,,None,[],Public,Portal,망자의 균열 7T 입장중,None,0,,True
+998011,998011,M11 파티 던전,잊혀진 망령의 제단(4인),,None,[],Public,Portal,망령의 제단으로 입장하는 중...,None,0,,True
+80000101,80000101,1T_잠긴 보물 상자 (힘으로 열기),힘으로 열기,501,None,[],Public,OperateMid,우격다짐으로 여는 중...,Cancel,2000,5010001,True
+80000102,80000102,1T_잠긴 보물 상자 (열쇠로 열기),락픽으로 열기,501,Item,"[53030017,1]",Public,OperateMid,일회용 락픽으로 여는 중...,Cancel,2000,5010002,True
+80010101,80010101,놀존_1~2T_잠긴 보물 상자 (힘으로 열기),힘으로 열기,501,None,[],Public,OperateMid,우격다짐으로 여는 중...,Cancel,2000,5013001,True
+80010102,80010102,놀존_1~2T_잠긴 보물 상자 (열쇠로 열기),락픽으로 열기,501,Item,"[53030017,1]",Public,OperateMid,일회용 락픽으로 여는 중...,Cancel,2000,5013002,True
+80020101,80020101,오크존_1~2T_잠긴 보물 상자 (힘으로 열기),힘으로 열기,501,None,[],Public,OperateMid,우격다짐으로 여는 중...,Cancel,2000,5013001,True
+80020102,80020102,오크존_1~2T_잠긴 보물 상자 (열쇠로 열기),락픽으로 열기,501,Item,"[53030017,1]",Public,OperateMid,일회용 락픽으로 여는 중...,Cancel,2000,5013002,True
+80030101,80030101,1T_잠긴 견고한 보물 상자 (열쇠로 열기),열쇠로 열기,501,Item,"[53030018,1]",Public,ChestOpen,열쇠로 여는 중...,Cancel,2000,,True
+80040101,80040101,2T_잠긴 견고한 보물 상자 (열쇠로 열기),열쇠로 열기,501,Item,"[53030018,1]",Public,ChestOpen,열쇠로 여는 중...,Cancel,2000,,True
+85000101,85000101,등받이 의자 앉기,앉기,,None,[],Public,SitChair,,None,-1,,True
+85000102,85000102,등받이 의자 앉기,앉기,,Item,"[51030003,3]",Public,SitChair,,None,-1,,True
+85000103,85000103,등받이 의자 앉기,앉기,,StatusChange,[71700101],Public,SitChair,,None,-1,,True
+85010101,85010101,스툴 앉기,앉기,,None,[],Public,SitChair,,None,-1,,True
+85020101,85020101,소파 앉기,앉기,,None,[],Public,SitChair,,None,-1,,True
+85030101,85030101,침대 눕기,눕기,,None,[],Public,SleepBed,,None,-1,,True
+85040101,85040101,야외 테이블 앉기,앉기,,None,[],Public,SitChair,,None,-1,,True
+85050101,85050101,벤치 앉기,앉기,,None,[],Public,SitChair,,None,-1,,True
+85060101,85060101,가로등1_켜기,켜기,,None,[],Public,OperateMid,,None,0,,True
+85060201,85060201,가로등1_끄기,끄기,,None,[],Public,OperateMid,,None,0,,True
+85070101,85070101,가로등2_켜기,켜기,,None,[],Public,OperateMid,,None,0,,True
+85070201,85070201,가로등2_끄기,끄기,,None,[],Public,OperateMid,,None,0,,True
+85080101,85080101,갓달린 전등_켜기,켜기,,None,[],Public,OperateMid,,None,0,,True
+85080201,85080201,갓달린 전등_끄기,끄기,,None,[],Public,OperateMid,,None,0,,True
+85090101,85090101,침실등_켜기,켜기,,None,[],Public,OperateMid,,None,0,,True
+85090201,85090201,침실등_끄기,끄기,,None,[],Public,OperateMid,,None,0,,True
+85110101,85110101,축음기_최초상태->켜짐1로,다른 노래 재생,,None,[],Public,OperateMid,,None,0,,True
+85110201,85110201,축음기_켜짐1 -> 켜짐2,다른 노래 재생,,None,[],Public,OperateMid,,None,0,,True
+85110301,85110301,축음기_켜짐2 -> 켜짐1,다른 노래 재생,,None,[],Public,OperateMid,,None,0,,True
+90010202,90010202,목마른 아키움 나무 - 물 주기,물 주기,,None,[],Public,Sprinklewater,나무에 물을 주는 중...,Reset,2000,,True
+90010402,90010402,결정이 열린 아키움 나무 -> 벌목,벌목,402,None,[],Public,Felling,아키움 나무 벌목 중...,Reset,3000,,True
+90010502,90010502,벼락 맞은 아키움 나무 -> 벌목,벌목,402,None,[],Public,Felling,벼락 맞은 아키움 나무 벌목 중...,Reset,3000,,True
+90020102,90020102,이니스 섬 특산품 획득,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+90030102,90030102,수상한 등짐 획득,등짐 획득,,None,[],Public,OperateMid,등짐 획득 중...,Reset,0,,True
+90040101,90040101,테스트_등짐 생성 두다드 (등짐 생성 후 획득),등짐 생성 후 획득,,NonCargo,[],Public,OperateMid,등짐 생성 후 획득 중...,Reset,1000,,True
+90050101,90050101,테스트_등짐 생성 두다드 (등짐 필드 생성),필드에 등짐 생성,,Cargo,[1],Public,OperateMid,필드에 등짐 생성 중...,Reset,1000,,True
+99600101,99600101,99600100_비활성화 된 모닥불->99600200_이니스 섬 모닥불(1/3),불이 꺼진 모닥불,,Item,"[51010003,1]",Public,OperateLower,모닥불의 불씨 되살리는 중...,Reset,3000,,True
+99600201,99600201,99600200_이니스 섬 모닥불(1/3)->99600300_이니스 섬 모닥불(2/3),이니스 섬 모닥불(1/3),,Item,"[51050003,1]",Public,OperateLower,화톳불을 설치하는 중...,Reset,5000,,True
+99600301,99600301,99600300_이니스 섬 모닥불(2/3)->99600400_이니스 섬 모닥불(3/3),이니스 섬 모닥불(2/3),,Item,"[51050001,1]",Public,OperateMid,조리 기구 설치하는 중...,Reset,5000,,True
+99600401,99600401,99600400_이니스 섬 모닥불(3/3)->99600500_활성화 된 모닥불,이니스 섬 모닥불(3/3),,Item,"[51050003,1]",Public,OperateLower,화톳불에 불 피우는 중...,Reset,5000,,True
+99670101,99670101,99670100_모닥불_비활성화->99670200_모닥불_활성화,모닥불 피우기,,None,[],Public,IgniteEndSitLoop,모닥불의 불씨를 되살리는 중...,Reset,2000,,True
+99670202,99670202,99670200_모닥불_활성화-바닥에 앉기,근처에 앉기,,None,[],Public,Sit120s,따뜻한 자리를 찾는 중...,Reset,-1,,True
+9982011,9982011,소환 대기 중인 장치_인터렉션 대기 중,몬스터 소환하기,,None,[],Public,OperateMid,몬스터를 불러 들이는 중...,Reset,2000,,True
+99840101,99840101,활성화 된 망자의 균열 -> 활성화 된 망자의 균열,망자의 균열 입장하기,,None,[],Public,OperateMid,망자의 균열에 입장하는 중...,Reset,2000,,True
+99840201,99840201,활성화 된 망자의 균열 -> 활성화 된 망자의 균열,망자의 균열 입장하기,,None,[],Public,OperateMid,망자의 균열에 입장하는 중...,Reset,2000,,True
+99890101,99890101,99890100_망원경_기본->99890200_망원경_카메라5,주변 둘러보기,,None,[],Public,OperateMid,주변 둘러보기...,Reset,3000,,True
+99910201,99910201,99910200_봉인석 등장 완료->99910300_봉인석 인터렉션 가능,봉인 해제하기,,None,[],Public,OperateMid,봉인된 사슬을 해제하는 중...,Reset,5000,,True
+99940102,99940102,불이 꺼진 모닥불 -> 전장의 모닥불(1/3),전장의 모닥불 건설 시작하기,501,Item,"[51040003,1]",Public,OperateMid,전장의 모닥불 건설 준비하기...,Reset,5000,,True
+99940601,99940601,전장의 모닥불(1/3) -> 전장의 모닥불(2/3),전장의 화톳불 건설하기,,Item,"[51040003,1]",Public,OperateMid,전장의 화톳불 건설하는 중...,Reset,1000,,True
+99940701,99940701,전장의 모닥불(2/3) -> 전장의 모닥불(3/3),전장용 조리 도구 배치하기,,Item,"[51050001,1]",Public,OperateMid,전장용 조리 도구 배치하는 중...,Reset,1000,,True
+99940801,99940801,전장의 모닥불(3/3) -> 전장의 모닥불 완성,화톳불에 불 피우기,,None,[],Public,OperateMid,화톳불에 불 피우는 중...,Reset,3000,,True
+99970101,99970101,함정 해제,함정 해제,501,None,[],Public,OperateLower,함정 해제 중...,Reset,3000,5010003,True

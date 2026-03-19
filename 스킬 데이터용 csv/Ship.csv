@@ -1,0 +1,10 @@
+﻿OID,Cid,Milestone,Comment,DescName,Description,NormalSkillCid,ItemSkillSlots,ContinuousFire,ContinuousFireTime,ReloadTime,ModelAssetCid,Tier,Category,Kind,ShipSlotCid,MaxSpeed,MaxAcceleration,BrakingDeceleration,Braking,TurnAnglePerSecond,TurnAcceleration,TurnAccelerationForMesh,MaterialItemCid,MaterialItemCount,MaterialGold,InitStatusChangeCid,PostureStatusChangeCids,AwakeStatusChangeCids,IntakeWeight,GreatDeal,SailingEvent,Gathering,Exploration,Combat,Lucky,ShipSight
+211,211,None,테스트 쾌속정,테스트 쾌속정,테스트 쾌속정,,[62510001],2,1000,5000,211,Tier1,Battle,Clipper,1,300,200,200,200,45,21,35,,,100,5000,,,0,0,0,0,0,0,0,3000
+212,212,None,테스트 전투함,테스트 전투함,테스트 전투함,,[61210001],4,500,4000,212,Tier1,Battle,SmallWarship,2,300,200,200,200,30,16,21,,,100,5000,,,0,0,0,0,0,0,0,3000
+213,213,None,테스트 무역함,테스트 무역함,테스트 무역함,,[60510001],1,1000,5000,9017,Tier1,Battle,MerchantShip,5,300,150,150,200,30,16,21,,,100,5000,,,0,0,0,0,0,0,0,3000
+214,214,None,UCC1_전투함,UCC1_전투함,UCC1_전투함,,[61210001],4,500,4000,213,Tier1,Battle,SmallWarship,2,300,200,200,200,30,16,21,,,100,5000,,,0,0,0,0,0,0,0,3000
+215,215,None,UCC2_전투함,UCC2_전투함,UCC2_전투함,,[61210001],4,500,4000,214,Tier1,Battle,SmallWarship,2,300,200,200,200,30,16,21,,,100,5000,,,0,0,0,0,0,0,0,3000
+216,216,None,UCC1_쾌속정,UCC1_쾌속정,UCC1_쾌속정,,[62510001],2,1000,5000,215,Tier1,Battle,Clipper,1,300,200,200,200,45,21,35,,,100,5000,,,0,0,0,0,0,0,0,3000
+217,217,None,UCC2_쾌속정,UCC2_쾌속정,UCC2_쾌속정,,[62510001],2,1000,5000,216,Tier1,Battle,Clipper,1,300,200,200,200,45,21,35,,,100,5000,,,0,0,0,0,0,0,0,3000
+218,218,None,UCC1_무역함,UCC1_무역함,UCC1_무역함,,[60510001],1,1000,5000,217,Tier1,Battle,MerchantShip,5,300,150,150,200,30,16,21,,,100,5000,,,0,0,0,0,0,0,0,3000
+219,219,None,UCC2_무역함,UCC2_무역함,UCC2_무역함,,[60510001],1,1000,5000,218,Tier1,Battle,MerchantShip,5,300,150,150,200,30,16,21,,,100,5000,,,0,0,0,0,0,0,0,3000

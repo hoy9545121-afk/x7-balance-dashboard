@@ -1,0 +1,39 @@
+OID,Cid,Comment,DescName,ConditionType,ConditionValue,InteractionAnimName,InterruptionEffect,InteractionDuration,IsAlwaysDisplay
+1,1,테스트 인터렉션,테스트 인터렉션,Item,"[53030019,1]",OperateMid,Cancel,3000,True
+3,3,퀘스트용_고양이용 수풀입구,수풀 입구,StatusChange,[7004],CatSneak,Cancel,3000,False
+1021001,1021001,1021_도르레 수리하기,도르레를 수리한다.,None,[],OperateMid,Cancel,3000,True
+1021002,1021002,1021_로나의 흔적 찾아보기_1,떨어진 모자를 조사한다.,None,[],OperateLower,Cancel,3000,True
+1021003,1021003,1021_로나의 흔적 찾아보기_2,열매 그림을 조사한다.,None,[],OperateLower,Cancel,3000,True
+1021004,1021004,1021_로나의 흔적 찾아보기_3,발자국을 조사한다.,None,[],OperateLower,Cancel,3000,True
+1021005,1021005,1021_무너진 돌 무덤 정비하기,돌 무덤을 정비한다.,None,[],OperateMid,Cancel,3000,True
+1021006,1021006,1021_죽은 이들을 위해 돌 무덤에 기도하기,죽은 이들을 위해 기도한다.,None,[],Pray,Cancel,3000,True
+1022001,1022001,1022_신성한 제단에 돌 올려놓기,제단 위에 돌을올려놓는다. ,None,[],OperateMid,Cancel,3000,True
+1022002,1022002,1022_신성한 제단에 기도를 올리기,신성한 제단에 기도를 올린다.,None,[],Pray,Cancel,3000,True
+1022003,1022003,1022_선돌터 호수의 물 챙기,호수의 물을 퍼올린다.,None,[],OperateMid,Cancel,3000,True
+1023001,1023001,1023_수상해 보이는 흔적 조사하기_1,급히 챙긴 짐을 조사한다.,None,[],OperateLower,Cancel,3000,True
+1023002,1023002,1023_수상해 보이는 흔적 조사하기_2,날은 옷더미를 조사한다. ,None,[],OperateLower,Cancel,3000,True
+1023003,1023003,1023_수상해 보이는 흔적 조사하기_3,농가 근처의 짐을 조사한다.,None,[],OperateLower,Cancel,3000,True
+1025001,1025001,1025_우물에서 식수 긷기,우물에서 물을 길어 올린다.,None,[],OperateMid,Cancel,3000,True
+1025002,1025002,1025_빈 사료통,빈 사료통을채운다. ,None,[],OperateMid,Cancel,3000,True
+1025003,1025003,1025_말_1상태 확인하기,말의 상태를 확인한다.,None,[],OperateMid,Cancel,3000,True
+1025004,1025004,1025_말_2먹이 주기,맛있게 먹어라.,None,[],OperateMid,Cancel,3000,True
+1025005,1025005,1025_빈 짐마차,영차 영차,None,[],OperateMid,Cancel,3000,True
+1026001,1026001,1026_반란 세력이 남긴 흔적 조사_1,모래 더미 속 짐가방을 조사한다.  ,None,[],OperateLower,Cancel,3000,True
+1026002,1026002,1026_반란 세력이 남긴 흔적 조사_2,남겨진 자루를 조사한다.,None,[],OperateLower,Cancel,3000,True
+1026003,1026003,1026_반란 세력이 남긴 흔적 조사_3,부서진 배의 잔해를 조사한다.,None,[],OperateLower,Cancel,3000,True
+1026004,1026004,1026_반란 세력이 남긴 흔적 조사_4,모닥불 근처 흔적을 조사한다.,None,[],OperateLower,Cancel,3000,True
+1028001,1028001,1028_무너져가는 가옥 손보기_1,무너져가는 가옥을 수리한다.,None,[],OperateMid,Cancel,3000,True
+1028002,1028002,1028_무너져가는 가옥 손보기_2,무너져가는 가옥을 수리한다.,None,[],OperateMid,Cancel,3000,True
+1028003,1028003,1028_무너져가는 가옥 손보기_3,무너져가는 가옥을 수리한다.,None,[],OperateMid,Cancel,3000,True
+1028004,1028004,1028_증명서 마을에 걸기,잘 보이는 곳에 증명서를 붙인다.,None,[],OperateMid,Cancel,3000,True
+1029001,1029001,1029_패트릭의 분실물 찾기_1,버려진 짐 마차를 조사한다.,None,[],OperateMid,Cancel,3000,True
+1029002,1029002,1029_패트릭의 분실물 찾기_2,쌓인 박스를 조사한다.,None,[],OperateMid,Cancel,3000,True
+1029003,1029003,1029_패트릭의 분실물 찾기_3,쌓여있는 짐을조사한다. ,None,[],OperateMid,Cancel,3000,True
+1029004,1029004,1029_도개교를 막고 있는 방해물 제거하기,폭탄을 설치한다.,None,[],OperateMid,Cancel,3000,True
+1030001,1030001,1030_다나의 옛 거주지 조사하기,분수대 위를 조사한다.,None,[],OperateMid,Cancel,3000,True
+1030002,1030002,1030_고양이 개구멍,살금 살금,StatusChange,[7004],CatSneak,Cancel,3000,False
+1031001,1031001,1031_요정의 은신처 입구 결계 강화_1,결계를 강화한다.,None,[],OperateMid,Cancel,3000,True
+1031002,1031002,1031_요정의 은신처 입구 결계 강화_2,결계를 강화한다.,None,[],OperateMid,Cancel,3000,True
+1032001,1032001,1032_퍼거스의 흔적_1,퍼거스의 흔적을 조사한다.,None,[],OperateMid,Cancel,3000,True
+1032002,1032002,1032_퍼거스의 흔적_2,퍼거스의 흔적을 조사한다.,None,[],OperateMid,Cancel,3000,True
+1032003,1032003,1032_퍼거스의 흔적_3,퍼거스의 흔적을 조사한다.,None,[],OperateMid,Cancel,3000,True

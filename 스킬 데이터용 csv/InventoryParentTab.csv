@@ -1,0 +1,8 @@
+﻿OID,Cid,Comment,Category,ChildTabCids
+1,1,장비,Equipment,"[1,2,3,4]"
+2,2,소모품,Consumable,"[5,6,7]"
+3,3,제작용 재료,CraftingMaterial,"[8,9,10]"
+4,4,성장용 재료,EnchantingMaterial,"[11,12]"
+5,5,몬스터 카드,MonsterCard,"[13,14,15]"
+6,6,꾸러미,Package,"[16,17]"
+7,7,기타,Etc,"[18,19,20]"

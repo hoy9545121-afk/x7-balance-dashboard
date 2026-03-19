@@ -1,0 +1,3 @@
+OID,Cid,Comment,DescName,ConditionType,ConditionValue,InteractionAnimName,InterruptionEffect,InteractionDuration,IsAlwaysDisplay
+1,1,테스트 인터렉션,테스트 인터렉션,Item,"[53030019,1]",OperateMid,Cancel,3000,True
+3,3,퀘스트용_고양이용 수풀입구,수풀 입구,StatusChange,[7004],CatSneak,Cancel,3000,True

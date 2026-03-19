@@ -1,0 +1,2570 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X7 Project — Balance Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Cinzel+Decorative:wght@700;900&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg0: #090008;
+  --bg1: #120010;
+  --bg2: #1c0018;
+  --bg3: #260020;
+  --card: rgba(28,0,22,0.92);
+  --border: rgba(212,160,23,0.25);
+  --border-bright: rgba(212,160,23,0.7);
+  --gold: #e8c050;
+  --gold2: #f5d878;
+  --red: #d43030;
+  --red2: #ff5555;
+  --pink: #e8207a;
+  --pink2: #ff6eb4;
+  --purple: #7c20c8;
+  --purple2: #b060ff;
+  --cream: #f0e8d8;
+  --text: #e8dcc8;
+  --text2: #b8a898;
+  --text3: #7a6a5a;
+  --green: #50c870;
+  --blue: #5090e8;
+  --shadow-gold: 0 0 20px rgba(232,192,80,0.2);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg0);
+  color: var(--text);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── BG PATTERN ── */
+body::before {
+  content:'';
+  position:fixed;
+  inset:0;
+  background:
+    radial-gradient(ellipse 60% 40% at 15% 20%, rgba(124,32,200,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 50% at 85% 80%, rgba(212,48,48,0.08) 0%, transparent 60%),
+    repeating-linear-gradient(45deg, transparent 0, transparent 50px, rgba(232,192,80,0.015) 50px, rgba(232,192,80,0.015) 51px),
+    repeating-linear-gradient(-45deg, transparent 0, transparent 50px, rgba(232,192,80,0.015) 50px, rgba(232,192,80,0.015) 51px);
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ── HEADER ── */
+.header {
+  position: relative;
+  z-index: 10;
+  padding: 0;
+  border-bottom: 2px solid var(--border-bright);
+  background: linear-gradient(180deg, rgba(18,0,14,0.98) 0%, rgba(12,0,10,0.95) 100%);
+  box-shadow: 0 4px 40px rgba(232,192,80,0.08);
+  overflow: hidden;
+}
+
+.header-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+
+/* CHARACTER SVGs */
+.char-charlie {
+  flex-shrink: 0;
+  width: 100px;
+  filter: drop-shadow(0 0 16px rgba(212,48,48,0.4));
+  animation: charFloat 3.5s ease-in-out infinite;
+}
+.char-alastor {
+  flex-shrink: 0;
+  width: 90px;
+  filter: drop-shadow(0 0 16px rgba(212,32,80,0.5));
+  animation: charFloat 3s ease-in-out infinite reverse;
+}
+.char-vox {
+  flex-shrink: 0;
+  width: 88px;
+  filter: drop-shadow(0 0 16px rgba(80,144,232,0.5));
+  animation: charFloat 4s ease-in-out infinite;
+}
+
+@keyframes charFloat {
+  0%,100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-8px) rotate(1deg); }
+  66% { transform: translateY(-4px) rotate(-0.5deg); }
+}
+
+.header-center { flex: 1; text-align: center; }
+
+.header-eyebrow {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  color: var(--gold);
+  opacity: 0.7;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.header-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--gold2) 0%, var(--gold) 40%, var(--red2) 70%, var(--gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+}
+
+.header-sub {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 0.9rem;
+  color: var(--text2);
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.header-deco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+.header-deco::before, .header-deco::after {
+  content: '';
+  width: 80px; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
+}
+.header-deco::after { background: linear-gradient(90deg, var(--gold), transparent); }
+.header-deco-icon { color: var(--gold); font-size: 0.8rem; letter-spacing: 0.3em; }
+
+/* ── NAV ── */
+.nav-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(9,0,8,0.97);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+
+.nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  gap: 2px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.nav::-webkit-scrollbar { display:none; }
+
+.nav-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text2);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+  text-decoration: none;
+}
+.nav-item:hover { color: var(--cream); }
+.nav-item.active {
+  color: var(--gold2);
+  border-bottom-color: var(--gold);
+  font-weight: 700;
+}
+
+.nav-badge {
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(212,48,48,0.25);
+  border: 1px solid rgba(212,48,48,0.4);
+  color: var(--red2);
+  font-weight: 700;
+}
+.nav-badge.ok {
+  background: rgba(80,200,112,0.15);
+  border-color: rgba(80,200,112,0.3);
+  color: var(--green);
+}
+.nav-badge.wip {
+  background: rgba(232,192,80,0.1);
+  border-color: rgba(232,192,80,0.3);
+  color: var(--gold);
+}
+
+/* ── MAIN ── */
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 28px 24px 60px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── SECTIONS ── */
+.section { display: none; animation: fadeIn 0.3s ease; }
+.section.active { display: block; }
+
+@keyframes fadeIn {
+  from { opacity:0; transform: translateY(8px); }
+  to { opacity:1; transform: translateY(0); }
+}
+
+/* ── SECTION HEADER ── */
+.sec-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sec-header-text { display: flex; flex-direction: column; gap: 3px; flex: 1; }
+
+.sec-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--gold2);
+  text-shadow: 0 0 20px rgba(232,192,80,0.3);
+}
+
+.sec-desc {
+  font-size: 0.82rem;
+  color: var(--text2);
+  font-style: italic;
+  padding-bottom: 2px;
+}
+
+/* ── CARDS ── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  border-color: rgba(232,192,80,0.45);
+  box-shadow: var(--shadow-gold);
+}
+
+.card-head {
+  padding: 12px 16px;
+  background: rgba(0,0,0,0.3);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-head-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--cream);
+}
+
+.card-head-sub {
+  font-size: 0.75rem;
+  color: var(--text2);
+  margin-left: auto;
+}
+
+.card-body { padding: 14px 16px; }
+
+/* ── OVERVIEW LAYOUT ── */
+.overview-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+/* ── CATEGORY TREE ── */
+.cat-tree {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.cat-block {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+.cat-block::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--cat-color, var(--gold));
+}
+
+.cat-block-head {
+  padding: 14px 16px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cat-icon {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  background: var(--cat-bg, rgba(232,192,80,0.1));
+  border: 1px solid var(--cat-color, var(--gold));
+  flex-shrink: 0;
+}
+
+.cat-label {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.75rem;
+  color: var(--cat-color, var(--gold));
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.cat-desc { font-size: 0.78rem; color: var(--text2); margin-top: 1px; }
+
+.cat-items { padding: 0 16px 14px; display: flex; flex-direction: column; gap: 6px; }
+
+.cat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+.cat-item:hover {
+  background: rgba(232,192,80,0.06);
+  border-color: rgba(232,192,80,0.25);
+}
+
+.cat-item-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--cat-color, var(--gold));
+  flex-shrink: 0;
+}
+
+.cat-item-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--cream);
+  flex: 1;
+}
+
+.cat-item-status {
+  font-size: 0.68rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.status-ok {
+  background: rgba(80,200,112,0.15);
+  border: 1px solid rgba(80,200,112,0.3);
+  color: #70e890;
+}
+.status-wip {
+  background: rgba(232,192,80,0.1);
+  border: 1px solid rgba(232,192,80,0.3);
+  color: var(--gold);
+}
+.status-soon {
+  background: rgba(120,120,120,0.1);
+  border: 1px solid rgba(120,120,120,0.2);
+  color: #888;
+}
+
+/* ── STATS ROW ── */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.stat-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px 12px;
+  text-align: center;
+}
+.stat-num {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.5rem;
+  color: var(--gold2);
+  line-height: 1;
+}
+.stat-label {
+  font-size: 0.72rem;
+  color: var(--text2);
+  margin-top: 4px;
+}
+
+/* ── NOTICE CARD ── */
+.notice-card {
+  background: linear-gradient(135deg, rgba(28,0,22,0.95), rgba(18,0,14,0.98));
+  border: 1px solid rgba(232,192,80,0.4);
+  border-radius: 6px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.notice-char { font-size: 2rem; flex-shrink: 0; line-height: 1; }
+.notice-text {
+  font-family: 'Noto Serif KR', serif;
+  font-size: 0.88rem;
+  color: var(--cream);
+  line-height: 1.7;
+  font-style: italic;
+}
+.notice-text strong { color: var(--gold2); font-style: normal; }
+
+/* ── DOWNLOAD BAR ── */
+.download-bar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.download-label {
+  font-size: 0.72rem;
+  color: var(--text2);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 13px;
+  background: rgba(232,192,80,0.08);
+  border: 1px solid rgba(232,192,80,0.3);
+  border-radius: 4px;
+  color: var(--gold);
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.download-btn:hover {
+  background: rgba(232,192,80,0.16);
+  border-color: var(--gold);
+  color: var(--gold2);
+}
+
+/* ── INTENT CARD ── */
+.intent-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.intent-card {
+  background: rgba(255,255,255,0.025);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 16px;
+}
+.intent-card-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold2);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.intent-card p {
+  font-size: 0.8rem;
+  color: var(--text);
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+.intent-card p:last-child { margin-bottom: 0; }
+.intent-card .bullet {
+  display: flex;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+.intent-card .bullet::before { content:'▸'; color:var(--gold); flex-shrink:0; }
+
+.intent-full {
+  grid-column: 1 / -1;
+}
+
+.stat-intent-table {
+  width: 100%;
+  font-size: 0.78rem;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+.stat-intent-table th {
+  font-size: 0.7rem;
+  padding: 7px 10px;
+}
+.stat-intent-table td {
+  padding: 6px 10px;
+  font-size: 0.78rem;
+}
+
+/* ── TABLE ── */
+.tbl-wrap { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+th {
+  background: rgba(0,0,0,0.4);
+  padding: 9px 12px;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: var(--text);
+  vertical-align: middle;
+}
+
+tr:last-child td { border-bottom: none; }
+
+tr:hover td { background: rgba(232,192,80,0.04); }
+
+.td-num {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.78rem;
+  color: var(--gold2);
+  text-align: right;
+  font-weight: 700;
+}
+
+.td-highlight { color: var(--red2); font-weight: 700; }
+.td-muted { color: var(--text3); }
+.td-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ── TAB BAR ── */
+.tab-bar {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab-btn {
+  padding: 9px 18px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  color: var(--text2);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.tab-btn:hover { color: var(--cream); }
+.tab-btn.active { color: var(--gold2); border-bottom-color: var(--gold); }
+
+/* ── FILTER BAR ── */
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-label { font-size: 0.75rem; color: var(--text2); }
+
+.filter-btn {
+  padding: 5px 13px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  color: var(--text2);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-btn:hover { border-color: var(--border-bright); color: var(--cream); }
+.filter-btn.active {
+  background: rgba(232,192,80,0.12);
+  border-color: var(--gold);
+  color: var(--gold2);
+  font-weight: 600;
+}
+
+.search-box {
+  padding: 6px 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  color: var(--cream);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.8rem;
+  outline: none;
+  width: 180px;
+  transition: border-color 0.2s;
+}
+.search-box:focus { border-color: var(--gold); }
+.search-box::placeholder { color: var(--text3); }
+
+/* ── ARMOR GRID ── */
+.armor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+.armor-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.armor-card:hover {
+  border-color: rgba(232,192,80,0.5);
+  box-shadow: 0 4px 20px rgba(232,192,80,0.1);
+}
+
+.armor-card-head {
+  padding: 10px 14px;
+  background: rgba(0,0,0,0.3);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.armor-slot-icon { font-size: 1.3rem; }
+
+.armor-info { flex: 1; }
+.armor-stat-name { font-size: 0.9rem; font-weight: 700; color: var(--cream); }
+.armor-key { font-size: 0.7rem; color: var(--text3); margin-top: 1px; }
+
+.armor-badges { display: flex; flex-direction: column; gap: 3px; align-items: flex-end; }
+
+.badge {
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.badge-mat {
+  background: rgba(232,192,80,0.1);
+  border: 1px solid rgba(232,192,80,0.25);
+  color: var(--gold);
+}
+.badge-obt {
+  background: rgba(212,48,48,0.12);
+  border: 1px solid rgba(212,48,48,0.25);
+  color: #ff7070;
+}
+
+.level-grid {
+  padding: 10px 14px;
+}
+
+.level-headers {
+  display: grid;
+  grid-template-columns: 28px repeat(6, 1fr);
+  gap: 3px;
+  margin-bottom: 4px;
+}
+.lv-h {
+  text-align: center;
+  font-size: 0.6rem;
+  color: rgba(232,192,80,0.45);
+  font-weight: 600;
+}
+
+.level-row {
+  display: grid;
+  grid-template-columns: 28px repeat(6, 1fr);
+  gap: 3px;
+}
+.lv-label { font-size: 0.65rem; color: var(--text3); display: flex; align-items: center; }
+
+.lv-cell {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 4px 2px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid transparent;
+  color: var(--text);
+  transition: all 0.15s;
+}
+.lv-cell:hover { background: rgba(232,192,80,0.08); border-color: rgba(232,192,80,0.2); }
+.lv-cell.max {
+  background: rgba(232,192,80,0.1);
+  border-color: rgba(232,192,80,0.35);
+  color: var(--gold2);
+  font-weight: 700;
+}
+
+/* Growth bar */
+.growth-bar-wrap {
+  display: flex;
+  gap: 2px;
+  padding: 0 14px 10px;
+}
+.g-seg {
+  flex: 1;
+  height: 3px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+.g-fill {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  background: linear-gradient(90deg, var(--red), var(--gold));
+  border-radius: 2px;
+  transition: width 0.5s;
+}
+
+/* ── SKILL SECTION ── */
+.weapon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.weapon-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+  cursor: pointer;
+}
+.weapon-card:hover { border-color: rgba(232,192,80,0.5); }
+
+.weapon-card-head {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(0,0,0,0.3);
+  border-bottom: 1px solid var(--border);
+}
+.weapon-icon { font-size: 1.6rem; }
+.weapon-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--cream);
+}
+.weapon-concept { font-size: 0.75rem; color: var(--text2); margin-top: 2px; }
+
+.weapon-card-body { padding: 12px 16px; }
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 28px 24px 1fr auto;
+  gap: 6px;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.skill-row:last-child { border-bottom: none; }
+
+.skill-cmd {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 24px; height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.cmd-Q { background: #f5d878; }
+.cmd-W { background: #70e890; }
+.cmd-E { background: #70b8ff; }
+.cmd-R { background: #ff7070; }
+
+.skill-name { font-size: 0.82rem; font-weight: 600; color: var(--cream); }
+.skill-type-badge {
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.skill-dmg {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.72rem;
+  color: var(--gold2);
+  font-weight: 700;
+  text-align: right;
+}
+
+/* Tier pills */
+.tier-pills {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.tier-pill {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.15s;
+}
+.tier-pill-1 { background: rgba(212,48,48,0.12); border-color: rgba(212,48,48,0.3); color: #ff8888; }
+.tier-pill-2 { background: rgba(124,32,200,0.12); border-color: rgba(124,32,200,0.3); color: var(--purple2); }
+.tier-pill-3 { background: rgba(232,192,80,0.12); border-color: rgba(232,192,80,0.3); color: var(--gold2); }
+.tier-pill.active { filter: brightness(1.3); box-shadow: 0 0 8px currentColor; }
+
+/* ── DPS COMPARE CHART ── */
+.dps-chart {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dps-chart-title {
+  font-size: 0.78rem;
+  color: var(--text2);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.dps-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.dps-weapon { width: 60px; font-size: 0.75rem; color: var(--text2); text-align: right; }
+.dps-bars { flex: 1; display: flex; gap: 3px; }
+.dps-bar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+.dps-bar-label { font-size: 0.58rem; color: var(--text3); text-align: center; }
+.dps-bar-track { height: 20px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow:hidden; position:relative; }
+.dps-bar-fill {
+  position: absolute;
+  left:0; top:0; bottom:0;
+  border-radius: 2px;
+  transition: width 0.8s ease;
+}
+.dps-bar-val { font-size: 0.65rem; color: var(--gold2); text-align: center; font-weight: 600; }
+
+/* ── ECONOMY SECTION ── */
+.eco-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.route-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.route-card-head {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.route-icon { font-size: 1.3rem; }
+.route-name { font-size: 0.95rem; font-weight: 700; color: var(--cream); }
+.route-tagline { font-size: 0.72rem; color: var(--text2); margin-top: 1px; }
+
+.route-body { padding: 14px 16px; }
+
+.route-features { list-style: none; display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+.route-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+.route-feature::before {
+  content: '▸';
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* Drop rate bars */
+.droprate-rows { display: flex; flex-direction: column; gap: 8px; }
+.dr-row { display: flex; flex-direction: column; gap: 3px; }
+.dr-label-row { display: flex; justify-content: space-between; font-size: 0.75rem; }
+.dr-name { color: var(--text); font-weight: 600; }
+.dr-val { color: var(--gold2); font-weight: 700; }
+.dr-bar-track { height: 8px; background: rgba(255,255,255,0.06); border-radius: 4px; overflow:hidden; }
+.dr-bar-fill { height: 100%; border-radius: 4px; transition: width 0.8s; }
+
+/* Tier craft table */
+.craft-tbl-wrap { overflow-x: auto; margin-top: 14px; }
+
+/* ── COMING SOON ── */
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  gap: 16px;
+  opacity: 0.6;
+}
+
+.coming-soon-icon { font-size: 4rem; filter: grayscale(0.5); }
+
+.coming-soon-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.2rem;
+  color: var(--text2);
+}
+
+.coming-soon-sub {
+  font-size: 0.85rem;
+  color: var(--text3);
+  text-align: center;
+  max-width: 300px;
+  font-style: italic;
+}
+
+.upload-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px dashed rgba(255,255,255,0.15);
+  border-radius: 6px;
+  font-size: 0.78rem;
+  color: var(--text3);
+}
+
+/* ── EMPTY STATE ── */
+.empty-state {
+  padding: 40px;
+  text-align: center;
+  color: var(--text3);
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+::-webkit-scrollbar-thumb { background: rgba(232,192,80,0.3); border-radius: 3px; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .cat-tree { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: repeat(3,1fr); }
+  .eco-grid { grid-template-columns: 1fr; }
+  .overview-layout { grid-template-columns: 1fr; }
+  .header-inner { flex-wrap: wrap; justify-content: center; }
+  .char-charlie, .char-alastor, .char-vox { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header class="header">
+  <div class="header-inner">
+
+    <!-- CHARLIE SVG -->
+    <svg class="char-charlie" viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- Hair -->
+      <ellipse cx="60" cy="55" rx="32" ry="36" fill="#f5e0c0"/>
+      <path d="M30 45 Q10 30 20 10 Q35 20 38 40Z" fill="#f5e0c0"/>
+      <path d="M90 45 Q110 30 100 10 Q85 20 82 40Z" fill="#f5e0c0"/>
+      <!-- Hair stripe -->
+      <path d="M52 20 Q58 15 64 20 Q61 45 58 60 Q55 45 52 20Z" fill="#e8b0a0" opacity="0.6"/>
+      <!-- Horn nub -->
+      <path d="M62 22 L58 10 L66 16Z" fill="#d43030"/>
+      <!-- Face -->
+      <ellipse cx="60" cy="68" rx="26" ry="22" fill="#f5d0b0"/>
+      <!-- Mouth huge smile -->
+      <path d="M38 70 Q60 90 82 70" fill="#c8102a" stroke="#1a0010" stroke-width="1.5"/>
+      <path d="M38 70 Q45 68 60 76 Q75 68 82 70" fill="#f5d0b0"/>
+      <!-- Teeth -->
+      <path d="M44 72 Q60 80 76 72" fill="white" stroke="none"/>
+      <!-- Eyes -->
+      <ellipse cx="48" cy="62" rx="8" ry="9" fill="#ffe830"/>
+      <ellipse cx="72" cy="62" rx="8" ry="9" fill="#ffe830"/>
+      <circle cx="48" cy="63" r="5" fill="#d43030"/>
+      <circle cx="72" cy="63" r="5" fill="#d43030"/>
+      <circle cx="49" cy="61" r="2" fill="#1a0010"/>
+      <circle cx="73" cy="61" r="2" fill="#1a0010"/>
+      <!-- Glint -->
+      <circle cx="51" cy="60" r="1.5" fill="white"/>
+      <circle cx="75" cy="60" r="1.5" fill="white"/>
+      <!-- Bow tie -->
+      <path d="M50 92 L60 97 L70 92 L60 88Z" fill="#1a1a2e" stroke="#d43030" stroke-width="1"/>
+      <!-- Suit -->
+      <path d="M34 100 Q20 140 22 190 L46 190 L50 130 L60 115 L70 130 L74 190 L98 190 Q100 140 86 100 Q74 88 60 92 Q46 88 34 100Z" fill="#d43030"/>
+      <!-- Lapels -->
+      <path d="M46 100 L55 108 L60 92 L50 96Z" fill="#f5f5f5"/>
+      <path d="M74 100 L65 108 L60 92 L70 96Z" fill="#f5f5f5"/>
+      <!-- Suit lines -->
+      <line x1="60" y1="92" x2="60" y2="190" stroke="#b82020" stroke-width="0.8"/>
+      <!-- Left arm -->
+      <path d="M34 105 Q12 130 8 160 Q15 162 20 158 Q28 135 42 115Z" fill="#f5d0b0"/>
+      <!-- Left hand claw -->
+      <path d="M8 160 L2 167 M8 160 L4 170 M8 160 L10 170" stroke="#1a0010" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Right arm raised -->
+      <path d="M86 105 Q100 90 112 80 Q116 75 118 70" fill="none" stroke="#f5d0b0" stroke-width="10" stroke-linecap="round"/>
+      <!-- Right hand -->
+      <path d="M118 70 L122 63 M118 70 L123 70 M118 70 L121 77" stroke="#1a0010" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Legs -->
+      <path d="M46 190 L40 218 L52 218Z" fill="#d43030"/>
+      <path d="M74 190 L80 218 L68 218Z" fill="#d43030"/>
+      <!-- Shoes -->
+      <ellipse cx="46" cy="218" rx="10" ry="4" fill="#1a1a1a"/>
+      <ellipse cx="74" cy="218" rx="10" ry="4" fill="#1a1a1a"/>
+    </svg>
+
+    <div class="header-center">
+      <div class="header-eyebrow">Game Balance Design</div>
+      <div class="header-title">X7 Project</div>
+      <div class="header-sub">Balance Dashboard · 밸런스 기획 대시보드</div>
+      <div class="header-deco">
+        <span class="header-deco-icon">✦ ⊕ ✦</span>
+      </div>
+    </div>
+
+    <!-- ALASTOR SVG -->
+    <svg class="char-alastor" viewBox="0 0 110 220" xmlns="http://www.w3.org/2000/svg">
+      <!-- Dark shadow aura -->
+      <ellipse cx="55" cy="110" rx="48" ry="55" fill="#0a0005" opacity="0.5"/>
+      <!-- Deer antlers -->
+      <path d="M38 35 Q25 15 20 5 Q28 8 32 18 Q35 10 30 2 Q40 8 38 20Z" fill="#2a0015"/>
+      <path d="M72 35 Q85 15 90 5 Q82 8 78 18 Q75 10 80 2 Q70 8 72 20Z" fill="#2a0015"/>
+      <!-- Hair mass -->
+      <path d="M22 50 Q18 30 30 20 Q55 10 80 20 Q92 30 88 50 Q80 38 55 36 Q30 38 22 50Z" fill="#1a0010"/>
+      <!-- Pink bow -->
+      <path d="M42 40 Q55 30 68 40 Q55 46 42 40Z" fill="#d43070" opacity="0.9"/>
+      <circle cx="55" cy="40" r="4" fill="#ff6090"/>
+      <!-- Face -->
+      <ellipse cx="55" cy="65" rx="24" ry="20" fill="#e8c880"/>
+      <!-- Big smile teeth -->
+      <path d="M35 68 Q55 86 75 68" fill="#c0102a"/>
+      <rect x="39" y="68" width="32" height="8" rx="2" fill="white" opacity="0.95"/>
+      <line x1="47" y1="68" x2="47" y2="76" stroke="#e0c870" stroke-width="0.8"/>
+      <line x1="55" y1="68" x2="55" y2="76" stroke="#e0c870" stroke-width="0.8"/>
+      <line x1="63" y1="68" x2="63" y2="76" stroke="#e0c870" stroke-width="0.8"/>
+      <!-- Eyes - half closed sinister -->
+      <path d="M40 58 Q46 52 52 58 Q46 61 40 58Z" fill="#c8102a"/>
+      <path d="M58 58 Q64 52 70 58 Q64 61 58 58Z" fill="#c8102a"/>
+      <!-- Monocle -->
+      <circle cx="66" cy="58" r="8" fill="none" stroke="#d43030" stroke-width="1.5"/>
+      <line x1="74" y1="62" x2="78" y2="68" stroke="#d43030" stroke-width="1"/>
+      <!-- Radio microphone (simplified staff) -->
+      <line x1="15" y1="80" x2="15" y2="180" stroke="#8b1a3a" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="15" cy="78" r="9" fill="#2a0015" stroke="#d43030" stroke-width="1.5"/>
+      <circle cx="15" cy="78" r="5" fill="#d43030" opacity="0.7"/>
+      <!-- Coat -->
+      <path d="M32 88 Q15 120 14 185 L40 185 L44 130 L55 115 L66 130 L70 185 L96 185 Q95 120 78 88 Q66 78 55 84 Q44 78 32 88Z" fill="#8b1a3a"/>
+      <!-- Pinstripes -->
+      <line x1="44" y1="90" x2="42" y2="185" stroke="#c83060" stroke-width="0.8" opacity="0.6"/>
+      <line x1="55" y1="88" x2="55" y2="185" stroke="#c83060" stroke-width="0.8" opacity="0.6"/>
+      <line x1="66" y1="90" x2="68" y2="185" stroke="#c83060" stroke-width="0.8" opacity="0.6"/>
+      <!-- Bow tie -->
+      <path d="M46 90 L55 95 L64 90 L55 86Z" fill="#4a0030"/>
+      <!-- Right arm out to side -->
+      <path d="M78 95 Q95 100 104 108" fill="none" stroke="#1a0010" stroke-width="12" stroke-linecap="round"/>
+      <path d="M78 95 Q95 100 104 108" fill="none" stroke="#8b1a3a" stroke-width="8" stroke-linecap="round"/>
+      <!-- Clawed right hand -->
+      <path d="M104 108 L110 103 M104 108 L112 110 M104 108 L109 116" stroke="#1a0010" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Legs -->
+      <path d="M40 185 L36 215 L48 215Z" fill="#8b1a3a"/>
+      <path d="M70 185 L74 215 L62 215Z" fill="#8b1a3a"/>
+      <!-- Shoes -->
+      <ellipse cx="42" cy="215" rx="10" ry="4" fill="#d43030" opacity="0.8"/>
+      <ellipse cx="68" cy="215" rx="10" ry="4" fill="#d43030" opacity="0.8"/>
+    </svg>
+
+  </div>
+</header>
+
+<!-- ═══ NAV ═══ -->
+<div class="nav-wrap">
+  <nav class="nav">
+    <button class="nav-item active" data-action="nav" data-s="overview" data-s="overview">🏠 개요</button>
+    <button class="nav-item" data-action="nav" data-s="growth" data-s="growth">📈 성장 밸런스 <span class="nav-badge ok">데이터 있음</span></button>
+    <button class="nav-item" data-action="nav" data-s="economy" data-s="economy">💰 경제 밸런스 <span class="nav-badge ok">데이터 있음</span></button>
+    <button class="nav-item" data-action="nav" data-s="combat" data-s="combat">⚔ 전투 밸런스 <span class="nav-badge ok">데이터 있음</span></button>
+    <button class="nav-item" data-action="nav" data-s="armor" data-s="armor">🛡 방어구 스킬 <span class="nav-badge ok">데이터 있음</span></button>
+    <button class="nav-item" data-action="nav" data-s="skill" data-s="skill">🗡 무기 스킬 <span class="nav-badge ok">데이터 있음</span></button>
+    <a href="https://x7-balance-simulator.streamlit.app/" target="_blank" class="nav-item" style="color:var(--gold); border-bottom-color:var(--gold); font-weight:700;">🚀 실시간 시뮬레이터</a>
+  </nav>
+</div>
+
+<!-- ═══ MAIN ═══ -->
+<main class="main">
+
+<!-- ══ OVERVIEW ══ -->
+<section class="section active" id="sec-overview">
+
+  <!-- 인트로 -->
+  <div class="notice-card" style="margin-bottom:20px">
+    <span class="notice-char">👑</span>
+    <div class="notice-text">
+      <strong>X7 프로젝트 밸런스 대시보드</strong> — 성장·경제·전투 밸런스 수치를 한눈에 볼 수 있는 기획 레퍼런스입니다. 
+      <br><a href="https://x7-balance-simulator.streamlit.app/" target="_blank" class="download-btn" style="margin-top:8px; background:rgba(232,192,80,0.2); border-color:var(--gold);">⚔ 실시간 전투 시뮬레이터 실행하기 (v1.0)</a>
+    </div>
+  </div>
+
+  <!-- 장비 체계: 티어 & 등급 -->
+  <div style="margin-bottom:14px">
+    <div class="card">
+      <div class="card-head"><span style="color:var(--gold)">⚙ 장비 체계</span></div>
+      <div style="padding:16px 20px;display:grid;grid-template-columns:1fr 1fr;gap:28px">
+
+        <div>
+          <div style="font-size:.72rem;color:var(--text2);letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px">
+            Tier — 장비에 고유하게 부여, 성장으로 변경 불가
+          </div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(80,200,112,.18);color:#50c870;border:1px solid #50c87050">T1</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(130,205,90,.18);color:#82cd5a;border:1px solid #82cd5a50">T2</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(200,200,70,.18);color:#c8c846;border:1px solid #c8c84650">T3</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(232,192,80,.2);color:#e8c050;border:1px solid #e8c05055">T4</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(230,140,50,.18);color:#e68c32;border:1px solid #e68c3250">T5</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(212,48,48,.18);color:#d44040;border:1px solid #d4404050">T6</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(140,60,220,.18);color:#a060e8;border:1px solid #a060e850">T7</span>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size:.72rem;color:var(--text2);letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px">
+            Grade — 동일 티어 장비 분해 재료로 강화 가능, 티어별 범위 제한
+          </div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(160,160,160,.15);color:#aaa;border:1px solid #aaa4">일반</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(80,200,112,.15);color:#50c870;border:1px solid #50c87040">고급</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(96,192,255,.15);color:#60c0ff;border:1px solid #60c0ff40">희귀</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(245,166,35,.15);color:#f5a623;border:1px solid #f5a62340">고대</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(192,96,255,.15);color:#c060ff;border:1px solid #c060ff40">영웅</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(255,159,64,.15);color:#ff9f40;border:1px solid #ff9f4040">유일</span>
+            <span style="padding:4px 11px;border-radius:4px;font-weight:700;font-size:.85rem;background:rgba(232,192,80,.2);color:#e8c050;border:1px solid #e8c05055">유물</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 무기 & 방어구 -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px">
+
+    <!-- 무기 -->
+    <div class="card">
+      <div class="card-head">
+        <span style="color:var(--gold)">⚔ 무기</span>
+        <span style="font-size:.75rem;color:var(--text3)">5종</span>
+      </div>
+      <div style="padding:12px 16px;display:flex;flex-direction:column;gap:7px">
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">🗡️</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">양손검</div>
+            <div style="color:var(--text3);font-size:.74rem">고화력 근거리 — 스킬 계수 최상위</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">⚔️</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">한손검</div>
+            <div style="color:var(--text3);font-size:.74rem">밸런스형 근거리 — 안정적 DPS</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">🔪</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">단검</div>
+            <div style="color:var(--text3);font-size:.74rem">속도형 근거리 — 쿨다운 특화</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">🔮</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">지팡이</div>
+            <div style="color:var(--text3);font-size:.74rem">마법 원거리 — 최고 단일 피해</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(232,192,80,.07);border-radius:6px;border-left:3px solid #e8c050">
+          <span style="font-size:1.2rem">🏹</span>
+          <div>
+            <div style="color:var(--cream);font-weight:600;font-size:.88rem">활</div>
+            <div style="color:var(--text3);font-size:.74rem">원거리 치명타 — 속박 CC 특화</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 방어구 -->
+    <div class="card">
+      <div class="card-head">
+        <span style="color:var(--gold)">🛡 방어구</span>
+        <span style="font-size:.75rem;color:var(--text3)">재질 3 × 파츠 4</span>
+      </div>
+      <div style="padding:12px 16px">
+        <table style="width:100%;border-collapse:collapse;font-size:.82rem;text-align:center">
+          <thead>
+            <tr>
+              <th style="padding:6px 10px;color:var(--text2);text-align:left;border-bottom:1px solid #2a2a2a"></th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">🪖 투구</th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">🥋 갑옷</th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">🧤 장갑</th>
+              <th style="padding:6px 8px;color:#b0b0b0;border-bottom:1px solid #2a2a2a">👢 신발</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background:rgba(212,184,152,.06)">
+              <td style="padding:9px 10px;color:#d4b896;font-weight:700;text-align:left;border-right:1px solid #2a2a2a">⚙ 판금</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+            </tr>
+            <tr>
+              <td style="padding:9px 10px;color:#a8c890;font-weight:700;text-align:left;border-right:1px solid #2a2a2a">🌿 가죽</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+            </tr>
+            <tr style="background:rgba(212,184,152,.06)">
+              <td style="padding:9px 10px;color:#c8a0d0;font-weight:700;text-align:left;border-right:1px solid #2a2a2a">🧵 천</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+              <td style="padding:9px;color:var(--text)">✦</td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-top:12px;font-size:.74rem;color:var(--text3);line-height:1.7">
+          각 방어구마다 <strong style="color:var(--text2)">2~3개</strong>의 패시브 옵션 부여<br>
+          재질별 옵션 풀 상이 · 파츠별로 다른 옵션 조합 제공
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 다운로드 바 -->
+  <div class="download-bar" style="margin-bottom:20px">
+    <span class="download-label">📂 기획서</span>
+    <a class="download-btn" href="./X7_장비_제작_및_드랍.xlsx" download>⬇ X7_장비_제작_및_드랍</a>
+    <a class="download-btn" href="./X7_방어구_스킬.xlsx" download>⬇ X7_방어구_스킬</a>
+    <a class="download-btn" href="./X7_무기_스킬.xlsx" download>⬇ X7_무기_스킬</a>
+  </div>
+
+  <!-- 밸런스 현황 트리 -->
+  <div class="cat-tree">
+
+    <!-- 성장 밸런스 -->
+    <div class="cat-block" style="--cat-color:#50c870;--cat-bg:rgba(80,200,112,0.08)">
+      <div class="cat-block-head">
+        <div class="cat-icon" style="--cat-color:#50c870;--cat-bg:rgba(80,200,112,0.08)">📈</div>
+        <div>
+          <div class="cat-label" style="color:#50c870">성장 밸런스</div>
+          <div class="cat-desc">캐릭터 성장·숙련도 시스템</div>
+        </div>
+      </div>
+      <div class="cat-items">
+        <div class="cat-item" data-action="nav" data-s="growth">
+          <div class="cat-item-dot" style="background:#50c870"></div>
+          <div class="cat-item-name">캐릭터 레벨</div>
+          <span class="cat-item-status status-ok">✓ 데이터 확인</span>
+        </div>
+        <div class="cat-item" data-action="nav" data-s="growth">
+          <div class="cat-item-dot" style="background:#50c870"></div>
+          <div class="cat-item-name">숙련도</div>
+          <span class="cat-item-status status-ok">✓ 데이터 확인</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 경제 밸런스 -->
+    <div class="cat-block" style="--cat-color:#e8c050;--cat-bg:rgba(232,192,80,0.08)">
+      <div class="cat-block-head">
+        <div class="cat-icon">💰</div>
+        <div>
+          <div class="cat-label">경제 밸런스</div>
+          <div class="cat-desc">드랍·제작 획득 시스템</div>
+        </div>
+      </div>
+      <div class="cat-items">
+        <div class="cat-item" data-action="nav" data-s="economy">
+          <div class="cat-item-dot"></div>
+          <div class="cat-item-name">드랍 설계</div>
+          <span class="cat-item-status status-ok">✓ 데이터 확인</span>
+        </div>
+        <div class="cat-item" data-action="nav" data-s="economy">
+          <div class="cat-item-dot"></div>
+          <div class="cat-item-name">제작 수량</div>
+          <span class="cat-item-status status-ok">✓ 데이터 확인</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 전투 밸런스 -->
+    <div class="cat-block" style="--cat-color:#d43030;--cat-bg:rgba(212,48,48,0.08)">
+      <div class="cat-block-head">
+        <div class="cat-icon" style="--cat-color:#d43030;--cat-bg:rgba(212,48,48,0.08)">⚔</div>
+        <div>
+          <div class="cat-label" style="color:#d43030">전투 밸런스</div>
+          <div class="cat-desc">장비·스킬 전투 수치 설계</div>
+        </div>
+      </div>
+      <div class="cat-items">
+        <div class="cat-item" data-action="nav" data-s="combat">
+          <div class="cat-item-dot" style="background:#d43030"></div>
+          <div class="cat-item-name">장비 밸런스</div>
+          <span class="cat-item-status status-ok">✓ 데이터 확인</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /cat-tree -->
+
+</section>
+
+
+<!-- ══ GROWTH ══ -->
+<section class="section" id="sec-growth">
+  <div class="sec-header">
+    <div class="sec-header-text">
+      <div class="sec-title">📈 성장 밸런스</div>
+      <div class="sec-desc">캐릭터 레벨 · 숙련도 경험치 설계</div>
+    </div>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" data-action="tab" data-s="grw" data-t="intent">📌 기획 의도</button>
+    <button class="tab-btn" data-action="tab" data-s="grw" data-t="charlevel">📊 캐릭터 레벨</button>
+    <button class="tab-btn" data-action="tab" data-s="grw" data-t="proficiency">🏆 숙련도</button>
+  </div>
+
+  <!-- INTENT ─────────────────── -->
+  <div id="grw-intent">
+    <div class="stats-row" style="margin-bottom:20px">
+      <div class="stat-box"><div class="stat-num">100</div><div class="stat-label">최대 레벨</div></div>
+      <div class="stat-box"><div class="stat-num">7</div><div class="stat-label">숙련도 티어</div></div>
+      <div class="stat-box"><div class="stat-num">330h</div><div class="stat-label">60레벨 달성</div></div>
+      <div class="stat-box"><div class="stat-num">1,200h</div><div class="stat-label">100레벨 달성</div></div>
+      <div class="stat-box"><div class="stat-num">300 XP/분</div><div class="stat-label">숙련도 기준</div></div>
+    </div>
+
+    <div class="eco-grid" style="margin-bottom:20px">
+      <div class="route-card">
+        <div class="route-card-head"><span class="route-icon">📊</span>
+          <div><div class="route-name">캐릭터 레벨 설계</div>
+          <div class="route-tagline">구간별 등차 성장</div></div>
+        </div>
+        <div class="route-body"><ul class="route-features">
+          <li class="route-feature">1레벨 4,300 XP → 60레벨 1,234,300 XP (구간별 등차 증가)</li>
+          <li class="route-feature">60레벨 = 330시간 / 100레벨 = 1,200시간 (지역 완료 기준 앵커)</li>
+          <li class="route-feature">레벨업 소요 시간이 급증하는 구간: 40레벨 이후 (하얀 숲~)</li>
+        </ul></div>
+      </div>
+      <div class="route-card">
+        <div class="route-card-head"><span class="route-icon">🏆</span>
+          <div><div class="route-name">숙련도 시스템</div>
+          <div class="route-tagline">티어 제한 경험치 획득</div></div>
+        </div>
+        <div class="route-body"><ul class="route-features">
+          <li class="route-feature">분당 300 XP 기준 / 캐릭터 XP의 약 60% 수준</li>
+          <li class="route-feature"><strong style="color:var(--gold)">자신의 숙련도 티어 이상 몬스터에서만 경험치 획득</strong></li>
+          <li class="route-feature">지역 클리어 시 해당 티어 자동 달성 — 레벨·숙련도 동기화 설계</li>
+          <li class="route-feature">상위 티어 입장 조건: 지정 캐릭터 레벨 달성 必</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span>🗺</span>
+        <div class="card-head-title">지역별 성장 기준표</div>
+        <div class="card-head-sub">지역 완료 기준 누계 플레이 타임</div>
+      </div>
+      <div class="card-body">
+        <table>
+          <tr><th>지역</th><th>레벨 구간</th><th>완료 레벨</th><th>누계 시간</th><th>구간 소요</th><th>숙련도 티어</th></tr>
+          <tr>
+          <td>이니스 섬</td><td>1~10</td>
+          <td class="td-num">10레벨</td>
+          <td class="td-num">2h</td>
+          <td class="td-num">2h</td>
+          <td><span style="color:#50c870;font-weight:700">1T</span></td>
+        </tr>
+<tr>
+          <td>솔즈리드 반도</td><td>11~20</td>
+          <td class="td-num">20레벨</td>
+          <td class="td-num">6h</td>
+          <td class="td-num">4h</td>
+          <td><span style="color:#5090e8;font-weight:700">2T</span></td>
+        </tr>
+<tr>
+          <td>릴리엇 구릉지</td><td>21~30</td>
+          <td class="td-num">30레벨</td>
+          <td class="td-num">12h</td>
+          <td class="td-num">6h</td>
+          <td><span style="color:#e8c050;font-weight:700">3T</span></td>
+        </tr>
+<tr>
+          <td>가랑돌 평원</td><td>31~35</td>
+          <td class="td-num">35레벨</td>
+          <td class="td-num">20h</td>
+          <td class="td-num">8h</td>
+          <td><span style="color:#e87830;font-weight:700">4T</span></td>
+        </tr>
+<tr>
+          <td>하얀 숲</td><td>36~40</td>
+          <td class="td-num">40레벨</td>
+          <td class="td-num">30h</td>
+          <td class="td-num">10h</td>
+          <td><span style="color:#e87830;font-weight:700">4T</span></td>
+        </tr>
+<tr>
+          <td>마리아 노플</td><td>41~45</td>
+          <td class="td-num">45레벨</td>
+          <td class="td-num">50h</td>
+          <td class="td-num">20h</td>
+          <td><span style="color:#c850c8;font-weight:700">5T</span></td>
+        </tr>
+<tr>
+          <td>황금 평원</td><td>46~50</td>
+          <td class="td-num">50레벨</td>
+          <td class="td-num">90h</td>
+          <td class="td-num">40h</td>
+          <td><span style="color:#c850c8;font-weight:700">5T</span></td>
+        </tr>
+<tr>
+          <td>지옥 늪지대</td><td>51~55</td>
+          <td class="td-num">55레벨</td>
+          <td class="td-num">170h</td>
+          <td class="td-num">80h</td>
+          <td><span style="color:#d43030;font-weight:700">6T</span></td>
+        </tr>
+<tr>
+          <td>긴 모래톱</td><td>56~60</td>
+          <td class="td-num">60레벨</td>
+          <td class="td-num">330h</td>
+          <td class="td-num">160h</td>
+          <td><span style="color:#ff5555;font-weight:700">7T</span></td>
+        </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHAR LEVEL ─────────────── -->
+  <div id="grw-charlevel" style="display:none">
+    <div class="card">
+      <div class="card-head"><span>📊</span>
+        <div class="card-head-title">캐릭터 레벨 경험치 테이블 (1~100)</div>
+        <div class="card-head-sub">필요 XP · 누계 시간 · 지역</div>
+      </div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap" style="max-height:520px;overflow-y:auto">
+          <table id="grw-lv-tbl">
+            <thead style="position:sticky;top:0;z-index:2">
+              <tr><th>레벨</th><th>지역</th><th>필요 XP</th><th>누계 XP</th><th>누계 시간</th><th>성장폭</th></tr>
+            </thead>
+            <tbody id="grw-lv-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROFICIENCY ─────────────── -->
+  <div id="grw-proficiency" style="display:none">
+    <div class="notice-card" style="margin-bottom:16px">
+      <span class="notice-char">⚠️</span>
+      <div class="notice-text">
+        <strong>숙련도 티어 규칙</strong> — 자신의 숙련도 티어 이상의 몬스터를 대상으로만 경험치 획득 가능합니다.
+        <br>예) 2티어 숙련도 → 2티어 이상 몬스터 사냥 시에만 숙련도 XP 획득
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px">
+      
+<div class="card" style="border-color:#50c87033">
+  <div class="card-head" style="background:linear-gradient(90deg,#50c87018,transparent)">
+    <span style="color:#50c870;font-weight:900;font-size:1.1rem">1T</span>
+    <div>
+      <div class="card-head-title" style="color:#50c870">1T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>10레벨</strong> 완료 / 총 36,000 XP / 달성 2h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr style="font-weight:700"><td>Lv.1</td><td class="td-num">36,000</td><td style="color:var(--text2)">36,000</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#5090e833">
+  <div class="card-head" style="background:linear-gradient(90deg,#5090e818,transparent)">
+    <span style="color:#5090e8;font-weight:900;font-size:1.1rem">2T</span>
+    <div>
+      <div class="card-head-title" style="color:#5090e8">2T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>20레벨</strong> 완료 / 총 72,000 XP / 달성 4h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr style="font-weight:700"><td>Lv.1</td><td class="td-num">72,000</td><td style="color:var(--text2)">72,000</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#e8c05033">
+  <div class="card-head" style="background:linear-gradient(90deg,#e8c05018,transparent)">
+    <span style="color:#e8c050;font-weight:900;font-size:1.1rem">3T</span>
+    <div>
+      <div class="card-head-title" style="color:#e8c050">3T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>30레벨</strong> 완료 / 총 108,000 XP / 달성 6h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">27,700</td><td style="color:var(--text2)">27,700</td></tr>
+<tr><td>Lv.2</td><td class="td-num">36,000</td><td style="color:var(--text2)">36,000</td></tr>
+<tr style="font-weight:700"><td>Lv.3</td><td class="td-num">44,300</td><td style="color:var(--text2)">44,300</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#e8783033">
+  <div class="card-head" style="background:linear-gradient(90deg,#e8783018,transparent)">
+    <span style="color:#e87830;font-weight:900;font-size:1.1rem">4T</span>
+    <div>
+      <div class="card-head-title" style="color:#e87830">4T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>40레벨</strong> 완료 / 총 324,000 XP / 달성 18h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">83,100</td><td style="color:var(--text2)">83,100</td></tr>
+<tr><td>Lv.2</td><td class="td-num">108,000</td><td style="color:var(--text2)">108,000</td></tr>
+<tr style="font-weight:700"><td>Lv.3</td><td class="td-num">132,900</td><td style="color:var(--text2)">132,900</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#c850c833">
+  <div class="card-head" style="background:linear-gradient(90deg,#c850c818,transparent)">
+    <span style="color:#c850c8;font-weight:900;font-size:1.1rem">5T</span>
+    <div>
+      <div class="card-head-title" style="color:#c850c8">5T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>50레벨</strong> 완료 / 총 1,080,000 XP / 달성 60h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">166,200</td><td style="color:var(--text2)">166,200</td></tr>
+<tr><td>Lv.2</td><td class="td-num">191,100</td><td style="color:var(--text2)">191,100</td></tr>
+<tr><td>Lv.3</td><td class="td-num">216,000</td><td style="color:var(--text2)">216,000</td></tr>
+<tr><td>Lv.4</td><td class="td-num">240,900</td><td style="color:var(--text2)">240,900</td></tr>
+<tr style="font-weight:700"><td>Lv.5</td><td class="td-num">265,800</td><td style="color:var(--text2)">265,800</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#d4303033">
+  <div class="card-head" style="background:linear-gradient(90deg,#d4303018,transparent)">
+    <span style="color:#d43030;font-weight:900;font-size:1.1rem">6T</span>
+    <div>
+      <div class="card-head-title" style="color:#d43030">6T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>55레벨</strong> 완료 / 총 1,440,000 XP / 달성 80h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">221,500</td><td style="color:var(--text2)">221,500</td></tr>
+<tr><td>Lv.2</td><td class="td-num">254,800</td><td style="color:var(--text2)">254,800</td></tr>
+<tr><td>Lv.3</td><td class="td-num">288,000</td><td style="color:var(--text2)">288,000</td></tr>
+<tr><td>Lv.4</td><td class="td-num">321,200</td><td style="color:var(--text2)">321,200</td></tr>
+<tr style="font-weight:700"><td>Lv.5</td><td class="td-num">354,500</td><td style="color:var(--text2)">354,500</td></tr>
+
+    </table>
+  </div>
+</div>
+<div class="card" style="border-color:#ff555533">
+  <div class="card-head" style="background:linear-gradient(90deg,#ff555518,transparent)">
+    <span style="color:#ff5555;font-weight:900;font-size:1.1rem">7T</span>
+    <div>
+      <div class="card-head-title" style="color:#ff5555">7T 숙련도</div>
+      <div class="card-head-sub">입장 조건: 캐릭터 <strong>60레벨</strong> 완료 / 총 2,880,000 XP / 달성 160h</div>
+    </div>
+  </div>
+  <div class="card-body">
+    <table>
+      <tr><th>레벨</th><th>레벨 필요 XP</th><th>누계 XP</th></tr>
+      <tr><td>Lv.1</td><td class="td-num">246,200</td><td style="color:var(--text2)">246,200</td></tr>
+<tr><td>Lv.2</td><td class="td-num">264,600</td><td style="color:var(--text2)">264,600</td></tr>
+<tr><td>Lv.3</td><td class="td-num">283,100</td><td style="color:var(--text2)">283,100</td></tr>
+<tr><td>Lv.4</td><td class="td-num">301,500</td><td style="color:var(--text2)">301,500</td></tr>
+<tr><td>Lv.5</td><td class="td-num">320,000</td><td style="color:var(--text2)">320,000</td></tr>
+<tr><td>Lv.6</td><td class="td-num">338,500</td><td style="color:var(--text2)">338,500</td></tr>
+<tr><td>Lv.7</td><td class="td-num">356,900</td><td style="color:var(--text2)">356,900</td></tr>
+<tr><td>Lv.8</td><td class="td-num">375,400</td><td style="color:var(--text2)">375,400</td></tr>
+<tr style="font-weight:700"><td>Lv.9</td><td class="td-num">393,800</td><td style="color:var(--text2)">393,800</td></tr>
+
+    </table>
+  </div>
+</div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ══ ECONOMY ══ -->
+<section class="section" id="sec-economy">
+  <div class="sec-header">
+    <div class="sec-header-text">
+    <div class="sec-title">💰 경제 밸런스</div>
+    <div class="sec-desc">장비 획득 · 제작 시스템 설계</div>
+  </div>
+    <a class="download-btn" href="./X7_장비_제작_및_드랍.xlsx" download style="margin-left:auto">⬇ X7_장비_제작_및_드랍.xlsx</a>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" data-action="tab" data-s="eco" data-t="intent">📌 기획 의도</button>
+    <button class="tab-btn" data-action="tab" data-s="eco" data-t="drop">🎲 드랍 설계</button>
+    <button class="tab-btn" data-action="tab" data-s="eco" data-t="craft">🔨 제작 수량</button>
+    <button class="tab-btn" data-action="tab" data-s="eco" data-t="list">📋 장비 리스트</button>
+  </div>
+
+  <!-- INTENT (first) -->
+  <div id="eco-intent">
+    <div class="eco-grid">
+      <div class="route-card">
+        <div class="route-card-head">
+          <span class="route-icon">🗡</span>
+          <div>
+            <div class="route-name">전리품 제작</div>
+            <div class="route-tagline">시간을 갈아넣으면 빠른 경로</div>
+          </div>
+        </div>
+        <div class="route-body">
+          <ul class="route-features">
+            <li class="route-feature">필드 사냥으로 전리품 수집 → 입장 제한 없음</li>
+            <li class="route-feature">동일 티어 드랍률 15% → 7마리당 1개, 긍정적 체감</li>
+            <li class="route-feature">가공물 병행 요구 → 채집 활동 자연 유도</li>
+            <li class="route-feature">하드코어 유저에게 가장 유리한 경로</li>
+          </ul>
+        </div>
+      </div>
+      <div class="route-card">
+        <div class="route-card-head">
+          <span class="route-icon">🏰</span>
+          <div>
+            <div class="route-name">던전 코어 제작</div>
+            <div class="route-tagline">매일 조금씩 쌓이는 경로</div>
+          </div>
+        </div>
+        <div class="route-body">
+          <ul class="route-features">
+            <li class="route-feature">100% 확정 드랍 / 일 3회 제한 / 하루 45분</li>
+            <li class="route-feature">코어 3~7개 랜덤 → 천장 보장형 설계</li>
+            <li class="route-feature">라이트 유저 최적 경로 — 꾸준하면 반드시 완성</li>
+          </ul>
+        </div>
+      </div>
+      <div class="route-card">
+        <div class="route-card-head">
+          <span class="route-icon">💀</span>
+          <div>
+            <div class="route-name">보스 드랍</div>
+            <div class="route-tagline">운빨 도파민 경로</div>
+          </div>
+        </div>
+        <div class="route-body">
+          <ul class="route-features">
+            <li class="route-feature">0.5~1% 확률 완제품 즉시 획득</li>
+            <li class="route-feature">주력 경로 아님 — 보너스 도파민 용도</li>
+            <li class="route-feature">예상치 못한 행운 → 강한 즉각적 성취감</li>
+          </ul>
+        </div>
+      </div>
+      <div class="route-card">
+        <div class="route-card-head">
+          <span class="route-icon">⚙</span>
+          <div>
+            <div class="route-name">설계 철학</div>
+            <div class="route-tagline">경로 간 밸런스</div>
+          </div>
+        </div>
+        <div class="route-body">
+          <ul class="route-features">
+            <li class="route-feature">초반(T1~T3) 빠른 성장, 중후반(T4+) 무게감 증가</li>
+            <li class="route-feature">세 경로 모두 보완적 — 어떤 선택도 불합리하지 않음</li>
+            <li class="route-feature">사냥 속도 분당 10마리 / 채집 12회/분 기준</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DROP -->
+  <div id="eco-drop" style="display:none">
+    <div class="eco-grid">
+      <div class="card">
+        <div class="card-head">
+          <span>🎲</span>
+          <div class="card-head-title">드랍률 정책</div>
+          <div class="card-head-sub">경로별 드랍 설계</div>
+        </div>
+        <div class="card-body">
+          <div class="droprate-rows">
+            <div class="dr-row">
+              <div class="dr-label-row">
+                <span class="dr-name">동일 티어 전리품</span>
+                <span class="dr-val">15%</span>
+              </div>
+              <div class="dr-bar-track"><div class="dr-bar-fill" style="width:75%;background:linear-gradient(90deg,#d43030,#ff7070)"></div></div>
+              <div style="font-size:0.7rem;color:var(--text2);margin-top:2px">분당 1.5개 획득 (10마리 기준) · 7마리당 1개 — '자주 나온다' 체감</div>
+            </div>
+            <div class="dr-row">
+              <div class="dr-label-row">
+                <span class="dr-name">하위 티어 전리품</span>
+                <span class="dr-val">2%</span>
+              </div>
+              <div class="dr-bar-track"><div class="dr-bar-fill" style="width:10%;background:linear-gradient(90deg,#7c20c8,#b060ff)"></div></div>
+              <div style="font-size:0.7rem;color:var(--text2);margin-top:2px">희귀하지만 가끔 — 고레벨 구간 하위 재료 자연 수급</div>
+            </div>
+            <div class="dr-row">
+              <div class="dr-label-row">
+                <span class="dr-name">보스 완제품 드랍</span>
+                <span class="dr-val">0.5~1%</span>
+              </div>
+              <div class="dr-bar-track"><div class="dr-bar-fill" style="width:4%;background:linear-gradient(90deg,#e8c050,#f5d878)"></div></div>
+              <div style="font-size:0.7rem;color:var(--text2);margin-top:2px">운빨 도파민 — 주력 경로 아님, 예상 밖 즉시 획득 쾌감</div>
+            </div>
+            <div class="dr-row">
+              <div class="dr-label-row">
+                <span class="dr-name">던전 코어</span>
+                <span class="dr-val">100% 확정</span>
+              </div>
+              <div class="dr-bar-track"><div class="dr-bar-fill" style="width:100%;background:linear-gradient(90deg,#50c870,#90e8b0)"></div></div>
+              <div style="font-size:0.7rem;color:var(--text2);margin-top:2px">3~7개 랜덤 (평균 5개) · 일 3회 제한 · 하루 45분 투자</div>
+            </div>
+          </div>
+          <div style="margin-top:20px">
+            <div style="font-size:0.78rem;font-weight:700;color:var(--gold);margin-bottom:10px">처치 횟수별 전리품 1개 이상 획득 확률</div>
+            <table>
+              <tr><th>처치 횟수</th><th>누적 확률</th><th>체감</th></tr>
+              <tr><td>5마리</td><td class="td-num">55.6%</td><td style="color:var(--text2)">절반 이상</td></tr>
+              <tr><td>7마리</td><td class="td-num">67.9%</td><td style="color:var(--text2)">약 2/3</td></tr>
+              <tr><td>10마리</td><td class="td-num td-highlight">80.3%</td><td style="color:var(--green)">80% 이상 (기준)</td></tr>
+              <tr><td>20마리</td><td class="td-num">96.1%</td><td style="color:var(--green)">거의 확실</td></tr>
+              <tr><td>30마리</td><td class="td-num td-highlight">99.2%</td><td style="color:var(--green)">매우 확실</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span>🏰</span>
+          <div class="card-head-title">던전 코어 제작 — 달성 기간</div>
+        </div>
+        <div class="card-body">
+          <table>
+            <tr><th>티어</th><th>목표 기간</th><th>코어 수량</th><th>필요 입장</th><th>일투자</th></tr>
+            <tr><td>T1</td><td class="td-muted">-</td><td class="td-muted">-</td><td class="td-muted">-</td><td class="td-muted">-</td></tr>
+            <tr><td>T2</td><td class="td-num">0.3일</td><td class="td-num">3</td><td class="td-num">1회</td><td style="color:var(--green)">45분</td></tr>
+            <tr><td>T3</td><td class="td-num">1일</td><td class="td-num">15</td><td class="td-num">3회</td><td style="color:var(--green)">45분</td></tr>
+            <tr><td>T4</td><td class="td-num">3일</td><td class="td-num">45</td><td class="td-num">9회</td><td style="color:var(--green)">45분</td></tr>
+            <tr><td>T5</td><td class="td-num">10일</td><td class="td-num">150</td><td class="td-num">30회</td><td style="color:var(--green)">45분</td></tr>
+            <tr><td>T6</td><td class="td-num">30일</td><td class="td-num">450</td><td class="td-num">90회</td><td style="color:var(--green)">45분</td></tr>
+            <tr><td>T7</td><td class="td-num td-highlight">100일</td><td class="td-num td-highlight">1,500</td><td class="td-num">300회</td><td style="color:var(--green)">45분</td></tr>
+          </table>
+          <div style="margin-top:12px;padding:10px 12px;background:rgba(255,255,255,0.03);border-radius:4px;border:1px solid var(--border)">
+            <div style="font-size:0.72rem;color:var(--text2);line-height:1.7">
+              ▸ 코어 드랍 범위 <strong style="color:var(--gold)">3~7개</strong> (평균 5개) — 최솟값이 평균의 60%, 최댓값 140%<br>
+              ▸ '천장 보장' 설계 → 최악의 경우도 예측 가능한 진행감 제공
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="eco-craft" style="display:none">
+    <div class="card">
+      <div class="card-head">
+        <span>🔨</span>
+        <div class="card-head-title">전리품 제작 — 티어별 재료 수량</div>
+        <div class="card-head-sub">방어구 = 무기 × 2배</div>
+      </div>
+      <div class="card-body">
+        <div class="tbl-wrap">
+          <table>
+            <tr><th>티어</th><th>무기 목표시간</th><th>방어구 목표시간</th><th>전리품(무기)</th><th>전리품(방어구)</th><th>가공물(무기)</th><th>가공물(방어구)</th><th>채집물</th><th>비고</th></tr>
+            <tr><td>T1</td><td>5분</td><td>10분</td><td class="td-muted">-</td><td class="td-muted">-</td><td class="td-num">3</td><td class="td-num">6</td><td class="td-num">30</td><td style="color:var(--text2);font-size:0.75rem">기본제작 전용</td></tr>
+            <tr><td>T2</td><td>20분</td><td>40분</td><td class="td-num">60</td><td class="td-num">120</td><td class="td-num">12</td><td class="td-num">24</td><td class="td-num">120</td><td style="color:var(--text2);font-size:0.75rem">사냥 20분 + 채집 10분</td></tr>
+            <tr><td>T3</td><td>1시간</td><td>2시간</td><td class="td-num">180</td><td class="td-num">360</td><td class="td-num">36</td><td class="td-num">72</td><td class="td-num">360</td><td style="color:var(--text2);font-size:0.75rem">사냥 1h + 채집 30분</td></tr>
+            <tr><td>T4</td><td>5시간</td><td>10시간</td><td class="td-num">900</td><td class="td-num">1,800</td><td class="td-num">180</td><td class="td-num">360</td><td class="td-num">1,800</td><td style="color:var(--text2);font-size:0.75rem">사냥 5h + 채집 2.5h</td></tr>
+            <tr><td>T5</td><td>25시간</td><td>50시간</td><td class="td-num">4,500</td><td class="td-num">9,000</td><td class="td-num">900</td><td class="td-num">1,800</td><td class="td-num">9,000</td><td style="color:var(--text2);font-size:0.75rem">하드코어 구간</td></tr>
+            <tr><td>T6</td><td>125시간</td><td>250시간</td><td class="td-num">22,500</td><td class="td-num">45,000</td><td class="td-num">4,500</td><td class="td-num">9,000</td><td class="td-num">45,000</td><td style="color:var(--text2);font-size:0.75rem">장기 투자</td></tr>
+            <tr><td>T7</td><td>625시간</td><td>1,350시간</td><td class="td-num td-highlight">112,500</td><td class="td-num td-highlight">225,000</td><td class="td-num">22,500</td><td class="td-num">45,000</td><td class="td-num">225,000</td><td style="color:var(--red2);font-size:0.75rem">엔드게임</td></tr>
+          </table>
+        </div>
+        <div style="margin-top:10px;font-size:0.72rem;color:var(--text3)">
+          전리품 수량 = 파밍목표(분) × 3 | 가공물 = 파밍시간 × 0.6 | 채집:파밍 = 50:50
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIST -->
+  <div id="eco-list" style="display:none">
+    <div class="filter-bar">
+      <span class="filter-label">티어:</span>
+      <button class="filter-btn active" data-action="filter-list" data-type="tier" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-list" data-type="tier" data-val="1T">1T</button>
+      <button class="filter-btn" data-action="filter-list" data-type="tier" data-val="2T">2T</button>
+      <button class="filter-btn" data-action="filter-list" data-type="tier" data-val="3T">3T</button>
+      <span class="filter-label" style="margin-left:8px">획득:</span>
+      <button class="filter-btn active" data-action="filter-list" data-type="obt" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-list" data-type="obt" data-val="기본 제작">기본 제작</button>
+      <button class="filter-btn" data-action="filter-list" data-type="obt" data-val="전리품 제작">전리품</button>
+      <button class="filter-btn" data-action="filter-list" data-type="obt" data-val="던전 코어 제작">코어</button>
+      <button class="filter-btn" data-action="filter-list" data-type="obt" data-val="보스 드랍">보스</button>
+    </div>
+    <div class="card">
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table id="item-list-table">
+            <thead>
+              <tr><th>티어</th><th>획득</th><th>재질</th><th>파츠</th><th>패시브 1</th><th>패시브 2</th><th>패시브 3</th></tr>
+            </thead>
+            <tbody id="item-list-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- ══ COMBAT ══ -->
+<section class="section" id="sec-combat">
+  <div class="sec-header">
+    <div class="sec-header-text">
+    <div class="sec-title">⚔ 전투 밸런스 — 장비</div>
+    <div class="sec-desc">무기 ATK · 방어구 DEF · 악세사리 · 스탯 캡 & 데미지 공식</div>
+  </div>
+    <a class="download-btn" href="./X7_장비_능력치_기획서.xlsx" download style="margin-left:auto">⬇ X7_장비_능력치_기획서.xlsx</a>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" data-action="tab" data-s="cbt" data-t="intent">📋 설계 의도</button>
+    <button class="tab-btn" data-action="tab" data-s="cbt" data-t="weapon">⚔ 무기 ATK</button>
+    <button class="tab-btn" data-action="tab" data-s="cbt" data-t="armor">🛡 방어구 DEF</button>
+    <button class="tab-btn" data-action="tab" data-s="cbt" data-t="acc">💍 악세사리</button>
+    <button class="tab-btn" data-action="tab" data-s="cbt" data-t="formula">📌 스탯 캡 & 공식</button>
+  </div>
+
+  <!-- 설계 의도 -->
+  <div id="cbt-intent">
+    <div class="notice-card" style="margin-bottom:20px">
+      <span class="notice-char">⚔</span>
+      <div class="notice-text">
+        <strong>장비 능력치 설계 철학</strong> — 캐릭터는 HP·MP 기본값만 보유하며, 공격력·방어력은 <strong>100% 장비에서 획득</strong>합니다.
+        장비 수집과 강화가 성장의 핵심 동력이 되도록 설계되었습니다.
+      </div>
+    </div>
+    <div class="intent-grid">
+      <div class="intent-card">
+        <div class="intent-card-title">📈 티어 차등 강조</div>
+        <div class="bullet">티어 간 기본 수치 격차를 크게 설계</div>
+        <div class="bullet">상위 티어 장비 확보 자체가 핵심 성장 목표</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">🔨 강화 보상 차등</div>
+        <div class="bullet">강화 1단계 증가량: T1 +8 ATK / T7 +20 ATK</div>
+        <div class="bullet">고티어 장비일수록 강화 시 더 큰 수치 상승 경험</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">⚡ 강화 리스크</div>
+        <div class="bullet">강화 증가폭이 클수록 실패 시 손실도 큼</div>
+        <div class="bullet">고티어 강화는 자원 투자 대비 리스크가 명확히 존재</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">💎 등급 가치 차별화</div>
+        <div class="bullet">등급 보너스 자체는 티어 무관 동일 (예: 희귀 +40 ATK)</div>
+        <div class="bullet">티어별 최대 등급 제한으로 실질 등급 가치 차별화</div>
+        <div style="margin-top:8px;font-size:0.76rem;color:var(--text2);line-height:1.8">
+          T1 최대 <span style="color:#aaa">고급</span> &nbsp;/&nbsp;
+          T2 최대 <span style="color:#60c0ff">희귀</span> &nbsp;/&nbsp;
+          T3 최대 <span style="color:#f5a623">고대</span> &nbsp;/&nbsp;
+          T4 최대 <span style="color:#c060ff">영웅</span><br>
+          T5 최대 <span style="color:#ff9f40">유일</span> &nbsp;/&nbsp;
+          T6·T7 최대 <span style="color:#e8c050">유물</span>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <div class="card-head"><span>📊</span><div class="card-head-title">수치 구조 요약</div></div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>티어</th><th>최대 등급</th><th>무기 기본 ATK (0강·일반)</th><th>방어구 기본 DEF</th><th>무기 강화 +/단계</th><th>방어구 강화 +/단계</th></tr></thead>
+            <tbody>
+              <tr><td style="color:#aaa;font-weight:700">T1</td><td style="color:#aaa">고급</td><td class="td-num">60</td><td class="td-num">30</td><td class="td-num">+8</td><td class="td-num">+4</td></tr>
+              <tr><td style="color:#60c0ff;font-weight:700">T2</td><td style="color:#60c0ff">희귀</td><td class="td-num">80</td><td class="td-num">40</td><td class="td-num">+10</td><td class="td-num">+5</td></tr>
+              <tr><td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td><td class="td-num">120</td><td class="td-num">60</td><td class="td-num">+12</td><td class="td-num">+6</td></tr>
+              <tr><td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td><td class="td-num">180</td><td class="td-num">90</td><td class="td-num">+14</td><td class="td-num">+7</td></tr>
+              <tr><td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td><td class="td-num">260</td><td class="td-num">130</td><td class="td-num">+16</td><td class="td-num">+8</td></tr>
+              <tr><td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td><td class="td-num">360</td><td class="td-num">180</td><td class="td-num">+18</td><td class="td-num">+9</td></tr>
+              <tr><td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td><td class="td-num">480</td><td class="td-num">240</td><td class="td-num">+20</td><td class="td-num">+10</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 무기 ATK -->
+  <div id="cbt-weapon" style="display:none">
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head"><span>⚔</span><div class="card-head-title">무기 ATK 수치표 — 티어 × 등급 (0강 기준)</div><div class="card-head-sub">회색 셀 = 해당 티어 획득 불가 등급</div></div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table id="cbt-weapon-grade-tbl">
+            <thead>
+              <tr>
+                <th>티어</th><th>최대등급</th>
+                <th style="color:#aaa">일반</th>
+                <th style="color:#60ff80">고급</th>
+                <th style="color:#60c0ff">희귀</th>
+                <th style="color:#f5a623">고대</th>
+                <th style="color:#c060ff">영웅</th>
+                <th style="color:#ff9f40">유일</th>
+                <th style="color:#e8c050">유물</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="color:#aaa;font-weight:700">T1</td><td style="color:#aaa">고급</td>
+                <td class="td-num">60</td><td class="td-num">80</td>
+                <td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td>
+              </tr>
+              <tr>
+                <td style="color:#60c0ff;font-weight:700">T2</td><td style="color:#60c0ff">희귀</td>
+                <td class="td-num">80</td><td class="td-num">100</td><td class="td-num">120</td>
+                <td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td>
+              </tr>
+              <tr>
+                <td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td>
+                <td class="td-num">120</td><td class="td-num">140</td><td class="td-num">160</td><td class="td-num">180</td>
+                <td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td>
+              </tr>
+              <tr>
+                <td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td>
+                <td class="td-num">180</td><td class="td-num">200</td><td class="td-num">220</td><td class="td-num">240</td><td class="td-num">260</td>
+                <td class="td-muted">—</td><td class="td-muted">—</td>
+              </tr>
+              <tr>
+                <td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td>
+                <td class="td-num">260</td><td class="td-num">280</td><td class="td-num">300</td><td class="td-num">320</td><td class="td-num">340</td><td class="td-num">360</td>
+                <td class="td-muted">—</td>
+              </tr>
+              <tr>
+                <td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td>
+                <td class="td-num">360</td><td class="td-num">380</td><td class="td-num">400</td><td class="td-num">420</td><td class="td-num">440</td><td class="td-num">460</td><td class="td-num">480</td>
+              </tr>
+              <tr>
+                <td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td>
+                <td class="td-num">480</td><td class="td-num">500</td><td class="td-num">520</td><td class="td-num">540</td><td class="td-num">560</td><td class="td-num">580</td><td class="td-num">600</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head"><span>🔨</span><div class="card-head-title">무기 강화 수치 (+0강 ~ +10강)</div><div class="card-head-sub">최고 등급 기준</div></div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table>
+            <thead>
+              <tr><th>티어</th><th>+0강</th><th>+1강</th><th>+2강</th><th>+3강</th><th>+4강</th><th>+5강</th><th>+6강</th><th>+7강</th><th>+8강</th><th>+9강</th><th style="color:var(--gold2)">+10강</th><th>+/단계</th></tr>
+            </thead>
+            <tbody>
+              <tr><td style="color:#aaa;font-weight:700">T1</td><td>80</td><td>88</td><td>96</td><td>104</td><td>112</td><td>120</td><td>128</td><td>136</td><td>144</td><td>152</td><td class="td-num" style="color:var(--gold2);font-weight:700">160</td><td class="td-num">+8</td></tr>
+              <tr><td style="color:#60c0ff;font-weight:700">T2</td><td>120</td><td>130</td><td>140</td><td>150</td><td>160</td><td>170</td><td>180</td><td>190</td><td>200</td><td>210</td><td class="td-num" style="color:var(--gold2);font-weight:700">220</td><td class="td-num">+10</td></tr>
+              <tr><td style="color:#f5a623;font-weight:700">T3</td><td>180</td><td>192</td><td>204</td><td>216</td><td>228</td><td>240</td><td>252</td><td>264</td><td>276</td><td>288</td><td class="td-num" style="color:var(--gold2);font-weight:700">300</td><td class="td-num">+12</td></tr>
+              <tr><td style="color:#c060ff;font-weight:700">T4</td><td>260</td><td>274</td><td>288</td><td>302</td><td>316</td><td>330</td><td>344</td><td>358</td><td>372</td><td>386</td><td class="td-num" style="color:var(--gold2);font-weight:700">400</td><td class="td-num">+14</td></tr>
+              <tr><td style="color:#ff9f40;font-weight:700">T5</td><td>360</td><td>376</td><td>392</td><td>408</td><td>424</td><td>440</td><td>456</td><td>472</td><td>488</td><td>504</td><td class="td-num" style="color:var(--gold2);font-weight:700">520</td><td class="td-num">+16</td></tr>
+              <tr><td style="color:#e8c050;font-weight:700">T6</td><td>480</td><td>498</td><td>516</td><td>534</td><td>552</td><td>570</td><td>588</td><td>606</td><td>624</td><td>642</td><td class="td-num" style="color:var(--gold2);font-weight:700">660</td><td class="td-num">+18</td></tr>
+              <tr><td style="color:#ff5555;font-weight:700">T7</td><td>600</td><td>620</td><td>640</td><td>660</td><td>680</td><td>700</td><td>720</td><td>740</td><td>760</td><td>780</td><td class="td-num" style="color:var(--gold2);font-weight:700">800</td><td class="td-num">+20</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><span>📊</span><div class="card-head-title">티어 간 격차 요약 (최고등급 10강 기준)</div></div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>티어</th><th>최고등급</th><th>최대 ATK</th><th>전 티어 대비 +</th><th>배율</th><th>비고</th></tr></thead>
+            <tbody>
+              <tr><td style="color:#aaa;font-weight:700">T1</td><td style="color:#aaa">고급</td><td class="td-num">160</td><td class="td-muted">—</td><td class="td-muted">기준</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 고급</td></tr>
+              <tr><td style="color:#60c0ff;font-weight:700">T2</td><td style="color:#60c0ff">희귀</td><td class="td-num">220</td><td class="td-num">+60</td><td class="td-num" style="color:var(--green)">×1.38</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 희귀</td></tr>
+              <tr><td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td><td class="td-num">300</td><td class="td-num">+80</td><td class="td-num" style="color:var(--green)">×1.36</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 고대</td></tr>
+              <tr><td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td><td class="td-num">400</td><td class="td-num">+100</td><td class="td-num" style="color:var(--green)">×1.33</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 영웅</td></tr>
+              <tr><td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td><td class="td-num">520</td><td class="td-num">+120</td><td class="td-num" style="color:var(--green)">×1.30</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 유일</td></tr>
+              <tr><td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td><td class="td-num">660</td><td class="td-num">+140</td><td class="td-num" style="color:var(--green)">×1.27</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 유물</td></tr>
+              <tr><td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td><td class="td-num td-highlight">800</td><td class="td-num td-highlight">+140</td><td class="td-num" style="color:var(--green)">×1.21</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 유물</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 방어구 DEF -->
+  <div id="cbt-armor" style="display:none">
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head"><span>🛡</span><div class="card-head-title">방어구 DEF 수치표 — 티어 × 등급 (0강 기준)</div><div class="card-head-sub">회색 셀 = 해당 티어 획득 불가 등급</div></div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>티어</th><th>최대등급</th>
+                <th style="color:#aaa">일반</th><th style="color:#60ff80">고급</th><th style="color:#60c0ff">희귀</th>
+                <th style="color:#f5a623">고대</th><th style="color:#c060ff">영웅</th><th style="color:#ff9f40">유일</th><th style="color:#e8c050">유물</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="color:#aaa;font-weight:700">T1</td><td style="color:#aaa">고급</td><td class="td-num">30</td><td class="td-num">40</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td></tr>
+              <tr><td style="color:#60c0ff;font-weight:700">T2</td><td style="color:#60c0ff">희귀</td><td class="td-num">40</td><td class="td-num">50</td><td class="td-num">60</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td></tr>
+              <tr><td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td><td class="td-num">60</td><td class="td-num">70</td><td class="td-num">80</td><td class="td-num">90</td><td class="td-muted">—</td><td class="td-muted">—</td><td class="td-muted">—</td></tr>
+              <tr><td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td><td class="td-num">90</td><td class="td-num">100</td><td class="td-num">110</td><td class="td-num">120</td><td class="td-num">130</td><td class="td-muted">—</td><td class="td-muted">—</td></tr>
+              <tr><td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td><td class="td-num">130</td><td class="td-num">140</td><td class="td-num">150</td><td class="td-num">160</td><td class="td-num">170</td><td class="td-num">180</td><td class="td-muted">—</td></tr>
+              <tr><td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td><td class="td-num">180</td><td class="td-num">190</td><td class="td-num">200</td><td class="td-num">210</td><td class="td-num">220</td><td class="td-num">230</td><td class="td-num">235</td></tr>
+              <tr><td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td><td class="td-num">240</td><td class="td-num">250</td><td class="td-num">260</td><td class="td-num">270</td><td class="td-num">280</td><td class="td-num">290</td><td class="td-num">295</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-head"><span>🔨</span><div class="card-head-title">방어구 강화 수치 (+0강 ~ +10강)</div><div class="card-head-sub">최고 등급 기준</div></div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>티어</th><th>+0강</th><th>+1강</th><th>+2강</th><th>+3강</th><th>+4강</th><th>+5강</th><th>+6강</th><th>+7강</th><th>+8강</th><th>+9강</th><th style="color:var(--gold2)">+10강</th><th>+/단계</th></tr></thead>
+            <tbody>
+              <tr><td style="color:#aaa;font-weight:700">T1</td><td>40</td><td>44</td><td>48</td><td>52</td><td>56</td><td>60</td><td>64</td><td>68</td><td>72</td><td>76</td><td class="td-num" style="color:var(--gold2);font-weight:700">80</td><td class="td-num">+4</td></tr>
+              <tr><td style="color:#60c0ff;font-weight:700">T2</td><td>60</td><td>65</td><td>70</td><td>75</td><td>80</td><td>85</td><td>90</td><td>95</td><td>100</td><td>105</td><td class="td-num" style="color:var(--gold2);font-weight:700">110</td><td class="td-num">+5</td></tr>
+              <tr><td style="color:#f5a623;font-weight:700">T3</td><td>90</td><td>96</td><td>102</td><td>108</td><td>114</td><td>120</td><td>126</td><td>132</td><td>138</td><td>144</td><td class="td-num" style="color:var(--gold2);font-weight:700">150</td><td class="td-num">+6</td></tr>
+              <tr><td style="color:#c060ff;font-weight:700">T4</td><td>130</td><td>137</td><td>144</td><td>151</td><td>158</td><td>165</td><td>172</td><td>179</td><td>186</td><td>193</td><td class="td-num" style="color:var(--gold2);font-weight:700">200</td><td class="td-num">+7</td></tr>
+              <tr><td style="color:#ff9f40;font-weight:700">T5</td><td>180</td><td>188</td><td>196</td><td>204</td><td>212</td><td>220</td><td>228</td><td>236</td><td>244</td><td>252</td><td class="td-num" style="color:var(--gold2);font-weight:700">260</td><td class="td-num">+8</td></tr>
+              <tr><td style="color:#e8c050;font-weight:700">T6</td><td>235</td><td>244</td><td>253</td><td>262</td><td>271</td><td>280</td><td>289</td><td>298</td><td>307</td><td>316</td><td class="td-num" style="color:var(--gold2);font-weight:700">325</td><td class="td-num">+9</td></tr>
+              <tr><td style="color:#ff5555;font-weight:700">T7</td><td>295</td><td>305</td><td>315</td><td>325</td><td>335</td><td>345</td><td>355</td><td>365</td><td>375</td><td>385</td><td class="td-num" style="color:var(--gold2);font-weight:700">395</td><td class="td-num">+10</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><span>📊</span><div class="card-head-title">티어 간 격차 요약 (최고등급 10강 기준)</div></div>
+      <div class="card-body" style="padding:0">
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>티어</th><th>최고등급</th><th>최대 DEF</th><th>전 티어 대비 +</th><th>배율</th><th>비고</th></tr></thead>
+            <tbody>
+              <tr><td style="color:#aaa;font-weight:700">T1</td><td style="color:#aaa">고급</td><td class="td-num">80</td><td class="td-muted">—</td><td class="td-muted">기준</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 고급</td></tr>
+              <tr><td style="color:#60c0ff;font-weight:700">T2</td><td style="color:#60c0ff">희귀</td><td class="td-num">110</td><td class="td-num">+30</td><td class="td-num" style="color:var(--green)">×1.38</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 희귀</td></tr>
+              <tr><td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td><td class="td-num">150</td><td class="td-num">+40</td><td class="td-num" style="color:var(--green)">×1.36</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 고대</td></tr>
+              <tr><td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td><td class="td-num">200</td><td class="td-num">+50</td><td class="td-num" style="color:var(--green)">×1.33</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 영웅</td></tr>
+              <tr><td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td><td class="td-num">260</td><td class="td-num">+60</td><td class="td-num" style="color:var(--green)">×1.30</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 유일</td></tr>
+              <tr><td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td><td class="td-num">325</td><td class="td-num">+65</td><td class="td-num" style="color:var(--green)">×1.25</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 유물</td></tr>
+              <tr><td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td><td class="td-num td-highlight">395</td><td class="td-num td-highlight">+70</td><td class="td-num" style="color:var(--green)">×1.22</td><td style="color:var(--text2);font-size:0.75rem">최고등급: 유물</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 악세사리 -->
+  <div id="cbt-acc" style="display:none">
+    <div class="notice-card" style="margin-bottom:16px">
+      <span class="notice-char">💍</span>
+      <div class="notice-text"><strong>악세사리 장착 조건</strong> — 반지·목걸이·귀걸이는 <strong>T3부터 장착 가능</strong>합니다. T1·T2는 슬롯 없음.</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:16px">
+      <div class="card">
+        <div class="card-head"><span>💍</span><div class="card-head-title">반지 — ATK 제공 (×2 장착, 합산)</div><div class="card-head-sub">T1·T2 장착 불가</div></div>
+        <div class="card-body" style="padding:0">
+          <div class="tbl-wrap">
+            <table>
+              <thead><tr><th>티어</th><th>최고등급</th><th>+0강</th><th>+5강</th><th style="color:var(--gold2)">+10강</th><th>최대ATK</th><th>+/단계</th></tr></thead>
+              <tbody>
+                <tr><td style="color:#aaa;font-weight:700">T1</td><td class="td-muted">없음</td><td class="td-muted" colspan="5">장착 불가</td></tr>
+                <tr><td style="color:#60c0ff;font-weight:700">T2</td><td class="td-muted">없음</td><td class="td-muted" colspan="5">장착 불가</td></tr>
+                <tr><td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td><td class="td-num">45</td><td class="td-num">75</td><td class="td-num" style="color:var(--gold2);font-weight:700">105</td><td class="td-num">105</td><td class="td-num">+6</td></tr>
+                <tr><td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td><td class="td-num">65</td><td class="td-num">100</td><td class="td-num" style="color:var(--gold2);font-weight:700">135</td><td class="td-num">135</td><td class="td-num">+7</td></tr>
+                <tr><td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td><td class="td-num">90</td><td class="td-num">130</td><td class="td-num" style="color:var(--gold2);font-weight:700">170</td><td class="td-num">170</td><td class="td-num">+8</td></tr>
+                <tr><td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td><td class="td-num">120</td><td class="td-num">165</td><td class="td-num" style="color:var(--gold2);font-weight:700">210</td><td class="td-num">210</td><td class="td-num">+9</td></tr>
+                <tr><td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td><td class="td-num">150</td><td class="td-num">200</td><td class="td-num td-highlight">250</td><td class="td-num td-highlight">250</td><td class="td-num">+10</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head"><span>📿</span><div class="card-head-title">목걸이 — DEF 제공</div><div class="card-head-sub">T1·T2 장착 불가</div></div>
+        <div class="card-body" style="padding:0">
+          <div class="tbl-wrap">
+            <table>
+              <thead><tr><th>티어</th><th>최고등급</th><th>+0강</th><th>+5강</th><th style="color:var(--gold2)">+10강</th><th>최대DEF</th><th>+/단계</th></tr></thead>
+              <tbody>
+                <tr><td style="color:#aaa;font-weight:700">T1</td><td class="td-muted">없음</td><td class="td-muted" colspan="5">장착 불가</td></tr>
+                <tr><td style="color:#60c0ff;font-weight:700">T2</td><td class="td-muted">없음</td><td class="td-muted" colspan="5">장착 불가</td></tr>
+                <tr><td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td><td class="td-num">90</td><td class="td-num">120</td><td class="td-num" style="color:var(--gold2);font-weight:700">150</td><td class="td-num">150</td><td class="td-num">+6</td></tr>
+                <tr><td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td><td class="td-num">130</td><td class="td-num">165</td><td class="td-num" style="color:var(--gold2);font-weight:700">200</td><td class="td-num">200</td><td class="td-num">+7</td></tr>
+                <tr><td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td><td class="td-num">180</td><td class="td-num">220</td><td class="td-num" style="color:var(--gold2);font-weight:700">260</td><td class="td-num">260</td><td class="td-num">+8</td></tr>
+                <tr><td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td><td class="td-num">240</td><td class="td-num">285</td><td class="td-num" style="color:var(--gold2);font-weight:700">330</td><td class="td-num">330</td><td class="td-num">+9</td></tr>
+                <tr><td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td><td class="td-num">300</td><td class="td-num">350</td><td class="td-num td-highlight">400</td><td class="td-num td-highlight">400</td><td class="td-num">+10</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head"><span>👂</span><div class="card-head-title">귀걸이 — DEF 제공</div><div class="card-head-sub">T1·T2 장착 불가</div></div>
+        <div class="card-body" style="padding:0">
+          <div class="tbl-wrap">
+            <table>
+              <thead><tr><th>티어</th><th>최고등급</th><th>+0강</th><th>+5강</th><th style="color:var(--gold2)">+10강</th><th>최대DEF</th><th>+/단계</th></tr></thead>
+              <tbody>
+                <tr><td style="color:#aaa;font-weight:700">T1</td><td class="td-muted">없음</td><td class="td-muted" colspan="5">장착 불가</td></tr>
+                <tr><td style="color:#60c0ff;font-weight:700">T2</td><td class="td-muted">없음</td><td class="td-muted" colspan="5">장착 불가</td></tr>
+                <tr><td style="color:#f5a623;font-weight:700">T3</td><td style="color:#f5a623">고대</td><td class="td-num">90</td><td class="td-num">120</td><td class="td-num" style="color:var(--gold2);font-weight:700">150</td><td class="td-num">150</td><td class="td-num">+6</td></tr>
+                <tr><td style="color:#c060ff;font-weight:700">T4</td><td style="color:#c060ff">영웅</td><td class="td-num">130</td><td class="td-num">165</td><td class="td-num" style="color:var(--gold2);font-weight:700">200</td><td class="td-num">200</td><td class="td-num">+7</td></tr>
+                <tr><td style="color:#ff9f40;font-weight:700">T5</td><td style="color:#ff9f40">유일</td><td class="td-num">180</td><td class="td-num">220</td><td class="td-num" style="color:var(--gold2);font-weight:700">260</td><td class="td-num">260</td><td class="td-num">+8</td></tr>
+                <tr><td style="color:#e8c050;font-weight:700">T6</td><td style="color:#e8c050">유물</td><td class="td-num">240</td><td class="td-num">285</td><td class="td-num" style="color:var(--gold2);font-weight:700">330</td><td class="td-num">330</td><td class="td-num">+9</td></tr>
+                <tr><td style="color:#ff5555;font-weight:700">T7</td><td style="color:#e8c050">유물</td><td class="td-num">300</td><td class="td-num">350</td><td class="td-num td-highlight">400</td><td class="td-num td-highlight">400</td><td class="td-num">+10</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 스탯 캡 & 공식 -->
+  <div id="cbt-formula" style="display:none">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+      <div class="card">
+        <div class="card-head"><span>📌</span><div class="card-head-title">능력치 상한값 (CAP)</div></div>
+        <div class="card-body" style="padding:0">
+          <div class="tbl-wrap">
+            <table>
+              <thead><tr><th>능력치</th><th>상한</th><th>단위</th><th>내부 키</th></tr></thead>
+              <tbody>
+                <tr><td>최대 체력</td><td class="td-num">12000</td><td style="color:var(--text2)">고정</td><td style="font-size:0.72rem;color:var(--text3)">MaxHpVary</td></tr>
+                <tr><td>최대 마력</td><td class="td-num">2500</td><td style="color:var(--text2)">고정</td><td style="font-size:0.72rem;color:var(--text3)">MaxMpVary</td></tr>
+                <tr><td>공격력 (고정)</td><td class="td-num">1500</td><td style="color:var(--text2)">고정</td><td style="font-size:0.72rem;color:var(--text3)">AttackVary</td></tr>
+                <tr><td>방어력 (고정)</td><td class="td-num">3000</td><td style="color:var(--text2)">고정</td><td style="font-size:0.72rem;color:var(--text3)">DefenseVary</td></tr>
+                <tr><td>공격력 증가</td><td class="td-num">50</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">AttackVaryper</td></tr>
+                <tr><td>방어력 증가</td><td class="td-num">50</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">DefenseVaryper</td></tr>
+                <tr><td>추가 공격력</td><td class="td-num">300</td><td style="color:var(--text2)">고정</td><td style="font-size:0.72rem;color:var(--text3)">AddAttackVary</td></tr>
+                <tr><td>추가 방어력</td><td class="td-num">600</td><td style="color:var(--text2)">고정</td><td style="font-size:0.72rem;color:var(--text3)">AddDefenseVary</td></tr>
+                <tr><td>스킬 가속</td><td class="td-num">100</td><td style="color:var(--text2)">n</td><td style="font-size:0.72rem;color:var(--text3)">SkillCooldownAccVary</td></tr>
+                <tr><td>주는 피해 증가</td><td class="td-num">100</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">DamageUpVaryper</td></tr>
+                <tr><td>받는 피해 감소</td><td class="td-num">50</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">DamageDownVaryper</td></tr>
+                <tr><td>치명타 확률</td><td class="td-num">80</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">CriVaryper</td></tr>
+                <tr><td>치명타 피해</td><td class="td-num">300</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">CriDamageVaryper</td></tr>
+                <tr><td>공격 속도</td><td class="td-num">300</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">AtkSpeedVaryper</td></tr>
+                <tr><td>이동 속도</td><td class="td-num">200</td><td style="color:var(--text2)">%</td><td style="font-size:0.72rem;color:var(--text3)">MoveSpeedVaryper</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head"><span>🧮</span><div class="card-head-title">캐릭터 기본 스탯 공식</div></div>
+        <div class="card-body">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:6px">최대 HP (레벨 n)</div>
+              <div style="font-family:monospace;font-size:0.82rem;color:var(--cream)">1500 + (n − 1) × 100</div>
+              <div style="font-size:0.7rem;color:var(--text3);margin-top:4px">레벨 1: 1,500 &nbsp;/&nbsp; 레벨 100: 11,400</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:6px">최대 MP (레벨 n)</div>
+              <div style="font-family:monospace;font-size:0.82rem;color:var(--cream)">360 + (n − 1) × 20</div>
+              <div style="font-size:0.7rem;color:var(--text3);margin-top:4px">레벨 1: 360 &nbsp;/&nbsp; 레벨 100: 2,340</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:6px">MP 자연 회복</div>
+              <div style="font-family:monospace;font-size:0.82rem;color:var(--cream)">15초마다 +3 MP</div>
+              <div style="font-size:0.7rem;color:var(--text3);margin-top:4px">RegenMpVary = 3, 전 레벨 동일</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:6px">최종 ATK</div>
+              <div style="font-family:monospace;font-size:0.78rem;color:var(--cream);line-height:1.8">(무기ATK + 반지1ATK + 반지2ATK)<br>× (1 + 공격력% / 100) + 추가공격력</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:6px">최종 DEF</div>
+              <div style="font-family:monospace;font-size:0.78rem;color:var(--cream);line-height:1.8">(투구 + 갑옷 + 장갑 + 신발 + 목걸이 + 귀걸이)<br>× (1 + 방어력% / 100) + 추가방어력</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><span>⚔</span><div class="card-head-title">데미지 공식</div><div class="card-head-sub">K=500 방어 계수</div></div>
+      <div class="card-body">
+        <div style="background:rgba(0,0,0,0.3);border:1px solid var(--border-bright);border-radius:6px;padding:16px 20px;margin-bottom:16px">
+          <div style="font-size:0.72rem;color:var(--gold);font-weight:700;margin-bottom:8px;letter-spacing:0.05em">데미지 기본식</div>
+          <div style="font-family:monospace;font-size:0.82rem;color:var(--cream);line-height:2">
+            ATK × [ 500 / (DEF + 500) ]<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;× (1 + 피해증가% / 100) × (1 − 피해감소% / 100)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;× (1 + 모드피해증가% / 100) × (1 − 모드피해감소% / 100)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;× (스킬계수 / 100) × 치명타배율
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px">
+          <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:8px">방어 계수 예시 [K=500]</div>
+            <table style="width:100%;font-size:0.75rem"><tbody>
+              <tr><td style="color:var(--text2)">DEF = 0</td><td class="td-num">500/500 = 1.00</td><td style="color:var(--green)">피해 100%</td></tr>
+              <tr><td style="color:var(--text2)">DEF = 500</td><td class="td-num">500/1000 = 0.50</td><td style="color:var(--gold)">피해 50%</td></tr>
+              <tr><td style="color:var(--text2)">DEF = 1000</td><td class="td-num">500/1500 = 0.33</td><td style="color:var(--red2)">피해 33%</td></tr>
+            </tbody></table>
+          </div>
+          <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:8px">치명타 배율 (치명타 가능 스킬)</div>
+            <div style="font-family:monospace;font-size:0.78rem;color:var(--cream);line-height:1.8">배율 = 1 + (확률/100) × (피해/100)<br>예) 확률 20%, 피해 50%<br>&nbsp;&nbsp;&nbsp;→ 1 + 0.20 × 0.50 = 1.10</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:8px">스킬 가속 적용 CD</div>
+            <div style="font-family:monospace;font-size:0.78rem;color:var(--cream);line-height:1.8">유효CD = 기본CD × 100 / (100 + 가속)<br>예) 기본CD 12s, 가속 25<br>&nbsp;&nbsp;&nbsp;→ 12 × 100/125 = 9.6s</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:5px;padding:12px 14px">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--gold);margin-bottom:8px">공격 속도</div>
+            <div style="font-family:monospace;font-size:0.78rem;color:var(--cream);line-height:1.8">실질 공속 = 0.91 × (1 + 공격속도%/100)<br>CAP: 300%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══ ARMOR ══ -->
+<section class="section" id="sec-armor">
+  <div class="sec-header">
+    <div class="sec-header-text">
+    <div class="sec-title">🛡 방어구 스킬 밸런스</div>
+    <div class="sec-desc">티어별 방어구 옵션 수치 — 15% 복리 성장 · K=500 효율</div>
+  </div>
+    <a class="download-btn" href="./X7_방어구_스킬.xlsx" download style="margin-left:auto">⬇ X7_방어구_스킬.xlsx</a>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" data-action="tab" data-s="arm" data-t="intent">📌 기획 의도</button>
+    <button class="tab-btn" data-action="tab" data-s="arm" data-t="1T">⚙ 1티어</button>
+    <button class="tab-btn" data-action="tab" data-s="arm" data-t="2T">💎 2티어</button>
+    <button class="tab-btn" data-action="tab" data-s="arm" data-t="3T">🔮 3티어</button>
+  </div>
+
+  <!-- ARMOR INTENT -->
+  <div id="arm-intent">
+    <div class="intent-grid">
+      <div class="intent-card">
+        <div class="intent-card-title">🎯 설계 목적</div>
+        <div class="bullet">스킬 레벨업의 유의미한 체감 — 모든 레벨에서 이전 대비 약 <strong style="color:var(--gold)">15% 성장</strong>, Lv.5 시 Lv.0 대비 2배 성능</div>
+        <div class="bullet">티어 간 위계 확립 — 하위 티어 Lv.5보다 상위 티어 Lv.0이 더 높도록 설계</div>
+        <div class="bullet">능력치 가치 평준화 — 각 옵션이 전투력에 기여하는 효율을 <strong style="color:var(--gold)">3~5%</strong>로 동일하게 맞춤</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">⚙ 성장 공식</div>
+        <div class="bullet">성장 계수 <strong style="color:var(--gold)">1.15ⁿ</strong> (15% 복리 성장 적용)</div>
+        <div class="bullet">라운딩 룰 — 0 또는 5 단위로 끝자리 보정, 직관적 수치 인지</div>
+        <div class="bullet">전투 조율 상수 <strong style="color:var(--gold)">K=500</strong> 기준으로 능력치 1pt당 기여도 분석</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">🏆 티어 스케일링</div>
+        <div class="bullet">1T (×1.0) — 기준. 기본 제작, 초반 성장의 핵심 도구</div>
+        <div class="bullet">2T (×1.6) — 1T Lv.5와 유사 수준에서 시작 → 파밍 동기 부여</div>
+        <div class="bullet">3T (×2.5) — 압도적 기본 성능 차이 → 지속적 던전 탐색 유도</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">📊 능력치 기여도 분석</div>
+        <table class="stat-intent-table">
+          <tr><th>능력치</th><th>기준 수치</th><th>기대 효율</th></tr>
+          <tr><td>공격력</td><td class="td-num">5</td><td style="color:var(--green)">데미지 +4.1%</td></tr>
+          <tr><td>방어력</td><td class="td-num">20</td><td style="color:var(--blue)">EHP +2.7%</td></tr>
+          <tr><td>최대 생명력</td><td class="td-num">75</td><td style="color:var(--blue)">생존력 +3.1%</td></tr>
+          <tr><td>피해/치명 [%]</td><td class="td-num">30</td><td style="color:var(--green)">실질 DPS +3.0%</td></tr>
+        </table>
+      </div>
+      <div class="intent-card intent-full">
+        <div class="intent-card-title">📋 티어별 주요 수치 (Lv.5 기준)</div>
+        <table class="stat-intent-table">
+          <tr><th>티어</th><th>방어력 Lv.0</th><th>방어력 Lv.5</th><th>최대 HP Lv.0</th><th>최대 HP Lv.5</th><th>특징</th></tr>
+          <tr><td>1T</td><td class="td-num">20</td><td class="td-num">40</td><td class="td-num">75</td><td class="td-num">150</td><td style="color:var(--text2);font-size:0.75rem">기본 제작, 진입 장벽 없음</td></tr>
+          <tr><td>2T</td><td class="td-num">32</td><td class="td-num" style="color:var(--gold2)">65</td><td class="td-num">120</td><td class="td-num" style="color:var(--gold2)">240</td><td style="color:var(--text2);font-size:0.75rem">전리품/코어/보스 드랍</td></tr>
+          <tr><td>3T</td><td class="td-num">50</td><td class="td-num" style="color:var(--red2)">100</td><td class="td-num">190</td><td class="td-num" style="color:var(--red2)">380</td><td style="color:var(--red2);font-size:0.75rem">1T Lv.5(40) < 3T Lv.0(50) 보장</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARMOR TIER GRIDS -->
+  <div id="arm-1T" style="display:none">
+    <div class="filter-bar">
+      <span class="filter-label">파츠:</span>
+      <button class="filter-btn active" data-action="filter-armor" data-type="slot" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="아머">🛡 아머</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="헬멧">⛑ 헬멧</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="장갑">🥊 장갑</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="신발">👟 신발</button>
+      <span class="filter-label" style="margin-left:6px">재질:</span>
+      <button class="filter-btn active" data-action="filter-armor" data-type="mat" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="판금">⚙ 판금</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="가죽">🟤 가죽</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="천">🟣 천</button>
+      <input class="search-box" type="text" placeholder="🔍 옵션 검색..." data-action="search-armor" style="margin-left:4px">
+    </div>
+    <div class="armor-grid" id="armor-grid-1T"></div>
+  </div>
+  <div id="arm-2T" style="display:none">
+    <div class="filter-bar">
+      <span class="filter-label">파츠:</span>
+      <button class="filter-btn active" data-action="filter-armor" data-type="slot" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="아머">🛡 아머</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="헬멧">⛑ 헬멧</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="장갑">🥊 장갑</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="신발">👟 신발</button>
+      <span class="filter-label" style="margin-left:6px">재질:</span>
+      <button class="filter-btn active" data-action="filter-armor" data-type="mat" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="판금">⚙ 판금</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="가죽">🟤 가죽</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="천">🟣 천</button>
+      <input class="search-box" type="text" placeholder="🔍 옵션 검색..." data-action="search-armor" style="margin-left:4px">
+    </div>
+    <div class="armor-grid" id="armor-grid-2T"></div>
+  </div>
+  <div id="arm-3T" style="display:none">
+    <div class="filter-bar">
+      <span class="filter-label">파츠:</span>
+      <button class="filter-btn active" data-action="filter-armor" data-type="slot" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="아머">🛡 아머</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="헬멧">⛑ 헬멧</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="장갑">🥊 장갑</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="slot" data-val="신발">👟 신발</button>
+      <span class="filter-label" style="margin-left:6px">재질:</span>
+      <button class="filter-btn active" data-action="filter-armor" data-type="mat" data-val="all">전체</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="판금">⚙ 판금</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="가죽">🟤 가죽</button>
+      <button class="filter-btn" data-action="filter-armor" data-type="mat" data-val="천">🟣 천</button>
+      <input class="search-box" type="text" placeholder="🔍 옵션 검색..." data-action="search-armor" style="margin-left:4px">
+    </div>
+    <div class="armor-grid" id="armor-grid-3T"></div>
+  </div>
+</section>
+
+<!-- ══ SKILL ══ -->
+<section class="section" id="sec-skill">
+  <div class="sec-header">
+    <div class="sec-header-text">
+    <div class="sec-title">🗡 무기 스킬 밸런스</div>
+    <div class="sec-desc">무기 종류별 스킬 설계 · 쿨타임 · 피해량 배율</div>
+  </div>
+    <a class="download-btn" href="./X7_무기_스킬.xlsx" download style="margin-left:auto">⬇ X7_무기_스킬.xlsx</a>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" data-action="tab" data-s="skl" data-t="intent">📌 기획 의도</button>
+    <button class="tab-btn" data-action="tab" data-s="skl" data-t="compare">📊 무기 비교</button>
+    <button class="tab-btn" data-action="tab" data-s="skl" data-t="1T">1티어</button>
+    <button class="tab-btn" data-action="tab" data-s="skl" data-t="2T">2티어</button>
+    <button class="tab-btn" data-action="tab" data-s="skl" data-t="3T">3티어</button>
+  </div>
+
+  <!-- SKILL INTENT -->
+  <div id="skl-intent">
+    <div class="intent-grid">
+      <div class="intent-card">
+        <div class="intent-card-title">🗡 한손검</div>
+        <div class="bullet">방어 + 반격 스타일 — 버프·CC로 생존하며 안전한 타이밍에 강타</div>
+        <div class="bullet">낮은 쿨다운 Q스킬 중심, 방패로 적을 제압 후 공격 기회 창출</div>
+        <div class="bullet">3티어 광휘 계열 — 성스러운 빛 속성으로 강화</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">⚔ 양손검</div>
+        <div class="bullet">파워 딜링 — 높은 계수 스킬로 짧은 시간에 대량 피해 집중</div>
+        <div class="bullet">R스킬 최고 배율 (625%) 보유, 버스트 타이밍에 모든 딜 집중</div>
+        <div class="bullet">3티어 전 레벨 데이터 확보 완료 — 레벨업 증가율 명확히 설계</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">🪄 지팡이</div>
+        <div class="bullet">마법 컨트롤 — DoT·다중히트·CC로 딜링과 견제를 동시에 수행</div>
+        <div class="bullet">DoT 장판 (6틱 합산) Q스킬이 1분 누적 최고 40배율</div>
+        <div class="bullet">2·3티어 CC기 보유 (부유) — 전장 컨트롤 독보적</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">🗡 단검</div>
+        <div class="bullet">속도 우선 — 낮은 쿨다운과 높은 타격 빈도로 지속 DPS 극대화</div>
+        <div class="bullet">R스킬 버프 → 평타가 범위 420%×5타 광역으로 전환</div>
+        <div class="bullet">치명타 확률/피해 대폭 강화 버프로 순식간에 처치</div>
+      </div>
+      <div class="intent-card">
+        <div class="intent-card-title">🏹 활</div>
+        <div class="bullet">원거리 저격·함정 — CC 연쇄(느려짐→기절)로 안전한 거리 유지 딜링</div>
+        <div class="bullet">1T R스킬 폭탄화살 500% (자체/폭발 피해 중 1개만 적용) — 단발 주력기</div>
+        <div class="bullet">2T 섬광화살 아군/적 양방향 · 재정비 도약으로 기동성 확보 · 3T 미구현</div>
+      </div>
+      <div class="intent-card intent-full">
+        <div class="intent-card-title">📊 3티어 Lv.1 — 커맨드별 1분 누적 피해 비교 (배율×)</div>
+        <table class="stat-intent-table">
+          <tr><th>커맨드</th><th style="color:#ff9050">한손검</th><th style="color:#ff5050">양손검</th><th style="color:#9060ff">지팡이</th><th style="color:#50d8ff">단검</th><th style="color:#80d840">활</th><th style="color:var(--gold)">최고</th></tr>
+          <tr><td>Q</td><td class="td-num">24×</td><td class="td-num">24×</td><td class="td-num" style="color:var(--gold2)">40×</td><td class="td-num">18×</td><td class="td-muted">—</td><td class="td-num" style="color:var(--gold2)">지팡이 40×</td></tr>
+          <tr><td>W</td><td class="td-num">0</td><td class="td-num">12.5×</td><td class="td-num" style="color:var(--gold2)">16×</td><td class="td-num">0</td><td class="td-muted">—</td><td class="td-num" style="color:var(--gold2)">지팡이 16×</td></tr>
+          <tr><td>E</td><td class="td-num">12×</td><td class="td-num">12×</td><td class="td-num">9×</td><td class="td-num">12×</td><td class="td-muted">—</td><td class="td-num" style="color:var(--gold2)">공동 12×</td></tr>
+          <tr><td>R</td><td class="td-num">6×</td><td class="td-num">6×</td><td class="td-num">0</td><td class="td-num">0</td><td class="td-muted">—</td><td class="td-num" style="color:var(--gold2)">공동 6×</td></tr>
+          <tr style="border-top:1px solid var(--border)"><td><strong>합계</strong></td><td class="td-num"><strong>42×</strong></td><td class="td-num"><strong>54.5×</strong></td><td class="td-num" style="color:var(--gold2)"><strong>65×</strong></td><td class="td-num"><strong>30×</strong></td><td class="td-muted" style="font-size:0.7rem">3T<br>미구현</td><td></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- DPS COMPARE -->
+  <div id="skl-compare" style="display:none">
+    <div class="dps-chart">
+      <div class="dps-chart-title">📊 3티어 Lv.1 — 커맨드별 1분 누적 피해 비교 (배율×)</div>
+      <div id="dps-chart-inner"></div>
+    </div>
+  </div>
+
+  <!-- TIER GRIDS -->
+  <div id="skl-1T" style="display:none">
+    <div class="weapon-grid" id="weapon-grid-1T"></div>
+  </div>
+  <div id="skl-2T" style="display:none">
+    <div class="weapon-grid" id="weapon-grid-2T"></div>
+  </div>
+  <div id="skl-3T" style="display:none">
+    <div class="weapon-grid" id="weapon-grid-3T"></div>
+  </div>
+</section>
+
+</main>
+<script src="./X7_dashboard.js"></script>
+</body>
+</html>

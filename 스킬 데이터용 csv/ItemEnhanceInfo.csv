@@ -1,0 +1,25 @@
+﻿OID,Cid,Milestone,Comment,ItemMainStat,EnhanceStatGroup,EnhanceResourceGroup,EnhanceProbabilityGroup
+10100,10100,Dev,1티어 무기,AttackVary,101,100,100
+10200,10200,Dev,2티어 무기,AttackVary,102,100,100
+10300,10300,Dev,3티어 무기,AttackVary,103,100,100
+10400,10400,Dev,4티어 무기,AttackVary,104,100,100
+10500,10500,Dev,5티어 무기,AttackVary,105,100,100
+10600,10600,Dev,6티어 무기,AttackVary,106,100,100
+10700,10700,Dev,7티어 무기,AttackVary,107,100,100
+20100,20100,Dev,1티어 방어구,PhysicalDefenseVary,201,200,200
+20200,20200,Dev,2티어 방어구,PhysicalDefenseVary,202,200,200
+20300,20300,Dev,3티어 방어구,PhysicalDefenseVary,203,200,200
+20400,20400,Dev,4티어 방어구,PhysicalDefenseVary,204,200,200
+20500,20500,Dev,5티어 방어구,PhysicalDefenseVary,205,200,200
+20600,20600,Dev,6티어 방어구,PhysicalDefenseVary,206,200,200
+20700,20700,Dev,7티어 방어구,PhysicalDefenseVary,207,200,200
+30300,30300,Dev,3티어 장신구(공격력),PhysicalDefenseVary,303,200,300
+30400,30400,Dev,4티어 장신구(공격력),PhysicalDefenseVary,304,200,300
+30500,30500,Dev,5티어 장신구(공격력),PhysicalDefenseVary,305,200,300
+30600,30600,Dev,6티어 장신구(공격력),PhysicalDefenseVary,306,200,300
+30700,30700,Dev,7티어 장신구(공격력),PhysicalDefenseVary,307,200,300
+40300,40300,Dev,3티어 장신구(방어력),PhysicalDefenseVary,403,200,300
+40400,40400,Dev,4티어 장신구(방어력),PhysicalDefenseVary,404,200,300
+40500,40500,Dev,5티어 장신구(방어력),PhysicalDefenseVary,405,200,300
+40600,40600,Dev,6티어 장신구(방어력),PhysicalDefenseVary,406,200,300
+40700,40700,Dev,7티어 장신구(방어력),PhysicalDefenseVary,407,200,300

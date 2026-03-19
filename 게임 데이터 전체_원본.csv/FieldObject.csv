@@ -1,0 +1,7 @@
+OID,Cid,Comment,AssetType,LifeTime,ActivationDelay,Range,OnEnterApplySelection,OnSpawnSkillCid,OnEnterSkillCid,DestroyRule
+1,1,"3m 원형 범위 회복 구슬 (30초 유지, 접근시 소멸)",1,30000,1000,[300],[Character],0,20310002,OnTrigger
+2,2,생성 후 5초 지속 축복 영역,2,5000,0,,,20310003,0,OnLifetime
+1003,1003,"4초간 주위를 회복시키는 구슬",1003,4000,0,,,20450001,0,OnLifetime
+3,3,3초간 영역 내 대상을 창꽂힘 하는 오브젝트,3,10000,1000,[150],[Character],0,20310004,OnTrigger
+1005,1005,화염 암석 낙하,1005,30000,0,[500],"[Character,Monster]",0,20450001,OnTrigger
+1006,1006,화염 지대 생성,1006,4000,0,,,20450001,0,OnLifetime

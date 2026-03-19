@@ -1,0 +1,26 @@
+﻿OID,Cid,Comment,CrowdControl,CantThings,CrowdControlTriggers
+1,1,기절,Stun,"[Move,Rotate,Skill,KeepChanneling,ConsumeItem,Teleport,DungeonPortal,Equip,Interact]","[StopMove,StopReservedSkill,StopInteract,StopMount]"
+2,2,무적,Iron,"[Skill,ApplyHostileSkill,ApplyHostileStatusChange,ConsumeItem,Teleport,DungeonPortal,Equip,Interact]","[StopReservedSkill,StopInteract,StopMount]"
+3,3,속박,Trap,"[Move,SelfLeapSkill]",[StopMove]
+4,4,어둠,Imprison,[Teleport],
+6,6,침묵,ActiveSkillDisable,"[ActiveSkill,KeepChanneling]",
+7,7,빙결,Freeze,"[Move,Rotate,Skill,ApplyHostileSkill,KeepChanneling,ConsumeItem,Teleport,DungeonPortal,Equip,Interact,Mount,Carry]","[StopMove,StopReservedSkill,StopInteract,StopMount]"
+8,8,타겟팅 무시,Untargetable,,
+9,9,PVP 불가,CantPVP,,
+10,10,PVE 불가,CantPVE,,
+13,13,탑승 불가,NotAllowMount,[Mount],[StopMount]
+14,14,성문,CastleGate,,
+16,16,소환,Spawn,"[Move,Rotate,ApplyHostileSkill,ApplyHostileStatusChange]",[StopMove]
+18,18,SparringStage,SparringStage,,
+19,19,피해 면역,Immunity,"[ApplyHostileSkill,ApplyHostileStatusChange]",
+20,20,은신,Hide,"[ApplyChanneling,KeepChanneling,Equip,Interact,Carry]","[StopInteract,StopReservedNormal,StopReservedSkill]"
+21,21,지속 은신,KeepHiding,,
+22,22,저지 불가,Unstoppable,[Skill],[StopReservedSkill]
+23,23,석화,Stone,"[Move,Rotate,Skill,ApplyHostileSkill,KeepChanneling,ConsumeItem,Teleport,DungeonPortal,Equip,Interact,Mount,Carry]","[StopMove,StopReservedSkill,StopInteract,StopMount]"
+24,24,부유,Floating,"[Move,Rotate,Skill,KeepChanneling,ConsumeItem,Teleport,DungeonPortal,Equip,Interact,Mount,Carry]","[StopMove,StopReservedSkill,StopInteract,StopMount]"
+25,25,수면,Sleep,"[Move,Rotate,Skill,KeepChanneling,ConsumeItem,Teleport,DungeonPortal,Equip,Interact,Mount,Carry]","[StopMove,StopReservedSkill,StopInteract,StopMount]"
+26,26,부쉬 은신,BushHide,,
+27,27,넘어짐,Knockdown,"[Move,Rotate,Skill,KeepChanneling,ConsumeItem,Teleport,DungeonPortal,Equip,Interact,Mount,Carry]","[StopMove,StopReservedSkill,StopInteract,StopMount]"
+28,28,이동 제한,Root,"[Move,SelfLeapSkill,Teleport]",
+29,29,외형 변경,Polymorph,[KeepChanneling],
+30,30,평화(전투 불가),Peace,"[SkillExceptItem,ApplyHostileSkill,ApplyHostileStatusChange,KeepChanneling,SelfLeapSkill]",[SetInPeace]

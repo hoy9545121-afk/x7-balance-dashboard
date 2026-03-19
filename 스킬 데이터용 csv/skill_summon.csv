@@ -1,0 +1,38 @@
+root_id,root_type,root_name,nodeId,comment,monster_cid,offset_distance,offset_angle,life_time,look_at,dead_mode,return_mode,follow_mode,target_ownership
+29790001,skill_root,안드리온에 몬스터 소환,297900010020006,,10801105,600,45,300000,Inside,Despawn,Despawn,None,true
+29790001,skill_root,안드리온에 몬스터 소환,297900010020007,,10801105,600,90,300000,Inside,Despawn,Despawn,None,true
+29790001,skill_root,안드리온에 몬스터 소환,297900010020008,,10801105,600,135,300000,Inside,Despawn,Despawn,None,true
+29790001,skill_root,안드리온에 몬스터 소환,297900010020009,,10801105,600,-45,300000,Inside,Despawn,Despawn,None,true
+29790001,skill_root,안드리온에 몬스터 소환,297900010020010,,10801105,600,-90,300000,Inside,Despawn,Despawn,None,true
+29790001,skill_root,안드리온에 몬스터 소환,297900010020011,,10801105,600,-135,300000,Inside,Despawn,Despawn,None,true
+29790001,skill_effect_root,안드리온이 몬스터를 소환,297900010030003,,10801105,600,45,300000,Inside,Despawn,Despawn,None,false
+29790001,skill_effect_root,안드리온이 몬스터를 소환,297900010030004,,10801105,600,90,300000,Inside,Despawn,Despawn,None,false
+29790001,skill_effect_root,안드리온이 몬스터를 소환,297900010030005,,10801105,600,135,300000,Inside,Despawn,Despawn,None,false
+29790001,skill_effect_root,안드리온이 몬스터를 소환,297900010030006,,10801105,600,-45,300000,Inside,Despawn,Despawn,None,false
+29790001,skill_effect_root,안드리온이 몬스터를 소환,297900010030007,,10801105,600,-90,300000,Inside,Despawn,Despawn,None,false
+29790001,skill_effect_root,안드리온이 몬스터를 소환,297900010030008,,10801105,600,-135,300000,Inside,Despawn,Despawn,None,false
+29790002,skill_root,안드리온에 호위부대 소환 SC적용,297900020020006,메다드,95003110,400,45,300000,Outside,Dead,Follow,Follow,true
+29790002,skill_root,안드리온에 호위부대 소환 SC적용,297900020020007,호위병,95003109,400,90,300000,Outside,Dead,Follow,Follow,true
+29790002,skill_root,안드리온에 호위부대 소환 SC적용,297900020020008,호위병,95003109,400,135,300000,Outside,Dead,Follow,Follow,true
+29790002,skill_root,안드리온에 호위부대 소환 SC적용,297900020020009,호위병,95003109,400,-45,300000,Outside,Dead,Follow,Follow,true
+29790002,skill_root,안드리온에 호위부대 소환 SC적용,297900020020010,호위병,95003109,400,-90,300000,Outside,Dead,Follow,Follow,true
+29790002,skill_root,안드리온에 호위부대 소환 SC적용,297900020020011,호위병,95003109,400,-135,300000,Outside,Dead,Follow,Follow,true
+29790002,skill_effect_root,안드리온이 호위부대를 소환,297900020030003,메다드,95003110,400,45,300000,Outside,Dead,Follow,Follow,false
+29790002,skill_effect_root,안드리온이 호위부대를 소환,297900020030004,호위병,95003109,400,90,300000,Outside,Dead,Follow,Follow,false
+29790002,skill_effect_root,안드리온이 호위부대를 소환,297900020030005,호위병,95003109,400,135,300000,Outside,Dead,Follow,Follow,false
+29790002,skill_effect_root,안드리온이 호위부대를 소환,297900020030006,호위병,95003109,400,-45,300000,Outside,Dead,Follow,Follow,false
+29790002,skill_effect_root,안드리온이 호위부대를 소환,297900020030007,호위병,95003109,400,-90,300000,Outside,Dead,Follow,Follow,false
+29790002,skill_effect_root,안드리온이 호위부대를 소환,297900020030008,호위병,95003109,400,-135,300000,Outside,Dead,Follow,Follow,false
+29910001,skill_root,몬스터_놀 대장_기술4_하울링+부하 소환,299100010020006,좌측,10201104,300,-90,300000,Inside,Dead,Despawn,Follow,false
+29910001,skill_root,몬스터_놀 대장_기술4_하울링+부하 소환,299100010020007,후방,10201104,300,180,300000,Inside,Dead,Despawn,Follow,false
+29910001,skill_root,몬스터_놀 대장_기술4_하울링+부하 소환,299100010020008,우측,10201104,300,90,300000,Inside,Dead,Despawn,Follow,false
+30610001,skill_root,몬스터 부활한 피 묻은 손 간부_회복+소환,306100010020007,,10802105,500,60,180000,Target,Dead,Despawn,Follow,false
+30610001,skill_root,몬스터 부활한 피 묻은 손 간부_회복+소환,306100010020008,,10802105,500,120,180000,Target,Dead,Despawn,Follow,false
+30610001,skill_root,몬스터 부활한 피 묻은 손 간부_회복+소환,306100010020009,,10802105,500,180,180000,Target,Dead,Despawn,Follow,false
+30610001,skill_root,몬스터 부활한 피 묻은 손 간부_회복+소환,306100010020010,,10802105,500,240,180000,Target,Dead,Despawn,Follow,false
+30610001,skill_root,몬스터 부활한 피 묻은 손 간부_회복+소환,306100010020011,,10802105,500,300,180000,Target,Dead,Despawn,Follow,false
+30710001,skill_root,몬스터_영혼을 거두는 모르가리스 소환 강림,307100010020006,,90003701,1200,30,300000,Inside,Dead,Despawn,None,false
+30710001,skill_root,몬스터_영혼을 거두는 모르가리스 소환 강림,307100010020007,,90003701,1200,-30,300000,Inside,Dead,Despawn,None,false
+39990001,skill_root,몬스터_놀 대장_기술4_소환,399900010020006,사라지는 놀 지원병,10201104,400,0,60000,Random,Despawn,Despawn,Follow,false
+39990001,skill_root,몬스터_놀 대장_기술4_소환,399900010020007,죽는 놀 지원병,10201104,400,270,60000,Outside,Dead,Dead,Follow,false
+39990001,skill_root,몬스터_놀 대장_기술4_소환,399900010020008,놀 지원병,10201104,400,90,60000,Inside,None,Follow,Follow,false

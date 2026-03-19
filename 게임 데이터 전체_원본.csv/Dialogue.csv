@@ -1,0 +1,362 @@
+﻿OID,Cid,Comment,CameraPreset,LightPreset,DisplayType,SpeakerName,SpeakerTarget,SpeakerTargetCid,NpcPortraitAssetCid,AnimAssetCid,SpeakerLookAtTarget,SpeakerLookAtTargetCid,ListenerLookAt,AllowListenerPlayer,Bubble
+0,0,0,,,Monologue,,None,,,,None,,FALSE,FALSE,
+1000040,1000040,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,불길이 이제야 잡혔나 본데?
+1000041,1000041,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,"한밤중 습격이라니, 대체 무슨 날벼락이래?"
+1000042,1000042,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,페레단 왕이 죽었다는 소문은?
+1000043,1000043,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,...사실이래. 성 안에 있던 사람이 비명소리를 들었대.
+1000044,1000044,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,사라진 막내 공주님도 아직 못 찾았대.
+1000045,1000045,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,"납치됐는지, 죽었는지..."
+1000046,1000046,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,저기는 한동안 난리겠어. 그때 수도를 빠져나와 다행이지...
+1000047,1000047,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,그래도 이니스 섬은 외진 곳이니 안전하겠지?
+1000048,1000048,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,"저기 봐, 이니스 섬이네."
+1000049,1000049,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,달그늘 쉼터에 가면 밥부터 먹자고.
+1000050,1000050,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,거기 해산물 스튜는 갓 잡은 해산물로 끓인다는데?
+1000051,1000051,이니스 섬 도피 컷신,,,DialogueBox,,None,,,,None,,FALSE,FALSE,벌써 군침이 도네. 빨리 가자.
+1000052,1000052,불타는 달그늘 쉼터,,,DialogueBox,,None,,,,None,,FALSE,FALSE,"흐음, 네놈이로군. 그분이 말한 인간이..."
+1000053,1000053,불타는 달그늘 쉼터,,,DialogueBox,,None,,,,None,,FALSE,FALSE,"이 힘으로 너를 쓰러트리고,"
+1000054,1000054,불타는 달그늘 쉼터,,,DialogueBox,,None,,,,None,,FALSE,FALSE,피 묻은 손 전체에 영광을 바치리라!
+1000055,1000055,불타는 달그늘 쉼터,,,DialogueBox,,None,,,,None,,FALSE,FALSE,피 묻은 손이다! 애들부터 지켜!
+1000056,1000056,불타는 달그늘 쉼터,,,DialogueBox,,None,,,,None,,FALSE,FALSE,엄마 손 잡아! 저들에게 잡히면... 끝이야!
+1000000,1000000,"100001,progress",,,QuestBubble,메다드,Npc,100001,,1100,Player,,FALSE,FALSE,"개척자, 오랜만이네. 이렇게 다시 만나는군!"
+1000001,1000001,"100001,progress",,,QuestBubble,메다드,Npc,100001,,1002,Player,,FALSE,FALSE,그렇게 멀찍이 서서 뭐 하는 건가? 설마 나랑 얘기하기 싫은 건 아니지?
+1000002,1000002,"100003,progress",,,QuestBubble,메다드,Npc,100001,,1001,Player,,FALSE,FALSE,해변에서 거북이 알을 채집해오게.
+1000003,1000003,"100003,progress",,,QuestBubble,메다드,Npc,100001,,1003,Player,,FALSE,FALSE,저기 동그랗게 솟은 모래가 보이나? 저 아래 바다거북이의 알이 숨겨져 있다네.
+1000004,1000004,"100004,progress",,,QuestBubble,메다드,Npc,100001,,1002,Player,,FALSE,FALSE,이번엔 바위 게의 집게를 모아오도록.
+1000005,1000005,"100004,progress",,,QuestBubble,메다드,Npc,100001,,1001,Player,,FALSE,FALSE,바위 게 말인가? 해변에 널려 있지 않나!
+1000006,1000006,"100005,progress",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1102,Player,,FALSE,FALSE,"좋아, 재료는 충분해 보이네. 이제 <B>모닥불</>에 불을 붙여보게."
+1000007,1000007,"100006,progress",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,FALSE,FALSE,이제 여기 설치해 둔 요리 솥에서 직접 스튜를 끓여보게.
+1000008,1000008,"100007,progress",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,FALSE,FALSE,멍하니 서 있지 말고 남은 스튜도 챙기게. 기껏 만든 스튜가 다 식겠어.
+1000009,1000009,"100008,progress",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1102,Player,,FALSE,FALSE,"오, 요리 솜씨가 제법인데? <B>스튜</>가 식기 전에 어서 먹게."
+1000010,1000010,"100008,progress",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1103,Player,,FALSE,FALSE,이니스 섬 재료로 만든 음식은 효능도 좋아서 피로가 금세 풀릴 걸세.
+1000011,1000011,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,<B>개척자</>가 왔군. 기다리고 있었어.
+1000012,1000012,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,안쪽으로 이동하며 얘기하도록 하지. 따라오게.
+1000013,1000013,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,<B>이니스 섬</>까지의 여정이... 제법 험난했던 모양이야.
+1000014,1000014,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,자네 얼굴을 보니... 우리가 함께 불탄 성 정벌에 나갔을 때가 떠오르는군.
+1000015,1000015,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,TRUE,TRUE,한밤중에... 육지에서 아주 큰 사건이 있었다지...
+1000016,1000016,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,TRUE,TRUE,수고 많았네. 여왕님께서도 자네의 노고를 누구보다 잘 알고 계셔.
+1000017,1000017,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,TRUE,TRUE,자네가 섬에 잘 정착할 수 있도록 대신관께 직접 전언을 보내셨네.
+1000018,1000018,"100001,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,TRUE,TRUE,하지만 미안하게도... 자네의 고생은 아직 끝이 아니네.
+1000019,1000019,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,FALSE,FALSE,"<B>이니스 섬</>에 정착하기로 한 이상, 기본적인 건 <B>자급자족</> 할 줄 알아야 하지."
+1000020,1000020,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,FALSE,FALSE,하하! 너무 긴장할 필요는 없어. 내가 옆에서 다 알려줄 테니까.
+1000021,1000021,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,FALSE,FALSE,"그보다 자네, 배고프지 않나? 우선 배부터 채우도록 하지."
+1000022,1000022,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,Player,,FALSE,FALSE,먹을 게 어디 있냐고? 자네 정말 아무것도 안 보이나?
+1000023,1000023,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,FALSE,FALSE,"저기, 모래 위에 볼록하게 솟아 있는 것이 보이지? 바다거북이 알을 낳고 모래로 덮어둔 자리야."
+1000024,1000024,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,FALSE,FALSE,"거북알은 영양도 좋고, 요리하기 좋은 재료라네. 그냥 불에 구우면 되거든."
+1000025,1000025,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,FALSE,FALSE,거북이한테야 좀 미안하지만... 지금 굶주린 자네한테는 최고 아닌가? 가서 거북알을 몇 개 챙겨오게.
+1000026,1000026,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,FALSE,FALSE,"아, 그리고 해변에 사는 <B>바위 게</>의 집게도 구워 먹으면 꽤 괜찮은 별미라네."
+1000027,1000027,"100002,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,FALSE,FALSE,일단 요리할 재료부터 모아오게. 나는 여기서 기다리고 있지.
+1000028,1000028,"100008,end",,,Monologue,메다드,Npc,100001,,1003,None,,FALSE,FALSE,이제 배도 채웠겠다... 슬슬 움직여볼까?
+1000029,1000029,"100008,end",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,"먼저, 자네가 섬에 정식으로 정착할 수 있도록 <B>관리실</>에서 <B>허가증</>을 받아야 하네."
+1001000,1001000,"100105,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,우선 달구지 수리에 쓸 통나무부터 찾아보는 게 좋겠어.
+1001001,1001001,"100106,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,"개척자, 자네가 가져온 통나무를 달구지 수리에 직접 써보게."
+1001002,1001002,"100106,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,"좋아, 이제 재료는 충분하니 수리하는 데 어려움은 없을 거야."
+1001003,1001003,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,말하자면... 섬에 허가증 없이는 살 수 없단 소리지! 잘못하면 다시 돌아가야 할 수도 있어.
+1001004,1001004,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,"...하하, 농담일세! 자네를 잘 부탁한다며 여왕님이 직접 전언까지 하셨는데, 그걸 무시할 수는 없지!"
+1001005,1001005,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,이미 대신관님께서 자네 입도 허가증을 관리실로 전달해달라 요청하셨다는군.
+1001006,1001006,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,아마 대신관님 직속 부하인 신관이 부랴부랴 허가증을 가지고 왔을 거야.
+1001007,1001007,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,"개척자, 이니스 섬에 온 소감은 어떤가?"
+1001008,1001008,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,여긴 누이 여신을 따르는 신도들이 사는 조용한 섬이지.
+1001009,1001009,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,섬에 외부인이 찾아올 일은 거의 없지만... 가끔 자네처럼 손님이 오는 날이 있긴 해.
+1001010,1001010,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,특히 여러 왕국에서 고위 사절단이 방문하는 제례 기간 동안은 섬에 활력이 넘치지.
+1001011,1001011,"100101,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,지금은 섬의 환경이 낯설겠지만... 자네라면 금방 적응할 걸세.
+1001012,1001012,"100101,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1200,None,,TRUE,TRUE,아무도 없다니 이상하군. 아직 신관이 도착을 안 한 건가?
+1001013,1001013,"100101,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,TRUE,TRUE,...흠. 누군가 왔다면 <B>섬 관리인</>이 기억하고 있겠지.
+1001014,1001014,"100101,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,2003,None,,TRUE,TRUE,"라운! 라운, 거기 있는가?"
+1001015,1001015,"100102,sequence",,,QuestBubbleToQuestBox,섬 관리인 라운,Npc,100002,2,1100,Npc,100001,TRUE,TRUE,메다드 씨 아니십니까! 관리실에는 무슨 일로 오셨는지요?
+1001016,1001016,"100102,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100002,TRUE,TRUE,오늘부터 이니스 섬에서 살게 될 내 오래된 지인이네.
+1001017,1001017,"100102,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Npc,100002,TRUE,TRUE,대신관님 직속 신관이 친구의 입도 허가증을 가져오기로 했는데... 혹시 전달받은 게 있나?
+1001018,1001018,"100102,sequence",,,QuestBubbleToQuestBox,섬 관리인 라운,Npc,100002,2,1200,Npc,100001,TRUE,TRUE,"아니요. 오늘 누가 관리실을 방문하거나, 따로 배송 온 것은 없는데요."
+1001019,1001019,"100102,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100002,TRUE,TRUE,사람을 이대로 세워두는 것도 예의가 아닌데....
+1001020,1001020,"100102,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Npc,100002,TRUE,TRUE,"이 손님이 대신관님이 보증하는 인물이라 해도, 그냥 지나갈 수는 없겠지?"
+1001021,1001021,"100102,sequence",,,QuestBubbleToQuestBox,섬 관리인 라운,Npc,100002,2,1001,Npc,100001,TRUE,TRUE,잘 아시지 않습니까? 허가증 없이 섬에 들어갈 수는 없습니다.
+1001022,1001022,"100102,sequence",,,QuestBubbleToQuestBox,섬 관리인 라운,Npc,100002,2,1002,Npc,100001,TRUE,TRUE,이분이 대신관님이 보증하신 분이라면... 허가증을 가진 신관님이 반드시 오시겠죠.
+1001023,1001023,"100102,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100002,TRUE,TRUE,관리인 말도 일리가 있군.
+1001024,1001024,"100102,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,Player,,TRUE,TRUE,"미안하네, 개척자. 조금만 더 기다려보는 게 좋겠어."
+1001025,1001025,"100103,sequence",,,Monologue,메다드,Npc,100001,,,None,,TRUE,TRUE,흐음...
+1001026,1001026,"100103,sequence",,,Monologue,메다드,Npc,100001,,1200,None,,TRUE,TRUE,신관이 코빼기도 안 보이는군.
+1001027,1001027,"100103,sequence",,,Monologue,메다드,Npc,100001,,,None,,TRUE,TRUE,어디서 길이라도 잃은 건가?
+1001028,1001028,"100103,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1200,None,,TRUE,TRUE,어디서 위험한 일이라도 겪는 건 아닐지...
+1001029,1001029,"100103,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,TRUE,TRUE,"이렇게 막연히 기다릴 게 아니라, 우리가 나서서 찾아보는 게 좋겠어."
+1001030,1001030,"100103,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,Npc,100002,TRUE,TRUE,"관리인, 이동할 때 쓸 <B>달구지</> 하나 빌릴 수 있을까?"
+1001031,1001031,"100103,sequence",,,QuestBubbleToQuestBox,섬 관리인 라운,Npc,100002,2,1003,Npc,100001,TRUE,TRUE,있긴 한데... 망가져서 당장은 못 씁니다. 쓰시려면 직접 <B>수리</>하셔야 할 겁니다.
+1001032,1001032,"100103,sequence",,,QuestBubbleToQuestBox,섬 관리인 라운,Npc,100002,2,1002,Npc,100001,TRUE,TRUE,안 그래도 처분하려고 앞에 꺼내놨으니 확인해보십쇼.
+1001033,1001033,"100103,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1105,None,,TRUE,TRUE,"...하아, 별 수 없군. 이 궂은 날씨에 맨몸으로 산을 오를 수도 없는 노릇이니...."
+1001034,1001034,"100103,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,TRUE,TRUE,직접 수리 도구를 구해서 달구지를 수리해야겠어.
+1001035,1001035,"100103,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,FALSE,FALSE,"개척자, 미안하지만 수리 도구를 구해와 줄 수 있겠나?"
+1001036,1001036,"100103,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,FALSE,FALSE,저기 뒤에 놓인 목재를 활용하면 금방 수리할 수 있을 거라네.
+1001037,1001037,"100106,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1103,Player,,FALSE,FALSE,"말끔해졌군! 달구지는 잠시 뒤에 쓰고, 지금은 혹시 모를 전투에 대비해두자고."
+1001038,1001038,"100106,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,FALSE,FALSE,자네도 전투에 쓸 <B>장비</> 정도는 제작할 줄 알아야지!
+1002000,1002000,"100202,progress",,,QuestBubble,메다드,Npc,100001,,1002,Player,,FALSE,FALSE,간단한 무기라면 <B>구리 광석</>과 <B>통나무</>를 가공해 만들 수 있어.
+1002001,1002001,"100202,progress",,,QuestBubble,메다드,Npc,100001,,1001,Player,,FALSE,FALSE,채집물당 총 3번까지 채집할 수 있네.
+1002002,1002002,"100203,progress",,,QuestBubble,메다드,Npc,100001,,1003,Player,,FALSE,FALSE,수집한 재료는 간이 가공대에서 <B>가공</>할 수 있지.
+1002003,1002003,"100203,progress",,,QuestBubble,메다드,Npc,100001,,1002,Player,,FALSE,FALSE,옆에 배치된 <B>가공대</>에서 재료를 가공해보게.
+1002004,1002004,"100204,progress",,,QuestBubble,메다드,Npc,100001,,1003,Player,,FALSE,FALSE,이제 가공한 재료를 가지고 장비를 만들 수 있네. 근처에 <B>무기</>와 <B>방어구 제작대</>가 보이지?
+1002005,1002005,"100204,progress",,,QuestBubble,메다드,Npc,100001,,1001,Player,,FALSE,FALSE,원하는 장비를 골라 제작하게. 장비의 기술을 참고하면 선택에 도움이 될 걸세.
+1002006,1002006,"100207,progress",,,QuestBubble,메다드,Npc,100001,,1100,Player,,FALSE,FALSE,이봐! 어서 달구지에 올라타!
+1002007,1002007,"100207,progress",,,Monologue,메다드,Npc,100001,,1001,Player,,FALSE,FALSE,날이 더 흐려지기 전에 달그늘 쉼터에 도착했으면 좋겠군...
+1002008,1002008,"100201,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,FALSE,FALSE,이니스 섬에서는 자급자족이 기본이네. 당연히 장비도 직접 <B>제작</>해야 하지!
+1002009,1002009,"100201,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,FALSE,FALSE,"간단해. 주변에서 <B>광석</>과 <B>통나무</>를 채집할 수 있으니, 그걸 <B>가공해</> 자네가 쓸 <B>장비를 제작하면 돼.</>"
+1002010,1002010,"100201,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,FALSE,FALSE,차근차근 하면 어려울 것 없네. 우선 <B>무기 재료</>를 캐는 것부터 시작하게.
+1002011,1002011,"100204,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Player,,FALSE,FALSE,재료가 모였다면 <B>무기 제작대</>와 <B>방어구 제작대</>에서 제작을 진행해보게.
+1002012,1002012,"100204,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,FALSE,FALSE,"어떤 장비를 착용하느냐에 따라 사용할 수 있는 <B>기술</>이 달라지니, 자네에게 맞는 걸로 골라."
+1002013,1002013,"100204,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1102,Player,,FALSE,FALSE,좋아. 이제 장비 제작이 모두 끝났군.  준비가 끝나면 <B>달구지</>에 올라타도록 해.
+1002014,1002014,"100207,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,왜 자네를 서둘러 무장시켰는지 궁금하겠지. 혹시 누이 여신과 지역 생명체의 동조 현상에 대해 들어본 적이 있나?
+1002015,1002015,"100207,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,"여신의 기운이 예민해지고 그분의 마음이 흔들리면, 그 영향이 섬의 동물과 몬스터들에게까지 번질 때가 있다네."
+1002016,1002016,"100207,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,"저승을 찾는 영혼이 갑자기 늘면 누이 여신이 슬픔에 잠겨, 그 불안과 우울이 생명들에게 그대로 전이되는 거지."
+1002017,1002017,"100207,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,원래라면 온순한 녀석들까지도 예측할 수 없게 변해. 그러니 자네도 섬에서 몬스터를 만나면 각별히 조심하게.
+1002018,1002018,"100207,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,원래 이런 곳이 아닌데... 불안한 기운이 감도는군.
+1002019,1002019,"100207,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,음? 저기 뭔가 있는 것 같은데...?
+1002020,1002020,"100207,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,누군가 <B>놀 무리</>의 습격을 받은 거 같아. 빨리 도와주는 게 좋겠어!
+1003000,1003000,"100301,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,우선 쓰러진 사람부터 확인하지. 크게 다치지 않았어야 할 텐데!
+1003001,1003001,"100302,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,놀 무리로군! 어서 처치하게!
+1003002,1003002,"100303,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,차림을 보아하니 누이 신전의 신관이로군. 괜찮은지 상태부터 살펴보자.
+1003003,1003003,"100305,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,일단 신관님의 짐을 놀들이 가지고 간 건 아닌지 확인해보지.
+1003004,1003004,"100306,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,놀들이 갖고 가진 않았군. 혹시 근처 풀숲에 떨어진건가?
+1003005,1003005,"100307,progress",,,QuestBubble,메다드,Npc,100001,,,None,,FALSE,FALSE,"...그 짐, 신관님이 잃어버린 그것이 맞는 것 같네! 어서 가져다 드리게."
+1003006,1003006,"100301,start",,,Bubble,메다드,Npc,100001,,1003,Npc,100003,TRUE,FALSE,"신관님, ...세리안 님! 괜찮으십니까?"
+1003007,1003007,"100301,start",,,Monologue,신관 세리안,Npc,100003,,,Npc,100001,TRUE,FALSE,으으....
+1003008,1003008,"100301,start",,,Bubble,신관 세리안,Npc,100003,,2201,Npc,100001,TRUE,FALSE,"아, 메다드 님이시군요... 도와주셔서 정말 감사합니다."
+1003009,1003009,"100301,start",,,Bubble,메다드,Npc,100001,,1107,Npc,100003,TRUE,FALSE,"아니, 어쩌다 이런 위험한 상황에 처하신 겁니까?"
+1003010,1003010,"100301,start",,,Bubble,신관 세리안,Npc,100003,,2201,Npc,100001,TRUE,FALSE,누이 여신님께서... 많이 노하신 모양입니다. 여기까지 오는 길도 여느 때와 달리 쉽지 않았습니다.
+1003011,1003011,"100301,start",,,Bubble,메다드,Npc,100001,,1003,Npc,100003,TRUE,FALSE,...역시 여신님의 영향이었군요. 육지에서 피바람이 불고 있다는 소식이 돌던데... 그 여파가 이곳까지 미친 모양이군요.
+1003012,1003012,"100303,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,...두 분이 안 계셨다면 정말 죽었을지도 모르겠습니다. 도와주셔서 감사합니다.
+1003013,1003013,"100303,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,그런데... 혹시 제 <B>짐</>을 보지 못하셨습니까? <B>대신관님께서 맡기신 중요한 서류</>가 들어 있는 짐입니다.
+1003014,1003014,"100303,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,아마 저를 습격한 놀 무리 중 하나가 가져간 것 같습니다.
+1003015,1003015,"100303,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100003,TRUE,TRUE,걱정 마십시오. 짐은 저희가 찾아드리죠.
+1003016,1003016,"100303,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,"...네, 감사합니다. 짐은 아래쪽에서 잃어버린 것 같으니, 그쪽을 살펴봐 주시면 되겠습니다."
+1003017,1003017,"100304,start",,,Bubble,메다드,Npc,100001,,,None,,FALSE,FALSE,다치셨으니 서두르지 마시고 천천히 움직이십시오. 제가 앞장서겠습니다.
+1003018,1003018,"100304,start",,,Bubble,신관 세리안,Npc,100003,,,None,,FALSE,FALSE,신성력이 있어서 회복은 금방 될 겁니다.
+1003019,1003019,"100304,start",,,Bubble,신관 세리안,Npc,100003,,,None,,FALSE,FALSE,제 짐인 걸요. 저도 함께 찾아봐야지요.
+1003020,1003020,"100304,start",,,Bubble,신관 세리안,Npc,100003,,,None,,FALSE,FALSE,그나저나... 저 분이 메다드님께서 말씀하신 그 오랜 친우분입니까?
+1003021,1003021,"100304,start",,,Bubble,메다드,Npc,100001,,,None,,FALSE,FALSE,개척자입니다. 예전에 페레단 국왕 폐하와 함께 전장을 누볐던 용맹한 자이지요.
+1003022,1003022,"100304,start",,,Bubble,신관 세리안,Npc,100003,,,None,,FALSE,FALSE,정말 훌륭하신 분이군요. 그런 분이 어쩌다 이런 곳까지....
+1003023,1003023,"100304,start",,,Bubble,메다드,Npc,100001,,,None,,FALSE,FALSE,"치열하게 살아온 만큼, 이제는 누이 여신의 품에서 휴식할 때가 된 것이지요."
+1003024,1003024,"100304,start",,,Bubble,신관 세리안,Npc,100003,,,None,,FALSE,FALSE,맞습니다. 마음의 안정을 되찾는 데엔 이만한 곳이 없죠. 저도 많이 돕겠습니다. 이니스 섬에 온 것을 환영합니다
+1003025,1003025,"100304,start",,,Bubble,메다드,Npc,100001,,,None,,FALSE,FALSE,고맙습니다. 저 자가 이 곳에 잘 정착할 수 있도록 많은 도움 주십시오.
+1003026,1003026,"100304,start",,,Monologue,신관 세리안,Npc,100003,,,None,,TRUE,FALSE,흐음....
+1003027,1003027,"100304,start",,,Monologue,신관 세리안,Npc,100003,,,None,,TRUE,FALSE,도망치다가 여기 어딘가에 흘린 것 같은데....
+1003028,1003028,"100304,start",,,Monologue,신관 세리안,Npc,100003,,,None,,TRUE,FALSE,"휴, 흩어진 짐을 다 찾기란 쉽지 않겠어."
+1003029,1003029,"100307,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,잃어버린 짐을 모두 찾아주셔서 정말 감사합니다.
+1003030,1003030,"100307,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,"혹시 두 분, 저와 비슷한 차림의 청년을 보지 못하셨을까요? 테린이라는 수습 신관입니다."
+1003032,1003032,"100307,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,...어느 순간 그 녀석이 보이지 않더군요. 당황한 채 찾고 있던 와중에 놀 무리의 습격까지 받고 말았습니다.
+1003033,1003033,"100307,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2104,Npc,100001,TRUE,TRUE,테린... 이 말썽꾸러기 녀석! 도대체 어디로 사라진 건지!
+1003036,1003036,"100307,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100003,TRUE,TRUE,현재 섬의 몬스터들이 불안정한 상태라 오랜 시간 혼자 두는 건 위험합니다. 어서 그를 찾아야겠군요.
+1003037,1003037,"100307,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Npc,100003,TRUE,TRUE,신관님께서는 일단 안전한 곳으로 가 계십시오. <B>테린</>이라는 견습 신관은 저희가 찾아 데려오겠습니다.
+1003038,1003038,"100307,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100001,TRUE,TRUE,"같이 가겠습니다. 테린 녀석, 제발 어디 <B>위험한 일</>에 휘말린 건 아니길..."
+1004000,1004000,"100401,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,아무래도 안쪽까지 들어가서 살펴보는 게 좋겠군요.
+1004001,1004001,"100401,start",,,Monologue,신관 세리안,Npc,100003,,,None,,FALSE,FALSE,테린... 제발 위험하지 않은 곳에 있어야 할 텐데....
+1004002,1004002,"100401,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100003,TRUE,TRUE,"...흠, 길이 갈라지는군요. 한시가 급하니 나누어 찾는 것이 좋겠습니다."
+1004003,1004003,"100401,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Player,,TRUE,TRUE,"개척자, 자네는 좌측 길을 맡아 탐색을 진행해주게."
+1004004,1004004,"100401,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Npc,100003,TRUE,TRUE,"세리안 님은 상처가 아직 다 낫지 않으셨으니, 제가 동행하겠습니다. 저흰 우측 길을 살펴보도록 하죠."
+1004005,1004005,"100401,start",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Player,,TRUE,TRUE,"개척자, 깊은 곳에 가면 위험한 짐승이 나오기도 하니 조심하세요."
+1004006,1004006,"100401,start",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Player,,TRUE,TRUE,"테린을 찾으면, 우측 길 끝에 있는 누이 여신상 앞에서 합류하기로 하죠."
+1004007,1004007,"100401,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,,None,,FALSE,FALSE,"세리안 님, 떠나기 전에 누이 여신상에 기도를 먼저 올리는 게 도움이 되진 않을까요?"
+1004008,1004008,"100401,end",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,,None,,FALSE,FALSE,"네, 몬스터들의 흥분을 가라 앉히는데 도움이 될 것 같군요."
+1004009,1004009,"100401,end",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,,None,,FALSE,FALSE,부디 길 잃은 영혼들이 누이 여신 곁에서 안식을 찾기를....
+1004010,1004010,"100404,start",,,DialogueBox,놀칸,None,,,,None,,FALSE,FALSE,...크르르르....
+1004011,1004011,"100404,start",,,DialogueBox,놀칸,None,,,,None,,FALSE,FALSE,어리석은 인간... 감히 이 몸의 영역에 발을 들이다니!
+1004012,1004012,"100404,start",,,DialogueBox,수습 신관 테린,Npc,100004,,,None,,FALSE,FALSE,으아악! 목숨만은 살려주세요!
+1004013,1004013,"100408,start",,,QuestBubbleToBox,수습 신관 테린,Npc,100004,,,None,,FALSE,FALSE,구해주셔서 정말 감사합니다.... 방금 전엔 진짜 죽는 줄 알았어요.
+1004014,1004014,"100408,start",,,QuestBubbleToBox,수습 신관 테린,Npc,100004,,,None,,FALSE,FALSE,혹시 손에 들고 계신 게 제 가방인가요? 다행이다!
+1004015,1004015,"100408,start",,,QuestBubbleToBox,수습 신관 테린,Npc,100004,,,None,,FALSE,FALSE,당신이 오늘 입도하기로 한 개척자님이시군요! 허가증을 찾으러 오신 거죠?
+1004016,1004016,"100408,start",,,QuestBubbleToBox,수습 신관 테린,Npc,100004,,,None,,FALSE,FALSE,저 때문에 걸음하시게 해서 죄송해요.
+1004017,1004017,"100408,start",,,QuestBubbleToBox,수습 신관 테린,Npc,100004,,,None,,FALSE,FALSE,혹시 세리안 신관님은 벌써 만나셨나요?
+1004018,1004018,"100408,start",,,QuestBubbleToBox,수습 신관 테린,Npc,100004,,,None,,FALSE,FALSE,"아, 이미 만나셨군요... 저를 신관님께 데려가 주시겠어요?"
+1004019,1004019,"100408,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2103,Npc,100004,TRUE,TRUE,테린! 무사해서 다행이다! 누이 여신의 가호가 함께했던 모양이구나..
+1004020,1004020,"100408,sequence",,,QuestBubbleToBox,수습 신관 테린,Npc,100004,,1201,Npc,100003,TRUE,TRUE,"네, 신관님! 시간이 조금 지체됐으니 저는 먼저 허가증을 관리실에 전달하고 오겠습니다."
+1004021,1004021,"100408,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Npc,100004,TRUE,TRUE,"테린, 마음이 급한 것은 알겠지만... 그 전에 기도를 올려 이 근방을 안정시켜야 해."
+1004022,1004022,"100408,sequence",,,QuestBubbleToQuestBox,신관 세리안,Npc,100003,4,2201,Player,,TRUE,TRUE,"개척자님도 섬에 도착하신 첫날이니, 기도로 인사를 올리시는 건 어떠십니까? 여신님께서 기뻐하실 겁니다."
+1004023,1004023,"100409,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100003,TRUE,TRUE,"저는 이미 인사를 드렸으니, 이동을 위해 달구지를 가지러 가겠습니다."
+1004024,1004024,"100409,start",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1001,Player,,TRUE,TRUE,"개척자, 기도를 마치면 아래에서 만나도록 하지."
+1005000,1005000,"100501,start",,,QuestBubble,신관 세리안,Npc,100003,,,None,,TRUE,FALSE,여신님께서 개척자님의 인사를 기쁘게 받아들이시겠지요. 저희는 잠시 더 기도를 올리고 있겠습니다.
+1005001,1005001,"100501,start",,,QuestBubble,신관 세리안,Npc,100003,,,None,,TRUE,FALSE,앞으로의 여정에 누이 여신의 가호가 함께하길 바랍니다.
+1005002,1005002,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,휴... 자네의 입도 허가증이 제 시간에 도착해서 다행이야.
+1005003,1005003,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,다 대신관 그왈흐님께서 자네를 신경 써 명을 내려주신 덕분이겠지.
+1005004,1005004,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,그나저나 섬에 오자마자 별 일을 다 겪는군. 자네도 지치지 않았나?
+1005005,1005005,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,다행히 우리가 가는 곳은 <B>달그늘 쉼터</>라는 곳이네. 섬의 유일한 안식처지.
+1005006,1005006,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,그곳에 도착하면 먼저 대신관님께 인사를 올리도록 해.
+1005007,1005007,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,"자네는 한동안 신관들의 숙소에 머물러야 될 테니, 미리 얼굴을 익혀두는 편이 좋지."
+1005008,1005008,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,"숲에서 명상하거나 공부하며 지내는 것도 즐거웠지만, 자네가 온 이상... 앞으로의 생활도 꽤 기대가 되는군."
+1005009,1005009,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,"육지에서 무슨 일이 있었든, 이곳에서는 마음 편히 지내도록 하게. 한동안 육지 소식을 들을 방법도 없을 테니 말이야."
+1005010,1005010,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,"몰랐나? 육지에서 큰 일이 생기면, 이니스 섬은 외부와 완전히 단절하는 게 규칙이네. 섬을 지키기 위해서지."
+1005011,1005011,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,원래도 인적이 드문 섬이라 제례가 열리는 날이 아니면 외부 소식이 들어올 일이 거의 없는데...
+1005012,1005012,"100501,end",,,DialogueBox,메다드,Npc,100001,,,None,,FALSE,FALSE,그 제례마저도 당분간은 열리지 않을 걸세. 섬이 안전하다고 판단될 때까지 말이지.
+1005013,1005013,"100501,end",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1100,Player,,TRUE,FALSE,"자, 도착했네. 이제 대신관 <B>5월의 그왈흐</> 님께 가보게. 날도 늦었으니 우린 내일 다시 보도록 하지."
+1005014,1005014,"100502,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1100,Player,,TRUE,TRUE,"개척자님, 이니스 섬에 오신 것을 환영합니다!"
+1005015,1005015,"100502,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1003,Player,,TRUE,TRUE,이 먼 길을 오시느라 고생이 많으셨겠습니다.
+1005016,1005016,"100502,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1002,Player,,TRUE,TRUE,"초승달 왕좌에서 활약하셨던 일은 여왕님께도, 메다드 님께도 이미 전해 들었습니다."
+1005017,1005017,"100502,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1001,Player,,TRUE,TRUE,만나뵙기를 모두 손꼽아 기다리고 있었지요. 이니스 섬에는 개척자님과 같은 분이 꼭 필요합니다.
+1005018,1005018,"100502,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1003,Player,,TRUE,TRUE,부디 개척자님께서 이 섬에 잘 적응해 나가시면 좋겠습니다. 이곳 생활을 편안하게 느끼신다면 저도 더없이 기쁠 겁니다.
+1005019,1005019,"100502,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1002,Player,,TRUE,TRUE,숙소도 미리 준비해 두었습니다. 제가 직접 <B>숙소</>로 안내해 드리지요.
+1005020,1005020,"100502,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1001,Player,,TRUE,TRUE,이쪽으로 오십시오.
+100502901,100502901,"100502,end",,,DialogueBox,,None,,,,None,,FALSE,FALSE,5년 후
+1006000,1006000,"100602,sequence",,,QuestBubble,대장장이 브랜던,Npc,100050,,1100,Player,,FALSE,FALSE,"개척자로군! 제례 준비 때문에 대장간이 난리도 아니라, 이제야 알았네!"
+1006001,1006001,"100602,sequence",,,QuestBubble,대장장이 브랜던,Npc,100050,,1103,Player,,FALSE,FALSE,5년 만에 치르는 제례라 그런지 다들 흥분했나봐. 밤낮없이 대장간 문을 두들겨댄다니까!
+1006002,1006002,"100602,sequence",,,QuestBubble,대장장이 브랜던,Npc,100050,,1003,Player,,FALSE,FALSE,누구는 신전에서 쓸 제례 물자 <B>재료</>가 바닥나서 골치가 아픈데...
+1006003,1006003,"100602,sequence",,,QuestBubble,대장장이 브랜던,Npc,100050,,1002,Player,,FALSE,FALSE,"도울 거리? 어떻게 해결할진 아직 고민 중이니, 나중에 다시 들러줘."
+1006004,1006004,"100603,sequence",,,QuestBubble,잡화상인 몰리,Npc,100051,,2102,Player,,FALSE,FALSE,"아이고, 개척자! 이제야 오는 거야? 하마터면 내가 먼저 찾아갈 뻔했다니까~"
+1006005,1006005,"100603,sequence",,,QuestBubble,잡화상인 몰리,Npc,100051,,2001,Player,,FALSE,FALSE,"제례 시기에 손님이 몰린다는데, 물류량이 감당이 될까 걱정이야. 혹시 뭐 들은 거 없어? 손님은 얼마나 온대?"
+1006006,1006006,"100603,sequence",,,QuestBubble,잡화상인 몰리,Npc,100051,,2002,Player,,FALSE,FALSE,...음. 자세한 얘기는 자네도 아직 못 들었구먼. 뭔가 알게 되면 돌아와서 꼭 알려줘야 해.
+1006007,1006007,"100603,sequence",,,QuestBubble,잡화상인 몰리,Npc,100051,,2003,Player,,FALSE,FALSE,<B>음식</>이며 <B>물건</>이며 얼마나 모자랄지... 그래도 오는 사람들만큼은 다 잘 대접하고 싶은데~
+1006008,1006008,"100604,sequence",,,QuestBubble,마구간지기 개런,Npc,100052,,1102,Player,,FALSE,FALSE,"하하하! 개척자, 오늘은 내가 기분 좋게 자네 이름을 부를 수 있겠구만!"
+1006009,1006009,"100604,sequence",,,QuestBubble,마구간지기 개런,Npc,100052,,1103,Player,,FALSE,FALSE,제례 준비로 물자를 들여오면서 말들도 새로 들였어. 그동안 빌린 말로 여기저기 뛰어다니느라 수고가 많았어!
+1006010,1006010,"100604,sequence",,,QuestBubble,마구간지기 개런,Npc,100052,,1003,Player,,FALSE,FALSE,고생한 자네한테 내가 직접 <B>말 한 필</> 선물하고 싶은데 받아주겠어? 그동안 마을 일 도우느라 정말 애썼네.
+1006011,1006011,"100604,sequence",,,QuestBubble,마구간지기 개런,Npc,100052,,1002,Player,,FALSE,FALSE,"자, 이리 와서 둘러보게! 마음에 드는 놈으로 골라보라고!"
+100608101,100608101,"100608,start",,,System,,None,,,,None,,FALSE,FALSE,가방(I)을 열어 말을 등록할 수 있습니다.
+100608102,100608102,"100608,start",,,System,,None,,,,None,,FALSE,FALSE,등록한 말은 탈 것 목록(])에서 확인할 수 있습니다.
+100608103,100608103,"100608,start",,,System,,None,,,,None,,FALSE,FALSE,탑승(B) 키를 눌러 말에 탑승할 수 있습니다.
+100609901,100609901,"100609,end",,,Popup,모집 공고,None,,,,None,,FALSE,FALSE,<B>우편 수행자의 사원</>에서 제례 기간 중 우편 수행자 보조 인력을 모집합니다.
+100609902,100609902,"100609,end",,,DialogueBox,모집 공고,None,,,,None,,FALSE,FALSE,자세한 내용은 우편 수행자의 사원에 문의 해주시기 바랍니다.
+1006016,1006016,"100611,sequence",,,QuestBubbleToBox,우편 수행자 슬레인,Npc,100009,,2103,Npc,100010,TRUE,TRUE,진정해! 우선 잃어버린 우편 목록부터 하나씩 확인해 봐.
+1006017,1006017,"100611,sequence",,,QuestBubbleToBox,우편 수행자 칼던,Npc,100010,,1106,Npc,100009,TRUE,TRUE,오늘 정령들이 왜 이렇게 날뛰는 건지 모르겠어. 신전으로 갈 우편들이 없어졌잖아!
+1006018,1006018,"100611,sequence",,,QuestBubbleToBox,우편 수행자 슬레인,Npc,100009,,2108,Npc,100010,TRUE,TRUE,제례 참석자 명단이나 중요한 문서들도 있었을 텐데... 이거 큰일 난 거 아냐?
+1006019,1006019,"100611,sequence",,,QuestBubbleToBox,우편 수행자 칼던,Npc,100010,,1105,Npc,100009,TRUE,TRUE,"그래! 그런 걸 잃어버렸다고 하면... 신관 일은커녕, 지금 이어가고 있는 수련마저 중단될지도 몰라."
+1006020,1006020,"100611,sequence",,,QuestBubbleToBox,우편 수행자 슬레인,Npc,100009,,2001,Npc,100010,TRUE,TRUE,"인력 게시판에 구인은 올려뒀으니, 누군가 와주길 기다려보자."
+1007000,1007000,"100702,start",,,QuestBubbleToBox,우편 수행자 슬레인,Npc,100009,,2103,Player,,TRUE,FALSE,"잠깐, 손님이 오셨어. 혹시 인력 게시판의 모집 공고를 보고 오신 게 아닐까?"
+1007001,1007001,"100702,start",,,QuestBubbleToBox,우편 수행자 칼던,Npc,100010,,1104,Player,,TRUE,FALSE,"살았다! 누이 여신님, 감사합니다. 지금 해결하기 어려운 <B>문제</>가 생겨서 정말 곤란한 상황이었어요."
+1007002,1007002,"100702,start",,,QuestBubbleToBox,우편 수행자 칼던,Npc,100010,,1106,Player,,TRUE,FALSE,"오늘 제가 누이 신전으로 우편을 배달하던 중, <B>고요의 숲</>에서 <B>정령들의 습격</>을 받았습니다."
+1007003,1007003,"100702,start",,,QuestBubbleToBox,우편 수행자 칼던,Npc,100010,,1107,Player,,TRUE,FALSE,"목숨은 건졌지만, 도망치면서 우편 가방을 떨어뜨리고 말았죠. 수행자가 우편물을 분실하다니..."
+1007004,1007004,"100702,start",,,QuestBubbleToBox,우편 수행자 슬레인,Npc,100009,,2108,Player,,TRUE,FALSE,"더 큰 문제는, 그 안에 제례 전에 반드시 신전에 도착해야 하는 중요 서신까지 있었다는 점이에요"
+1007005,1007005,"100702,start",,,QuestBubbleToBox,우편 수행자 슬레인,Npc,100009,,2003,Player,,TRUE,FALSE,이대로라면 제례 일정에 큰 차질이 생길지도 몰라요. 제발 도와주실 수 있을까요?
+1007006,1007006,"100702,start",,,QuestBubbleToBox,우편 수행자 칼던,Npc,100010,,1003,Player,,TRUE,FALSE,화가 난 정령들 사이를 조사해야 해서 위험할 수 있지만... 개척자님의 실력이라면 믿고 맡길 수 있어요!
+1007007,1007007,"100702,start",,,QuestBubbleToBox,우편 수행자 슬레인,Npc,100009,,2002,Player,,TRUE,FALSE,우편 가방이 사라진 곳은 <B>고요의 숲</>이에요. 오르막길을 조금만 올라가면 바로 있어요.
+1007008,1007008,"100702,start",,,QuestBubbleToBox,우편 수행자 칼던,Npc,100010,,1002,Player,,TRUE,FALSE,"아, 참! 메다드님도 돕겠다고 고요의 숲 안쪽으로 가셨으니 두 분이 만나실 수도 있겠네요!"
+1008000,1008000,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1001,Player,,TRUE,TRUE,개척자! 자네도 우편 수행자들을 도우러 왔나?
+1008001,1008001,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1003,Player,,TRUE,TRUE,마침 나도 기억을 더듬어 이전의 사건들을 훑어보던 중이었네. 도움 되는 정보가 있을지도 모르니 이야기를 공유하도록 하지.
+1008002,1008002,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1002,Player,,TRUE,TRUE,"정령들이 사나워진 데에는 분명 100년 전 악마 전쟁, 즉 <B>이즈나 대학살</>이 관련되어 있을 거네."
+1008003,1008003,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1001,Player,,TRUE,TRUE,"5년 전, 자네가 처음 이니스 섬에 왔을 때를 기억하나?"
+1008004,1008004,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1003,Player,,TRUE,TRUE,여신의 슬픔에 동조한 몬스터들이 광폭해졌던 그 일 말이네. 지금 정령들이 난폭해지는 것도 같은 이유일 걸세.
+1008005,1008005,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1002,Player,,TRUE,TRUE,"누이 여신이 이즈나 대학살을 떠올리며 겪는 슬픔, 그 감정에 정령들이 동조하고 있는 거야."
+1008006,1008006,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1001,Player,,TRUE,TRUE,여신에게 100년 전 비극을 떠올리게 할 요소가 이니스 섬에 존재한다는 뜻이지.
+1008007,1008007,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1003,Player,,TRUE,TRUE,아마... 이즈나인과 관련된 요소일 가능성이 높네.
+1008008,1008008,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1002,Player,,TRUE,TRUE,실제로 다른 기억술사의 기록에서 이즈나인이 이니스 제례를 참석할 때마다 비슷한 동조 현상이 발생했다는 내용을 본 적이 있어.
+1008009,1008009,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1003,Player,,TRUE,TRUE,"우편 수행자가 습격당한 일도 이즈나인들이 작성한 서신에서 풍기는 기운, 기억의 잔향과 같은 냄새가 정령들을 자극했을 가능성이 크다네."
+1008010,1008010,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,,None,,FALSE,FALSE,"일단 <B>몬스터들을 진정</>시키고, <B>흩어진 우편물들을 회수</>해야 하네."
+1008011,1008011,"100801,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,,None,,FALSE,FALSE,나는 안쪽에 있는 명상의 샘에서 이즈나의 기운을 정화할 준비를 하겠네. 우편 가방을 찾으면 곧장 내게 가져오게.
+1008012,1008012,"100801,start",,,Monologue,메다드,Npc,100011,,,None,,FALSE,FALSE,명상의 샘에서 정화 준비를 해야겠어.
+1008013,1008013,"100801,start",,,Monologue,메다드,Npc,100011,,,None,,FALSE,FALSE,이즈나의 기운이 너무 거칠군. 의도한 대로 잘 풀려야 할 텐데....
+1008014,1008014,"100808,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1104,Player,,TRUE,TRUE,"윽, 가까이하니 우편물에 밴 이즈나의 냄새가 더 지독하군. 서둘러 정화하도록 하지."
+1008015,1008015,"100808,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1003,Player,,TRUE,TRUE,"서신의 직인을 보니, 냄새의 근원은 이 문건이로군. 우편 수행자가 말한 대로 제례와 관련된 중요한 문서가 틀림없어."
+1008016,1008016,"100808,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1002,Player,,TRUE,TRUE,내가 정화를 진행하는 동안 자네가 해줘야 할 일이 있네.
+1008017,1008017,"100808,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1001,Player,,TRUE,TRUE,이 정도 혼란이 생기면 땅에 균열이 생겨 던전이 발생하곤 하지. 방금 그 전조를 느꼈어.
+1008018,1008018,"100808,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1003,Player,,TRUE,TRUE,자네가 가서 던전의 기운을 정화해 주게. 아마 여신의 울분이 스며 있는 자리일 걸세.
+1008019,1008019,"100810,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1003,Player,,FALSE,FALSE,이 우편물은 우리가 직접 <B>누이 신전</>에 가져다주는 것이 가장 안전하겠지.
+1008020,1008020,"100810,start",,,QuestBubbleToQuestBox,메다드,Npc,100011,1,1002,Player,,FALSE,FALSE,나는 주변의 기운을 안정시키고 뒤따라가겠네. 자네는 먼저 신전 앞으로 가 있게.
+1008021,1008021,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1003,Npc,100001,TRUE,TRUE,왕국의 직인이 찍힌 서신이군요. 이런 중요한 문서가 분실될 뻔하다니... 큰일 날 뻔했습니다.
+1008022,1008022,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1002,Npc,100001,TRUE,TRUE,"그러면 잠시, 이 서신의 내용을 확인해 보겠습니다."
+1008023,1008023,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1003,Npc,100001,TRUE,TRUE,...예상치 못한 내용이군요. 이번 제례에 이즈나 왕가의 <B>안드리온 1세</>께서 직접 참석하시겠다는 뜻을 밝히셨습니다.
+1008024,1008024,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1001,Npc,100001,TRUE,TRUE,"서신이 발송된 날짜로 보아, 왕께서는 곧 이니스 섬에 도착하실 것 같습니다."
+1008026,1008026,"100810,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1104,Npc,100005,TRUE,TRUE,이즈나 왕가의 주인이 직접 제례에 참여한다니... 지금이라도 출입을 막아야 하는 것은 아닐까요?
+1008027,1008027,"100810,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100005,TRUE,TRUE,이즈나인이 지닌 사기가 섬 전체에 위험을 불러올 수도 있습니다.
+1008028,1008028,"100810,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1002,Npc,100005,TRUE,TRUE,게다가 안드리온 1세 본인에게도 어떤 위험이 닥칠지 알 수 없습니다. 지금으로서는 안전을 보장할 수 없어요.
+1008029,1008029,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1003,Npc,100001,TRUE,TRUE,"메다드 님의 말씀에도 일리가 있지만, 이미 움직이기 시작한 왕의 행차를 막는 것은 현실적으로 어렵겠지요."
+1008030,1008030,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1001,Npc,100001,TRUE,TRUE,현재 신전에서 할 수 있는 일이라면... 메다드 님이나 개척자님처럼 신뢰할 만한 <B>호위</>를 붙이는 것뿐입니다.
+1008031,1008031,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1002,Npc,100001,TRUE,TRUE,부디 이즈나 왕의 호위를 맡아 주실 수 있겠습니까?
+1008032,1008032,"100810,sequence",,,QuestBubbleToQuestBox,메다드,Npc,100001,1,1003,Npc,100005,TRUE,TRUE,대신관님의 판단을 따르겠습니다. 저와 개척자가 <B>이니스 부두</>로 가 손님을 맞이할 준비를 하겠습니다.
+1008034,1008034,"100810,sequence",,,QuestBubbleToQuestBox,5월의 그왈흐,Npc,100005,5,1003,Npc,100001,TRUE,TRUE,안전하게 호위를 마치고... 두 분 모두 무사히 돌아오시길 기다리겠습니다.
+1012099,1012099,,,,DialogueBox,수행원,None,,,,None,,,,"크, 큰일입니다! 섬에... <B>피 묻은 손</>이 침입했습니다!"
+1013018,1013018,,,,QuestBubble,구조된 신관 (2) (여),None,,,,Player,,FALSE,FALSE,감사드립니다. 여신의 축복이 두 분께 깃들기를.
+1013022,1013022,,,,QuestBubble,겁에 질린 수행원 (2) (남),Npc,100032,,,Player,,FALSE,FALSE,큰일났어요! 피 묻은 손이 마을까지 쳐들어왔습니다!
+1013023,1013023,,,,QuestBubble,겁에 질린 수행원 (2) (남),Npc,100032,,,Player,,FALSE,FALSE,<B>달그늘 쉼터</>로 향하던 신관들 대부분이 벌써 포로로 끌려갔다고 합니다. 제발... 그분들을 도와주세요!
+1013028,1013028,,,,QuestBubble,구조된 주민 (1) (남),Npc,100036,,,Player,,FALSE,FALSE,"허리가... 으, 그래도 아직 숨은 쉬어지는군."
+1013029,1013029,,,,QuestBubble,구조된 주민 (2) (남),Npc,100039,,,Player,,FALSE,FALSE,"팔이... 움직이질 않는 것 같은데..., 그래도 고마워요."
+1013030,1013030,,,,QuestBubble,구조된 주민 (3) (여),Npc,100034,,,Player,,FALSE,FALSE,덕분에 살았습니다... 정말 감사합니다.
+91000000,91000000,,,,Bubble,타렌,Npc,100056,,,Player,,TRUE,TRUE,잡은 물고기는 이따 돌아가서 쉼터 사람들이랑 나누려고요.
+91000001,91000001,,,,Bubble,타렌,Npc,100056,,,Player,,TRUE,TRUE,다행히 라운 관리인께서 낚시 허가를 해주셨죠.
+91000002,91000002,,,,Bubble,타렌,Npc,100056,,,Player,,TRUE,TRUE,"우편 수행자 사원에 전달해야 할 물건이 있었는데, 깜빡했네요. 신관님이 부탁하신 건데."
+91000003,91000003,,,,Bubble,타렌,Npc,100056,,,Player,,TRUE,TRUE,제례 기간이 되면 외부에서 사절단이 섬을 찾아와요. 섬 밖 사람들을 만날 수 있는 몇 안 되는 기회죠.
+91000013,91000013,,,,Bubble,브린,Npc,100057,,1206,Player,,TRUE,TRUE,언제든 쉼터에 들러 편히 쉬다 가세요.
+91000014,91000014,,,,Bubble,브린,Npc,100057,,1206,Player,,TRUE,TRUE,"깜짝 놀라셨죠? 여명의 길에 사는 놀들..., 이 시기엔 특히 더 사나워져요."
+91000015,91000015,,,,Bubble,브린,Npc,100057,,1203,Player,,TRUE,TRUE,"쉼터에는 대신관님과 신관님들, 여신님의 신도들이 함께 지내고 있어요."
+91000016,91000016,,,,Bubble,브린,Npc,100057,,1204,Player,,TRUE,TRUE,"요즘 섬의 생물들이 불안해하네요. 아아, 여신님... 섬을 지켜주소서."
+91000017,91000017,,,,Bubble,브린,Npc,100057,,1203,Player,,TRUE,TRUE,"메다드 님? 명상의 샘 앞에서 수행하시던데, 집중력이 정말 대단하더라고요."
+91000020,91000020,,,,Bubble,브랜던,Npc,100050,,,Player,,TRUE,TRUE,어서 와! 무기 좀 봐줄까?
+91000021,91000021,,,,Bubble,브랜던,Npc,100050,,,Player,,TRUE,TRUE,자네가 처음 정착했을 때가 생각나는군. 도시 사람 티가 많이 났지.
+91000022,91000022,,,,Bubble,브랜던,Npc,100050,,,Player,,TRUE,TRUE,"그 장비, 슬슬 손 좀 봐야겠어... 수리비는 싸게 해주지!"
+91000023,91000023,,,,Bubble,브랜던,Npc,100050,,,Player,,TRUE,TRUE,내구도가 소진되면 장비는 남아 있어도 효과가 적용되진 않네. 주의하게.
+91000030,91000030,,,,Bubble,개런,Npc,100052,,,Player,,TRUE,TRUE,우리 말들이랑 놀아주지 않겠어?
+91000031,91000031,,,,Bubble,개런,Npc,100052,,,Player,,TRUE,TRUE,말들을 정성껏 다뤄줘. 인간과 오래 교감해온 동물이니까.
+91000032,91000032,,,,Bubble,개런,Npc,100052,,,Player,,TRUE,TRUE,새벽 내내 말들이 불안한지 계속 울더군. 여신님의 영향일까?
+91000033,91000033,,,,Bubble,개런,Npc,100052,,,Player,,TRUE,TRUE,말들 기운 좀 나라고 좋은 건초라도 구해와야겠어.
+91000040,91000040,,,,Bubble,피오르,Npc,100058,,,Player,,TRUE,TRUE,다음 배달 구역이 어디였더라...
+91000041,91000041,,,,Bubble,피오르,Npc,100058,,,Player,,TRUE,TRUE,"편지가 주인에게 닿는다는 믿음이 없다면, 이 일도 성립하지 않겠죠."
+91000042,91000042,,,,Bubble,피오르,Npc,100058,,,Player,,TRUE,TRUE,부엉이요? 이곳에서는 사용하지 않아요.
+91000043,91000043,,,,Bubble,피오르,Npc,100058,,,Player,,TRUE,TRUE,"배달원들 가운데엔, 정식 신관이 되기 위한 수련으로 이 일을 맡는 이들도 있어요."
+91000044,91000044,,,,Bubble,피오르,Npc,100058,,,Player,,TRUE,TRUE,대체 오늘 하루에만 언덕을 몇 번 왔다갔다 했는지 모르겠어요.
+91000050,91000050,,,,Bubble,케일런,Npc,100059,,,Player,,TRUE,TRUE,오늘의 평화도 모두 누이 여신님의 은총 덕분이지요.
+91000051,91000051,,,,Bubble,케일런,Npc,100059,,,Player,,TRUE,TRUE,"제례 준비로 정신이 없긴 하지만, 개인적인 기도의 시간도 필요하답니다."
+91000052,91000052,,,,Bubble,케일런,Npc,100059,,,Player,,TRUE,TRUE,"이런... 오늘 중에 대신관님께 보여드려할 문서가 있었는데, 깜빡했네."
+91000053,91000053,,,,Bubble,케일런,Npc,100059,,,Player,,TRUE,TRUE,다음 일정까지 잠깐 쉬어야겠어요.
+91000060,91000060,,,,Bubble,엘시아,Npc,100060,,,Player,,TRUE,TRUE,혼자 딸을 키울 수 있는 건 모두 달그늘 쉼터 사람들 덕분이에요.
+91000061,91000061,,,,Bubble,엘시아,Npc,100060,,,Player,,TRUE,TRUE,딸이 산만해서 걱정이에요. 언젠가 크게 다치기라도 하면 어떡하죠?
+91000062,91000062,,,,Bubble,엘시아,Npc,100060,,,Player,,TRUE,TRUE,리아 이 녀석... 또 집을 잔뜩 어지르고 밖에 나갔네.
+91000063,91000063,,,,Bubble,엘시아,Npc,100060,,,Player,,TRUE,TRUE,섬에 전에 본적 없는 활기가 감돌아요. 그런데 마음이 불안한 이유는 왜일까요?
+91000064,91000064,,,,Bubble,엘시아,Npc,100060,,,Player,,TRUE,TRUE,"마음이 복잡하시면, 신전 근처에 세워진 여신님의 상을 보는 건 어때요?"
+91000070,91000070,,,,Bubble,리아,Npc,100061,,,Player,,TRUE,TRUE,저기요! 같이 놀아요!
+91000071,91000071,,,,Bubble,리아,Npc,100061,,,Player,,TRUE,TRUE,엄마 몰래 빈집 탐험이다!
+91000072,91000072,,,,Bubble,리아,Npc,100061,,,Player,,TRUE,TRUE,화난 몬스터한테는... 알사탕을 주면 안 될까요?
+91000073,91000073,,,,Bubble,리아,Npc,100061,,,Player,,TRUE,TRUE,엄마는 신전의 봉사로 바쁘대요!
+91000074,91000074,,,,Bubble,리아,Npc,100061,,,Player,,TRUE,TRUE,"고요의 숲 탐험을 하려 했는데, 신관 아저씨들이 위험하다고 가지 말래요."
+91000080,91000080,,,,Bubble,몰리,Npc,100051,,,Player,,TRUE,TRUE,어서 오세요!
+91000081,91000081,,,,Bubble,몰리,Npc,100051,,,Player,,TRUE,TRUE,뭐가 필요해? 없는 거 빼고 다 파는 거 알지!
+91000082,91000082,,,,Bubble,몰리,Npc,100051,,,Player,,TRUE,TRUE,주문량이 많네... 기한 안에 맞출 수 있을까?
+91000083,91000083,,,,Bubble,몰리,Npc,100051,,,Player,,TRUE,TRUE,섬에서의 생활은 어때? 이제 꽤 익숙해졌지?
+91000084,91000084,,,,Bubble,몰리,Npc,100051,,,Player,,TRUE,TRUE,개척자 같은 사람이 있어서 정말 든든해~
+91000090,91000090,,,,Bubble,모네스,Npc,100062,,,Player,,TRUE,TRUE,악랄하고 미천한 자들이 초승달 왕좌까지... 정말 가슴 아픈 일입니다.
+91000091,91000091,,,,Bubble,모네스,Npc,100062,,,Player,,TRUE,TRUE,"낯이 익네요. 혹시 우리, 어디선가 마주친 적이 있나요?"
+91000092,91000092,,,,Bubble,모네스,Npc,100062,,,Player,,TRUE,TRUE,초승달 왕좌의 선왕들께서도 은퇴하신 뒤엔 이니스 섬에서 지내셨대요...
+91000093,91000093,,,,Bubble,모네스,Npc,100062,,,Player,,TRUE,TRUE,"어머, 개인적으로 기도를 드릴 시간이군요."
+91000100,91000100,,,,Bubble,메이비스,Npc,100063,,,Player,,TRUE,TRUE,"어라, 이거 독초잖아? 큰일 날 뻔했네!"
+91000101,91000101,,,,Bubble,메이비스,Npc,100063,,,Player,,TRUE,TRUE,"섬 해산물도 유명하지만, 제가 채집한 약초도 품질이 꽤 좋아요!"
+91000102,91000102,,,,Bubble,메이비스,Npc,100063,,,Player,,TRUE,TRUE,"제례가 가까워지면, 불안정한 여신님의 감정에 동조한 몬스터가 많이 보여요."
+91000103,91000103,,,,Bubble,메이비스,Npc,100063,,,Player,,TRUE,TRUE,여신님의 뿌리 깊은 슬픔은 이즈나 대학살과 관련되어 있다던대요.
+91000110,91000110,,,,Bubble,피넬,Npc,100064,,,Player,,TRUE,TRUE,우린 이니스 섬을 정복했다! 다음은 고요의 숲으로 가볼까?
+91000111,91000111,,,,Bubble,피넬,Npc,100064,,,Player,,TRUE,TRUE,오늘의 모험은 분명 이니스 섬 역사에 남을 걸요!
+91000112,91000112,,,,Bubble,피넬,Npc,100064,,,Npc,100065,TRUE,TRUE,"리오나도 참... 기도 시간에만 맞춰 돌아가면 어른들도 모를 텐데, 겁쟁이!"
+91000113,91000113,,,,Bubble,피넬,Npc,100064,,,Player,,TRUE,TRUE,난 언젠가 섬을 나가서 위대한 모험을 할 거예요! 아주 위~대한!
+91000120,91000120,,,,Bubble,리오나,Npc,100065,,,Npc,100064,TRUE,TRUE,돌아가자 피넬... 우리끼리 나가지 말라고 어른들이 그랬잖아.
+91000121,91000121,,,,Bubble,리오나,Npc,100065,,,Player,,TRUE,TRUE,오늘은 그냥 신전에서 어른들 일이나 도울걸!
+91000122,91000122,,,,Bubble,리오나,Npc,100065,,,Player,,TRUE,TRUE,"계속 몰래 나오면, 엄마가 피넬이랑 놀지 말라 할 텐데... 그건 싫은데..."
+91000123,91000123,,,,Bubble,리오나,Npc,100065,,,Player,,TRUE,TRUE,오늘은 집에 가서 뭐라고 변명하지...
+91000130,91000130,,,,Bubble,엘로웬,Npc,100066,,,Player,,TRUE,TRUE,"여명의 길을 지날 때, 놀 무리가 달려들지는 않던가요?"
+91000131,91000131,,,,Bubble,엘로웬,Npc,100066,,,Player,,TRUE,TRUE,제례는 누이 신전이 주관하는 이니스 섬에서 가장 큰 행사예요.
+91000132,91000132,,,,Bubble,엘로웬,Npc,100066,,,Player,,TRUE,TRUE,"신전 일로 정신없긴 해도, 여신님을 위한 봉사라면 기꺼이 해낼 수 있어요!"
+91000133,91000133,,,,Bubble,엘로웬,Npc,100066,,,Player,,TRUE,TRUE,손님을 맞이하는 일도 제게 주어진 중요한 임무라 생각해요.
+91000140,91000140,,,,Bubble,올레이,Npc,100067,,,Player,,TRUE,TRUE,정령들의 분위기가 심상치 않네요... 당신도 조심하세요.
+91000141,91000141,,,,Bubble,올레이,Npc,100067,,,Player,,TRUE,TRUE,기도 말고도... 누이 여신을 가까이 느낄 방안이 없을까요?
+91000142,91000142,,,,Bubble,올레이,Npc,100067,,,Player,,TRUE,TRUE,숲에 여신님의 기운이 가득해요. 괜히 마음이 경건해지네요.
+91000143,91000143,,,,Bubble,올레이,Npc,100067,,,Player,,TRUE,TRUE,들으셨어요? 우편 수행자들이 몬스터 습격을 당했다던데요.
+91000150,91000150,,,,Bubble,마렌,Npc,100072,,,Player,,TRUE,TRUE,섬에 손님이 온다니! 혹시 직접 이야기를 나눌 기회도 있을까요?
+91000151,91000151,,,,Bubble,마렌,Npc,100072,,,Player,,TRUE,TRUE,기회가 된다면 솔즈리드 반도로 한번 여행을 떠나보고 싶어요.
+91000152,91000152,,,,Bubble,마렌,Npc,100072,,,Player,,TRUE,TRUE,오늘 날씨 어때 보여요? 이런 날은 꼭 무슨 사건 사고가 나더라고요.
+91000153,91000153,,,,Bubble,마렌,Npc,100072,,,Player,,TRUE,TRUE,섬에 사람이 없다 보니 수다를 떨 데가 없어요. 그러다 보니 자꾸 여신님만 찾게 되고...
+91000160,91000160,,,,Bubble,슬레인,Npc,100068,,,Player,,TRUE,TRUE,개인적인 의뢰는 받지 않아요! 배달 건이라면 사원을 통해 전달해 주세요.
+91000161,91000161,,,,Bubble,슬레인,Npc,100068,,,Player,,TRUE,TRUE,...좀 오래 쉰 것 같은데? 에라 모르겠다!
+91000162,91000162,,,,Bubble,슬레인,Npc,100068,,,Player,,TRUE,TRUE,하루 종일 이동해서 완전 지쳤어요. 3만 걸음은 걸은 것 같은데...
+91000163,91000163,,,,Bubble,슬레인,Npc,100068,,,Player,,TRUE,TRUE,이 정도 일했으면 고양이랑 농땡이 좀 쳐도 되잖아요?
+91000170,91000170,,,,Bubble,할레스,Npc,100070,,,Player,,TRUE,TRUE,들었어? 솔즈리드 반도로 이동하던 상단이 습격당했대.
+91000171,91000171,,,,Bubble,할레스,Npc,100070,,,Player,,TRUE,TRUE,들었어? 이번 회의에 유명한 인물이 왔대.
+91000172,91000172,,,,Bubble,할레스,Npc,100070,,,Player,,TRUE,TRUE,위어드윈드라면... 날틀광들만 모인 곳 아니야?
+91000173,91000173,,,,Bubble,할레스,Npc,100070,,,Player,,TRUE,TRUE,"뭐가 됐든, 이번 제례 회의도 쉽게 끝나진 않을 것 같아."
+91000180,91000180,,,,Bubble,시오라,Npc,100071,,,Player,,TRUE,TRUE,이번엔 이즈나 왕가에서 안드리온 1세가 직접 온다더라!
+91000181,91000181,,,,Bubble,시오라,Npc,100071,,,Player,,TRUE,TRUE,고바논 장군? 초승달 왕좌에서 이름 난 젊은 무인이랬는데! 얼굴 한번 보고 싶다!
+91000182,91000182,,,,Bubble,시오라,Npc,100071,,,Player,,TRUE,TRUE,이번 회의에 위어드윈드 가문 사람이 있다더라?
+91000183,91000183,,,,Bubble,시오라,Npc,100071,,,Player,,TRUE,TRUE,"솔즈리드도 그렇고, 요즘 누이아 대륙 치안이 안 좋다던데... 회의가 길어지겠네."
+91000190,91000190,,,,Bubble,푸딩,Npc,100069,,,Player,,TRUE,TRUE,야옹~
+91000191,91000191,,,,Bubble,푸딩,Npc,100069,,,Player,,TRUE,TRUE,냐앙~
+91000192,91000192,,,,Bubble,푸딩,Npc,100069,,,Player,,TRUE,TRUE,골골...
+91000193,91000193,,,,Bubble,푸딩,Npc,100069,,,Player,,TRUE,TRUE,미야아옹?
+91000200,91000200,,,,Bubble,데시,Npc,100053,,,Player,,TRUE,TRUE,"섬에 저 말고도 수리공은 여럿 있으니, 마음껏 사냥하세요!"
+91000201,91000201,,,,Bubble,데시,Npc,100053,,,Player,,TRUE,TRUE,전투에 열중하다 보면 내구도가 바닥나는 줄도 모르기 마련이죠.
+91000202,91000202,,,,Bubble,데시,Npc,100053,,,Player,,TRUE,TRUE,"요즘 몬스터가 늘어서, 장비 수명도 부쩍 짧아진 것 같아요."
+91000203,91000203,,,,Bubble,데시,Npc,100053,,,Player,,TRUE,TRUE,수리가 필요하면 언제든 맡겨 주세요.
+91000210,91000210,,,,Bubble,라스,Npc,100054,,,Player,,TRUE,TRUE,내구도가 떨어진 상태의 장비는 거래도 못 해. 알고 있겠지?
+91000211,91000211,,,,Bubble,라스,Npc,100054,,,Player,,TRUE,TRUE,수리비 아끼려 들지 마라. 네 목숨이랑 같은 거니까.
+91000212,91000212,,,,Bubble,라스,Npc,100054,,,Player,,TRUE,TRUE,"그 무기, 흠집이 난 것 같은데? 잠깐 봐도 될까."
+91000213,91000213,,,,Bubble,라스,Npc,100054,,,Player,,TRUE,TRUE,"재료가 다 떨어져가네, 잊지 말고 발주부터 넣어둬야겠어."
+91000214,91000214,,,,Bubble,라스,Npc,100054,,,Player,,TRUE,TRUE,필요하면 말해.
+91000220,91000220,,,,Bubble,코리로,Npc,100055,,,Player,,TRUE,TRUE,"축하해 주세요! 견습을 마치고, 정식으로 독립했어요!"
+91000221,91000221,,,,Bubble,코리로,Npc,100055,,,Player,,TRUE,TRUE,어서 오세요! 수리가 필요한 장비가 있으신가요?
+91000222,91000222,,,,Bubble,코리로,Npc,100055,,,Player,,TRUE,TRUE,"내구도만 신경 써도, 전투가 훨씬 수월해질걸요!"
+91000223,91000223,,,,Bubble,코리로,Npc,100055,,,Player,,TRUE,TRUE,아~ 배고프네. 스튜 한 그릇이면 수리도 훨씬 잘될 것 같은데.
+91000224,91000224,,,,Bubble,코리로,Npc,100055,,,Player,,TRUE,TRUE,내구도가 닳아도 장비는 남아요! 하지만 제 구실은 못하죠.

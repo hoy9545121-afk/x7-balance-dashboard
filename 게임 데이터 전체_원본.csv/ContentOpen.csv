@@ -1,0 +1,89 @@
+﻿OID,Cid,Comment,Category,Value,Level,LevelCategory,PrerequiredQuests,NoticeOrder,Block,ServerBlock
+1,1,자동 사냥,Auto,0,1,CurrentCharacter,,1,FALSE,TRUE
+2,2,퀘스트 메뉴,Quest,0,1,LastCharacter,,0,FALSE,TRUE
+3,3,콜렉션 메뉴,Collection,0,1,LastCharacter,,0,FALSE,TRUE
+5,5,가방 메뉴,Bag,0,1,LastCharacter,,0,FALSE,TRUE
+6,6,"우편 메뉴(0: 메뉴, 1: 읽기, 2: 쓰기)",Mail,0,1,LastCharacter,,0,FALSE,TRUE
+7,7,우편 읽기,Mail,1,1,LastCharacter,,8,FALSE,TRUE
+8,8,기술 메뉴,Skill,0,1,LastCharacter,,2,FALSE,TRUE
+9,9,탈 것 메뉴,Mount,0,1,LastCharacter,,3,FALSE,TRUE
+10,10,잊혀진 성,Dungeon,100,1,CurrentCharacter,,14,FALSE,TRUE
+11,11,직업 메뉴,Class,0,1,LastCharacter,,4,FALSE,TRUE
+12,12,그로아 메뉴,Pet,0,1,LastCharacter,,5,FALSE,TRUE
+13,13,거래소 메뉴,Exchange,0,1,LastCharacter,,6,FALSE,TRUE
+14,14,거래소 메뉴 > 검색 탭,Exchange,1,1,LastCharacter,,6,FALSE,TRUE
+15,15,출석 메뉴,DailyReward,0,1,LastCharacter,,7,FALSE,TRUE
+16,16,의뢰퀘스트 메뉴,Request,0,1,LastCharacter,,8,FALSE,TRUE
+17,17,원정대 메뉴,Guild,0,1,LastCharacter,,9,FALSE,TRUE
+18,18,제작 메뉴,Craft,0,1,LastCharacter,,10,FALSE,TRUE
+19,19,상점 메뉴,Shop,0,1,LastCharacter,,11,FALSE,TRUE
+21,21,우편 쓰기,Mail,2,1,LastCharacter,,13,FALSE,TRUE
+22,22,여신의 보금자리,Dungeon,1000,1,CurrentCharacter,,14,FALSE,TRUE
+23,23,칼바람 폐광,Dungeon,201,1,CurrentCharacter,,15,FALSE,TRUE
+24,24,칼바람 폐광,Dungeon,202,1,CurrentCharacter,,0,FALSE,TRUE
+25,25,칼바람 폐광,Dungeon,203,1,CurrentCharacter,,0,FALSE,TRUE
+26,26,칼바람 폐광,Dungeon,204,1,CurrentCharacter,,0,FALSE,TRUE
+27,27,칼바람 폐광,Dungeon,205,1,CurrentCharacter,,0,FALSE,TRUE
+28,28,칼바람 폐광,Dungeon,206,1,CurrentCharacter,,0,FALSE,TRUE
+29,29,칼바람 폐광,Dungeon,207,1,CurrentCharacter,,0,FALSE,TRUE
+30,30,신목의 성소,Dungeon,110,1,CurrentCharacter,,16,FALSE,TRUE
+31,31,신목의 성소,Dungeon,111,1,CurrentCharacter,,0,FALSE,TRUE
+32,32,신목의 성소,Dungeon,112,1,CurrentCharacter,,0,FALSE,TRUE
+33,33,거래소 메뉴 > 판매 등록 탭,Exchange,2,1,LastCharacter,,17,FALSE,TRUE
+34,34,곤 신전 지하 1층,Dungeon,231,1,CurrentCharacter,,18,FALSE,TRUE
+35,35,곤 신전 지하 2층,Dungeon,232,1,CurrentCharacter,,0,FALSE,TRUE
+36,36,곤 신전 지하 3층,Dungeon,233,1,CurrentCharacter,,0,FALSE,TRUE
+37,37,곤 신전 지하 4층,Dungeon,234,1,CurrentCharacter,,0,FALSE,TRUE
+38,38,곤 신전 지하 5층,Dungeon,235,1,CurrentCharacter,,0,FALSE,TRUE
+39,39,곤 신전 지하 6층,Dungeon,236,1,CurrentCharacter,,0,FALSE,TRUE
+40,40,함선 메뉴,Ship,0,1,LastCharacter,,19,FALSE,FALSE
+41,41,함선 메뉴 > 무역선 탭,Ship,1,1,LastCharacter,,0,FALSE,FALSE
+42,42,함선 메뉴 > 전투선 탭,Ship,2,1,LastCharacter,,19,FALSE,FALSE
+44,44,마다나의 연구소 1층,Dungeon,211,1,CurrentCharacter,,20,FALSE,TRUE
+45,45,마다나의 연구소 2층,Dungeon,212,1,CurrentCharacter,,0,FALSE,TRUE
+46,46,마다나의 연구소 3층,Dungeon,213,1,CurrentCharacter,,0,FALSE,TRUE
+47,47,마다나의 연구소 4층,Dungeon,214,1,CurrentCharacter,,0,FALSE,TRUE
+48,48,얼음잔 호수 동굴 1층,Dungeon,221,1,CurrentCharacter,,21,FALSE,TRUE
+49,49,얼음잔 호수 동굴 2층,Dungeon,222,1,CurrentCharacter,,0,FALSE,TRUE
+50,50,얼음잔 호수 동굴 3층,Dungeon,223,1,CurrentCharacter,,0,FALSE,TRUE
+51,51,얼음잔 호수 동굴 4층,Dungeon,224,1,CurrentCharacter,,0,FALSE,TRUE
+52,52,얼음잔 호수 동굴 5층,Dungeon,225,1,CurrentCharacter,,0,FALSE,TRUE
+53,53,에아나드 도서관,Dungeon,237,1,CurrentCharacter,,22,FALSE,TRUE
+54,54,마다나연구소 5층,Dungeon,215,1,CurrentCharacter,,0,FALSE,TRUE
+56,56,협력자의 요새,Dungeon,301,1,CurrentCharacter,,23,FALSE,TRUE
+57,57,암약의 대지,Dungeon,302,1,CurrentCharacter,,0,FALSE,TRUE
+58,58,죄악의 장소,Dungeon,303,1,CurrentCharacter,,0,FALSE,TRUE
+59,59,변질자의 땅,Dungeon,304,1,CurrentCharacter,,0,FALSE,TRUE
+60,60,악몽의 수렁,Dungeon,305,1,CurrentCharacter,,0,FALSE,TRUE
+61,61,신기루의 목격지,Dungeon,1001,1,CurrentCharacter,,0,FALSE,TRUE
+62,62,온화의 성소,Dungeon,1002,1,CurrentCharacter,,0,FALSE,TRUE
+63,63,나락의 섬,Dungeon,1003,1,CurrentCharacter,,0,FALSE,TRUE
+64,64,타락한 자의 바다,Dungeon,1004,1,CurrentCharacter,,0,FALSE,TRUE
+65,65,잊혀진 부귀의 바다,Dungeon,1005,1,CurrentCharacter,,0,FALSE,TRUE
+83,83,에아나드 도서관 별실 : 뒤틀린 금서의 방,Dungeon,238,1,CurrentCharacter,,24,FALSE,TRUE
+84,84,,Dungeon,120,1,CurrentCharacter,,24,FALSE,TRUE
+91,91,조사대의 요새,Dungeon,291,1,CurrentCharacter,,25,FALSE,TRUE
+92,92,환영의 폐허,Dungeon,292,1,CurrentCharacter,,0,FALSE,TRUE
+93,93,몽환의 근원지,Dungeon,293,1,CurrentCharacter,,0,FALSE,TRUE
+94,94,거짓의 잔재,Dungeon,294,1,CurrentCharacter,,0,FALSE,TRUE
+95,95,망각의 나락,Dungeon,295,1,CurrentCharacter,,0,FALSE,TRUE
+99,99,얼음잔 호수 동굴 6층,Dungeon,226,1,CurrentCharacter,,0,FALSE,TRUE
+100,100,마다나의 연구소 6층,Dungeon,216,1,CurrentCharacter,,0,FALSE,TRUE
+101,101,이벤트 배너,Event,0,1,LastCharacter,,0,FALSE,TRUE
+102,102,렐름 거래소 전환탭,RealmExchange,0,1,LastCharacter,,0,FALSE,TRUE
+103,103,고요한 설원의 터전 1층,Dungeon,401,1,CurrentCharacter,,0,FALSE,TRUE
+104,104,고요한 설원의 터전 2층,Dungeon,402,1,CurrentCharacter,,0,FALSE,TRUE
+105,105,고요한 설원의 터전 3층,Dungeon,403,1,CurrentCharacter,,0,FALSE,TRUE
+106,106,고요한 설원의 터전 4층,Dungeon,404,1,CurrentCharacter,,0,FALSE,TRUE
+107,107,고요한 설원의 터전 5층,Dungeon,405,1,CurrentCharacter,,0,FALSE,TRUE
+108,108,고요한 설원의 터전 6층,Dungeon,406,1,CurrentCharacter,,0,FALSE,TRUE
+110,110,네베의 메아리,Dungeon,310,1,CurrentCharacter,,1,FALSE,TRUE
+112,112,연합,Union,0,1,Guild,,0,FALSE,TRUE
+113,113,대해적의 안식처,Dungeon,501,1,CurrentCharacter,,0,FALSE,TRUE
+114,114,아르칸스의 보물섬,Dungeon,502,1,CurrentCharacter,,0,FALSE,TRUE
+115,115,길드 창고 관리인 NPC,GuildStorage,0,1,Guild,,0,FALSE,TRUE
+116,116,아르칸스 컨텐츠 발생,TreasureIsland,0,1,CurrentCharacter,,0,FALSE,TRUE
+201,201,렐름 공성 외성(테스트용),Dungeon,2002,1,CurrentCharacter,,0,FALSE,TRUE
+202,202,렐름 공성 내성(테스트용),Dungeon,2003,1,CurrentCharacter,,0,FALSE,TRUE
+203,203,렐름 공성 해상(테스트용),Dungeon,2000,1,CurrentCharacter,,0,FALSE,TRUE
+8000,8000,12월 바다,Dungeon,3000,1,CurrentCharacter,,30,FALSE,TRUE

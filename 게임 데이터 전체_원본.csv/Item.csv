@@ -1,0 +1,1350 @@
+OID,Cid,Milestone,Comment,DescName,Desc,Category,MasteryCid,Tier,Grade,MaxStack,BuyPrice,SellPrice,ItemRestrictionCid,BindingType,BindingRuleCids,SortGroup,SortOrder,IsBreak,ScheduleCid,WhereToGet,WhereToUse,IsNotify,IsBroadcast,EquipSound,RequiredMinLevel,RequiredMaxLevel
+1,1,Dev,Dummy,Dummy,강화 금지 Dummy 아이템 (삭제 금지),Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,900000001,FALSE,0,,,FALSE,FALSE,,0,999
+11010001,11010001,Dev,1T 장검(시작템),[임시] 1T 장검(시작템),,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911010001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11010002,11010002,Dev,1T 양손검(시작템),[임시] 1T 양손검(시작템),,Equipment,202,Tier1,Common,1,0,100,1,Unbound,[22],1,911010002,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11010003,11010003,Dev,1T 단검(시작템),[임시] 1T 단검(시작템),,Equipment,203,Tier1,Common,1,0,100,1,Unbound,[22],1,911010003,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11010004,11010004,Dev,1T 활(시작템),[임시] 1T 활(시작템),,Equipment,204,Tier1,Common,1,0,100,1,Unbound,[22],1,911010004,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11010005,11010005,Dev,1T 지팡이(시작템),[임시] 1T 지팡이(시작템),,Equipment,205,Tier1,Common,1,0,100,1,Unbound,[22],1,911010005,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11010006,11010006,Dev,1T 장검(기본 제작),[임시] 1T 장검(기본 제작),,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911010006,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11010007,11010007,Dev,1T 양손검(기본 제작),[임시] 1T 양손검(기본 제작),,Equipment,202,Tier1,Common,1,0,100,1,Unbound,[22],1,911010007,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11010008,11010008,Dev,1T 단검(기본 제작),[임시] 1T 단검(기본 제작),,Equipment,203,Tier1,Common,1,0,100,1,Unbound,[22],1,911010008,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11010009,11010009,Dev,1T 활(기본 제작),[임시] 1T 활(기본 제작),,Equipment,204,Tier1,Common,1,0,100,1,Unbound,[22],1,911010009,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11010010,11010010,Dev,1T 지팡이(기본 제작),[임시] 1T 지팡이(기본 제작),,Equipment,205,Tier1,Common,1,0,100,1,Unbound,[22],1,911010010,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11010501,11010501,Dev,1T 장검(시작템)_SR,[임시] 1T 장검(시작템)_SR,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911010501,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11010502,11010502,Dev,1T 양손검(시작템)_SR,[임시] 1T 양손검(시작템)_SR,,Equipment,202,Tier1,Common,1,0,100,1,Unbound,[22],1,911010502,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11010503,11010503,Dev,1T 단검(시작템)_SR,[임시] 1T 단검(시작템)_SR,,Equipment,203,Tier1,Common,1,0,100,1,Unbound,[22],1,911010503,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11010504,11010504,Dev,1T 활(시작템)_SR,[임시] 1T 활(시작템)_SR,,Equipment,204,Tier1,Common,1,0,100,1,Unbound,[22],1,911010504,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11010505,11010505,Dev,1T 지팡이(시작템)_SR,[임시] 1T 지팡이(시작템)_SR,,Equipment,205,Tier1,Common,1,0,100,1,Unbound,[22],1,911010505,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11010506,11010506,Dev,1T 장검(기본 제작)_SR,[임시] 1T 장검(기본 제작)_SR,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911010506,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11010507,11010507,Dev,1T 양손검(기본 제작)_SR,[임시] 1T 양손검(기본 제작)_SR,,Equipment,202,Tier1,Common,1,0,100,1,Unbound,[22],1,911010507,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11010508,11010508,Dev,1T 단검(기본 제작)_SR,[임시] 1T 단검(기본 제작)_SR,,Equipment,203,Tier1,Common,1,0,100,1,Unbound,[22],1,911010508,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11010509,11010509,Dev,1T 활(기본 제작)_SR,[임시] 1T 활(기본 제작)_SR,,Equipment,204,Tier1,Common,1,0,100,1,Unbound,[22],1,911010509,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11010510,11010510,Dev,1T 지팡이(기본 제작)_SR,[임시] 1T 지팡이(기본 제작)_SR,,Equipment,205,Tier1,Common,1,0,100,1,Unbound,[22],1,911010510,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11020001,11020001,Dev,2T 장검(전리품 제작),[임시] 2T 장검(전리품 제작),,Equipment,0,Tier2,Common,1,0,500,1,Unbound,[22],1,811020001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11020002,11020002,Dev,2T 양손검(전리품 제작),[임시] 2T 양손검(전리품 제작),,Equipment,202,Tier2,Common,1,0,500,1,Unbound,[22],1,811020002,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11020003,11020003,Dev,2T 단검(전리품 제작),[임시] 2T 단검(전리품 제작),,Equipment,203,Tier2,Common,1,0,500,1,Unbound,[22],1,811020003,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11020004,11020004,Dev,2T 활(전리품 제작),[임시] 2T 활(전리품 제작),,Equipment,204,Tier2,Common,1,0,500,1,Unbound,[22],1,811020004,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11020005,11020005,Dev,2T 지팡이(전리품 제작),[임시] 2T 지팡이(전리품 제작),,Equipment,205,Tier2,Common,1,0,500,1,Unbound,[22],1,811020005,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11020006,11020006,Dev,2T 장검(던전 코어),[임시] 2T 장검(던전 코어),,Equipment,0,Tier2,Common,1,0,500,1,Unbound,[22],1,811020006,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11020007,11020007,Dev,2T 양손검(던전 코어),[임시] 2T 양손검(던전 코어),,Equipment,202,Tier2,Common,1,0,500,1,Unbound,[22],1,811020007,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11020008,11020008,Dev,2T 단검(던전 코어),[임시] 2T 단검(던전 코어),,Equipment,203,Tier2,Common,1,0,500,1,Unbound,[22],1,811020008,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11020009,11020009,Dev,2T 활(던전 코어),[임시] 2T 활(던전 코어),,Equipment,204,Tier2,Common,1,0,500,1,Unbound,[22],1,811020009,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11020010,11020010,Dev,2T 지팡이(던전 코어),[임시] 2T 지팡이(던전 코어),,Equipment,205,Tier2,Common,1,0,500,1,Unbound,[22],1,811020010,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11020501,11020501,Dev,2T 장검(전리품 제작)_SR,[임시] 2T 장검(전리품 제작)_SR,,Equipment,0,Tier2,Common,1,0,500,1,Unbound,[22],1,811020501,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11020502,11020502,Dev,2T 양손검(전리품 제작)_SR,[임시] 2T 양손검(전리품 제작)_SR,,Equipment,202,Tier2,Common,1,0,500,1,Unbound,[22],1,811020502,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11020503,11020503,Dev,2T 단검(전리품 제작)_SR,[임시] 2T 단검(전리품 제작)_SR,,Equipment,203,Tier2,Common,1,0,500,1,Unbound,[22],1,811020503,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11020504,11020504,Dev,2T 활(전리품 제작)_SR,[임시] 2T 활(전리품 제작)_SR,,Equipment,204,Tier2,Common,1,0,500,1,Unbound,[22],1,811020504,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11020505,11020505,Dev,2T 지팡이(전리품 제작)_SR,[임시] 2T 지팡이(전리품 제작)_SR,,Equipment,205,Tier2,Common,1,0,500,1,Unbound,[22],1,811020505,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11020506,11020506,Dev,2T 장검(던전 코어)_SR,[임시] 2T 장검(던전 코어)_SR,,Equipment,0,Tier2,Common,1,0,500,1,Unbound,[22],1,811020506,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11020507,11020507,Dev,2T 양손검(던전 코어)_SR,[임시] 2T 양손검(던전 코어)_SR,,Equipment,202,Tier2,Common,1,0,500,1,Unbound,[22],1,811020507,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11020508,11020508,Dev,2T 단검(던전 코어)_SR,[임시] 2T 단검(던전 코어)_SR,,Equipment,203,Tier2,Common,1,0,500,1,Unbound,[22],1,811020508,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11020509,11020509,Dev,2T 활(던전 코어)_SR,[임시] 2T 활(던전 코어)_SR,,Equipment,204,Tier2,Common,1,0,500,1,Unbound,[22],1,811020509,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11020510,11020510,Dev,2T 지팡이(던전 코어)_SR,[임시] 2T 지팡이(던전 코어)_SR,,Equipment,205,Tier2,Common,1,0,500,1,Unbound,[22],1,811020510,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11030001,11030001,Dev,3T 장검(전리품 제작),[임시] 3T 장검(전리품 제작),,Equipment,0,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11030002,11030002,Dev,3T 양손검(전리품 제작),[임시] 3T 양손검(전리품 제작),,Equipment,202,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030002,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11030003,11030003,Dev,3T 단검(전리품 제작),[임시] 3T 단검(전리품 제작),,Equipment,203,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030003,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11030004,11030004,Dev,3T 활(전리품 제작),[임시] 3T 활(전리품 제작),,Equipment,204,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030004,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11030005,11030005,Dev,3T 지팡이(전리품 제작),[임시] 3T 지팡이(전리품 제작),,Equipment,205,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030005,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11030006,11030006,Dev,3T 장검(던전 코어),[임시] 3T 장검(던전 코어),,Equipment,0,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030006,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11030007,11030007,Dev,3T 양손검(던전 코어),[임시] 3T 양손검(던전 코어),,Equipment,202,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030007,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11030008,11030008,Dev,3T 단검(던전 코어),[임시] 3T 단검(던전 코어),,Equipment,203,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030008,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11030009,11030009,Dev,3T 활(던전 코어),[임시] 3T 활(던전 코어),,Equipment,204,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030009,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11030010,11030010,Dev,3T 지팡이(던전 코어),[임시] 3T 지팡이(던전 코어),,Equipment,205,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030010,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11030011,11030011,Dev,3T 장검(드랍),[임시] 3T 장검(드랍),,Equipment,0,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030011,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11030012,11030012,Dev,3T 양손검(드랍),[임시] 3T 양손검(드랍),,Equipment,202,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030012,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11030013,11030013,Dev,3T 단검(드랍),[임시] 3T 단검(드랍),,Equipment,203,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030013,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11030014,11030014,Dev,3T 활(드랍),[임시] 3T 활(드랍),,Equipment,204,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030014,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11030015,11030015,Dev,3T 지팡이(드랍),[임시] 3T 지팡이(드랍),,Equipment,205,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030015,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11030501,11030501,Dev,3T 장검(전리품 제작)_SR,[임시] 3T 장검(전리품 제작)_SR,,Equipment,0,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030501,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11030502,11030502,Dev,3T 양손검(전리품 제작)_SR,[임시] 3T 양손검(전리품 제작)_SR,,Equipment,202,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030502,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11030503,11030503,Dev,3T 단검(전리품 제작)_SR,[임시] 3T 단검(전리품 제작)_SR,,Equipment,203,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030503,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11030504,11030504,Dev,3T 활(전리품 제작)_SR,[임시] 3T 활(전리품 제작)_SR,,Equipment,204,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030504,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11030505,11030505,Dev,3T 지팡이(전리품 제작)_SR,[임시] 3T 지팡이(전리품 제작)_SR,,Equipment,205,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030505,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11030506,11030506,Dev,3T 장검(던전 코어)_SR,[임시] 3T 장검(던전 코어)_SR,,Equipment,0,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030506,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11030507,11030507,Dev,3T 양손검(던전 코어)_SR,[임시] 3T 양손검(던전 코어)_SR,,Equipment,202,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030507,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11030508,11030508,Dev,3T 단검(던전 코어)_SR,[임시] 3T 단검(던전 코어)_SR,,Equipment,203,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030508,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11030509,11030509,Dev,3T 활(던전 코어)_SR,[임시] 3T 활(던전 코어)_SR,,Equipment,204,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030509,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11030510,11030510,Dev,3T 지팡이(던전 코어)_SR,[임시] 3T 지팡이(던전 코어)_SR,,Equipment,205,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030510,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11030511,11030511,Dev,3T 장검(드랍)_SR,[임시] 3T 장검(드랍)_SR,,Equipment,0,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030511,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11030512,11030512,Dev,3T 양손검(드랍)_SR,[임시] 3T 양손검(드랍)_SR,,Equipment,202,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030512,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11030513,11030513,Dev,3T 단검(드랍)_SR,[임시] 3T 단검(드랍)_SR,,Equipment,203,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030513,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11030514,11030514,Dev,3T 활(드랍)_SR,[임시] 3T 활(드랍)_SR,,Equipment,204,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030514,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11030515,11030515,Dev,3T 지팡이(드랍)_SR,[임시] 3T 지팡이(드랍)_SR,,Equipment,205,Tier3,Common,1,0,2000,1,Unbound,[22],1,711030515,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11040001,11040001,Dev,신규 1티어 무기 장검,[임시] 신규 1티어 무기 장검,,Equipment,0,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11040002,11040002,Dev,신규 1티어 무기 양손검,[임시] 신규 1티어 무기 양손검,,Equipment,202,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040002,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11040003,11040003,Dev,신규 1티어 무기 단검,[임시] 신규 1티어 무기 단검,,Equipment,203,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040003,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11040004,11040004,Dev,신규 1티어 무기 활,[임시] 신규 1티어 무기 활,,Equipment,204,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040004,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11040005,11040005,Dev,신규 1티어 무기 지팡이,[임시] 신규 1티어 무기 지팡이,,Equipment,205,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040005,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11040006,11040006,Dev,KA5 테스트 1T 장검,[임시] KA5 테스트 1T 장검,,Equipment,0,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040006,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11040007,11040007,Dev,용의 심안,[임시] 용의 심안,,Equipment,202,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040007,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11040008,11040008,Dev,KA5 테스트 1T 단검,[임시] KA5 테스트 1T 단검,,Equipment,203,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040008,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11040009,11040009,Dev,황혼의 송곳니,[임시] 황혼의 송곳니,,Equipment,204,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040009,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11040010,11040010,Dev,운명의 가지,[임시] 운명의 가지,,Equipment,205,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040010,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11040011,11040011,Dev,KA5 테스트 1T 장검,[임시] KA5 테스트 1T 장검,,Equipment,0,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040011,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11040012,11040012,Dev,용의 심안,[임시] 용의 심안,,Equipment,202,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040012,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11040013,11040013,Dev,KA5 테스트 1T 단검,[임시] KA5 테스트 1T 단검,,Equipment,203,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040013,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11040014,11040014,Dev,황혼의 송곳니,[임시] 황혼의 송곳니,,Equipment,204,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040014,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11040015,11040015,Dev,운명의 가지,[임시] 운명의 가지,,Equipment,205,Tier4,Common,1,0,5000,1,Unbound,[22],1,611040015,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11050001,11050001,Dev,5T 장검,[임시] 5T 장검,,Equipment,0,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11050002,11050002,Dev,5T 양손검,[임시] 5T 양손검,,Equipment,202,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050002,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11050003,11050003,Dev,5T 단검,[임시] 5T 단검,,Equipment,203,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050003,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11050004,11050004,Dev,5T 활,[임시] 5T 활,,Equipment,204,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050004,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11050005,11050005,Dev,5T 지팡이,[임시] 5T 지팡이,,Equipment,205,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050005,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11050006,11050006,Dev,5T 장검,[임시] 5T 장검,,Equipment,0,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050006,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11050007,11050007,Dev,5T 양손검,[임시] 5T 양손검,,Equipment,202,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050007,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11050008,11050008,Dev,5T 단검,[임시] 5T 단검,,Equipment,203,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050008,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11050009,11050009,Dev,5T 활,[임시] 5T 활,,Equipment,204,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050009,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11050010,11050010,Dev,5T 지팡이,[임시] 5T 지팡이,,Equipment,205,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050010,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11050011,11050011,Dev,5T 장검,[임시] 5T 장검,,Equipment,0,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050011,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11050012,11050012,Dev,5T 양손검,[임시] 5T 양손검,,Equipment,202,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050012,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11050013,11050013,Dev,5T 단검,[임시] 5T 단검,,Equipment,203,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050013,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11050014,11050014,Dev,5T 활,[임시] 5T 활,,Equipment,204,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050014,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11050015,11050015,Dev,5T 지팡이,[임시] 5T 지팡이,,Equipment,205,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050015,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11050016,11050016,Dev,5T 장검,[임시] 5T 장검,,Equipment,0,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050016,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11050017,11050017,Dev,5T 양손검,[임시] 5T 양손검,,Equipment,202,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050017,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11050018,11050018,Dev,5T 단검,[임시] 5T 단검,,Equipment,203,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050018,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11050019,11050019,Dev,5T 활,[임시] 5T 활,,Equipment,204,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050019,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11050020,11050020,Dev,5T 지팡이,[임시] 5T 지팡이,,Equipment,205,Tier5,Common,1,0,10000,1,Unbound,[22],1,511050020,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11060001,11060001,Dev,KA5 테스트 2T 장검,[임시] KA5 테스트 2T 장검,,Equipment,0,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11060002,11060002,Dev,유해의 왕관,[임시] 유해의 왕관,,Equipment,202,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060002,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11060003,11060003,Dev,KA5 테스트 2T 단검,[임시] KA5 테스트 2T 단검,,Equipment,203,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060003,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11060004,11060004,Dev,은월의 포효,[임시] 은월의 포효,,Equipment,204,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060004,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11060005,11060005,Dev,새벽별의 이정표,[임시] 새벽별의 이정표,,Equipment,205,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060005,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11060006,11060006,Dev,KA5 테스트 2T 장검,[임시] KA5 테스트 2T 장검,,Equipment,0,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060006,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11060007,11060007,Dev,유해의 왕관,[임시] 유해의 왕관,,Equipment,202,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060007,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11060008,11060008,Dev,KA5 테스트 2T 단검,[임시] KA5 테스트 2T 단검,,Equipment,203,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060008,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11060009,11060009,Dev,은월의 포효,[임시] 은월의 포효,,Equipment,204,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060009,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11060010,11060010,Dev,새벽별의 이정표,[임시] 새벽별의 이정표,,Equipment,205,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060010,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11060011,11060011,Dev,KA5 테스트 2T 장검,[임시] KA5 테스트 2T 장검,,Equipment,0,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060011,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11060012,11060012,Dev,유해의 왕관,[임시] 유해의 왕관,,Equipment,202,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060012,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11060013,11060013,Dev,KA5 테스트 2T 단검,[임시] KA5 테스트 2T 단검,,Equipment,203,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060013,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11060014,11060014,Dev,은월의 포효,[임시] 은월의 포효,,Equipment,204,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060014,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11060015,11060015,Dev,새벽별의 이정표,[임시] 새벽별의 이정표,,Equipment,205,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060015,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11060016,11060016,Dev,KA5 테스트 2T 장검,[임시] KA5 테스트 2T 장검,,Equipment,0,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060016,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11060017,11060017,Dev,유해의 왕관,[임시] 유해의 왕관,,Equipment,202,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060017,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11060018,11060018,Dev,KA5 테스트 2T 단검,[임시] KA5 테스트 2T 단검,,Equipment,203,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060018,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11060019,11060019,Dev,은월의 포효,[임시] 은월의 포효,,Equipment,204,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060019,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11060020,11060020,Dev,새벽별의 이정표,[임시] 새벽별의 이정표,,Equipment,205,Tier6,Common,1,0,20000,1,Unbound,[22],1,411060020,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11070001,11070001,Dev,7T 장검,[임시] 7T 장검,,Equipment,0,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11070002,11070002,Dev,7T 양손검,[임시] 7T 양손검,,Equipment,202,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070002,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11070003,11070003,Dev,7T 단검,[임시] 7T 단검,,Equipment,203,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070003,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11070004,11070004,Dev,7T 활,[임시] 7T 활,,Equipment,204,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070004,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11070005,11070005,Dev,7T 지팡이,[임시] 7T 지팡이,,Equipment,205,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070005,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11070006,11070006,Dev,7T 장검,[임시] 7T 장검,,Equipment,0,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070006,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11070007,11070007,Dev,7T 양손검,[임시] 7T 양손검,,Equipment,202,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070007,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11070008,11070008,Dev,7T 단검,[임시] 7T 단검,,Equipment,203,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070008,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11070009,11070009,Dev,7T 활,[임시] 7T 활,,Equipment,204,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070009,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11070010,11070010,Dev,7T 지팡이,[임시] 7T 지팡이,,Equipment,205,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070010,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11070011,11070011,Dev,7T 장검,[임시] 7T 장검,,Equipment,0,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070011,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11070012,11070012,Dev,7T 양손검,[임시] 7T 양손검,,Equipment,202,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070012,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11070013,11070013,Dev,7T 단검,[임시] 7T 단검,,Equipment,203,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070013,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11070014,11070014,Dev,7T 활,[임시] 7T 활,,Equipment,204,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070014,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11070015,11070015,Dev,7T 지팡이,[임시] 7T 지팡이,,Equipment,205,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070015,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11070016,11070016,Dev,7T 장검,[임시] 7T 장검,,Equipment,0,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070016,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11070017,11070017,Dev,7T 양손검,[임시] 7T 양손검,,Equipment,202,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070017,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11070018,11070018,Dev,7T 단검,[임시] 7T 단검,,Equipment,203,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070018,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11070019,11070019,Dev,7T 활,[임시] 7T 활,,Equipment,204,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070019,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11070020,11070020,Dev,7T 지팡이,[임시] 7T 지팡이,,Equipment,205,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070020,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11070021,11070021,Dev,7T 장검,[임시] 7T 장검,,Equipment,0,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070021,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11070022,11070022,Dev,7T 양손검,[임시] 7T 양손검,,Equipment,202,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070022,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11070023,11070023,Dev,7T 단검,[임시] 7T 단검,,Equipment,203,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070023,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11070024,11070024,Dev,7T 활,[임시] 7T 활,,Equipment,204,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070024,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11070025,11070025,Dev,7T 지팡이,[임시] 7T 지팡이,,Equipment,205,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070025,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11070026,11070026,Dev,7T 장검,[임시] 7T 장검,,Equipment,0,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070026,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11070027,11070027,Dev,7T 양손검,[임시] 7T 양손검,,Equipment,202,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070027,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11070028,11070028,Dev,7T 단검,[임시] 7T 단검,,Equipment,203,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070028,FALSE,0,,,FALSE,FALSE,Dagger,0,999
+11070029,11070029,Dev,7T 활,[임시] 7T 활,,Equipment,204,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070029,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11070030,11070030,Dev,7T 지팡이,[임시] 7T 지팡이,,Equipment,205,Tier7,Common,1,0,50000,1,Unbound,[22],1,311070030,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11099001,11099001,Dev,심씨 테스트 무기,,,Equipment,202,Tier1,Common,1,0,100,1,Unbound,[22],1,911099001,FALSE,0,,,FALSE,FALSE,TwohandSword,0,999
+11099002,11099002,Dev,테스트 장검,데미갓 장검,성스러운 힘으로 망령된 것을 파괴하는 무기입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099002,FALSE,0,,,TRUE,FALSE,OnehandSword,0,999
+11099003,11099003,Dev,테스트 양손검,데미갓 양손검,성스러운 힘으로 망령된 것을 파괴하는 무기입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099003,FALSE,0,,,TRUE,FALSE,TwohandSword,0,999
+11099004,11099004,Dev,테스트 단검,데미갓 단검,성스러운 힘으로 망령된 것을 파괴하는 무기입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099004,FALSE,0,,,TRUE,FALSE,Dagger,0,999
+11099005,11099005,Dev,테스트 활,데미갓 활,성스러운 힘으로 망령된 것을 파괴하는 무기입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099005,FALSE,0,,,TRUE,FALSE,Bow,0,999
+11099006,11099006,Dev,테스트 지팡이,데미갓 지팡이,성스러운 힘으로 망령된 것을 파괴하는 무기입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099006,FALSE,0,,,TRUE,FALSE,Staff,0,999
+11099007,11099007,Dev,횃불,횃불,횃불입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099007,FALSE,0,,,FALSE,FALSE,Staff,0,999
+11099008,11099008,Dev,몬스터 버프 무기,몬스터 버프 무기,몬스터 버프 무기,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099008,FALSE,0,,,FALSE,FALSE,Bow,0,999
+11099009,11099009,Dev,기절,기절,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099009,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099010,11099010,Dev,무적,무적,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099010,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099011,11099011,Dev,속박,속박,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099011,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099012,11099012,Dev,어둠,어둠,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099012,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099013,11099013,Dev,침묵,침묵,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099013,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099014,11099014,Dev,빙결,빙결,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099014,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099015,11099015,Dev,타겟팅 무시,타겟팅 무시,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099015,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099016,11099016,Dev,PVP 불가,PVP 불가,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099016,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099017,11099017,Dev,PVE 불가,PVE 불가,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099017,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099018,11099018,Dev,탑승 불가,탑승 불가,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099018,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099019,11099019,Dev,성문,성문,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099019,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099020,11099020,Dev,소환,소환,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099020,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099021,11099021,Dev,피해 면역,피해 면역,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099021,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099022,11099022,Dev,은신,은신,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099022,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099023,11099023,Dev,지속 은신,지속 은신,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099023,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099024,11099024,Dev,저지 불가,저지 불가,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099024,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099025,11099025,Dev,석화,석화,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099025,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099026,11099026,Dev,부유,부유,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099026,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099027,11099027,Dev,수면,수면,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099027,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099028,11099028,Dev,부쉬 은신,부쉬 은신,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099028,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099029,11099029,Dev,스탯 복수 설정 양손검 1T,스탯 복수 설정 양손검 1T,테스트용 장비입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,911099029,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+11099030,11099030,Dev,스탯 복수 설정 양손검 3T,스탯 복수 설정 양손검 3T,테스트용 장비입니다.,Equipment,0,Tier3,Common,1,0,100,1,Unbound,[22],1,711099030,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+12010001,12010001,Dev,1T 판금 투구(기본템),[임시] 1T 판금 투구(기본템),,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+12010002,12010002,Dev,1T 가죽 투구(기본템),[임시] 1T 가죽 투구(기본템),,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010002,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+12010003,12010003,Dev,1T 천 투구(기본템),[임시] 1T 천 투구(기본템),,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010003,FALSE,0,,,FALSE,FALSE,,0,999
+12010004,12010004,Dev,1T 판금 갑옷(기본템),[임시] 1T 판금 갑옷(기본템),,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010004,FALSE,0,,,FALSE,FALSE,,0,999
+12010005,12010005,Dev,1T 가죽 갑옷(기본템),[임시] 1T 가죽 갑옷(기본템),,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010005,FALSE,0,,,FALSE,FALSE,,0,999
+12010006,12010006,Dev,1T 천 갑옷(기본템),[임시] 1T 천 갑옷(기본템),,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010006,FALSE,0,,,FALSE,FALSE,,0,999
+12010007,12010007,Dev,1T 판금 장갑(기본템),[임시] 1T 판금 장갑(기본템),,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010007,FALSE,0,,,FALSE,FALSE,,0,999
+12010008,12010008,Dev,1T 가죽 장갑(기본템),[임시] 1T 가죽 장갑(기본템),,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010008,FALSE,0,,,FALSE,FALSE,,0,999
+12010009,12010009,Dev,1T 천 장갑(기본템),[임시] 1T 천 장갑(기본템),,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010009,FALSE,0,,,FALSE,FALSE,,0,999
+12010010,12010010,Dev,1T 판금 신발(기본템),[임시] 1T 판금 신발(기본템),,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010010,FALSE,0,,,FALSE,FALSE,,0,999
+12010011,12010011,Dev,1T 가죽 신발(기본템),[임시] 1T 가죽 신발(기본템),,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010011,FALSE,0,,,FALSE,FALSE,,0,999
+12010012,12010012,Dev,1T 천 신발(기본템),[임시] 1T 천 신발(기본템),,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010012,FALSE,0,,,FALSE,FALSE,,0,999
+12010501,12010501,Dev,1T 판금 투구(기본템)_SR,[임시] 1T 판금 투구(기본템)_SR,,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010001,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+12010502,12010502,Dev,1T 가죽 투구(기본템)_SR,[임시] 1T 가죽 투구(기본템)_SR,,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010002,FALSE,0,,,FALSE,FALSE,OnehandSword,0,999
+12010503,12010503,Dev,1T 천 투구(기본템)_SR,[임시] 1T 천 투구(기본템)_SR,,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010003,FALSE,0,,,FALSE,FALSE,,0,999
+12010504,12010504,Dev,1T 판금 갑옷(기본템)_SR,[임시] 1T 판금 갑옷(기본템)_SR,,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010004,FALSE,0,,,FALSE,FALSE,,0,999
+12010505,12010505,Dev,1T 가죽 갑옷(기본템)_SR,[임시] 1T 가죽 갑옷(기본템)_SR,,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010005,FALSE,0,,,FALSE,FALSE,,0,999
+12010506,12010506,Dev,1T 천 갑옷(기본템)_SR,[임시] 1T 천 갑옷(기본템)_SR,,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010006,FALSE,0,,,FALSE,FALSE,,0,999
+12010507,12010507,Dev,1T 판금 장갑(기본템)_SR,[임시] 1T 판금 장갑(기본템)_SR,,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010007,FALSE,0,,,FALSE,FALSE,,0,999
+12010508,12010508,Dev,1T 가죽 장갑(기본템)_SR,[임시] 1T 가죽 장갑(기본템)_SR,,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010008,FALSE,0,,,FALSE,FALSE,,0,999
+12010509,12010509,Dev,1T 천 장갑(기본템)_SR,[임시] 1T 천 장갑(기본템)_SR,,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010009,FALSE,0,,,FALSE,FALSE,,0,999
+12010510,12010510,Dev,1T 판금 신발(기본템)_SR,[임시] 1T 판금 신발(기본템)_SR,,Equipment,301,Tier1,Common,1,0,100,1,Unbound,[22],1,912010010,FALSE,0,,,FALSE,FALSE,,0,999
+12010511,12010511,Dev,1T 가죽 신발(기본템)_SR,[임시] 1T 가죽 신발(기본템)_SR,,Equipment,302,Tier1,Common,1,0,100,1,Unbound,[22],1,912010011,FALSE,0,,,FALSE,FALSE,,0,999
+12010512,12010512,Dev,1T 천 신발(기본템)_SR,[임시] 1T 천 신발(기본템)_SR,,Equipment,303,Tier1,Common,1,0,100,1,Unbound,[22],1,912010012,FALSE,0,,,FALSE,FALSE,,0,999
+12020001,12020001,Dev,2T 판금 투구(전리품 제작),[임시] 2T 판금 투구(전리품 제작),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020001,FALSE,0,,,FALSE,FALSE,,0,999
+12020002,12020002,Dev,2T 가죽 투구(전리품 제작),[임시] 2T 가죽 투구(전리품 제작),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020002,FALSE,0,,,FALSE,FALSE,,0,999
+12020003,12020003,Dev,2T 천 투구(전리품 제작),[임시] 2T 천 투구(전리품 제작),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020003,FALSE,0,,,FALSE,FALSE,,0,999
+12020004,12020004,Dev,2T 판금 장갑(전리품 제작),[임시] 2T 판금 장갑(전리품 제작),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020007,FALSE,0,,,FALSE,FALSE,,0,999
+12020005,12020005,Dev,2T 가죽 장갑(전리품 제작),[임시] 2T 가죽 장갑(전리품 제작),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020008,FALSE,0,,,FALSE,FALSE,,0,999
+12020006,12020006,Dev,2T 천 장갑(전리품 제작),[임시] 2T 천 장갑(전리품 제작),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020009,FALSE,0,,,FALSE,FALSE,,0,999
+12020007,12020007,Dev,2T 판금 신발(전리품 제작),[임시] 2T 판금 신발(전리품 제작),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020010,FALSE,0,,,FALSE,FALSE,,0,999
+12020008,12020008,Dev,2T 가죽 신발(전리품 제작),[임시] 2T 가죽 신발(전리품 제작),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020011,FALSE,0,,,FALSE,FALSE,,0,999
+12020009,12020009,Dev,2T 천 신발(전리품 제작),[임시] 2T 천 신발(전리품 제작),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020012,FALSE,0,,,FALSE,FALSE,,0,999
+12020010,12020010,Dev,2T 판금 투구(전리품 제작),[임시] 2T 판금 투구(전리품 제작),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020001,FALSE,0,,,FALSE,FALSE,,0,999
+12020011,12020011,Dev,2T 가죽 투구(전리품 제작),[임시] 2T 가죽 투구(전리품 제작),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020002,FALSE,0,,,FALSE,FALSE,,0,999
+12020012,12020012,Dev,2T 천 투구(전리품 제작),[임시] 2T 천 투구(전리품 제작),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020003,FALSE,0,,,FALSE,FALSE,,0,999
+12020013,12020013,Dev,2T 판금 갑옷(던전 코어),[임시] 2T 판금 갑옷(던전 코어),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020016,FALSE,0,,,FALSE,FALSE,,0,999
+12020014,12020014,Dev,2T 판금 갑옷(던전 코어),[임시] 2T 판금 갑옷(던전 코어),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020017,FALSE,0,,,FALSE,FALSE,,0,999
+12020015,12020015,Dev,2T 가죽 갑옷(던전 코어),[임시] 2T 가죽 갑옷(던전 코어),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020018,FALSE,0,,,FALSE,FALSE,,0,999
+12020016,12020016,Dev,2T 가죽 갑옷(던전 코어),[임시] 2T 가죽 갑옷(던전 코어),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020016,FALSE,0,,,FALSE,FALSE,,0,999
+12020017,12020017,Dev,2T 천 갑옷(던전 코어),[임시] 2T 천 갑옷(던전 코어),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020017,FALSE,0,,,FALSE,FALSE,,0,999
+12020018,12020018,Dev,2T 천 갑옷(던전 코어),[임시] 2T 천 갑옷(던전 코어),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020018,FALSE,0,,,FALSE,FALSE,,0,999
+12020019,12020019,Dev,2T 판금 장갑(던전 코어),[임시] 2T 판금 장갑(던전 코어),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020019,FALSE,0,,,FALSE,FALSE,,0,999
+12020020,12020020,Dev,2T 가죽 장갑(던전 코어),[임시] 2T 가죽 장갑(던전 코어),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020020,FALSE,0,,,FALSE,FALSE,,0,999
+12020021,12020021,Dev,2T 천 장갑(던전 코어),[임시] 2T 천 장갑(던전 코어),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020021,FALSE,0,,,FALSE,FALSE,,0,999
+12020022,12020022,Dev,2T 판금 신발(드랍),[임시] 2T 판금 신발(드랍),,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020010,FALSE,0,,,FALSE,FALSE,,0,999
+12020023,12020023,Dev,2T 가죽 신발(드랍),[임시] 2T 가죽 신발(드랍),,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020011,FALSE,0,,,FALSE,FALSE,,0,999
+12020024,12020024,Dev,2T 천 신발(드랍),[임시] 2T 천 신발(드랍),,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020012,FALSE,0,,,FALSE,FALSE,,0,999
+12020501,12020501,Dev,2T 판금 투구(전리품 제작)_SR,[임시] 2T 판금 투구(전리품 제작)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020001,FALSE,0,,,FALSE,FALSE,,0,999
+12020502,12020502,Dev,2T 가죽 투구(전리품 제작)_SR,[임시] 2T 가죽 투구(전리품 제작)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020002,FALSE,0,,,FALSE,FALSE,,0,999
+12020503,12020503,Dev,2T 천 투구(전리품 제작)_SR,[임시] 2T 천 투구(전리품 제작)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020003,FALSE,0,,,FALSE,FALSE,,0,999
+12020504,12020504,Dev,2T 판금 장갑(전리품 제작)_SR,[임시] 2T 판금 장갑(전리품 제작)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020007,FALSE,0,,,FALSE,FALSE,,0,999
+12020505,12020505,Dev,2T 가죽 장갑(전리품 제작)_SR,[임시] 2T 가죽 장갑(전리품 제작)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020008,FALSE,0,,,FALSE,FALSE,,0,999
+12020506,12020506,Dev,2T 천 장갑(전리품 제작)_SR,[임시] 2T 천 장갑(전리품 제작)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020009,FALSE,0,,,FALSE,FALSE,,0,999
+12020507,12020507,Dev,2T 판금 신발(전리품 제작)_SR,[임시] 2T 판금 신발(전리품 제작)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020010,FALSE,0,,,FALSE,FALSE,,0,999
+12020508,12020508,Dev,2T 가죽 신발(전리품 제작)_SR,[임시] 2T 가죽 신발(전리품 제작)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020011,FALSE,0,,,FALSE,FALSE,,0,999
+12020509,12020509,Dev,2T 천 신발(전리품 제작)_SR,[임시] 2T 천 신발(전리품 제작)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020012,FALSE,0,,,FALSE,FALSE,,0,999
+12020510,12020510,Dev,2T 판금 투구(전리품 제작)_SR,[임시] 2T 판금 투구(전리품 제작)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020001,FALSE,0,,,FALSE,FALSE,,0,999
+12020511,12020511,Dev,2T 가죽 투구(전리품 제작)_SR,[임시] 2T 가죽 투구(전리품 제작)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020002,FALSE,0,,,FALSE,FALSE,,0,999
+12020512,12020512,Dev,2T 천 투구(전리품 제작)_SR,[임시] 2T 천 투구(전리품 제작)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020003,FALSE,0,,,FALSE,FALSE,,0,999
+12020513,12020513,Dev,2T 판금 갑옷(던전 코어)_SR,[임시] 2T 판금 갑옷(던전 코어)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020016,FALSE,0,,,FALSE,FALSE,,0,999
+12020514,12020514,Dev,2T 판금 갑옷(던전 코어)_SR,[임시] 2T 판금 갑옷(던전 코어)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020017,FALSE,0,,,FALSE,FALSE,,0,999
+12020515,12020515,Dev,2T 가죽 갑옷(던전 코어)_SR,[임시] 2T 가죽 갑옷(던전 코어)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020018,FALSE,0,,,FALSE,FALSE,,0,999
+12020516,12020516,Dev,2T 가죽 갑옷(던전 코어)_SR,[임시] 2T 가죽 갑옷(던전 코어)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020016,FALSE,0,,,FALSE,FALSE,,0,999
+12020517,12020517,Dev,2T 천 갑옷(던전 코어)_SR,[임시] 2T 천 갑옷(던전 코어)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020017,FALSE,0,,,FALSE,FALSE,,0,999
+12020518,12020518,Dev,2T 천 갑옷(던전 코어)_SR,[임시] 2T 천 갑옷(던전 코어)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020018,FALSE,0,,,FALSE,FALSE,,0,999
+12020519,12020519,Dev,2T 판금 장갑(던전 코어)_SR,[임시] 2T 판금 장갑(던전 코어)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020019,FALSE,0,,,FALSE,FALSE,,0,999
+12020520,12020520,Dev,2T 가죽 장갑(던전 코어)_SR,[임시] 2T 가죽 장갑(던전 코어)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020020,FALSE,0,,,FALSE,FALSE,,0,999
+12020521,12020521,Dev,2T 천 장갑(던전 코어)_SR,[임시] 2T 천 장갑(던전 코어)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020021,FALSE,0,,,FALSE,FALSE,,0,999
+12020522,12020522,Dev,2T 판금 신발(드랍)_SR,[임시] 2T 판금 신발(드랍)_SR,,Equipment,301,Tier2,Common,1,0,500,1,Unbound,[22],1,812020010,FALSE,0,,,FALSE,FALSE,,0,999
+12020523,12020523,Dev,2T 가죽 신발(드랍)_SR,[임시] 2T 가죽 신발(드랍)_SR,,Equipment,302,Tier2,Common,1,0,500,1,Unbound,[22],1,812020011,FALSE,0,,,FALSE,FALSE,,0,999
+12020524,12020524,Dev,2T 천 신발(드랍)_SR,[임시] 2T 천 신발(드랍)_SR,,Equipment,303,Tier2,Common,1,0,500,1,Unbound,[22],1,812020012,FALSE,0,,,FALSE,FALSE,,0,999
+12030001,12030001,Dev,3T 판금 투구(전리품 제작),[임시] 3T 판금 투구(전리품 제작),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030001,FALSE,0,,,FALSE,FALSE,,0,999
+12030002,12030002,Dev,3T 가죽 투구(전리품 제작),[임시] 3T 가죽 투구(전리품 제작),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030002,FALSE,0,,,FALSE,FALSE,,0,999
+12030003,12030003,Dev,3T 천 투구(전리품 제작),[임시] 3T 천 투구(전리품 제작),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030003,FALSE,0,,,FALSE,FALSE,,0,999
+12030004,12030004,Dev,3T 판금 갑옷(전리품 제작),[임시] 3T 판금 갑옷(전리품 제작),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030004,FALSE,0,,,FALSE,FALSE,,0,999
+12030005,12030005,Dev,3T 가죽 갑옷(전리품 제작),[임시] 3T 가죽 갑옷(전리품 제작),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030005,FALSE,0,,,FALSE,FALSE,,0,999
+12030006,12030006,Dev,3T 천 갑옷(전리품 제작),[임시] 3T 천 갑옷(전리품 제작),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030006,FALSE,0,,,FALSE,FALSE,,0,999
+12030007,12030007,Dev,3T 판금 장갑(전리품 제작),[임시] 3T 판금 장갑(전리품 제작),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030007,FALSE,0,,,FALSE,FALSE,,0,999
+12030008,12030008,Dev,3T 판금 장갑(전리품 제작),[임시] 3T 판금 장갑(전리품 제작),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030008,FALSE,0,,,FALSE,FALSE,,0,999
+12030009,12030009,Dev,3T 가죽 장갑(전리품 제작),[임시] 3T 가죽 장갑(전리품 제작),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030009,FALSE,0,,,FALSE,FALSE,,0,999
+12030010,12030010,Dev,3T 가죽 장갑(전리품 제작),[임시] 3T 가죽 장갑(전리품 제작),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030007,FALSE,0,,,FALSE,FALSE,,0,999
+12030011,12030011,Dev,3T 천 장갑(전리품 제작),[임시] 3T 천 장갑(전리품 제작),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030008,FALSE,0,,,FALSE,FALSE,,0,999
+12030012,12030012,Dev,3T 천 장갑(전리품 제작),[임시] 3T 천 장갑(전리품 제작),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030009,FALSE,0,,,FALSE,FALSE,,0,999
+12030013,12030013,Dev,3T 판금 투구(던전 코어),[임시] 3T 판금 투구(던전 코어),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030013,FALSE,0,,,FALSE,FALSE,,0,999
+12030014,12030014,Dev,3T 가죽 투구(던전 코어),[임시] 3T 가죽 투구(던전 코어),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030014,FALSE,0,,,FALSE,FALSE,,0,999
+12030015,12030015,Dev,3T 천 투구(던전 코어),[임시] 3T 천 투구(던전 코어),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030015,FALSE,0,,,FALSE,FALSE,,0,999
+12030016,12030016,Dev,3T 판금 갑옷(던전 코어),[임시] 3T 판금 갑옷(던전 코어),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030016,FALSE,0,,,FALSE,FALSE,,0,999
+12030017,12030017,Dev,3T 가죽 갑옷(던전 코어),[임시] 3T 가죽 갑옷(던전 코어),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030017,FALSE,0,,,FALSE,FALSE,,0,999
+12030018,12030018,Dev,3T 천 갑옷(던전 코어),[임시] 3T 천 갑옷(던전 코어),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030018,FALSE,0,,,FALSE,FALSE,,0,999
+12030019,12030019,Dev,3T 판금 장갑(던전 코어),[임시] 3T 판금 장갑(던전 코어),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030019,FALSE,0,,,FALSE,FALSE,,0,999
+12030020,12030020,Dev,3T 가죽 장갑(던전 코어),[임시] 3T 가죽 장갑(던전 코어),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030020,FALSE,0,,,FALSE,FALSE,,0,999
+12030021,12030021,Dev,3T 천 장갑(던전 코어),[임시] 3T 천 장갑(던전 코어),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030021,FALSE,0,,,FALSE,FALSE,,0,999
+12030022,12030022,Dev,3T 판금 신발(던전 코어),[임시] 3T 판금 신발(던전 코어),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030022,FALSE,0,,,FALSE,FALSE,,0,999
+12030023,12030023,Dev,3T 가죽 신발(던전 코어),[임시] 3T 가죽 신발(던전 코어),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030023,FALSE,0,,,FALSE,FALSE,,0,999
+12030024,12030024,Dev,3T 천 신발(던전 코어),[임시] 3T 천 신발(던전 코어),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030024,FALSE,0,,,FALSE,FALSE,,0,999
+12030025,12030025,Dev,3T 판금 투구(드랍),[임시] 3T 판금 투구(드랍),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030025,FALSE,0,,,FALSE,FALSE,,0,999
+12030026,12030026,Dev,3T 가죽 투구(드랍),[임시] 3T 가죽 투구(드랍),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030026,FALSE,0,,,FALSE,FALSE,,0,999
+12030027,12030027,Dev,3T 천 투구(드랍),[임시] 3T 천 투구(드랍),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030027,FALSE,0,,,FALSE,FALSE,,0,999
+12030028,12030028,Dev,3T 판금 갑옷(드랍),[임시] 3T 판금 갑옷(드랍),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030028,FALSE,0,,,FALSE,FALSE,,0,999
+12030029,12030029,Dev,3T 가죽 갑옷(드랍),[임시] 3T 가죽 갑옷(드랍),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030029,FALSE,0,,,FALSE,FALSE,,0,999
+12030030,12030030,Dev,3T 천 갑옷(드랍),[임시] 3T 천 갑옷(드랍),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030030,FALSE,0,,,FALSE,FALSE,,0,999
+12030031,12030031,Dev,3T 판금 신발(드랍),[임시] 3T 판금 신발(드랍),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030034,FALSE,0,,,FALSE,FALSE,,0,999
+12030032,12030032,Dev,3T 판금 신발(드랍),[임시] 3T 판금 신발(드랍),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030035,FALSE,0,,,FALSE,FALSE,,0,999
+12030033,12030033,Dev,3T 판금 신발(드랍),[임시] 3T 판금 신발(드랍),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030036,FALSE,0,,,FALSE,FALSE,,0,999
+12030034,12030034,Dev,3T 가죽 신발(드랍),[임시] 3T 가죽 신발(드랍),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030034,FALSE,0,,,FALSE,FALSE,,0,999
+12030035,12030035,Dev,3T 가죽 신발(드랍),[임시] 3T 가죽 신발(드랍),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030035,FALSE,0,,,FALSE,FALSE,,0,999
+12030036,12030036,Dev,3T 가죽 신발(드랍),[임시] 3T 가죽 신발(드랍),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030036,FALSE,0,,,FALSE,FALSE,,0,999
+12030037,12030037,Dev,3T 천 신발(드랍),[임시] 3T 천 신발(드랍),,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030034,FALSE,0,,,FALSE,FALSE,,0,999
+12030038,12030038,Dev,3T 천 신발(드랍),[임시] 3T 천 신발(드랍),,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030035,FALSE,0,,,FALSE,FALSE,,0,999
+12030039,12030039,Dev,3T 천 신발(드랍),[임시] 3T 천 신발(드랍),,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030036,FALSE,0,,,FALSE,FALSE,,0,999
+12030501,12030501,Dev,3T 판금 투구(전리품 제작)_SR,[임시] 3T 판금 투구(전리품 제작)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030001,FALSE,0,,,FALSE,FALSE,,0,999
+12030502,12030502,Dev,3T 가죽 투구(전리품 제작)_SR,[임시] 3T 가죽 투구(전리품 제작)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030002,FALSE,0,,,FALSE,FALSE,,0,999
+12030503,12030503,Dev,3T 천 투구(전리품 제작)_SR,[임시] 3T 천 투구(전리품 제작)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030003,FALSE,0,,,FALSE,FALSE,,0,999
+12030504,12030504,Dev,3T 판금 갑옷(전리품 제작)_SR,[임시] 3T 판금 갑옷(전리품 제작)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030004,FALSE,0,,,FALSE,FALSE,,0,999
+12030505,12030505,Dev,3T 가죽 갑옷(전리품 제작)_SR,[임시] 3T 가죽 갑옷(전리품 제작)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030005,FALSE,0,,,FALSE,FALSE,,0,999
+12030506,12030506,Dev,3T 천 갑옷(전리품 제작)_SR,[임시] 3T 천 갑옷(전리품 제작)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030006,FALSE,0,,,FALSE,FALSE,,0,999
+12030507,12030507,Dev,3T 판금 장갑(전리품 제작)_SR,[임시] 3T 판금 장갑(전리품 제작)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030007,FALSE,0,,,FALSE,FALSE,,0,999
+12030508,12030508,Dev,3T 판금 장갑(전리품 제작)_SR,[임시] 3T 판금 장갑(전리품 제작)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030008,FALSE,0,,,FALSE,FALSE,,0,999
+12030509,12030509,Dev,3T 가죽 장갑(전리품 제작)_SR,[임시] 3T 가죽 장갑(전리품 제작)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030009,FALSE,0,,,FALSE,FALSE,,0,999
+12030510,12030510,Dev,3T 가죽 장갑(전리품 제작)_SR,[임시] 3T 가죽 장갑(전리품 제작)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030007,FALSE,0,,,FALSE,FALSE,,0,999
+12030511,12030511,Dev,3T 천 장갑(전리품 제작)_SR,[임시] 3T 천 장갑(전리품 제작)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030008,FALSE,0,,,FALSE,FALSE,,0,999
+12030512,12030512,Dev,3T 천 장갑(전리품 제작)_SR,[임시] 3T 천 장갑(전리품 제작)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030009,FALSE,0,,,FALSE,FALSE,,0,999
+12030513,12030513,Dev,3T 판금 투구(던전 코어)_SR,[임시] 3T 판금 투구(던전 코어)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030013,FALSE,0,,,FALSE,FALSE,,0,999
+12030514,12030514,Dev,3T 가죽 투구(던전 코어)_SR,[임시] 3T 가죽 투구(던전 코어)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030014,FALSE,0,,,FALSE,FALSE,,0,999
+12030515,12030515,Dev,3T 천 투구(던전 코어)_SR,[임시] 3T 천 투구(던전 코어)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030015,FALSE,0,,,FALSE,FALSE,,0,999
+12030516,12030516,Dev,3T 판금 갑옷(던전 코어)_SR,[임시] 3T 판금 갑옷(던전 코어)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030016,FALSE,0,,,FALSE,FALSE,,0,999
+12030517,12030517,Dev,3T 가죽 갑옷(던전 코어)_SR,[임시] 3T 가죽 갑옷(던전 코어)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030017,FALSE,0,,,FALSE,FALSE,,0,999
+12030518,12030518,Dev,3T 천 갑옷(던전 코어)_SR,[임시] 3T 천 갑옷(던전 코어)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030018,FALSE,0,,,FALSE,FALSE,,0,999
+12030519,12030519,Dev,3T 판금 장갑(던전 코어)_SR,[임시] 3T 판금 장갑(던전 코어)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030019,FALSE,0,,,FALSE,FALSE,,0,999
+12030520,12030520,Dev,3T 가죽 장갑(던전 코어)_SR,[임시] 3T 가죽 장갑(던전 코어)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030020,FALSE,0,,,FALSE,FALSE,,0,999
+12030521,12030521,Dev,3T 천 장갑(던전 코어)_SR,[임시] 3T 천 장갑(던전 코어)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030021,FALSE,0,,,FALSE,FALSE,,0,999
+12030522,12030522,Dev,3T 판금 신발(던전 코어)_SR,[임시] 3T 판금 신발(던전 코어)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030022,FALSE,0,,,FALSE,FALSE,,0,999
+12030523,12030523,Dev,3T 가죽 신발(던전 코어)_SR,[임시] 3T 가죽 신발(던전 코어)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030023,FALSE,0,,,FALSE,FALSE,,0,999
+12030524,12030524,Dev,3T 천 신발(던전 코어)_SR,[임시] 3T 천 신발(던전 코어)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030024,FALSE,0,,,FALSE,FALSE,,0,999
+12030525,12030525,Dev,3T 판금 투구(드랍)_SR,[임시] 3T 판금 투구(드랍)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030025,FALSE,0,,,FALSE,FALSE,,0,999
+12030526,12030526,Dev,3T 가죽 투구(드랍)_SR,[임시] 3T 가죽 투구(드랍)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030026,FALSE,0,,,FALSE,FALSE,,0,999
+12030527,12030527,Dev,3T 천 투구(드랍)_SR,[임시] 3T 천 투구(드랍)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030027,FALSE,0,,,FALSE,FALSE,,0,999
+12030528,12030528,Dev,3T 판금 갑옷(드랍)_SR,[임시] 3T 판금 갑옷(드랍)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030028,FALSE,0,,,FALSE,FALSE,,0,999
+12030529,12030529,Dev,3T 가죽 갑옷(드랍)_SR,[임시] 3T 가죽 갑옷(드랍)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030029,FALSE,0,,,FALSE,FALSE,,0,999
+12030530,12030530,Dev,3T 천 갑옷(드랍)_SR,[임시] 3T 천 갑옷(드랍)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030030,FALSE,0,,,FALSE,FALSE,,0,999
+12030531,12030531,Dev,3T 판금 신발(드랍)_SR,[임시] 3T 판금 신발(드랍)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030034,FALSE,0,,,FALSE,FALSE,,0,999
+12030532,12030532,Dev,3T 판금 신발(드랍)_SR,[임시] 3T 판금 신발(드랍)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030035,FALSE,0,,,FALSE,FALSE,,0,999
+12030533,12030533,Dev,3T 판금 신발(드랍)_SR,[임시] 3T 판금 신발(드랍)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030036,FALSE,0,,,FALSE,FALSE,,0,999
+12030534,12030534,Dev,3T 가죽 신발(드랍)_SR,[임시] 3T 가죽 신발(드랍)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030034,FALSE,0,,,FALSE,FALSE,,0,999
+12030535,12030535,Dev,3T 가죽 신발(드랍)_SR,[임시] 3T 가죽 신발(드랍)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030035,FALSE,0,,,FALSE,FALSE,,0,999
+12030536,12030536,Dev,3T 가죽 신발(드랍)_SR,[임시] 3T 가죽 신발(드랍)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030036,FALSE,0,,,FALSE,FALSE,,0,999
+12030537,12030537,Dev,3T 천 신발(드랍)_SR,[임시] 3T 천 신발(드랍)_SR,,Equipment,301,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030034,FALSE,0,,,FALSE,FALSE,,0,999
+12030538,12030538,Dev,3T 천 신발(드랍)_SR,[임시] 3T 천 신발(드랍)_SR,,Equipment,302,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030035,FALSE,0,,,FALSE,FALSE,,0,999
+12030539,12030539,Dev,3T 천 신발(드랍)_SR,[임시] 3T 천 신발(드랍)_SR,,Equipment,303,Tier3,Common,1,0,2000,1,Unbound,[22],1,712030036,FALSE,0,,,FALSE,FALSE,,0,999
+12040001,12040001,Dev,검은 시련의 판금 투구,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040001,FALSE,0,,,FALSE,FALSE,,0,999
+12040002,12040002,Dev,희미한 달그림자 가죽 투구,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040002,FALSE,0,,,FALSE,FALSE,,0,999
+12040003,12040003,Dev,새벽의 숨결 천 머리 장식,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040003,FALSE,0,,,FALSE,FALSE,,0,999
+12040004,12040004,Dev,검은 시련의 판금 갑옷,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040004,FALSE,0,,,FALSE,FALSE,,0,999
+12040005,12040005,Dev,희미한 달그림자 가죽 경갑,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040005,FALSE,0,,,FALSE,FALSE,,0,999
+12040006,12040006,Dev,새벽의 숨결 천 의복,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040006,FALSE,0,,,FALSE,FALSE,,0,999
+12040007,12040007,Dev,검은 시련의 판금 장화,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040007,FALSE,0,,,FALSE,FALSE,,0,999
+12040008,12040008,Dev,희미한 달그림자 가죽 장화,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040008,FALSE,0,,,FALSE,FALSE,,0,999
+12040009,12040009,Dev,새벽의 숨결 천 장갑,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040009,FALSE,0,,,FALSE,FALSE,,0,999
+12040010,12040010,Dev,검은 시련의 판금 장화,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040010,FALSE,0,,,FALSE,FALSE,,0,999
+12040011,12040011,Dev,희미한 달그림자 가죽 장화,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040011,FALSE,0,,,FALSE,FALSE,,0,999
+12040012,12040012,Dev,새벽의 숨결 천 신발,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040012,FALSE,0,,,FALSE,FALSE,,0,999
+12040013,12040013,Dev,검은 시련의 판금 투구,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040013,FALSE,0,,,FALSE,FALSE,,0,999
+12040014,12040014,Dev,희미한 달그림자 가죽 투구,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040014,FALSE,0,,,FALSE,FALSE,,0,999
+12040015,12040015,Dev,새벽의 숨결 천 머리 장식,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040015,FALSE,0,,,FALSE,FALSE,,0,999
+12040016,12040016,Dev,검은 시련의 판금 갑옷,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040016,FALSE,0,,,FALSE,FALSE,,0,999
+12040017,12040017,Dev,희미한 달그림자 가죽 경갑,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040017,FALSE,0,,,FALSE,FALSE,,0,999
+12040018,12040018,Dev,새벽의 숨결 천 의복,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040018,FALSE,0,,,FALSE,FALSE,,0,999
+12040019,12040019,Dev,검은 시련의 판금 장화,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040019,FALSE,0,,,FALSE,FALSE,,0,999
+12040020,12040020,Dev,희미한 달그림자 가죽 장화,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040020,FALSE,0,,,FALSE,FALSE,,0,999
+12040021,12040021,Dev,새벽의 숨결 천 장갑,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040021,FALSE,0,,,FALSE,FALSE,,0,999
+12040022,12040022,Dev,검은 시련의 판금 장화,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040022,FALSE,0,,,FALSE,FALSE,,0,999
+12040023,12040023,Dev,희미한 달그림자 가죽 장화,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040023,FALSE,0,,,FALSE,FALSE,,0,999
+12040024,12040024,Dev,새벽의 숨결 천 신발,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040024,FALSE,0,,,FALSE,FALSE,,0,999
+12040025,12040025,Dev,검은 시련의 판금 투구,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040025,FALSE,0,,,FALSE,FALSE,,0,999
+12040026,12040026,Dev,희미한 달그림자 가죽 투구,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040026,FALSE,0,,,FALSE,FALSE,,0,999
+12040027,12040027,Dev,새벽의 숨결 천 머리 장식,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040027,FALSE,0,,,FALSE,FALSE,,0,999
+12040028,12040028,Dev,검은 시련의 판금 갑옷,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040028,FALSE,0,,,FALSE,FALSE,,0,999
+12040029,12040029,Dev,희미한 달그림자 가죽 경갑,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040029,FALSE,0,,,FALSE,FALSE,,0,999
+12040030,12040030,Dev,새벽의 숨결 천 의복,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040030,FALSE,0,,,FALSE,FALSE,,0,999
+12040031,12040031,Dev,검은 시련의 판금 장화,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040031,FALSE,0,,,FALSE,FALSE,,0,999
+12040032,12040032,Dev,희미한 달그림자 가죽 장화,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040032,FALSE,0,,,FALSE,FALSE,,0,999
+12040033,12040033,Dev,새벽의 숨결 천 장갑,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040033,FALSE,0,,,FALSE,FALSE,,0,999
+12040034,12040034,Dev,검은 시련의 판금 장화,,,Equipment,301,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040034,FALSE,0,,,FALSE,FALSE,,0,999
+12040035,12040035,Dev,희미한 달그림자 가죽 장화,,,Equipment,302,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040035,FALSE,0,,,FALSE,FALSE,,0,999
+12040036,12040036,Dev,새벽의 숨결 천 신발,,,Equipment,303,Tier4,Common,1,0,5000,1,Unbound,[22],1,612040036,FALSE,0,,,FALSE,FALSE,,0,999
+12050001,12050001,Dev,5T 판금 투구,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050001,FALSE,0,,,FALSE,FALSE,,0,999
+12050002,12050002,Dev,5T 가죽 투구,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050002,FALSE,0,,,FALSE,FALSE,,0,999
+12050003,12050003,Dev,5T 천 투구,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050003,FALSE,0,,,FALSE,FALSE,,0,999
+12050004,12050004,Dev,5T 판금 갑옷,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050004,FALSE,0,,,FALSE,FALSE,,0,999
+12050005,12050005,Dev,5T 가죽 갑옷,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050005,FALSE,0,,,FALSE,FALSE,,0,999
+12050006,12050006,Dev,5T 천 갑옷,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050006,FALSE,0,,,FALSE,FALSE,,0,999
+12050007,12050007,Dev,5T 판금 장갑,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050007,FALSE,0,,,FALSE,FALSE,,0,999
+12050008,12050008,Dev,5T 가죽 장갑,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050008,FALSE,0,,,FALSE,FALSE,,0,999
+12050009,12050009,Dev,5T 천 장갑,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050009,FALSE,0,,,FALSE,FALSE,,0,999
+12050010,12050010,Dev,5T 판금 신발,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050010,FALSE,0,,,FALSE,FALSE,,0,999
+12050011,12050011,Dev,5T 가죽 신발,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050011,FALSE,0,,,FALSE,FALSE,,0,999
+12050012,12050012,Dev,5T 천 신발,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050012,FALSE,0,,,FALSE,FALSE,,0,999
+12050013,12050013,Dev,5T 판금 투구,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050013,FALSE,0,,,FALSE,FALSE,,0,999
+12050014,12050014,Dev,5T 가죽 투구,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050014,FALSE,0,,,FALSE,FALSE,,0,999
+12050015,12050015,Dev,5T 천 투구,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050015,FALSE,0,,,FALSE,FALSE,,0,999
+12050016,12050016,Dev,5T 판금 갑옷,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050016,FALSE,0,,,FALSE,FALSE,,0,999
+12050017,12050017,Dev,5T 가죽 갑옷,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050017,FALSE,0,,,FALSE,FALSE,,0,999
+12050018,12050018,Dev,5T 천 갑옷,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050018,FALSE,0,,,FALSE,FALSE,,0,999
+12050019,12050019,Dev,5T 판금 장갑,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050019,FALSE,0,,,FALSE,FALSE,,0,999
+12050020,12050020,Dev,5T 가죽 장갑,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050020,FALSE,0,,,FALSE,FALSE,,0,999
+12050021,12050021,Dev,5T 천 장갑,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050021,FALSE,0,,,FALSE,FALSE,,0,999
+12050022,12050022,Dev,5T 판금 신발,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050022,FALSE,0,,,FALSE,FALSE,,0,999
+12050023,12050023,Dev,5T 가죽 신발,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050023,FALSE,0,,,FALSE,FALSE,,0,999
+12050024,12050024,Dev,5T 천 신발,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050024,FALSE,0,,,FALSE,FALSE,,0,999
+12050025,12050025,Dev,5T 판금 투구,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050025,FALSE,0,,,FALSE,FALSE,,0,999
+12050026,12050026,Dev,5T 가죽 투구,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050026,FALSE,0,,,FALSE,FALSE,,0,999
+12050027,12050027,Dev,5T 천 투구,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050027,FALSE,0,,,FALSE,FALSE,,0,999
+12050028,12050028,Dev,5T 판금 갑옷,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050028,FALSE,0,,,FALSE,FALSE,,0,999
+12050029,12050029,Dev,5T 가죽 갑옷,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050029,FALSE,0,,,FALSE,FALSE,,0,999
+12050030,12050030,Dev,5T 천 갑옷,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050030,FALSE,0,,,FALSE,FALSE,,0,999
+12050031,12050031,Dev,5T 판금 장갑,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050031,FALSE,0,,,FALSE,FALSE,,0,999
+12050032,12050032,Dev,5T 가죽 장갑,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050032,FALSE,0,,,FALSE,FALSE,,0,999
+12050033,12050033,Dev,5T 천 장갑,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050033,FALSE,0,,,FALSE,FALSE,,0,999
+12050034,12050034,Dev,5T 판금 신발,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050034,FALSE,0,,,FALSE,FALSE,,0,999
+12050035,12050035,Dev,5T 가죽 신발,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050035,FALSE,0,,,FALSE,FALSE,,0,999
+12050036,12050036,Dev,5T 천 신발,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050036,FALSE,0,,,FALSE,FALSE,,0,999
+12050037,12050037,Dev,5T 판금 투구,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050037,FALSE,0,,,FALSE,FALSE,,0,999
+12050038,12050038,Dev,5T 가죽 투구,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050038,FALSE,0,,,FALSE,FALSE,,0,999
+12050039,12050039,Dev,5T 천 투구,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050039,FALSE,0,,,FALSE,FALSE,,0,999
+12050040,12050040,Dev,5T 판금 갑옷,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050040,FALSE,0,,,FALSE,FALSE,,0,999
+12050041,12050041,Dev,5T 가죽 갑옷,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050041,FALSE,0,,,FALSE,FALSE,,0,999
+12050042,12050042,Dev,5T 천 갑옷,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050042,FALSE,0,,,FALSE,FALSE,,0,999
+12050043,12050043,Dev,5T 판금 장갑,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050043,FALSE,0,,,FALSE,FALSE,,0,999
+12050044,12050044,Dev,5T 가죽 장갑,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050044,FALSE,0,,,FALSE,FALSE,,0,999
+12050045,12050045,Dev,5T 천 장갑,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050045,FALSE,0,,,FALSE,FALSE,,0,999
+12050046,12050046,Dev,5T 판금 신발,,,Equipment,301,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050046,FALSE,0,,,FALSE,FALSE,,0,999
+12050047,12050047,Dev,5T 가죽 신발,,,Equipment,302,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050047,FALSE,0,,,FALSE,FALSE,,0,999
+12050048,12050048,Dev,5T 천 신발,,,Equipment,303,Tier5,Common,1,0,10000,1,Unbound,[22],1,512050048,FALSE,0,,,FALSE,FALSE,,0,999
+12060001,12060001,Dev,6T 판금 투구,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060001,FALSE,0,,,FALSE,FALSE,,0,999
+12060002,12060002,Dev,6T 가죽 투구,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060002,FALSE,0,,,FALSE,FALSE,,0,999
+12060003,12060003,Dev,6T 천 투구,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060003,FALSE,0,,,FALSE,FALSE,,0,999
+12060004,12060004,Dev,6T 판금 갑옷,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060004,FALSE,0,,,FALSE,FALSE,,0,999
+12060005,12060005,Dev,6T 가죽 갑옷,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060005,FALSE,0,,,FALSE,FALSE,,0,999
+12060006,12060006,Dev,6T 천 갑옷,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060006,FALSE,0,,,FALSE,FALSE,,0,999
+12060007,12060007,Dev,6T 판금 장갑,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060007,FALSE,0,,,FALSE,FALSE,,0,999
+12060008,12060008,Dev,6T 가죽 장갑,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060008,FALSE,0,,,FALSE,FALSE,,0,999
+12060009,12060009,Dev,6T 천 장갑,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060009,FALSE,0,,,FALSE,FALSE,,0,999
+12060010,12060010,Dev,6T 판금 신발,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060010,FALSE,0,,,FALSE,FALSE,,0,999
+12060011,12060011,Dev,6T 가죽 신발,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060011,FALSE,0,,,FALSE,FALSE,,0,999
+12060012,12060012,Dev,6T 천 신발,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060012,FALSE,0,,,FALSE,FALSE,,0,999
+12060013,12060013,Dev,6T 판금 투구,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060013,FALSE,0,,,FALSE,FALSE,,0,999
+12060014,12060014,Dev,6T 가죽 투구,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060014,FALSE,0,,,FALSE,FALSE,,0,999
+12060015,12060015,Dev,6T 천 투구,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060015,FALSE,0,,,FALSE,FALSE,,0,999
+12060016,12060016,Dev,6T 판금 갑옷,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060016,FALSE,0,,,FALSE,FALSE,,0,999
+12060017,12060017,Dev,6T 가죽 갑옷,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060017,FALSE,0,,,FALSE,FALSE,,0,999
+12060018,12060018,Dev,6T 천 갑옷,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060018,FALSE,0,,,FALSE,FALSE,,0,999
+12060019,12060019,Dev,6T 판금 장갑,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060019,FALSE,0,,,FALSE,FALSE,,0,999
+12060020,12060020,Dev,6T 가죽 장갑,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060020,FALSE,0,,,FALSE,FALSE,,0,999
+12060021,12060021,Dev,6T 천 장갑,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060021,FALSE,0,,,FALSE,FALSE,,0,999
+12060022,12060022,Dev,6T 판금 신발,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060022,FALSE,0,,,FALSE,FALSE,,0,999
+12060023,12060023,Dev,6T 가죽 신발,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060023,FALSE,0,,,FALSE,FALSE,,0,999
+12060024,12060024,Dev,6T 천 신발,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060024,FALSE,0,,,FALSE,FALSE,,0,999
+12060025,12060025,Dev,6T 판금 투구,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060025,FALSE,0,,,FALSE,FALSE,,0,999
+12060026,12060026,Dev,6T 가죽 투구,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060026,FALSE,0,,,FALSE,FALSE,,0,999
+12060027,12060027,Dev,6T 천 투구,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060027,FALSE,0,,,FALSE,FALSE,,0,999
+12060028,12060028,Dev,6T 판금 갑옷,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060028,FALSE,0,,,FALSE,FALSE,,0,999
+12060029,12060029,Dev,6T 가죽 갑옷,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060029,FALSE,0,,,FALSE,FALSE,,0,999
+12060030,12060030,Dev,6T 천 갑옷,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060030,FALSE,0,,,FALSE,FALSE,,0,999
+12060031,12060031,Dev,6T 판금 장갑,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060031,FALSE,0,,,FALSE,FALSE,,0,999
+12060032,12060032,Dev,6T 가죽 장갑,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060032,FALSE,0,,,FALSE,FALSE,,0,999
+12060033,12060033,Dev,6T 천 장갑,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060033,FALSE,0,,,FALSE,FALSE,,0,999
+12060034,12060034,Dev,6T 판금 신발,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060034,FALSE,0,,,FALSE,FALSE,,0,999
+12060035,12060035,Dev,6T 가죽 신발,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060035,FALSE,0,,,FALSE,FALSE,,0,999
+12060036,12060036,Dev,6T 천 신발,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060036,FALSE,0,,,FALSE,FALSE,,0,999
+12060037,12060037,Dev,6T 판금 투구,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060037,FALSE,0,,,FALSE,FALSE,,0,999
+12060038,12060038,Dev,6T 가죽 투구,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060038,FALSE,0,,,FALSE,FALSE,,0,999
+12060039,12060039,Dev,6T 천 투구,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060039,FALSE,0,,,FALSE,FALSE,,0,999
+12060040,12060040,Dev,6T 판금 갑옷,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060040,FALSE,0,,,FALSE,FALSE,,0,999
+12060041,12060041,Dev,6T 가죽 갑옷,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060041,FALSE,0,,,FALSE,FALSE,,0,999
+12060042,12060042,Dev,6T 천 갑옷,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060042,FALSE,0,,,FALSE,FALSE,,0,999
+12060043,12060043,Dev,6T 판금 장갑,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060043,FALSE,0,,,FALSE,FALSE,,0,999
+12060044,12060044,Dev,6T 가죽 장갑,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060044,FALSE,0,,,FALSE,FALSE,,0,999
+12060045,12060045,Dev,6T 천 장갑,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060045,FALSE,0,,,FALSE,FALSE,,0,999
+12060046,12060046,Dev,6T 판금 신발,,,Equipment,301,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060046,FALSE,0,,,FALSE,FALSE,,0,999
+12060047,12060047,Dev,6T 가죽 신발,,,Equipment,302,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060047,FALSE,0,,,FALSE,FALSE,,0,999
+12060048,12060048,Dev,6T 천 신발,,,Equipment,303,Tier6,Common,1,0,20000,1,Unbound,[22],1,412060048,FALSE,0,,,FALSE,FALSE,,0,999
+12070001,12070001,Dev,7T 판금 투구,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070001,FALSE,0,,,FALSE,FALSE,,0,999
+12070002,12070002,Dev,7T 가죽 투구,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070002,FALSE,0,,,FALSE,FALSE,,0,999
+12070003,12070003,Dev,7T 천 투구,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070003,FALSE,0,,,FALSE,FALSE,,0,999
+12070004,12070004,Dev,7T 판금 갑옷,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070004,FALSE,0,,,FALSE,FALSE,,0,999
+12070005,12070005,Dev,7T 가죽 갑옷,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070005,FALSE,0,,,FALSE,FALSE,,0,999
+12070006,12070006,Dev,7T 천 갑옷,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070006,FALSE,0,,,FALSE,FALSE,,0,999
+12070007,12070007,Dev,7T 판금 장갑,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070007,FALSE,0,,,FALSE,FALSE,,0,999
+12070008,12070008,Dev,7T 가죽 장갑,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070008,FALSE,0,,,FALSE,FALSE,,0,999
+12070009,12070009,Dev,7T 천 장갑,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070009,FALSE,0,,,FALSE,FALSE,,0,999
+12070010,12070010,Dev,7T 판금 신발,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070010,FALSE,0,,,FALSE,FALSE,,0,999
+12070011,12070011,Dev,7T 가죽 신발,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070011,FALSE,0,,,FALSE,FALSE,,0,999
+12070012,12070012,Dev,7T 천 신발,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070012,FALSE,0,,,FALSE,FALSE,,0,999
+12070013,12070013,Dev,7T 판금 투구,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070013,FALSE,0,,,FALSE,FALSE,,0,999
+12070014,12070014,Dev,7T 가죽 투구,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070014,FALSE,0,,,FALSE,FALSE,,0,999
+12070015,12070015,Dev,7T 천 투구,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070015,FALSE,0,,,FALSE,FALSE,,0,999
+12070016,12070016,Dev,7T 판금 갑옷,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070016,FALSE,0,,,FALSE,FALSE,,0,999
+12070017,12070017,Dev,7T 가죽 갑옷,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070017,FALSE,0,,,FALSE,FALSE,,0,999
+12070018,12070018,Dev,7T 천 갑옷,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070018,FALSE,0,,,FALSE,FALSE,,0,999
+12070019,12070019,Dev,7T 판금 장갑,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070019,FALSE,0,,,FALSE,FALSE,,0,999
+12070020,12070020,Dev,7T 가죽 장갑,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070020,FALSE,0,,,FALSE,FALSE,,0,999
+12070021,12070021,Dev,7T 천 장갑,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070021,FALSE,0,,,FALSE,FALSE,,0,999
+12070022,12070022,Dev,7T 판금 신발,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070022,FALSE,0,,,FALSE,FALSE,,0,999
+12070023,12070023,Dev,7T 가죽 신발,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070023,FALSE,0,,,FALSE,FALSE,,0,999
+12070024,12070024,Dev,7T 천 신발,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070024,FALSE,0,,,FALSE,FALSE,,0,999
+12070025,12070025,Dev,7T 판금 투구,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070025,FALSE,0,,,FALSE,FALSE,,0,999
+12070026,12070026,Dev,7T 가죽 투구,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070026,FALSE,0,,,FALSE,FALSE,,0,999
+12070027,12070027,Dev,7T 천 투구,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070027,FALSE,0,,,FALSE,FALSE,,0,999
+12070028,12070028,Dev,7T 판금 갑옷,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070028,FALSE,0,,,FALSE,FALSE,,0,999
+12070029,12070029,Dev,7T 가죽 갑옷,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070029,FALSE,0,,,FALSE,FALSE,,0,999
+12070030,12070030,Dev,7T 천 갑옷,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070030,FALSE,0,,,FALSE,FALSE,,0,999
+12070031,12070031,Dev,7T 판금 장갑,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070031,FALSE,0,,,FALSE,FALSE,,0,999
+12070032,12070032,Dev,7T 가죽 장갑,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070032,FALSE,0,,,FALSE,FALSE,,0,999
+12070033,12070033,Dev,7T 천 장갑,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070033,FALSE,0,,,FALSE,FALSE,,0,999
+12070034,12070034,Dev,7T 판금 신발,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070034,FALSE,0,,,FALSE,FALSE,,0,999
+12070035,12070035,Dev,7T 가죽 신발,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070035,FALSE,0,,,FALSE,FALSE,,0,999
+12070036,12070036,Dev,7T 천 신발,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070036,FALSE,0,,,FALSE,FALSE,,0,999
+12070037,12070037,Dev,7T 판금 투구,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070037,FALSE,0,,,FALSE,FALSE,,0,999
+12070038,12070038,Dev,7T 가죽 투구,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070038,FALSE,0,,,FALSE,FALSE,,0,999
+12070039,12070039,Dev,7T 천 투구,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070039,FALSE,0,,,FALSE,FALSE,,0,999
+12070040,12070040,Dev,7T 판금 갑옷,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070040,FALSE,0,,,FALSE,FALSE,,0,999
+12070041,12070041,Dev,7T 가죽 갑옷,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070041,FALSE,0,,,FALSE,FALSE,,0,999
+12070042,12070042,Dev,7T 천 갑옷,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070042,FALSE,0,,,FALSE,FALSE,,0,999
+12070043,12070043,Dev,7T 판금 장갑,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070043,FALSE,0,,,FALSE,FALSE,,0,999
+12070044,12070044,Dev,7T 가죽 장갑,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070044,FALSE,0,,,FALSE,FALSE,,0,999
+12070045,12070045,Dev,7T 천 장갑,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070045,FALSE,0,,,FALSE,FALSE,,0,999
+12070046,12070046,Dev,7T 판금 신발,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070046,FALSE,0,,,FALSE,FALSE,,0,999
+12070047,12070047,Dev,7T 가죽 신발,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070047,FALSE,0,,,FALSE,FALSE,,0,999
+12070048,12070048,Dev,7T 천 신발,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070048,FALSE,0,,,FALSE,FALSE,,0,999
+12070049,12070049,Dev,7T 판금 투구,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070049,FALSE,0,,,FALSE,FALSE,,0,999
+12070050,12070050,Dev,7T 가죽 투구,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070050,FALSE,0,,,FALSE,FALSE,,0,999
+12070051,12070051,Dev,7T 천 투구,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070051,FALSE,0,,,FALSE,FALSE,,0,999
+12070052,12070052,Dev,7T 판금 갑옷,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070052,FALSE,0,,,FALSE,FALSE,,0,999
+12070053,12070053,Dev,7T 가죽 갑옷,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070053,FALSE,0,,,FALSE,FALSE,,0,999
+12070054,12070054,Dev,7T 천 갑옷,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070054,FALSE,0,,,FALSE,FALSE,,0,999
+12070055,12070055,Dev,7T 판금 장갑,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070055,FALSE,0,,,FALSE,FALSE,,0,999
+12070056,12070056,Dev,7T 가죽 장갑,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070056,FALSE,0,,,FALSE,FALSE,,0,999
+12070057,12070057,Dev,7T 천 장갑,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070057,FALSE,0,,,FALSE,FALSE,,0,999
+12070058,12070058,Dev,7T 판금 신발,,,Equipment,301,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070058,FALSE,0,,,FALSE,FALSE,,0,999
+12070059,12070059,Dev,7T 가죽 신발,,,Equipment,302,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070059,FALSE,0,,,FALSE,FALSE,,0,999
+12070060,12070060,Dev,7T 천 신발,,,Equipment,303,Tier7,Common,1,0,50000,1,Unbound,[22],1,312070060,FALSE,0,,,FALSE,FALSE,,0,999
+12099001,12099001,Dev,여정의 시작 로브,여정의 시작 로브,"여러 번 기워진 흔적이 남아 있는 가죽 로브입니다. 낡고 허름하지만, 여정을 위해 잠시 빌리기에는 충분합니다.",Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099001,FALSE,0,,,FALSE,FALSE,,0,999
+12099008,12099008,Dev,테스트 판금 투구,데미갓 판금 투구,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099008,FALSE,0,,,TRUE,FALSE,,0,999
+12099009,12099009,Dev,테스트 가죽 투구,데미갓 가죽 투구,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099009,FALSE,0,,,TRUE,FALSE,,0,999
+12099010,12099010,Dev,테스트 천 투구,데미갓 천 투구,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099010,FALSE,0,,,TRUE,FALSE,,0,999
+12099011,12099011,Dev,테스트 판금 갑옷,데미갓 판금 갑옷,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099011,FALSE,0,,,TRUE,FALSE,,0,999
+12099012,12099012,Dev,테스트 가죽 갑옷,데미갓 가죽 갑옷,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099012,FALSE,0,,,TRUE,FALSE,,0,999
+12099013,12099013,Dev,테스트 천 갑옷,데미갓 천 갑옷,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099013,FALSE,0,,,TRUE,FALSE,,0,999
+12099014,12099014,Dev,테스트 판금 장갑,데미갓 판금 장갑,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099014,FALSE,0,,,TRUE,FALSE,,0,999
+12099015,12099015,Dev,테스트 가죽 장갑,데미갓 가죽 장갑,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099015,FALSE,0,,,TRUE,FALSE,,0,999
+12099016,12099016,Dev,테스트 천 장갑,데미갓 천 장갑,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099016,FALSE,0,,,TRUE,FALSE,,0,999
+12099017,12099017,Dev,테스트 판금 신발,데미갓 판금 신발,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099017,FALSE,0,,,TRUE,FALSE,,0,999
+12099018,12099018,Dev,테스트 가죽 신발,데미갓 가죽 신발,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099018,FALSE,0,,,TRUE,FALSE,,0,999
+12099019,12099019,Dev,테스트 천 신발,데미갓 천 신발,모든 잡것들로부터 나를 보호하는 최고의 방어구입니다. ,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,912099019,FALSE,0,,,TRUE,FALSE,,0,999
+13030001,13030001,Dev,3T 반지,위대한 개척자의 반지,,Equipment,101,Tier3,Common,1,0,2000,1,Unbound,[22],1,713030001,FALSE,0,,,FALSE,FALSE,,0,999
+13030002,13030002,Dev,3T 목걸이,위대한 개척자의 목걸이,,Equipment,101,Tier3,Common,1,0,2000,1,Unbound,[22],1,713030002,FALSE,0,,,FALSE,FALSE,,0,999
+13030003,13030003,Dev,3T 귀걸이,위대한 개척자의 귀걸이,,Equipment,101,Tier3,Common,1,0,2000,1,Unbound,[22],1,713030003,FALSE,0,,,FALSE,FALSE,,0,999
+13040001,13040001,Dev,끝없는 심연의 매듭,4T 반지,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,613040001,FALSE,0,,,FALSE,FALSE,,0,999
+13040002,13040002,Dev,잊힌 심연의 증표,4T 목걸이,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,613040002,FALSE,0,,,FALSE,FALSE,,0,999
+13040003,13040003,Dev,속삭이는 심연의 파편,4T 귀걸이,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,613040003,FALSE,0,,,FALSE,FALSE,,0,999
+13040004,13040004,Dev,끝없는 심연의 매듭,4T 반지,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,613040004,FALSE,0,,,FALSE,FALSE,,0,999
+13040005,13040005,Dev,잊힌 심연의 증표,4T 목걸이,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,613040005,FALSE,0,,,FALSE,FALSE,,0,999
+13040006,13040006,Dev,속삭이는 심연의 파편,4T 귀걸이,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,613040006,FALSE,0,,,FALSE,FALSE,,0,999
+13050001,13050001,Dev,5T 반지,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050001,FALSE,0,,,FALSE,FALSE,,0,999
+13050002,13050002,Dev,5T 목걸이,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050002,FALSE,0,,,FALSE,FALSE,,0,999
+13050003,13050003,Dev,5T 귀걸이,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050003,FALSE,0,,,FALSE,FALSE,,0,999
+13050004,13050004,Dev,5T 반지,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050004,FALSE,0,,,FALSE,FALSE,,0,999
+13050005,13050005,Dev,5T 목걸이,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050005,FALSE,0,,,FALSE,FALSE,,0,999
+13050006,13050006,Dev,5T 귀걸이,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050006,FALSE,0,,,FALSE,FALSE,,0,999
+13050007,13050007,Dev,5T 반지,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050007,FALSE,0,,,FALSE,FALSE,,0,999
+13050008,13050008,Dev,5T 목걸이,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050008,FALSE,0,,,FALSE,FALSE,,0,999
+13050009,13050009,Dev,5T 귀걸이,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,513050009,FALSE,0,,,FALSE,FALSE,,0,999
+13060001,13060001,Dev,멈춰버린 시간의 매듭,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060001,FALSE,0,,,FALSE,FALSE,,0,999
+13060002,13060002,Dev,반복되는 시간의 증표,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060002,FALSE,0,,,FALSE,FALSE,,0,999
+13060003,13060003,Dev,뒤틀린 시간의 파편,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060003,FALSE,0,,,FALSE,FALSE,,0,999
+13060004,13060004,Dev,멈춰버린 시간의 매듭,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060004,FALSE,0,,,FALSE,FALSE,,0,999
+13060005,13060005,Dev,반복되는 시간의 증표,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060005,FALSE,0,,,FALSE,FALSE,,0,999
+13060006,13060006,Dev,뒤틀린 시간의 파편,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060006,FALSE,0,,,FALSE,FALSE,,0,999
+13060007,13060007,Dev,멈춰버린 시간의 매듭,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060007,FALSE,0,,,FALSE,FALSE,,0,999
+13060008,13060008,Dev,반복되는 시간의 증표,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060008,FALSE,0,,,FALSE,FALSE,,0,999
+13060009,13060009,Dev,뒤틀린 시간의 파편,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,413060009,FALSE,0,,,FALSE,FALSE,,0,999
+13070001,13070001,Dev,7T 반지,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070001,FALSE,0,,,FALSE,FALSE,,0,999
+13070002,13070002,Dev,7T 목걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070002,FALSE,0,,,FALSE,FALSE,,0,999
+13070003,13070003,Dev,7T 귀걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070003,FALSE,0,,,FALSE,FALSE,,0,999
+13070004,13070004,Dev,7T 반지,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070004,FALSE,0,,,FALSE,FALSE,,0,999
+13070005,13070005,Dev,7T 목걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070005,FALSE,0,,,FALSE,FALSE,,0,999
+13070006,13070006,Dev,7T 귀걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070006,FALSE,0,,,FALSE,FALSE,,0,999
+13070007,13070007,Dev,7T 반지,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070007,FALSE,0,,,FALSE,FALSE,,0,999
+13070008,13070008,Dev,7T 목걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070008,FALSE,0,,,FALSE,FALSE,,0,999
+13070009,13070009,Dev,7T 귀걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070009,FALSE,0,,,FALSE,FALSE,,0,999
+13070010,13070010,Dev,7T 반지,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070010,FALSE,0,,,FALSE,FALSE,,0,999
+13070011,13070011,Dev,7T 목걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070011,FALSE,0,,,FALSE,FALSE,,0,999
+13070012,13070012,Dev,7T 귀걸이,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,313070012,FALSE,0,,,FALSE,FALSE,,0,999
+14030002,14030002,Dev,3T 망토_01,에페리움의 긍지 망토,,Equipment,101,Tier3,Common,1,0,2000,1,Unbound,[22],1,714030002,FALSE,0,,,FALSE,FALSE,,0,999
+14040002,14040002,Dev,4T 망토_01,4T 망토_01,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,614040002,FALSE,0,,,FALSE,FALSE,,0,999
+14040004,14040004,Dev,4T 망토_02,4T 망토_02,,Equipment,101,Tier4,Common,1,0,5000,1,Unbound,[22],1,614040004,FALSE,0,,,FALSE,FALSE,,0,999
+14040076,14040076,Dev,5T 망토_01,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,514040076,FALSE,0,,,FALSE,FALSE,,0,999
+14040078,14040078,Dev,5T 망토_02,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,514040078,FALSE,0,,,FALSE,FALSE,,0,999
+14040080,14040080,Dev,5T 망토_03,,,Equipment,101,Tier5,Common,1,0,10000,1,Unbound,[22],1,514040080,FALSE,0,,,FALSE,FALSE,,0,999
+14060002,14060002,Dev,6T 망토_01,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,414060002,FALSE,0,,,FALSE,FALSE,,0,999
+14060004,14060004,Dev,6T 망토_02,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,414060004,FALSE,0,,,FALSE,FALSE,,0,999
+14060006,14060006,Dev,6T 망토_03,,,Equipment,101,Tier6,Common,1,0,20000,1,Unbound,[22],1,414060006,FALSE,0,,,FALSE,FALSE,,0,999
+14070002,14070002,Dev,7T 망토_01,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,314070002,FALSE,0,,,FALSE,FALSE,,0,999
+14070004,14070004,Dev,7T 망토_02,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,314070004,FALSE,0,,,FALSE,FALSE,,0,999
+14070006,14070006,Dev,7T 망토_03,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,314070006,FALSE,0,,,FALSE,FALSE,,0,999
+14070008,14070008,Dev,7T 망토_04,,,Equipment,101,Tier7,Common,1,0,50000,1,Unbound,[22],1,314070008,FALSE,0,,,FALSE,FALSE,,0,999
+14099001,14099001,Dev,테스트용 망토 50%,테스트용 망토 50%,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,914099001,FALSE,0,,,FALSE,FALSE,,0,999
+14099002,14099002,Dev,테스트용 망토 100%,테스트용 망토 100%,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,914099002,FALSE,0,,,FALSE,FALSE,,0,999
+14099003,14099003,Dev,테스트용 망토 150%,테스트용 망토 150%,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,914099003,FALSE,0,,,FALSE,FALSE,,0,999
+14099004,14099004,Dev,테스트용 망토 200%,테스트용 망토 200%,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,914099004,FALSE,0,,,FALSE,FALSE,,0,999
+14099005,14099005,Dev,테스트용 망토 250%,테스트용 망토 250%,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,914099005,FALSE,0,,,FALSE,FALSE,,0,999
+14099006,14099006,Dev,테스트용 망토 300%,테스트용 망토 300%,,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,914099006,FALSE,0,,,FALSE,FALSE,,0,999
+14099007,14099007,Dev,조락무극의 망토,조락무극의 망토,성공적인 출조를 기원하는 망토입니다.,Equipment,0,Tier1,Common,1,0,100,1,Unbound,[22],1,914099007,FALSE,0,,,FALSE,FALSE,,0,999
+17010001,17010001,Dev,누이안 카드,누이안,"<B>[세트 효과 정보]</>
+
+1. <BY>문명과 야만</> : 최대 체력 120 증가
+- 누이안
+- 오크
+- 오크 족장
+
+2. <BY>여신의 심판</> : 최대 마력 60 증가
+- 누이안
+- 놀
+- 놀 우두머리",MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010001,FALSE,0,,,FALSE,FALSE,,0,999
+17010002,17010002,Dev,오크 카드,오크,"<B>[세트 효과 정보]</>
+
+1. <BY>검은 사슬의 포식자</> : 공격 시 10% 확률로 공격력 200% 추가 피해
+- 오크
+- 오크 족장
+- 스칼니토스
+
+2. <BY>문명과 야만</> : 최대 체력 120 증가
+- 누이안
+- 오크
+- 오크 족장
+
+3. <BY>원시의 결속</> : 상태 이상 저항력 10 증가
+- 오크
+- 놀
+- 해골
+
+4. <BY>불굴의 투지</> : 물리 피해 감소 3% 증가
+- 오크
+- 망령
+- 놀 우두머리
+
+5. <BY>파괴의 거신</> : 치명타 피해량 5% 증가
+- 오크
+- 스칼니토스
+- 말카바돈 ",MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010002,FALSE,0,,,FALSE,FALSE,,0,999
+17010003,17010003,Dev,놀 카드,놀,"<B>[세트 효과 정보]</>
+
+1. <BY>해방된 야성</> : 피격 시 5% 확률로 체력 100 회복
+- 놀
+- 놀 우두머리
+- 스칼니토스
+
+2. <BY>여신의 심판</> : 최대 마력 60 증가
+- 누이안
+- 놀
+- 놀 우두머리
+
+3. <BY>원시의 결속</> : 상태 이상 저항력 10 증가
+- 오크
+- 놀
+- 해골
+
+4. <BY>어둠의 파수견</> : 마나 소모량 감소 3% 증가
+- 놀
+- 물 정령
+- 놀 우두머리",MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010003,FALSE,0,,,FALSE,FALSE,,0,999
+17010004,17010004,Dev,해골 카드,해골,"<B>[세트 효과 정보]</>
+
+1. <BY>원시의 결속</> : 상태 이상 저항력 10 증가
+- 오크
+- 놀
+- 해골
+
+2. <BY>전장의 전우들</> : PVP 피해량 3% 증가
+- 해골
+- 망령
+- 오크 족장",MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010004,FALSE,0,,,FALSE,FALSE,,0,999
+17010005,17010005,Dev,망령 카드,망령,"<B>[세트 효과 정보]</>
+
+1. <BY>전장의 전우들</> : PVP 피해량 3% 증가
+- 해골
+- 망령
+- 오크 족장
+
+2. <BY>불굴의 투지</> : 물리 피해 감소 3% 증가
+- 오크
+- 망령
+- 놀 우두머리",MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010005,FALSE,0,,,FALSE,FALSE,,0,999
+17010006,17010006,Dev,물 정령 카드,물 정령,"<B>[세트 효과 정보]</>
+
+1. <BY>타락한 정령</> : PVP 피해 감소 3% 증가
+- 물 정령
+- 나무 정령
+- 말카바돈
+
+2. <BY>어둠의 파수견</> : 마나 소모량 감소 3% 증가
+- 놀
+- 물 정령
+- 놀 우두머리",MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010006,FALSE,0,,,FALSE,FALSE,,0,999
+17010007,17010007,Dev,나무 정령 카드,나무 정령,"<B>[세트 효과 정보]</>
+
+1. <BY>타락한 정령</> : PVP 피해 감소 3% 증가
+- 물 정령
+- 나무 정령
+- 말카바돈
+
+2. <BY>영원한 안식</> : 생명력 회복 효율 5% 증가
+- 나무 정령
+- 스칼니토스
+- 말카바돈",MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010007,FALSE,0,,,FALSE,FALSE,,0,999
+17010008,17010008,Dev,바위 정령 카드,바위 정령,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010008,FALSE,0,,,FALSE,FALSE,,0,999
+17010009,17010009,Dev,이끼 정령 카드,이끼 정령,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010009,FALSE,0,,,FALSE,FALSE,,0,999
+17010010,17010010,Dev,거북 카드,거북,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010010,FALSE,0,,,FALSE,FALSE,,0,999
+17010011,17010011,Dev,게 카드,게,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier1,Common,1,0,1,1,Unbound,,1,917010011,FALSE,0,,,FALSE,FALSE,,0,999
+17020003,17020003,Dev,거미 카드,거미,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020003,FALSE,0,,,FALSE,FALSE,,0,999
+17020005,17020005,Dev,두들링 카드,두들링,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020005,FALSE,0,,,FALSE,FALSE,,0,999
+17020006,17020006,Dev,멧돼지 카드,멧돼지,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020006,FALSE,0,,,FALSE,FALSE,,0,999
+17020007,17020007,Dev,벌 카드,벌,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020007,FALSE,0,,,FALSE,FALSE,,0,999
+17020009,17020009,Dev,불곰 카드,불곰,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020009,FALSE,0,,,FALSE,FALSE,,0,999
+17020011,17020011,Dev,오우거 카드,오우거,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020011,FALSE,0,,,FALSE,FALSE,,0,999
+17020012,17020012,Dev,원혼 카드,원혼,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020012,FALSE,0,,,FALSE,FALSE,,0,999
+17020014,17020014,Dev,흙정령 카드,흙정령,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020014,FALSE,0,,,FALSE,FALSE,,0,999
+17030004,17030004,Dev,모르가리스 카드,모르가리스,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,717030004,FALSE,0,,,FALSE,FALSE,,0,999
+17030005,17030005,Dev,페르눈 카드,페르눈,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,717030005,FALSE,0,,,FALSE,FALSE,,0,999
+17030006,17030006,Dev,피묻은손 카드,피묻은손,관련된 세트 효과 정보가 없습니다.,MonsterCard,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,717030006,FALSE,0,,,FALSE,FALSE,,0,999
+17020001,17020001,Dev,오크 족장 카드,오크 족장,"<B>[세트 효과 정보]</>
+
+1. <BY>검은 사슬의 포식자</> : 공격 시 10% 확률로 공격력 200% 추가 피해
+- 오크
+- 오크 족장
+- 스칼니토스
+
+2. <BY>문명과 야만</> : 최대 체력 120 증가
+- 누이안
+- 오크
+- 오크 족장
+
+3. <BY>전장의 전우들</> : PVP 피해량 3% 증가
+- 해골
+- 망령
+- 오크 족장
+
+4. <BY>이니스의 군주</> : 모든 피해량 3% 증가
+- 놀 우두머리
+- 오크 족장
+- 스칼니토스",MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020001,FALSE,0,,,FALSE,FALSE,,0,999
+17020002,17020002,Dev,놀 우두머리 카드,놀 우두머리,"<B>[세트 효과 정보]</>
+
+1. <BY>해방된 야성</> : 피격 시 5% 확률로 체력 100 회복
+- 놀
+- 놀 우두머리
+- 스칼니토스
+
+2. <BY>여신의 심판</> : 최대 마력 60 증가
+- 누이안
+- 놀
+- 놀 우두머리
+
+3. <BY>불굴의 투지</> : 물리 피해 감소 3% 증가
+- 오크
+- 망령
+- 놀 우두머리
+
+4. <BY>이니스의 군주</> : 모든 피해량 3% 증가
+- 놀 우두머리
+- 오크 족장
+- 스칼니토스
+
+5. <BY>어둠의 파수견</> : 마나 소모량 감소 3% 증가
+- 놀
+- 물 정령
+- 놀 우두머리",MonsterCard,0,Tier2,Common,1,0,1,1,Unbound,,1,817020002,FALSE,0,,,FALSE,FALSE,,0,999
+17030001,17030001,Dev,스칼니토스 카드,스칼니토스,"<B>[세트 효과 정보]</>
+
+1. <BY>검은 사슬의 포식자</> : 공격 시 10% 확률로 공격력 200% 추가 피해
+- 오크
+- 오크 족장
+- 스칼니토스
+
+2. <BY>해방된 야성</> : 피격 시 5% 확률로 체력 100 회복
+- 놀
+- 놀 우두머리
+- 스칼니토스
+
+3. <BY>이니스의 군주</> : 모든 피해량 3% 증가
+- 놀 우두머리
+- 오크 족장
+- 스칼니토스
+
+4. <BY>파괴의 거신</> : 치명타 피해량 5% 증가
+- 오크
+- 스칼니토스
+- 말카바돈
+
+5. <BY>영원한 안식</> : 생명력 회복 효율 5% 증가
+- 나무 정령
+- 스칼니토스
+- 말카바돈",MonsterCard,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,717030001,FALSE,0,,,FALSE,FALSE,,0,999
+17030002,17030002,Dev,말카바돈 카드,말카바돈,"<B>[세트 효과 정보]</>
+
+1. <BY>타락한 정령</> : PVP 피해 감소 3% 증가
+- 물 정령
+- 나무 정령
+- 말카바돈
+
+2. <BY>파괴의 거신</> : 치명타 피해량 5% 증가
+- 오크
+- 스칼니토스
+- 말카바돈
+
+3. <BY>영원한 안식</> : 생명력 회복 효율 5% 증가
+- 나무 정령
+- 스칼니토스
+- 말카바돈",MonsterCard,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,717030002,FALSE,0,,,FALSE,FALSE,,0,999
+20000001,20000001,Dev,낡은 목재 충각,[임시]낡은 목재 충각,"[임시]<B>[기본 강화 효과]</>
+함선 명중 증가
+함선 추가 피해 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000001,FALSE,0,,,FALSE,TRUE,ShipRam,0,999
+20000002,20000002,Dev,낡은 화포,[임시]낡은 화포,"[임시]<B>[기본 강화 효과]</>
+함선 명중 증가
+함선 추가 피해 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000002,FALSE,0,,,FALSE,TRUE,ShipCannon,0,999
+20000003,20000003,Dev,릴리엇 물푸레나무 돛대,[임시]릴리엇 물푸레나무 돛대,"[임시]<B>[기본 강화 효과]</>
+함선 방어력 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000003,FALSE,0,,,FALSE,TRUE,ShipMast,0,999
+20000004,20000004,Dev,이즈나식 삼각돛,[임시]이즈나식 삼각돛,"[임시]<B>[기본 강화 효과]</>
+함선 방어력 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000004,FALSE,0,,,FALSE,TRUE,ShipSail,0,999
+20000005,20000005,Dev,릴리엇 물푸레나무 타륜,[임시]릴리엇 물푸레나무 타륜,"[임시]<B>[기본 강화 효과]</>
+함선 방어력 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000005,FALSE,0,,,FALSE,TRUE,ShipRudder,0,999
+20000006,20000006,Dev,목조 고래상,[임시]목조 고래상,"[임시]<B>[기본 강화 효과]</>
+함선 방어력 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000006,FALSE,0,,,FALSE,TRUE,ShipFigureHead,0,999
+20000007,20000007,Dev,이즈나식 목재 상자,[임시]이즈나식 목재 상자,"[임시]<B>[기본 강화 효과]</>
+함선 최대 생명력 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000007,FALSE,0,,,FALSE,TRUE,ShipCargo,0,999
+20000008,20000008,Dev,이즈나식 윤도,[임시]이즈나식 윤도,"[임시]<B>[기본 강화 효과]</>
+모든 함선 상태 이상 저항 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000008,FALSE,0,,,FALSE,TRUE,ShipLookOut,0,999
+20000009,20000009,Dev,이즈나식 등불,[임시]이즈나식 등불,"[임시]<B>[기본 강화 효과]</>
+함선 명중 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000009,FALSE,0,,,FALSE,TRUE,ShipLamp,0,999
+20000010,20000010,Dev,낡은 나무통,[임시]낡은 나무통,"[임시]<B>[기본 강화 효과]</>
+함선 최대 생명력 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000010,FALSE,0,,,FALSE,TRUE,ShipBarrel,0,999
+20000011,20000011,Dev,이즈나 왕가 상선기,[임시]이즈나 왕가 상선기,"[임시]<B>[기본 강화 효과]</>
+함선 공격력 증가",ShipEquipment,0,Tier1,Common,1,0,1,1,Unbound,,1,920000011,FALSE,0,,,FALSE,TRUE,ShipFlag,0,999
+41010001,41010001,Dev,원기의 비약 (귀속),원기의 비약 (귀속),"<B>[사용 효과]</>
+노동력을 100 회복합니다.",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,941010001,FALSE,0,,,FALSE,FALSE,,0,999
+41010002,41010002,Dev,원기의 중형 비약 (귀속),원기의 중형 비약 (귀속),"<B>[사용 효과]</>
+노동력을 1,000 회복합니다.",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,941010002,FALSE,0,,,FALSE,FALSE,,0,999
+41010003,41010003,Dev,원기의 대형 비약 (귀속),원기의 대형 비약 (귀속),"<B>[사용 효과]</>
+노동력을 10,000 회복합니다.",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,941010003,FALSE,0,,,FALSE,FALSE,,0,999
+41010004,41010004,Dev,하급 체력 물약,하급 체력 물약,"<B>[사용 효과]</>
+8초 동안 체력을 총 480 회복합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,941010004,FALSE,0,,,FALSE,FALSE,,0,999
+41010005,41010005,Dev,하급 마력 물약,하급 마력 물약,"<B>[사용 효과]</>
+8초 동안 마력을 총 120 회복합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,941010005,FALSE,0,,,FALSE,FALSE,,0,999
+41010006,41010006,Dev,1T 하급 음식(체력),특제 수프,"<B>[사용 효과]</>
+8초 동안 체력을 총 1280 회복합니다.
+비전투 상태에서만 사용할 수 있습니다. ",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,941010006,FALSE,0,,,FALSE,FALSE,,0,999
+41010007,41010007,Dev,1T 하급 음식(마력),샐러드,"<B>[사용 효과]</>
+8초 동안 마력을 총 320 회복합니다.
+비전투 상태에서만 사용할 수 있습니다. ",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,941010007,FALSE,0,,,FALSE,FALSE,,0,999
+41010008,41010008,Dev,1T 하급 음료(받피감),과일차,"<B>[사용 효과]</>
+20분 동안 받는 피해가 5% 감소합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,941010008,FALSE,0,,,FALSE,FALSE,,0,999
+41010009,41010009,Dev,1T 하급 음료(피증),발효주,"<B>[사용 효과]</>
+20분 동안 주는 피해가 5% 증가합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,941010009,FALSE,0,,,FALSE,FALSE,,0,999
+41030003,41030003,Dev,3T 중급 음식(체력),진한 특제 수프,"<B>[사용 효과]</>
+8초 동안 체력을 총 1600 회복합니다.
+비전투 상태에서만 사용할 수 있습니다. ",Consume,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,741030003,FALSE,0,,,FALSE,FALSE,,0,999
+41030004,41030004,Dev,3T 중급 음식(마력),신선한 샐러드,"<B>[사용 효과]</>
+8초 동안 마력을 총 400 회복합니다.
+비전투 상태에서만 사용할 수 있습니다. ",Consume,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,741030004,FALSE,0,,,FALSE,FALSE,,0,999
+41030005,41030005,Dev,3T 중급 음료(받피감),은은한 과일차,"<B>[사용 효과]</>
+20분 동안 받는 피해가 10% 감소합니다.",Consume,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,741030005,FALSE,0,,,FALSE,FALSE,,0,999
+41030006,41030006,Dev,3T 중급 음료(피증),부드러운 발효주,"<B>[사용 효과]</>
+20분 동안 주는 피해가 10% 증가합니다.",Consume,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,741030006,FALSE,0,,,FALSE,FALSE,,0,999
+41030007,41030007,Dev,중급 체력 물약,중급 체력 물약,"<B>[사용 효과]</>
+8초 동안 체력을 총 640 회복합니다.",Consume,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,741030007,FALSE,0,,,FALSE,FALSE,,0,999
+41030008,41030008,Dev,중급 마력 물약,중급 마력 물약,"<B>[사용 효과]</>
+8초 동안 마력을 총 160 회복합니다.",Consume,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,741030008,FALSE,0,,,FALSE,FALSE,,0,999
+41050001,41050001,Dev,상급 체력 물약,상급 체력 물약,"<B>[사용 효과]</>
+8초 동안 체력을 총 800 회복합니다.",Consume,0,Tier5,Rare,999,0,1,1,Unbound,,1,541050001,FALSE,0,,,FALSE,FALSE,,0,999
+41050002,41050002,Dev,상급 마력 물약,상급 마력 물약,"<B>[사용 효과]</>
+8초 동안 마력을 총 200 회복합니다.",Consume,0,Tier5,Rare,999,0,1,1,Unbound,,1,541050002,FALSE,0,,,FALSE,FALSE,,0,999
+42010001,42010001,Dev,1T 양손검 & 판금 방어구 상자,,,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,942010001,FALSE,0,,,FALSE,FALSE,,0,999
+42010002,42010002,Dev,1T 활 & 가죽 방어구 상자,,,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,942010002,FALSE,0,,,FALSE,FALSE,,0,999
+42010003,42010003,Dev,1T 지팡이 & 천 방어구 상자,,,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,942010003,FALSE,0,,,FALSE,FALSE,,0,999
+42010004,42010004,Dev,전투 지원 상자,,,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,942010004,FALSE,0,,,FALSE,FALSE,,0,999
+42010005,42010005,Dev,제작대 상자,,,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942010005,FALSE,0,,,FALSE,FALSE,,0,999
+42010006,42010006,Dev,1티 원재료 상자,,,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942010006,FALSE,0,,,FALSE,FALSE,,0,999
+42010007,42010007,Dev,1티 장비 상자,,,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942010007,FALSE,0,,,FALSE,FALSE,,0,999
+42010008,42010008,Dev,1티 무기 상자,,,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942010008,FALSE,0,,,FALSE,FALSE,,0,999
+42010009,42010009,Dev,1티 판금 방어구 상자,,,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942010009,FALSE,0,,,FALSE,FALSE,,0,999
+42010010,42010010,Dev,1티 가죽 방어구 상자,,,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942010010,FALSE,0,,,FALSE,FALSE,,0,999
+42010011,42010011,Dev,1티 천 방어구 상자,,,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942010011,FALSE,0,,,FALSE,FALSE,,0,999
+42019003,42019003,Dev,카카오 테스트용 방어구 상자,,,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,942019003,FALSE,0,,,FALSE,FALSE,,0,999
+42020001,42020001,Dev,스칼니토스 상자,,,Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,842020001,FALSE,0,,,FALSE,FALSE,,0,999
+42020002,42020002,Dev,2티 원재료 상자,,,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,842020002,FALSE,0,,,FALSE,FALSE,,0,999
+42020003,42020003,Dev,2티 장비 상자,,,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,842020003,FALSE,0,,,FALSE,FALSE,,0,999
+42020004,42020004,Dev,2티 무기 상자,,,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,842020004,FALSE,0,,,FALSE,FALSE,,0,999
+42020005,42020005,Dev,2티 판금 방어구 상자,,,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,842020005,FALSE,0,,,FALSE,FALSE,,0,999
+42020006,42020006,Dev,2티 가죽 방어구 상자,,,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,842020006,FALSE,0,,,FALSE,FALSE,,0,999
+42020007,42020007,Dev,2티 천 방어구 상자,,,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,842020007,FALSE,0,,,FALSE,FALSE,,0,999
+42030001,42030001,Dev,놀 우두머리 토벌 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030001,FALSE,0,,,FALSE,FALSE,,0,999
+42030002,42030002,Dev,오크 족장 토벌 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030002,FALSE,0,,,FALSE,FALSE,,0,999
+42030003,42030003,Dev,도바비언 지휘관 토벌 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030003,FALSE,0,,,FALSE,FALSE,,0,999
+42030004,42030004,Dev,분노한 오우거 토벌 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030004,FALSE,0,,,FALSE,FALSE,,0,999
+42030005,42030005,Dev,초보자의 골드 가방,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030005,FALSE,0,,,FALSE,FALSE,,0,999
+42030006,42030006,Dev,3티 원재료 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030006,FALSE,0,,,FALSE,FALSE,,0,999
+42030007,42030007,Dev,3티 장비 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030007,FALSE,0,,,FALSE,FALSE,,0,999
+42030008,42030008,Dev,3티 무기 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030008,FALSE,0,,,FALSE,FALSE,,0,999
+42030009,42030009,Dev,3티 판금 방어구 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030009,FALSE,0,,,FALSE,FALSE,,0,999
+42030010,42030010,Dev,3티 가죽 방어구 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030010,FALSE,0,,,FALSE,FALSE,,0,999
+42030011,42030011,Dev,3티 천 방어구 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030011,FALSE,0,,,FALSE,FALSE,,0,999
+42030012,42030012,Dev,3티 장신구 상자,,,Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742030012,FALSE,0,,,FALSE,FALSE,,0,999
+42040001,42040001,Dev,봉인된 심연의 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040001,FALSE,0,,,FALSE,FALSE,,0,999
+42040002,42040002,Dev,전문가의 골드 가방,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040002,FALSE,0,,,FALSE,FALSE,,0,999
+42040003,42040003,Dev,4티 원재료 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040003,FALSE,0,,,FALSE,FALSE,,0,999
+42040004,42040004,Dev,4티 장비 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040004,FALSE,0,,,FALSE,FALSE,,0,999
+42040005,42040005,Dev,4티 무기 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040005,FALSE,0,,,FALSE,FALSE,,0,999
+42040006,42040006,Dev,4티 판금 방어구 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040006,FALSE,0,,,FALSE,FALSE,,0,999
+42040007,42040007,Dev,4티 가죽 방어구 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040007,FALSE,0,,,FALSE,FALSE,,0,999
+42040008,42040008,Dev,4티 천 방어구 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040008,FALSE,0,,,FALSE,FALSE,,0,999
+42040009,42040009,Dev,4티 장신구 상자,,,Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,642040009,FALSE,0,,,FALSE,FALSE,,0,999
+42050001,42050001,Dev,대가의 골드 골드 가방,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050001,FALSE,0,,,FALSE,FALSE,,0,999
+42050002,42050002,Dev,5티 원재료 상자,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050002,FALSE,0,,,FALSE,FALSE,,0,999
+42050003,42050003,Dev,5티 장비 상자,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050003,FALSE,0,,,FALSE,FALSE,,0,999
+42050004,42050004,Dev,5티 무기 상자,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050004,FALSE,0,,,FALSE,FALSE,,0,999
+42050005,42050005,Dev,5티 판금 방어구 상자,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050005,FALSE,0,,,FALSE,FALSE,,0,999
+42050006,42050006,Dev,5티 가죽 방어구 상자,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050006,FALSE,0,,,FALSE,FALSE,,0,999
+42050007,42050007,Dev,5티 천 방어구 상자,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050007,FALSE,0,,,FALSE,FALSE,,0,999
+42050008,42050008,Dev,5티 장신구 상자,,,Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,542050008,FALSE,0,,,FALSE,FALSE,,0,999
+42060001,42060001,Dev,6티 원재료 상자,,,Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,442060001,FALSE,0,,,FALSE,FALSE,,0,999
+42060002,42060002,Dev,6티 장비 상자,,,Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,442060002,FALSE,0,,,FALSE,FALSE,,0,999
+42060003,42060003,Dev,6티 무기 상자,,,Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,442060003,FALSE,0,,,FALSE,FALSE,,0,999
+42060004,42060004,Dev,6티 판금 방어구 상자,,,Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,442060004,FALSE,0,,,FALSE,FALSE,,0,999
+42060005,42060005,Dev,6티 가죽 방어구 상자,,,Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,442060005,FALSE,0,,,FALSE,FALSE,,0,999
+42060006,42060006,Dev,6티 천 방어구 상자,,,Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,442060006,FALSE,0,,,FALSE,FALSE,,0,999
+42060007,42060007,Dev,6티 장신구 상자,,,Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,442060007,FALSE,0,,,FALSE,FALSE,,0,999
+42070001,42070001,Dev,7티 원재료 상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342070001,FALSE,0,,,FALSE,FALSE,,0,999
+42070002,42070002,Dev,7티 장비 상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342070002,FALSE,0,,,FALSE,FALSE,,0,999
+42070003,42070003,Dev,7티 무기 상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342070003,FALSE,0,,,FALSE,FALSE,,0,999
+42070004,42070004,Dev,7티 판금 방어구 상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342070004,FALSE,0,,,FALSE,FALSE,,0,999
+42070005,42070005,Dev,7티 가죽 방어구 상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342070005,FALSE,0,,,FALSE,FALSE,,0,999
+42070006,42070006,Dev,7티 천 방어구 상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342070006,FALSE,0,,,FALSE,FALSE,,0,999
+42070007,42070007,Dev,7티 장신구 상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342070007,FALSE,0,,,FALSE,FALSE,,0,999
+42990001,42990001,Dev,테스트용_2T 장비 상자,,,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,842990001,FALSE,0,,,FALSE,FALSE,,0,999
+42990002,42990002,Dev,여명의 시작 무기 상자,여명의 시작 무기 상자,여명의 시작 무기 상자,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,942990002,FALSE,0,,,FALSE,FALSE,,0,999
+42990004,42990004,Dev,목재상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342990004,FALSE,0,,,FALSE,FALSE,,0,999
+42990005,42990005,Dev,주괴상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342990005,FALSE,0,,,FALSE,FALSE,,0,999
+42990006,42990006,Dev,천상자,,,Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,342990006,FALSE,0,,,FALSE,FALSE,,0,999
+42990007,42990007,Dev,테스트 화폐 획득 상자,[임시]테스트 화폐 획득 상자,"[임시]테스트 화페 획득 상자
+- 10000 골드
+- 10000 나비
+- 10000 델피나드의 별
+- 10000 에노아의 태양
+- 10000 노동력",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,942990007,FALSE,0,,,FALSE,FALSE,,0,999
+42990008,42990008,Dev,TEST 시연/ 팀 테스트 시 거래소 이용을 위한 상자,[임시]나비 획득 상자,"[임시]거래소 이용 등에 사용하는 화폐인 나비를 획득할 수 있는 상자입니다.
+
+<B>[구성 물품]</>
+- 50,000 나비",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,742990008,FALSE,0,,,FALSE,FALSE,,0,999
+43010004,43010004,Dev,무기 강화 주문서,무기 강화 주문서,무기에 잠재된 힘을 끌어내는 신비한 마법 주문서입니다. 사용 성공 시 무기를 강화합니다.,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,943010004,FALSE,0,,,FALSE,FALSE,,0,999
+43010005,43010005,Dev,축복 무기 강화 주문서,축복 무기 강화 주문서,축복 무기 강화 주문서,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,843010005,FALSE,0,,,FALSE,FALSE,,0,999
+43010006,43010006,Dev,방어구 강화 주문서,방어구 강화 주문서,방어구에 잠재된 힘을 끌어내는 신비한 마법 주문서입니다. 사용 성공 시 방어구를 강화합니다.,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,943010006,FALSE,0,,,FALSE,FALSE,,0,999
+43010007,43010007,Dev,장신구 강화 주문서,장신구 강화 주문서,장신구에 잠재된 힘을 끌어내는 신비한 마법 주문서입니다. 사용 성공 시 장신구를 강화합니다.,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,943010007,FALSE,0,,,FALSE,FALSE,,0,999
+43010008,43010008,Dev,달그늘 쉼터 귀환 주문서,달그늘 쉼터 귀환 주문서,이니스 섬 달그늘 쉼터로 돌아갈 수 있는 마법 주문서 입니다. 이니스 섬 에서만 사용할 수 있습니다.,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,943010008,FALSE,0,,,FALSE,FALSE,,0,999
+43010009,43010009,Dev,침묵하는 잔해의 전장 입장권,침묵하는 잔해의 전장 입장권,침묵하는 잔해의 전장으로 이동하는 공간의 문을 소환할 수 있습니다.,Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,943010009,FALSE,0,,,FALSE,FALSE,,0,999
+43020001,43020001,Dev,축복 방어구 강화 주문서,축복 방어구 강화 주문서,축복 방어구 강화 주문서,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,843020001,FALSE,0,,,FALSE,FALSE,,0,999
+43020002,43020002,Dev,축복 장신구 강화 주문서,축복 장신구 강화 주문서,축복 장신구 강화 주문서,Consume,0,Tier2,Common,99999,0,1,1,Unbound,,1,843020002,FALSE,0,,,FALSE,FALSE,,0,999
+43030001,43030001,Dev,전투 숙련도 책(소),전투 숙련도의 서(소),"누이아 대륙에 전승되는 전투의 정수를 담고 있는 기록서입니다. 사용 시 착용 중인 전투 장비에 관한 숙련도 1,000을 즉시 획득합니다. (단 채집 기술에 관한 숙련도는 적용되지 않습니다.)",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030001,FALSE,0,,,FALSE,FALSE,,0,999
+43030002,43030002,Dev,채광 숙련도(소),채광 숙련도의 서(소),"채광 기술에 대한 노하우가 정리된 기록서입니다. 사용 시 채광 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030002,FALSE,0,,,FALSE,FALSE,,0,999
+43030003,43030003,Dev,섬유 채집 숙련도(소),섬유 채집 숙련도의 서(소),"섬유 채집 기술에 대한 노하우가 정리된 기록서입니다. 사용 시 섬유 채집 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030003,FALSE,0,,,FALSE,FALSE,,0,999
+43030004,43030004,Dev,벌목 숙련도(소),벌목 숙련도의 서(소),"벌목 기술에 대한 노하우가 정리된 기록서입니다. 사용 시 벌목 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030004,FALSE,0,,,FALSE,FALSE,,0,999
+43030005,43030005,Dev,무두질 숙련도(소),무두질 숙련도의 서(소),"무두질 기술에 대한 노하우가 정리된 기록서입니다. 사용 시 무두질 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030005,FALSE,0,,,FALSE,FALSE,,0,999
+43030006,43030006,Dev,판금 제작 숙련도 책(소),판금 제작 숙련도 책(소),"판금 전문가들의 경험이 응축된 기록서입니다. 사용 시 판금 가공 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030006,FALSE,0,,,FALSE,FALSE,,0,999
+43030007,43030007,Dev,가죽 제작 숙련도(소),가죽 제작 숙련도(소),"가죽 전문가들의 경험이 응축된 기록서입니다. 사용 시 가죽 가공 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030007,FALSE,0,,,FALSE,FALSE,,0,999
+43030008,43030008,Dev,천 제작 숙련도(소),천 제작 숙련도(소),"천 전문가들의 경험이 응축된 기록서입니다. 사용 시 천 가공 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030008,FALSE,0,,,FALSE,FALSE,,0,999
+43030009,43030009,Dev,양손검 제작 숙련도(소),양손검 숙련도의 서(소),"양손검 전투 기술이 집약된 기록서입니다. 사용 시 양손검 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030009,FALSE,0,,,FALSE,FALSE,,0,999
+43030010,43030010,Dev,단검 제작 숙련도 책(소),단검 숙련도의 서(소),"단검 전투 기술이 집약된 기록서입니다. 사용 시 단검 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030010,FALSE,0,,,FALSE,FALSE,,0,999
+43030011,43030011,Dev,활 제작 숙련도(소),활 숙련도의 서(소),"활 전투 기술이 집약된 기록서입니다. 사용 시 활 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030011,FALSE,0,,,FALSE,FALSE,,0,999
+43030012,43030012,Dev,지팡이 제작 숙련도(소),지팡이 숙련도의 서(소),"지팡이 전투 기술이 집약된 기록서입니다. 사용 시 지팡이 숙련도 1,000을 즉시 획득합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030012,FALSE,0,,,FALSE,FALSE,,0,999
+43030013,43030013,Dev,요리 숙련도(소),요리 숙련도(소),요리 숙련도(소),Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,743030013,FALSE,0,,,FALSE,FALSE,,0,999
+43040001,43040001,Dev,전투 숙련도 책(중),전투 숙련도 책(중),전투 숙련도 책(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040001,FALSE,0,,,FALSE,FALSE,,0,999
+43040002,43040002,Dev,채광 숙련도(중),채광 숙련도(중),채광 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040002,FALSE,0,,,FALSE,FALSE,,0,999
+43040003,43040003,Dev,섬유 채집 숙련도(중),섬유 채집 숙련도(중),섬유 채집 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040003,FALSE,0,,,FALSE,FALSE,,0,999
+43040004,43040004,Dev,벌목 숙련도(중),벌목 숙련도(중),벌목 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040004,FALSE,0,,,FALSE,FALSE,,0,999
+43040005,43040005,Dev,무두질 숙련도(중),무두질 숙련도(중),무두질 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040005,FALSE,0,,,FALSE,FALSE,,0,999
+43040006,43040006,Dev,판금 제작 숙련도 책(중),판금 제작 숙련도 책(중),판금 제작 숙련도 책(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040006,FALSE,0,,,FALSE,FALSE,,0,999
+43040007,43040007,Dev,가죽 제작 숙련도(중),가죽 제작 숙련도(중),가죽 제작 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040007,FALSE,0,,,FALSE,FALSE,,0,999
+43040008,43040008,Dev,천 제작 숙련도(중),천 제작 숙련도(중),천 제작 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040008,FALSE,0,,,FALSE,FALSE,,0,999
+43040009,43040009,Dev,양손검 제작 숙련도(중),양손검 제작 숙련도(중),양손검 제작 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040009,FALSE,0,,,FALSE,FALSE,,0,999
+43040010,43040010,Dev,단검 제작 숙련도 책(중),단검 제작 숙련도 책(중),단검 제작 숙련도 책(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040010,FALSE,0,,,FALSE,FALSE,,0,999
+43040011,43040011,Dev,활 제작 숙련도(중),활 제작 숙련도(중),활 제작 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040011,FALSE,0,,,FALSE,FALSE,,0,999
+43040012,43040012,Dev,지팡이 제작 숙련도(중),지팡이 제작 숙련도(중),지팡이 제작 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040012,FALSE,0,,,FALSE,FALSE,,0,999
+43040013,43040013,Dev,요리 숙련도(중),요리 숙련도(중),요리 숙련도(중),Consume,0,Tier4,Uncommon,99999,0,1,1,Unbound,,1,643040013,FALSE,0,,,FALSE,FALSE,,0,999
+43050001,43050001,Dev,전투 숙련도 책(대),전투 숙련도 책(대),전투 숙련도 책(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050001,FALSE,0,,,FALSE,FALSE,,0,999
+43050002,43050002,Dev,채광 숙련도(대),채광 숙련도(대),채광 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050002,FALSE,0,,,FALSE,FALSE,,0,999
+43050003,43050003,Dev,섬유 채집 숙련도(대),섬유 채집 숙련도(대),섬유 채집 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050003,FALSE,0,,,FALSE,FALSE,,0,999
+43050004,43050004,Dev,벌목 숙련도(대),벌목 숙련도(대),벌목 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050004,FALSE,0,,,FALSE,FALSE,,0,999
+43050005,43050005,Dev,무두질 숙련도(대),무두질 숙련도(대),무두질 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050005,FALSE,0,,,FALSE,FALSE,,0,999
+43050006,43050006,Dev,판금 제작 숙련도 책(대),판금 제작 숙련도 책(대),판금 제작 숙련도 책(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050006,FALSE,0,,,FALSE,FALSE,,0,999
+43050007,43050007,Dev,가죽 제작 숙련도(대),가죽 제작 숙련도(대),가죽 제작 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050007,FALSE,0,,,FALSE,FALSE,,0,999
+43050008,43050008,Dev,천 제작 숙련도(대),천 제작 숙련도(대),천 제작 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050008,FALSE,0,,,FALSE,FALSE,,0,999
+43050009,43050009,Dev,양손검 제작 숙련도(대),양손검 제작 숙련도(대),양손검 제작 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050009,FALSE,0,,,FALSE,FALSE,,0,999
+43050010,43050010,Dev,단검 제작 숙련도 책(대),단검 제작 숙련도 책(대),단검 제작 숙련도 책(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050010,FALSE,0,,,FALSE,FALSE,,0,999
+43050011,43050011,Dev,활 제작 숙련도(대),활 제작 숙련도(대),활 제작 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050011,FALSE,0,,,FALSE,FALSE,,0,999
+43050012,43050012,Dev,지팡이 제작 숙련도(대),지팡이 제작 숙련도(대),지팡이 제작 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050012,FALSE,0,,,FALSE,FALSE,,0,999
+43050013,43050013,Dev,요리 숙련도(대),요리 숙련도(대),요리 숙련도(대),Consume,0,Tier5,Rare,99999,0,1,1,Unbound,,1,543050013,FALSE,0,,,FALSE,FALSE,,0,999
+43060001,43060001,Dev,전투 숙련도 책 (특대),전투 숙련도 책 (특대),전투 숙련도 책 (특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060001,FALSE,0,,,FALSE,FALSE,,0,999
+43060002,43060002,Dev,채광 숙련도(특대),채광 숙련도(특대),채광 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060002,FALSE,0,,,FALSE,FALSE,,0,999
+43060003,43060003,Dev,섬유 채집 숙련도(특대),섬유 채집 숙련도(특대),섬유 채집 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060003,FALSE,0,,,FALSE,FALSE,,0,999
+43060004,43060004,Dev,벌목 숙련도(특대),벌목 숙련도(특대),벌목 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060004,FALSE,0,,,FALSE,FALSE,,0,999
+43060005,43060005,Dev,무두질 숙련도(특대),무두질 숙련도(특대),무두질 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060005,FALSE,0,,,FALSE,FALSE,,0,999
+43060006,43060006,Dev,판금 제작 숙련도 책 (특대),판금 제작 숙련도 책 (특대),판금 제작 숙련도 책 (특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060006,FALSE,0,,,FALSE,FALSE,,0,999
+43060007,43060007,Dev,가죽 제작 숙련도(특대),가죽 제작 숙련도(특대),가죽 제작 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060007,FALSE,0,,,FALSE,FALSE,,0,999
+43060008,43060008,Dev,천 제작 숙련도(특대),천 제작 숙련도(특대),천 제작 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060008,FALSE,0,,,FALSE,FALSE,,0,999
+43060009,43060009,Dev,양손검 제작 숙련도(특대),양손검 제작 숙련도(특대),양손검 제작 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060009,FALSE,0,,,FALSE,FALSE,,0,999
+43060010,43060010,Dev,단검 제작 숙련도 책 (특대),단검 제작 숙련도 책 (특대),단검 제작 숙련도 책 (특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060010,FALSE,0,,,FALSE,FALSE,,0,999
+43060011,43060011,Dev,활 제작 숙련도(특대),활 제작 숙련도(특대),활 제작 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060011,FALSE,0,,,FALSE,FALSE,,0,999
+43060012,43060012,Dev,지팡이 제작 숙련도(특대),지팡이 제작 숙련도(특대),지팡이 제작 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060012,FALSE,0,,,FALSE,FALSE,,0,999
+43060013,43060013,Dev,요리 숙련도(특대),요리 숙련도(특대),요리 숙련도(특대),Consume,0,Tier6,Rare,99999,0,1,1,Unbound,,1,443060013,FALSE,0,,,FALSE,FALSE,,0,999
+43070001,43070001,Dev,전투 숙련도 책 (특특대),전투 숙련도 책 (특특대),전투 숙련도 책 (특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070001,FALSE,0,,,FALSE,FALSE,,0,999
+43070002,43070002,Dev,채광 숙련도(특특대),채광 숙련도(특특대),채광 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070002,FALSE,0,,,FALSE,FALSE,,0,999
+43070003,43070003,Dev,섬유 채집 숙련도(특특대),섬유 채집 숙련도(특특대),섬유 채집 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070003,FALSE,0,,,FALSE,FALSE,,0,999
+43070004,43070004,Dev,벌목 숙련도(특특대),벌목 숙련도(특특대),벌목 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070004,FALSE,0,,,FALSE,FALSE,,0,999
+43070005,43070005,Dev,무두질 채집 숙련도(특특대),무두질 채집 숙련도(특특대),무두질 채집 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070005,FALSE,0,,,FALSE,FALSE,,0,999
+43070006,43070006,Dev,판금 제작 숙련도 책 (특특대),판금 제작 숙련도 책 (특특대),판금 제작 숙련도 책 (특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070006,FALSE,0,,,FALSE,FALSE,,0,999
+43070007,43070007,Dev,가죽 제작 숙련도(특특대),가죽 제작 숙련도(특특대),가죽 제작 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070007,FALSE,0,,,FALSE,FALSE,,0,999
+43070008,43070008,Dev,천 제작 숙련도(특특대),천 제작 숙련도(특특대),천 제작 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070008,FALSE,0,,,FALSE,FALSE,,0,999
+43070009,43070009,Dev,양손검 제작 숙련도(특특대),양손검 제작 숙련도(특특대),양손검 제작 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070009,FALSE,0,,,FALSE,FALSE,,0,999
+43070010,43070010,Dev,단검 제작 숙련도 책 (특특대),단검 제작 숙련도 책 (특특대),단검 제작 숙련도 책 (특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070010,FALSE,0,,,FALSE,FALSE,,0,999
+43070011,43070011,Dev,활 제작 숙련도(특특대),활 제작 숙련도(특특대),활 제작 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070011,FALSE,0,,,FALSE,FALSE,,0,999
+43070012,43070012,Dev,지팡이 제작 숙련도(특특대),지팡이 제작 숙련도(특특대),지팡이 제작 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070012,FALSE,0,,,FALSE,FALSE,,0,999
+43070013,43070013,Dev,요리 숙련도(특특대),요리 숙련도(특특대),요리 숙련도(특특대),Consume,0,Tier7,Ancient,99999,0,1,1,Unbound,,1,343070013,FALSE,0,,,FALSE,FALSE,,0,999
+44010001,44010001,Dev,4T 펫 상자,펫 상자,"펫이 들어있는 상자입니다.
+사용 시 펫을 획득할 수 있습니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,744010001,FALSE,0,,,FALSE,FALSE,,0,999
+44010002,44010002,Dev,클리오네,클리오네,"<B>[사용 효과]</>
+클리오네를 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,944010002,FALSE,0,,,FALSE,FALSE,,0,999
+44010003,44010003,Dev,페피,페피,"<B>[사용 효과]</>
+페피를 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,944010003,FALSE,0,,,FALSE,FALSE,,0,999
+44010004,44010004,Dev,파피리스,파피리스,"<B>[사용 효과]</>
+파피리스를 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,944010004,FALSE,0,,,FALSE,FALSE,,0,999
+44010005,44010005,Dev,붉은 용,붉은 용,"<B>[사용 효과]</>
+붉은 용을 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier1,Common,99999,0,1,1,Unbound,,1,944010005,FALSE,0,,,FALSE,FALSE,,0,999
+44010006,44010006,Dev,빛의 사도 위니,빛의 사도 위니,"<B>[사용 효과]</>
+빛의 사도 위니를 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier3,Uncommon,99999,0,1,1,Unbound,,1,744010006,FALSE,0,,,FALSE,FALSE,,0,999
+44010007,44010007,Dev,당나귀,[임시]당나귀,"<B>[사용 효과]</>
+당나귀를 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010007,FALSE,0,,,FALSE,FALSE,,0,999
+44010008,44010008,Dev,여행용 말,[임시]여행용 말,"<B>[사용 효과]</>
+여행용 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010008,FALSE,0,,,FALSE,FALSE,,0,999
+44010009,44010009,Dev,갈색 릴리엇 말,[임시]갈색 릴리엇 말,"<B>[사용 효과]</>
+갈색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010009,FALSE,0,,,FALSE,FALSE,,0,999
+44010010,44010010,Dev,검은색 릴리엇 말,[임시]검은색 릴리엇 말,"<B>[사용 효과]</>
+검은색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010010,FALSE,0,,,FALSE,FALSE,,0,999
+44010011,44010011,Dev,흰색 릴리엇 말,[임시]흰색 릴리엇 말,"<B>[사용 효과]</>
+흰색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010011,FALSE,0,,,FALSE,FALSE,,0,999
+44010012,44010012,Dev,은빛 발굽 아르시안(700),은빛 발굽 아르시안(700),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010012,FALSE,0,,,FALSE,FALSE,,0,999
+44010013,44010013,Dev,은빛 발굽 아르시안(800),은빛 발굽 아르시안(800),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010013,FALSE,0,,,FALSE,FALSE,,0,999
+44010014,44010014,Dev,은빛 발굽 아르시안(900),은빛 발굽 아르시안(900),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010014,FALSE,0,,,FALSE,FALSE,,0,999
+44010015,44010015,Dev,은빛 발굽 아르시안(1000),은빛 발굽 아르시안(1000),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010015,FALSE,0,,,FALSE,FALSE,,0,999
+44010016,44010016,Dev,은빛 발굽 아르시안(1100),은빛 발굽 아르시안(1100),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010016,FALSE,0,,,FALSE,FALSE,,0,999
+44010017,44010017,Dev,은빛 발굽 아르시안(1200),은빛 발굽 아르시안(1200),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010017,FALSE,0,,,FALSE,FALSE,,0,999
+44010018,44010018,Dev,은빛 발굽 아르시안(1300),은빛 발굽 아르시안(1300),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010018,FALSE,0,,,FALSE,FALSE,,0,999
+44010019,44010019,Dev,은빛 발굽 아르시안(!400),은빛 발굽 아르시안(!400),,Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010019,FALSE,0,,,FALSE,FALSE,,0,999
+44010020,44010020,Dev,갈색 릴리엇 말,갈색 릴리엇 말,"<B>[사용 효과]</>
+갈색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010020,FALSE,0,,,FALSE,FALSE,,0,999
+44010021,44010021,Dev,검은색 릴리엇 말,검은색 릴리엇 말,"<B>[사용 효과]</>
+검은색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010021,FALSE,0,,,FALSE,FALSE,,0,999
+44010022,44010022,Dev,흰색 릴리엇 말,흰색 릴리엇 말,"<B>[사용 효과]</>
+흰색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier1,Common,1,0,1,1,Unbound,,1,944010022,FALSE,0,,,FALSE,FALSE,,0,999
+44010023,44010023,Dev,윤기나는 갈색 릴리엇 말,윤기나는 갈색 릴리엇 말,"<B>[사용 효과]</>
+윤기나는 갈색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844010023,FALSE,0,,,FALSE,FALSE,,0,999
+44010024,44010024,Dev,윤기나는 검은색 릴리엇 말,윤기나는 검은색 릴리엇 말,"<B>[사용 효과]</>
+윤기나는 검은색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844010024,FALSE,0,,,FALSE,FALSE,,0,999
+44010025,44010025,Dev,윤기나는 흰색 릴리엇 말,윤기나는 흰색 릴리엇 말,"<B>[사용 효과]</>
+윤기나는 흰색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844010025,FALSE,0,,,FALSE,FALSE,,0,999
+44010026,44010026,Dev,빛나는 갈색 릴리엇 말,빛나는 갈색 릴리엇 말,"<B>[사용 효과]</>
+빛나는 갈색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,744010026,FALSE,0,,,FALSE,FALSE,,0,999
+44010027,44010027,Dev,빛나는 검은색 릴리엇 말,빛나는 검은색 릴리엇 말,"<B>[사용 효과]</>
+빛나는 검은색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,744010027,FALSE,0,,,FALSE,FALSE,,0,999
+44010028,44010028,Dev,빛나는 흰색 릴리엇 말,빛나는 흰색 릴리엇 말,"<B>[사용 효과]</>
+빛나는 흰색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier3,Uncommon,1,0,1,1,Unbound,,1,744010028,FALSE,0,,,FALSE,FALSE,,0,999
+44010029,44010029,Dev,재빠른 갈색 릴리엇 말,재빠른 갈색 릴리엇 말,"<B>[사용 효과]</>
+재빠른 갈색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier4,Uncommon,1,0,1,1,Unbound,,1,644010029,FALSE,0,,,FALSE,FALSE,,0,999
+44010030,44010030,Dev,재빠른 검은색 릴리엇 말,재빠른 검은색 릴리엇 말,"<B>[사용 효과]</>
+재빠른 검은색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier4,Uncommon,1,0,1,1,Unbound,,1,644010030,FALSE,0,,,FALSE,FALSE,,0,999
+44010031,44010031,Dev,재빠른 흰색 릴리엇 말,재빠른 흰색 릴리엇 말,"<B>[사용 효과]</>
+재빠른 흰색 릴리엇 말을 등록합니다.
+등록된 소환수는 바로 선택되며, 사용할 수 있습니다.",Consume,0,Tier4,Uncommon,1,0,1,1,Unbound,,1,644010031,FALSE,0,,,FALSE,FALSE,,0,999
+44020001,44020001,Dev,5T 펫 상자,2T 펫 상자,2T 펫을 획득할 수 있는 상자입니다.,Consume,0,Tier2,Common,999,0,1,1,Unbound,,1,844020001,FALSE,0,,,FALSE,FALSE,,0,999
+44020002,44020002,Dev,안탈론,안탈론,"<B>[사용 효과]</>
+안탈론을 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844020002,FALSE,0,,,FALSE,FALSE,,0,999
+44020003,44020003,Dev,축복의 다그란,축복의 다그란,"<B>[사용 효과]</>
+축복의 다그란을 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844020003,FALSE,0,,,FALSE,FALSE,,0,999
+44020004,44020004,Dev,마정령 엘룬드,마정령 엘룬드,"<B>[사용 효과]</>
+마정령 엘룬드를 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844020004,FALSE,0,,,FALSE,FALSE,,0,999
+44020005,44020005,Dev,사도 아로마르,사도 아로마르,"<B>[사용 효과]</>
+사도 아로마르를 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844020005,FALSE,0,,,FALSE,FALSE,,0,999
+44020006,44020006,Dev,검은 잔재 칼루안,검은 잔재 칼루안,"<B>[사용 효과]</>
+검은 잔재 칼루안을 등록합니다.
+등록된 펫은 펫 목록에서 확인 가능합니다.",Consume,0,Tier2,Common,1,0,1,1,Unbound,,1,844020006,FALSE,0,,,FALSE,FALSE,,0,999
+49010001,49010001,Dev,사슬탄,[임시]사슬탄,"[임시]<B>[상세 효과]</>
+함포에 사용되는 포탄입니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010001,FALSE,0,,,FALSE,FALSE,,0,999
+49010002,49010002,Dev,포도탄,[임시]포도탄,"[임시]<B>[상세 효과]</>
+함포에 사용되는 포탄입니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010002,FALSE,0,,,FALSE,FALSE,,0,999
+49010003,49010003,Dev,화염탄,[임시]화염탄,"[임시]<B>[상세 효과]</>
+함포에 사용되는 포탄입니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010003,FALSE,0,,,FALSE,FALSE,,0,999
+49010004,49010004,Dev,황금 주사위,찬드의 주사위,"행운의 힘이 가득 깃든 찬드의 주사위입니다.
+
+<B>[사용 효과]</>
+1분 동안 손재주 주사위의 최종값이 100 증가합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010004,FALSE,0,,,FALSE,FALSE,,0,999
+49010005,49010005,Dev,행운의 주사위,행운의 주사위,"참라의 가호가 깃든 행운의 주사위입니다.
+
+<B>[사용 효과]</>
+1분 동안 손재주 주사위 최종값이 10 증가합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010005,FALSE,0,,,FALSE,FALSE,,0,999
+49010006,49010006,Dev,기회의 주사위,기회의 주사위,"참라의 작은 가호가 깃든 기회의 주사위입니다.
+
+<B>[사용 효과]</>
+1분 동안 손재주 주사위 최댓값이 10 증가합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010006,FALSE,0,,,FALSE,FALSE,,0,999
+49010007,49010007,Dev,파멸의 주사위,파멸의 주사위,"분노한 참라의 저주가 깃든 파멸의 주사위입니다.
+
+<B>[사용 효과]</>
+1분 동안 손재주 주사위 최댓값이 99 감소합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010007,FALSE,0,,,FALSE,FALSE,,0,999
+49010008,49010008,Dev,불운의 주사위,불운의 주사위,"참라의 저주가 깃든 불운의 주사위입니다.
+
+<B>[사용 효과]</>
+1분 동안 손재주 주사위 최댓값이 50 감소합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949010008,FALSE,0,,,FALSE,FALSE,,0,999
+49990001,49990001,Dev,테스트_스킬_소모품_얼음 화살,[임시]테스트_스킬_소모품_얼음 화살,[임시]방향 지정 스킬 적용 소모 아이템,Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,949990001,FALSE,0,,,FALSE,FALSE,,0,999
+49990002,49990002,Dev,테스트_스킬_소모품_방울방울,[임시]테스트_스킬_소모품_방울방울,[임시]대상 지정 스킬 적용 소모 아이템,Consume,0,Tier2,Common,999,0,1,1,Unbound,,1,849990002,FALSE,0,,,FALSE,FALSE,,0,999
+49990003,49990003,Dev,테스트_스킬_소모품_심판의 낙뢰,[임시]테스트_스킬_소모품_심판의 낙뢰,[임시]좌표 지정 스킬 적용 소모 아이템,Consume,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,749990003,FALSE,0,,,FALSE,FALSE,,0,999
+50110001,50110001,Dev,하급 아키움 가루,하급 아키움 가루,1~2티어 아이템을 분해하면 얻을 수 있는 하급 숫돌입니다.,Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,950110001,FALSE,0,,,FALSE,FALSE,,0,999
+50130001,50130001,Dev,중급 아키움 가루,중급 아키움 가루,3~5티어 아이템을 분해하면 얻을 수 있는 중급 숫돌입니다.,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,750130001,FALSE,0,,,FALSE,FALSE,,0,999
+50160001,50160001,Dev,상급 아키움 가루,상급 아키움 가루,6~7티어 아이템을 분해하면 얻을 수 있는 상급 숫돌입니다.,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,450160001,FALSE,0,,,FALSE,FALSE,,0,999
+51010001,51010001,Dev,1T 광석,구리 광석,"구리 광맥에서 얻은 광석입니다.
+가공해서 주괴로 만들 수 있습니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,951010001,FALSE,0,,,FALSE,FALSE,,0,999
+51010002,51010002,Dev,1T 섬유,목화 섬유,"목화에서 얻은 섬유입니다.
+가공해서 천으로 만들 수 있습니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,951010002,FALSE,0,,,FALSE,FALSE,,0,999
+51010003,51010003,Dev,1T 통나무,참나무 통나무,"참나무를 베어 얻은 통나무입니다.
+가공해서 목재로 만들 수 있습니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,951010003,FALSE,0,,,FALSE,FALSE,,0,999
+51010004,51010004,Dev,1T 가죽,토끼 통가죽,"토끼를 무두질하여 얻은 통가죽입니다.
+가공해서 피혁으로 만들 수 있습니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,951010004,FALSE,0,,,FALSE,FALSE,,0,999
+51010005,51010005,Dev,1~2T 허브_섬유 부산물,평범한 허브,"목화나 아마꽃에서 얻을 수 있는 평범한 허브입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,951010005,FALSE,0,,,FALSE,FALSE,,0,999
+51010006,51010006,Dev,1~2T 열매_나무 부산물,평범한 열매,"참나무나 단풍나무에서 얻을 수 있는 평범한 열매입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,951010006,FALSE,0,,,FALSE,FALSE,,0,999
+51010007,51010007,Dev,1~2T 고기_무두질 부산물,평범한 고기,"토끼나 사슴에게서 얻을 수 있는 평범한 고기입니다.
+요리 재료로 사용됩니다.  ",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,951010007,FALSE,0,,,FALSE,FALSE,,0,999
+51020001,51020001,Dev,2T 광석,주석 광석,"주석 광맥에서 얻은 광석입니다.
+가공해서 주괴로 만들 수 있습니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,851020001,FALSE,0,,,FALSE,FALSE,,0,999
+51020002,51020002,Dev,2T 섬유,아마꽃 섬유,"아마꽃에서 얻은 섬유입니다.
+가공해서 천으로 만들 수 있습니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,851020002,FALSE,0,,,FALSE,FALSE,,0,999
+51020003,51020003,Dev,2T 통나무,단풍나무 통나무,"단풍나무를 베어 얻은 통나무입니다.
+가공해서 목재로 만들 수 있습니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,851020003,FALSE,0,,,FALSE,FALSE,,0,999
+51020004,51020004,Dev,2T 가죽,사슴 통가죽,"사슴을 무두질하여 얻은 통가죽입니다.
+가공해서 피혁으로 만들 수 있습니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,851020004,FALSE,0,,,FALSE,FALSE,,0,999
+51030001,51030001,Dev,3T 광석,자수정 광석,"자수정 광맥에서 얻은 광석입니다.
+가공해서 주괴로 만들 수 있습니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,751030001,FALSE,0,,,FALSE,FALSE,,0,999
+51030002,51030002,Dev,3T 섬유,모시풀 섬유,"모시풀에서 얻은 섬유입니다.
+가공해서 천으로 만들 수 있습니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,751030002,FALSE,0,,,FALSE,FALSE,,0,999
+51030003,51030003,Dev,3T 통나무,은행나무 통나무,"은행나무를 베어 얻은 통나무입니다.
+가공해서 목재로 만들 수 있습니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,751030003,FALSE,0,,,FALSE,FALSE,,0,999
+51030004,51030004,Dev,3T 가죽,여우 통가죽,"여우를 무두질하여 얻은 통가죽입니다.
+가공해서 피혁으로 만들 수 있습니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,751030004,FALSE,0,,,FALSE,FALSE,,0,999
+51030005,51030005,Dev,3~4T 허브_섬유 부산물,향긋한 허브,"모시풀이나 별빛초에서 얻을 수 있는 향긋한 허브입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,751030005,FALSE,0,,,FALSE,FALSE,,0,999
+51030006,51030006,Dev,3~4T 열매_나무 부산물,신선한 열매,"은행나무나 자작나무에서 얻을 수 있는 신선한 열매입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,751030006,FALSE,0,,,FALSE,FALSE,,0,999
+51030007,51030007,Dev,3~4T 고기_무두질 부산물,신선한 고기,"여우나 멧돼지에게서 얻을 수 있는 신선한 고기입니다.
+요리 재료로 사용됩니다.  ",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,751030007,FALSE,0,,,FALSE,FALSE,,0,999
+51040001,51040001,Dev,4T 광석,자수정 광석,"자수정 광맥에서 얻은 광석입니다.
+가공해서 주괴로 만들 수 있습니다.",Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,651040001,FALSE,0,,,FALSE,FALSE,,0,999
+51040002,51040002,Dev,4T 섬유,별빛초 섬유,"별빛초에서 얻은 섬유입니다.
+가공해서 천으로 만들 수 있습니다.",Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,651040002,FALSE,0,,,FALSE,FALSE,,0,999
+51040003,51040003,Dev,4T 통나무,자작나무 통나무,"자작나무를 베어 얻은 통나무입니다.
+무기 제작에 사용됩니다.",Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,651040003,FALSE,0,,,FALSE,FALSE,,0,999
+51040004,51040004,Dev,4T 가죽,멧돼지 통가죽,"멧돼지를 무두질하여 얻은 통가죽입니다.
+가공해서 피혁으로 만들 수 있습니다.",Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,651040004,FALSE,0,,,FALSE,FALSE,,0,999
+51050001,51050001,Dev,5T 광석,청수정 광석,"청수정 광맥에서 얻은 광석입니다.
+무기 제작에 사용됩니다.",Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,551050001,FALSE,0,,,FALSE,FALSE,,0,999
+51050002,51050002,Dev,5T 섬유,달빛초 섬유,"달빛초에서 얻은 섬유입니다.
+가공해서 천으로 만들 수 있습니다.",Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,551050002,FALSE,0,,,FALSE,FALSE,,0,999
+51050003,51050003,Dev,5T 통나무,호두나무 통나무,"호두나무를 베어 얻은 통나무입니다.
+무기 제작에 사용됩니다.",Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,551050003,FALSE,0,,,FALSE,FALSE,,0,999
+51050004,51050004,Dev,5T 가죽,늑대 통가죽,"늑대를 무두질하여 얻은 통가죽입니다.
+가공해서 피혁으로 만들 수 있습니다.",Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,551050004,FALSE,0,,,FALSE,FALSE,,0,999
+51050005,51050005,Dev,5~6T허브_섬유 부산물,농축된 허브,"달빛초나 햇빛초에서 얻을 수 있는 농축된 허브입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,551050005,FALSE,0,,,FALSE,FALSE,,0,999
+51050006,51050006,Dev,5~6T열매_나무 부산물,달콤한 열매,"호두나무나 흑단나무에서 얻을 수 있는 달콤한 열매입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,551050006,FALSE,0,,,FALSE,FALSE,,0,999
+51050007,51050007,Dev,5~6T고기_무두질 부산물,부드러운 고기,"늑대나 무스에게서 얻을 수 있는 부드러운 고기입니다.
+요리 재료로 사용됩니다.  ",Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,551050007,FALSE,0,,,FALSE,FALSE,,0,999
+51060001,51060001,Dev,6T 광석,황수정 광석,"황수정 광맥에서 얻은 광석입니다.
+가공해서 주괴로 만들 수 있습니다.",Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,451060001,FALSE,0,,,FALSE,FALSE,,0,999
+51060002,51060002,Dev,6T 섬유,햇빛초 섬유,"햇빛초에서 얻은 섬유입니다.
+가공해서 천으로 만들 수 있습니다.",Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,451060002,FALSE,0,,,FALSE,FALSE,,0,999
+51060003,51060003,Dev,6T 통나무,흑단나무 통나무,"흑단나무를 베어 얻은 통나무입니다.
+가공해서 목재로 만들 수 있습니다.",Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,451060003,FALSE,0,,,FALSE,FALSE,,0,999
+51060004,51060004,Dev,6T 가죽,무스 통가죽,"무스를 무두질하여 얻은 통가죽입니다.
+가공해서 피혁으로 만들 수 있습니다.",Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,451060004,FALSE,0,,,FALSE,FALSE,,0,999
+51070001,51070001,Dev,7T 광석,7T 광석,"7T 광맥에서 얻은 광석입니다.
+가공해서 주괴로 만들 수 있습니다.",Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,351070001,FALSE,0,,,FALSE,FALSE,,0,999
+51070002,51070002,Dev,7T 섬유,7T 섬유,"7T에서 얻은 섬유입니다.
+가공해서 천으로 만들 수 있습니다.",Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,351070002,FALSE,0,,,FALSE,FALSE,,0,999
+51070003,51070003,Dev,7T 통나무,7T 통나무,"7T나무를 베어 얻은 통나무입니다.
+가공해서 목재로 만들 수 있습니다.",Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,351070003,FALSE,0,,,FALSE,FALSE,,0,999
+51070004,51070004,Dev,7T 가죽,곰 통가죽,"곰을 무두질하여 얻은 통가죽입니다.
+가공해서 피혁으로 만들 수 있습니다.",Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,351070004,FALSE,0,,,FALSE,FALSE,,0,999
+51070005,51070005,Dev,7T허브_섬유 부산물,특급 허브,"7T 섬유에서 얻을 수 있는 허브입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,351070005,FALSE,0,,,FALSE,FALSE,,0,999
+51070006,51070006,Dev,7T열매_나무 부산물,특급 열매,"7T 나무에서 얻을 수 있는 열매입니다.
+요리나 연금술 재료로 사용됩니다.",Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,351070006,FALSE,0,,,FALSE,FALSE,,0,999
+51070007,51070007,Dev,7T고기_무두질 부산물,특급 고기,"곰에게서 얻을 수 있는 고기입니다.
+요리재료로 사용됩니다.  ",Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,351070007,FALSE,0,,,FALSE,FALSE,,0,999
+52010001,52010001,Dev,구리 주괴,구리 주괴,구리 광석을 가공해 얻은 주괴입니다.,Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,952010001,FALSE,0,,,FALSE,FALSE,,0,999
+52010002,52010002,Dev,목화 천,목화 천,목화 섬유를 가공해 얻은 천입니다.,Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,952010002,FALSE,0,,,FALSE,FALSE,,0,999
+52010003,52010003,Dev,참나무 목재,참나무 목재,참나무 통나무를 가공해 얻은 목재입니다.,Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,952010003,FALSE,0,,,FALSE,FALSE,,0,999
+52010004,52010004,Dev,1T 피혁,토끼 피혁,토끼 통가죽을 가공해 얻은 피혁입니다.,Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,952010004,FALSE,0,,,FALSE,FALSE,,0,999
+52020001,52020001,Dev,주석 주괴,주석 주괴,주석 광석을 가공해 얻은 주괴입니다.,Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,852020001,FALSE,0,,,FALSE,FALSE,,0,999
+52020002,52020002,Dev,아마꽃 천,아마꽃 천,아마꽃 섬유를 가공해 얻은 천입니다.,Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,852020002,FALSE,0,,,FALSE,FALSE,,0,999
+52020003,52020003,Dev,단풍나무 목재,단풍나무 목재,단풍나무 통나무를 가공해 얻은 목재입니다.,Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,852020003,FALSE,0,,,FALSE,FALSE,,0,999
+52020004,52020004,Dev,2T 피혁,사슴 피혁,사슴 통가죽을 가공해 얻은 피혁입니다.,Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,852020004,FALSE,0,,,FALSE,FALSE,,0,999
+52030001,52030001,Dev,철 주괴,자수정 주괴,자수정 광석을 가공해 얻은 주괴입니다.,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,752030001,FALSE,0,,,FALSE,FALSE,,0,999
+52030002,52030002,Dev,모시풀 천,모시풀 천,모시풀 섬유를 가공해 얻은 천입니다.,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,752030002,FALSE,0,,,FALSE,FALSE,,0,999
+52030003,52030003,Dev,은행나무 목재,은행나무 목재,은행나무 통나무를 가공해 얻은 목재입니다.,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,752030003,FALSE,0,,,FALSE,FALSE,,0,999
+52030004,52030004,Dev,3T 피혁,여우 피혁,여우 통가죽을 가공해 얻은 피혁입니다.,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,752030004,FALSE,0,,,FALSE,FALSE,,0,999
+52040001,52040001,Dev,자수정 주괴,자수정 주괴,자수정 광석을 가공해 얻은 주괴입니다.,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,652040001,FALSE,0,,,FALSE,FALSE,,0,999
+52040002,52040002,Dev,별빛초 천,별빛초 천,별빛초 섬유를 가공해 얻은 천입니다.,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,652040002,FALSE,0,,,FALSE,FALSE,,0,999
+52040003,52040003,Dev,자작나무 목재,자작나무 목재,자작나무 통나무를 가공해 얻은 목재입니다.,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,652040003,FALSE,0,,,FALSE,FALSE,,0,999
+52040004,52040004,Dev,4T 피혁,멧돼지 피혁,멧돼지 통가죽을 가공해 얻은 피혁입니다.,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,652040004,FALSE,0,,,FALSE,FALSE,,0,999
+52050001,52050001,Dev,청수정 주괴,청수정 주괴,청수정 광석을 가공해 얻은 주괴입니다.,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,552050001,FALSE,0,,,FALSE,FALSE,,0,999
+52050002,52050002,Dev,달빛초 천,달빛초 천,달빛초 섬유를 가공해 얻은 천입니다.,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,552050002,FALSE,0,,,FALSE,FALSE,,0,999
+52050003,52050003,Dev,호두나무 목재,호두나무 목재,호두나무 통나무를 가공해 얻은 목재입니다.,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,552050003,FALSE,0,,,FALSE,FALSE,,0,999
+52050004,52050004,Dev,5T 피혁,늑대 피혁,늑대 통가죽을 가공해 얻은 피혁입니다.,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,552050004,FALSE,0,,,FALSE,FALSE,,0,999
+52060001,52060001,Dev,황수정 주괴,황수정 주괴,황수정 광석을 가공해 얻은 주괴입니다.,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,452060001,FALSE,0,,,FALSE,FALSE,,0,999
+52060002,52060002,Dev,햇빛초 천,햇빛초 천,햇빛초 섬유를 가공해 얻은 천입니다.,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,452060002,FALSE,0,,,FALSE,FALSE,,0,999
+52060003,52060003,Dev,흑단나무 목재,흑단나무 목재,흑단나무 통나무를 가공해 얻은 목재입니다.,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,452060003,FALSE,0,,,FALSE,FALSE,,0,999
+52060004,52060004,Dev,6T 피혁,무스 피혁,무스 통가죽을 가공해 얻은 피혁입니다.,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,452060004,FALSE,0,,,FALSE,FALSE,,0,999
+52070001,52070001,Dev,7T 주괴,7T 주괴,7T 광석을 가공해 얻은 주괴입니다.,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,352070001,FALSE,0,,,FALSE,FALSE,,0,999
+52070002,52070002,Dev,7T 천,7T 천,7T 섬유를 가공해 얻은 천입니다.,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,352070002,FALSE,0,,,FALSE,FALSE,,0,999
+52070003,52070003,Dev,7T 목재,7T 목재,7T 통나무를 가공해 얻은 목재입니다.,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,352070003,FALSE,0,,,FALSE,FALSE,,0,999
+52070004,52070004,Dev,7T 피혁,곰 피혁,곰 통가죽을 가공해 얻은 피혁입니다.,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,352070004,FALSE,0,,,FALSE,FALSE,,0,999
+53010003,53010003,Dev,영혼 정수,영혼 정수,몬스터 처치 시 얻을 수 있는 정수입니다. 펫 부화기에서 펫을 부화시킬 때 사용됩니다.,Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953010003,FALSE,0,,,FALSE,FALSE,,0,999
+53010004,53010004,Dev,고대 주화,고대 주화,몬스터 처치 시 얻을 수 있는 주화입니다. 카드 교환원에게서 몬스터 카드를 교환할 때 사용됩니다.,Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953010004,FALSE,0,,,FALSE,FALSE,,0,999
+53010005,53010005,Dev,놀의 인장,놀의 인장,"필드 몬스터 처치 시 획득할 수 있는 놀의 인장입니다.
+1티어 장비 제작 시 재료로 사용됩니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953010005,FALSE,0,,,FALSE,FALSE,,0,999
+53020001,53020001,Dev,적색 아키움(무기 코어) 티어 2,희미한 적색 아키움,"은은한 빛을 띠는 붉은색의 아키움 광석입니다.
+2티어 무기 제작 시 코어 재료로 사용됩니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,853020001,FALSE,0,,,FALSE,FALSE,,0,999
+53020002,53020002,Dev,청색 아키움(방어구 코어) 티어 2,희미한 청색 아키움,"은은한 빛을 띠는 푸른색의 아키움 광석입니다.
+2티어 방어구 제작 시 코어 재료로 사용됩니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,853020002,FALSE,0,,,FALSE,FALSE,,0,999
+53020003,53020003,Dev,2티 몬스터 무기 전리품,포식자의 송곳니,"필드 몬스터 처치 시 획득할 수 있는 포식자의 송곳니입니다.
+2티어 장비 제작 시 재료로 사용됩니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,853020003,FALSE,0,,,FALSE,FALSE,,0,999
+53020004,53020004,Dev,2티 몬스터 방어구 전리품,마수의 다리뼈,"필드 몬스터 처치 시 획득할 수 있는 마수의 다리뼈입니다.
+2티어 장비 제작 시 재료로 사용됩니다.",Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,853020004,FALSE,0,,,FALSE,FALSE,,0,999
+53020005,53020005,Dev,아키움 결정,아키움 결정,아키움 나무에서 얻을 수 있는 아키움 결정입니다. 각종 무기 제작에 사용됩니다.,Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,853020005,FALSE,0,,,FALSE,FALSE,,0,999
+53030001,53030001,Dev,적색 아키움(무기 코어) 티어 3,빛나는 적색 아키움,"강렬하게 빛나는 붉은색의 아키움 광석입니다.
+3티어 무기 제작 시 코어 재료로 사용됩니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030001,FALSE,0,,,FALSE,FALSE,,0,999
+53030002,53030002,Dev,청색 아키움(방어구 코어) 티어 3,빛나는 청색 아키움,"강렬하게 빛나는 푸른색의 아키움 광석입니다.
+3티어 방어구 제작 시 코어 재료로 사용됩니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030002,FALSE,0,,,FALSE,FALSE,,0,999
+53030003,53030003,Dev,녹색 아키움(탈 것 코어) 티어 3,녹색 아키움(탈 것 코어) 티어 3,녹색 아키움(탈 것 코어) 티어 3,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030003,FALSE,0,,,FALSE,FALSE,,0,999
+53030004,53030004,Dev,황색 아키움(펫 코어) 티어 3,황색 아키움(펫 코어) 티어 3,황색 아키움(펫 코어) 티어 3,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030004,FALSE,0,,,FALSE,FALSE,,0,999
+53030005,53030005,Dev,3티 몬스터 무기 전리품,날카로운 포식자 송곳니,"필드 몬스터 처치 시 획득할 수 있는 날카로운 포식자의 송곳니입니다.
+3티어 장비 제작 시 재료로 사용됩니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030005,FALSE,0,,,FALSE,FALSE,,0,999
+53030006,53030006,Dev,3티 몬스터 방어구 전리품,굵은 마수의 다리뼈,"필드 몬스터 처치 시 획득할 수 있는 굵은 마수의 다리뼈입니다.
+3티어 장비 제작 시 재료로 사용됩니다.",Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030006,FALSE,0,,,FALSE,FALSE,,0,999
+53030007,53030007,Dev,정수: 유체화,정수: 유체화,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030007,FALSE,0,,,FALSE,FALSE,,0,999
+53030008,53030008,Dev,정수: 고양,정수: 고양,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030008,FALSE,0,,,FALSE,FALSE,,0,999
+53030009,53030009,Dev,정수: 점멸,정수: 점멸,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030009,FALSE,0,,,FALSE,FALSE,,0,999
+53030010,53030010,Dev,정수: 정화,정수: 정화,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030010,FALSE,0,,,FALSE,FALSE,,0,999
+53030011,53030011,Dev,정수: 회복,정수: 회복,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030011,FALSE,0,,,FALSE,FALSE,,0,999
+53030012,53030012,Dev,정수: 방어막,정수: 방어막,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030012,FALSE,0,,,FALSE,FALSE,,0,999
+53030013,53030013,Dev,정수: 탈진,정수: 탈진,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030013,FALSE,0,,,FALSE,FALSE,,0,999
+53030014,53030014,Dev,정수: 억제,정수: 억제,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030014,FALSE,0,,,FALSE,FALSE,,0,999
+53030015,53030015,Dev,정수: 총명,정수: 총명,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030015,FALSE,0,,,FALSE,FALSE,,0,999
+53030016,53030016,Dev,정수: 점화,정수: 점화,"<B>[상세 효과]</>
+펫 스킬 강화 재료.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030016,FALSE,0,,,FALSE,FALSE,,0,999
+53030017,53030017,Dev,일회용 락픽,일회용 락픽,"일회용 락픽입니다.
+보물 상자를 여는 데 도움을 줍니다.",Etc,0,Tier1,Common,999,0,1,1,Unbound,,1,953030017,FALSE,0,,,FALSE,FALSE,,0,999
+53030018,53030018,Dev,장식된 열쇠,장식된 열쇠,보스 보상 상자를 열 때 필요한 열쇠입니다.,Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,853030018,FALSE,0,,,FALSE,FALSE,,0,999
+53030019,53030019,Dev,장식된 열쇠,장식된 열쇠,보스 보상 상자를 열 때 필요한 열쇠입니다.,Etc,0,Tier2,Common,999,0,1,1,Unbound,,1,853030019,FALSE,0,,,FALSE,FALSE,,0,999
+53030020,53030020,Dev,나차쉬의 파편: 폭발,나차쉬의 파편: 폭발,"강력한 폭발의 기운이 담겨져 있는 조각입니다.
+숨겨진 통로를 막고 있는 암벽을 파괴할 때 사용할 수 있습니다.
+망자의 균열과 되살아난 망령의 제단에서 획득할 수 있습니다.",Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,453030020,FALSE,0,,,FALSE,FALSE,,0,999
+53030050,53030050,Dev,빛나는 적색 아키움(슈퍼 무기 코어) 티어 3,빛나는 적색 아키움(슈퍼 무기 코어) 티어 3,빛나는 적색 아키움(슈퍼 무기 코어) 티어 3,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030050,FALSE,0,,,FALSE,FALSE,,0,999
+53030100,53030100,Dev,빛나는 청색 아키움(슈퍼 방어구 코어) 티어 3,빛나는 청색 아키움(슈퍼 방어구 코어) 티어 3,빛나는 청색 아키움(슈퍼 방어구 코어) 티어 3,Etc,0,Tier3,Uncommon,999,0,1,1,Unbound,,1,753030100,FALSE,0,,,FALSE,FALSE,,0,999
+53040001,53040001,Dev,적색 아키움(무기 코어) 티어 4,,,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,653040001,FALSE,0,,,FALSE,FALSE,,0,999
+53040002,53040002,Dev,청색 아키움(방어구 코어) 티어 4,,,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,653040002,FALSE,0,,,FALSE,FALSE,,0,999
+53040003,53040003,Dev,녹색 아키움(탈 것 코어) 티어 4,,,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,653040003,FALSE,0,,,FALSE,FALSE,,0,999
+53040004,53040004,Dev,황색 아키움(펫 코어) 티어 4,,,Etc,0,Tier4,Uncommon,999,0,1,1,Unbound,,1,653040004,FALSE,0,,,FALSE,FALSE,,0,999
+53050001,53050001,Dev,적색 아키움(무기 코어) 티어 5,,,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,553050001,FALSE,0,,,FALSE,FALSE,,0,999
+53050002,53050002,Dev,청색 아키움(방어구 코어) 티어 5,,,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,553050002,FALSE,0,,,FALSE,FALSE,,0,999
+53050003,53050003,Dev,녹색 아키움(탈 것 코어) 티어 5,,,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,553050003,FALSE,0,,,FALSE,FALSE,,0,999
+53050004,53050004,Dev,황색 아키움(펫 코어) 티어 5,,,Etc,0,Tier5,Rare,999,0,1,1,Unbound,,1,553050004,FALSE,0,,,FALSE,FALSE,,0,999
+53060001,53060001,Dev,적색 아키움(무기 코어) 티어 6,,,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,453060001,FALSE,0,,,FALSE,FALSE,,0,999
+53060002,53060002,Dev,청색 아키움(방어구 코어) 티어 6,,,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,453060002,FALSE,0,,,FALSE,FALSE,,0,999
+53060003,53060003,Dev,녹색 아키움(탈 것 코어) 티어 6,,,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,453060003,FALSE,0,,,FALSE,FALSE,,0,999
+53060004,53060004,Dev,황색 아키움(펫 코어) 티어 6,,,Etc,0,Tier6,Rare,999,0,1,1,Unbound,,1,453060004,FALSE,0,,,FALSE,FALSE,,0,999
+53070001,53070001,Dev,적색 아키움(무기 코어) 티어 7,,,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,353070001,FALSE,0,,,FALSE,FALSE,,0,999
+53070002,53070002,Dev,청색 아키움(방어구 코어) 티어 7,,,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,353070002,FALSE,0,,,FALSE,FALSE,,0,999
+53070003,53070003,Dev,녹색 아키움(탈 것 코어) 티어 7,,,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,353070003,FALSE,0,,,FALSE,FALSE,,0,999
+53070004,53070004,Dev,황색 아키움(펫 코어) 티어 7,,,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,353070004,FALSE,0,,,FALSE,FALSE,,0,999
+53070100,53070100,Dev,무기 파괴 방지석,무기 파괴 방지석,강화 시 무기 파괴를 막는 파괴 방지석입니다.,Etc,0,Tier7,Ancient,999,0,1,1,Unbound,,1,353070100,FALSE,0,,,FALSE,FALSE,,0,999
+53990001,53990001,Dev,TEST 상점 판매,[임시]TEST 상점 판매 100만 골드,[임시]TEST 상점 판매 100만 골드,Etc,0,Tier1,Common,999,0,1000000,1,Unbound,,1,953990001,FALSE,0,,,FALSE,FALSE,,0,999
+53990002,53990002,Dev,TEST 상점 구매,[임시]TEST 상점 구매 델피나드의 별,[임시]TEST 상점 구매 델피나드의 별,Etc,0,Tier2,Common,999,0,0,3,User,,1,853990002,FALSE,0,,,FALSE,FALSE,,0,999
+53990003,53990003,Dev,TEST 상점 구매,[임시]TEST 상점 구매 에노아의 태양,[임시]TEST 상점 구매 에노아의 태양,Etc,0,Tier3,Uncommon,999,0,0,3,User,,1,753990003,FALSE,0,,,FALSE,FALSE,,0,999
+53990004,53990004,Dev,TEST 상점 구매,[임시]TEST 상점 판매 나비,[임시]TEST 상점 판매 나비,Etc,0,Tier4,Uncommon,999,0,0,3,User,,1,653990004,FALSE,0,,,FALSE,FALSE,,0,999
+65010001,65010001,Dev,무기 제작대,무기 제작대,무기를 제작할 수 있는 기본 제작대입니다. 필드 및 개인 하우징에 설치할 수 있습니다. (설치된 제작대는 소유자만 회수 가능합니다.),Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,965010001,FALSE,0,,,FALSE,FALSE,,0,999
+65010002,65010002,Dev,요리 제작대,요리 제작대,요리를 조리할 수 있는 제작 시설입니다. 필드 및 개인 하우징에 설치할 수 있습니다. (설치된 제작대는 소유자만 회수 가능합니다.),Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,965010002,FALSE,0,,,FALSE,FALSE,,0,999
+65010003,65010003,Dev,광석 가공대,광석 가공대,광석을 가공 재료로 변환하는 가공대입니다. 필드 및 개인 하우징에 설치할 수 있습니다. (설치된 제작대는 소유자만 회수 가능합니다.),Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,965010003,FALSE,0,,,FALSE,FALSE,,0,999
+65010004,65010004,Dev,섬유 가공대,섬유 가공대,섬유를 가공하여 제작 재료로 만드는 가공대입니다. 필드 및 개인 하우징에 설치할 수 있습니다. (설치된 제작대는 소유자만 회수 가능합니다.),Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,965010004,FALSE,0,,,FALSE,FALSE,,0,999
+65010005,65010005,Dev,통나무 가공대,통나무 가공대,통나무를 가공 재료로 변환하는 가공대입니다. 필드 및 개인 하우징에 설치할 수 있습니다. (설치된 제작대는 소유자만 회수 가능합니다.),Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,965010005,FALSE,0,,,FALSE,FALSE,,0,999
+65010006,65010006,Dev,통가죽 가공대,통가죽 가공대,가죽을 가공하여 제작에 사용되는 재료로 만드는 시설입니다. 필드 및 개인 하우징에 설치할 수 있습니다. (설치된 제작대는 소유자만 회수 가능합니다.),Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,965010006,FALSE,0,,,FALSE,FALSE,,0,999
+65010007,65010007,Dev,방어구 제작대,방어구 제작대,방어구 제작에 사용되는 제작대입니다. 필드 및 개인 하우징에 설치할 수 있습니다. (설치된 제작대는 소유자만 회수 가능합니다.),Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,965010007,FALSE,0,,,FALSE,FALSE,,0,999
+69020001,69020001,Dev,아키움 씨앗,아키움 씨앗,"채광 시 얻을 수 있는 신비한 씨앗입니다.
+
+<B>[사용 효과]</>
+씨앗을 심으면 아키움 나무가 자라납니다.",Consume,0,Tier2,Common,999,0,1,1,Unbound,,1,869020001,FALSE,0,,,FALSE,FALSE,,0,999
+80100001,80100001,Dev,퀘스트용_식재료,식재료 꾸러미,이니스 섬의 해산물로 이루어진 식재료 꾸러미입니다. 맛있는 해산물 스튜 제작에 사용할 수 있습니다.,Etc,0,Tier1,Common,999,0,1,2,Char,,1,980100001,FALSE,0,,,FALSE,FALSE,,0,999
+80100002,80100002,Dev,퀘스트용_해산물 스튜,해산물 스튜,"이니스 섬의 해산물로 제작한 해산물 스튜입니다.
+
+<B>[사용 효과]</>
+- 8초 동안 체력을 총 640 회복합니다.
+- 8초 동안 마력을 총 320 회복합니다.",Consume,0,Tier1,Common,999,0,1,1,Unbound,,1,980100002,FALSE,0,,,FALSE,FALSE,,0,999
+80100003,80100003,Dev,퀘스트용_은신 스크롤,은신 주문서,"누이 신전에서 사용하는 은신 주문서 입니다.
+
+<B>[사용 효과]</>
+- 아이템 사용 시 60초 동안 은신 상태가 됩니다.
+- 은신 상태가 해제될 경우 주변에 의심을 받게 됩니다.",Consume,0,Tier1,Common,999,0,1,1,Char,,1,980100003,FALSE,0,,,FALSE,FALSE,,0,999
+80100004,80100004,Dev,퀘스트용_수행원의 복장,수행원의 복장,"이니스 제례에 참석하는 수행원의 복장입니다.
+
+<B>[사용 효과]</>
+- 아이템 사용 시 수행원으로 변장할 수 있습니다.",Consume,0,Tier1,Common,999,0,1,1,Char,,1,980100004,FALSE,0,,,FALSE,FALSE,,0,999

@@ -1,0 +1,40 @@
+root_id,root_type,root_name,nodeId,comment,chance,skill_manaper,skill_manaadd,f_x_name
+20004,skill_effect_root,하급 마력 물약_마력회복_인터벌,200040030003,,1000,0,15,NU_Item_Eat_MP
+20005,skill_effect_root,중급 마력 물약_마력회복_인터벌,200050030003,,1000,0,20,NU_Item_Eat_MP
+20006,skill_effect_root,상급 마력 물약_마력회복_인터벌,200060030003,,1000,0,25,NU_Item_Eat_MP
+20012,skill_effect_root,하급 샐러드_마력회복_인터벌,200120030003,,1000,0,40,NU_Item_Eat_MP
+20013,skill_effect_root,해산물 스튜_체력 마력 회복_인터벌,200130030004,,1000,0,40,NU_Item_Eat_MP
+20017,skill_effect_root,중급 샐러드_마력회복_인터벌,200170030003,,1000,0,50,NU_Item_Eat_MP
+30411,skill_root,회복 1T,304110020006,,1000,200,0,FX_ManaHeal_Petskill
+30811,skill_root,총명 1T,308110020006,,1000,200,0,FX_ManaHeal_Petskill
+30841,skill_root,총명 4T,308410020006,,1000,400,0,FX_ManaHeal_Petskill
+30851,skill_root,총명 5T,308510020006,,1000,500,0,FX_ManaHeal_Petskill
+90005,skill_effect_root,샘솟는 마나샘_인터벌,900050030003,,1000,50,0,
+720710,skill_root,Proc_마나 흡수  Lv.1,7207100020006,,1000,0,70,FX_ManaHeal_Petskill
+800026,skill_effect_root,샘솟는 마나샘_인터벌,8000260030003,,1000,0,240,
+1000000,skill_effect_root,정신 집중 마나 회복,10000000030003,,1000,30,0,Item_Potion_MP01
+1000001,skill_effect_root,정신 집중 Lv.1,10000010030003,,1000,50,0,Item_Potion_MP01
+1000002,skill_effect_root,정신 집중 Lv.2,10000020030003,,1000,50,0,Item_Potion_MP01
+1000003,skill_effect_root,정신 집중 Lv.3,10000030030003,,1000,50,0,Item_Potion_MP01
+1000004,skill_effect_root,정신 집중 Lv.4,10000040030003,,1000,50,0,Item_Potion_MP01
+1000005,skill_effect_root,정신 집중 Lv.5,10000050030003,,1000,50,0,Item_Potion_MP01
+1000101,skill_effect_root,쉼없는 마력샘 마나 회복 Lv.1,10001010030003,,1000,20,0,NS_Aura_Cloth_Robe1
+1000102,skill_effect_root,쉼없는 마력샘 마나 회복 Lv.2,10001020030003,,1000,20,0,NS_Aura_Cloth_Robe1
+1000103,skill_effect_root,쉼없는 마력샘 마나 회복 Lv.3,10001030030003,,1000,20,0,NS_Aura_Cloth_Robe1
+1000104,skill_effect_root,쉼없는 마력샘 마나 회복 Lv.4,10001040030003,,1000,20,0,NS_Aura_Cloth_Robe1
+1000105,skill_effect_root,쉼없는 마력샘 마나 회복 Lv.5,10001050030003,,1000,20,0,NS_Aura_Cloth_Robe1
+1010636,skill_root,1T 천 신발(시작템)_프록  Lv.1,10106360020006,,1000,0,10,NS_Aura_Cloth_Shoes2T
+1010637,skill_root,1T 천 신발(시작템)_프록  Lv.2,10106370020006,,1000,0,12,NS_Aura_Cloth_Shoes2T
+1010638,skill_root,1T 천 신발(시작템)_프록  Lv.3,10106380020006,,1000,0,14,NS_Aura_Cloth_Shoes2T
+1010639,skill_root,1T 천 신발(시작템)_프록  Lv.4,10106390020006,,1000,0,16,NS_Aura_Cloth_Shoes2T
+1010640,skill_root,1T 천 신발(시작템)_프록  Lv.5,10106400020006,,1000,0,18,NS_Aura_Cloth_Shoes2T
+1020636,skill_root,2T 천 신발(시작템)_프록  Lv.1,10206360020006,,1000,0,10,NS_Aura_Cloth_Shoes2T
+1020637,skill_root,2T 천 신발(시작템)_프록  Lv.2,10206370020006,,1000,0,12,NS_Aura_Cloth_Shoes2T
+1020638,skill_root,2T 천 신발(시작템)_프록  Lv.3,10206380020006,,1000,0,14,NS_Aura_Cloth_Shoes2T
+1020639,skill_root,2T 천 신발(시작템)_프록  Lv.4,10206390020006,,1000,0,16,NS_Aura_Cloth_Shoes2T
+1020640,skill_root,2T 천 신발(시작템)_프록  Lv.5,10206400020006,,1000,0,18,NS_Aura_Cloth_Shoes2T
+1030636,skill_root,3T 천 신발(시작템)_프록  Lv.1,10306360020006,,1000,0,10,NS_Aura_Cloth_Shoes2T
+1030637,skill_root,3T 천 신발(시작템)_프록  Lv.2,10306370020006,,1000,0,12,NS_Aura_Cloth_Shoes2T
+1030638,skill_root,3T 천 신발(시작템)_프록  Lv.3,10306380020006,,1000,0,14,NS_Aura_Cloth_Shoes2T
+1030639,skill_root,3T 천 신발(시작템)_프록  Lv.4,10306390020006,,1000,0,16,NS_Aura_Cloth_Shoes2T
+1030640,skill_root,3T 천 신발(시작템)_프록  Lv.5,10306400020006,,1000,0,18,NS_Aura_Cloth_Shoes2T

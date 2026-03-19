@@ -1,0 +1,2 @@
+OID,Cid,Milestone,Comment,Category,DerivedCategories
+1,1,Dev,방어력,DefenseVary,"[PhysicalDefenseVary,MagicDefenseVary]"

@@ -1,0 +1,8 @@
+OID,Cid,CargoCid,Comment,CurrencyKind,CurrencyValue,ItemCids,ItemCounts
+1,1,1,이니스 섬 특산품,GildaStar,500,[],[]
+2,2,2,수상한 등짐,EnoanSun,2000,[],[]
+11,11,11,TEST_골드 보상 등짐,Gold,100,[],[]
+12,12,12,TEST_아이템 보상 등짐,None,0,[41010004],[1]
+13,13,13,TEST_델피나드의 별 보상 등짐,GildaStar,100,[],[]
+14,14,14,TEST_에노아의 태양 보상 등짐,EnoanSun,100,[],[]
+1020001,1020001,1020001,이니스 섬 2T 무기 +1  군수품,GildaStar,100,[],[]

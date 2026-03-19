@@ -1,0 +1,27 @@
+OID,Cid,Category,SubCategory,Name,SortOrder
+101,101,GrandMastery,Adventure,모험,1
+202,202,Weapon,TwohandSword,양손검,2
+203,203,Weapon,Dagger,단검,3
+204,204,Weapon,Bow,활,4
+205,205,Weapon,Staff,지팡이,5
+301,301,Armor,Plate,판금,6
+302,302,Armor,Leather,가죽,7
+303,303,Armor,Cloth,천,8
+401,401,Gathering,Ore,채광,9
+402,402,Gathering,Fiber,섬유 채집,10
+403,403,Gathering,Wood,벌목,11
+404,404,Gathering,Tanning,무두질,12
+501,501,Adventure,Dexterity,손재주,13
+601,601,Crafting,CraftingPlate,판금 제작,14
+602,602,Crafting,CraftingLeather,가죽 제작,15
+603,603,Crafting,CraftingCloth,천 제작,16
+604,604,Crafting,CraftingTwohandSword,양손검 제작,17
+605,605,Crafting,CraftingDagger,단검 제작,18
+606,606,Crafting,CraftingBow,활 제작,19
+607,607,Crafting,CraftingStaff,지팡이 제작,20
+608,608,Crafting,Cooking,요리,21
+609,609,Crafting,Alchemy,연금술,22
+701,701,Processing,IngotProcessing,광석 가공,23
+702,702,Processing,FiberProcessing,섬유 가공,24
+703,703,Processing,WoodProcessing,통나무 가공,25
+704,704,Processing,LeatherProcessing,통가죽 가공,26

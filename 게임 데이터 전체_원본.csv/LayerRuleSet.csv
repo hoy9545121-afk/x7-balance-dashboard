@@ -1,0 +1,6 @@
+OID,Cid,Comment,MapPath,EnableFieldLayers,DisableFieldLayers
+1,1,불타는 데이터 레이어 활성화,/Game/A_X7_Maps/World_Map/World_Nuia,"[""Instance_003""]",
+2,2,불타는 데이터 레이어 끄기,/Game/A_X7_Maps/World_Map/World_Nuia,,"[""Instance_003""]"
+3,3,이니스섬_5년 전(비),/Game/A_X7_Maps/World_Map/World_Nuia,"[""Instance_001""]",
+4,4,이니스섬_5년 후 제례,/Game/A_X7_Maps/World_Map/World_Nuia,"[""Instance_002""]",
+5,5,신성의 숲_내비,/Game/A_X7_Maps/World_Map/World_Nuia,"[""Instance_005""]",

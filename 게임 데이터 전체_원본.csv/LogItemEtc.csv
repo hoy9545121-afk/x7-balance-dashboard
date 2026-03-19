@@ -1,0 +1,8 @@
+﻿OID,Cid,Comment,Category,Group,Name
+1,1,,Material,material,재료
+2,2,,RawMaterial,piece,조각
+3,3,,SpecialMaterial,sell,판매
+4,4,,SpecialMaterial,recipe,레시피
+5,5,,SpecialMaterial,recipe,레시피
+6,6,,RawMaterial,powder,파우더
+7,7,,SpecialMaterial,sealed,봉인

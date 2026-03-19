@@ -1,0 +1,63 @@
+﻿OID,Cid,Comment,HangAroundIntervalMin,HangAroundIntervalMax,HangAroundRange,IsAggressive,BehaviorTreeXml,DetectHide,AggroLink
+10,10,소형_비선공(로밍간격 대),10,20,300,FALSE,monster_normal,FALSE,0
+11,11,중형_비선공(로밍간격 대),10,20,360,FALSE,monster_normal,FALSE,0
+12,12,대형_비선공(로밍간격 대),10,20,430,FALSE,monster_normal,FALSE,1
+13,13,소형_비선공(로밍간격 중),8,15,200,FALSE,monster_normal,FALSE,0
+14,14,중형_비선공(로밍간격 중),8,15,240,FALSE,monster_normal,FALSE,0
+15,15,대형_비선공(로밍간격 중),8,15,290,FALSE,monster_normal,FALSE,2
+16,16,소형_비선공(로밍간격 소),5,10,100,FALSE,monster_normal,FALSE,0
+17,17,중형_비선공(로밍간격 소),5,10,120,FALSE,monster_normal,FALSE,0
+18,18,대형_비선공(로밍간격 소),5,10,140,FALSE,monster_normal,FALSE,3
+20,20,소형_선공(로밍간격 대),10,20,400,TRUE,monster_normal,FALSE,0
+21,21,중형_선공(로밍간격 대),10,20,480,TRUE,monster_normal,FALSE,0
+22,22,대형_선공(로밍간격 대),10,20,580,TRUE,monster_normal,FALSE,1
+23,23,소형_선공(로밍간격 중),8,15,300,TRUE,monster_normal,FALSE,0
+24,24,중형_선공(로밍간격 중),8,15,360,TRUE,monster_normal,FALSE,0
+25,25,대형_선공(로밍간격 중),8,15,430,TRUE,monster_normal,FALSE,1
+26,26,소형_선공(로밍간격 소),5,10,200,TRUE,monster_normal,FALSE,0
+27,27,중형_선공(로밍간격 소),5,10,240,TRUE,monster_normal,FALSE,0
+28,28,대형_선공(로밍간격 소),5,10,290,TRUE,monster_normal,FALSE,3
+30,30,보스_테스트(로밍간격 대),10,20,1000,TRUE,monster_boss,TRUE,4
+31,31,보스_테스트(로밍간격 중),8,15,1000,TRUE,monster_boss,TRUE,0
+32,32,보스_테스트(로밍간격 소),5,10,1000,TRUE,monster_boss,TRUE,0
+40,40,토템,30,60,1000,TRUE,totem_base,TRUE,0
+100,100,몬스터 치트용 - 시야 범위내 가장 가까운 적군에게 평타 공격 (QSEV-25426),8,18,1000,FALSE,monster_cheat_Attack,FALSE,0
+101,101,몬스터 치트용 - 시야 범위내 가장 가까운 적군에게 특정 스킬 사용 (QSEV-25426),8,18,1000,FALSE,monster_cheat_UseActiveSkill,FALSE,0
+102,102,몬스터 치트용 - 본인을 타겟으로 특정 스킬 사용 (QSEV-25426),8,18,1000,FALSE,monster_cheat_UseActiveSkillToSelf,FALSE,0
+1001,1001,생활 몬스터 전용,10,30,1500,FALSE,monster_normal,FALSE,0
+10201801,10201801,놀 대장,10,20,500,TRUE,monster_10201801,TRUE,5
+8002,8002,오크 사냥꾼,8,15,360,TRUE,monster_Normal_8002,FALSE,5
+8003,8003,오크 주술사,8,15,360,TRUE,monster_Normal_8003,FALSE,5
+8004,8004,오크 전사,8,15,360,TRUE,monster_Normal_8004,FALSE,5
+8005,8005,오크 족장,10,20,500,TRUE,monster_Hero_8005,TRUE,5
+10001,10001,스켈레톤 궁병,8,15,300,TRUE,monster_Normal_10001,FALSE,0
+10003,10003,스켈레톤 마법병,8,15,300,TRUE,monster_Normal_10003,FALSE,0
+10701801,10701801,팬텀 지휘관,10,20,500,TRUE,monster_10701801,FALSE,2
+13001,13001,오우거 도끼,10,20,1000,TRUE,Monster_Elite_13001,FALSE,0
+13002,13002,오우거 곤봉,10,20,1000,TRUE,Monster_Elite_13002,FALSE,0
+13003,13003,오우거 대검,10,20,1000,TRUE,Monster_Elite_13003,FALSE,0
+80001,80001,[샘플] 선박 몬스터,8,18,1000,FALSE,monster_ship_normal,FALSE,0
+80002,80002,[샘플] 선박 몬스터_선공,8,18,1000,TRUE,monster_ship_normal,FALSE,0
+80003,80003,[샘플] 선박 몬스터_정예,8,18,1000,FALSE,monster_ship_elite,FALSE,0
+80004,80004,[샘플] 선박 몬스터_정예_선공,8,18,1000,TRUE,monster_ship_elite,FALSE,0
+800005,800005,"이속,공속,시전감소 구슬용 토템 AI",0,0,0,TRUE,totem_800005,TRUE,0
+900001,900001,스칼니토스,30,60,1000,TRUE,monster_Boss_900001,TRUE,4
+900002,900002,말카바돈,30,60,1000,TRUE,monster_Boss_900002,TRUE,0
+101801,101801,안드리온,0,0,0,FALSE,monster_101801,FALSE,0
+10702503,10702503,데로스 직속 부관의 망령,8,15,300,TRUE,monster_10702503,FALSE,2
+10702805,10702805,내성 경비대장 폴라리우스의 망령,10,20,500,TRUE,monster_10702805,FALSE,4
+10802105,10802105,피 묻은 손 암살자(소환용) - 근거리,5,10,240,TRUE,monster_10802105,FALSE,8
+10802901,10802901,부활한 피 묻은 손 간부,10,20,500,TRUE,monster_10802901,FALSE,8
+20000001,20000001,소환된 몬스터 공용,0,0,0,TRUE,monster_summon,FALSE,0
+95003111,95003111,안드리온에게 몬스터 소환,0,0,0,TRUE,monster_95003111,FALSE,0
+95003112,95003112,안드리온에게 호위병 소환,0,0,0,TRUE,monster_95003112,FALSE,0
+95003113,95003113,[누이신전]경비병 Ai,5,10,350,FALSE,monster_95003113,FALSE,1
+95003115,95003115,[누이신전] 투명 어그로 NPC,0,0,0,TRUE,monster_95003115,FALSE,0
+90102101,90102101,대학살의 파편 조각,0,0,0,TRUE,monster_90102101,FALSE,0
+51,51,몬스터 놀 그룹(일반/비선공),8,15,450,FALSE,monster_normal,FALSE,0
+61,61,몬스터 오크 그룹(일반/비선공),8,15,540,FALSE,monster_normal,FALSE,0
+71,71,몬스터 정령 그룹(일반/비선공),5,10,300,FALSE,monster_normal,FALSE,0
+52,52,몬스터 놀 그룹(일반/선공),8,15,300,TRUE,monster_normal,FALSE,5
+62,62,몬스터 오크 그룹(일반/선공),8,15,360,TRUE,monster_normal,FALSE,5
+72,72,몬스터 정령 그룹(일반/선공),5,10,200,TRUE,monster_normal,FALSE,7
+108,108,몬스터 피 묻은 손 그룹,5,10,240,TRUE,monster_normal,FALSE,8

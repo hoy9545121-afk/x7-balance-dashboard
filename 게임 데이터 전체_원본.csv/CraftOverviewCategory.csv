@@ -1,0 +1,3 @@
+OID,Cid,Comment,Category,ChildCategory
+1,1,제작대,CraftingStation,"[Alchemy,Cook]"
+2,2,작업대,ProcessingStation,"[IngotProcessing,FiberProcessing,WoodProcessing,LeatherProcessing]"

@@ -1,0 +1,24 @@
+root_id,root_type,root_name,nodeId,comment,projectile_name,projectile_speed,delay_time,target,projectile_info
+100301,skill_root,방패 투척 Lv.1,1003010020006,,NS_S_Projectile_Shield_1T,1800,0,Unit,1003010020007
+300001,skill_root,충격 사격 Lv.1,3000010020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,3000010020007
+300002,skill_root,충격 사격 Lv.2,3000020020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,3000020020007
+300003,skill_root,충격 사격 Lv.3,3000030020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,3000030020007
+300004,skill_root,충격 사격 Lv.4,3000040020006,,NS_S_Projectile_StaffICEstar1,1800,0,Unit,3000040020007
+300005,skill_root,충격 사격 Lv.5,3000050020006,,NS_S_Projectile_StaffICEstar1,1800,0,Unit,3000050020007
+300351,skill_root,폭탄 화살 Lv.1,3003510020006,,NS_H_Projectile6T2,1800,0,Unit,3003510020007
+300352,skill_root,폭탄 화살 Lv.2,3003520020006,,NS_H_Projectile6T2,1800,0,Unit,3003520020007
+300353,skill_root,폭탄 화살 Lv.3,3003530020006,,NS_H_Projectile6T2,1800,0,Unit,3003530020007
+300354,skill_root,폭탄 화살 Lv.4,3003540020006,,NS_H_Projectile6T2,1800,0,Unit,3003540020007
+300355,skill_root,폭탄 화살 Lv.5,3003550020006,,NS_H_Projectile6T2,1800,0,Unit,3003550020007
+300551,skill_root,폭탄 화살 Lv.1,3005510020006,,NS_H_Projectile6T2,1800,0,Unit,3005510020007
+300651,skill_root,천상의 그물 Lv.1,3006510020006,천상의 그물,NS_2tBow_LightArrow,1800,0,Unit,3006510020007
+400000,skill_root,얼음 화살_테스트 Lv.1,4000000020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,4000000020007
+400001,skill_root,얼음 화살 Lv.1,4000010020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,4000010020007
+400002,skill_root,얼음 화살 Lv.2,4000020020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,4000020020007
+400003,skill_root,얼음 화살 Lv.3,4000030020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,4000030020007
+400004,skill_root,얼음 화살 Lv.4,4000040020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,4000040020007
+400005,skill_root,얼음 화살 Lv.5,4000050020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,4000050020007
+500501,skill_root,단검 투척 Lv.1,5005010020006,얼음 화살,NS_S_Projectile_StaffICEstar1,1800,0,Unit,5005010020007
+21310006,skill_root,몬스터 도바비안 지휘관 영역공격,213100060020007,,Pro_Common_White_Normal,2000,0,Unit,
+21310006,skill_root,몬스터 도바비안 지휘관 영역공격,213100060020011,,Pro_Common_White_Normal,2000,0,Unit,
+21310006,skill_root,몬스터 도바비안 지휘관 영역공격,213100060020015,,Pro_Common_White_Normal,2000,0,Unit,

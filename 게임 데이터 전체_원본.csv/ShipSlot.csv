@@ -1,0 +1,9 @@
+﻿OID,Cid,Comment,ShipKind,ShipEquipmentSlot
+1,1,쾌속정,Clipper,"[Cannon,Ram,Mast,Sail,Rudder,FigureHead,Cargo,LookOut,Lamp,Barrel,Flag]"
+2,2,소형 범선,SmallWarship,"[Cannon,Ram,Mast,Sail,Rudder,FigureHead,Cargo,LookOut,Lamp,Barrel,Flag]"
+3,3,중형 범선,MiddleWarship,"[Cannon,Ram,Mast,Sail,Rudder,FigureHead,Cargo,LookOut,Lamp,Barrel,Flag]"
+4,4,대형 범선,LargeWarship,"[Cannon,Ram,Mast,Sail,Rudder,FigureHead,Cargo,LookOut,Lamp,Barrel,Flag]"
+5,5,상선,MerchantShip,"[Cannon,Sail,Rudder,FigureHead,Cargo,LookOut,Flag]"
+6,6,소형 무역선,SmallMerchantSchooner,"[Cannon,Sail,Rudder,FigureHead,Cargo,LookOut,Flag]"
+7,7,중형 무역선,MiddleMerchantSchooner,"[Cannon,Sail,Rudder,FigureHead,Cargo,LookOut,Flag]"
+8,8,대형 무역선,LargeMerchantSchooner,"[Cannon,Sail,Rudder,FigureHead,Cargo,LookOut,Flag]"

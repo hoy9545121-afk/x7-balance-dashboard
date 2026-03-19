@@ -1,0 +1,7 @@
+OID,Cid,Comment,Kind,CargoCid,GradeGroup,EnhanceGroup,MinCount,MaxCount,Proportion,RewardMinCurrency,RewardMaxCurrency,RewardItemCids,RewardItemOverrideBindingTypes,RewardItemDivisors
+101001,101001,1T 목재 보급품,Supplies,10,0,0,50,60,10000,27,33,[],[],[]
+102001,102001,"2T 장신구 보급품  (등급, 강화단계 존재)",Supplies,11,300,300,20,25,1000,270,330,[],[],[]
+103001,103001,"3T 방어구 보급품  (등급, 강화단계 존재)",Supplies,12,200,200,10,15,1000,450,550,[41010004],[None],[10]
+104001,104001,"4T 무기 보급품 (등급, 강화단계 존재)",Supplies,13,100,100,5,8,500,900,1100,"[41010004,41010005]","[None,None]","[20,20]"
+104002,104002,4T 음식 보급품,Supplies,1020001,0,0,30,40,8000,45,55,[],[],[]
+205001,205001,"5T 무기 교역품 (등급, 강화 단계 존재) ",Commodity,14,100,100,3,5,3000,720,880,[],[],[]

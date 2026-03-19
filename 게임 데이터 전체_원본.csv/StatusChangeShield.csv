@@ -1,0 +1,35 @@
+﻿OID,Cid,Comment,ShieldAmount,ShieldAmountPer,AttackShieldMinPer,AttackShieldMaxPer,HitFxName,DestroyFxName
+100160,100160,치유의 바람_보호막 (공용),300,0,1000,1000,,
+100206,100206,1티어 한손검 Q 스킬 실드 회복 Lv.1,0,100,0,0,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200161,200161,적진으로 Proc_보호막 Lv.1,0,200,0,0,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200162,200162,적진으로 Proc_보호막 Lv.2,0,220,0,0,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200163,200163,적진으로 Proc_보호막 Lv.3,0,240,0,0,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200164,200164,적진으로 Proc_보호막 Lv.4,0,260,0,0,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200165,200165,적진으로 Proc_보호막 Lv.5,0,280,0,0,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200356,200356,기선 제압 보호막 Lv.1,0,0,5000,5000,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200357,200357,기선 제압 보호막 Lv.2,0,0,5500,5500,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200358,200358,기선 제압 보호막 Lv.3,0,0,6000,6000,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200359,200359,기선 제압 보호막 Lv.4,0,0,6500,6500,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200360,200360,기선 제압 보호막 Lv.5,0,0,7000,7000,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+200701,200701,2티어 양손검 E 스킬 방어막,0,0,3000,3000,Nu_State_Shield_Buff_02_Hit,Nu_State_Shield_Buff_02_Break
+300751,300751,2티어 활 R 스킬 Lv.1,0,0,5000,5000,NS_2T_Bow_GLArrow_Shield_Hit,NS_2T_Bow_GLArrow_Shield_Break
+1010606,1010606,1T 천 투구_프록  Lv.1_proc,200,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1010607,1010607,1T 천 투구_프록  Lv.2_proc,220,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1010608,1010608,1T 천 투구_프록  Lv.3_proc,240,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1010609,1010609,1T 천 투구_프록  Lv.4_proc,260,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1010610,1010610,1T 천 투구_프록  Lv.5_proc,280,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1020606,1020606,2T 천 투구_프록  Lv.1 proc,200,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1020607,1020607,2T 천 투구_프록  Lv.2 proc,220,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1020608,1020608,2T 천 투구_프록  Lv.3 proc,240,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1020609,1020609,2T 천 투구_프록  Lv.4 proc,260,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1020610,1020610,2T 천 투구_프록  Lv.5 proc,280,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1030606,1030606,3T 천 투구_프록  Lv.1 proc,200,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1030607,1030607,3T 천 투구_프록  Lv.2 proc,220,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1030608,1030608,3T 천 투구_프록  Lv.3 proc,240,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1030609,1030609,3T 천 투구_프록  Lv.4 proc,260,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+1030610,1030610,3T 천 투구_프록  Lv.5 proc,280,0,0,0,Nu_State_Shield_Buff_03_Hit,Nu_State_Shield_Buff_03_Break
+50540001,50540001,방어막_1T,200,0,0,0,FX_State_Shield_Petskill_Hit,FX_State_Shield_Petskill_Break
+50540002,50540002,방어막_2T,300,0,0,0,FX_State_Shield_Petskill_Hit,FX_State_Shield_Petskill_Break
+50540003,50540003,방어막_3T,400,0,0,0,FX_State_Shield_Petskill_Hit,FX_State_Shield_Petskill_Break
+50540004,50540004,방어막_4T,400,0,0,0,FX_State_Shield_Petskill_Hit2,FX_State_Shield_Petskill_Break2
+50540005,50540005,방어막_5T,500,0,0,0,FX_State_Shield_Petskill_Hit3,FX_State_Shield_Petskill_Break3

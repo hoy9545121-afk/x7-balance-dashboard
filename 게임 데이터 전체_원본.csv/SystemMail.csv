@@ -1,0 +1,4 @@
+OID,Cid,MailTargetType,SenderName,TitleDesc,SubjectDesc,Duration
+100,100,Global,system,테스트 메일 제목_01,테스트 메일 내용_01,P30D
+102,102,User,system,테스트 메일 제목_02,테스트 메일 내용_02,P1D
+103,103,Char,system,테스트 메일 제목_03,테스트 메일 내용_03,PT1H

@@ -1,0 +1,3 @@
+OID,Cid,Comment,RequireMode,RequireQuestCids,RequireQuestStepCids,AcceptTrigger,AcceptTriggerZoneCid,AcceptTriggerNpcCid,AcceptTriggerDoodadCid,AcceptMode,SequenceCids
+1,1,,QuestAny,[],,NpcTalk,,,,Forced,[0]
+2,2,,QuestAny,[130],,NpcTalk,,,,Forced,[0]

@@ -1,0 +1,12 @@
+﻿OID,Cid,Comment,Category,Group,Name
+1,1,,Cannon,weapon,무기
+2,2,,Ram,weapon,무기
+3,3,,Mast,armor,방어구
+4,4,,Sail,armor,방어구
+5,5,,Rudder,armor,방어구
+6,6,,FigureHead,armor,방어구
+7,7,,Cargo,armor,방어구
+8,8,,LookOut,armor,방어구
+9,9,,Lamp,armor,방어구
+10,10,,Barrel,armor,방어구
+11,11,,Flag,armor,방어구

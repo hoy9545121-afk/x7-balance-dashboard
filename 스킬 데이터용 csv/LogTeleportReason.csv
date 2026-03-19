@@ -1,0 +1,16 @@
+﻿OID,Cid,Comment,TeleportReason,Name
+1,1,,Normal,던전/아지트 입/퇴장
+2,2,,Random,스킬/스크롤 랜덤 순간 이동
+3,3,,Revival,부활
+4,4,,Return,마을 귀환
+5,5,,Quest,퀘스트 이동
+6,6,,Map,월드맵을 통해 이동
+7,7,,TeleportMemory,기억된 곳으로 이동
+8,8,,Revenge,복수하기로 이동
+9,9,,GuildHouse,아지트로 이동
+12,12,,Cheat,치트 사용
+13,13,,DungeonTimeExpired,던전 시간 만료
+14,14,,GuildKick,길드 추방 후 아지트 퇴장
+15,15,,DestinationIsBusy,지역 혼잡으로 다른 곳으로 이동
+16,16,,StuckEscape,고립 탈출 사용
+17,17,,SequencePlay,퀘스트 후 연출로 이동

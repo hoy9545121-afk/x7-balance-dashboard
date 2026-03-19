@@ -1,0 +1,11 @@
+﻿OID,Cid,Comment,MailSysContent,Sender,Title,Body
+1,1,,ItemShare,1,2,3
+2,2,,ItemBoxOpen,1,2,3
+3,3,,LootInventory,1,4,5
+4,4,,CashShop,1,6,7
+5,5,,PvpReward,8,9,10
+6,6,,TaxDistribute,1,13,14
+7,7,,Unequip,1,2,3
+8,8,,CharacterServerMove,1,15,16
+9,9,,ItemCollection,1,17,18
+11,11,,Arkhans,1,2,24

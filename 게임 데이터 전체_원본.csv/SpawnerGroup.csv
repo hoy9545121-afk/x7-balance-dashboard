@@ -1,0 +1,2 @@
+OID,Cid,Comment,Name,SpawnerCids,SpawnProbabilities,Interval,SpawnChance,RetrialCount,InitialTimeMin,InitialTimeMax,SpawnerScheduleCids
+1,1,,오우거 그룹 테스트,"[10901001,10901002,10901003]","[25,50,25]",900000,1000,3,0,0,

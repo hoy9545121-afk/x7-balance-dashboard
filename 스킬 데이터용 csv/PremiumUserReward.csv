@@ -1,0 +1,3 @@
+OID,Cid,Milestone,Comment,Duration,Period,StatusChangeCids,RewardItemCids,RewardItemCounts
+1,1,Dev,프리미엄 이용권,30,0 0 5,,[41010001],[10]
+2,2,Dev,프리미엄 플러스이용권,30,0 0 5,,[41010001],[100]

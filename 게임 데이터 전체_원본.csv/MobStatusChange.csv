@@ -1,0 +1,2 @@
+﻿OID,Cid,Comment,ZoneCid,Scope,MobLocationCids,MobLocationProbs,StatusChangeCids,StatusChangeProbs,KillStatusChangeCids,FriendlyDesc,EnemyDesc
+1,1,,9998,Team,[1],[100],,[1000],,동맹팀이 봉인된 부귀의 닻을 파괴해 깨어난 부귀의 가호를 받습니다.,적팀이 봉인된 부귀의 닻을 파괴했습니다.

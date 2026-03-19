@@ -1,0 +1,6 @@
+﻿OID,Cid,Comment,EquipmentGrade,EquipmentCategory,ItemCid,Desc
+1,1,,Common,Weapon,0,일반 무기
+2,2,,Uncommon,Weapon,0,고급 무기
+3,3,,Common,Armor,0,일반 방어구
+4,4,,Uncommon,Armor,0,고급 방어구
+5,5,,None,None,1,치유 물약 (귀속)

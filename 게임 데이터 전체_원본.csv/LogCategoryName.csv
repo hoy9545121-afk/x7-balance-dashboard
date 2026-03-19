@@ -1,0 +1,12 @@
+﻿OID,Cid,Comment,Name
+1,1,account,계정
+2,2,character,캐릭터
+3,3,avatar,아바타
+4,4,quest,퀘스트
+5,5,shop,상점
+6,6,exchange,거래소
+7,7,community,커뮤니티
+8,8,battle,전투
+9,9,system,시스템
+10,10,security,보안
+11,11,game_event,게임이벤트

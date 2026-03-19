@@ -1,0 +1,121 @@
+OID,Cid,Comment,SequenceBehavior,EnqueuePolicy,HideRemotePlayer,HideMonster,BindingNpcSpawners,Sequence,DestWorldLocationCid,SendFirst
+1,1,SessionCutIn용 빈 시퀀스,AllowInput,SessionCutIn ,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1.1_C,0,true
+3,3,퀘스트 대사 연출 테스트,AllowSkipNoInput,Queue,TRUE,TRUE,[],,0,true
+5,5,캐릭터 생성 후 첫진입 시퀀스 테스트,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Cutscenes/C01/C01_master.C01_master,0,true
+2000,2000,브린 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2000.2000_C,0,true
+2001,2001,피오르 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2001.2001_C,0,true
+2002,2002,케일런 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2002.2002_C,0,true
+2003,2003,엘시아 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2003.2003_C,0,true
+2004,2004,리아 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2004.2004_C,0,true
+2005,2005,모네스 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2005.2005_C,0,true
+2006,2006,몰리 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2006.2006_C,0,true
+2007,2007,메이비스 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2007.2007_C,0,true
+2008,2008,피넬 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2008.2008_C,0,true
+2009,2009,리오나 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2009.2009_C,0,true
+2010,2010,엘로웬 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2010.2010_C,0,true
+2011,2011,올레이 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2011.2011_C,0,true
+2012,2012,마렌 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2012.2012_C,0,true
+2013,2013,슬레인 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2013.2013_C,0,true
+2014,2014,할레스 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2014.2014_C,0,true
+2015,2015,시오라 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2015.2015_C,0,true
+2016,2016,데시 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2016.2016_C,0,true
+2017,2017,라스 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2017.2017_C,0,true
+2018,2018,코리로 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2018.2018_C,0,true
+2019,2019,브랜던 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2019.2019_C,0,true
+2020,2020,개런 npc 대사 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/2020.2020_C,0,true
+1000,1000,Quest 1000 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1000.1000_C,0,false
+1001,1001,Quest 1001 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1001.1001_C,0,false
+1002,1002,Quest 1002 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1002.1002_C,0,false
+1003,1003,Quest 1003 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1003.1003_C,0,false
+1004,1004,Quest 1004 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1004.1004_C,0,false
+1005,1005,Quest 1005 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1005.1005_C,0,false
+1006,1006,Quest 1006 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006.1006_C,0,false
+1007,1007,Quest 1007 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1007.1007_C,0,false
+1008,1008,Quest 1008 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1008.1008_C,0,false
+1009,1009,Quest 1009 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1009.1009_C,0,false
+1000011,1000011,도착 시퀀스,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1000011.1000011_C,0,true
+1000019,1000019,"메다드 만남, 인사",AllowSkipNoInput,SessionCutIn ,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1000019.1000019_C,0,false
+1000021,1000021,"거북알, 바다 게 안내",AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1000021.1000021_C,0,true
+1000051,1000051,,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1000051.1000051_C,0,true
+1000061,1000061,,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1000061.1000061_C,0,true
+1000071,1000071,,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1000071.1000071_C,0,true
+1000081,1000081,섬 관리실 이동 언급,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1000081.1000081_C,0,true
+1001011,1001011,섬 관리실 이동,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1001011.1001011_C,0,false
+1001019,1001019,관리인 대화 안내,AllowSkipNoInput,SessionCutIn ,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1001019.1001019_C,0,false
+1001022,1001022,관리인과 대화,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1001022.1001022_C,0,false
+1001032,1001032,신관 기다리기,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1001032.1001032_C,0,false
+901037,901037,901037 두다드,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901037.901037_C,0,true
+1001041,1001041,달구지 수리 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1001041.1001041_C,0,true
+901003,901003,장비 제작 언급,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901003.901003_C,0,true
+1002011,1002011,장비 재료 수급 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1002011.1002011_C,0,true
+1002041,1002041,장비 제작 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1002041.1002041_C,0,true
+1002071,1002071,달구지 탑승 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1002071.1002071_C,0,true
+1002078,1002078,1002079 진행 후 NPC 스폰,NoSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1002078.1002078_C,0,false
+1002079,1002079,여명의 길 이동 레벨 시퀀스,AllowSkipNoInput,Queue,TRUE,TRUE,"[10000104,10000105,10000106]",/Game/A_X7_Sequencer/Quest/1002079.1002079,1002072,false
+1003011,1003011,신관과 메다드 만남 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1003011.1003011_C,0,true
+1003032,1003032,감사 인사 및 짐 찾기 부탁,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1003032.1003032_C,0,false
+1003041,1003041,신관과 메다드 이동 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1003041.1003041_C,0,true
+1003122,1003122,짐 전달 후 대화,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1003122.1003122_C,0,false
+1004011,1004011,갈래길 이동,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1004011.1004011_C,0,true
+1004019,1004019,수습 신관 찾기 안내,AllowSkipNoInput,SessionCutIn ,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1004019.1004019_C,0,false
+1004021,1004021,신관과 메다드 우측 길 이동 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1004021.1004021_C,0,true
+1004101,1004101,수습 신관 따라오는 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1004101.1004101_C,0,true
+1004109,1004109,누이 여신상에 기도 안내,AllowSkipNoInput,SessionCutIn ,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1004109.1004109_C,0,false
+1004111,1004111,메다드 이동 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1004111.1004111_C,0,true
+901010,901010,누이 여신상 기도 연출,NoSkipNoInput,SessionCutIn ,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/901010.901010,0,false
+1004119,1004119,1004119 완료 후 NPC 스폰,AllowInput,SessionCutIn ,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1004119.1004119_C,0,false
+1005011,1005011,달구지 탑승 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1005011.1005011_C,0,true
+1005018,1005018,1005019 완료 후 NPC 스폰,AllowInput,SessionCutIn ,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1005018.1005018_C,0,false
+1005019,1005019,달그늘 쉼터 이동 연출,NoSkipNoInput,SessionCutIn ,TRUE,TRUE,[10000107],/Game/A_X7_Sequencer/Quest/1005019.1005019,1005012,false
+1005021,1005021,대신관과 대화 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1005021.1005021_C,0,true
+1005022,1005022,이니스 섬 정착 안내,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1005022.1005022_C,0,false
+1005029,1005029,이니스 제례 축제 연출,NoSkipNoInput,SessionCutIn ,TRUE,TRUE,[10000501],/Game/A_X7_Sequencer/Quest/1005029.1005029,1005021,false
+1006011,1006011,이니스 제례 축제 연출,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006011.1006011_C,0,true
+1006021,1006021,1006022 재생,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006021.1006021_C,0,true
+1006022,1006022,대장장이와 대화,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006022.1006022_C,0,true
+1006031,1006031,1006032 재생,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006031.1006031_C,0,true
+1006032,1006032,잡화상인과 대화,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006032.1006032_C,0,true
+1006041,1006041,1006042 재생,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006041.1006041_C,0,true
+1006042,1006042,마굿간지기와 대화,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006042.1006042_C,0,true
+1006051,1006051,갈색 말 선택,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006051.1006051_C,0,true
+1006052,1006052,흰색 말 선택,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006052.1006052_C,0,true
+1006053,1006053,검은색 말 선택,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006053.1006053_C,0,true
+1006091,1006091,1006 재생,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006091.1006091_C,0,true
+1006099,1006099,인력 게시판 팝업,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1006099.1006099_C,0,true
+1006112,1006112,문제가 생긴듯한 우편 수행자의 연출,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1006112.1006112_C,0,false
+1007021,1007021,우편 수행자의 얘기 듣기,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1007021.1007021_C,0,true
+1007099,1007099,메다드에게 이즈나 이야기 듣기,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1007099.1007099_C,0,false
+1008011,1008011,메다드 위치 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1008011.1008011_C,0,true
+1008071,1008071,던전 클리어 안내,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1008071.1008071_C,0,true
+1008091,1008091,서신 배달 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1008091.1008091_C,0,true
+1008092,1008092,5월의 그왈흐와 대화,AllowSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1008092.1008092_C,0,false
+1008099,1008099,5월의 그왈흐와 대화,NoSkipNoInput,Queue,TRUE,TRUE,"[10000502,10000112]",/Game/A_X7_Sequencer/Quest/1008099.1008099,0,false
+1009011,1009011,1009012 재생,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1009011.1009011_C,0,true
+1009012,1009012,날틀 타러 가자고 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1009012.1009012_C,0,true
+1009032,1009032,두다드_날틀 연출,NoSkipNoInput,Queue,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/1009032.1009032_C,0,true
+1009041,1009041,1009042 재생,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1009041.1009041_C,0,true
+1009042,1009042,부두로 이동하자고 안내,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1009042.1009042_C,0,true
+1009049,1009049,안드리온 1세 도착하는 연출,NoSkipNoInput,Queue,TRUE,TRUE,[],,0,true
+1009052,1009052,안드리온 1세와 대화,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/1009052.1009052_C,0,true
+9000111,9000111,잊혀진 망자의 회랑 웨이브 연출,AllowSkipNoInput,SessionCutIn ,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/9000131.9000131,0,false
+9000151,9000151,해골 전사 스폰,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9000151.9000151_C,0,false
+901036,901036,절벽 내려가기,NoSkipNoInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901036_Climb_Down_02.901036_Climb_Down_02,100099,false
+901038,901038,절벽 올라가기,NoSkipNoInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901038_Climb_Up_02.901038_Climb_Up_02,100098,false
+9001011,9001011,여명의 길 - 몬스터 스폰 시퀀스,AllowSkipNoInput,SessionCutIn ,TRUE,TRUE,[10000401],/Game/A_X7_Sequencer/Quest/900101.900101,0,false
+9001021,9001021,여명의 길 - 놀 우두머리 / 놀 스폰,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9001021.9001021_C,0,false
+9002011,9002011,고요의 숲 - 난폭한 정령 스폰,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9002011.9002011_C,0,false
+9002021,9002021,고요의 숲 - 오크 족장 스폰,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9002021.9002021_C,0,false
+9002012,9002012,고요의 숲 - 오크 대장 스폰 시퀀스,AllowSkipNoInput,SessionCutIn ,TRUE,TRUE,[],/Game/A_X7_Sequencer/Quest/900201.900201,0,false
+9003,9003,Quest 9003 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9003.9003_C,0,true
+9004,9004,Quest 9004 progress,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9004.9004_C,0,true
+9003011,9003011,9003 몬스터 셋팅,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9003011.9003011_C,0,false
+9004011,9004011,불타는 달그늘 마을 전경,AllowSkipNoInput,AllCutIn,TRUE,TRUE,[],/Game/A_X7_Sequencer/Cutscenes/C02/C02_master.C02_master,0,false
+9004012,9004012,9004 몬스터 셋팅,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9004012.9004012_C,0,false
+9004061,9004061,900406 몬스터 셋팅,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9004061.9004061_C,0,false
+9004078,9004078,간부 몬스터 셋팅,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9004078.9004078_C,0,false
+9004079,9004079,부활한 피 묻은 손 간부 연출,NoSkipNoInput,AllCutIn,TRUE,TRUE,[],/Game/A_X7_Sequencer/Cutscenes/C03/C03_master.C03_master,1013122,false
+9004091,9004091,900409 몬스터 셋팅,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/9004091.9004091_C,0,false
+901039,901039,901039 두다드,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901039.901039_C,0,true
+901040,901040,901040 두다드,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901040.901040_C,0,true
+901041,901041,901041 두다드,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901041.901041_C,0,true
+901042,901042,901042 두다드,AllowInput,Queue,FALSE,FALSE,[],/Game/A_X7_Sequencer/Quest/901042.901042_C,0,true

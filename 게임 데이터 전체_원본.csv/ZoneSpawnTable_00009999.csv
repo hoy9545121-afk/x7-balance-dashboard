@@ -1,0 +1,3 @@
+﻿OID,SpawnerId,Name,ActorCategory,Cid,Interval,bRoaming,bIsMinion,bQuestSpawner,bSpawnOnlySequence,bInstanceSpawner,NumMaxSpawn,SpawnChance,RetrialCnt,LifeTime,Points,Rotations,AIPathCids,bEventDespawn,InitialTimeMin,InitialTimeMax
+1,2009,NpcSpawner_0,Npc,2009,0,False,False,False,False,False,1,1000,0,0,"((X=-29920.000000,Y=-3970.000000,Z=-18440.000000))","((X=0.000000,Y=-0.000000,Z=1.000000,W=0.000000))",,False,0,0
+2,2010,NpcSpawner_C_0,Npc,2010,0,False,False,False,False,False,1,1000,0,0,"((X=-30190.000000,Y=-3730.000000,Z=-18420.000000))","((X=0.000000,Y=-0.000000,Z=0.965926,W=0.258819))",,False,0,0

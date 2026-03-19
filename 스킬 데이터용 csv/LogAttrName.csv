@@ -1,0 +1,342 @@
+﻿OID,Cid,Comment,PacketName,Name
+1,1,,Unknown,설정되지 않음
+2,2,,C2LLoginReq,계정 로그인
+3,3,,S2WNetEvent,네트워크 단절
+4,4,,W2SToClientDisconnectOrder,접속 종료 요청
+5,5,,C2WLogin,로그인
+6,6,,C2WLogout,로그아웃
+7,7,,C2WCharCreate,캐릭터 생성
+8,8,,C2WCharDelete,캐릭터 삭제
+9,9,,C2WCharRestore,캐릭터 복구
+10,10,,C2WStorageAutoStashSet,창고 자동 입고 설정
+11,11,,C2WStorageAutoStashRemove,창고 자동 입고 설정 삭제
+12,12,,C2WTutorialDone,길잡이 수행
+13,13,,C2WRedDot,빨콩 설정
+14,14,,C2WRedDotAccount,서버 빨콩 설정
+15,15,,C2WIntroTutorial,도입 길잡이 수행
+16,16,,C2WMailWrite,우편 작성
+17,17,,C2WFriendReq,친구 요청
+18,18,,C2WFriendReqCancel,친구 요청 취소
+19,19,,C2WFriendReqRefuse,친구 요청 거절
+20,20,,C2WFriendReqApprove,친구 요청 수락
+21,21,,C2WFriendRemove,친구 삭제
+22,22,,C2WBlockAdd,차단 추가
+23,23,,C2WBlockRemove,차단 삭제
+24,24,,C2WGuildDailyRank,길드 일일 랭크 정보 요청
+25,25,,Z2WGuildMakeCost,길드 생성
+26,26,,C2WGuildBreakup,길드 해체
+27,27,,C2WGuildRecommend,길드 추천
+28,28,,C2WGuildSearch,길드 검색
+29,29,,C2WGuildJoin,길드 가입 요청
+30,30,,C2WGuildApplyCancel,길드 가입 요청 취소
+31,31,,C2WGuildJoinApprove,길드 가입 요청 수락
+32,32,,C2WGuildJoinReject,길드 가입 요청 거절
+33,33,,C2WGuildQuit,길드 탈퇴
+34,34,,C2WGuildKick,길드 추방
+35,35,,C2WGuildAppoint,길드 직책 설정
+36,36,,C2WGuildConfig,길드 설정
+37,37,,C2WGuildEnemyReg,적길드 등록
+38,38,,C2WGuildEnemyUnreg,적길드 등록 해제
+39,39,,C2WGuildAllianceReq,동맹 길드 요청
+40,40,,C2WGuildAllianceApprove,동맹 요청 수락
+41,41,,C2WGuildAllianceReqCancel,동맹 요청 취소
+42,42,,C2WGuildAllianceReqReject,동맹 요청 거절
+43,43,,C2WGuildAllianceBreakoff,동맹 파기
+44,44,,C2WGuildAttend,길드 출석
+45,45,,C2WGuildAttendReward,길드 출석 보상 수령
+46,46,,C2WGuildIntro,길드 소개
+47,47,,C2WGuildDonate,길드 기부
+48,48,,C2WGuildHouseRentalExtend,길드 하우스 임대 연장
+49,49,,C2WGuildBuyMaterial,길드 소환 재료 구매
+50,50,,C2WGuildResetMaterial,길드 소환 재료 재설정
+51,51,,C2WGuildSummon,길드 소환
+52,52,,C2WTradeCancel,거래소 등록 취소
+53,53,,C2WTradeBuy,거래소 구매
+54,54,,C2WTradeClaim,거래소 결과물 수취
+55,55,,C2WTradeSearch,거래소 검색
+56,56,,C2WTradeSearchBoard,거래소 시세 검색
+57,57,,C2WTradePoll,거래소 완료 건 조회
+58,58,,C2WTradeBookmarkAdd,거래소 북마크 추가
+59,59,,C2WTradeBookmarkRemove,거래소 북마크 제거
+60,60,,C2WTradeKeywordAdd,거래소 키워드 추가
+61,61,,C2WZoneLeave,존 퇴장
+62,62,,C2WShopAutoSellUpdate,상점 자동 판매 갱신
+63,63,,C2WShopAutoSellSet,상점 자동 판매 설정
+64,64,,C2WShopAutoSellRemove,상점 자동 판매 제거
+65,65,,C2WShopAutoBuySet,상점 자동 구매 설정
+66,66,,C2WShopBuy,상점 구매
+67,67,,C2WPartyCreate,파티 생성
+68,68,,C2WPartyInvite,파티 초대
+69,69,,C2WPartyCancelInviting,파티 초대 취소
+70,70,,C2WPartyAccept,파티 수락
+71,71,,C2WPartyLeave,파티 탈퇴
+72,72,,C2WPartyOption,파티 설정
+73,73,,C2WPartyChangeHost,파티장 변경
+74,74,,C2WPartyKick,파티 추방
+75,75,,C2WPartyShareTarget,파티 목표 공유
+76,76,,C2WPartyShareScanList,파티 검색 목록 공유
+77,77,,C2WPartyShareScanListCancel,파티 검색 목록 공유 취소
+78,78,,C2WDungeonChargeTimeReload,던젼 충전 시간 새로고침
+79,79,,C2WQuickSlotSet,큇슬롯 설정
+80,80,,C2WAutoUseAdd,자동 사용 추가
+81,81,,C2WAutoUseRemove,자동 사용 제거
+82,82,,C2WSkillUseCycleTimeSet,스킬 사용 순환 시간 설정
+83,83,,C2WSkillAutoUseCondSet,스킬 자동 사용 조건 설정
+84,84,,C2WTeleportMemoryShare,순간이동 저장 공유
+85,85,,C2WTeleportMemoryAccept,순간이동 저장 수락
+86,86,,C2WFindUser,사용자 찾기
+87,87,,C2WChatMessageAdd,채팅
+88,88,,C2WEmoticonAdd,이모티콘 사용
+89,89,,C2WRankLoadDaily,일일 랭킹 조회
+90,90,,C2WRankLoadLive,라이브 랭킹 조회
+91,91,,C2WPvpRankLoad,PVP 랭킹 조회
+92,92,,C2WPveRankLoad,PVE 랭킹 조회
+93,93,,C2WPVPMessageSet,PVP 메세지 설정
+94,94,,C2WCharLoadAndEnterZone,존 조회 및 입장
+95,95,,C2WWaitingLineCancelReq,대기열 취소
+96,96,,C2WWaitingLineCountReq,대기열 수 조회
+97,97,,C2WPVPRevenge,PVP 복수
+98,98,,C2WSiegeProclaim,공성 선포
+99,99,,C2WSiegeSetAlly,공성 동맹 설정
+100,100,,C2WSiegeProclaimListReq,공성 선포 목록
+101,101,,C2WSiegeAssemblePointPin,공성 집결지 설정
+102,102,,C2WSiegeAssemblePointUnpin,공성 집결지 설정 해제
+103,103,,C2WSystemMessage,시스템 메세지 전송
+104,104,,C2WGuildRefreshInfo,길드 정보 갱신
+105,105,,C2WCraftServerCountUpdate,제작 서버 개수 갱신
+106,106,,C2WTaxChange,세금 변경
+107,107,,C2WCharacterServerMoveState,서버 이전 상태
+108,108,,C2WCharacterServerMoveServerList,서버 이전 목록
+109,109,,C2WCharacterServerMoveServerSelect,서버 이전 선택
+110,110,,C2WCharSlotExpand,캐릭터 슬롯 확장
+111,111,,C2WCharacterServerMoveRequest,서버 이전 요청
+112,112,,C2WCharNameUpdate,캐릭터 이름 변경
+113,113,,C2WXigncodeValidation,Xigncode 인증
+114,114,,C2WCashShopBuy,캐시 상점 구매
+115,115,,C2WCheckConsumedReceipt,소모 제작법 확인
+116,116,,C2WCashShopBuyForPc,PC 캐시 상점 구매
+117,117,,C2WUnregister,등록 해제
+118,118,,C2WCashShopRestore,캐시 상점 복구
+119,119,,C2WCashShopBuyableForPc,PC 캐시 상점 구매 가능
+120,120,,C2WCheckConsumedReceiptForPc,PC 소모 제작법 확인
+121,121,,C2WRecoverCoupon,쿠폰 복원
+122,122,,C2WRecomposeCoupon,쿠폰 재조합
+123,123,,C2WRecoverItem,아이템 복구
+124,124,,C2WRecoverCompose,조합 복구
+125,125,,C2WUpdateGroupMail,그룹 우편 갱신
+126,126,,C2WCashShopRefund,캐시 상점 환불
+127,127,,C2WTradeItemInfosFind,거래소 아이템 정보 찾기
+128,128,,C2WCheckUnregisterCondition,등록 해제 조건 확인
+129,129,,C2ZUseSkill,스킬 사용
+130,130,,C2ZUseMountSkill,탑승
+131,131,,C2ZRequestRevival,부활 요청
+132,132,,C2ZBreakItem,아이템 파괴
+133,133,,C2ZTradeRegister,거래소 등록
+134,134,,C2ZTradeRenewal,거래소 갱신
+135,135,,C2ZEnterQuestArea,퀘스트 영역 진입
+136,136,,C2ZDungeonEnter,던젼 진입
+137,137,,C2ZDungeonLeave,던젼 퇴장
+138,138,,C2ZGuildHouseEnter,길드 하우스 진입
+139,139,,C2ZGuildHouseLeave,길드 하우스 퇴장
+140,140,,C2ZItemImbue,마법 부여
+141,141,,C2ZDeathPenaltyExpRecover,패널티 경험치 복구
+142,142,,C2ZDeathPenaltyItemRecover,패널티 아이템 복구
+143,143,,Z2CHonorRankUpdate,명예 랭크 갱신
+144,144,,C2ZMountRegister,탈것 등록
+145,145,,C2ZMountUse,탈것 사용
+146,146,,C2ZMountDecisionWaitCheck,탈것 결정 확인
+147,147,,C2ZMountDecisionWaitChange,탈것 결정 변경
+148,148,,C2ZMountDecisionWaitConfirm,탈것 결정 확인
+149,149,,C2ZMountCompose,탈것 조합
+150,150,,C2ZMountTrain,탈것 훈련
+151,151,,C2ZShipRegister,선박 등록
+152,152,,Z2CItemBoxOpen,아이템 박스 개봉
+153,153,,C2ZMerchantSlotOpen,무역 슬롯 개방
+154,154,,C2ZMerchantChangeShip,무역 선박 변경
+155,155,,C2ZMerchantItems,무역 물품 목록
+156,156,,C2ZMerchantLoad,무역 물품 선적
+157,157,,C2ZMerchantSail,무역 출항
+158,158,,C2ZMerchantReport,무역 보고서
+159,159,,C2ZMerchantTake,무역 결과 수령
+160,160,,C2ZMerchantItemRefresh,무역 물품 갱신
+161,161,,C2ZPVPRevenge,복수
+162,162,,C2ZPVPRidicule,조롱
+163,163,,Z2CItemShare,아이템 공유
+164,164,,C2ZItemBuyDailyReward,출석 구매
+165,165,,Z2CMonsterInventoryLoot,직접 가방으로 획득
+166,166,,Z2CCashShop,캐시 상점
+167,167,,C2ZItemLabor,노동력
+168,168,,C2ZItemCollectionRegister,컬랙션 등록
+169,169,,C2ZStorageExpand,창고 확장
+170,170,,C2WCharBagExpand,가방 확장
+171,171,,C2ZItemEquip,아이템 장착
+172,172,,C2ZItemUnequip,아이템 제거
+173,173,,C2ZItemDelete,아이템 삭제
+174,174,,C2ZItemUpgrade,아이템 강화
+175,175,,C2ZItemLock,아이템 잠금
+176,176,,C2ZStorageItemLock,창고 아이템 잠금
+177,177,,C2ZStarBind,별자리 각인
+178,178,,C2ZCraft,제작
+179,179,,C2ZGroaCompose,그로아 합성
+180,180,,C2ZGroaSpawn,그로아 소환
+181,181,,C2ZItemConsumeSkillBook,스킬북 사용
+182,182,,C2ZClassDecisionWaitCheck,클래스 소환 대기 확인
+183,183,,C2ZClassDecisionWaitChange,클래스 소환 대기 변경
+184,184,,C2ZClassDecisionWaitConfirm,클래스 소환 대기 확정
+185,185,,C2ZClassCompose,클래스 합성
+186,186,,C2ZClassChange,클래스 변경
+187,187,,C2ZItemConsumeRecoverScroll,복구 아이템 사용
+188,188,,C2ZItemLoot,아이템 줍기
+189,189,,C2ZItemBoxOpen,아이템 박스 열기
+190,190,,C2ZShopBuy,구매
+191,191,,C2ZShopSell,판매
+192,192,,C2ZCashShopBuy,캐시 상점 구매
+193,193,,C2ZCashShopConfirm,캐시 상점 구매 확인
+194,194,,C2ZStorageGoldStash,창고 골드 입금
+195,195,,C2ZStorageGoldPullOut,창고 골드 출금
+196,196,,C2ZStorageStash,창고 아이템 입고
+197,197,,C2ZStoragePullOut,창고 아이템 출고
+198,198,,C2ZItemSummonClass,클래스 소환
+199,199,,C2ZItemSummonGroa,그로아 소환
+200,200,,C2ZItemSummonMount,탈것 소환
+201,201,,C2ZMailLockToggle,우편 잠금 설정
+202,202,,C2ZMailRead,우편 읽기
+203,203,,C2ZMailDelete,우편 삭제
+204,204,,C2ZMailSysTake,우편 첨부 수령
+205,205,,C2ZDailyRewardBuy,출석 구매
+206,206,,C2ZDailyRewardTake,출석 수령
+207,207,,C2ZGroaDecisionWaitConfirm,그로아 소환 대기 확정
+208,208,,C2ZItemShare,아이템 공유
+209,209,,C2ZSocialAction,소셜 액션
+210,210,,C2ZStatusPotion,스탯 포션 사용
+211,211,,C2WQuestPreviewGet,퀘스트 보상 미리보기 조회
+212,212,,C2WQuestRequestAccept,의뢰 수락
+213,213,,C2ZForcedTutorial,강제 길잡이 수행
+214,214,,C2ZCharacterStatSet,스탯 설정
+215,215,,C2WQuestReward,퀘스트 보상 수령
+216,216,,C2WQuestAccept,퀘스트 수락
+217,217,,C2WQuestTalk,퀘스트 대화 수행
+218,218,,C2WQuestComplete,퀘스트 완료
+219,219,,C2WQuestRequestRefresh,의뢰 갱신
+220,220,,C2WQuestDrop,퀘스트 포기
+221,221,,C2WQuestUseUi,퀘스트 UI 사용 목표 수행
+222,222,,C2WQuestReqIngRefresh,수행중 의뢰 갱신
+223,223,,C2ZAchieveReward,업적 보상 수령
+224,224,,C2ZGroaDecisionWaitCheck,그로아 소환 대기 확인
+225,225,,C2ZGroaDecisionWaitChange,그로아 소환 대기 변경
+226,226,,C2ZItemConsumeDungeonChargeTime,던젼 대기 시간 충전
+227,227,,C2ZItemSkill,아이템 스킬 사용
+228,228,,C2ZMailSysDelete,시스템 우편 삭제
+229,229,,C2ZTeleportMemoryUse,순간이동 지정 사용
+230,230,,C2ZTeleportMemoryAdd,순간이동 지정 추가
+231,231,,C2ZTeleportMemoryUpdate,순간이동 지정 갱신
+232,232,,C2ZTeleportMemoryRemove,순간이동 지정 삭제
+233,233,,C2ZShipItemEquip,선박 아이템 장착
+234,234,,C2ZShipItemUnequip,선박 아이템 해제
+235,235,,C2ZShipCreate,선박 건조
+236,236,,C2ZShipReload,선박 정보 갱신
+237,237,,C2ZShipEquippedItemUpgrade,선박 장착 아이템 강화
+238,238,,C2ZShipEquippedItemImbue,선박 장착 아이템 마법 강화
+239,239,,C2ZAlchemyDraw,연금 유도
+240,240,,C2ZAlchemyCancel,연금 취소
+241,241,,C2ZAlchemyConfirm,연금 확인
+242,242,,C2ZAlchemyFeverDraw,연금 고조 유도
+243,243,,C2ZClassComposePoint,클래스 포인트 소환
+244,244,,C2ZGroaComposePoint,그로아 포인트 소환
+245,245,,C2ZMountComposePoint,탈것 포인트 소환
+246,246,,C2ZItemUpgradeSafety,아이템 안전 강화
+247,247,,C2ZShipEquipmentUpgradeSafety,선박 장착 아이템 안전 강화
+248,248,,C2ZStatReset,스탯 재설정
+249,249,,C2ZCharSlotExpand,캐릭터 슬롯 확장
+250,250,,C2ZClassLock,클래스 잠금
+251,251,,C2ZGroaLock,그로아 잠금
+252,252,,C2ZMountLock,탈것 잠금
+253,253,,C2ZOptionSettingSet,옵션 설정
+254,254,,C2WQuestConditionType,퀘스트 목표 수행 설정
+255,255,,C2ZClassComposeAuto,클래스 자동 합성
+256,256,,C2ZGroaComposeAuto,그로아 자동 합성
+257,257,,C2ZMountComposeAuto,탈것 자동 합성
+258,258,,C2ZCashShopConfirmAll,캐시 상점 모두 확인
+259,259,,C2ZWorldMapBookmarkUpdate,월드 맵 북마크 갱신
+260,260,,C2ZShipAnchorMode,선박 정박 상태 설정
+261,261,,C2ZStuckEscape,탈출
+262,262,,Z2WBossLog,필드 보스 참여
+263,263,,Z2WWorldBossLog,월드 보스 참여
+264,264,,Z2WBackpackMsg,등짐
+265,265,,Z2WFlagMsg,깃발
+266,266,,Z2CDailyResetAccount,일일 계정 리셋
+267,267,,Z2CDailyResetCharacter,일일 캐릭터 리셋
+268,268,,Z2CTick,컨텐트 틱 변화
+269,269,,Z2CDeathPenaltyReset,죽음 패널티 리셋
+270,270,,Z2CCashShopExpire,캐시 상점 만료
+271,271,,Z2CItemCollectionExpire,아이템 컬렉션 만료
+272,272,,Z2CMountDisuse,말 해제
+273,273,,Z2CPvpRevengeTeleport,PVP 복수 이동
+274,274,,Z2CPvpResult,PVP 결과
+275,275,,Z2CPvpScoreUpdate,PVP 점수 갱신
+276,276,,Z2CQuestPrepare,퀘스트 준비
+277,277,,Z2CItemExpire,아이템 만료
+278,278,,Z2CConsumeSkillCostItem,스킬 사용 아이템 비용
+279,279,,Z2CPvpScoreGive,PVP 점수 획득
+280,280,,Z2CPvpScoreAssist,PVP 도움
+281,281,,Z2CDeathPenalty,죽음 패널티
+282,282,,Z2CPvpAddResult,PVP 결과
+283,283,,Z2CPvpHonorPenalty,PVP 명예 패널티
+284,284,,Z2CCheatKillMonsterReward,치트 몬스터 보상
+285,285,,Z2CMonsterReward,몬스터 보상
+286,286,,Z2CTeleportCost,순간이동 비용
+287,287,,C2WHackLog,보안로그
+288,288,,Z2WPlayerEntered,존 입장
+289,289,,Z2WPlayerDead,사용자 죽음
+290,290,,Z2WMonsterDead,몬스터 죽음
+291,291,,W2ZCheatCommand,치트 사용
+292,292,,C2WCheatCommand,치트 요청
+293,293,,W2ZGuildDonate,길드 기부
+294,294,,W2ZGuildMakeCost,길드 창설 비용
+295,295,,W2ZGuildHouseRentalExtend,길드 하우스 렌탈 연장
+296,296,,W2ZMailWrite,우편 쓰기
+297,297,,C2ZPlayTeleportBegin,텔레포트 시작
+298,298,,W2ZTradeBuy,거래소 구매
+299,299,,W2ZTradeClaim,거래 결과 수령
+300,300,,Z2WTaxValues,세금 누적
+301,301,,C2WSiegeProclaim,공성 선포
+302,302,,C2WSiegeSetAlly,진영 설정
+303,303,,C2WSiegeAssemblePointPin,집결지 설정
+304,304,,C2WSiegeAssemblePointUnpin,집결지 설정 취소
+305,305,,Z2WBossSpawnLog,필드 보스 등장
+306,306,,W2ZTradeCancel,거래 취소
+307,307,,W2ZGuildAttendReward,길드 출석 보상
+308,308,,C2WTaxDistribute,세금 분배
+309,309,,C2ZBreakItemAuto,아이템 파괴 자동
+310,310,,U2WUnionMake,연합 생성
+311,311,,U2WUnionBreakUp,연합 해체
+312,312,,U2WUnionJoin,연합 가입
+313,313,,U2WUnionApplicantAdd,연합 가입 지원
+314,314,,U2WUnionQuit,연합 탈퇴
+315,315,,U2WUnionKick,연합 추방
+316,316,,U2WUnionConfig,연합 설정
+317,317,,U2WUnionGuildBreakUp,연합 맴버 길드 해체
+318,318,,U2WUnionJoinCancel,연합 가입 취소
+319,319,,U2WUnionJoinReject,연합 가입 거절
+320,320,,U2WUnionAppoint,연합 직책 설정
+321,321,,U2WUnionAllianceReq,동맹 연합 요청
+322,322,,U2WUnionAllianceReqCancel,동맹 연합 요청 취소
+323,323,,U2WUnionAllianceReqReject,동맹 연합 요청 거절
+324,324,,U2WUnionAllianceBreakOff,동맹 연합 파기
+325,325,,U2WUnionEnemyReg,적연합 등록
+326,326,,U2WUnionEnemyUnReg,적연합 등록 해제
+327,327,,C2WAgeRangeSet,구매 나이 변경
+328,328,,Z2WGuildDonate,길드 기부
+329,329,,C2ZWishMake,팔로스 샘물 소원 빌기
+330,330,,C2ZWishRefreshList,팔로스 샘물 목록 새로 고침
+331,331,,W2ZBlockAdd,친구 차단 등록
+332,332,,W2ZTradeItemSoldout,거래소 아이템 매진
+333,333,,Z2WPlayerLeft,캐릭터가 존에서 나감
+334,334,,Z2WPlayerReentered,캐릭터가 동일한 존에 다시 입장함
+335,335,,Z2WPlayerTeleportBegin,캐릭터가 텔레포트 시작함
+336,336,,C2ZAccountOptionSettingsSet,계정 옵션 설정
+337,337,,C2ZCashShopBuyAll,캐시샵 모두 구매
+338,338,,C2ZContributionSlotLockUpdate,기여 슬롯 잠금 업데이트
+339,339,,C2ZEventMissionReward,이벤트 미션 보상
+340,340,,C2ZInteractDoodad,두다드와 상호 작용
+341,341,,C2ZSkillImbue,"기술 부여, 자동 기술 부여 요청"

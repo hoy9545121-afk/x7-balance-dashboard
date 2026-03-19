@@ -1,0 +1,2 @@
+OID,Cid,Comment,DescName,Desc,Tier,Category,MaxSpeed,Acceleration,Deceleration,SteeringSpeed,ReverseRatio,FrictionRatio,MaxSteeringAngle,MinSpeedRatioOnTurn,MaxHp,Attack,PhysicalDefense,MagicDefense,IsForcedGetOff
+1,1,테스트_차량,테스트 차량,이것은 테스트 차량,Tier1,Tractor,400,200,300,40,2000,4000,40,5887,1000,300,200,100,FALSE

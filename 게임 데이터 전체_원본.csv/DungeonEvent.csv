@@ -1,0 +1,2 @@
+﻿OID,Cid,Comment,ActionType,ActionValue,Delay
+1,1,27003 스포너를 1마리 스폰 / 30초 뒤,SpawnActor,"[27003,1]",30000

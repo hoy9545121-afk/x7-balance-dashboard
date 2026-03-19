@@ -1,0 +1,5 @@
+OID,Cid,Comment,CharacterCid,WeaponType,InitialItem,StartArea
+1,1,누이아 여자_양손검,1,TwohandSword,31,2
+2,2,누이아 여자_활,1,Bow,31,2
+3,3,누이아 여자_지팡이,1,Staff,31,2
+4,4,누이아 남자,2,TwohandSword,31,2

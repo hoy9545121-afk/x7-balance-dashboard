@@ -1,0 +1,7 @@
+﻿OID,Cid,Comment,Name,SuppliesName,Icon,PIDAndroid,PIDiOS,CategoryCids,CategoriesSortOrder,BadgeType,CostType,CostId,CostValue,Mileage,GroupIndex,ItemTypes,ItemIds,ItemValues,ProductListStringKey,ProductPopupStringKey,MultiBuy,CharacterLevel,Show,HideSoldOut,ScheduleDisplay,ScheduleSell,LimitType,LimitCount,LimitGrade,LimitGradeType,ResetType,LimitSiegeWin,DaysOfWeek
+1,1,,435 보석,435 보석,1,aw_gem01,aw_gem01,[1],0,None,Cash,0,6000,120,0,[Navi],[0],[435],0,0,FALSE,0,TRUE,FALSE,0,0,None,0,None,None,None,0,
+2,2,,870 보석,870 보석,2,aw_gem02,aw_gem02,[1],1,None,Cash,0,12000,240,0,[Navi],[0],[870],0,0,FALSE,0,TRUE,FALSE,0,0,None,0,None,None,None,0,
+3,3,,2400 보석,2400 보석,3,aw_gem03,aw_gem03,[1],2,None,Cash,0,33000,660,0,[Navi],[0],[2400],0,0,FALSE,0,TRUE,FALSE,0,0,None,0,None,None,None,0,
+8,8,,3200 보석,3200 보석,8,aw_gem04,aw_gem04,[1],3,None,Cash,0,44000,880,0,[Navi],[0],[3200],0,0,FALSE,0,TRUE,FALSE,0,0,None,0,None,None,None,0,
+4,4,,4000 보석,4000 보석,4,aw_gem05,aw_gem05,[1],4,None,Cash,0,55000,1100,0,[Navi],[0],[4000],0,0,FALSE,0,TRUE,FALSE,0,0,None,0,None,None,None,0,
+5,5,,8000 보석,8000 보석,5,aw_gem06,aw_gem06,[1],5,None,Cash,0,109000,2180,0,[Navi],[0],[8000],0,0,FALSE,0,TRUE,FALSE,0,0,None,0,None,None,None,0,

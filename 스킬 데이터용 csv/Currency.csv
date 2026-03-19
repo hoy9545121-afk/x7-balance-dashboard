@@ -1,0 +1,8 @@
+﻿OID,Cid,Comment,Name,Desc,WhereToGet,WhereToUse,Kind,MaxAmount
+1,1,,금화,금화,"[Monster,Quest,Achievement,NaviShop]","[NaviShopGold,Upgrade,MountSkillTraining,Craft,ShipCraft,GuildDonation,MerchandiseShop,EquipmentShop,NuiHierarch]",Gold,10000000000
+2,2,,보석,유료 재화,[NaviShop],"[NaviShop,Exchange,GuildDonation,NuiHierarch]",Navi,100000000
+3,3,,보석,유료 재화(보너스),[NaviShop],"[NaviShop,Exchange,GuildDonation,NuiHierarch]",FreeNavi,100000000
+4,4,,마일리지,"유료 상품 구매시 지급되는 보너스, 마일리지 전용 상품도 존재함",[NaviShop],[NaviShopMileage],Mileage,100000000
+5,5,,노동력,"제작, 무역등에 필요한 자원",[Request],[Craft],Labor,100000
+6,6,,델피나드의 별,서버 내 무역 보상 주화,[Request],[Craft],GildaStar,1000000000
+7,7,,에노아의 태양,렐름 무역 보상 주화,[Request],[Craft],EnoanSun,1000000000

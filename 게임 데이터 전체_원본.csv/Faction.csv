@@ -1,0 +1,14 @@
+﻿OID,Cid,Comment,Name,View
+1,1,예비,중립,false
+2,2,예비,적대,false
+3,3,예비,우호,false
+101,101,PC세력(const default_character_faction),누이아(PC),false
+111,111,경비병 그룹,경비병,false
+112,112,마리아노플 NPC 그룹,마리아노플 상인회,false
+113,113,연출용 중립 NPC,연출용 중립 NPC,false
+114,114,두다드 연출용 NPC,두다드 연출용 NPC,false
+201,201,Monster 세력,몬스터,false
+202,202,Monster 세력_모두 적대,전부 적대관계,false
+203,203,Monster 세력_두들링,두들링,false
+204,204,Monster 세력_놀과 오크,"놀, 오크",false
+205,205,Monster 세력_피 묻은 손,피 묻은 손,false

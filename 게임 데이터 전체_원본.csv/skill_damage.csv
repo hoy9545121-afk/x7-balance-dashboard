@@ -1,0 +1,842 @@
+root_id,root_type,root_name,nodeId,comment,status_tag_condition_cids,chance,damage_type,cri_use,dodge_use,skill_d_m_g_minper,skill_d_m_g_maxper,skill_d_m_gadd,dot_d_m_gper,current_h_p_d_m_gper,max_h_p_d_m_gper,stack_status_change_cids,stack_d_m_gper,stack_d_m_gadd,is_remove_stack_status_change,f_x_name,cri_f_x_name
+1,skill_root,에러 방지용,10020006,,[],0,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+1,skill_effect_root,에러방지용,10030003,,[],0,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+101,skill_effect_root,중독 Lv.1,1010030003,중독 Lv.1,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_Dagger_State_Posioning_Dot,
+102,skill_effect_root,중독 Lv.2,1020030003,중독 Lv.2,[],1000,Physical,false,false,660,660,0,0,0,0,[],0,0,false,Nu_Dagger_State_Posioning_Dot,
+103,skill_effect_root,중독 Lv.3,1030030003,중독 Lv.3,[],1000,Physical,false,false,720,720,0,0,0,0,[],0,0,false,Nu_Dagger_State_Posioning_Dot,
+104,skill_effect_root,중독 Lv.4,1040030003,중독 Lv.4,[],1000,Physical,false,false,780,780,0,0,0,0,[],0,0,false,Nu_Dagger_State_Posioning_Dot,
+105,skill_effect_root,중독 Lv.5,1050030003,중독 Lv.5,[],1000,Physical,false,false,840,840,0,0,0,0,[],0,0,false,Nu_Dagger_State_Posioning_Dot,
+9000,skill_root,공용 : 일반 공격 (왼쪽),90000020006,공용 : 일반 공격 (왼쪽),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_Hit_Fist_Normal,NS_Hit_Fist_Critical
+9001,skill_root,공용 : 일반 공격 (오른쪽),90010020006,공용 : 일반 공격 (오른쪽),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_Hit_Fist_Normal,NS_Hit_Fist_Critical
+9002,skill_root,한손검 : 평타 (1타),90020020006,한손검 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9003,skill_root,한손검 : 평타 (2타),90030020006,한손검 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9004,skill_root,양손검 : 평타 (1타),90040020006,양손검 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9004,skill_root,양손검 : 평타 (1타),90040020010,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9004,skill_root,양손검 : 평타 (1타),90040020015,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2200,2200,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9004,skill_root,양손검 : 평타 (1타),90040020020,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2400,2400,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9004,skill_root,양손검 : 평타 (1타),90040020025,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2600,2600,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9004,skill_root,양손검 : 평타 (1타),90040020030,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2800,2800,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9004,skill_root,양손검 : 평타 (1타),90040020035,1티어 양손검 W 스킬 Lv.1,[],1000,Physical,true,true,2800,2800,0,0,0,0,[],0,0,false,Nu_Twohand_1T_W_Hit,Nu_Twohand_1T_W_Hit
+9005,skill_root,양손검 : 평타 (2타),90050020006,한손검 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9005,skill_root,양손검 : 평타 (2타),90050020010,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9005,skill_root,양손검 : 평타 (2타),90050020015,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2200,2200,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9005,skill_root,양손검 : 평타 (2타),90050020020,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2400,2400,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9005,skill_root,양손검 : 평타 (2타),90050020025,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2600,2600,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9005,skill_root,양손검 : 평타 (2타),90050020030,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2800,2800,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9005,skill_root,양손검 : 평타 (2타),90050020035,1티어 양손검 W 스킬 Lv.1,[],1000,Physical,true,true,2800,2800,0,0,0,0,[],0,0,false,Nu_Twohand_1T_W_Hit,Nu_Twohand_1T_W_Hit
+9006,skill_root,단검 : 평타 (1타),90060020006,단검 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020010,Q_내리꽂기 Lv.1,[],1000,Physical,true,true,1560,1560,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020015,Q_내리꽂기 Lv.2,[],1000,Physical,true,true,1720,1720,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020020,Q_내리꽂기 Lv.3,[],1000,Physical,true,true,1880,1880,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020025,Q_내리꽂기 Lv.4,[],1000,Physical,true,true,2040,2040,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020030,Q_내리꽂기 Lv.5,[],1000,Physical,true,true,2200,2200,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020035,W_무기 연마 Lv.1,[],1000,Physical,true,true,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020040,W_무기 연마 Lv.2,[],1000,Physical,true,true,3300,3300,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020045,W_무기 연마 Lv.3,[],1000,Physical,true,true,3600,3600,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020050,W_무기 연마 Lv.4,[],1000,Physical,true,true,3900,3900,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020055,W_무기 연마 Lv.5,[],1000,Physical,true,true,4200,4200,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9006,skill_root,단검 : 평타 (1타),90060020060,암살자의 분노(광역),[],1000,Physical,true,true,4200,4200,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,Nu_Dagger_1T_R_Buff_Hit
+9007,skill_root,단검 : 평타 (2타),90070020006,단검 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020010,Q_내리꽂기 Lv.1,[],1000,Physical,true,true,1560,1560,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020015,Q_내리꽂기 Lv.2,[],1000,Physical,true,true,1720,1720,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020020,Q_내리꽂기 Lv.3,[],1000,Physical,true,true,1880,1880,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020025,Q_내리꽂기 Lv.4,[],1000,Physical,true,true,2040,2040,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020030,Q_내리꽂기 Lv.5,[],1000,Physical,true,true,2200,2200,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020035,W_무기 연마 Lv.1,[],1000,Physical,true,true,1800,1800,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020040,W_무기 연마 Lv.2,[],1000,Physical,true,true,1980,1980,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020045,W_무기 연마 Lv.3,[],1000,Physical,true,true,2160,2160,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020050,W_무기 연마 Lv.4,[],1000,Physical,true,true,2340,2340,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020055,W_무기 연마 Lv.5,[],1000,Physical,true,true,2520,2520,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+9007,skill_root,단검 : 평타 (2타),90070020060,암살자의 분노(광역),[],1000,Physical,true,true,4200,4200,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,Nu_Dagger_1T_R_Buff_Hit
+9008,skill_root,활 : 평타 (1타),90080020007,활 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9009,skill_root,활 : 평타 (2타),90090020007,활 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9010,skill_root,지팡이 : 평타 (1타),90100020007,지팡이 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_H_Heal_HitBasic1,NS_H_Heal_HitBasic1
+9011,skill_root,지팡이 : 평타 (2타),90110020007,지팡이 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_H_Heal_HitBasic1,NS_H_Heal_HitBasic1
+9012,skill_root,힐러 지팡이 : 평타 (1타),90120020007,힐러 지팡이 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_Hit_StaffNormal,NS_Hit_StaffNormal
+9013,skill_root,힐러 지팡이 : 평타 (2타),90130020007,힐러 지팡이 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_Hit_StaffNormal,NS_Hit_StaffNormal
+9016,skill_root,2T 양손검 : 평타 (1타),90160020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9016,skill_root,2T 양손검 : 평타 (1타),90160020010,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9016,skill_root,2T 양손검 : 평타 (1타),90160020015,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9017,skill_root,2T 양손검 : 평타 (2타),90170020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9017,skill_root,2T 양손검 : 평타 (2타),90170020010,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9017,skill_root,2T 양손검 : 평타 (2타),90170020015,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+9018,skill_root,2티어 등장 단검 : 평타 (1타),90180020006,단검 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+9019,skill_root,2티어 등장 단검 : 평타 (2타),90190020006,단검 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+10001,skill_root,단일 leap 테스트 스킬,100010020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+10002,skill_root,테스트 스킬,100020020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,Nu_Bow_Snipershot_Hit_01
+30911,skill_effect_root,점화 1T,309110030003,,[],1000,Physical,false,false,100,100,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+30941,skill_effect_root,점화 4T,309410030003,,[],1000,Physical,false,false,200,200,0,0,0,0,[],0,0,false,Common_Reddragon_Hit,Common_Reddragon_Hit
+30951,skill_effect_root,점화 5T,309510030003,,[],1000,Physical,false,false,200,200,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+100001,skill_effect_root,신비한 가시 나무 대미지 Lv.1,1000010030003,,[],1000,Physical,false,false,200,200,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100002,skill_effect_root,신비한 가시 나무 대미지 Lv.2,1000020030003,,[],1000,Physical,false,false,420,420,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100003,skill_effect_root,신비한 가시 나무 대미지 Lv.3,1000030030003,,[],1000,Physical,false,false,480,480,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100004,skill_effect_root,신비한 가시 나무 대미지 Lv.4,1000040030003,,[],1000,Physical,false,false,540,540,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100005,skill_effect_root,신비한 가시 나무 대미지 Lv.5,1000050030003,,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100051,skill_root,가시 나무 덩쿨 Lv.1,1000510020006,가시 나무 덩쿨 (1 런치),[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100052,skill_root,가시 나무 덩쿨 Lv.2,1000520020006,가시 나무 덩쿨 (1 런치),[],1000,Physical,false,false,2700,2700,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100053,skill_root,가시 나무 덩쿨 Lv.3,1000530020006,가시 나무 덩쿨 (1 런치),[],1000,Physical,false,false,2900,2900,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100054,skill_root,가시 나무 덩쿨 Lv.4,1000540020006,가시 나무 덩쿨 (1 런치),[],1000,Physical,false,false,3100,3100,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100055,skill_root,가시 나무 덩쿨 Lv.5,1000550020006,가시 나무 덩쿨 (1 런치),[],1000,Physical,false,false,3300,3300,0,0,0,0,[],0,0,false,NS_H_Hit_VinPlants1,
+100201,skill_root,휘두르기 Lv.1,1002010020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Onehand_1T_Q_Hit,
+100251,skill_root,방패 돌진 Lv.1,1002510020006,,[],1000,Physical,false,false,1600,1600,0,0,0,0,[],0,0,false,Nu_Onehand_1T_W_Hit,
+100301,skill_root,방패 투척 Lv.1,1003010020010,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Nu_Onehand_1T_E_Hit,
+100351,skill_root,파멸의 징벌 Lv.1,1003510020006,,[],1000,Physical,false,false,3500,3500,0,0,0,0,[],0,0,false,Nu_Onehand_1T_R_Hit,
+100401,skill_root,제압 Lv.1,1004010020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+100456,skill_root,2티어 한손검 W 스킬_Proc Lv.1,1004560020006,,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+100506,skill_effect_root,2티어 한손검 E 스킬_Interval Lv.1,1005060030003,,[],1000,Physical,false,false,300,300,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+100551,skill_root,진공 폭발 Lv.1,1005510020006,,[],1000,Physical,false,false,4000,4000,0,0,0,0,[],0,0,false,,
+100601,skill_root,성스러운 일격 Lv.1,1006010020007,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+100711,skill_root,폭주하는 광휘_강화 평타 Lv.1,1007110020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+100751,skill_root,광휘의 심판 Lv.1,1007510020009,,[],1000,Physical,false,false,4500,4500,0,0,0,0,[],0,0,false,,
+100752,skill_root,광휘의 심판_백업용 Lv.1,1007520020011,,[],1000,Physical,false,false,2500,2500,0,0,0,0,[],0,0,false,,
+200001,skill_root,양손검 : 가벼운 손놀림 평타,2000010020006,가벼운 손놀림 (대미지),[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+200051,skill_root,대지 가르기 Lv.1,2000510020006,대지 가르기 대미지,[],1000,Physical,false,false,2500,2500,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+200052,skill_root,대지 가르기 Lv.2,2000520020006,대지 가르기 대미지,[],1000,Physical,false,false,2750,2750,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+200053,skill_root,대지 가르기 Lv.3,2000530020006,대지 가르기 대미지,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+200054,skill_root,대지 가르기 Lv.4,2000540020006,대지 가르기 대미지,[],1000,Physical,false,false,3250,3250,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+200055,skill_root,대지 가르기 Lv.5,2000550020006,대지 가르기 대미지,[],1000,Physical,false,false,3500,3500,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+200100,skill_root,회오리 베기,2001000020006,회오리 베기,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal14_Hit,
+200100,skill_root,회오리 베기,2001000020011,회오리 베기,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal14_Hit,
+200101,skill_root,휘몰이 Lv.1,2001010020006,휘몰이 Lv.1,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200101,skill_root,휘몰이 Lv.1,2001010020007,,[141],1000,Physical,false,false,5000,5000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200101,skill_root,휘몰이 Lv.1,2001010020011,휘몰이 Lv.1,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200101,skill_root,휘몰이 Lv.1,2001010020014,휘몰이 Lv.1,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200101,skill_root,휘몰이 Lv.1,2001010020018,휘몰이 Lv.1,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200101,skill_root,휘몰이 Lv.1,2001010020019,,[141],1000,Physical,false,false,5000,5000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200101,skill_root,휘몰이 Lv.1,2001010020023,휘몰이 Lv.1,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200101,skill_root,휘몰이 Lv.1,2001010020026,휘몰이 Lv.1,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020006,휘몰이 Lv.2,[],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020007,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020011,휘몰이 Lv.2,[],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020014,휘몰이 Lv.2,[],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020018,휘몰이 Lv.2,[],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020019,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020023,휘몰이 Lv.2,[],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200102,skill_root,휘몰이 Lv.2,2001020020026,휘몰이 Lv.2,[],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020006,휘몰이 Lv.3,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020007,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020011,휘몰이 Lv.3,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020014,휘몰이 Lv.3,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020018,휘몰이 Lv.3,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020019,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020023,휘몰이 Lv.3,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200103,skill_root,휘몰이 Lv.3,2001030020026,휘몰이 Lv.3,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020006,휘몰이 Lv.4,[],1000,Physical,false,false,650,650,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020007,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020011,휘몰이 Lv.4,[],1000,Physical,false,false,650,650,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020014,휘몰이 Lv.4,[],1000,Physical,false,false,650,650,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020018,휘몰이 Lv.4,[],1000,Physical,false,false,650,650,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020019,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020023,휘몰이 Lv.4,[],1000,Physical,false,false,650,650,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200104,skill_root,휘몰이 Lv.4,2001040020026,휘몰이 Lv.4,[],1000,Physical,false,false,650,650,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020006,휘몰이 Lv.5,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020007,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020011,휘몰이 Lv.5,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020014,휘몰이 Lv.5,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020018,휘몰이 Lv.5,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020019,,[141],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020023,휘몰이 Lv.5,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200105,skill_root,휘몰이 Lv.5,2001050020026,휘몰이 Lv.5,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Nu_TwoHand_Whirlwind2_Hit_01,
+200151,skill_root,적진으로 Lv.1,2001510020011,적진으로 대미지,[],1000,Physical,false,false,4000,4000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200152,skill_root,적진으로 Lv.2,2001520020011,적진으로 대미지,[],1000,Physical,false,false,4400,4400,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200153,skill_root,적진으로 Lv.3,2001530020011,적진으로 대미지,[],1000,Physical,false,false,4800,4800,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200154,skill_root,적진으로 Lv.4,2001540020011,적진으로 대미지,[],1000,Physical,false,false,5200,5200,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200155,skill_root,적진으로 Lv.5,2001550020011,적진으로 대미지,[],1000,Physical,false,false,5600,5600,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200201,skill_root,결정타  Lv.1,2002010020006,결정타_대미지  Lv.1,[],1000,Physical,false,false,2500,2500,0,0,0,0,[],0,0,false,,
+200202,skill_root,결정타  Lv.2,2002020020006,결정타_대미지  Lv.2,[],1000,Physical,false,false,2750,2750,0,0,0,0,[],0,0,false,,
+200203,skill_root,결정타  Lv.3,2002030020006,결정타_대미지  Lv.3,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,,
+200204,skill_root,결정타  Lv.4,2002040020006,결정타_대미지  Lv.4,[],1000,Physical,false,false,3250,3250,0,0,0,0,[],0,0,false,,
+200205,skill_root,결정타  Lv.5,2002050020006,결정타_대미지  Lv.5,[],1000,Physical,false,false,3500,3500,0,0,0,0,[],0,0,false,,
+200302,skill_effect_root,회오리 베기_대미지 Lv.1,2003020030003,회오리 베기_대미지 Lv.1,[],1000,Physical,false,false,450,450,0,0,0,0,[],0,0,false,Common_Normal16_Hit,
+200304,skill_effect_root,회오리 베기_대미지 Lv.2,2003040030003,회오리 베기_대미지 Lv.2,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Common_Normal16_Hit,
+200306,skill_effect_root,회오리 베기_대미지 Lv.3,2003060030003,회오리 베기_대미지 Lv.3,[],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,Common_Normal16_Hit,
+200308,skill_effect_root,회오리 베기_대미지 Lv.4,2003080030003,회오리 베기_대미지 Lv.4,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Common_Normal16_Hit,
+200310,skill_effect_root,회오리 베기_대미지 Lv.5,2003100030003,회오리 베기_대미지 Lv.5,[],1000,Physical,false,false,650,650,0,0,0,0,[],0,0,false,Common_Normal16_Hit,
+200401,skill_root,폭주 Lv.1,2004010020011,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200401,skill_root,폭주 Lv.1,2004010020021,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200501,skill_root,대지 분쇄 Lv.1,2005010020006,1티어 양손검 E 스킬 Lv.1,[],1000,Physical,false,false,3300,3300,0,0,0,0,[],0,0,false,Nu_Twohand_1T_E_Hit,
+200551,skill_root,공간 가르기 Lv.1,2005510020006,,[],1000,Physical,false,false,4500,4500,0,0,0,0,[],0,0,false,Nu_Twohand_1T_R_Hit,
+200551,skill_root,공간 가르기 Lv.1,2005510020009,,[],1000,Physical,false,false,4500,4500,0,0,0,0,[],0,0,false,Nu_Twohand_1T_R_Hit,Nu_Twohand_1T_R_Hit
+200551,skill_effect_root,공간 가르기_출혈 Lv.1,2005510030003,,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Nu_Twohand_1T_R_Dot_Hit,Nu_Twohand_1T_R_Dot_Hit
+200651,skill_root,찌르기 Lv.1,2006510020006,,[],1000,Physical,false,false,2500,2500,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+200701,skill_root,결투 돌입 Lv.1,2007010020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+200751,skill_root,섬광의 길 Lv.1,2007510020006,,[],1000,Physical,false,false,4000,4000,0,0,0,0,[],0,0,false,,
+300001,skill_root,충격 사격 Lv.1,3000010020010,,[],1000,Physical,false,false,2200,2200,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+300002,skill_root,충격 사격 Lv.2,3000020020010,,[],1000,Physical,false,false,2200,2200,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+300003,skill_root,충격 사격 Lv.3,3000030020010,,[],1000,Physical,false,false,2400,2400,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+300004,skill_root,충격 사격 Lv.4,3000040020010,,[],1000,Physical,false,false,2600,2600,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+300005,skill_root,충격 사격 Lv.5,3000050020010,,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+300051,skill_root,발묶음 Lv.1,3000510020007,발묶음,[],1000,Physical,false,false,5000,5000,0,0,0,0,[],0,0,false,NS_StikyHit1,
+300052,skill_root,발묶음 Lv.2,3000520020007,,[],1000,Physical,false,false,2100,2100,0,0,0,0,[],0,0,false,NS_StikyHit1,
+300053,skill_root,발묶음 Lv.3,3000530020007,,[],1000,Physical,false,false,2200,2200,0,0,0,0,[],0,0,false,NS_StikyHit1,
+300054,skill_root,발묶음 Lv.4,3000540020007,,[],1000,Physical,false,false,2300,2300,0,0,0,0,[],0,0,false,NS_StikyHit1,
+300055,skill_root,발묶음 Lv.5,3000550020007,,[],1000,Physical,false,false,2400,2400,0,0,0,0,[],0,0,false,NS_StikyHit1,
+300101,skill_root,불화살 소나기  Lv.1,3001010020006,화살 소나기 대미지,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300101,skill_root,불화살 소나기  Lv.1,3001010020009,화살 소나기 대미지,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300101,skill_root,불화살 소나기  Lv.1,3001010020012,화살 소나기 대미지,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300101,skill_root,불화살 소나기  Lv.1,3001010020015,화살 소나기 대미지,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300101,skill_root,불화살 소나기  Lv.1,3001010020018,화살 소나기 대미지,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300101,skill_effect_root,,3001010030003,,[],1000,Physical,false,false,200,200,0,0,0,0,[],0,0,false,NS_StrongHit01,NS_StrongHit01
+300102,skill_root,불화살 소나기  Lv.2,3001020020006,화살 소나기 대미지,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300102,skill_root,불화살 소나기  Lv.2,3001020020009,화살 소나기 대미지,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300102,skill_root,불화살 소나기  Lv.2,3001020020012,화살 소나기 대미지,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300102,skill_root,불화살 소나기  Lv.2,3001020020015,화살 소나기 대미지,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300102,skill_root,불화살 소나기  Lv.2,3001020020018,화살 소나기 대미지,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300102,skill_effect_root,,3001020030003,,[],1000,Physical,false,false,220,220,0,0,0,0,[],0,0,false,NS_StrongHit01,NS_StrongHit01
+300103,skill_root,불화살 소나기  Lv.3,3001030020006,화살 소나기 대미지,[],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300103,skill_root,불화살 소나기  Lv.3,3001030020009,화살 소나기 대미지,[],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300103,skill_root,불화살 소나기  Lv.3,3001030020012,화살 소나기 대미지,[],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300103,skill_root,불화살 소나기  Lv.3,3001030020015,화살 소나기 대미지,[],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300103,skill_root,불화살 소나기  Lv.3,3001030020018,화살 소나기 대미지,[],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300103,skill_effect_root,,3001030030003,,[],1000,Physical,false,false,240,240,0,0,0,0,[],0,0,false,NS_StrongHit01,NS_StrongHit01
+300104,skill_root,불화살 소나기  Lv.4,3001040020006,화살 소나기 대미지,[],1000,Physical,false,false,900,900,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300104,skill_root,불화살 소나기  Lv.4,3001040020009,화살 소나기 대미지,[],1000,Physical,false,false,900,900,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300104,skill_root,불화살 소나기  Lv.4,3001040020012,화살 소나기 대미지,[],1000,Physical,false,false,900,900,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300104,skill_root,불화살 소나기  Lv.4,3001040020015,화살 소나기 대미지,[],1000,Physical,false,false,900,900,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300104,skill_root,불화살 소나기  Lv.4,3001040020018,화살 소나기 대미지,[],1000,Physical,false,false,900,900,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300104,skill_effect_root,,3001040030003,,[],1000,Physical,false,false,260,260,0,0,0,0,[],0,0,false,NS_StrongHit01,NS_StrongHit01
+300105,skill_root,불화살 소나기  Lv.5,3001050020006,화살 소나기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300105,skill_root,불화살 소나기  Lv.5,3001050020009,화살 소나기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300105,skill_root,불화살 소나기  Lv.5,3001050020012,화살 소나기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300105,skill_root,불화살 소나기  Lv.5,3001050020015,화살 소나기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300105,skill_root,불화살 소나기  Lv.5,3001050020018,화살 소나기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300105,skill_effect_root,,3001050030003,,[],1000,Physical,false,false,280,280,0,0,0,0,[],0,0,false,NS_StrongHit01,NS_StrongHit01
+300201,skill_root,저격 Lv.1,3002010020006,,[],1000,Physical,false,false,1650,1650,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300201,skill_root,저격 Lv.1,3002010020007,저격_기절 대상 추가 대미지,[101],1000,Physical,false,false,250,250,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300202,skill_root,저격 Lv.2,3002020020006,,[],1000,Physical,false,false,1800,1800,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300202,skill_root,저격 Lv.2,3002020020007,저격_기절 대상 추가 대미지,[101],1000,Physical,false,false,300,300,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300203,skill_root,저격 Lv.3,3002030020006,,[],1000,Physical,false,false,1950,1950,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300203,skill_root,저격 Lv.3,3002030020007,저격_기절 대상 추가 대미지,[101],1000,Physical,false,false,350,350,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300204,skill_root,저격 Lv.4,3002040020006,,[],1000,Physical,false,false,2100,2100,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300204,skill_root,저격 Lv.4,3002040020007,저격_기절 대상 추가 대미지,[101],1000,Physical,false,false,400,400,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300205,skill_root,저격 Lv.5,3002050020006,,[],1000,Physical,false,false,2250,2250,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300205,skill_root,저격 Lv.5,3002050020007,저격_기절 대상 추가 대미지,[101],1000,Physical,false,false,450,450,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300251,skill_root,방출 사격 Lv.1,3002510020006,,[],1000,Physical,false,false,2250,2250,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+300252,skill_root,방출 사격 Lv.2,3002520020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+300253,skill_root,방출 사격 Lv.3,3002530020006,,[],1000,Physical,false,false,3250,3250,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+300254,skill_root,방출 사격 Lv.4,3002540020006,,[],1000,Physical,false,false,3500,3500,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+300255,skill_root,방출 사격 Lv.5,3002550020006,,[],1000,Physical,false,false,3750,3750,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+300306,skill_root,연속 쏘기 1타 Lv.1,3003060020007,,[],1000,Physical,true,true,340,340,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300307,skill_root,연속 쏘기 2타 Lv.1,3003070020007,,[],1000,Physical,true,true,340,340,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300308,skill_root,연속 쏘기 3타 Lv.1,3003080020007,,[],1000,Physical,true,true,340,340,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300309,skill_root,연속 쏘기 1타 Lv.2,3003090020007,,[],1000,Physical,true,true,380,380,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300310,skill_root,연속 쏘기 2타 Lv.2,3003100020007,,[],1000,Physical,true,true,380,380,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300311,skill_root,연속 쏘기 3타 Lv.2,3003110020007,,[],1000,Physical,true,true,380,380,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300312,skill_root,연속 쏘기 1타 Lv.3,3003120020007,,[],1000,Physical,true,true,420,420,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300313,skill_root,연속 쏘기 2타 Lv.3,3003130020007,,[],1000,Physical,true,true,420,420,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300314,skill_root,연속 쏘기 3타 Lv.3,3003140020007,,[],1000,Physical,true,true,420,420,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300315,skill_root,연속 쏘기 1타 Lv.4,3003150020007,,[],1000,Physical,true,true,460,460,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300316,skill_root,연속 쏘기 2타 Lv.4,3003160020007,,[],1000,Physical,true,true,460,460,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300317,skill_root,연속 쏘기 3타 Lv.4,3003170020007,,[],1000,Physical,true,true,460,460,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300318,skill_root,연속 쏘기 1타 Lv.5,3003180020007,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300319,skill_root,연속 쏘기 2타 Lv.5,3003190020007,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300320,skill_root,연속 쏘기 3타 Lv.5,3003200020007,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,Common_Critical_Dagger_Hit,Common_Critical_Dagger_Hit
+300351,skill_root,폭탄 화살 Lv.1,3003510020010,,[],1000,Physical,false,false,4000,4000,0,0,0,0,[],0,0,false,,
+300351,skill_root,폭탄 화살 Lv.1,3003510020013,,[],1000,Physical,false,false,4000,4000,0,0,0,0,[],0,0,false,,
+300352,skill_root,폭탄 화살 Lv.2,3003520020010,,[],1000,Physical,false,false,4400,4400,0,0,0,0,[],0,0,false,,
+300352,skill_root,폭탄 화살 Lv.2,3003520020013,,[],1000,Physical,false,false,4400,4400,0,0,0,0,[],0,0,false,,
+300353,skill_root,폭탄 화살 Lv.3,3003530020010,,[],1000,Physical,false,false,4800,4800,0,0,0,0,[],0,0,false,,
+300353,skill_root,폭탄 화살 Lv.3,3003530020013,,[],1000,Physical,false,false,4800,4800,0,0,0,0,[],0,0,false,,
+300354,skill_root,폭탄 화살 Lv.4,3003540020010,,[],1000,Physical,false,false,5200,5200,0,0,0,0,[],0,0,false,,
+300354,skill_root,폭탄 화살 Lv.4,3003540020013,,[],1000,Physical,false,false,5200,5200,0,0,0,0,[],0,0,false,,
+300355,skill_root,폭탄 화살 Lv.5,3003550020010,,[],1000,Physical,false,false,5600,5600,0,0,0,0,[],0,0,false,,
+300355,skill_root,폭탄 화살 Lv.5,3003550020013,,[],1000,Physical,false,false,5600,5600,0,0,0,0,[],0,0,false,,
+300401,skill_root,저격 Lv.1,3004010020006,,[],1000,Physical,false,false,1800,1800,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300401,skill_root,저격 Lv.1,3004010020007,저격_기절 대상 추가 대미지,[141],1000,Physical,false,false,250,250,0,0,0,0,[],0,0,false,Nu_Bow_Snipershot_Hit_01,
+300451,skill_root,부채 사격 Lv.1,3004510020006,,[],1000,Physical,false,false,2400,2400,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+300501,skill_root,불화살 소나기 Lv.1,3005010020006,화살 소나기 대미지,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300501,skill_root,불화살 소나기 Lv.1,3005010020009,화살 소나기 대미지,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300501,skill_root,불화살 소나기 Lv.1,3005010020012,화살 소나기 대미지,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300501,skill_root,불화살 소나기 Lv.1,3005010020015,화살 소나기 대미지,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300501,skill_root,불화살 소나기 Lv.1,3005010020018,화살 소나기 대미지,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,NS_StrongHit01,
+300551,skill_root,폭탄 화살 Lv.1,3005510020010,,[],1000,Physical,false,false,4200,4200,0,0,0,0,[],0,0,false,,
+300551,skill_root,폭탄 화살 Lv.1,3005510020013,,[],1000,Physical,false,false,4200,4200,0,0,0,0,[],0,0,false,,
+300601,skill_root,섬광 화살 Lv.1,3006010020006,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,NS_2T_Bow_LightArrow_Hit,
+300611,skill_root,섬광 화살_강화 평타 Lv.1,3006110020007,2티어 활 Q 스킬_강화 평타 Lv.1,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,NS_2T_Bow_Arrow_Hit_Strong,Nu_Bow_Snipershot_Hit_01
+300651,skill_root,천상의 그물 Lv.1,3006510020010,천상의 그물 Lv.1,[],1000,Physical,false,false,2600,2600,0,0,0,0,[],0,0,false,,
+300751,skill_root,금빛 성광 Lv.1,3007510020006,,[],1000,Physical,false,false,4800,4800,0,0,0,0,[],0,0,false,NS_2T_Bow_LightArrow_Hit,
+400000,skill_root,얼음 화살_테스트 Lv.1,4000000020010,얼음 화살 대미지,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+400001,skill_root,얼음 화살 Lv.1,4000010020010,얼음 화살 대미지,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,NS_3T_Staff_IceStar_Hit_Strong,
+400001,skill_root,얼음 화살 Lv.1,4000010020011,발묶임(속박) 상태의 대상에게 추가 대미지,[107],1000,Physical,false,false,0,0,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+400002,skill_root,얼음 화살 Lv.2,4000020020010,얼음 화살 대미지,[],1000,Physical,false,false,2200,2200,0,0,0,0,[],0,0,false,NS_3T_Staff_IceStar_Hit_Strong,
+400002,skill_root,얼음 화살 Lv.2,4000020020011,발묶임(속박) 상태의 대상에게 추가 대미지,[107],1000,Physical,false,false,0,0,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+400003,skill_root,얼음 화살 Lv.3,4000030020010,얼음 화살 대미지,[],1000,Physical,false,false,2400,2400,0,0,0,0,[],0,0,false,NS_3T_Staff_IceStar_Hit_Strong,
+400003,skill_root,얼음 화살 Lv.3,4000030020011,발묶임(속박) 상태의 대상에게 추가 대미지,[107],1000,Physical,false,false,0,0,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+400004,skill_root,얼음 화살 Lv.4,4000040020010,얼음 화살 대미지,[],1000,Physical,false,false,2600,2600,0,0,0,0,[],0,0,false,NS_3T_Staff_IceStar_Hit_Strong,
+400004,skill_root,얼음 화살 Lv.4,4000040020011,발묶임(속박) 상태의 대상에게 추가 대미지,[107],1000,Physical,false,false,0,0,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+400005,skill_root,얼음 화살 Lv.5,4000050020010,얼음 사자(얼음 화살 만렙) 대미지,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,NS_3T_Staff_IceStar_Hit_Strong,
+400005,skill_root,얼음 화살 Lv.5,4000050020011,발묶임(속박) 상태의 대상에게 추가 대미지,[107],1000,Physical,false,false,0,0,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+400051,skill_effect_root,다후타의 손짓 틱 대미지  Lv.1,4000510030003,,[],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,Common_Normal17_Hit,
+400052,skill_effect_root,다후타의 손짓 틱 대미지  Lv.2,4000520030003,,[],1000,Physical,false,false,880,880,0,0,0,0,[],0,0,false,Common_Normal17_Hit,
+400053,skill_effect_root,다후타의 손짓 틱 대미지  Lv.3,4000530030003,,[],1000,Physical,false,false,960,960,0,0,0,0,[],0,0,false,Common_Normal17_Hit,
+400054,skill_effect_root,다후타의 손짓 틱 대미지  Lv.4,4000540030003,,[],1000,Physical,false,false,1040,1040,0,0,0,0,[],0,0,false,Common_Normal17_Hit,
+400055,skill_effect_root,다후타의 손짓 틱 대미지  Lv.5,4000550030003,,[],1000,Physical,false,false,1120,1120,0,0,0,0,[],0,0,false,Common_Normal17_Hit,
+400101,skill_root,방울방울  Lv.1,4001010020007,,[20000001],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,NS_3T_Staff_WaterMeteo_Hit,
+400102,skill_root,방울방울  Lv.2,4001020020007,,[20000001],1000,Physical,false,false,3200,3200,0,0,0,0,[],0,0,false,NS_3T_Staff_WaterMeteo_Hit,
+400103,skill_root,방울방울  Lv.3,4001030020007,,[20000001],1000,Physical,false,false,3400,3400,0,0,0,0,[],0,0,false,NS_3T_Staff_WaterMeteo_Hit,
+400104,skill_root,방울방울  Lv.4,4001040020007,,[20000001],1000,Physical,false,false,3600,3600,0,0,0,0,[],0,0,false,NS_3T_Staff_WaterMeteo_Hit,
+400105,skill_root,방울방울  Lv.5,4001050020007,,[20000001],1000,Physical,false,false,3800,3800,0,0,0,0,[],0,0,false,NS_3T_Staff_WaterMeteo_Hit,
+400106,skill_root,방울 방울 맞으면 해제 Lv.1,4001060020007,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,NS_H_Hit_StaffWater1,
+400107,skill_root,방울 방울 맞으면 해제 Lv.2,4001070020006,,[],1000,Physical,false,false,3200,3200,0,0,0,0,[],0,0,false,NS_H_Hit_StaffWater1,
+400108,skill_root,방울 방울 맞으면 해제 Lv.3,4001080020006,,[],1000,Physical,false,false,3400,3400,0,0,0,0,[],0,0,false,NS_H_Hit_StaffWater1,
+400109,skill_root,방울 방울 맞으면 해제 Lv.4,4001090020006,,[],1000,Physical,false,false,3600,3600,0,0,0,0,[],0,0,false,NS_H_Hit_StaffWater1,
+400110,skill_root,방울 방울 맞으면 해제 Lv.5,4001100020006,,[],1000,Physical,false,false,3800,3800,0,0,0,0,[],0,0,false,NS_H_Hit_StaffWater1,
+400151,skill_root,심판의 낙뢰 Lv.1,4001510020006,심판의 낙뢰 대미지,[],1000,Physical,false,false,4000,4000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400151,skill_root,심판의 낙뢰 Lv.1,4001510020007,,[400050],1000,Physical,false,false,750,750,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400151,skill_root,심판의 낙뢰 Lv.1,4001510020017,번개 이동 대미지,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400151,skill_root,심판의 낙뢰 Lv.1,4001510020018,,[400050],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400152,skill_root,심판의 낙뢰 Lv.2,4001520020006,심판의 낙뢰 대미지,[],1000,Physical,false,false,4400,4400,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400152,skill_root,심판의 낙뢰 Lv.2,4001520020007,,[400050],1000,Physical,false,false,525,525,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400152,skill_root,심판의 낙뢰 Lv.2,4001520020017,번개 이동 대미지,[],1000,Physical,false,false,2200,2200,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400152,skill_root,심판의 낙뢰 Lv.2,4001520020018,,[400050],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400153,skill_root,심판의 낙뢰 Lv.3,4001530020006,심판의 낙뢰 대미지,[],1000,Physical,false,false,4800,4800,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400153,skill_root,심판의 낙뢰 Lv.3,4001530020007,,[400050],1000,Physical,false,false,550,550,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400153,skill_root,심판의 낙뢰 Lv.3,4001530020017,번개 이동 대미지,[],1000,Physical,false,false,2400,2400,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400153,skill_root,심판의 낙뢰 Lv.3,4001530020018,,[400050],1000,Physical,false,false,850,850,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400154,skill_root,심판의 낙뢰 Lv.4,4001540020006,심판의 낙뢰 대미지,[],1000,Physical,false,false,5200,5200,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400154,skill_root,심판의 낙뢰 Lv.4,4001540020007,,[400050],1000,Physical,false,false,575,575,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400154,skill_root,심판의 낙뢰 Lv.4,4001540020017,번개 이동 대미지,[],1000,Physical,false,false,2600,2600,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400154,skill_root,심판의 낙뢰 Lv.4,4001540020018,,[400050],1000,Physical,false,false,900,900,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400155,skill_root,심판의 낙뢰 Lv.5,4001550020006,심판의 낙뢰 대미지,[],1000,Physical,false,false,5600,5600,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400155,skill_root,심판의 낙뢰 Lv.5,4001550020007,,[400050],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400155,skill_root,심판의 낙뢰 Lv.5,4001550020017,번개 이동 대미지,[],1000,Physical,false,false,2800,2800,0,0,0,0,[],0,0,false,Common_Normal02_Hit,
+400155,skill_root,심판의 낙뢰 Lv.5,4001550020018,,[400050],1000,Physical,false,false,950,950,0,0,0,0,[],0,0,false,NS_Hit_StaffThunder1,
+400201,skill_effect_root,화염 장막 Lv.1,4002010030003,,[],1000,Physical,false,false,360,360,0,0,0,0,[],0,0,false,Nu_Staff_1T_Fire_Wall_Hit,Nu_Staff_1T_Fire_Wall_Hit
+400251,skill_root,불의 비 Lv.1,4002510020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Nu_Staff_1T_Fire_Rain_Hit,Nu_Staff_1T_Fire_Rain_Hit
+400251,skill_root,불의 비 Lv.1,4002510020009,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Nu_Staff_1T_Fire_Rain_Hit,Nu_Staff_1T_Fire_Rain_Hit
+400251,skill_root,불의 비 Lv.1,4002510020012,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Nu_Staff_1T_Fire_Rain_Hit,Nu_Staff_1T_Fire_Rain_Hit
+400251,skill_root,불의 비 Lv.1,4002510020015,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Nu_Staff_1T_Fire_Rain_Hit,Nu_Staff_1T_Fire_Rain_Hit
+400301,skill_root,화염 폭발 Lv.1,4003010020007,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Nu_Staff_1T_Fire_Explosion_Hit,
+400351,skill_root,별똥별 Lv.1,4003510020006,,[],1000,Physical,false,false,4200,4200,0,0,0,0,[],0,0,false,Nu_Staff_1T_Fire_Meteo_Hit,Nu_Staff_1T_Fire_Meteo_Hit
+500201,skill_root,Q_질풍 가르기 Lv.1,5002010020011,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Nu_Dagger_Whirlwind_Hit_01,
+500202,skill_root,Q_질풍 가르기 Lv.2,5002020020011,,[],2000,Physical,false,false,1650,1650,0,0,0,0,[],0,0,false,Nu_Dagger_Whirlwind_Hit_01,
+500203,skill_root,Q_질풍 가르기 Lv.3,5002030020011,,[],3000,Physical,false,false,1800,1800,0,0,0,0,[],0,0,false,Nu_Dagger_Whirlwind_Hit_01,
+500204,skill_root,Q_질풍 가르기 Lv.4,5002040020011,,[],4000,Physical,false,false,1950,1950,0,0,0,0,[],0,0,false,Nu_Dagger_Whirlwind_Hit_01,
+500205,skill_root,Q_질풍 가르기 Lv.5,5002050020011,,[],5000,Physical,false,false,2100,2100,0,0,0,0,[],0,0,false,Nu_Dagger_Whirlwind_Hit_01,
+500306,skill_root,E_쌍수 달인_추가 피해 Lv.1,5003060020006,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,Nu_Dagger_Strong_Hit_01,Nu_Dagger_Strong_Hit_01
+500307,skill_root,E_쌍수 달인_추가 피해 Lv.2,5003070020006,,[],2000,Physical,true,true,550,550,0,0,0,0,[],0,0,false,Nu_Dagger_Strong_Hit_01,Nu_Dagger_Strong_Hit_01
+500308,skill_root,E_쌍수 달인_추가 피해 Lv.3,5003080020006,,[],3000,Physical,true,true,600,600,0,0,0,0,[],0,0,false,Nu_Dagger_Strong_Hit_01,Nu_Dagger_Strong_Hit_01
+500309,skill_root,E_쌍수 달인_추가 피해 Lv.4,5003090020006,,[],4000,Physical,true,true,650,650,0,0,0,0,[],0,0,false,Nu_Dagger_Strong_Hit_01,Nu_Dagger_Strong_Hit_01
+500310,skill_root,E_쌍수 달인_추가 피해 Lv.5,5003100020006,,[],5000,Physical,true,true,700,700,0,0,0,0,[],0,0,false,Nu_Dagger_Strong_Hit_01,Nu_Dagger_Strong_Hit_01
+500351,skill_root,R_암살자의 분노 Lv1,5003510020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Hit,
+500351,skill_root,R_암살자의 분노 Lv1,5003510020011,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500352,skill_root,R_암살자의 분노 Lv2,5003520020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Hit,
+500352,skill_root,R_암살자의 분노 Lv2,5003520020011,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500353,skill_root,R_암살자의 분노 Lv3,5003530020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Hit,
+500353,skill_root,R_암살자의 분노 Lv3,5003530020011,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500354,skill_root,R_암살자의 분노 Lv4,5003540020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Hit,
+500354,skill_root,R_암살자의 분노 Lv4,5003540020011,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500355,skill_root,R_암살자의 분노 Lv5,5003550020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Hit,
+500355,skill_root,R_암살자의 분노 Lv5,5003550020011,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500401,skill_root,내리꽂기 Lv.1,5004010020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500451,skill_root,어둠의 일격 Lv.1,5004510020006,,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500451,skill_root,어둠의 일격 Lv.1,5004510020012,,[],1000,Physical,false,false,700,700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500501,skill_root,단검 투척 Lv.1,5005010020010,얼음 화살 대미지,[],1000,Physical,false,false,1800,1800,0,0,0,0,[],0,0,false,NS_Hit_StaffICEstar1,
+500506,skill_root,단검 투척_체력 20% 이하 추가 대미지 Lv.1,5005060020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,
+500551,skill_root,난무 Lv.1,5005510020006,,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,
+500551,skill_root,난무 Lv.1,5005510020009,,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,
+500551,skill_root,난무 Lv.1,5005510020012,,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,
+500551,skill_root,난무 Lv.1,5005510020015,,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,
+500551,skill_root,난무 Lv.1,5005510020018,,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_Dagger_1T_R_Buff_Hit,
+500601,skill_root,추격자의 발톱 Lv.1,5006010020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Nu_Onehand_1T_W_Hit,
+500656,skill_root,침묵의 일격_강화 평타 Lv.1,5006560020006,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500701,skill_root,사방의 비수 Lv.1,5007010020006,,[],1000,Physical,false,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500706,skill_root,사방의 비수_추가 대미지 Lv.1,5007060020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+500751,skill_root,유혈의 장막 Lv1,5007510020006,,[],1000,Physical,false,false,4500,4500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+550551,skill_root,1티어 단검 R 스킬 Lv.1,5505510020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+700000,skill_root,충격파 Lv.1,7000000020006,,[],1000,Physical,false,false,800,800,0,0,0,0,[],0,0,false,Common_Normal09_Hit,Common_Normal09_Hit
+700001,skill_root,충격파 Lv.2,7000010020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal09_Hit,Common_Normal09_Hit
+700002,skill_root,충격파 Lv.3,7000020020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Common_Normal09_Hit,Common_Normal09_Hit
+700003,skill_root,충격파 Lv.4,7000030020006,,[],1000,Physical,false,false,1800,1800,0,0,0,0,[],0,0,false,Common_Normal09_Hit,Common_Normal09_Hit
+700030,skill_root,지면 강타 Lv.1,7000300020006,,[],1000,Physical,false,false,600,600,0,0,0,0,[],0,0,false,Nu_Bow_MultyShoot_Hit_01,
+700060,skill_root,돌진 Lv.1,7000600020006,,[],1000,Physical,false,false,900,900,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+800000,skill_effect_root,자폭,8000000030003,,[],1000,Physical,false,false,100000,100000,0,0,0,0,[],0,0,false,,
+1010626,skill_root,1T 천 장갑(시작템)_프록  Lv.1,10106260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1010627,skill_root,1T 천 장갑(시작템)_프록  Lv.2,10106270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1010628,skill_root,1T 천 장갑(시작템)_프록  Lv.3,10106280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1010629,skill_root,1T 천 장갑(시작템)_프록  Lv.4,10106290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1010630,skill_root,1T 천 장갑(시작템)_프록  Lv.5,10106300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1020626,skill_root,2T 천 장갑(시작템)_프록  Lv.1,10206260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1020627,skill_root,2T 천 장갑(시작템)_프록  Lv.2,10206270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1020628,skill_root,2T 천 장갑(시작템)_프록  Lv.3,10206280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1020629,skill_root,2T 천 장갑(시작템)_프록  Lv.4,10206290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1020630,skill_root,2T 천 장갑(시작템)_프록  Lv.5,10206300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1030626,skill_root,3T 천 장갑(시작템)_프록  Lv.1,10306260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1030627,skill_root,3T 천 장갑(시작템)_프록  Lv.2,10306270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1030628,skill_root,3T 천 장갑(시작템)_프록  Lv.3,10306280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1030629,skill_root,3T 천 장갑(시작템)_프록  Lv.4,10306290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1030630,skill_root,3T 천 장갑(시작템)_프록  Lv.5,10306300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Cloth_Meteor_Fire,
+1110626,skill_root,1T 가죽 장갑(시작템)_프록  Lv.1,11106260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1110627,skill_root,1T 가죽 장갑(시작템)_프록  Lv.2,11106270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1110628,skill_root,1T 가죽 장갑(시작템)_프록  Lv.3,11106280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1110629,skill_root,1T 가죽 장갑(시작템)_프록  Lv.4,11106290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1110630,skill_root,1T 가죽 장갑(시작템)_프록  Lv.5,11106300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1120626,skill_root,2T 가죽 장갑(시작템)_프록  Lv.1,11206260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1120627,skill_root,2T 가죽 장갑(시작템)_프록  Lv.2,11206270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1120628,skill_root,2T 가죽 장갑(시작템)_프록  Lv.3,11206280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1120629,skill_root,2T 가죽 장갑(시작템)_프록  Lv.4,11206290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1120630,skill_root,2T 가죽 장갑(시작템)_프록  Lv.5,11206300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1130626,skill_root,3T 가죽 장갑(시작템)_프록  Lv.1,11306260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1130627,skill_root,3T 가죽 장갑(시작템)_프록  Lv.2,11306270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1130628,skill_root,3T 가죽 장갑(시작템)_프록  Lv.3,11306280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1130629,skill_root,3T 가죽 장갑(시작템)_프록  Lv.4,11306290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1130630,skill_root,3T 가죽 장갑(시작템)_프록  Lv.5,11306300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Leather_Meteor_Stone,
+1210626,skill_root,1T 판금 장갑(시작템)_프록  Lv.5,12106260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1210627,skill_root,1T 판금 장갑(시작템)_프록  Lv.1,12106270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1210628,skill_root,1T 판금 장갑(시작템)_프록  Lv.2,12106280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1210629,skill_root,1T 판금 장갑(시작템)_프록  Lv.3,12106290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1210630,skill_root,1T 판금 장갑(시작템)_프록  Lv.4,12106300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1220626,skill_root,2T 판금 장갑(시작템)_프록  Lv.1,12206260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1220627,skill_root,2T 판금 장갑(시작템)_프록  Lv.2,12206270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1220628,skill_root,2T 판금 장갑(시작템)_프록  Lv.3,12206280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1220629,skill_root,2T 판금 장갑(시작템)_프록  Lv.4,12206290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1220630,skill_root,2T 판금 장갑(시작템)_프록  Lv.5,12206300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1230626,skill_root,3T 판금 장갑(시작템)_프록  Lv.1,12306260020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1230627,skill_root,3T 판금 장갑(시작템)_프록  Lv.2,12306270020006,,[],1000,Physical,false,false,1100,1100,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1230628,skill_root,3T 판금 장갑(시작템)_프록  Lv.3,12306280020006,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1230629,skill_root,3T 판금 장갑(시작템)_프록  Lv.4,12306290020006,,[],1000,Physical,false,false,1300,1300,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+1230630,skill_root,3T 판금 장갑(시작템)_프록  Lv.5,12306300020006,,[],1000,Physical,false,false,1400,1400,0,0,0,0,[],0,0,false,Nu_Glove2T_Metal_Electric_Thunder,
+10010001,skill_root,캐릭터_누이신관 변신_평타,100100010020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+20000001,skill_effect_root,몬스터_공용_출혈 대미지,200000010030003,,[],1000,Physical,false,false,100,100,100,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000101,skill_effect_root,몬스터_공용_출혈 Lv.1,200001010030003,,[],1000,Physical,false,false,10,10,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000102,skill_effect_root,몬스터_공용_출혈 Lv.2,200001020030003,,[],1000,Physical,false,false,20,20,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000103,skill_effect_root,몬스터_공용_출혈 Lv.3,200001030030003,,[],1000,Physical,false,false,30,30,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000104,skill_effect_root,몬스터_공용_출혈 Lv.4,200001040030003,,[],1000,Physical,false,false,40,40,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000105,skill_effect_root,몬스터_공용_출혈 Lv.5,200001050030003,,[],1000,Physical,false,false,50,50,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000106,skill_effect_root,몬스터_공용_출혈 Lv.6,200001060030003,,[],1000,Physical,false,false,60,60,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000107,skill_effect_root,몬스터_공용_출혈 Lv.7,200001070030003,,[],1000,Physical,false,false,70,70,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000108,skill_effect_root,몬스터_공용_출혈 Lv.8,200001080030003,,[],1000,Physical,false,false,80,80,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000109,skill_effect_root,몬스터_공용_출혈 Lv.9,200001090030003,,[],1000,Physical,false,false,90,90,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000110,skill_effect_root,몬스터_공용_출혈 Lv.10,200001100030003,,[],1000,Physical,false,false,100,100,0,0,0,0,[],0,0,true,Common_Normal01_Hit,Common_Normal01_Hit
+20000201,skill_effect_root,몬스터_공용_중독 Lv.1,200002010030003,,[],1000,Physical,false,false,10,10,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000202,skill_effect_root,몬스터_공용_중독 Lv.2,200002020030003,,[],1000,Physical,false,false,20,20,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000203,skill_effect_root,몬스터_공용_중독 Lv.3,200002030030003,,[],1000,Physical,false,false,30,30,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000204,skill_effect_root,몬스터_공용_중독 Lv.4,200002040030003,,[],1000,Physical,false,false,40,40,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000205,skill_effect_root,몬스터_공용_중독 Lv.5,200002050030003,,[],1000,Physical,false,false,50,50,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000206,skill_effect_root,몬스터_공용_중독 Lv.6,200002060030003,,[],1000,Physical,false,false,60,60,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000207,skill_effect_root,몬스터_공용_중독 Lv.7,200002070030003,,[],1000,Physical,false,false,70,70,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000208,skill_effect_root,몬스터_공용_중독 Lv.8,200002080030003,,[],1000,Physical,false,false,80,80,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000209,skill_effect_root,몬스터_공용_중독 Lv.9,200002090030003,,[],1000,Physical,false,false,90,90,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000210,skill_effect_root,몬스터_공용_중독 Lv.10,200002100030003,,[],1000,Physical,false,false,100,100,0,0,0,0,[],0,0,true,Common_Normal07_Hit,Common_Normal07_Hit
+20000601,skill_effect_root,몬스터_공용_불 붙음 Lv.1,200006010030003,,[],1000,Physical,false,false,10,10,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000602,skill_effect_root,몬스터_공용_불 붙음 Lv.2,200006020030003,,[],1000,Physical,false,false,20,20,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000603,skill_effect_root,몬스터_공용_불 붙음 Lv.3,200006030030003,,[],1000,Physical,false,false,30,30,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000604,skill_effect_root,몬스터_공용_불 붙음 Lv.4,200006040030003,,[],1000,Physical,false,false,40,40,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000605,skill_effect_root,몬스터_공용_불 붙음 Lv.5,200006050030003,,[],1000,Physical,false,false,50,50,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000606,skill_effect_root,몬스터_공용_불 붙음 Lv.6,200006060030003,,[],1000,Physical,false,false,60,60,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000607,skill_effect_root,몬스터_공용_불 붙음 Lv.7,200006070030003,,[],1000,Physical,false,false,70,70,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000608,skill_effect_root,몬스터_공용_불 붙음 Lv.8,200006080030003,,[],1000,Physical,false,false,80,80,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000609,skill_effect_root,몬스터_공용_불 붙음 Lv.9,200006090030003,,[],1000,Physical,false,false,90,90,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20000610,skill_effect_root,몬스터_공용_불 붙음 Lv.10,200006100030003,,[],1000,Physical,false,false,100,100,0,0,0,0,[],0,0,true,Common_Normal10_Hit,Common_Normal10_Hit
+20150011,skill_root,몬스터_근접공격1 (물리/1Hit),201500110020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20150012,skill_root,몬스터_근접공격2 (물리/1Hit),201500120020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+20150013,skill_root,몬스터_근접공격3 (물리/1Hit),201500130020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+20150014,skill_root,몬스터_근접공격1 (물리/1Hit/숏),201500140020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20150015,skill_root,몬스터_근접공격2 (물리/1Hit/숏),201500150020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+20150016,skill_root,몬스터_근접공격3 (물리/1Hit/숏),201500160020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+20150021,skill_root,몬스터_근접공격1 (마법/1Hit),201500210020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+20150022,skill_root,몬스터_근접공격2 (마법/1Hit),201500220020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20150023,skill_root,몬스터_근접공격3 (마법/1Hit),201500230020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20150024,skill_root,몬스터_근접공격1 (마법/1Hit/숏),201500240020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+20150025,skill_root,몬스터_근접공격2 (마법/1Hit/숏),201500250020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20150026,skill_root,몬스터_근접공격3 (마법/1Hit/숏),201500260020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20250011,skill_root,몬스터_원거리 공격_1(화살투사체/물리/1Hit),202500110020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+20250012,skill_root,몬스터_원거리 공격_2(화살투사체/물리/1Hit),202500120020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+20250013,skill_root,몬스터_원거리 공격_3(화살투사체/물리/1Hit),202500130020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+20250014,skill_root,몬스터_원거리 공격_1(마법투사체/물리/1Hit),202500140020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20250015,skill_root,몬스터_원거리 공격_2(마법투사체/물리/1Hit),202500150020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20250016,skill_root,몬스터_원거리 공격_3(마법투사체/물리/1Hit),202500160020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20250021,skill_root,몬스터_원거리 공격_1(화살투사체/마법/1Hit),202500210020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+20250022,skill_root,몬스터_원거리 공격_2(화살투사체/마법/1Hit),202500220020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+20250023,skill_root,몬스터_원거리 공격_3(화살투사체/마법/1Hit),202500230020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+20250024,skill_root,몬스터_원거리 공격_1(마법투사체/마법/1Hit),202500240020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20250025,skill_root,몬스터_원거리 공격_2(마법투사체/마법/1Hit),202500250020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20250026,skill_root,몬스터_원거리 공격_3(마법투사체/마법/1Hit),202500260020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+20310001,skill_root,토템_폭발,203100010020006,,[800029],1000,Physical,false,false,1,1,1,0,0,0,[],0,0,false,Common_Normal10_Hit,Common_Normal10_Hit
+20310001,skill_root,토템_폭발,203100010020007,,[800029],1000,Physical,false,false,3000,3000,5000,0,0,0,[],0,0,false,Common_Normal10_Hit,Common_Normal10_Hit
+20310001,skill_root,토템_폭발,203100010020009,,[],1000,Physical,false,false,100000,100000,0,0,0,0,[],0,0,false,Common_Normal10_Hit,Common_Normal10_Hit
+20950001,skill_root,몬스터 PC타입 활 : 평타 (1타),209500010020007,활 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+20950001,skill_root,몬스터 PC타입 활 : 평타 (1타),209500010020012,충격 사격 (대미지),[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,NS_StrongHit01,
+20950002,skill_root,몬스터 PC타입 활 : 평타 (2타),209500020020007,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+20950002,skill_root,몬스터 PC타입 활 : 평타 (2타),209500020020012,충격 사격 (대미지),[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,NS_StrongHit01,
+20950011,skill_root,몬스터 PC타입 힐러 지팡이 : 평타 (1타),209500110020007,힐러 지팡이 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_Hit_StaffNormal,NS_Hit_StaffNormal
+20950012,skill_root,몬스터 PC타입 힐러 지팡이 : 평타 (2타),209500120020007,힐러 지팡이 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_Hit_StaffNormal,NS_Hit_StaffNormal
+20950021,skill_root,몬스터 PC타입 지팡이 : 평타 (1타),209500210020007,지팡이 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_H_Heal_HitBasic1,NS_H_Heal_HitBasic1
+20950022,skill_root,몬스터 PC타입 지팡이 : 평타 (2타),209500220020007,지팡이 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,NS_H_Heal_HitBasic1,NS_H_Heal_HitBasic1
+20950031,skill_root,몬스터 PC타입 양손검 : 평타 (1타),209500310020006,양손검 : 평타 (1타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Critical02_Hit
+20950031,skill_root,몬스터 PC타입 양손검 : 평타 (1타),209500310020010,가벼운 손놀림 (대미지),[],1000,Physical,false,true,2400,2400,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+20950032,skill_root,몬스터 PC타입 양손검 : 평타 (2타),209500320020006,한손검 : 평타 (2타),[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Critical02_Hit
+20950032,skill_root,몬스터 PC타입 양손검 : 평타 (2타),209500320020010,가벼운 손놀림 (대미지),[],1000,Physical,false,true,3000,3000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_V,
+20950041,skill_root,몬스터 PC타입 한손검 : 평타 (1타),209500410020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+20950042,skill_root,몬스터 PC타입 한손검 : 평타 (2타),209500420020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110001,skill_root,몬스터 놀 추적꾼 양손타격,211100010020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110001,skill_root,몬스터 놀 추적꾼 양손타격,211100010020009,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110002,skill_root,몬스터 놀 전사 머리 박치기,211100020020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal16_Hit,Common_Normal16_Hit
+21110003,skill_root,몬스터 오크 탐색꾼 방패 강타,211100030020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+21110004,skill_root,몬스터 바다 게 평타1,211100040020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110005,skill_root,몬스터 바다 게 평타2,211100050020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110006,skill_root,몬스터 바다 게 기술,211100060020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110007,skill_root,몬스터 바다 거북 평타,211100070020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110008,skill_root,몬스터 바다 거북 기술,211100080020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110009,skill_root,몬스터_오크 사냥꾼_근거리 밀치기,211100090020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+21110010,skill_root,몬스터_오크 주술사 근거리 밀치기,211100100020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+21110011,skill_root,몬스터 스켈레톤 궁병 근거리 공격,211100110020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+21110012,skill_root,몬스터 스켈레톤 창병 평타1,211100120020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110013,skill_root,몬스터 스켈레톤 창병 평타2,211100130020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110014,skill_root,몬스터 스켈레톤 창병 내려치기,211100140020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110015,skill_root,몬스터 스켈레톤 창병 찌르기,211100150020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110016,skill_root,몬스터 스켈레톤 마법병 근거리 공격,211100160020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+21110017,skill_root,몬스터 스켈레톤 전사 평타1,211100170020006,,[],1000,Physical,false,true,750,750,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110018,skill_root,몬스터 스켈레톤 전사 평타2,211100180020006,,[],1000,Physical,false,true,750,750,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110019,skill_root,몬스터 스켈레톤 전사 3연타,211100190020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110019,skill_root,몬스터 스켈레톤 전사 3연타,211100190020009,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110019,skill_root,몬스터 스켈레톤 전사 3연타,211100190020012,,[],1000,Physical,false,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110022,skill_root,몬스터 도바비안 투사 평타1,211100220020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110022,skill_root,몬스터 도바비안 투사 평타1,211100220020009,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110023,skill_root,몬스터 도바비안 투사 평타2,211100230020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110023,skill_root,몬스터 도바비안 투사 평타2,211100230020009,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110024,skill_root,몬스터 도바비안 투사 빠른3연타,211100240020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110024,skill_root,몬스터 도바비안 투사 빠른3연타,211100240020009,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110024,skill_root,몬스터 도바비안 투사 빠른3연타,211100240020012,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110024,skill_root,몬스터 도바비안 투사 빠른3연타,211100240020015,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110027,skill_root,몬스터 도바비안 전사 평타1,211100270020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110028,skill_root,몬스터 도바비안 전사 평타2,211100280020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110029,skill_root,몬스터 도바비안 전사 기술1 찌르기,211100290020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110030,skill_root,몬스터 도바비안 전사 방패강타,211100300020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Class_Onehand_Skill01_Hit,Class_Onehand_Skill01_Hit
+21110031,skill_root,몬스터 팬텀 대검병_평타1_종배기,211100310020006,,[],1000,Physical,false,true,700,700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110032,skill_root,몬스터 팬텀 대검병_평타2_횡배기,211100320020006,,[],1000,Physical,false,true,700,700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110033,skill_root,몬스터 팬텀 대검병_기술1_내려치기,211100330020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110034,skill_root,몬스터 팬텀 대검병_기술2_올려배기,211100340020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110035,skill_root,몬스터 팬텀 창병_평타1_2회 찌르기,211100350020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110035,skill_root,몬스터 팬텀 창병_평타1_2회 찌르기,211100350020011,,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110036,skill_root,몬스터 팬텀 창병_기술1_강한 찌르기,211100360020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Critical01_Hit,Common_Critical01_Hit
+21110037,skill_root,몬스터 팬텀 창병_기술2_휘두르고 찌르기,211100370020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110037,skill_root,몬스터 팬텀 창병_기술2_휘두르고 찌르기,211100370020011,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110037,skill_root,몬스터 팬텀 창병_기술2_휘두르고 찌르기,211100370020014,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110038,skill_root,몬스터 팬텀 검병_평타1_배기,211100380020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110039,skill_root,몬스터 팬텀 검병_평타2_배기,211100390020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110040,skill_root,몬스터 팬텀 검병_기술1_점프 내려배기,211100400020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110041,skill_root,"몬스터 팬텀 검병_기술2_횡배기 2회, 찌르기",211100410020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110041,skill_root,"몬스터 팬텀 검병_기술2_횡배기 2회, 찌르기",211100410020011,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110041,skill_root,"몬스터 팬텀 검병_기술2_횡배기 2회, 찌르기",211100410020014,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110042,skill_root,몬스터 팬텀 양손도끼_평타1_2회배기,211100420020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110042,skill_root,몬스터 팬텀 양손도끼_평타1_2회배기,211100420020009,,[],1000,Physical,false,false,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110043,skill_root,몬스터 팬텀 양손도끼_평타2_십자배기,211100430020006,,[],1000,Physical,false,true,750,750,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110043,skill_root,몬스터 팬텀 양손도끼_평타2_십자배기,211100430020007,,[],1000,Physical,false,true,750,750,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110044,skill_root,몬스터 팬텀 양손도끼_기술2_이중배기,211100440020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110044,skill_root,몬스터 팬텀 양손도끼_기술2_이중배기,211100440020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110045,skill_root,몬스터 피 묻은 손 전사 강타,211100450020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110046,skill_root,몬스터 나무 정령 강타,211100460020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110047,skill_root,몬스터_이끼 정령_평타,211100470020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110048,skill_root,몬스터_난폭한 맷돼지 타격,211100480020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110049,skill_root,몬스터 바다 거북 평타,211100490020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110050,skill_root,몬스터_바다 거북 기술,211100500020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110051,skill_root,몬스터 바다 게 평타1,211100510020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110052,skill_root,몬스터 바다 게 평타2,211100520020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110053,skill_root,몬스터 바다 게 기술,211100530020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+21110054,skill_root,몬스터 두들링 전사 회전배기(3Hit),211100540020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110054,skill_root,몬스터 두들링 전사 회전배기(3Hit),211100540020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110054,skill_root,몬스터 두들링 전사 회전배기(3Hit),211100540020012,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110055,skill_root,몬스터 두들링 염탐꾼 지면파괴(1Hit),211100550020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110056,skill_root,몬스터 두들링 염탐꾼 양손타격(2Hit),211100560020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110056,skill_root,몬스터 두들링 염탐꾼 양손타격(2Hit),211100560020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110060,skill_root,몬스터_벌 강타,211100600020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+21110061,skill_root,몬스터_거미 평타(2Hit),211100610020006,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,,
+21110061,skill_root,몬스터_거미 평타(2Hit),211100610020009,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,,
+21110062,skill_root,몬스터_거미 강타,211100620020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+21110063,skill_root,몬스터_망가진 시체 투사_기술1_박치기,211100630020006,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110064,skill_root,몬스터_망가진 시체 투사_기술2_강타,211100640020006,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110064,skill_root,몬스터_망가진 시체 투사_기술2_강타,211100640020009,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110066,skill_root,몬스터_망가진 시체 투사_기술4_연타(4Hit),211100660020006,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110066,skill_root,몬스터_망가진 시체 투사_기술4_연타(4Hit),211100660020009,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110066,skill_root,몬스터_망가진 시체 투사_기술4_연타(4Hit),211100660020012,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110066,skill_root,몬스터_망가진 시체 투사_기술4_연타(4Hit),211100660020015,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110067,skill_root,몬스터_망가진 시체 전사_기술1_강타,211100670020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21110068,skill_root,몬스터_망가진 시체 전사_기술2_배기(2Hit),211100680020006,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,,
+21110068,skill_root,몬스터_망가진 시체 전사_기술2_배기(2Hit),211100680020009,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,,
+21150001,skill_root,몬스터_토끼_평타1,211500010020006,,[],1000,Physical,false,true,300,300,0,0,0,0,[],0,0,false,NS_H_Grass,NS_H_Grass
+21150001,skill_root,몬스터_토끼_평타1,211500010020009,,[],1000,Physical,false,true,300,300,0,0,0,0,[],0,0,false,NS_H_Grass,NS_H_Grass
+21150001,skill_root,몬스터_토끼_평타1,211500010020012,,[],1000,Physical,false,true,300,300,0,0,0,0,[],0,0,false,NS_H_Grass,NS_H_Grass
+21150002,skill_root,몬스터_토끼_평타2,211500020020006,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,NS_H_Grass,NS_H_Grass
+21150002,skill_root,몬스터_토끼_평타2,211500020020009,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,NS_H_Grass,NS_H_Grass
+21150004,skill_root,몬스터_원한 어린 유령_평타,211500040020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,,
+21150005,skill_root,몬스터_망가진 시체 투사_평타(2Hit),211500050020006,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,,
+21150005,skill_root,몬스터_망가진 시체 투사_평타(2Hit),211500050020011,,[],1000,Physical,true,true,500,500,0,0,0,0,[],0,0,false,,
+21250001,skill_root,몬스터 놀 투척꾼 원거리 평타,212500010020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal16_Hit,Common_Normal16_Hit
+21250003,skill_root,몬스터 오크 사냥꾼 원거리 속박,212500030020007,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Class_Bow_Skill08_Hit,Class_Bow_Skill08_Hit
+21250007,skill_root,몬스터 스켈레톤 궁병 원거리 강타,212500070020007,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal07_Hit,Common_Normal07_Hit
+21250009,skill_root,몬스터 스켈레톤 마법병 원거리 강타,212500090020007,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,,Common_Normal01_Hit
+21250010,skill_root,몬스터 스켈레톤 전사 단검 투척,212500100020007,,[],1000,Physical,false,false,1200,1200,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250013,skill_root,몬스터 팬텀 궁병_일반 3연타,212500130020007,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250013,skill_root,몬스터 팬텀 궁병_일반 3연타,212500130020011,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250013,skill_root,몬스터 팬텀 궁병_일반 3연타,212500130020015,,[],1000,Physical,false,true,500,500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250014,skill_root,몬스터 팬텀 궁병_기술2_차징샷,212500140020007,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Class_Bow_Skill06_Hit,Class_Bow_Skill06_Hit
+21250015,skill_root,몬스터_물 정령_대상 위치 물기둥 생성,212500150020006,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,Common_Normal11_Hit ,Common_Normal11_Hit
+21250016,skill_root,몬스터 피 묻은 손 궁병_3연타,212500160020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250016,skill_root,몬스터 피 묻은 손 궁병_3연타,212500160020011,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250016,skill_root,몬스터 피 묻은 손 궁병_3연타,212500160020015,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250017,skill_root,몬스터 피 묻은 손 마법사 대상 위치 폭발,212500170020006,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,Common_Normal11_Hit ,Common_Normal11_Hit
+21250018,skill_root,몬스터 피 묻은 손 암살자_급습,212500180020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250019,skill_root,몬스터_이끼 정령_덩쿨 묶기,212500190020006,,[],1000,Physical,false,true,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21250021,skill_root,몬스터_흙 정령_돌 투척,212500210020007,,[],1000,Physical,false,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+21310002,skill_root,몬스터 도바비안 주술사 영역,213100020020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal10_Hit,Common_Normal10_Hit
+21310003,skill_root,몬스터 도바비안 지휘관 기술1 2연타,213100030020006,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310003,skill_root,몬스터 도바비안 지휘관 기술1 2연타,213100030020009,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310005,skill_root,몬스터 도바비안 지휘관 범위공격,213100050020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310006,skill_root,몬스터 도바비안 지휘관 영역공격,213100060020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310006,skill_root,몬스터 도바비안 지휘관 영역공격,213100060020010,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310006,skill_root,몬스터 도바비안 지휘관 영역공격,213100060020014,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310007,skill_root,몬스터 팬텀 궁병_기술1_점프샷,213100070020007,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal15_Hit,Common_Normal15_Hit
+21310008,skill_root,몬스터 바위 정령 돌진,213100080020009,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310008,skill_root,몬스터 바위 정령 돌진,213100080020012,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21310012,skill_root,몬스터 두들링 주술사 화염구(1Hit/화염Dot),213100120020007,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21350001,skill_root,몬스터_멧돼지 돌진 공격,213500010020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21510003,skill_root,몬스터 팬텀 양손도끼_기술1_범위피해,215100030020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21550001,skill_root,몬스터 스켈레톤 마법병 위치 공격,215500010020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+21710001,skill_root,토템_직경5M 폭발,217100010020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Class_Bow_Skill06_Hit,Class_Bow_Skill06_Hit
+21990001,skill_root,테스트_인디케이터_원형_O,219900010020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21990002,skill_root,테스트_인디케이터_원형_I,219900020020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21990003,skill_root,테스트_인디케이터_삼각_O,219900030020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21990004,skill_root,테스트_인디케이터_삼각_I,219900040020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21990005,skill_root,테스트_인디케이터_사각_O,219900050020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21990006,skill_root,테스트_인디케이터_사각_I,219900060020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21990007,skill_root,테스트_인디케이터_사각_L,219900070020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+21990008,skill_root,테스트_인디케이터_사각_R,219900080020013,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,,
+23110001,skill_root,몬스터 오크 전사 평타,231100010020006,,[],1000,Physical,false,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+23110001,skill_root,몬스터 오크 전사 평타,231100010020009,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+23110002,skill_root,몬스터 오크 전사 강타,231100020020006,,[],1000,Physical,false,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+23110003,skill_root,몬스터 피 묻은 손 돌격대장 강타,231100030020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+23110004,skill_root,몬스터 피 묻은 손 돌격대장_2회전 배기,231100040020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+23110004,skill_root,몬스터 피 묻은 손 돌격대장_2회전 배기,231100040020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+23110005,skill_root,몬스터_성난 불곰 타격,231100050020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+23110007,skill_root,몬스터_흙 정령_Big_영역 공격,231100070020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Critical01_Hit
+23550001,skill_root,몬스터_거미 속박,235500010020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+25110001,skill_root,몬스터 오우거 공용 평타1,251100010020006,,[],1000,Physical,false,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110002,skill_root,몬스터 오우거 공용 평타2_횡배기,251100020020006,,[],1000,Physical,false,true,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110003,skill_root,몬스터 오우거 곤봉 기술1_리프 어택,251100030020006,,[],1000,Physical,false,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110004,skill_root,몬스터 오우거 곤봉 기술2_휘두르고 밟기,251100040020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110004,skill_root,몬스터 오우거 곤봉 기술2_휘두르고 밟기,251100040020011,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110005,skill_root,몬스터 오우거 곤봉 기술3 뛰어 찍기,251100050020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110005,skill_root,몬스터 오우거 곤봉 기술3 뛰어 찍기,251100050020007,넘어짐 상태 추가 피해,[121],1000,Physical,false,false,3000,2998,0,0,0,0,[],0,0,false,Common_Critical01_Hit,Common_Critical01_Hit
+25110006,skill_root,몬스터 오우거 곤봉 기술3_좌우타격,251100060020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110006,skill_root,몬스터 오우거 곤봉 기술3_좌우타격,251100060020011,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110007,skill_root,몬스터 오우거 곤봉 기술5 발차기,251100070020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110008,skill_root,몬스터 오우거 도끼 기술1 베고 찍기,251100080020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110008,skill_root,몬스터 오우거 도끼 기술1 베고 찍기,251100080020009,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110009,skill_root,몬스터 오우거 도끼_기술2 강 배기,251100090020006,,[],1000,Physical,false,false,2250,2250,0,0,0,0,[],0,2,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110010,skill_root,몬스터 오우거 도끼_기술3_강 찍기,251100100020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110011,skill_root,몬스터 오우거 도끼_기술4_2회전 배기,251100110020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110011,skill_root,몬스터 오우거 도끼_기술4_2회전 배기,251100110020011,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110012,skill_root,몬스터 오우거 대검_기술1_찍기,251100120020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110013,skill_root,몬스터 오우거 대검_기술2_큰 배기,251100130020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110014,skill_root,"몬스터 오우거 기술3_점프 강찍기,약찍기",251100140020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110014,skill_root,"몬스터 오우거 기술3_점프 강찍기,약찍기",251100140020011,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110015,skill_root,몬스터 팬텀 지휘관_평타1_대각배기,251100150020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110016,skill_root,몬스터 팬텀 지휘관_평타2_횡배기,251100160020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110017,skill_root,몬스터 팬텀 지휘관_평타3_찍기,251100170020006,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110018,skill_root,몬스터 팬텀 지휘관_기술1_강한 횡배기,251100180020006,,[],1000,Physical,true,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110019,skill_root,몬스터 팬텀 지휘관_기술3_찍고 점프찍기,251100190020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110019,skill_root,몬스터 팬텀 지휘관_기술3_찍고 점프찍기,251100190020011,,[],1000,Physical,true,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110020,skill_root,몬스터 팬텀 지휘관_기술4_양손 강배기 2회,251100200020006,,[],1000,Physical,true,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25110020,skill_root,몬스터 팬텀 지휘관_기술4_양손 강배기 2회,251100200020011,,[],1000,Physical,true,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25150001,skill_root,몬스터_벌 중독 강타,251500010020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+25250001,skill_root,몬스터 피 묻은 손 지휘관_3연타,252500010020007,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+25250001,skill_root,몬스터 피 묻은 손 지휘관_3연타,252500010020011,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+25250001,skill_root,몬스터 피 묻은 손 지휘관_3연타,252500010020015,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,,
+25250002,skill_root,몬스터 피 묻은 손 지휘관 저주의 손길,252500020020007,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,,
+25310001,skill_root,몬스터 팬텀 지휘관_기술2_주먹 찍기(넉백),253100010020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+25750001,skill_root,몬스터 오우거 카이팅: 리프 찍기,257500010020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29000010,skill_effect_root,[누이신전] PC에 의해 발생한 몬스터 어그로 디버프,290000100030003,,[],1000,Physical,false,false,0,0,0,0,0,0,[],0,0,false,,
+29110001,skill_root,놀 대장_평타_우횡배기,291100010020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110002,skill_root,놀 대장_평타_좌횡배기,291100020020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110003,skill_root,놀 대장_평타_찍기,291100030020006,,[],1000,Physical,true,true,1200,1200,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110004,skill_root,놀 대장_평타_강타,291100040020006,,[],1000,Physical,true,true,1300,1300,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110007,skill_root,몬스터_놀 대장_기술1_올려치기_짧은 점프+찍기,291100070020006,놀 대장_기술1_1_올려치기,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110007,skill_root,몬스터_놀 대장_기술1_올려치기_짧은 점프+찍기,291100070020009,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110011,skill_root,"몬스터_놀 대장_기술2_우,좌 올려배기_찍기",291100110020006,,[],1000,Physical,true,false,1000,999,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110011,skill_root,"몬스터_놀 대장_기술2_우,좌 올려배기_찍기",291100110020009,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110011,skill_root,"몬스터_놀 대장_기술2_우,좌 올려배기_찍기",291100110020012,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110017,skill_root,"몬스터_놀 대장_기술3_하울링배기,좌우횡배기,짧은 점프,긴 점프",291100170020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110017,skill_root,"몬스터_놀 대장_기술3_하울링배기,좌우횡배기,짧은 점프,긴 점프",291100170020009,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110017,skill_root,"몬스터_놀 대장_기술3_하울링배기,좌우횡배기,짧은 점프,긴 점프",291100170020012,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110017,skill_root,"몬스터_놀 대장_기술3_하울링배기,좌우횡배기,짧은 점프,긴 점프",291100170020015,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110017,skill_root,"몬스터_놀 대장_기술3_하울링배기,좌우횡배기,짧은 점프,긴 점프",291100170020018,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29110018,skill_root,몬스터 오크 족장 평타1 - 회전배기,291100180020006,,[],1000,Physical,false,true,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110018,skill_root,몬스터 오크 족장 평타1 - 회전배기,291100180020009,,[],1000,Physical,false,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110019,skill_root,몬스터 오크 족장 평타2 - 상단배기,291100190020006,,[],1000,Physical,false,true,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110020,skill_root,"몬스터 오크 족장 평타3 - 좌상,우하 배기",291100200020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110020,skill_root,"몬스터 오크 족장 평타3 - 좌상,우하 배기",291100200020009,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110022,skill_root,몬스터 오크 족장 평타4 - 배고 찍기,291100220020006,,[],1000,Physical,false,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110022,skill_root,몬스터 오크 족장 평타4 - 배고 찍기,291100220020009,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110028,skill_root,"몬스터 오크 족장 기술1 - 좌우배기,찍기,강찍기",291100280020006,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110028,skill_root,"몬스터 오크 족장 기술1 - 좌우배기,찍기,강찍기",291100280020009,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110028,skill_root,"몬스터 오크 족장 기술1 - 좌우배기,찍기,강찍기",291100280020012,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+29110028,skill_root,"몬스터 오크 족장 기술1 - 좌우배기,찍기,강찍기",291100280020015,,[],1000,Physical,false,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+29110032,skill_root,"몬스터 오크 족장 기술2 - 강찍기,크게배기,회전배기3타",291100320020006,,[],1000,Physical,false,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+29110032,skill_root,"몬스터 오크 족장 기술2 - 강찍기,크게배기,회전배기3타",291100320020009,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110032,skill_root,"몬스터 오크 족장 기술2 - 강찍기,크게배기,회전배기3타",291100320020012,,[],1000,Physical,false,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110032,skill_root,"몬스터 오크 족장 기술2 - 강찍기,크게배기,회전배기3타",291100320020015,,[],1000,Physical,false,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29110032,skill_root,"몬스터 오크 족장 기술2 - 강찍기,크게배기,회전배기3타",291100320020018,,[],1000,Physical,false,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Normal01_Hit
+29250001,skill_root,몬스터_피 묻은 손 간부_저주의 손길,292500010020007,,[],1000,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020007,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020010,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020013,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020016,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020019,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020022,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020025,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020028,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020031,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020034,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020037,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310001,skill_root,몬스터 피 묻은 손 간부_범위 피창,293100010020040,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,,
+29310002,skill_root,몬스터 피 묻은 손 간부_밀어내기,293100020020006,,[],700,Physical,false,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+29310003,skill_root,몬스터 피 묻은 손 간부_피의 창,293100030020006,,[],1000,Physical,false,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110001,skill_root,몬스터 스칼니토스 좌우타격,301100010020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110001,skill_root,몬스터 스칼니토스 좌우타격,301100010020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110002,skill_root,몬스터 스칼니토스 사슬찌르기,301100020020006,,[],1000,Physical,true,false,1700,1700,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110003,skill_root,몬스터 스칼니토스 꼬리 휘두르기,301100030020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110004,skill_root,몬스터 스칼니토스 비늘돌진(미사용),301100040020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110005,skill_root,몬스터 스칼니토스 난폭한 손짓,301100050020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110005,skill_root,몬스터 스칼니토스 난폭한 손짓,301100050020009,,[],1000,Physical,true,false,1300,1300,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110005,skill_root,몬스터 스칼니토스 난폭한 손짓,301100050020012,,[],1000,Physical,true,false,1300,1300,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110005,skill_root,몬스터 스칼니토스 난폭한 손짓,301100050020015,,[],1000,Physical,true,false,1300,1300,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110005,skill_root,몬스터 스칼니토스 난폭한 손짓,301100050020018,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110005,skill_root,몬스터 스칼니토스 난폭한 손짓,301100050020021,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110006,skill_root,몬스터 스칼니토스 꼬리 강타,301100060020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+30110006,skill_root,몬스터 스칼니토스 꼬리 강타,301100060020009,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+30110006,skill_root,몬스터 스칼니토스 꼬리 강타,301100060020012,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal12_Hit,Common_Normal12_Hit
+30110007,skill_root,몬스터 말카바돈 기술6_1 전방 3연타,301100070020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30110007,skill_root,몬스터 말카바돈 기술6_1 전방 3연타,301100070020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30110007,skill_root,몬스터 말카바돈 기술6_1 전방 3연타,301100070020012,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30110008,skill_root,몬스터 말카바돈 기술6_2 후방감지 타격,301100080020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110008,skill_root,몬스터 말카바돈 기술6_2 후방감지 타격,301100080020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110008,skill_root,몬스터 말카바돈 기술6_2 후방감지 타격,301100080020012,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110009,skill_root,몬스터 말카바돈 기술7_1 좌측 공격,301100090020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110010,skill_root,몬스터 말카바돈 기술7_2 우측 공격,301100100020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110011,skill_root,몬스터 말카바돈 기술8_1 전방 공격,301100110020006,,[],1000,Physical,true,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110012,skill_root,"몬스터 말카바돈 기술8_2 후방 강타,3연쇄",301100120020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110013,skill_root,몬스터 말카바돈 기술9 우측 약손,301100130020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110014,skill_root,몬스터_부활한 피 묻은 손 간부_평타1,301100140020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110015,skill_root,몬스터_부활한 피 묻은 손 간부_평타2,301100150020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110016,skill_root,몬스터_하얀 모래의 페르눈 평타1 집게발 모아 내려찍기,301100160020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110017,skill_root,몬스터_하얀 모래의 페르눈 평타2 집게발 교차 베기,301100170020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110018,skill_root,몬스터_하얀 모래의 페르눈 기술1 집게발 일점 폭파,301100180020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110019,skill_root,몬스터_하얀 모래의 페르눈 기술2 집게발 쓸기,301100190020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Ctirical01_Hit
+30110019,skill_root,몬스터_하얀 모래의 페르눈 기술2 집게발 쓸기,301100190020009,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Ctirical01_Hit
+30110019,skill_root,몬스터_하얀 모래의 페르눈 기술2 집게발 쓸기,301100190020012,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Ctirical01_Hit
+30110020,skill_root,몬스터_하얀 모래의 페르눈 기술3 거품분사,301100200020006,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,Common_Normal11_Hit,Common_Normal11_Hit
+30110021,skill_root,몬스터_하얀 모래의 페르눈 기술4 지면연타,301100210020006,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110021,skill_root,몬스터_하얀 모래의 페르눈 기술4 지면연타,301100210020009,,[],1000,Physical,true,true,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110023,skill_root,몬스터_영혼을 거두는 모르가리스 평타1 좌로 배기,301100230020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110024,skill_root,몬스터_영혼을 거두는 모르가리스 평타2 우로 배기,301100240020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110025,skill_root,몬스터_영혼을 거두는 모르가리스 평타3 강 배기,301100250020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110026,skill_root,몬스터_영혼을 거두는 모르가리스 기술4 영혼 분쇄,301100260020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110027,skill_root,몬스터 몬스터 부활한 피 묻은 손 간부_강타,301100270020006,,[],1000,Physical,false,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110028,skill_root,몬스터 부활한 피 묻은 손 간부_회전배기,301100280020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110028,skill_root,몬스터 부활한 피 묻은 손 간부_회전배기,301100280020009,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110029,skill_root,몬스터_심연의 코맥 평타1,301100290020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110030,skill_root,몬스터_심연의 코맥 평타2,301100300020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30110031,skill_root,몬스터_심연의 코맥 평타3,301100310020006,,[],1000,Physical,true,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30150001,skill_root,몬스터 부활한 피 묻은 손 간부_방패 밀치기,301500010020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30150002,skill_root,몬스터_심연의 코맥 기술1 연쇄폭발,301500020020007,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30150002,skill_root,몬스터_심연의 코맥 기술1 연쇄폭발,301500020020010,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30150002,skill_root,몬스터_심연의 코맥 기술1 연쇄폭발,301500020020013,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30150002,skill_root,몬스터_심연의 코맥 기술1 연쇄폭발,301500020020016,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30210002,skill_root,몬스터 말카바돈 기술3 화염폭발(대형),302100020020007,,[],1000,Physical,true,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30210003,skill_root,몬스터 말카바돈 기술4 화염구 2회(중형),302100030020007,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30210003,skill_root,몬스터 말카바돈 기술4 화염구 2회(중형),302100030020011,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30210004,skill_root,몬스터_영혼을 거두는 모르가리스 기술1 암흑 칼날,302100040020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30250001,skill_root,몬스터 말카바돈 평타1 오른손,302500010020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30250002,skill_root,몬스터 말카바돈 평타2 왼손,302500020020006,,[],1000,Physical,true,true,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30250003,skill_root,몬스터 부활한 피 묻은 손 간부_급습,302500030020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310001,skill_root,몬스터 스칼니토스 마비안광,303100010020006,,[],1000,Physical,true,false,1500,1500,0,0,-1,0,[],0,0,false,Common_Normal09_Hit ,Common_Normal09_Hit
+30310002,skill_root,몬스터 스칼니토스 사슬분사,303100020020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310003,skill_root,몬스터 스칼니토스 사슬회오리,303100030020006,,[],1000,Physical,true,false,1800,1800,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310003,skill_root,몬스터 스칼니토스 사슬회오리,303100030020009,,[],1000,Physical,true,false,1800,1800,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310003,skill_root,몬스터 스칼니토스 사슬회오리,303100030020012,,[],1000,Physical,true,false,1800,1800,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310003,skill_root,몬스터 스칼니토스 사슬회오리,303100030020015,,[],1000,Physical,true,false,1800,1800,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310003,skill_root,몬스터 스칼니토스 사슬회오리,303100030020018,,[],1000,Physical,true,false,1800,1800,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310004,skill_root,몬스터 스칼니토스 독 분사,303100040020006,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,Common_Normal07_Hit ,Common_Normal07_Hit
+30310005,skill_root,몬스터 스칼니토스 대지강타,303100050020006,,[],1000,Physical,true,false,4000,4000,0,0,0,0,[],0,0,false,Common_Normal10_Hit,Common_Normal10_Hit
+30310006,skill_root,몬스터 스칼니토스 사슬 휘두르기,303100060020006,,[],1000,Physical,true,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310007,skill_root,몬스터 스칼니토스 최후의 저항,303100070020008,,[],1000,Physical,true,false,1000000,100000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020008,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020011,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020014,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020017,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020020,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020023,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020026,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020029,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020032,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020035,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310008,skill_root,몬스터 말카바돈 기술1 브레스,303100080020038,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310010,skill_root,몬스터 말카바돈 기술10 화염발톱,303100100020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310010,skill_root,몬스터 말카바돈 기술10 화염발톱,303100100020009,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310010,skill_root,몬스터 말카바돈 기술10 화염발톱,303100100020012,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310010,skill_root,몬스터 말카바돈 기술10 화염발톱,303100100020015,,[],1000,Physical,true,false,2500,2500,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30310011,skill_root,몬스터 말카바돈 기술11 화염투척(대형),303100110020007,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30310012,skill_root,몬스터 말카바돈 기술12 버프연계기술,303100120020006,,[],1000,Physical,true,false,5000,5000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310013,skill_root,몬스터 말카바돈 기술13 카이팅 방지,303100130020007,,[],1000,Physical,false,false,1250,1250,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310014,skill_root,몬스터 말카바돈 기술14 화염장벽,303100140020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310014,skill_root,몬스터 말카바돈 기술14 화염장벽,303100140020009,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310014,skill_root,몬스터 말카바돈 기술14 화염장벽,303100140020012,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310015,skill_root,몬스터 부활한 피 묻은 손 간부_피의 창,303100150020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310015,skill_root,몬스터 부활한 피 묻은 손 간부_피의 창,303100150020009,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310015,skill_root,몬스터 부활한 피 묻은 손 간부_피의 창,303100150020012,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310016,skill_root,몬스터_하얀 모래의 페르눈 기술7 큰 점프,303100160020006,,[],1000,Physical,true,false,5000,5000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Ctirical01_Hit
+30310017,skill_root,몬스터_영혼을 거두는 모르가리스 기술2 사기 발산,303100170020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310017,skill_root,몬스터_영혼을 거두는 모르가리스 기술2 사기 발산,303100170020009,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310017,skill_root,몬스터_영혼을 거두는 모르가리스 기술2 사기 발산,303100170020012,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310017,skill_root,몬스터_영혼을 거두는 모르가리스 기술2 사기 발산,303100170020015,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020008,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020011,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020014,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020017,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020020,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020023,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020026,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020029,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020032,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020035,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020038,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020041,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020044,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020047,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020050,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020053,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020056,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020059,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310018,skill_root,몬스터_영혼을 거두는 모르가리스 기술3 사령의 창,303100180020062,,[],1000,Physical,true,false,1500,1500,0,0,0,0,[],0,0,false,,
+30310019,skill_root,몬스터_영혼을 거두는 모르가리스 기술5 망령의 파도,303100190020006,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310019,skill_root,몬스터_영혼을 거두는 모르가리스 기술5 망령의 파도,303100190020009,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310019,skill_root,몬스터_영혼을 거두는 모르가리스 기술5 망령의 파도,303100190020012,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310019,skill_root,몬스터_영혼을 거두는 모르가리스 기술5 망령의 파도,303100190020015,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310019,skill_root,몬스터_영혼을 거두는 모르가리스 기술5 망령의 파도,303100190020018,,[],1000,Physical,true,false,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30310020,skill_root,몬스터_심연의 코맥 기술2 배기,303100200020006,,[],1000,Physical,true,false,1250,1250,0,0,0,0,[],0,0,false,,
+30350002,skill_effect_root,몬스터 말카바돈 화염 도트 피해,303500020030003,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal02_Hit,Common_Normal02_Hit
+30350003,skill_root,몬스터_하얀 모래의 페르눈 기술5 파고들기-뛰어오르기,303500030020010,,[],1000,Physical,true,true,2000,2000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+30350004,skill_root,몬스터_하얀 모래의 페르눈 기술6 짧은 점프,303500040020006,,[],1000,Physical,true,false,3000,3000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,Common_Critical01_Hit
+90000004,skill_root,본인 주변 디버프 예제,900000040020006,,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,Common_Normal01_Hit,
+99000001,skill_root,대지 가르기,990000010020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000002,skill_root,대지 가르기,990000020020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000003,skill_root,대지 가르기,990000030020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000004,skill_root,대지 가르기,990000040020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000005,skill_root,대지 가르기,990000050020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000006,skill_root,대지 가르기,990000060020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000007,skill_root,대지 가르기,990000070020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000008,skill_root,대지 가르기,990000080020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000009,skill_root,대지 가르기,990000090020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000010,skill_root,대지 가르기,990000100020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000011,skill_root,대지 가르기,990000110020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000012,skill_root,대지 가르기,990000120020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000013,skill_root,대지 가르기,990000130020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000014,skill_root,대지 가르기,990000140020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000015,skill_root,대지 가르기,990000150020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000016,skill_root,대지 가르기,990000160020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000017,skill_root,대지 가르기,990000170020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000018,skill_root,대지 가르기,990000180020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000019,skill_root,대지 가르기,990000190020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000020,skill_root,대지 가르기,990000200020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,
+99000021,skill_root,대지 가르기,990000210020006,대지 가르기 대미지,[],1000,Physical,false,false,1000,1000,0,0,0,0,[],0,0,false,NS_S_StrongHit_TwohandSword_H,

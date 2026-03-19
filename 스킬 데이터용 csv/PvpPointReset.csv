@@ -1,0 +1,4 @@
+﻿OID,Cid,Comment,MinLevel,MaxLevel,PvpPoint
+1,1,,40,50,600
+2,2,,51,60,900
+3,3,,61,100,1500

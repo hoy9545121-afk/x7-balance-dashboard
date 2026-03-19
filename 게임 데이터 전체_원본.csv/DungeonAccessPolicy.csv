@@ -1,0 +1,9 @@
+OID,Cid,Comment,EntryType,RetainOnReentry,MaxEntryCount,ReentryCooldown,LimitTime,EmptyTimeout,MaxStayTime,MinStartPlayer
+1,1,솔로/재입장불가/입장1회/1분던전/즉시 소멸,Solo,False,3,0,900000,0,0,1
+2,2,파티/재입장가능/입장2회/1.5분던전/즉시 소멸,Party,False,2,0,2400000,0,0,2
+3,3,전투 테스트 던전 설정,Solo,True,100,0,900000,120000,0,1
+4,4,오픈/재입장가능/입장2회/무한유지/10분잔류,Open,True,1,0,0,0,28800000,1
+5,5,M11 팀테스트 파티 던전 (재입장 가능/10회/30분),Party,True,10,0,1800000,120000,0,2
+6,6,이니스 섬 1인 던전_이즈나의 메아리 (시간은 QuestFail로 제어),Solo,False,50,0,0,0,0,1
+7,7,인스턴스 필드 테스트 규칙,Solo,True,999,0,0,0,0,1
+8,8,이즈나의 메아리 파티 버전(시간은 QuestFail로 제어),Party,True,50,0,0,0,0,1

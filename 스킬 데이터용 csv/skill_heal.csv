@@ -1,0 +1,81 @@
+root_id,root_type,root_name,nodeId,comment,status_tag_condition_cids,chance,skill_healper,skill_healadd,attack_heal_min_per,attack_heal_max_per,heal_amp_ignore,item_healper,item_healadd,absolute_healper,absolute_healadd,f_x_name
+20001,skill_effect_root,하급 체력 물약_체력회복_인터벌,200010030003,,[],1000,0,0,0,0,false,0,60,0,0,NU_Item_Eat_HP
+20002,skill_effect_root,중급 체력 물약_체력회복_인터벌,200020030003,,[],1000,0,0,0,0,false,0,80,0,0,NU_Item_Eat_HP
+20003,skill_effect_root,상급 체력 물약_체력회복_인터벌,200030030003,,[],1000,0,0,0,0,false,0,100,0,0,NU_Item_Eat_HP
+20011,skill_effect_root,하급 수프_체력회복_인터벌,200110030003,,[],1000,0,0,0,0,false,0,160,0,0,NU_Item_Eat_HP
+20013,skill_effect_root,해산물 스튜_체력 마력 회복_인터벌,200130030003,,[],1000,0,0,0,0,false,0,80,0,0,NU_Item_Eat_HP
+20016,skill_effect_root,중급 수프_체력회복_인터벌,200160030003,,[],1000,0,0,0,0,false,0,200,0,0,NU_Item_Eat_HP
+30440,skill_root,회복 4T,304400020006,,[],1000,0,0,0,0,true,0,0,0,0,FX_Heal_Petskill
+30441,skill_root,치유,304410020006,,[],1000,0,0,0,0,true,0,0,0,0,FX_Heal_Petskill
+30451,skill_root,회복 5T,304510020006,,[],1000,0,0,0,0,true,0,0,0,0,FX_Heal_Petskill
+90004,skill_effect_root,넘치는 생명력_인터벌,900040030003,,[],1000,0,0,0,0,false,0,0,0,0,
+100101,skill_effect_root,치유의 꽃잎 중첩 힐 Lv.1 ,1001010030003,치유의 꽃잎,[],1000,0,0,100,100,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100102,skill_effect_root,치유의 꽃잎 중첩 힐 Lv.2,1001020030003,치유의 꽃잎,[],1000,0,0,110,110,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100103,skill_effect_root,치유의 꽃잎 중첩 힐 Lv.3,1001030030003,치유의 꽃잎,[],1000,0,0,120,120,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100104,skill_effect_root,치유의 꽃잎 중첩 힐 Lv.4,1001040030003,치유의 꽃잎,[],1000,0,0,130,130,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100105,skill_effect_root,치유의 꽃잎 중첩 힐 Lv.5,1001050030003,치유의 꽃잎,[],1000,0,0,140,140,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100151,skill_effect_root,치유의 바람_치유 Lv.1,1001510030003,치유의 바람으로 회복,[],1000,0,0,2000,2000,true,0,0,0,0,NS_H_Hit_LeapHeal1
+100153,skill_effect_root,치유의 바람_치유 Lv.2,1001530030003,치유의 바람으로 회복,[],1000,0,0,2200,2200,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100155,skill_effect_root,치유의 바람_치유 Lv.3,1001550030003,치유의 바람으로 회복,[],1000,0,0,2400,2400,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100157,skill_effect_root,치유의 바람_치유 Lv.4,1001570030003,치유의 바람으로 회복,[],1000,0,0,2600,2600,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100159,skill_effect_root,치유의 바람_치유 Lv.5,1001590030003,치유의 바람으로 회복,[],1000,0,0,2800,2800,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100651,skill_root,가호의 빛 Lv.1,1006510020006,,[],1000,0,0,1000,1000,false,0,0,0,0,NS_H_Hit_LeapHeal1
+100706,skill_root,폭주하는 광휘_Proc_체력 회복 Lv.1,1007060020006,,[],1000,0,0,100,100,false,0,0,0,0,NS_H_Hit_LeapHeal1
+500356,skill_root,쌍수 달인 Lv.1,5003560020006,,[],1000,0,0,100,100,false,0,0,0,0,NU_Item_Eat_HP
+500357,skill_root,쌍수 달인 체력회복 Lv.2,5003570020006,,[],1000,0,0,110,110,false,0,0,0,0,NU_Item_Eat_HP
+500358,skill_root,쌍수 달인 체력회복 Lv.3,5003580020006,,[],1000,0,0,120,120,false,0,0,0,0,NU_Item_Eat_HP
+500359,skill_root,쌍수 달인 체력회복 Lv.4,5003590020006,,[],1000,0,0,130,130,false,0,0,0,0,NU_Item_Eat_HP
+500360,skill_root,쌍수 달인 체력회복 Lv.5,5003600020006,,[],1000,0,0,140,140,false,0,0,0,0,NU_Item_Eat_HP
+700510,skill_root,Proc_반격 치유  Lv.1,7005100020006,,[],1000,0,0,0,0,false,0,0,0,100,NS_H_Hit_LeapHeal1
+700710,skill_root,Proc_체력 흡수  Lv.1,7007100020006,,[],1000,0,0,0,0,false,0,0,0,100,NS_H_Hit_LeapHeal1
+710000,skill_root,모두 치유 Lv.1,7100000020008,,[],1000,0,0,2000,2000,false,0,0,0,0,NS_H_Hit_LeapHeal1
+710002,skill_effect_root,모두 치유 Lv.1,7100020030003,치유의 바람으로 회복,[],1000,0,0,2800,2800,false,0,0,0,0,NS_H_Hit_LeapHeal1
+800022,skill_effect_root,강인한 생명력 효과,8000220030003,,[],1000,0,0,0,0,false,0,0,0,500,
+1100000,skill_effect_root,숨 고르기 체력 회복,11000000030003,숨 고르기 체력 회복,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+1100001,skill_effect_root,숨 고르기 체력 회복 Lv.1,11000010030003,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+1100002,skill_effect_root,숨 고르기 체력 회복 Lv.2,11000020030003,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+1100003,skill_effect_root,숨 고르기 체력 회복 Lv.3,11000030030003,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+1100004,skill_effect_root,숨 고르기 체력 회복 Lv.4,11000040030003,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+1100005,skill_effect_root,숨 고르기 체력 회복 Lv.5,11000050030003,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+1200001,skill_effect_root,누이의 가호 회복,12000010030003,1200001,[],1000,0,0,0,0,true,0,0,0,0,Buff_HP_Up
+1200051,skill_effect_root,누이의 가호 회복,12000510030003,1200051,[],1000,0,0,0,0,true,0,0,0,0,Buff_HP_Up
+1200052,skill_effect_root,누이의 가호 회복,12000520030003,1200052,[],1000,0,0,0,0,true,0,0,0,0,Buff_HP_Up
+1200053,skill_effect_root,누이의 가호 회복,12000530030003,1200053,[],1000,0,0,0,0,true,0,0,0,0,Buff_HP_Up
+1200054,skill_effect_root,누이의 가호 회복,12000540030003,1200054,[],1000,0,0,0,0,true,0,0,0,0,Buff_HP_Up
+1200055,skill_effect_root,누이의 가호 회복,12000550030003,1200055,[],1000,0,0,0,0,true,0,0,0,0,Buff_HP_Up
+1210606,skill_root,1T 판금 투구(시작템)_프록  Lv.1,12106060020006,,[],1000,0,0,1000,1000,false,0,0,0,0,NS_Aura_Metal_Head2T
+1210607,skill_root,1T 판금 투구(시작템)_프록  Lv.2,12106070020006,,[],1000,0,0,1100,1100,false,0,0,0,0,NS_Aura_Metal_Head2T
+1210608,skill_root,1T 판금 투구(시작템)_프록  Lv.3,12106080020006,,[],1000,0,0,1200,1200,false,0,0,0,0,NS_Aura_Metal_Head2T
+1210609,skill_root,1T 판금 투구(시작템)_프록  Lv.4,12106090020006,,[],1000,0,0,1300,1300,false,0,0,0,0,NS_Aura_Metal_Head2T
+1210610,skill_root,1T 판금 투구(시작템)_프록  Lv.5,12106100020006,,[],1000,0,0,1400,1400,false,0,0,0,0,NS_Aura_Metal_Head2T
+1220606,skill_root,2T 판금 투구(시작템)_프록 Lv.1,12206060020006,,[],1000,0,0,1000,1000,false,0,0,0,0,NS_Aura_Metal_Head2T
+1220607,skill_root,2T 판금 투구(시작템)_프록 Lv.2,12206070020006,,[],1000,0,0,1100,1100,false,0,0,0,0,NS_Aura_Metal_Head2T
+1220608,skill_root,2T 판금 투구(시작템)_프록 Lv.3,12206080020006,,[],1000,0,0,1200,1200,false,0,0,0,0,NS_Aura_Metal_Head2T
+1220609,skill_root,2T 판금 투구(시작템)_프록 Lv.4,12206090020006,,[],1000,0,0,1300,1300,false,0,0,0,0,NS_Aura_Metal_Head2T
+1220610,skill_root,2T 판금 투구(시작템)_프록 Lv.5,12206100020006,,[],1000,0,0,1400,1400,false,0,0,0,0,NS_Aura_Metal_Head2T
+1230606,skill_root,3T 판금 투구(시작템)_프록  Lv.1,12306060020006,,[],1000,0,0,1000,1000,false,0,0,0,0,Buff_HP_Up
+1230607,skill_root,3T 판금 투구(시작템)_프록  Lv.2,12306070020006,,[],1000,0,0,1100,1100,false,0,0,0,0,Buff_HP_Up
+1230608,skill_root,3T 판금 투구(시작템)_프록  Lv.3,12306080020006,,[],1000,0,0,1200,1200,false,0,0,0,0,Buff_HP_Up
+1230609,skill_root,3T 판금 투구(시작템)_프록  Lv.4,12306090020006,,[],1000,0,0,1300,1300,false,0,0,0,0,Buff_HP_Up
+1230610,skill_root,3T 판금 투구(시작템)_프록  Lv.5,12306100020006,,[],1000,0,0,1400,1400,false,0,0,0,0,Buff_HP_Up
+21000003,skill_effect_root,이즈나의 메아리 - 외성 경비대장 데로스의 망령 강화(효과),210000030030003,,[],1000,0,0,0,0,false,0,0,0,0,NS_H_Hit_LeapHeal1
+21610001,skill_root,몬스터 팬텀 공용 회복,216100010020006,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21610002,skill_root,몬스터 팬텀 공용 회복(Self),216100020020006,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21610003,skill_root,몬스터_수습 의무병_회복,216100030020007,,[],1000,100,0,0,0,false,0,0,0,0,Buff_HP_Up_Enchant
+21610004,skill_root,몬스터_피 묻은 손수습 의무병_회복,216100040020007,,[],1000,100,0,0,0,false,0,0,0,0,Buff_HP_Up_Enchant
+21990001,skill_root,테스트_인디케이터_원형_O,219900010020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21990001,skill_effect_root,오크 주술사 회복_Dot,219900010030003,,[],1000,0,0,0,0,true,0,0,0,0,Buff_HP_Up
+21990002,skill_root,테스트_인디케이터_원형_I,219900020020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21990003,skill_root,테스트_인디케이터_삼각_O,219900030020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21990004,skill_root,테스트_인디케이터_삼각_I,219900040020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21990005,skill_root,테스트_인디케이터_사각_O,219900050020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21990006,skill_root,테스트_인디케이터_사각_I,219900060020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21990007,skill_root,테스트_인디케이터_사각_L,219900070020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+21990008,skill_root,테스트_인디케이터_사각_R,219900080020010,,[],1000,0,0,0,0,false,0,0,0,0,Buff_HP_Up
+25610001,skill_root,몬스터 피 묻은 손 지휘관 회복,256100010020006,,[],1000,0,0,0,0,false,0,0,0,0,FX_Bonfire_Heal
+29610001,skill_root,몬스터 피 묻은 손 간부_회복,296100010020006,,[],1000,0,0,0,0,false,0,0,0,0,
+29610001,skill_root,몬스터 피 묻은 손 간부_회복,296100010020009,,[],1000,0,0,0,0,false,0,0,0,0,
+29610001,skill_root,몬스터 피 묻은 손 간부_회복,296100010020012,,[],1000,0,0,0,0,false,0,0,0,0,
+29610001,skill_root,몬스터 피 묻은 손 간부_회복,296100010020015,,[],1000,0,0,0,0,false,0,0,0,0,
+30610001,skill_root,몬스터 부활한 피 묻은 손 간부_회복+소환,306100010020006,,[],1000,0,0,0,0,false,0,0,0,0,
+40610001,skill_effect_root,탈것_주인회복,406100010030003,,[],1000,0,0,0,0,false,0,0,0,0,State_Mount_Heal01

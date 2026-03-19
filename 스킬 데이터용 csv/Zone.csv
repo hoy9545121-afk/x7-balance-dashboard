@@ -1,0 +1,52 @@
+OID,Cid,Comment,ContinentCid,ZoneGroupCid,TitleZoneCid,AreaType,DescName,ZoneOrder,MinLevel,MapPath,SubLevel,RandomLocation,ReturnLocation,RevivalLocation,SubZoneCid,CanSaveMemory,CanSaveLastLoc,BGMId,LevelTitle,StatusChangeCids,IsCommandletArg
+800,800,개인 거주 구역,1,1,800,Housing,개인 거주 구역,800,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[80000],[80000],[80000],,false,true,64,,,true
+901,901,M11 팀테스트 1인 던전 3티어,1,1,901,Normal,망자의 균열: 3단계,901,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[90100],[90100],[90100],,false,true,64,,,true
+902,902,M11 팀테스트 1인 던전 4티어,1,1,902,Normal,망자의 균열: 4단계,902,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[90200],[90200],[90200],,false,true,64,,,true
+903,903,M11 팀테스트 1인 던전 5티어,1,1,903,Normal,망자의 균열: 5단계,903,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[90300],[90300],[90300],,false,true,64,,,true
+904,904,M11 팀테스트 파티 던전 6티어,1,1,904,Normal,되살아난 망령의 제단 (파티),904,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[90400],[90400],[90400],,false,true,64,,,true
+905,905,M11 팀테스트 오픈 던전 ,1,1,905,War,뒤틀린 생명의 균열 (채집),905,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[90500,90501,90502,90503]","[90500,90501,90502,90503]","[90500,90501,90502,90503]",,false,true,64,,,true
+906,906,이즈나의 메아리_이니스 섬 1인 던전,1,10002,906,Normal,이즈나의 메아리,906,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[90601],"[90601,90602]","[90601,90602]","[90601,90602,90603,90604,90605,90606]",false,true,41,,[800029],true
+1000,1000,이니스섬,1,100,1000,Normal,이니스 섬,1,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[100012],[100012],"[100006,100007,100008,100009,100010,100011,100012]","[100001,100002,100003,100004,100005]",false,true,1,,[701],true
+1001,1001,누이 신전,1,10001,1001,Normal,누이 신전,1,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[100100],[100100],[100100],"[100101,100102,100103,100104,100105,100106,100107]",false,true,1,,,true
+1010,1010,"솔즈리드 반도 (바라기 언덕, 푸른 안개 숲, 가라앉은 만)",1,101,1010,Normal,솔즈리드 반도,2,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[101001,101002,101003,101004,101005]",[101001],[101001],"[101001,101002,101003,101004,101005]",false,true,1,,,true
+1011,1011,"솔즈리드 반도 (솔즈리드 평원, 초승달 왕좌, 백월만)",1,101,1011,Normal,솔즈리드 평원,2,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[101101,101102,101103,101104,101105,101106]","[101101,101102]","[101101,101102]","[101101,101102,101103,101104,101105,101106]",false,true,1,,,true
+1012,1012,"솔즈리드 반도 (잊혀진 성, 우윳빛 강 길, 요정의 은신처, 일벌백계의 폐허)",1,101,1012,Normal,솔즈리드 반도,2,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[101201,101202,101203,101204,101205,101206,101207]","[101201,101204]","[101201,101204]","[101201,101202,101203,101204,101205,101206,101207]",false,true,1,,,true
+2001,2001,맵 테스트 존,1,1,2001,War,맵 테스트 존,11,1,/Game/A_X7_Maps/Samples_Map/CombatZone/Test,,[2001],[2001],[2001],,false,true,1,,,false
+2002,2002,인스턴스 던전 존,1,1,2002,War,깨어진 망자의 균열,12,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon,,[9979],[9979],[9979],,false,true,1,,,false
+5001,5001,황금평원,1,1,5001,Normal,황금평원,102,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500101],[500101],[500101],"[20031,20032,20033,20034,20035,20036,20037,20038,20039,20040]",false,true,1,,,true
+5002,5002,Zone2,1,1,5002,Normal,Zone2,103,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500201],[500201],[500201],,false,true,1,,,true
+5003,5003,Zone3,1,1,5003,Normal,Zone3,104,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500301],[500301],[500301],,false,true,1,,,true
+5004,5004,Zone4,1,1,5004,Normal,Zone4,105,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500401],[500401],[500401],,false,true,1,,,true
+5005,5005,Zone5,1,1,5005,Normal,Zone5,106,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500501],[500501],[500501],,false,true,1,,,true
+5006,5006,Zone6,1,1,5006,Normal,Zone6,107,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500601],[500601],[500601],,false,true,1,,,true
+5007,5007,Zone7,1,1,5007,Normal,Zone7,108,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500701],[500701],[500701],,false,true,1,,,true
+5008,5008,Zone8,1,1,5008,Normal,Zone8,109,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500801],[500801],[500801],,false,true,1,,,true
+5009,5009,Zone9,1,1,5009,Normal,Zone9,110,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[500901],"[500901,102901]","[500901,102901]",,false,true,1,,,true
+5010,5010,Zone10,1,1,5010,Normal,Zone10,111,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[501001],[501001],[501001],,false,true,1,,,true
+8000,8000,,1,1,8000,Disputed,12월 바다,115,1,/Game/A_X7_Maps/Samples_Map/Ocean_PT/Ocean_Test,,[8000],[8000],[8000],,false,true,37,,,true
+9000,9000,전투 테스트 존,1,1,9000,War,전투 테스트 존,10,1,/Game/A_X7_Maps/Samples_Map/CombatZone/CombatZoneEmpty,,[9000],[9000],[9000],,false,true,1,,,true
+9001,9001,PVP 테스트 구역,1,9001,9001,War,침묵하는 잔해의 전장,10,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Pvp_Dungeon_Proto,,[900101],"[900101,900102,900103,900104]","[900101,900102,900103,900104]",,false,true,1,,,true
+9011,9011,작은월드파티션1,1,1,9011,War,1번 존,10,1,/Game/A_X7_Maps/Samples_Map/World_1Km/World_1Km,,[9011],[9011],[9011],,false,true,1,,,true
+9012,9012,작은월드파티션2,1,1,9012,War,2번 존,10,1,/Game/A_X7_Maps/Samples_Map/World_1Km/World_1Km,,[9012],[9012],[9012],,false,true,1,,,true
+9013,9013,작은월드파티션3,1,1,9013,War,3번 존,10,1,/Game/A_X7_Maps/Samples_Map/World_1Km/World_1Km,,[9013],[9013],[9013],,false,true,1,,,true
+9979,9979,아트 비주얼 목표 던전,1,100,9979,Normal,이즈나의 메아리,9979,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon,,[9979],[9979],[9979],"[997901,997902,997903,997904,997905,997906]",false,true,41,,[90001],true
+9980,9980,개인 거주구역,1,1,9980,Housing,개인 거주구역,117,1,/Game/A_X7_Maps/Samples_Map/Housing/Housing_01,,[9980],[9980],[9980],,false,true,1,,,false
+9981,9981,망자의 균열 1T,1,1,9981,Normal,망자의 균열 1T,1001,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_1T,,[9981],[9981],[9981],,false,true,1,,,false
+9982,9982,망자의 균열 2T,1,1,9982,Normal,망자의 균열 2T,1002,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_2T,,[9982],[9982],[9982],,false,true,1,,,false
+9983,9983,망자의 균열 3T,1,1,9983,Normal,망자의 균열 3T,1003,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_3T,,[9983],[9983],[9983],,false,true,1,,,false
+9984,9984,망자의 균열 4T,1,1,9984,Normal,망자의 균열 4T,1004,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_4T,,[9984],[9984],[9984],,false,true,1,,,false
+9985,9985,망자의 균열 5T,1,1,9985,Normal,망자의 균열 5T,1005,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_5T,,[9985],[9985],[9985],,false,true,1,,,false
+9986,9986,망자의 균열 6T,1,1,9986,Normal,망자의 균열 6T,1006,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_6T,,[9986],[9986],[9986],,false,true,1,,,false
+9987,9987,망자의 균열 7T,1,1,9987,Normal,망자의 균열 7T,1007,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_7T,,[9987],[9987],[9987],,false,true,1,,,false
+9988,9988,M11 팀테스트 파티 던전,1,1,9988,Normal,되살아난 망령의 제단 (파티),1008,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon_Party,,[9988],[9988],[9988],,false,true,1,,,false
+9989,9989,M11 팀테스트 오픈 던전,1,1,9989,War,뒤틀린 생명의 균열 (채집),1009,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Open_Dungeon,,"[998901,998902,998903,998904]","[998901,998902,998903,998904]","[998901,998902,998903,998904]",,false,true,1,,,false
+9990,9990,,1,1,9990,NormalRevengeable,길드영지,112,1,/Game/A_X7_Maps/Samples_Map/GuildHousing_PT/GuildHousing_PT,,[9990],[9990],[9990],,false,true,1,,,true
+9991,9991,솔로 던전,1,1,9991,War,솔로 던전,121,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon_C,,[9991],[9991],[9991],,false,true,1,,,false
+9992,9992,파티 던전,1,1,9992,War,파티 던전,122,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon_D,,[9992],[9992],[9992],,false,true,1,,,false
+9993,9993,오픈 던전,1,1,9993,War,오픈 던전,123,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon_E,,[9993],[9993],[9993],,false,true,1,,,false
+9994,9994,던전 구현 테스트 존 A,1,1,9994,War,던전 구현 테스트 존 A,118,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon_A,,[9994],[9994],[9994],,false,true,1,,,false
+9995,9995,던전 구현 테스트 존 B,1,1,9995,War,던전 구현 테스트 존 B,119,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon_B,,[9995],[9995],[9995],,false,true,1,,,false
+9996,9996,던전 구현 테스트 존 C,1,1,9996,War,던전 구현 테스트 존 C,120,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon_B,,[9996],[9996],[9996],,false,true,1,,,false
+9997,9997,기획 테스트 존,1,1,9997,War,기획 테스트 존,10,1,/Game/A_X7_Maps/Samples_Map/CombatZone/CombatZone,,[1125],[1125],[1125],[999701],false,true,1,,,true
+9998,9998,,1,1,9998,Disputed,황금 평원,113,1,/Game/Content/+ART/Maps/Golden_Plains_PT/Golden_Plains,,[],[],[],"[20023,20024,20025,20026,20027,20028,20029,20030]",false,true,1,,,false
+9999,9999,,1,1,9999,Normal,이니스 섬,10,1,/Game/A_X7_Maps/Samples_Map/YnisIsland/YnisIsland,,"[999901,999902,999903]",[999902],"[999902,999901]","[999901,999902,999903,999904,999905]",false,true,64,,,true

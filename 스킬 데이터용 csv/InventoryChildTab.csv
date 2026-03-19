@@ -1,0 +1,21 @@
+﻿OID,Cid,Comment,SubCategory,EquipmentCategories,ShipEquipmentCategories,ConsumeKinds,EtcKinds,MonsterCardCategories,SortOrder
+1,1,무기,Weapon,"[OnehandSword,TwohandSword,Dagger,Staff,Bow]",,,,,1
+2,2,방어구,Armor,"[LeatherHelm,PlateHelm,ClothHelm,LeatherArmor,PlateArmor,ClothArmor,LeatherGloves,PlateGloves,ClothGloves,LeatherShoes,PlateShoes,ClothShoes,Cloak]",,,,,2
+3,3,장신구,Accessory,"[Ring,Necklace,Earring]",,,,,3
+4,4,함선 장비,ShipEquipment,,"[Cannon,Ram,Mast,Sail,Rudder,FigureHead,Cargo,LookOut,Lamp,Barrel,Flag]",[Cannonball],,,4
+5,5,물약,Potion,,,[Potion],,,5
+6,6,음식,Food,,,[Food],,,6
+7,7,기타 소모품,Others,,,"[Etc,Scroll,Teleport,MasteryExpBook]",,,7
+8,8,원재료,RawMaterial,,,,"[RawMaterial,Ore,Fiber,Wood,Tanning,Hub,Fruit,Meat]",,8
+9,9,재료,Material,,,,"[Material,Ingot,Fabric,Lumber,Leather]",,9
+10,10,특수재료,SpecialMaterial,,,,"[SpecialMaterial,Core,Loot,Event,Quest]",,10
+11,11,장비 성장,EquipmentEnforce,,,[EquipmentEnhance],,,11
+12,12,스킬 성장,SkillUpgrade,,,[SkillUpgrade],,,12
+13,13,범용 몬스터 카드,Common,,,,,[All],13
+14,14,공격용 몬스터 카드,Attack,,,,,[Attack],14
+15,15,방어용 몬스터 카드,Defense,,,,,[Defense],15
+16,16,등록,Register,,,"[Mount,PetEgg]",,,16
+17,17,상자,Chest,,,[LootBox],,,17
+18,18,특수,Extra,,,"[Doodad,Quest]",,,18
+19,19,가구,Furniture,,,[Furniture],,,19
+20,20,기타,Etc,,,[Coupon],,,20

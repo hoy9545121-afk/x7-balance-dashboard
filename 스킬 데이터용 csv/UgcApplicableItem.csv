@@ -1,0 +1,3 @@
+OID,Cid,Milestone,Comment,ItemCid,UgcSubType,Location,Rotation,Scale,CameraDistanceOffset,MainLightColor,MainLightIntensity,FillLightColor,FillLightIntensity,FillLightSourceRadius,FillLightAttenuationRadius,FillLightLocation
+1,1,Dev,,14030002,Cloak,"(X=0,Y=0,Z=-80)","(X=0,Y=0,Z=-90)",1,340,"(R=255,G=255,B=255)",3,"(R=255,G=255,B=255)",10,0,1000,"(X=150,Y=150,Z=50)"
+2,2,Dev,,14040078,Cloak,"(X=0,Y=0,Z=-80)","(X=0,Y=0,Z=-90)",1,340,"(R=255,G=255,B=255)",3,"(R=255,G=255,B=255)",10,0,1000,"(X=150,Y=150,Z=50)"

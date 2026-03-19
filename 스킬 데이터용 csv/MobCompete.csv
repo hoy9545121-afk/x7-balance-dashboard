@@ -1,0 +1,2 @@
+﻿OID,Cid,Comment,Name,ZoneCid,DungeonCid,ContentKind,ConditionId,RecordKind,SignTime,StartTime,PlayTime,EndRule,WorldLocationCid,SpawnerCid,HarvestLocationCid,ForceOutAfter,MobStatusChangeCids,MobStatusChangeTimes,MailLootGroupCid,WinMsg,RewardMsg,BGMId,ShowLootItem
+1,1,dummy,dummy,9999,100,LocalCompete,0,GuildPlusOne,180,21:00:00,1200,EndTime,9990,1,9990,0,,,,{0}길드가 아우스토를 처치했습니다.,{0}길드가 대해적의 안식처 입장 권한을 받았습니다.,0,FALSE

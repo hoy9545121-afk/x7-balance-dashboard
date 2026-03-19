@@ -1,0 +1,27 @@
+﻿OID,Cid,Milestone,Comment,StatExposeType,SortOrder,StatName,StatExposeKind
+1001,1001,Dev,공격력,Main,1,AttackVary,Class
+1002,1002,Dev,물리 방어력,Main,2,PhysicalDefenseVary,Class
+1003,1003,Dev,마법 방어력,Main,3,MagicDefenseVary,Class
+2001,2001,Dev,공격 속도,Detail,4,AtkSpeedVaryper,Class
+2002,2002,Dev,이동 속도,Detail,5,MoveSpeedVaryper,Class
+2003,2003,Dev,최대 체력,Detail,7,MaxHpVary,Class
+2004,2004,Dev,최대 마력,Detail,8,MaxMpVary,Class
+2005,2005,Dev,체력 지속 회복량,Detail,9,RegenHpVary,Class
+2006,2006,Dev,마력 지속 회복량,Detail,10,RegenMpVary,Class
+2007,2007,Dev,주는 피해 증가,Detail,11,DamageUpVaryper,Class
+2008,2008,Dev,받는 피해 감소,Detail,12,DamageDownVaryper,Class
+2009,2009,Dev,물리 피해 증가,Detail,13,PhysicalDamageUpVaryper,Class
+2010,2010,Dev,물리 피해 감소,Detail,14,PhysicalDamageDownVaryper,Class
+2011,2011,Dev,마법 피해 증가,Detail,15,MagicDamageUpVaryper,Class
+2012,2012,Dev,마법 피해 감소,Detail,16,MagicDamageDownVaryper,Class
+2013,2013,Dev,PVE 대미지 증가,Detail,17,PVEDamageUpVaryper,Class
+2014,2014,Dev,PVE 대미지 감소,Detail,18,PVEDamageDownVaryper,Class
+2015,2015,Dev,PVP 대미지 증가,Detail,19,PVPDamageUpVaryper,Class
+2016,2016,Dev,PVP 대미지 감소,Detail,20,PVPDamageDownVaryper,Class
+2017,2017,Dev,회피,Detail,21,DodgeVaryper,Class
+2018,2018,Dev,치명타 확률,Detail,22,CriVaryper,Class
+2019,2019,Dev,치명타 피해 증가,Detail,23,CriDamageVaryper,Class
+2022,2022,Dev,스킬 가속,Detail,24,SkillCooldownAccVary,Class
+2023,2023,Dev,상태 이상 회복,Detail,25,SCNegativeRecoveryVary,Class
+2024,2024,Dev,마나 소모량 감소,Detail,26,CostMpDownVaryper,Class
+2025,2025,Dev,탈 것 이동 속도,Detail,6,MountSpeedVaryper,Class

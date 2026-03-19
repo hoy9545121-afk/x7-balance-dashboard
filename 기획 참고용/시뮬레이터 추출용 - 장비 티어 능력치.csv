@@ -1,0 +1,30 @@
+종류,최대 착용 개수,티어,능력치 타입,수치
+무기,1,Tier1,AttackVary,60
+무기,1,Tier2,AttackVary,80
+무기,1,Tier3,AttackVary,120
+무기,1,Tier4,AttackVary,180
+무기,1,Tier5,AttackVary,260
+무기,1,Tier6,AttackVary,360
+무기,1,Tier7,AttackVary,480
+방어구,"[투구, 갑옷, 장갑, 신발]",Tier1,DefenseVary,30
+방어구,"[투구, 갑옷, 장갑, 신발]",Tier2,DefenseVary,40
+방어구,"[투구, 갑옷, 장갑, 신발]",Tier3,DefenseVary,60
+방어구,"[투구, 갑옷, 장갑, 신발]",Tier4,DefenseVary,90
+방어구,"[투구, 갑옷, 장갑, 신발]",Tier5,DefenseVary,130
+방어구,"[투구, 갑옷, 장갑, 신발]",Tier6,DefenseVary,180
+방어구,"[투구, 갑옷, 장갑, 신발]",Tier7,DefenseVary,240
+장신구(반지),"[왼쪽, 오른쪽]",Tier3,AttackVary,30
+장신구(반지),"[왼쪽, 오른쪽]",Tier4,AttackVary,45
+장신구(반지),"[왼쪽, 오른쪽]",Tier5,AttackVary,65
+장신구(반지),"[왼쪽, 오른쪽]",Tier6,AttackVary,90
+장신구(반지),"[왼쪽, 오른쪽]",Tier7,AttackVary,120
+장신구(목걸이),1,Tier3,DefenseVary,60
+장신구(목걸이),1,Tier4,DefenseVary,90
+장신구(목걸이),1,Tier5,DefenseVary,130
+장신구(목걸이),1,Tier6,DefenseVary,180
+장신구(목걸이),1,Tier7,DefenseVary,240
+장신구(귀걸이),1,Tier3,DefenseVary,60
+장신구(귀걸이),1,Tier4,DefenseVary,90
+장신구(귀걸이),1,Tier5,DefenseVary,130
+장신구(귀걸이),1,Tier6,DefenseVary,180
+장신구(귀걸이),1,Tier7,DefenseVary,240

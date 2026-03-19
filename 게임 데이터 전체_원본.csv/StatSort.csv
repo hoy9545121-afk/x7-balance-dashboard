@@ -1,0 +1,37 @@
+﻿OID,Cid,Milestone,Comment,Kind,Category,SortOrder,CanImbue
+1001,1001,Dev,공격력,Attack,AttackVary,1,TRUE
+1002,1002,Dev,공격 속도,Attack,MoveSpeedVaryper,2,TRUE
+1003,1003,Dev,주는 피해 증가,Attack,DamageUpVaryper,3,TRUE
+1004,1004,Dev,물리 피해 증가,Attack,PhysicalDamageUpVaryper,4,TRUE
+1005,1005,Dev,마법 피해 증가,Attack,MagicDamageUpVaryper,5,TRUE
+1006,1006,Dev,PVE 대미지 증가,Attack,PVEDamageUpVaryper,6,TRUE
+1007,1007,Dev,PVP 대미지 증가,Attack,PVPDamageUpVaryper,7,TRUE
+1008,1008,Dev,치명타 확률,Attack,CriVaryper,8,TRUE
+1009,1009,Dev,치명타 피해,Attack,CriDamageVaryper,9,TRUE
+2001,2001,Dev,방어력,Defence,DefenseVary,10,TRUE
+2002,2002,Dev,물리 방어력,Defence,PhysicalDefenseVary,10,TRUE
+2003,2003,Dev,마법 방어력,Defence,MagicDefenseVary,11,TRUE
+2004,2004,Dev,받는 피해 감소,Defence,DamageDownVaryper,12,TRUE
+2005,2005,Dev,물리 피해 감소,Defence,PhysicalDamageDownVaryper,13,TRUE
+2006,2006,Dev,마법 피해 감소,Defence,MagicDamageDownVaryper,14,TRUE
+2007,2007,Dev,PVE 대미지 감소,Defence,PVEDamageDownVaryper,15,TRUE
+2008,2008,Dev,PVP 대미지 감소,Defence,PVPDamageDownVaryper,16,TRUE
+2009,2009,Dev,회피,Defence,DodgeVaryper,17,TRUE
+3001,3001,Dev,이동 속도,Etc,AtkSpeedVaryper,18,TRUE
+3002,3002,Dev,HP,Etc,MaxHpVary,19,TRUE
+3003,3003,Dev,MP,Etc,MaxMpVary,20,TRUE
+3004,3004,Dev,HP 회복량,Etc,RegenHpVary,21,TRUE
+3005,3005,Dev,MP 회복량,Etc,RegenMpVary,22,TRUE
+3006,3006,Dev,상태 이상 저항,Etc,SCNegativeAllResistVaryper,23,TRUE
+3009,3009,Dev,공격력 증가,Etc,AttackVaryper,26,TRUE
+3010,3010,Dev,추가 공격력,Etc,AddAttackVary,27,TRUE
+3011,3011,Dev,방어력 증가,Etc,DefenseVaryper,28,TRUE
+3012,3012,Dev,추가 물리 방어력,Etc,AddPhysicalDefenseVary,29,TRUE
+3013,3013,Dev,추가 마법 방어력,Etc,AddMagicDefenseVary,30,TRUE
+3014,3014,Dev,최대 생명력 증가,Etc,MaxHpVaryper,31,TRUE
+3015,3015,Dev,최대 마력 증가,Etc,MaxMpVaryper,32,TRUE
+3016,3016,Dev,추가 최대 생명력,Etc,AddMaxHpVary,33,TRUE
+3017,3017,Dev,추가 최대 마력,Etc,AddMaxMpVary,34,TRUE
+3018,3018,Dev,스킬 가속,Etc,SkillCooldownAccVary,35,TRUE
+3019,3019,Dev,상태 이상 회복,Etc,SCNegativeRecoveryVary,36,TRUE
+3020,3020,Dev,마나 소모량 감소,Etc,CostMpDownVaryper,37,TRUE

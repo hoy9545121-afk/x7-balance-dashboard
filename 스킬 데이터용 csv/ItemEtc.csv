@@ -1,0 +1,124 @@
+﻿OID,Cid,Milestone,Comment,EtcCategory,EtcKind
+50110001,50110001,Dev,하급 숫돌,RawMaterial,Material
+50130001,50130001,Dev,중급 숫돌,RawMaterial,Material
+50160001,50160001,Dev,상급 숫돌,RawMaterial,Material
+51010001,51010001,Dev,1T 광석,RawMaterial,Ore
+51010002,51010002,Dev,1T 섬유,RawMaterial,Fiber
+51010003,51010003,Dev,1T 통나무,RawMaterial,Wood
+51010004,51010004,Dev,1T 가죽,RawMaterial,Tanning
+51010005,51010005,Dev,1T허브_섬유 부산물,RawMaterial,Hub
+51010006,51010006,Dev,1T열매_나무 부산물,RawMaterial,Fruit
+51010007,51010007,Dev,1T고기_무두질 부산물,RawMaterial,Meat
+51020001,51020001,Dev,2T 광석,RawMaterial,Ore
+51020002,51020002,Dev,2T 섬유,RawMaterial,Fiber
+51020003,51020003,Dev,2T 통나무,RawMaterial,Wood
+51020004,51020004,Dev,2T 가죽,RawMaterial,Tanning
+51030001,51030001,Dev,3T 광석,RawMaterial,Ore
+51030002,51030002,Dev,3T 섬유,RawMaterial,Fiber
+51030003,51030003,Dev,3T 통나무,RawMaterial,Wood
+51030004,51030004,Dev,3T 가죽,RawMaterial,Tanning
+51030005,51030005,Dev,3T허브_섬유 부산물,RawMaterial,Hub
+51030006,51030006,Dev,3T열매_나무 부산물,RawMaterial,Fruit
+51030007,51030007,Dev,3T고기_무두질 부산물,RawMaterial,Meat
+51040001,51040001,Dev,4T 광석,RawMaterial,Ore
+51040002,51040002,Dev,4T 섬유,RawMaterial,Fiber
+51040003,51040003,Dev,4T 통나무,RawMaterial,Wood
+51040004,51040004,Dev,4T 가죽,RawMaterial,Tanning
+51050001,51050001,Dev,5T 광석,RawMaterial,Ore
+51050002,51050002,Dev,5T 섬유,RawMaterial,Fiber
+51050003,51050003,Dev,5T 통나무,RawMaterial,Wood
+51050004,51050004,Dev,5T 가죽,RawMaterial,Tanning
+51050005,51050005,Dev,5T허브_섬유 부산물,RawMaterial,Hub
+51050006,51050006,Dev,5T열매_나무 부산물,RawMaterial,Fruit
+51050007,51050007,Dev,5T고기_무두질 부산물,RawMaterial,Meat
+51060001,51060001,Dev,6T 광석,RawMaterial,Ore
+51060002,51060002,Dev,6T 섬유,RawMaterial,Fiber
+51060003,51060003,Dev,6T 통나무,RawMaterial,Wood
+51060004,51060004,Dev,6T 가죽,RawMaterial,Tanning
+51070001,51070001,Dev,7T 광석,RawMaterial,Ore
+51070002,51070002,Dev,7T 섬유,RawMaterial,Fiber
+51070003,51070003,Dev,7T 통나무,RawMaterial,Wood
+51070004,51070004,Dev,7T 가죽,RawMaterial,Tanning
+51070005,51070005,Dev,7T허브_섬유 부산물,RawMaterial,Hub
+51070006,51070006,Dev,7T열매_나무 부산물,RawMaterial,Fruit
+51070007,51070007,Dev,7T고기_무두질 부산물,RawMaterial,Meat
+52010001,52010001,Dev,구리 주괴,Material,Ingot
+52010002,52010002,Dev,목화 천,Material,Fabric
+52010003,52010003,Dev,삼나무 목재,Material,Lumber
+52010004,52010004,Dev,1T 피혁,Material,Leather
+52020001,52020001,Dev,주석 주괴,Material,Ingot
+52020002,52020002,Dev,아마꽃 천,Material,Fabric
+52020003,52020003,Dev,단풍나무 목재,Material,Lumber
+52020004,52020004,Dev,2T 피혁,Material,Leather
+52030001,52030001,Dev,철 주괴,Material,Ingot
+52030002,52030002,Dev,모시풀 천,Material,Fabric
+52030003,52030003,Dev,참나무 목재,Material,Lumber
+52030004,52030004,Dev,3T 피혁,Material,Leather
+52040001,52040001,Dev,자수정 주괴,Material,Ingot
+52040002,52040002,Dev,별빛초 천,Material,Fabric
+52040003,52040003,Dev,자작나무 목재,Material,Lumber
+52040004,52040004,Dev,4T 피혁,Material,Leather
+52050001,52050001,Dev,청수정 주괴,Material,Ingot
+52050002,52050002,Dev,달빛초 천,Material,Fabric
+52050003,52050003,Dev,호두나무 목재,Material,Lumber
+52050004,52050004,Dev,5T 피혁,Material,Leather
+52060001,52060001,Dev,황수정 주괴,Material,Ingot
+52060002,52060002,Dev,햇빛초 천,Material,Fabric
+52060003,52060003,Dev,흑단나무 목재,Material,Lumber
+52060004,52060004,Dev,6T 피혁,Material,Leather
+52070001,52070001,Dev,7T 주괴,Material,Ingot
+52070002,52070002,Dev,7T 천,Material,Fabric
+52070003,52070003,Dev,7T 목재,Material,Lumber
+52070004,52070004,Dev,7T 피혁,Material,Leather
+53010003,53010003,Dev,영혼 정수,Material,SpecialMaterial
+53010004,53010004,Dev,고대 주화,Material,SpecialMaterial
+53010005,53010005,Dev,놀의 인장,Material,Loot
+53020001,53020001,Dev,희미한 적색 아키움,Material,Core
+53020002,53020002,Dev,희미한 청색 아키움,Material,Core
+53020003,53020003,Dev,포식자의 송곳니,Material,Loot
+53020004,53020004,Dev,마수의 다리뼈,Material,Loot
+53020005,53020005,Dev,아키움 결정,Material,Loot
+53030001,53030001,Dev,빛나는 적색 아키움,Material,Core
+53030002,53030002,Dev,빛나는 청색 아키움,Material,Core
+53030003,53030003,Dev,녹색 아키움(탈 것 코어) 티어 3,Material,Core
+53030004,53030004,Dev,황색 아키움(펫 코어) 티어 3,Material,Core
+53030005,53030005,Dev,날카로운 포식자 송곳니,Material,Loot
+53030006,53030006,Dev,굵은 마수의 다리뼈,Material,Loot
+53030007,53030007,Dev,정수: 유체화,Material,Material
+53030008,53030008,Dev,정수: 고양,Material,Material
+53030009,53030009,Dev,정수: 점멸,Material,Material
+53030010,53030010,Dev,정수: 정화,Material,Material
+53030011,53030011,Dev,정수: 회복,Material,Material
+53030012,53030012,Dev,정수: 방어막,Material,Material
+53030013,53030013,Dev,정수: 탈진,Material,Material
+53030014,53030014,Dev,정수: 억제,Material,Material
+53030015,53030015,Dev,정수: 총명,Material,Material
+53030016,53030016,Dev,정수: 점화,Material,Material
+53030017,53030017,Dev,일회용 락픽,Material,Material
+53030018,53030018,Dev,장식된 열쇠,Material,Material
+53030019,53030019,Dev,장식된 열쇠,Material,Material
+53030020,53030020,Dev,나차쉬의 파편: 폭발,Material,Material
+53030050,53030050,Dev,빛나는 적색 아키움(슈퍼 무기 코어) 티어 3,Material,Core
+53030100,53030100,Dev,빛나는 청색 아키움(슈퍼 방어구 코어) 티어 3,Material,Core
+53040001,53040001,Dev,적색 아키움(무기 코어) 티어 4,Material,Core
+53040002,53040002,Dev,청색 아키움(방어구 코어) 티어 4,Material,Core
+53040003,53040003,Dev,녹색 아키움(탈 것 코어) 티어 4,Material,Core
+53040004,53040004,Dev,황색 아키움(펫 코어) 티어 4,Material,Core
+53050001,53050001,Dev,적색 아키움(무기 코어) 티어 5,Material,Core
+53050002,53050002,Dev,청색 아키움(방어구 코어) 티어 5,Material,Core
+53050003,53050003,Dev,녹색 아키움(탈 것 코어) 티어 5,Material,Core
+53050004,53050004,Dev,황색 아키움(펫 코어) 티어 5,Material,Core
+53060001,53060001,Dev,적색 아키움(무기 코어) 티어 6,Material,Core
+53060002,53060002,Dev,청색 아키움(방어구 코어) 티어 6,Material,Core
+53060003,53060003,Dev,녹색 아키움(탈 것 코어) 티어 6,Material,Core
+53060004,53060004,Dev,황색 아키움(펫 코어) 티어 6,Material,Core
+53070001,53070001,Dev,적색 아키움(무기 코어) 티어 7,Material,Core
+53070002,53070002,Dev,청색 아키움(방어구 코어) 티어 7,Material,Core
+53070003,53070003,Dev,녹색 아키움(탈 것 코어) 티어 7,Material,Core
+53070004,53070004,Dev,황색 아키움(펫 코어) 티어 7,Material,Core
+53070100,53070100,Dev,무기 파괴 방지석,Material,SpecialMaterial
+53990001,53990001,Dev,TEST 상점 판매 100만 골드,Material,SpecialMaterial
+53990002,53990002,Dev,TEST 상점 구매 델피나드의 별,Material,SpecialMaterial
+53990003,53990003,Dev,TEST 상점 구매 에노아의 태양,Material,SpecialMaterial
+53990004,53990004,Dev,TEST 상점 판매 나비,Material,SpecialMaterial
+80100001,80100001,Dev,식재료 꾸러미,Material,Quest
