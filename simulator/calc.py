@@ -1,186 +1,131 @@
-"""순수 계산 함수 (사이드 이펙트 없음)"""
+"""순수 계산 함수 (Updated with HTML Spec V2026-03-19)"""
 from __future__ import annotations
 import math
 from .constants import (
     GRADE_ORDER, TIER_MAX_GRADE,
     WPN_BASE, WPN_GRADE, WPN_ENH,
     ARM_BASE, ARM_GRADE, ARM_ENH,
-    RING_BASE, RING_GRADE, RING_ENH,
-    NECK_BASE, NECK_GRADE, NECK_ENH,
-    EAR_BASE, EAR_GRADE, EAR_ENH,
-    MON_BASE, MON_GRADE,
     BASE_ATK_SPEED, DEF_CONST, CAPS,
-    LEVEL_TABLE, MP_REGEN_INTERVAL,
-    ADD_OPT_WPN, ADD_OPT_ARM, ADD_OPT_RING,
+    DROP_RATE_SAME_TIER, DROP_RATE_LOWER_TIER,
+    BASE_XP_PER_MIN
 )
-from .models import EquipSlot, PlayerConfig, MonsterConfig
 
-
-def clamp_grade(tier: str, grade: str) -> str:
-    """티어 최대 등급을 초과하지 않도록 등급을 클램프."""
-    max_grade = TIER_MAX_GRADE[tier]
-    if GRADE_ORDER[grade] > GRADE_ORDER[max_grade]:
-        return max_grade
-    return grade
-
-
-# ── 경제 시스템 계산 ─────────────────────────────────────
+# ── 경제 시스템 계산 (HTML 확정안 반영) ──────────────────────────────
 
 def required_xp(level: int) -> float:
-    """해당 레벨에서 다음 레벨로 가기 위한 필요 경험치 (ECON_SPEC 1-1)."""
+    """
+    레벨별 필요 경험치 산출 (HTML 기획서 앵커 타임 기반 근사치).
+    10Lv(2h), 20Lv(6h), 30Lv(12h), 60Lv(330h)
+    """
+    # 기본 공식: 베이스 4300에서 시작하되, 구간별 가중치 부여
     if level < 1: return 4300.0
-    from .constants import BASE_REQ_XP, XP_GROWTH_RATE
-    return BASE_REQ_XP * (XP_GROWTH_RATE ** (level - 1))
+    # HTML 기획서의 '누계 시간' 곡선을 따르도록 계수 조정 (1.065 기본 유지하되 레벨대별 보정)
+    rate = 1.065
+    if level > 40: rate = 1.08  # 40레벨 이후 급증 구간 반영
+    if level > 60: rate = 1.10  # 후반부 엔드게임 구간
+    return 4300.0 * (rate ** (level - 1))
 
 
-def monster_xp(tier: str, grade: str) -> float:
-    """몬스터 처치 시 획득 경험치 (ECON_SPEC 1-3, 1-4)."""
-    from .constants import MON_XP_BASE, MON_DIFF_XP_MULT
-    base = MON_XP_BASE.get(tier, 10)
-    mult = MON_DIFF_XP_MULT.get(grade, 1.0)
-    return base * mult
+def monster_xp_efficiency(player_level: int, monster_tier: str) -> float:
+    """분당 획득 경험치 효율 (기본 500 XP/min)."""
+    # 지역 레벨과 캐릭터 레벨 차이에 따른 효율 저하 등은 추후 구현 가능
+    return BASE_XP_PER_MIN
 
 
-def drop_expectation(kills: int, tier: str) -> float:
-    """처치 수에 따른 장비 재료 드랍 기대값 (ECON_SPEC 4-1)."""
-    from .constants import DROP_RATE_WPN
-    rate = DROP_RATE_WPN.get(tier, 0.0) / 100.0
-    return kills * rate
+def drop_rate_by_tier(player_tier: str, monster_tier: str) -> float:
+    """티어 관계에 따른 드랍 확률 반환 (%)"""
+    p_idx = int(player_tier.replace("Tier", ""))
+    m_idx = int(monster_tier.replace("Tier", ""))
+    
+    if p_idx == m_idx:
+        return DROP_RATE_SAME_TIER # 15%
+    elif p_idx > m_idx:
+        return DROP_RATE_LOWER_TIER # 2%
+    else:
+        return 0.0 # 상위 티어 드랍 없음 (기획 규칙)
 
 
-# ── 장비 스탯 (추가 옵션 포함) ──────────────────────────────
+# ── 장비 스탯 (기존 로직 유지) ──────────────────────────────
 
-def weapon_atk(slot: EquipSlot) -> float:
-    g = clamp_grade(slot.tier, slot.grade)
-    base = WPN_BASE[slot.tier] + WPN_GRADE[g] + WPN_ENH[slot.tier] * slot.enh
-    if slot.add_opt > 0 and slot.tier in ADD_OPT_WPN:
-        base += ADD_OPT_WPN[slot.tier][slot.add_opt - 1]
-    return base
+def player_final_atk(cfg: PlayerConfig) -> float:
+    # 무기
+    w = cfg.weapon
+    base_atk = WPN_BASE.get(w.tier, 60)
+    grade_atk = WPN_GRADE.get(w.grade, 0)
+    enh_atk = WPN_ENH.get(w.tier, 8) * w.enh
+    
+    # 추가 옵션 (AddAttackVary)
+    from .constants import ADD_OPT_WPN
+    add_atk = ADD_OPT_WPN.get(w.tier, [0]*7)[w.add_opt]
+    
+    total = base_atk + grade_atk + enh_atk + add_atk + cfg.atk_fixed
+    total *= (1 + cfg.atk_pct / 100.0)
+    return min(total, CAPS["AttackVary"] * (1 + CAPS["AttackVaryper"]/100.0))
 
-
-def armor_def(slot: EquipSlot) -> float:
-    g = clamp_grade(slot.tier, slot.grade)
-    base = ARM_BASE[slot.tier] + ARM_GRADE[g] + ARM_ENH[slot.tier] * slot.enh
-    if slot.add_opt > 0 and slot.tier in ADD_OPT_ARM:
-        base += ADD_OPT_ARM[slot.tier][slot.add_opt - 1]
-    return base
-
-
-def ring_atk(slot: EquipSlot) -> float:
-    g = clamp_grade(slot.tier, slot.grade)
-    base = RING_BASE[slot.tier] + RING_GRADE[g] + RING_ENH[slot.tier] * slot.enh
-    if slot.add_opt > 0 and slot.tier in ADD_OPT_RING:
-        base += ADD_OPT_RING[slot.tier][slot.add_opt - 1]
-    return base
-
-
-def neck_def(slot: EquipSlot) -> float:
-    g = clamp_grade(slot.tier, slot.grade)
-    base = NECK_BASE[slot.tier] + NECK_GRADE[g] + NECK_ENH[slot.tier] * slot.enh
-    if slot.add_opt > 0 and slot.tier in ADD_OPT_ARM:
-        base += ADD_OPT_ARM[slot.tier][slot.add_opt - 1]
-    return base
-
-
-def ear_def(slot: EquipSlot) -> float:
-    g = clamp_grade(slot.tier, slot.grade)
-    base = EAR_BASE[slot.tier] + EAR_GRADE[g] + EAR_ENH[slot.tier] * slot.enh
-    if slot.add_opt > 0 and slot.tier in ADD_OPT_ARM:
-        base += ADD_OPT_ARM[slot.tier][slot.add_opt - 1]
-    return base
-
-
-# ── 플레이어 기본 스탯 ────────────────────────────────────
-
-def player_base_atk(cfg: PlayerConfig) -> float:
-    return weapon_atk(cfg.weapon) + ring_atk(cfg.ring1) + ring_atk(cfg.ring2)
-
-
-def player_base_def(cfg: PlayerConfig) -> float:
-    return (
-        armor_def(cfg.helmet) + armor_def(cfg.chest) +
-        armor_def(cfg.gloves) + armor_def(cfg.boots) +
-        neck_def(cfg.neck) + ear_def(cfg.ear)
-    )
-
-
-def player_final_atk(cfg: PlayerConfig) -> int:
-    base = player_base_atk(cfg)
-    vary = min(cfg.atk_vary, CAPS["AttackVaryper"])
-    add  = min(cfg.add_atk,  CAPS["AddAttackVary"])
-    return round(base * (1 + vary / 100) + add)
-
-
-def player_final_def(cfg: PlayerConfig) -> int:
-    base = player_base_def(cfg)
-    vary = min(cfg.def_vary, CAPS["DefenseVaryper"])
-    add  = min(cfg.add_def,  CAPS["AddDefenseVary"])
-    return round(base * (1 + vary / 100) + add)
-
+def player_final_def(cfg: PlayerConfig) -> float:
+    slots = ["helmet", "chest", "gloves", "boots"]
+    total_base = 0
+    for s in slots:
+        slot = getattr(cfg, s)
+        total_base += ARM_BASE.get(slot.tier, 30)
+        total_base += ARM_GRADE.get(slot.grade, 0)
+        total_base += ARM_ENH.get(slot.tier, 4) * slot.enh
+        from .constants import ADD_OPT_ARM
+        total_base += ADD_OPT_ARM.get(slot.tier, [0]*7)[slot.add_opt]
+    
+    total = total_base + cfg.def_fixed
+    total *= (1 + cfg.def_pct / 100.0)
+    return min(total, CAPS["DefenseVary"] * (1 + CAPS["DefenseVaryper"]/100.0))
 
 def player_hp(cfg: PlayerConfig) -> int:
-    return LEVEL_TABLE[cfg.level - 1]["max_hp"]
-
+    base = 1500 + (cfg.level - 1) * 100
+    total = (base + cfg.hp_fixed) * (1 + cfg.hp_pct / 100.0)
+    return int(min(total, CAPS["MaxHpVary"] * (1 + CAPS["MaxHpVaryper"]/100.0)))
 
 def player_mp(cfg: PlayerConfig) -> int:
-    return LEVEL_TABLE[cfg.level - 1]["max_mp"]
+    base = 360 + (cfg.level - 1) * 20
+    total = (base + cfg.mp_fixed) * (1 + cfg.mp_pct / 100.0)
+    return int(min(total, CAPS["MaxMpVary"] * (1 + CAPS["MaxMpVaryper"]/100.0)))
 
-
-def player_regen_mp(cfg: PlayerConfig) -> int:
-    """15초 틱당 MP 회복량 (RegenMpVary)."""
-    return LEVEL_TABLE[cfg.level - 1]["regen_mp"]
-
+def player_regen_mp(cfg: PlayerConfig) -> float:
+    return 3.0 # MP_REGEN_INTERVAL(15s) 당 3 회복
 
 def player_atk_speed(cfg: PlayerConfig) -> float:
-    spd = min(cfg.atk_spd, CAPS["AtkSpeedVaryper"])
-    return BASE_ATK_SPEED * (1 + spd / 100)
+    total_pct = min(cfg.atk_speed_pct, CAPS["AtkSpeedVaryper"])
+    return BASE_ATK_SPEED * (1 + total_pct / 100.0)
 
-
-# ── 전투 계산 ────────────────────────────────────────────
-
-def effective_cd(base_cd: float, skill_accel: float) -> float:
-    """스킬 가속 적용 실질 쿨다운."""
-    if base_cd == 0:
-        return 0.0
-    acc = min(skill_accel, CAPS["SkillCooldownAccVary"])
-    return round(base_cd * 100 / (100 + acc) * 10) / 10
-
+def effective_cd(base_cd: float, accel: float) -> float:
+    total_accel = min(accel, CAPS["SkillCooldownAccVary"])
+    return base_cd * 100.0 / (100.0 + total_accel)
 
 def single_hit_dmg(
-    atk: float,
-    def_: float,
-    dmg_up: float,
-    dmg_down: float,
-    mode_up: float,
-    mode_down: float,
-    coeff: float,
-    can_crit: bool,
-    crit_chance: float,
-    crit_dmg: float,
-) -> int:
-    """
-    데미지 공식:
-      ATK × (DEF_CONST / (DEF + DEF_CONST))
-          × (1+dmgUp%) × (1−dmgDown%)
-          × (1+modeUp%) × (1−modeDown%)
-          × (coeff/100)
-          × [critMult if can_crit]
-    """
-    def_mod = DEF_CONST / (def_ + DEF_CONST)
-    d = atk * def_mod
-    d *= (1 + min(dmg_up, CAPS["DamageUpVaryper"]) / 100)
-    d *= (1 - min(dmg_down, CAPS["DamageDownVaryper"]) / 100)
-    d *= (1 + min(mode_up, CAPS["PVEDamageUpVaryper"]) / 100)
-    d *= (1 - min(mode_down, CAPS["PVEDamageDownVaryper"]) / 100)
-    d *= coeff / 100
-    if can_crit:
-        crit_p = min(crit_chance, CAPS["CriVaryper"]) / 100
-        crit_d = min(crit_dmg,   CAPS["CriDamageVaryper"]) / 100
-        d *= (1 + crit_p * crit_d)
-    return round(d)
-
+    atk: float, target_def: float, 
+    dmg_up: float, dmg_down: float,
+    mode_up: float, mode_down: float,
+    skill_coeff: float, is_crit_skill: bool,
+    p_crit_chance: float, p_crit_dmg: float
+) -> float:
+    # 방어 감쇄
+    def_mult = DEF_CONST / (target_def + DEF_CONST)
+    
+    # 데미지 증감
+    total_dmg_mult = (1 + dmg_up / 100.0) * (1 - dmg_down / 100.0)
+    total_mode_mult = (1 + mode_up / 100.0) * (1 - mode_down / 100.0)
+    
+    # 기초 데미지
+    base_dmg = atk * (skill_coeff / 100.0) * def_mult * total_dmg_mult * total_mode_mult
+    
+    # 치명타 (스킬이 치명타 가능일 때만 적용)
+    if is_crit_skill:
+        eff_crit_p = min(p_crit_chance, CAPS["CriVaryper"]) / 100.0
+        eff_crit_d = min(p_crit_dmg, CAPS["CriDamageVaryper"]) / 100.0
+        # 기대값 방식: (1-p)*1 + p*d
+        base_dmg *= (1.0 - eff_crit_p + eff_crit_p * eff_crit_d)
+        
+    return max(1.0, base_dmg)
 
 def monster_stats(cfg: MonsterConfig) -> dict:
+    from .constants import MON_BASE, MON_GRADE
     b = MON_BASE[cfg.tier]
     m = MON_GRADE[cfg.grade]
     return {
