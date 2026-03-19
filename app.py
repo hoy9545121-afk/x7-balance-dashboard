@@ -7,6 +7,7 @@ from ui.monster_panel import render_monster_config
 from ui.battle_viewer import render_pve_battle_arena, render_pvp_battle_arena
 from ui.pve_results import render_pve_results
 from ui.pvp_results import render_pvp_results
+from ui.growth_view import render_growth_view
 
 # 설정
 st.set_page_state = {
@@ -87,20 +88,23 @@ st.title("⚔ X7 전투 시뮬레이터")
 # 1. 사이드바 - 전역 설정
 with st.sidebar:
     st.header("⚙ 모드 설정")
-    mode = st.radio("전투 모드", ["PVE", "PVP"], horizontal=False)
+    mode = st.radio("시뮬레이션 모드", ["PVE", "PVP", "📈 성장 밸런스"], horizontal=False)
     st.divider()
-    st.info("💡 장비 티어와 등급, 강화도를 설정하여 전투 효율을 시뮬레이션하세요.")
+    st.info("💡 전투 및 성장 데이터를 시뮬레이션하여 밸런스를 검증하세요.")
 
 # 세션 상태 초기화
+# ... (기존 코드 유지)
 if "p1" not in st.session_state:
     st.session_state["p1"] = PlayerConfig(weapon_type="양손검")
 if "p2" not in st.session_state:
     st.session_state["p2"] = PlayerConfig(weapon_type="한손검")
 if "monster" not in st.session_state:
     st.session_state["monster"] = MonsterConfig()
+
 # 2. 메인 화면 레이아웃
 if mode == "PVE":
     m_col, p1_col, p2_col = st.columns([1, 1, 1])
+    # ... (기존 PVE 렌더링 코드)
     with m_col:
         st.session_state["monster"] = render_monster_config()
     with p1_col:
@@ -117,10 +121,10 @@ if mode == "PVE":
     st.markdown("<br>", unsafe_allow_html=True)
     render_pve_results(result, p1, p2, monster)
 
-
-else:
+elif mode == "PVP":
     # PVP 모드
     c1, c2 = st.columns(2)
+    # ... (기존 PVP 렌더링 코드)
     with c1:
         st.session_state["p1"] = render_player_config("Player 1 (Left)", st.session_state["p1"])
     with c2:
@@ -133,3 +137,7 @@ else:
     render_pvp_battle_arena(result, p1, p2)
     st.markdown("<br>", unsafe_allow_html=True)
     render_pvp_results(result, p1, p2)
+
+else:
+    # 📈 성장 밸런스 모드
+    render_growth_view()
