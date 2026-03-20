@@ -38,7 +38,15 @@
       "Bash(cat:*)",
       "Bash(tr >:*)",
       "Bash(node:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "WebFetch(domain:hoy9545121-afk.github.io)",
+      "Bash(cd \"C:/AI_simulator/Git 시뮬레이터 업로드용\" && git push origin main 2>&1)",
+      "Bash(cd \"C:/AI_simulator/Git 시뮬레이터 업로드용\" && git pull --rebase origin main 2>&1)",
+      "Bash(cd \"C:/AI_simulator/Git 시뮬레이터 업로드용\" && git rebase --abort && git fetch origin && git ls-tree origin/main --name-only 2>&1)",
+      "WebFetch(domain:x7-balance-simulator.streamlit.app)",
+      "WebSearch",
+      "Bash(ls C:\\\\AI_simulator\\\\기획서\\\\\" | grep -E :*)",
+      "Bash(cd C:\\\\AI_simulator\\\\Git 시뮬레이터 업로드용:*)"
     ]
   }
 }

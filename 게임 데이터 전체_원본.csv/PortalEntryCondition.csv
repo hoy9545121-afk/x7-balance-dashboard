@@ -1,12 +1,12 @@
 ﻿OID,Cid,Comment,Type,Operator,TypeValue,Amount,Consume,FailConditionText
-1,1,일회용 락픽 1개 소지 조건_아이템 소멸,OwnItem,"Equal","1500","1",True,던전 입장에 필요한 아이템을 소지하고 있지 않습니다.
-2,2,최소 입장 8레벨 이상 조건,LevelMin,GreaterOrEqual,1,"0",False,던전 입장에 필요한 최소 레벨을 만족하지 않습니다.
+1,1,일회용 락픽 1개 소지 조건_아이템 소멸,OwnItem,Equal,1500,1,True,던전 입장에 필요한 아이템을 소지하고 있지 않습니다.
+2,2,최소 입장 8레벨 이상 조건,LevelMin,GreaterOrEqual,1,0,False,던전 입장에 필요한 최소 레벨을 만족하지 않습니다.
 3,3,파티 입장 불가 조건,Party,NotEqual,,,False,파티가 아닌 상태에서만 입장이 가능합니다.
 4,4,파티 입장 가능 조건,Party,Equal,,,False,파티 상태에서만 입장 가능합니다.
-5,5,퀘스트 진행 조건,QuestStepProgress,Equal,12902,,False,입장 조건에 해당하는 퀘스트를 진행 중이어야 합니다.
+5,5,퀘스트 진행 조건,QuestStepProgress,Equal,12902,,False,불타는 달그늘 조건 퀘를 진행중이어야 합니다.
 6,6,퀘스트 완료 조건,CompleteQuest,Equal,120,,False,입장 조건에 해당하는 퀘스트를 완료한 상태여야 합니다.
-7,7,129 퀘스트 진행 중일때 입장,QuestProgress,Equal,129,,False,입장 조건에 해당하는 퀘스트를 완료한 상태여야 합니다.
-8,8,130 퀘스트를 완료하면 더이상 입장 불가,CompleteQuest,NotEqual,130,,False,입장 조건에 해당하는 퀘스트를 이미 완료한 상태입니다.
+7,7,퀘스트 진행 조건_220 퀘스트 진행 중,QuestProgress,Equal,220,,False,220 퀘스트를 진행 중이어야 합니다.
+8,8,퀘스트 진행 조건_221 퀘스트 진행 중,QuestProgress,Equal,221,,False,221 퀘스트를 진행 중이어야 합니다.
 9,9,QS 100408 진행 중일 때만 입장,QuestStepProgress,Equal,100408,,False,[달빛이 닿지 않는 길] 퀘스트 진행 중이 아닙니다.
 10,10,QS 100804 진행 중일 때만 입장,QuestStepProgress,Equal,100804,,False,[이즈나의 기운] 퀘스트 진행 중이 아닙니다.
 11,11,QS 100901 진행 중일 때만 입장,QuestStepProgress,Equal,100901,,False,[피 묻은 손의 침략] 퀘스트 진행 중이 아닙니다.

@@ -111,24 +111,30 @@ class PeriodSummary:
 
 
 @dataclass
+class MonteCarloBucket:
+    """확률 분포 구간"""
+    range_label: str
+    probability: float   # 0~100 %
+    count: int = 0
+
+
+@dataclass
 class MonteCarloSummary:
-    """N회 반복 시뮬레이션 결과 요약 (목표 달성 시간 기반)"""
+    """N회 반복 시뮬레이션 결과 요약 (기간 기반 아이템 획득)"""
     sim_count: int               # 반복 횟수
-    target_count: int            # 목표 아이템 개수
+    sim_hours: float = 0.0       # 시뮬레이션 기간 (시간)
 
-    # 달성 시간 통계 (초 단위)
-    min_time: float = 0.0        # 최단 달성 시간
-    max_time: float = 0.0        # 최장 달성 시간
-    avg_time: float = 0.0        # 평균 달성 시간
-    p50_time: float = 0.0        # 중간값 (50th percentile)
-    p95_time: float = 0.0        # 95th percentile — 95% 확률로 이 시간 안에 달성
+    min_items: int = 0
+    max_items: int = 0
+    avg_items: float = 0.0
+    p50_items: int = 0
+    p95_items: int = 0           # 5th percentile — 운이 나빠도 이만큼은 획득
 
-    # 누적 자원 통계
     avg_xp: float = 0.0
     avg_mastery: float = 0.0
 
-    # 시간 분포 데이터 (히스토그램용, 오름차순 정렬)
-    time_distribution: list[float] = field(default_factory=list)
+    buckets: list = field(default_factory=list)          # list[MonteCarloBucket]
+    item_distribution: list[int] = field(default_factory=list)
 
 @dataclass
 class PveResult:

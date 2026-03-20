@@ -37,91 +37,91 @@ renderGrowthLevel();
 
 const ARMOR_DATA = {
   '1T': [
-    {slot:'아머',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'기본제작',vals:['1%','1.2%','1.3%','1.5%','1.7%','2%']},
-    {slot:'헬멧',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'기본제작',vals:[5,6,7,8,9,10]},
-    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'기본제작',vals:[75,85,100,115,130,150]},
-    {slot:'신발',name:'방어력',key:'DefenseVary',mat:'판금',obt:'기본제작',vals:[20,24,26,30,34,40]},
-    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'기본제작',vals:[75,85,100,115,130,150]},
-    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'기본제작',vals:['1.2%','1.4%','1.6%','1.8%','2.1%','2.4%']},
-    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'기본제작',vals:['2%','2.3%','2.6%','3%','3.5%','4%']},
-    {slot:'신발',name:'공격력',key:'AttackVary',mat:'가죽',obt:'기본제작',vals:[5,6,7,8,9,10]},
-    {slot:'아머',name:'최대 마력',key:'MaxMpVary',mat:'천',obt:'기본제작',vals:[20,24,26,30,34,40]},
-    {slot:'헬멧',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'기본제작',vals:[3,4,5,6,7,8]},
-    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'기본제작',vals:[5,6,7,8,9,10]},
-    {slot:'신발',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'기본제작',vals:['2%','2.3%','2.6%','3%','3.5%','4%']},
+    {slot:'아머',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'기본 제작',vals:['1%','1.2%','1.3%','1.5%','1.7%','2%']},
+    {slot:'헬멧',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'기본 제작',vals:[5,6,7,8,9,10]},
+    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'기본 제작',vals:[75,85,100,115,130,150]},
+    {slot:'신발',name:'방어력',key:'DefenseVary',mat:'판금',obt:'기본 제작',vals:[20,24,26,30,34,40]},
+    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'기본 제작',vals:[75,85,100,115,130,150]},
+    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'기본 제작',vals:['1.2%','1.4%','1.6%','1.8%','2.1%','2.4%']},
+    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'기본 제작',vals:['2%','2.3%','2.6%','3%','3.5%','4%']},
+    {slot:'신발',name:'공격력',key:'AttackVary',mat:'가죽',obt:'기본 제작',vals:[5,6,7,8,9,10]},
+    {slot:'아머',name:'최대 마력',key:'MaxMpVary',mat:'천',obt:'기본 제작',vals:[20,24,26,30,34,40]},
+    {slot:'헬멧',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'기본 제작',vals:[3,4,5,6,7,8]},
+    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'기본 제작',vals:[5,6,7,8,9,10]},
+    {slot:'신발',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'기본 제작',vals:['2%','2.3%','2.6%','3%','3.5%','4%']},
   ],
   '2T': [
-    {slot:'헬멧',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'전리품제작',vals:[8,9,10,12,14,16]},
-    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품제작',vals:[120,140,160,185,210,240]},
-    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'판금',obt:'전리품제작',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
-    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품제작',vals:[120,140,160,185,210,240]},
-    {slot:'장갑',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'전리품제작',vals:['1.6%','1.8%','2.1%','2.4%','2.8%','3.2%']},
-    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'전리품제작',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
-    {slot:'헬멧',name:'공격력',key:'AttackVary',mat:'가죽',obt:'전리품제작',vals:[8,9,10,12,14,16]},
-    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'전리품제작',vals:[120,140,160,185,210,240]},
-    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'전리품제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
-    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'전리품제작',vals:[8,9,10,12,14,16]},
-    {slot:'헬멧',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'전리품제작',vals:[5,6,7,8,9,10]},
-    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'천',obt:'전리품제작',vals:[120,140,160,185,210,240]},
-    {slot:'헬멧',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'전리품제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
-    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'전리품제작',vals:[8,9,10,12,14,16]},
-    {slot:'장갑',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'전리품제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
-    {slot:'아머',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'던전코어',vals:['1.6%','1.8%','2.1%','2.4%','2.8%','3.2%']},
-    {slot:'아머',name:'치명타 확률',key:'CriVaryper',mat:'판금',obt:'던전코어',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
-    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'던전코어',vals:[120,140,160,185,210,240]},
-    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'던전코어',vals:[120,140,160,185,210,240]},
-    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'판금',obt:'던전코어',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
-    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'던전코어',vals:[120,140,160,185,210,240]},
-    {slot:'아머',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'던전코어',vals:[8,9,10,12,14,16]},
-    {slot:'아머',name:'치명타 피해',key:'CriDamageVaryper',mat:'가죽',obt:'던전코어',vals:['9.5%','10.9%','12.6%','14.4%','16.6%','19.2%']},
-    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'던전코어',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
-    {slot:'장갑',name:'치명타 피해',key:'CriDamageVaryper',mat:'가죽',obt:'던전코어',vals:['9.5%','10.9%','12.6%','14.4%','16.6%','19.2%']},
-    {slot:'아머',name:'최대 마력',key:'MaxMpVary',mat:'천',obt:'던전코어',vals:[32,36,42,48,55,65]},
-    {slot:'아머',name:'치명타 확률',key:'CriVaryper',mat:'천',obt:'던전코어',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
-    {slot:'아머',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'던전코어',vals:[5,6,7,8,9,10]},
-    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'던전코어',vals:[8,9,10,12,14,16]},
-    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'천',obt:'던전코어',vals:[8,9,10,12,14,16]},
-    {slot:'신발',name:'방어력',key:'DefenseVary',mat:'판금',obt:'드랍(Boss)',vals:[32,36,42,48,55,65]},
-    {slot:'신발',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'판금',obt:'드랍(Boss)',vals:[8,9,10,12,14,16]},
-    {slot:'신발',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'드랍(Boss)',vals:[8,9,10,12,14,16]},
-    {slot:'신발',name:'공격력',key:'AttackVary',mat:'가죽',obt:'드랍(Boss)',vals:[8,9,10,12,14,16]},
-    {slot:'신발',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'드랍(Boss)',vals:[120,140,160,185,210,240]},
-    {slot:'신발',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'드랍(Boss)',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
-    {slot:'신발',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'드랍(Boss)',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
-    {slot:'신발',name:'최대 생명력',key:'MaxHpVary',mat:'천',obt:'드랍(Boss)',vals:[120,140,160,185,210,240]},
-    {slot:'신발',name:'공격력',key:'AttackVary',mat:'천',obt:'드랍(Boss)',vals:[8,9,10,12,14,16]},
+    {slot:'헬멧',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'전리품 제작',vals:[8,9,10,12,14,16]},
+    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품 제작',vals:[120,140,160,185,210,240]},
+    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'판금',obt:'전리품 제작',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
+    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품 제작',vals:[120,140,160,185,210,240]},
+    {slot:'장갑',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'전리품 제작',vals:['1.6%','1.8%','2.1%','2.4%','2.8%','3.2%']},
+    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'전리품 제작',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
+    {slot:'헬멧',name:'공격력',key:'AttackVary',mat:'가죽',obt:'전리품 제작',vals:[8,9,10,12,14,16]},
+    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'전리품 제작',vals:[120,140,160,185,210,240]},
+    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'전리품 제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
+    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'전리품 제작',vals:[8,9,10,12,14,16]},
+    {slot:'헬멧',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'전리품 제작',vals:[5,6,7,8,9,10]},
+    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'천',obt:'전리품 제작',vals:[120,140,160,185,210,240]},
+    {slot:'헬멧',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'전리품 제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
+    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'전리품 제작',vals:[8,9,10,12,14,16]},
+    {slot:'장갑',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'전리품 제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
+    {slot:'아머',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'던전 코어 제작',vals:['1.6%','1.8%','2.1%','2.4%','2.8%','3.2%']},
+    {slot:'아머',name:'치명타 확률',key:'CriVaryper',mat:'판금',obt:'던전 코어 제작',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
+    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'던전 코어 제작',vals:[120,140,160,185,210,240]},
+    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'던전 코어 제작',vals:[120,140,160,185,210,240]},
+    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'판금',obt:'던전 코어 제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
+    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'던전 코어 제작',vals:[120,140,160,185,210,240]},
+    {slot:'아머',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'던전 코어 제작',vals:[8,9,10,12,14,16]},
+    {slot:'아머',name:'치명타 피해',key:'CriDamageVaryper',mat:'가죽',obt:'던전 코어 제작',vals:['9.5%','10.9%','12.6%','14.4%','16.6%','19.2%']},
+    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'던전 코어 제작',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
+    {slot:'장갑',name:'치명타 피해',key:'CriDamageVaryper',mat:'가죽',obt:'던전 코어 제작',vals:['9.5%','10.9%','12.6%','14.4%','16.6%','19.2%']},
+    {slot:'아머',name:'최대 마력',key:'MaxMpVary',mat:'천',obt:'던전 코어 제작',vals:[32,36,42,48,55,65]},
+    {slot:'아머',name:'치명타 확률',key:'CriVaryper',mat:'천',obt:'던전 코어 제작',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
+    {slot:'아머',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'던전 코어 제작',vals:[5,6,7,8,9,10]},
+    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'던전 코어 제작',vals:[8,9,10,12,14,16]},
+    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'천',obt:'던전 코어 제작',vals:[8,9,10,12,14,16]},
+    {slot:'신발',name:'방어력',key:'DefenseVary',mat:'판금',obt:'보스 드랍',vals:[32,36,42,48,55,65]},
+    {slot:'신발',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'판금',obt:'보스 드랍',vals:[8,9,10,12,14,16]},
+    {slot:'신발',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'보스 드랍',vals:[8,9,10,12,14,16]},
+    {slot:'신발',name:'공격력',key:'AttackVary',mat:'가죽',obt:'보스 드랍',vals:[8,9,10,12,14,16]},
+    {slot:'신발',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'보스 드랍',vals:[120,140,160,185,210,240]},
+    {slot:'신발',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'보스 드랍',vals:['1.9%','2.2%','2.5%','2.9%','3.3%','3.8%']},
+    {slot:'신발',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'보스 드랍',vals:['3.2%','3.7%','4.2%','4.9%','5.6%','6.4%']},
+    {slot:'신발',name:'최대 생명력',key:'MaxHpVary',mat:'천',obt:'보스 드랍',vals:[120,140,160,185,210,240]},
+    {slot:'신발',name:'공격력',key:'AttackVary',mat:'천',obt:'보스 드랍',vals:[8,9,10,12,14,16]},
   ],
   '3T': [
-    {slot:'아머',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'전리품제작',vals:['2.5%','2.9%','3.3%','3.8%','4.4%','5%']},
-    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품제작',vals:[190,220,250,290,330,380]},
-    {slot:'아머',name:'방어력',key:'DefenseVary',mat:'판금',obt:'전리품제작',vals:[50,55,65,75,85,100]},
-    {slot:'헬멧',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'전리품제작',vals:[12,14,16,20,22,26]},
-    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'판금',obt:'전리품제작',vals:['3%','3.4%','3.9%','4.5%','5.2%','6%']},
-    {slot:'헬멧',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'판금',obt:'전리품제작',vals:[12,14,16,18,21,25]},
-    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품제작',vals:[190,220,250,290,330,380]},
-    {slot:'장갑',name:'방어력',key:'DefenseVary',mat:'판금',obt:'전리품제작',vals:[50,55,65,75,85,100]},
-    {slot:'장갑',name:'상태이상 저항력',key:'SCNegativeRecoveryVary',mat:'판금',obt:'전리품제작',vals:[50,57,66,76,87,100]},
-    {slot:'장갑',name:'받는 치유량',key:'HealAcceptVary',mat:'판금',obt:'전리품제작',vals:[75,86,99,114,131,150]},
-    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'전리품제작',vals:[190,220,250,290,330,380]},
-    {slot:'아머',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'전리품제작',vals:[12,14,16,18,21,25]},
-    {slot:'아머',name:'PVE 피해 증가',key:'PVEDamageUpVaryper',mat:'가죽',obt:'전리품제작',vals:['4%','4.6%','5.3%','6.1%','7%','8%']},
-    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'전리품제작',vals:['3%','3.4%','3.9%','4.5%','5.2%','6%']},
-    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'전리품제작',vals:[190,220,250,290,330,380]},
-    {slot:'헬멧',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'가죽',obt:'전리품제작',vals:['2.5%','2.9%','3.3%','3.8%','4.4%','5%']},
-    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'전리품제작',vals:['5%','5.7%','6.6%','7.6%','8.7%','10%']},
-    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'전리품제작',vals:[12,14,16,18,21,25]},
-    {slot:'장갑',name:'PVE 피해 증가',key:'PVEDamageUpVaryper',mat:'가죽',obt:'전리품제작',vals:['4%','4.6%','5.3%','6.1%','7%','8%']},
-    {slot:'장갑',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'전리품제작',vals:['3%','3.4%','3.9%','4.5%','5.2%','6%']},
-    {slot:'아머',name:'최대 마력',key:'MaxMpVary',mat:'천',obt:'전리품제작',vals:[50,55,65,75,85,100]},
-    {slot:'아머',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'전리품제작',vals:[8,9,10,12,14,16]},
-    {slot:'아머',name:'치유력',key:'HealAmpVaryper',mat:'천',obt:'전리품제작',vals:['7.5%','8.6%','9.9%','11.4%','13.1%','15%']},
-    {slot:'헬멧',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'전리품제작',vals:[8,9,10,12,14,16]},
-    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'천',obt:'전리품제작',vals:[190,220,250,290,330,380]},
-    {slot:'헬멧',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'천',obt:'전리품제작',vals:['2.5%','2.9%','3.3%','3.8%','4.4%','5%']},
-    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'전리품제작',vals:[12,14,16,20,22,26]},
-    {slot:'장갑',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'전리품제작',vals:['5%','5.7%','6.6%','7.6%','8.7%','10%']},
-    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'천',obt:'전리품제작',vals:[12,14,16,18,21,25]},
-    {slot:'장갑',name:'치유력',key:'HealAmpVaryper',mat:'천',obt:'전리품제작',vals:['7.5%','8.6%','9.9%','11.4%','13.1%','15%']},
+    {slot:'아머',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'전리품 제작',vals:['2.5%','2.9%','3.3%','3.8%','4.4%','5%']},
+    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품 제작',vals:[190,220,250,290,330,380]},
+    {slot:'아머',name:'방어력',key:'DefenseVary',mat:'판금',obt:'전리품 제작',vals:[50,55,65,75,85,100]},
+    {slot:'헬멧',name:'생명력 자연 회복',key:'RegenHpVary',mat:'판금',obt:'전리품 제작',vals:[12,14,16,20,22,26]},
+    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'판금',obt:'전리품 제작',vals:['3%','3.4%','3.9%','4.5%','5.2%','6%']},
+    {slot:'헬멧',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'판금',obt:'전리품 제작',vals:[12,14,16,18,21,25]},
+    {slot:'장갑',name:'최대 생명력',key:'MaxHpVary',mat:'판금',obt:'전리품 제작',vals:[190,220,250,290,330,380]},
+    {slot:'장갑',name:'방어력',key:'DefenseVary',mat:'판금',obt:'전리품 제작',vals:[50,55,65,75,85,100]},
+    {slot:'장갑',name:'상태이상 저항력',key:'SCNegativeRecoveryVary',mat:'판금',obt:'전리품 제작',vals:[50,57,66,76,87,100]},
+    {slot:'장갑',name:'받는 치유량',key:'HealAcceptVary',mat:'판금',obt:'전리품 제작',vals:[75,86,99,114,131,150]},
+    {slot:'아머',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'전리품 제작',vals:[190,220,250,290,330,380]},
+    {slot:'아머',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'전리품 제작',vals:[12,14,16,18,21,25]},
+    {slot:'아머',name:'PVE 피해 증가',key:'PVEDamageUpVaryper',mat:'가죽',obt:'전리품 제작',vals:['4%','4.6%','5.3%','6.1%','7%','8%']},
+    {slot:'헬멧',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'전리품 제작',vals:['3%','3.4%','3.9%','4.5%','5.2%','6%']},
+    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'가죽',obt:'전리품 제작',vals:[190,220,250,290,330,380]},
+    {slot:'헬멧',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'가죽',obt:'전리품 제작',vals:['2.5%','2.9%','3.3%','3.8%','4.4%','5%']},
+    {slot:'장갑',name:'공격 속도',key:'AtkSpeedVaryper',mat:'가죽',obt:'전리품 제작',vals:['5%','5.7%','6.6%','7.6%','8.7%','10%']},
+    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'가죽',obt:'전리품 제작',vals:[12,14,16,18,21,25]},
+    {slot:'장갑',name:'PVE 피해 증가',key:'PVEDamageUpVaryper',mat:'가죽',obt:'전리품 제작',vals:['4%','4.6%','5.3%','6.1%','7%','8%']},
+    {slot:'장갑',name:'치명타 확률',key:'CriVaryper',mat:'가죽',obt:'전리품 제작',vals:['3%','3.4%','3.9%','4.5%','5.2%','6%']},
+    {slot:'아머',name:'최대 마력',key:'MaxMpVary',mat:'천',obt:'전리품 제작',vals:[50,55,65,75,85,100]},
+    {slot:'아머',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'전리품 제작',vals:[8,9,10,12,14,16]},
+    {slot:'아머',name:'치유력',key:'HealAmpVaryper',mat:'천',obt:'전리품 제작',vals:['7.5%','8.6%','9.9%','11.4%','13.1%','15%']},
+    {slot:'헬멧',name:'마력 자연 회복',key:'RegenMpVary',mat:'천',obt:'전리품 제작',vals:[8,9,10,12,14,16]},
+    {slot:'헬멧',name:'최대 생명력',key:'MaxHpVary',mat:'천',obt:'전리품 제작',vals:[190,220,250,290,330,380]},
+    {slot:'헬멧',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'천',obt:'전리품 제작',vals:['2.5%','2.9%','3.3%','3.8%','4.4%','5%']},
+    {slot:'장갑',name:'공격력',key:'AttackVary',mat:'천',obt:'전리품 제작',vals:[12,14,16,20,22,26]},
+    {slot:'장갑',name:'마나 소모량 감소',key:'CostMpDownVaryper',mat:'천',obt:'전리품 제작',vals:['5%','5.7%','6.6%','7.6%','8.7%','10%']},
+    {slot:'장갑',name:'스킬 가속',key:'SkillCooldownAccVary',mat:'천',obt:'전리품 제작',vals:[12,14,16,18,21,25]},
+    {slot:'장갑',name:'치유력',key:'HealAmpVaryper',mat:'천',obt:'전리품 제작',vals:['7.5%','8.6%','9.9%','11.4%','13.1%','15%']},
     {slot:'아머',name:'받는 피해 감소',key:'DamageDownVaryper',mat:'판금',obt:'드랍(Boss)',vals:['2.5%','2.9%','3.3%','3.8%','4.4%','5%']},
     {slot:'아머',name:'치명타 확률',key:'CriVaryper',mat:'판금',obt:'드랍(Boss)',vals:['3%','3.4%','3.9%','4.5%','5.2%','6%']},
     {slot:'아머',name:'치명타 피해',key:'CriDamageVaryper',mat:'판금',obt:'드랍(Boss)',vals:['14.9%','17.1%','19.7%','22.7%','26.1%','30%']},
@@ -149,167 +149,41 @@ const ARMOR_DATA = {
   ]
 };
 
-const WEAPON_DATA = {
-  '1': [
-    {weapon:'한손검',icon:'🗡',concept:'방어 + 반격 — CC로 생존하며 강타',color:'#ff9050',
-     skills:[
-       {cmd:'Q',name:'철벽의 반격',type:'방향 공격',cd:5,mp:30,dmg:2.25},
-       {cmd:'W',name:'방패 돌진',type:'단일 공격',cd:0,mp:0,dmg:2},
-       {cmd:'E',name:'방패 투척',type:'방향 공격',cd:15,mp:30,dmg:2},
-       {cmd:'R',name:'파멸의 징벌',type:'단일 공격',cd:45,mp:30,dmg:4},
-     ]},
-    {weapon:'양손검',icon:'⚔',concept:'파워 딜링 — 높은 계수로 버스트',color:'#ff5050',
-     skills:[
-       {cmd:'Q',name:'폭주',type:'공격/버프',cd:0,mp:15,dmg:3},
-       {cmd:'W',name:'분노의 일격',type:'버프',cd:10,mp:15,dmg:0},
-       {cmd:'E',name:'대지 분쇄',type:'범위 공격',cd:0,mp:1,dmg:0.5},
-       {cmd:'R',name:'공간 가르기',type:'단일 공격',cd:12,mp:30,dmg:6.25},
-     ]},
-    {weapon:'지팡이',icon:'🪄',concept:'DoT·CC — 딜링과 견제 동시에',color:'#9060ff',
-     skills:[
-       {cmd:'Q',name:'화염 장막',type:'DoT (6틱)',cd:8,mp:30,dmg:2.16},
-       {cmd:'W',name:'불의 비',type:'범위 공격',cd:15,mp:50,dmg:4},
-       {cmd:'E',name:'화염 폭발',type:'단일 공격',cd:20,mp:20,dmg:2},
-       {cmd:'R',name:'별똥별',type:'단일 공격',cd:40,mp:100,dmg:6},
-     ]},
-    {weapon:'단검',icon:'🗡',concept:'속도 우선 — 높은 타격 빈도',color:'#50d8ff',
-     skills:[
-       {cmd:'Q',name:'질풍 가르기',type:'방향 공격',cd:5,mp:30,dmg:1.5},
-       {cmd:'W',name:'무기 연마',type:'버프',cd:10,mp:15,dmg:0},
-       {cmd:'E',name:'어둠의 일격',type:'단일 공격',cd:15,mp:15,dmg:3},
-       {cmd:'R',name:'암살자의 분노',type:'버프→광역',cd:40,mp:100,dmg:0},
-     ]},
-    {weapon:'활',icon:'🏹',concept:'저격·함정 — CC 연쇄로 원거리 견제',color:'#80d840',
-     skills:[
-       {cmd:'Q',name:'저격',type:'방향 투사체',cd:5,mp:30,dmg:1.65},
-       {cmd:'W',name:'부채 사격',type:'방향 범위',cd:12,mp:30,dmg:2.25},
-       {cmd:'E',name:'불화살 소나기',type:'위치지정 범위',cd:15,mp:30,dmg:3},
-       {cmd:'R',name:'폭탄 화살',type:'방향 공격',cd:50,mp:100,dmg:10},
-     ]},
-  ],
-  '2': [
-    {weapon:'한손검',icon:'🗡',concept:'T2 — 제압·CC 강화',color:'#ff9050',
-     skills:[
-       {cmd:'Q',name:'제압',type:'단일 대상',cd:5,mp:0,dmg:1},
-       {cmd:'W',name:'복수의 갑옷',type:'버프',cd:10,mp:0,dmg:0},
-       {cmd:'E',name:'모두 쉿',type:'CC (침묵)',cd:15,mp:50,dmg:0},
-       {cmd:'R',name:'진공 폭발',type:'단일 공격',cd:30,mp:0,dmg:3},
-     ]},
-    {weapon:'양손검',icon:'⚔',concept:'T2 — 몰아치기·버스트',color:'#ff5050',
-     skills:[
-       {cmd:'Q',name:'몰아치기',type:'버프',cd:6,mp:0,dmg:0},
-       {cmd:'W',name:'찌르기',type:'단일 공격',cd:12,mp:30,dmg:2.5},
-       {cmd:'E',name:'결투 돌입',type:'단일 공격',cd:0,mp:0,dmg:1.5},
-       {cmd:'R',name:'섬광의 길',type:'단일 공격',cd:8,mp:30,dmg:1.5},
-     ]},
-    {weapon:'지팡이',icon:'🪄',concept:'T2 — 자연 마법·힐',color:'#9060ff',
-     skills:[
-       {cmd:'Q',name:'신비한 가시 나무',type:'DoT (6틱)',cd:8,mp:30,dmg:2.16},
-       {cmd:'W',name:'가시 나무 덩쿨',type:'범위+CC',cd:12,mp:0,dmg:2.5},
-       {cmd:'E',name:'치유의 꽃잎',type:'힐',cd:1,mp:0,dmg:0},
-       {cmd:'R',name:'치유의 바람',type:'힐 DoT',cd:30,mp:0,dmg:0},
-     ]},
-    {weapon:'단검',icon:'🗡',concept:'T2 — 그림자 연속 공격',color:'#50d8ff',
-     skills:[
-       {cmd:'Q',name:'그림자 매',type:'단일 공격',cd:5,mp:0,dmg:2},
-       {cmd:'W',name:'쌍수 달인',type:'버프',cd:10,mp:0,dmg:0},
-       {cmd:'E',name:'진격',type:'단일 공격',cd:12,mp:0,dmg:2},
-       {cmd:'R',name:'전율하는 매',type:'단일 공격',cd:30,mp:0,dmg:4},
-     ]},
-    {weapon:'활',icon:'🏹',concept:'T2 — 아군 지원·기동 — 섬광화살·도약',color:'#80d840',
-     skills:[
-       {cmd:'Q',name:'섬광 화살',type:'방향 공격+버프',cd:4,mp:25,dmg:1.5},
-       {cmd:'W',name:'천상의 그물',type:'방향 범위',cd:10,mp:30,dmg:2},
-       {cmd:'E',name:'재정비 도약',type:'이동',cd:0,mp:15,dmg:0},
-       {cmd:'R',name:'금빛 성광',type:'방향 공격',cd:30,mp:80,dmg:4},
-     ]},
-  ],
-  '3': [
-    {weapon:'한손검',icon:'🗡',concept:'T3 — 성스러운 빛·심판',color:'#ff9050',
-     skills:[
-       {cmd:'Q',name:'성스러운 일격',type:'단일 공격',cd:5,mp:10,dmg:2},
-       {cmd:'W',name:'가호의 빛',type:'버프',cd:12,mp:30,dmg:0},
-       {cmd:'E',name:'폭주하는 광휘',type:'단일 공격',cd:15,mp:15,dmg:3},
-       {cmd:'R',name:'광휘의 심판',type:'단일 공격',cd:40,mp:50,dmg:4},
-     ]},
-    {weapon:'양손검',icon:'⚔',concept:'T3 — 전 레벨 확보 · 최고 버스트',color:'#ff5050',
-     skills:[
-       {cmd:'Q',name:'가벼운 손놀림',type:'단일 공격',cd:5,mp:10,dmg:2.4},
-       {cmd:'W',name:'대지 가르기',type:'단일 공격',cd:12,mp:40,dmg:3},
-       {cmd:'E',name:'휘몰이',type:'6타 연속',cd:15,mp:0,dmg:3.6},
-       {cmd:'R',name:'적진으로',type:'단일 공격',cd:36,mp:50,dmg:4.8},
-     ]},
-    {weapon:'지팡이',icon:'🪄',concept:'T3 — 전 레벨 확보 · 얼음+번개',color:'#9060ff',
-     skills:[
-       {cmd:'Q',name:'얼음 화살',type:'단일 공격',cd:3,mp:36,dmg:2.4},
-       {cmd:'W',name:'다후타의 손짓',type:'DoT 5틱',cd:15,mp:0,dmg:4.8},
-       {cmd:'E',name:'심판의 낙뢰',type:'2타',cd:36,mp:0,dmg:7.2},
-       {cmd:'R',name:'방울방울',type:'CC (부유)',cd:20,mp:0,dmg:0},
-     ]},
-    {weapon:'단검',icon:'🗡',concept:'T3 — 전 레벨 확보 · 암살자',color:'#50d8ff',
-     skills:[
-       {cmd:'Q',name:'그림자 매 II',type:'단일 공격',cd:3,mp:20,dmg:2.4},
-       {cmd:'W',name:'쌍수 달인 II',type:'버프',cd:8,mp:10,dmg:0},
-       {cmd:'E',name:'어둠의 일격 II',type:'단일 공격',cd:12,mp:20,dmg:3.6},
-       {cmd:'R',name:'암살자의 분노 II',type:'버프→광역420%',cd:40,mp:100,dmg:0},
-     ]},
-    {weapon:'활',icon:'🏹',concept:'T3 — 치명타·속박 — 원거리 최강 딜러',color:'#80d840',
-     skills:[
-       {cmd:'Q',name:'충격 사격',type:'방향 투사체 (치명타)',cd:5,mp:10,dmg:2.2},
-       {cmd:'W',name:'연속 쏘기',type:'방향 공격',cd:12,mp:35,dmg:2.8},
-       {cmd:'E',name:'급습',type:'이동+방향 (공속 버프)',cd:20,mp:55,dmg:3.5},
-       {cmd:'R',name:'발묶음',type:'CC (속박)+방향',cd:45,mp:180,dmg:5.0},
-     ]},
-  ]
-};
-
 const ITEM_LIST = [
-  {tier:'1T',obt:'기본 제작',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'판금',slot:'장갑',p1:'최대 생명력',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'판금',slot:'신발',p1:'방어력',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'가죽',slot:'아머',p1:'최대 생명력',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'가죽',slot:'헬멧',p1:'치명타 확률',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'가죽',slot:'장갑',p1:'공격 속도',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'가죽',slot:'신발',p1:'공격력',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'천',slot:'아머',p1:'최대 마력',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'천',slot:'헬멧',p1:'마력 자연 회복',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'천',slot:'장갑',p1:'공격력',p2:'-',p3:'-'},
-  {tier:'1T',obt:'기본 제작',mat:'천',slot:'신발',p1:'마나 소모량 감소',p2:'-',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'최대 생명력',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'치명타 확률',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'판금',slot:'장갑',p1:'최대 생명력',p2:'받는 피해 감소',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'가죽',slot:'헬멧',p1:'치명타 확률',p2:'공격력',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'가죽',slot:'헬멧',p1:'치명타 확률',p2:'최대 생명력',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'가죽',slot:'장갑',p1:'공격 속도',p2:'스킬 가속',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'천',slot:'헬멧',p1:'마력 자연 회복',p2:'최대 생명력',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'천',slot:'헬멧',p1:'마력 자연 회복',p2:'마나 소모량 감소',p3:'-'},
-  {tier:'2T',obt:'전리품 제작',mat:'천',slot:'장갑',p1:'공격력',p2:'마나 소모량 감소',p3:'-'},
-  {tier:'2T',obt:'던전 코어 제작',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'치명타 확률',p3:'-'},
-  {tier:'2T',obt:'던전 코어 제작',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'최대 생명력',p3:'-'},
-  {tier:'2T',obt:'던전 코어 제작',mat:'판금',slot:'장갑',p1:'최대 생명력',p2:'공격 속도',p3:'-'},
-  {tier:'2T',obt:'던전 코어 제작',mat:'가죽',slot:'아머',p1:'최대 생명력',p2:'스킬 가속',p3:'-'},
-  {tier:'2T',obt:'던전 코어 제작',mat:'가죽',slot:'아머',p1:'최대 생명력',p2:'치명타 피해',p3:'-'},
-  {tier:'2T',obt:'보스 드랍',mat:'판금',slot:'신발',p1:'방어력',p2:'스킬 가속',p3:'-'},
-  {tier:'2T',obt:'보스 드랍',mat:'판금',slot:'신발',p1:'방어력',p2:'생명력 자연 회복',p3:'-'},
-  {tier:'2T',obt:'보스 드랍',mat:'가죽',slot:'신발',p1:'공격력',p2:'최대 생명력',p3:'-'},
-  {tier:'3T',obt:'전리품 제작',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'최대 생명력',p3:'방어력'},
-  {tier:'3T',obt:'전리품 제작',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'치명타 확률',p3:'스킬 가속'},
-  {tier:'3T',obt:'전리품 제작',mat:'판금',slot:'장갑',p1:'최대 생명력',p2:'방어력',p3:'상태이상 저항력'},
-  {tier:'3T',obt:'전리품 제작',mat:'가죽',slot:'아머',p1:'최대 생명력',p2:'스킬 가속',p3:'PVE 피해 증가'},
-  {tier:'3T',obt:'전리품 제작',mat:'가죽',slot:'헬멧',p1:'치명타 확률',p2:'최대 생명력',p3:'받는 피해 감소'},
-  {tier:'3T',obt:'전리품 제작',mat:'천',slot:'아머',p1:'최대 마력',p2:'마력 자연 회복',p3:'치유력'},
-  {tier:'3T',obt:'드랍(Boss)',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'치명타 확률',p3:'치명타 피해'},
-  {tier:'3T',obt:'드랍(Boss)',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'최대 생명력',p3:'상태이상 저항력'},
-  {tier:'3T',obt:'드랍(Boss)',mat:'판금',slot:'신발',p1:'방어력',p2:'스킬 가속',p3:'피해 증가'},
+  {cid:12010001, tier:'1T',obt:'기본 제작',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'-',p3:'-'},
+  {cid:12010002, tier:'1T',obt:'기본 제작',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'-',p3:'-'},
+  {cid:12010003, tier:'1T',obt:'기본 제작',mat:'판금',slot:'장갑',p1:'최대 생명력',p2:'-',p3:'-'},
+  {cid:12010004, tier:'1T',obt:'기본 제작',mat:'판금',slot:'신발',p1:'방어력',p2:'-',p3:'-'},
+  {cid:12010005, tier:'1T',obt:'기본 제작',mat:'가죽',slot:'아머',p1:'최대 생명력',p2:'-',p3:'-'},
+  {cid:12010006, tier:'1T',obt:'기본 제작',mat:'가죽',slot:'헬멧',p1:'치명타 확률',p2:'-',p3:'-'},
+  {cid:12010007, tier:'1T',obt:'기본 제작',mat:'가죽',slot:'장갑',p1:'공격 속도',p2:'-',p3:'-'},
+  {cid:12010008, tier:'1T',obt:'기본 제작',mat:'가죽',slot:'신발',p1:'공격력',p2:'-',p3:'-'},
+  {cid:12010009, tier:'1T',obt:'기본 제작',mat:'천',slot:'아머',p1:'최대 마력',p2:'-',p3:'-'},
+  {cid:12010010, tier:'1T',obt:'기본 제작',mat:'천',slot:'헬멧',p1:'마력 자연 회복',p2:'-',p3:'-'},
+  {cid:12010011, tier:'1T',obt:'기본 제작',mat:'천',slot:'장갑',p1:'공격력',p2:'-',p3:'-'},
+  {cid:12010012, tier:'1T',obt:'기본 제작',mat:'천',slot:'신발',p1:'마나 소모량 감소',p2:'-',p3:'-'},
+  {cid:12020001, tier:'2T',obt:'전리품 제작',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'최대 생명력',p3:'-'},
+  {cid:12020002, tier:'2T',obt:'전리품 제작',mat:'판금',slot:'장갑',p1:'최대 생명력',p2:'받는 피해 감소',p3:'-'},
+  {cid:12020003, tier:'2T',obt:'전리품 제작',mat:'가죽',slot:'헬멧',p1:'치명타 확률',p2:'공격력',p3:'-'},
+  {cid:12020004, tier:'2T',obt:'전리품 제작',mat:'가죽',slot:'장갑',p1:'공격 속도',p2:'스킬 가속',p3:'-'},
+  {cid:12020013, tier:'2T',obt:'던전 코어 제작',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'치명타 확률',p3:'-'},
+  {cid:12020014, tier:'2T',obt:'던전 코어 제작',mat:'가죽',slot:'아머',p1:'최대 생명력',p2:'스킬 가속',p3:'-'},
+  {cid:12020022, tier:'2T',obt:'보스 드랍',mat:'판금',slot:'신발',p1:'방어력',p2:'스킬 가속',p3:'-'},
+  {cid:12030001, tier:'3T',obt:'전리품 제작',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'최대 생명력',p3:'방어력'},
+  {cid:12030002, tier:'3T',obt:'전리품 제작',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'치명타 확률',p3:'스킬 가속'},
+  {cid:12030003, tier:'3T',obt:'전리품 제작',mat:'판금',slot:'장갑',p1:'최대 생명력',p2:'방어력',p3:'상태이상 저항력'},
+  {cid:12030004, tier:'3T',obt:'전리품 제작',mat:'가죽',slot:'아머',p1:'최대 생명력',p2:'스킬 가속',p3:'PVE 피해 증가'},
+  {cid:12030031, tier:'3T',obt:'보스 드랍',mat:'판금',slot:'아머',p1:'받는 피해 감소',p2:'치명타 확률',p3:'치명타 피해'},
+  {cid:12030032, tier:'3T',obt:'보스 드랍',mat:'판금',slot:'헬멧',p1:'생명력 자연 회복',p2:'최대 생명력',p3:'상태이상 저항력'},
+  {cid:12030033, tier:'3T',obt:'보스 드랍',mat:'판금',slot:'신발',p1:'방어력',p2:'스킬 가속',p3:'피해 증가'},
 ];
 
 const DPS_DATA = [
-  {weapon:'한손검',Q:24,W:0,E:12,R:6},
+  {weapon:'한손검',Q:15,W:10,E:7.5,R:6.7},
   {weapon:'양손검',Q:24,W:12.5,E:12,R:6},
-  {weapon:'지팡이',Q:40,W:16,E:9,R:0},
-  {weapon:'단검',Q:18,W:0,E:12,R:0},
-  {weapon:'활',Q:24,W:13,E:10,R:7},
+  {weapon:'지팡이',Q:30,W:16,E:9,R:9},
+  {weapon:'단검',Q:22,W:5.5,E:10,R:7.5},
+  {weapon:'활',Q:26,W:14,E:10.5,R:6.7},
 ];
 
 // ═══════════ STATE ═══════════
@@ -346,48 +220,75 @@ function switchTab(section, tab, btn) {
 // ═══════════ ARMOR ═══════════
 const SLOT_ICON = {아머:'🛡',헬멧:'⛑',장갑:'🥊',신발:'👟'};
 const MAT_ICON = {판금:'⚙',가죽:'🟤',천:'🟣'};
-const OBT_ICON = {기본제작:'🔨',전리품제작:'💎',던전코어:'🔮','드랍(Boss)':'👺'};
+const OBT_ICON = {기본 제작:'🔨','전리품 제작':'💎','던전 코어 제작':'🔮','보스 드랍':'👺'};
 
 function renderArmorTier(tier) {
   const gridId = 'armor-grid-' + tier;
   const grid = document.getElementById(gridId);
   if (!grid) return;
-  let data = ARMOR_DATA[tier].filter(d => {
-    if (armorSlot !== 'all' && d.slot !== armorSlot) return false;
-    if (armorMat !== 'all' && d.mat !== armorMat) return false;
-    if (armorSearch && !d.name.toLowerCase().includes(armorSearch) && !d.key.toLowerCase().includes(armorSearch)) return false;
+
+  // 1. 해당 티어의 아이템 목록 가져오기 (필터링 적용)
+  let items = ITEM_LIST.filter(it => {
+    if (it.tier !== tier) return false;
+    if (armorSlot !== 'all' && it.slot !== armorSlot) return false;
+    if (armorMat !== 'all' && it.mat !== armorMat) return false;
+    if (armorSearch && !it.p1.toLowerCase().includes(armorSearch) && !it.p2.toLowerCase().includes(armorSearch)) return false;
     return true;
   });
-  if (!data.length) { grid.innerHTML = '<div class="empty-state">조건에 맞는 옵션이 없습니다.</div>'; return; }
-  grid.innerHTML = data.map(d => {
-    const growths = [];
-    for (let i = 1; i < d.vals.length; i++) {
-      const a = parseFloat(String(d.vals[i-1]).replace('%',''));
-      const b = parseFloat(String(d.vals[i]).replace('%',''));
-      growths.push(a > 0 ? Math.min(100, Math.round((b-a)/a*120)) : 60);
-    }
-    const gBars = growths.map(g => `<div class="g-seg"><div class="g-fill" style="width:${g}%"></div></div>`).join('');
-    const lvCells = d.vals.map((v,i) => `<div class="lv-cell${i===5?' max':''}">${v}</div>`).join('');
+
+  if (!items.length) { 
+    grid.innerHTML = '<div class="empty-state">조건에 맞는 장비가 없습니다.</div>'; 
+    return; 
+  }
+
+  // 2. 렌더링
+  grid.innerHTML = items.map(item => {
+    // 해당 아이템의 p1, p2, p3 옵션 명칭 추출
+    const pNames = [item.p1, item.p2, item.p3].filter(p => p !== '-');
+    
+    // ARMOR_DATA에서 해당 옵션의 레벨별 수치 찾아서 HTML 생성
+    const statsHtml = pNames.map(pName => {
+      const d = ARMOR_DATA[tier].find(ad => ad.name === pName && ad.mat === item.mat && ad.obt === item.obt);
+      if (!d) return `<div class="stat-inner-item" style="color:#666; font-size:0.8rem; padding:8px;">[DATA ERROR: ${pName}]</div>`;
+
+      const growths = [];
+      for (let i = 1; i < d.vals.length; i++) {
+        const a = parseFloat(String(d.vals[i-1]).replace('%',''));
+        const b = parseFloat(String(d.vals[i]).replace('%',''));
+        growths.push(a > 0 ? Math.min(100, Math.round((b-a)/a*120)) : 60);
+      }
+      const gBars = growths.map(g => `<div class="g-seg"><div class="g-fill" style="width:${g}%"></div></div>`).join('');
+      const lvCells = d.vals.map((v,i) => `<div class="lv-cell${i===5?' max':''}">${v}</div>`).join('');
+      
+      return `
+      <div class="stat-inner-item" style="margin-bottom:16px; padding-bottom:8px;">
+        <div class="armor-info" style="display:flex; align-items:center; gap:8px;">
+          <div class="armor-stat-name" style="font-size:0.95rem; color:var(--cream); font-weight:600;">${d.name}</div>
+          <div class="armor-key" style="font-size:0.7rem; color:var(--text3); opacity:0.7;">${d.key}</div>
+        </div>
+        <div class="level-grid" style="margin-top:8px;">
+          <div class="level-row"><div class="lv-label">수치</div>${lvCells}</div>
+        </div>
+        <div class="growth-bar-wrap" style="margin-top:4px;">${gBars}</div>
+      </div>`;
+    }).join('');
+
     return `
-    <div class="armor-card">
-      <div class="armor-card-head">
-        <span class="armor-slot-icon">${SLOT_ICON[d.slot]||'📦'}</span>
-        <div class="armor-info">
-          <div class="armor-stat-name">${d.name}</div>
-          <div class="armor-key">${d.key}</div>
+    <div class="armor-card group-card" style="border: 1px solid var(--border-bright); background: var(--panel-dark); overflow:hidden;">
+      <div class="armor-card-head" style="background: rgba(255,255,255,0.02); padding: 14px 18px; border-bottom: 1px solid var(--border); display:flex; align-items:center; gap:12px;">
+        <span class="armor-slot-icon" style="font-size:1.6rem">${SLOT_ICON[item.slot]||'📦'}</span>
+        <div class="armor-info" style="flex:1">
+          <div class="armor-group-title" style="font-weight:700; color:var(--gold); font-size:1.05rem;">${item.tier} ${item.mat} ${item.slot}</div>
+          <div class="armor-cid" style="font-size:0.75rem; color:var(--text3); letter-spacing:0.02em;">CID: ${item.cid}</div>
         </div>
-        <div class="armor-badges">
-          <span class="badge badge-mat">${MAT_ICON[d.mat]||''} ${d.mat}</span>
-          <span class="badge badge-obt">${OBT_ICON[d.obt]||''} ${d.obt}</span>
+        <div class="armor-badges" style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="badge badge-mat" style="background:rgba(255,255,255,0.05); color:var(--text2); border:1px solid var(--border);">${MAT_ICON[item.mat]||''} ${item.mat}</span>
+          <span class="badge badge-obt" style="background:rgba(232,184,75,0.1); color:var(--gold); border:1px solid rgba(232,184,75,0.2);">${OBT_ICON[item.obt]||''} ${item.obt}</span>
         </div>
       </div>
-      <div class="level-grid">
-        <div class="level-headers">
-          <div></div>${['0','1','2','3','4','5'].map(l=>`<div class="lv-h">Lv.${l}</div>`).join('')}
-        </div>
-        <div class="level-row"><div class="lv-label">수치</div>${lvCells}</div>
+      <div class="armor-card-body" style="padding:16px; border: 2px solid rgba(232, 184, 75, 0.12); margin: 12px; border-radius: 8px; background: rgba(0,0,0,0.15);">
+        ${statsHtml}
       </div>
-      <div class="growth-bar-wrap">${gBars}</div>
     </div>`;
   }).join('');
 }
@@ -397,7 +298,7 @@ function filterArmor(type, val, btn) {
   else { armorMat = val; }
   const bar = btn.closest('.filter-bar');
   const btns = bar.querySelectorAll('.filter-btn');
-  const slotCount = 5; // all + 4 slots
+  const slotCount = 5; 
   [...btns].forEach((b,i) => {
     if (type === 'slot' && i < slotCount) b.classList.remove('active');
     if (type === 'mat' && i >= slotCount) b.classList.remove('active');
@@ -414,8 +315,7 @@ function searchArmor(v) {
 // ═══════════ SKILL ═══════════
 function renderWeaponTier(tier) {
   const gridId = 'weapon-grid-' + tier + 'T';
-  // tier param is '1','2','3' but WEAPON_DATA keys are '1','2','3'
-  const grid = document.getElementById('weapon-grid-' + tier + 'T');
+  const grid = document.getElementById(gridId);
   if (!grid) return;
   const data = WEAPON_DATA[tier];
   const typeStyle = {
@@ -428,24 +328,21 @@ function renderWeaponTier(tier) {
     '힐':'background:rgba(80,200,112,0.12);border:1px solid rgba(80,200,112,0.25);color:#70e890',
     '힐 DoT':'background:rgba(80,200,112,0.12);border:1px solid rgba(80,200,112,0.25);color:#70e890',
     '버프→광역':'background:rgba(200,140,0,0.15);border:1px solid rgba(200,140,0,0.3);color:#ffb020',
-    '버프→광역420%':'background:rgba(200,140,0,0.15);border:1px solid rgba(200,140,0,0.3);color:#ffb020',
     '공격/버프':'background:rgba(232,192,80,0.1);border:1px solid rgba(232,192,80,0.25);color:#e8c050',
     'DoT (6틱)':'background:rgba(255,120,40,0.12);border:1px solid rgba(255,120,40,0.25);color:#ff9060',
     'DoT 5틱':'background:rgba(255,120,40,0.12);border:1px solid rgba(255,120,40,0.25);color:#ff9060',
     '2타':'background:rgba(212,48,48,0.15);border:1px solid rgba(212,48,48,0.3);color:#ff8080',
     '6타 연속':'background:rgba(212,48,48,0.15);border:1px solid rgba(212,48,48,0.3);color:#ff8080',
-    '범위+CC':'background:rgba(200,80,200,0.12);border:1px solid rgba(200,80,200,0.25);color:#d080d0',
     '방향 투사체':'background:rgba(128,216,64,0.15);border:1px solid rgba(128,216,64,0.3);color:#a0e860',
     '방향 범위':'background:rgba(128,216,64,0.12);border:1px solid rgba(128,216,64,0.25);color:#90d850',
     '위치지정 범위':'background:rgba(232,192,80,0.1);border:1px solid rgba(232,192,80,0.25);color:#e8c050',
     '방향 공격+버프':'background:rgba(128,216,64,0.12);border:1px solid rgba(128,216,64,0.25);color:#a0e860',
     '이동':'background:rgba(80,200,112,0.12);border:1px solid rgba(80,200,112,0.25);color:#70e890',
-    '이동(서브)':'background:rgba(80,200,112,0.12);border:1px solid rgba(80,200,112,0.25);color:#70e890',
   };
   grid.innerHTML = data.map(w => {
     const skillRows = w.skills.map(s => {
       const ts = typeStyle[s.type] || 'background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);color:var(--text2)';
-      const dmgTxt = s.dmg > 0 ? `${(s.dmg*100).toFixed(0)}%` : (s.type.includes('버프')||s.type.includes('힐')||s.type.includes('CC')) ? '—' : '-';
+      const dmgTxt = s.dmg > 0 ? `${(s.dmg*100).toFixed(0)}%` : '—';
       const cdTxt = s.cd > 0 ? `${s.cd}s` : '기본';
       return `
         <div class="skill-row">
@@ -486,9 +383,7 @@ function switchSkillTier(t, btn) {
 function renderWeapons() { ['1','2','3'].forEach(t => renderWeaponTier(t)); }
 
 function renderDPS() {
-  const maxTotal = Math.max(...DPS_DATA.map(d => d.Q+d.W+d.E+d.R));
   const cmdColors = {Q:'#f5d878',W:'#70e890',E:'#70b8ff',R:'#ff7070'};
-
   document.getElementById('dps-chart-inner').innerHTML = DPS_DATA.map(d => {
     const total = d.Q+d.W+d.E+d.R;
     const bars = ['Q','W','E','R'].map(cmd => `
@@ -499,7 +394,6 @@ function renderDPS() {
         </div>
         <div class="dps-bar-val" style="color:${cmdColors[cmd]}">${d[cmd]||'-'}</div>
       </div>`).join('');
-
     return `
       <div class="dps-bar-row">
         <div class="dps-weapon">${d.weapon}</div>
@@ -540,32 +434,18 @@ function renderItemList() {
 
 // ═══════════ DELEGATED EVENT HANDLERS ═══════════
 document.addEventListener('DOMContentLoaded', function() {
-  // Click delegation
   document.addEventListener('click', function(e) {
     var btn = e.target.closest('[data-action]');
     if (!btn) return;
     var action = btn.dataset.action;
-    if (action === 'nav') {
-      showSection(btn.dataset.s);
-    } else if (action === 'tab') {
-      switchTab(btn.dataset.s, btn.dataset.t, btn);
-    } else if (action === 'filter-list') {
-      filterList(btn.dataset.type, btn.dataset.val, btn);
-    } else if (action === 'filter-armor') {
-      filterArmor(btn.dataset.type, btn.dataset.val, btn);
-    }
+    if (action === 'nav') { showSection(btn.dataset.s); } 
+    else if (action === 'tab') { switchTab(btn.dataset.s, btn.dataset.t, btn); } 
+    else if (action === 'filter-list') { filterList(btn.dataset.type, btn.dataset.val, btn); } 
+    else if (action === 'filter-armor') { filterArmor(btn.dataset.type, btn.dataset.val, btn); }
   });
-
-  // Input delegation for armor search
   document.addEventListener('input', function(e) {
-    if (e.target.dataset.action === 'search-armor') {
-      searchArmor(e.target.value);
-    }
+    if (e.target.dataset.action === 'search-armor') { searchArmor(e.target.value); }
   });
-
-  // Init
   renderArmorTier('1T'); renderArmorTier('2T'); renderArmorTier('3T');
-  renderDPS();
-  renderWeaponTier('1'); renderWeaponTier('2'); renderWeaponTier('3');
-  renderItemList();
+  renderDPS(); renderWeaponTier('1'); renderWeaponTier('2'); renderWeaponTier('3'); renderItemList();
 });

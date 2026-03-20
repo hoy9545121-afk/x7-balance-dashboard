@@ -95,7 +95,8 @@ PVP행위가 PVP랭킹에 반영되지 않습니다.
 602,602,"부활지 평화 구역(안내, 효과적용)",평화 구역,"누이 신관 주변은 평화 구역 입니다.
 평화 상태에서는 어떤 공격도 할 수 없습니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,[153],TRUE,[602],,,
 701,701,이니스 섬에 위치한 캐릭터,지역: 이니스 섬,이니스 섬에 있습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,[701],FALSE,[701],,,
-703,703,누이 신전에 위치한 캐릭터,지역: 누이 신전,누이 신전과 신성의 숲에 있습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,[703],FALSE,[703],,,
+702,702,누이 신전에 위치한 캐릭터,지역: 누이 신전,누이 신전과 신성의 숲에 있습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,[702],FALSE,[702],,,
+703,703,던전: 이즈나의 메아리 위치한 캐릭터,던전: 이즈나의 메아리,이즈나의 메아리 던전에 있습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,[703],FALSE,[703],,,
 900,900,Bush hide,수풀 은폐,수풀에 은폐했습니다. 스킬 사용 시 위치가 발각됩니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,FALSE,[900],,,
 901,901,bush SC 블락,,,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[901],,,
 1000,1000,혈귀,,,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,FALSE,[1000],,,
@@ -236,17 +237,8 @@ PVP행위가 PVP랭킹에 반영되지 않습니다.
 20015,20015,중급 발효주,중급 발효주,20분 동안 주는 피해 +10% ,,None,0,None,0,999,None,1000,1200000,1200000,Overwrite,FALSE,None,TRUE,FALSE,None,[100],TRUE,[20015],,,
 20016,20016,중급 수프,중급 수프,1초마다 체력을 100만큼 회복합니다. 8초 동안 유지되며 총 800을 회복합니다.,,None,0,None,0,999,None,1000,7900,7900,Overwrite,FALSE,None,TRUE,FALSE,None,[100],TRUE,[20016],,,
 20017,20017,중급 샐러드,중급 샐러드,1초마다 마력을 50만큼 회복합니다. 8초 동안 유지되며 총 400을 회복합니다.,,None,0,None,0,999,None,1000,7900,7900,Overwrite,FALSE,None,TRUE,FALSE,None,[100],TRUE,[20017],,,
-90001,90001,던전: 이즈나의 메아리 위치한 캐릭터,던전: 이즈나의 메아리,이즈나의 메아리 던전에 있습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,[90001],FALSE,[90001],,,
 90002,90002,야옹이 무한 변신 버프 테스트,야옹이가 되어랏,냥냥?!?,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,FALSE,[90002],,,
 90003,90003,이동 속도 증가 버프 테스트,야옹이는 발이 보이지 않아,이동속도 증가 40%,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[200006],,,
-90004,90004,강인한 생명력,강인한 생명력,"강인한 생명력의 보호를 받고 있습니다.
-20초 동안 1초 마다 최대 체력의 5% 만큼 체력이 회복됩니다.",,None,0,None,0,999,None,1000,20000,20000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[90004],,,
-90005,90005,샘솟는 마나샘,샘솟는 마나샘,"샘솟는 마나샘의 보호를 받고 있습니다.
-20초 동안 1초 마다 최대 마력의 5% 만큼 마력이 회복됩니다.",,None,0,None,0,999,None,1000,20000,20000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[90005],,,
-90006,90006,넘치는 생명력_몬스터 용,강인한 생명력,"강인한 생명력의 보호를 받는 중입니다.
-처치 시, 처치한 대상은 지속적으로 체력이 회복됩니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[90006],,,
-90007,90007,샘솟는 마나샘_몬스터 용,샘솟는 마나샘,"샘솟는 마나샘의 보호를 받는 중입니다.
-처치 시, 처치한 대상은 지속적으로 마력이 회복됩니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[90007],,,
 100001,100001,신비한 가시 나무 Lv.1,,,,None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,TRUE,FALSE,None,,FALSE,[100001],,,
 100002,100002,신비한 가시 나무 Lv.2,,,,None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,TRUE,FALSE,None,,FALSE,[100002],,,
 100003,100003,신비한 가시 나무 Lv.3,,,,None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,TRUE,FALSE,None,,FALSE,[100003],,,
@@ -938,50 +930,6 @@ PVP행위가 PVP랭킹에 반영되지 않습니다.
 750405,750405,3T 판금 투구(전리품)_스킬 가속 Lv.2,가속 Lv.2,,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[750405],,,
 750406,750406,3T 판금 투구(전리품)_스킬 가속 Lv.3,가속 Lv.3,,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[750406],,,
 750407,750407,3T 판금 투구(전리품)_스킬 가속 Lv.4,가속 Lv.4,,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[750407],,,
-800001,800001,피격 시 폭발하는 토템,폭발 주의,피격 시 일정 시간 후 폭발합니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800001],,,
-800002,800002,이동속도 증가 Area,길잡이의 축복 지대,길잡이의 축복 효과를 적용받을 수 있는 지역입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800002],,,
-800003,800003,이동속도 증가 발동용,길잡이의 축복 발동,해제 시 이동속도 증가 효과가 발동됩니다.,[152],None,0,None,0,999,None,1000,500,500,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800003],,,
-800004,800004,이동속도 증가 실제 효과,길잡이의 축복,길잡이의 축복 효과로 7초 동안 이동속도가 30% 증가합니다. 전투 시 사라집니다.,[152],None,0,None,0,999,None,1000,7000,7000,Overwrite,FALSE,None,FALSE,FALSE,None,[151],TRUE,[800004],,,
-800005,800005,이동속도 증가 구슬 효과범위,이동속도 증가 구슬,이동속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800005],,,
-800006,800006,이동속도 증가 구슬 발동,이동속도 증가 구슬,이동속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800006],,,
-800007,800007,이동속도 증가 구슬 실제 효과,이동속도 증가,이동속도가 일정시간 증가합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,10000,10000,Stack,FALSE,None,FALSE,FALSE,None,[151],TRUE,[800007],,5,
-800008,800008,공격속도 증가 구슬 효과범위,공격속도 증가 구슬,공격속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800008],,,
-800009,800009,공격속도 증가 구슬 발동,공격속도 증가 구슬,공격속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800009],,,
-800010,800010,공격속도 증가 구슬 실제 효과,공격속도 증가,공격속도가 일정시간 증가합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,10000,10000,Stack,FALSE,None,FALSE,FALSE,None,[155],FALSE,[800010],,5,
-800011,800011,이동속도 증가 구슬 연출용,이동속도 증가 구슬 연출용,구슬 이펙트 연출용,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[151],FALSE,[800011],,,
-800012,800012,공격속도 증가 구슬 연출용,공격속도 증가 구슬 연출용,구슬 이펙트 연출용,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[155],FALSE,[800012],,,
-800013,800013,시전시간 감소 구슬 연출용,시전시간 감소 구슬 연출용,구슬 이펙트 연출용,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[157],FALSE,[800013],,,
-800014,800014,이동속도 증가 구슬 실제 효과,이동속도 증가,이동속도가 일정시간 증가합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,20000,20000,Stack,FALSE,None,FALSE,FALSE,None,[151],TRUE,[800014],,5,
-800015,800015,공격속도 증가 구슬 실제 효과,여신의 축복,"여신의 축복 효과로 20초 동안 몸이 가벼워집니다.
-- 공격 속도 10% 증가
-- 이동 속도 10% 증가
-- 시전 시간 10% 감소
-최대 5회 중첩할 수 있습니다.",,None,0,None,0,999,None,1000,20000,20000,Stack,FALSE,None,FALSE,FALSE,None,[155],TRUE,[800015],,5,
-800016,800016,시전시간 감소 구슬 실제 효과,시전시간 감소,시전 시간이 일정시간 감소합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,20000,20000,Stack,FALSE,None,FALSE,FALSE,None,[157],TRUE,[800016],,5,
-800017,800017,시전시간 감소 구슬 효과범위,시전시간 감소 구슬,시전시간 감소 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800017],,,
-800018,800018,시전시간 감소 구슬 발동,시전시간 감소 구슬,시전시간 감소 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800018],,,
-800019,800019,강인한 생명력 몬스터 연출용,강인한 생명력,"강인한 생명력의 보호를 받는 중입니다.
-처치 시, 생명력이 회복되는 축복의 구슬이 나타납니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[800019],,,
-800020,800020,강인한 생명력 구슬 영역,강인한 생명력 구슬 영역,강인한 생명력 구슬 버프 활성화 영역,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800020],,,
-800021,800021,강인한 생명력 효과 발동 연출,강인한 생명력,강인한 생명력 구슬 버프를 PC에게 부여,,None,0,None,0,999,None,1000,2500,2500,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800021],,,
-800022,800022,강인한 생명력 효과,강인한 생명력,"강인한 생명력의 효과를 받았습니다.
-생명력이 즉시 300 회복됩니다.",,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[800022],,,
-800023,800023,샘솟는 마나샘 몬스터 연출용,샘솟는 마나샘,"샘솟는 마나샘의 보호를 받는 중입니다.
-처치 시, 마력이 회복되는 축복의 구슬이 나타납니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[800023],,,
-800024,800024,샘솟는 마나샘 구슬 영역,샘솟는 마나샘 구슬 영역,샘솟는 마나샘 구슬 버프 활성화 영역,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800024],,,
-800025,800025,샘솟는 마나샘 효과 발동 연출,샘솟는 마나샘,샘솟는 마나샘 구슬 버프를 PC에게 부여,,None,0,None,0,999,None,1000,2500,2500,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[800025],,,
-800026,800026,샘솟는 마나샘 효과,샘솟는 마나샘,"샘솟는 마나샘의 효과를 받았습니다.
-마력이 즉시 240 회복됩니다.",[800029],None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[800026],,,
-800027,800027,이즈나의 메아리 몬스터 패시브 SC,이즈나의 메아리 몬스터 표기,이즈나의 메아리 몬스터 표기용 패시브,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[800027],FALSE,[800027],,,
-800028,800028,이즈나의 메아리 몬스터 일반 표기,끝나지 않는 환영의 존재,"누이 여신의 기억으로 형상화된 존재입니다.
-처치 시, 일정 확률로 여신의 축복 구슬이 생성됩니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[800028],,,
-800029,800029,이즈나의 메아리 탐험가 패시브 SC,이즈나의 메아리 탐험가,이즈나의 메아리 던전 플레이어 용 패시브,[800029],None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[800029],TRUE,[800029],,,
-800030,800030,말카바돈 타임어택 표기,분노의 잔재가 모여드는 중,"여신의 심상 속으로 들어왔습니다.
-10분 이내에 잔재를 소환하면 더욱 강력한 존재를 만날 수 있습니다.",,None,0,None,0,999,None,1000,600000,600000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[800030],,,
-800032,800032,이즈나의 구슬 몬스터 효과,메아리의 울림,"여신의 메아리가 몬스터에게 큰 진동을 발생시킵니다.
-환영의 존재들은 넘어짐 효과를 받습니다.",[800027],None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,FALSE,TRUE,None,[121],TRUE,[800032],,,
-800033,800033,강인한 생명력 틱 효과,강인한 생명력,"강인한 생명력의 효과를 받았습니다.
-생명력이 즉시 300 회복됩니다.",,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[800033],,,
 1000001,1000001,정신 집중 Lv.1,정신 집중 Lv.1,"0.5초 마다 최대 마력의 5% 만큼 마력 회복
 이동 속도 -50%
 
@@ -3414,41 +3362,93 @@ PVP행위가 PVP랭킹에 반영되지 않습니다.
 21000004,21000004,이즈나의 메아리 - 폴라리우스의 파편 조각,대학살의 파편 조각,"내성 경비대장 폴라리오스의 망령이 소환한 조각입니다.
 폴라리오스에게 강화 효과를 주고 있으나 피격 시 파괴와 함께 주변 몬스터에 약화 효과를 부여합니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[21000004],,,
 21000005,21000005,이즈나의 메아리 - 폴라리우스의 파편 조각 피해,대학살의 파편 조각 피해,대학살의 파편 조각에 피해를 입어 지속 시간동안 받는 피해량이 20% 증가합니다.,,None,0,None,0,999,None,1000,10000,10000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[21000005],,,
-21000006,21000006,이즈나의 메아리 - 폴라리우스의 파편 조각(효과),대학살의 파편 조각 효과,대학살의 파편 조각 효과로 받는 피해가 감소하고 주는 피해가 증가한 상태입니다.,,None,0,None,0,999,None,1000,0,0,Stack,TRUE,None,FALSE,FALSE,None,[21000006],TRUE,[21000006],,3,
-21000007,21000007,이즈나의 메아리 - 내성 경비대장 폴라리우스의 망령 확인용,내성 경비대장 폴라리우스의 망령,내성 경비대장 폴라리우스의 망령 입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[21000007],FALSE,[21000007],,,
-21410002,21410002,도바비안_전사_강화_방패막기,방패 막기,방패를 이용해 방어 중 입니다.,,None,0,None,0,999,None,1000,900,900,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[21410002],,,
-21950001,21950001,오크_주술사_회복_Launch,회복,일정 시간 틱단위 회복,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[21950001],,,
-27000001,27000001,피 묻은 손 지휘관_저주의 손길,저주의 손길,손길에 붙잡혀 일정시간 이동 불가,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,FALSE,FALSE,None,[107],TRUE,[27000001],,,
-29000001,29000001,피 묻은 손 간부_저주의 손길,저주의 손길,손길에 붙잡혀 일정시간 이동 불가,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,FALSE,FALSE,None,[107],TRUE,[29000001],,,
-29000002,29000002,안드리온+마상 / Proc발동용,안드리온,호위 대상 안드리온 입니다. 피격 시 일정 시간 동안 이동을 하지 않습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[29000002],TRUE,[29000002],,,
-29000003,29000003,안드리온+마상 / 피격 시 이동제한,전투 중,전투 상태가 되어 일정 시간 이동하지 않습니다.,[29000002],None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000003],,,
-29000004,29000004,안드리온이 몬스터를 소환,몬스터를 소환한다,일정 시간 간격으로 몬스터를 소환합니다. ,[29000002],None,0,None,0,999,None,1000,500,500,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000004],,,
-29000005,29000005,안드리온이 호위부대를 소환,호위부대를 소환한다,처음 한번 호위 부대를 소환합니다.,[29000002],None,0,None,0,999,None,1000,500,500,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000005],,,
-29000006,29000006,호위부대가 안드리온에게 멈춤 발사,호위병,안드리온의 호위병 입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000006],,,
-29000007,29000007,[누이신전] 경비병 시야영역 Area 표시 및 SC적용,경비병,누이 신전 경비병 입니다. 시야 내 진입 시 감지될 수 있습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000007],,,
-29000008,29000008,[누이신전] 경비병 시야영역에 들어온 대상,의심대상,경비병이 의심하는 대상입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[29000008],TRUE,[29000008],,,
-29000009,29000009,[누이신전] PC에 쌓이는 Stack,의심,주변 경비병에게 의심받는 중 입니다. 3회 의심을 받으면 적으로 발각될 수 있습니다.,,None,0,None,0,999,None,1000,3000,3000,Stack,TRUE,None,FALSE,FALSE,None,,TRUE,[29000009],,2,29000011
-29000010,29000010,[누이신전] PC에 의해 발생한 몬스터 어그로 디버프,어그로 디버프,발각됨 효과에 의한 주변 어그로 발산,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000010],,,
-29000011,29000011,[누이신전] PC가 발각됨,발각됨,누이 신전 경비병에게 발각되었습니다!,,None,0,None,0,999,None,1000,30000,30000,Overwrite,FALSE,None,FALSE,FALSE,None,[29000011],TRUE,[29000011],,,
-29000012,29000012,[누이신전] PC가 사용하는 은신 스크롤,은신,"은신 주문서의 힘으로 일정 시간 은신 상태를 유지합니다.
-은신 상태가 해제될 경우 주변에 의심을 받게 됩니다.",,None,0,None,0,999,None,1000,60000,60000,Overwrite,FALSE,None,FALSE,FALSE,None,[117],TRUE,[29000012],[29000012],,
-29000013,29000013,[누이신전] 기도 연출 1,기도,누이 여신을 위한 기도 중 입니다.,,None,0,None,0,999,None,1000,4660,4660,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000013],,,
-29000014,29000014,[누이신전] 기도 연출 2,기도,누이 여신을 위한 기도 중 입니다.,,None,0,None,0,999,None,1000,8000,8000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000014],,,
-29000015,29000015,[누이신전] 기도 연출 3,기도,누이 여신을 위한 기도 중 입니다.,,None,0,None,0,999,None,1000,5660,5660,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[29000015],,,
-30010001,30010001,부활한 피 묻은 손 간부 - 광폭화,광폭화,"몬스터가 분노하여 공격력, 이동속도, 치명타 확률 증가",,None,0,None,0,999,None,1000,30000,30000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[30010001],,,
-30350001,30350001,말카바돈_기술2_지역화염피해,화염 지대,화염 지대에 의해 피해를 입게 됩니다.,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[30350001],,,
-30350002,30350002,말카바돈_기술_불 붙음,화염 피해,몸에 불이 붙어 지속적인 화염 피해를 입습니다.,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,Ordinary,[133],TRUE,[30350002],,,
-30410104,30410104,말카바돈_버프1_디버프,화염 분노,말카바돈의 화염 분노로 지속 시간동안 이동 속도 및 상태 이상 저하 저항이 감소합니다.,,None,0,None,0,999,None,1000,10000,10000,Overwrite,FALSE,None,FALSE,FALSE,None,[141],TRUE,[30410104],,,
-30310007,30310007,황금 평원_보스_스칼니토스_최후의 저항,최후의 저항,지속시간 만료 후 주변에 강력한 피해와 함께 사망,,None,0,None,0,999,None,1000,5670,5670,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[30310007],,,
-30310122,30310122,말카바돈_기술13_카이팅 방지용 기술,화염 기절,말카바돈의 공격에 의해 일정시간 기절합니다.,,None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,TRUE,FALSE,None,[101],TRUE,[30310122],,,
-30410001,30410001,황금 평원_보스_스칼니토스_비늘 강화,비늘 강화,비늘을 강화하여 일정 시간 방어력 증가,,None,0,None,0,999,None,1000,90000,90000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[30410001],,,
-30410002,30410002,황금 평원_보스_스칼니토스_심연의 포효,심연의 포효,심연에서 끌어올린 포효로 공격속도 증가,,None,0,None,0,999,None,1000,45000,45000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[30410002],,,
-30410003,30410003,황금 평원_보스_스칼니토스_어둠의 압력,어둠의 압력,끌어올린 힘으로 공격력 증가,,None,0,None,0,999,None,1000,45000,45000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[30410003],,,
-30410004,30410004,황금 평원_보스_스칼니토스_광포화,광포화,"지속시간 동안 공격력, 공격속도 증가",,None,0,None,0,999,None,1000,60000,60000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[30410004],,,
-30410005,30410005,황금 평원_보스_스칼니토스_심연의 포효,심연의 포효,심연의 포효 충격으로 밀려나며 넘어짐,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,TRUE,FALSE,Stun,[121],TRUE,[30410005],,,
-30410006,30410006,황금 평원_보스_스칼니토스_어둠의 압력,어둠의 압력,어둠의 압력으로 이동속도 감소,,None,0,None,0,999,None,750,10000,10000,Overwrite,FALSE,None,TRUE,FALSE,Ordinary,,TRUE,[30410006],,,
-30410102,30410102,말카바돈_버프1_버프,화염 분노,말카바돈이 화염을 끌어 모으고 있습니다.,,None,0,None,0,999,None,1000,30000,30000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[30410102],[30410102],,
-30410103,30410103,말카바돈_버프1_기술12연계 버프_발동,화염의 폭발,모아둔 화염을 방출하려 합니다.,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,None,[30410103],TRUE,[30410103],,,
+21000006,21000006,이즈나의 메아리 - 폴라리우스의 파편 조각(효과),대학살의 파편 조각 효과,대학살의 파편 조각 효과로 받는 피해가 감소하고 주는 피해가 증가한 상태입니다.,,None,0,None,0,999,None,1000,0,0,Stack,TRUE,None,FALSE,FALSE,None,[21000002],TRUE,[21000006],,3,
+21000007,21000007,이즈나의 메아리 - 내성 경비대장 폴라리우스의 망령 확인용,내성 경비대장 폴라리우스의 망령,내성 경비대장 폴라리우스의 망령 입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[21000003],FALSE,[21000007],,,
+21000008,21000008,피격 시 폭발하는 토템,폭발 주의,피격 시 일정 시간 후 폭발합니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000008],,,
+21000009,21000009,이동속도 증가 Area,길잡이의 축복 지대,길잡이의 축복 효과를 적용받을 수 있는 지역입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000009],,,
+21000010,21000010,이동속도 증가 발동용,길잡이의 축복 발동,해제 시 이동속도 증가 효과가 발동됩니다.,[152],None,0,None,0,999,None,1000,500,500,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000010],,,
+21000011,21000011,이동속도 증가 실제 효과,길잡이의 축복,길잡이의 축복 효과로 7초 동안 이동속도가 30% 증가합니다. 전투 시 사라집니다.,[152],None,0,None,0,999,None,1000,7000,7000,Overwrite,FALSE,None,FALSE,FALSE,None,[151],TRUE,[21000011],,,
+21000012,21000012,이동속도 증가 구슬 효과범위,이동속도 증가 구슬,이동속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000012],,,
+21000013,21000013,이동속도 증가 구슬 발동,이동속도 증가 구슬,이동속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000013],,,
+21000014,21000014,이동속도 증가 구슬 실제 효과,이동속도 증가,이동속도가 일정시간 증가합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,10000,10000,Stack,FALSE,None,FALSE,FALSE,None,[151],TRUE,[21000014],,5,
+21000015,21000015,공격속도 증가 구슬 효과범위,공격속도 증가 구슬,공격속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000015],,,
+21000016,21000016,공격속도 증가 구슬 발동,공격속도 증가 구슬,공격속도 증가 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000016],,,
+21000017,21000017,공격속도 증가 구슬 실제 효과,공격속도 증가,공격속도가 일정시간 증가합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,10000,10000,Stack,FALSE,None,FALSE,FALSE,None,[155],FALSE,[21000017],,5,
+21000018,21000018,이동속도 증가 구슬 연출용,이동속도 증가 구슬 연출용,구슬 이펙트 연출용,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[151],FALSE,[21000018],,,
+21000019,21000019,공격속도 증가 구슬 연출용,공격속도 증가 구슬 연출용,구슬 이펙트 연출용,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[155],FALSE,[21000019],,,
+21000020,21000020,시전시간 감소 구슬 연출용,시전시간 감소 구슬 연출용,구슬 이펙트 연출용,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[157],FALSE,[21000020],,,
+21000021,21000021,이동속도 증가 구슬 실제 효과,이동속도 증가,이동속도가 일정시간 증가합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,20000,20000,Stack,FALSE,None,FALSE,FALSE,None,[151],TRUE,[21000021],,5,
+21000022,21000022,공격속도 증가 구슬 실제 효과,여신의 축복,"여신의 축복 효과로 20초 동안 몸이 가벼워집니다.
+- 공격 속도 10% 증가
+- 이동 속도 10% 증가
+- 시전 시간 10% 감소
+최대 5회 중첩할 수 있습니다.",,None,0,None,0,999,None,1000,20000,20000,Stack,FALSE,None,FALSE,FALSE,None,[155],TRUE,[21000022],,5,
+21000023,21000023,시전시간 감소 구슬 실제 효과,시전시간 감소,시전 시간이 일정시간 감소합니다. 최대 5회 중첩할 수 있습니다.,,None,0,None,0,999,None,1000,20000,20000,Stack,FALSE,None,FALSE,FALSE,None,[157],TRUE,[21000023],,5,
+21000024,21000024,시전시간 감소 구슬 효과범위,시전시간 감소 구슬,시전시간 감소 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000024],,,
+21000025,21000025,시전시간 감소 구슬 발동,시전시간 감소 구슬,시전시간 감소 효과를 받게 됩니다.,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000025],,,
+21000026,21000026,강인한 생명력 몬스터 연출용,강인한 생명력,"강인한 생명력의 보호를 받는 중입니다.
+처치 시, 생명력이 회복되는 축복의 구슬이 나타납니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000026],,,
+21000027,21000027,강인한 생명력 구슬 영역,강인한 생명력 구슬 영역,강인한 생명력 구슬 버프 활성화 영역,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000027],,,
+21000028,21000028,강인한 생명력 효과 발동 연출,강인한 생명력,강인한 생명력 구슬 버프를 PC에게 부여,,None,0,None,0,999,None,1000,2500,2500,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000028],,,
+21000029,21000029,강인한 생명력 효과,강인한 생명력,"강인한 생명력의 효과를 받았습니다.
+생명력이 즉시 300 회복됩니다.",,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000029],,,
+21000030,21000030,샘솟는 마나샘 몬스터 연출용,샘솟는 마나샘,"샘솟는 마나샘의 보호를 받는 중입니다.
+처치 시, 마력이 회복되는 축복의 구슬이 나타납니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000030],,,
+21000031,21000031,샘솟는 마나샘 구슬 영역,샘솟는 마나샘 구슬 영역,샘솟는 마나샘 구슬 버프 활성화 영역,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000031],,,
+21000032,21000032,샘솟는 마나샘 효과 발동 연출,샘솟는 마나샘,샘솟는 마나샘 구슬 버프를 PC에게 부여,,None,0,None,0,999,None,1000,2500,2500,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000032],,,
+21000033,21000033,샘솟는 마나샘 효과,샘솟는 마나샘,"샘솟는 마나샘의 효과를 받았습니다.
+마력이 즉시 240 회복됩니다.",[21000005],None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000033],,,
+21000034,21000034,이즈나의 메아리 몬스터 패시브 SC,이즈나의 메아리 몬스터 표기,이즈나의 메아리 몬스터 표기용 패시브,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[21000004],FALSE,[21000034],,,
+21000035,21000035,이즈나의 메아리 몬스터 일반 표기,끝나지 않는 환영의 존재,"누이 여신의 기억으로 형상화된 존재입니다.
+처치 시, 일정 확률로 여신의 축복 구슬이 생성됩니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000035],,,
+21000036,21000036,이즈나의 메아리 탐험가 패시브 SC,이즈나의 메아리 탐험가,이즈나의 메아리 던전 플레이어 용 패시브,[21000005],None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[21000005],TRUE,[21000036],,,
+21000037,21000037,말카바돈 타임어택 표기,분노의 잔재가 모여드는 중,"여신의 심상 속으로 들어왔습니다.
+10분 이내에 잔재를 소환하면 더욱 강력한 존재를 만날 수 있습니다.",,None,0,None,0,999,None,1000,600000,600000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000037],,,
+21000038,21000038,이즈나의 구슬 몬스터 효과,메아리의 울림,"여신의 메아리가 몬스터에게 큰 진동을 발생시킵니다.
+환영의 존재들은 넘어짐 효과를 받습니다.",[21000004],None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,FALSE,TRUE,None,[121],TRUE,[21000038],,,
+21000039,21000039,강인한 생명력 틱 효과,강인한 생명력,"강인한 생명력의 효과를 받았습니다.
+생명력이 즉시 300 회복됩니다.",,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000039],,,
+21000040,21000040,강인한 생명력,강인한 생명력,"강인한 생명력의 보호를 받고 있습니다.
+20초 동안 1초 마다 최대 체력의 5% 만큼 체력이 회복됩니다.",,None,0,None,0,999,None,1000,20000,20000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000040],,,
+21000041,21000041,샘솟는 마나샘,샘솟는 마나샘,"샘솟는 마나샘의 보호를 받고 있습니다.
+20초 동안 1초 마다 최대 마력의 5% 만큼 마력이 회복됩니다.",,None,0,None,0,999,None,1000,20000,20000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000041],,,
+21000042,21000042,넘치는 생명력_몬스터 용,강인한 생명력,"강인한 생명력의 보호를 받는 중입니다.
+처치 시, 처치한 대상은 지속적으로 체력이 회복됩니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000042],,,
+21000043,21000043,샘솟는 마나샘_몬스터 용,샘솟는 마나샘,"샘솟는 마나샘의 보호를 받는 중입니다.
+처치 시, 처치한 대상은 지속적으로 마력이 회복됩니다.",,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000043],,,
+21000044,21000044,도바비안_전사_강화_방패막기,방패 막기,방패를 이용해 방어 중 입니다.,,None,0,None,0,999,None,1000,900,900,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[21000044],,,
+21000045,21000045,오크_주술사_회복_Launch,회복,일정 시간 틱단위 회복,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[21000045],,,
+21000046,21000046,피 묻은 손 지휘관_저주의 손길,저주의 손길,손길에 붙잡혀 일정시간 이동 불가,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,FALSE,FALSE,None,[107],TRUE,[21000046],,,
+21000047,21000047,피 묻은 손 간부_저주의 손길,저주의 손길,손길에 붙잡혀 일정시간 이동 불가,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,FALSE,FALSE,None,[107],TRUE,[21000047],,,
+21000048,21000048,부활한 피 묻은 손 간부 - 광폭화,광폭화,"몬스터가 분노하여 공격력, 이동속도, 치명타 확률 증가",,None,0,None,0,999,None,1000,30000,30000,Overwrite,FALSE,None,FALSE,FALSE,None,,FALSE,[21000048],,,
+21000049,21000049,말카바돈_기술2_지역화염피해,화염 지대,화염 지대에 의해 피해를 입게 됩니다.,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000049],,,
+21000050,21000050,말카바돈_기술_불 붙음,화염 피해,몸에 불이 붙어 지속적인 화염 피해를 입습니다.,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,Ordinary,[133],TRUE,[21000050],,,
+21000051,21000051,말카바돈_버프1_디버프,화염 분노,말카바돈의 화염 분노로 지속 시간동안 이동 속도 및 상태 이상 저하 저항이 감소합니다.,,None,0,None,0,999,None,1000,10000,10000,Overwrite,FALSE,None,FALSE,FALSE,None,[141],TRUE,[21000051],,,
+21000052,21000052,황금 평원_보스_스칼니토스_최후의 저항,최후의 저항,지속시간 만료 후 주변에 강력한 피해와 함께 사망,,None,0,None,0,999,None,1000,5670,5670,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000052],,,
+21000053,21000053,말카바돈_기술13_카이팅 방지용 기술,화염 기절,말카바돈의 공격에 의해 일정시간 기절합니다.,,None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,TRUE,FALSE,None,[101],TRUE,[21000053],,,
+21000054,21000054,황금 평원_보스_스칼니토스_비늘 강화,비늘 강화,비늘을 강화하여 일정 시간 방어력 증가,,None,0,None,0,999,None,1000,90000,90000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000054],,,
+21000055,21000055,황금 평원_보스_스칼니토스_심연의 포효,심연의 포효,심연에서 끌어올린 포효로 공격속도 증가,,None,0,None,0,999,None,1000,45000,45000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000055],,,
+21000056,21000056,황금 평원_보스_스칼니토스_어둠의 압력,어둠의 압력,끌어올린 힘으로 공격력 증가,,None,0,None,0,999,None,1000,45000,45000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000056],,,
+21000057,21000057,황금 평원_보스_스칼니토스_광포화,광포화,"지속시간 동안 공격력, 공격속도 증가",,None,0,None,0,999,None,1000,60000,60000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000057],,,
+21000058,21000058,황금 평원_보스_스칼니토스_심연의 포효,심연의 포효,심연의 포효 충격으로 밀려나며 넘어짐,,None,0,None,0,999,None,1000,1000,1000,Overwrite,FALSE,None,TRUE,FALSE,Stun,[121],TRUE,[21000058],,,
+21000059,21000059,황금 평원_보스_스칼니토스_어둠의 압력,어둠의 압력,어둠의 압력으로 이동속도 감소,,None,0,None,0,999,None,750,10000,10000,Overwrite,FALSE,None,TRUE,FALSE,Ordinary,,TRUE,[21000059],,,
+21000060,21000060,말카바돈_버프1_버프,화염 분노,말카바돈이 화염을 끌어 모으고 있습니다.,,None,0,None,0,999,None,1000,30000,30000,Overwrite,FALSE,None,TRUE,FALSE,None,,TRUE,[21000060],[21000060],,
+21000061,21000061,말카바돈_버프1_기술12연계 버프_발동,화염의 폭발,모아둔 화염을 방출하려 합니다.,,None,0,None,0,999,None,1000,5000,5000,Overwrite,FALSE,None,TRUE,FALSE,None,[30410103],TRUE,[21000061],,,
+30000001,30000001,안드리온+마상 / Proc발동용,안드리온,호위 대상 안드리온 입니다. 피격 시 일정 시간 동안 이동을 하지 않습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[30000001],TRUE,[30000001],,,
+30000002,30000002,안드리온+마상 / 피격 시 이동제한,전투 중,전투 상태가 되어 일정 시간 이동하지 않습니다.,[30000001],None,0,None,0,999,None,1000,3000,3000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000002],,,
+30000003,30000003,안드리온이 몬스터를 소환,몬스터를 소환한다,일정 시간 간격으로 몬스터를 소환합니다. ,[30000001],None,0,None,0,999,None,1000,500,500,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000003],,,
+30000004,30000004,안드리온이 호위부대를 소환,호위부대를 소환한다,처음 한번 호위 부대를 소환합니다.,[30000001],None,0,None,0,999,None,1000,500,500,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000004],,,
+30000005,30000005,호위부대가 안드리온에게 멈춤 발사,호위병,안드리온의 호위병 입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000005],,,
+30000006,30000006,[누이신전] 경비병 시야영역 Area 표시 및 SC적용,경비병,누이 신전 경비병 입니다. 시야 내 진입 시 감지될 수 있습니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000006],,,
+30000007,30000007,[누이신전] 경비병 시야영역에 들어온 대상,의심대상,경비병이 의심하는 대상입니다.,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,[30000002],TRUE,[30000007],,,
+30000008,30000008,[누이신전] PC에 쌓이는 Stack,의심,주변 경비병에게 의심받는 중 입니다. 3회 의심을 받으면 적으로 발각될 수 있습니다.,,None,0,None,0,999,None,1000,3000,3000,Stack,TRUE,None,FALSE,FALSE,None,,TRUE,[30000008],,2,30000010
+30000009,30000009,[누이신전] PC에 의해 발생한 몬스터 어그로 디버프,어그로 디버프,발각됨 효과에 의한 주변 어그로 발산,,None,0,None,0,999,None,1000,0,0,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000009],,,
+30000010,30000010,[누이신전] PC가 발각됨,발각됨,누이 신전 경비병에게 발각되었습니다!,,None,0,None,0,999,None,1000,30000,30000,Overwrite,FALSE,None,FALSE,FALSE,None,[30000003],TRUE,[30000010],,,
+30000011,30000011,[누이신전] PC가 사용하는 은신 스크롤,은신,"은신 주문서의 힘으로 일정 시간 은신 상태를 유지합니다.
+은신 상태가 해제될 경우 주변에 의심을 받게 됩니다.",,None,0,None,0,999,None,1000,60000,60000,Overwrite,FALSE,None,FALSE,FALSE,None,[117],TRUE,[30000011],[30000011],,
+30000012,30000012,[누이신전] 기도 연출 1,기도,누이 여신을 위한 기도 중 입니다.,,None,0,None,0,999,None,1000,4660,4660,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000012],,,
+30000013,30000013,[누이신전] 기도 연출 2,기도,누이 여신을 위한 기도 중 입니다.,,None,0,None,0,999,None,1000,8000,8000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000013],,,
+30000014,30000014,[누이신전] 기도 연출 3,기도,누이 여신을 위한 기도 중 입니다.,,None,0,None,0,999,None,1000,5660,5660,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[30000014],,,
 40000001,40000001,탈것_공용_내리기,내리기,탈것에서 내리는 중 입니다.,,None,0,None,0,999,None,1000,100,100,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[40000001],,,
 40000002,40000002,탈것_공용_이동불가,이동 불가,이동할 수 없습니다.,,None,0,None,0,999,None,1000,60000,60000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[40000002],,,
 40000003,40000003,탈것_공용_회전불가,회전 불가,회전할 수 없습니다.,,None,0,None,0,999,None,1000,60000,60000,Overwrite,FALSE,None,FALSE,FALSE,None,,TRUE,[40000003],,,

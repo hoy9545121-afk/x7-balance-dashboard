@@ -1,9 +1,9 @@
 OID,Cid,Comment,ContinentCid,ZoneGroupCid,TitleZoneCid,AreaType,DescName,ZoneOrder,MinLevel,MapPath,SubLevel,RandomLocation,ReturnLocation,RevivalLocation,SubZoneCid,CanSaveMemory,CanSaveLastLoc,BGMId,LevelTitle,StatusChangeCids,IsCommandletArg
 800,800,개인 거주 구역,1,1,800,Housing,개인 거주 구역,800,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[80000],[80000],[80000],,false,true,64,,,true
 901,901,침묵하는 잔해의 전장_이니스 섬 PVP 던전,1,10003,901,Normal,침묵하는 잔해의 전장,901,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[90100,90101,90102]","[90100,90101,90102]","[90100,90101,90102]",,false,true,41,,,true
-906,906,이즈나의 메아리_이니스 섬 1인 던전,1,10002,906,Normal,이즈나의 메아리,906,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[90601],"[90601,90602]","[90601,90602]","[90601,90602,90603,90604,90605,90606]",false,true,41,,[800029],true
+906,906,이즈나의 메아리_이니스 섬 1인 던전,1,10002,906,Normal,이즈나의 메아리,906,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[90601],"[90601,90602]","[90601,90602]","[90601,90602,90603,90604,90605,90606]",false,true,41,,[21000036],true
 1000,1000,이니스섬,1,100,1000,Normal,이니스 섬,1,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[100012],[100012],"[100006,100007,100008,100009,100010,100011,100012]","[100001,100002,100003,100004,100005]",false,true,1,,[701],true
-1001,1001,누이 신전,1,10001,1001,Normal,누이 신전,1,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[100100],[100100],[100100],"[100101,100102,100103,100104,100105,100106,100107]",false,true,1,,,true
+1001,1001,누이 신전,1,10001,1001,Normal,누이 신전,1,1,/Game/A_X7_Maps/World_Map/World_Nuia,,[100100],[100100],[100100],"[100101,100102,100103,100104,100105,100106,100107]",false,true,1,,[702],true
 1010,1010,"솔즈리드 반도 (바라기 언덕, 푸른 안개 숲, 가라앉은 만)",1,101,1010,Normal,솔즈리드 반도,2,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[101001,101002,101003,101004,101005]",[101001],[101001],"[101001,101002,101003,101004,101005]",false,true,1,,,true
 1011,1011,"솔즈리드 반도 (솔즈리드 평원, 초승달 왕좌, 백월만)",1,101,1011,Normal,솔즈리드 평원,2,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[101101,101102,101103,101104,101105,101106]","[101101,101102]","[101101,101102]","[101101,101102,101103,101104,101105,101106]",false,true,1,,,true
 1012,1012,"솔즈리드 반도 (잊혀진 성, 우윳빛 강 길, 요정의 은신처, 일벌백계의 폐허)",1,101,1012,Normal,솔즈리드 반도,2,1,/Game/A_X7_Maps/World_Map/World_Nuia,,"[101201,101202,101203,101204,101205,101206,101207]","[101201,101204]","[101201,101204]","[101201,101202,101203,101204,101205,101206,101207]",false,true,1,,,true
@@ -25,7 +25,7 @@ OID,Cid,Comment,ContinentCid,ZoneGroupCid,TitleZoneCid,AreaType,DescName,ZoneOrd
 9011,9011,작은월드파티션1,1,1,9011,War,1번 존,10,1,/Game/A_X7_Maps/Samples_Map/World_1Km/World_1Km,,,,,,false,true,1,,,true
 9012,9012,작은월드파티션2,1,1,9012,War,2번 존,10,1,/Game/A_X7_Maps/Samples_Map/World_1Km/World_1Km,,,,,,false,true,1,,,true
 9013,9013,작은월드파티션3,1,1,9013,War,3번 존,10,1,/Game/A_X7_Maps/Samples_Map/World_1Km/World_1Km,,,,,,false,true,1,,,true
-9979,9979,아트 비주얼 목표 던전,1,100,9979,Normal,이즈나의 메아리,9979,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon,,[9979],[9979],[9979],"[997901,997902,997903,997904,997905,997906]",false,true,41,,[90001],true
+9979,9979,아트 비주얼 목표 던전,1,100,9979,Normal,이즈나의 메아리,9979,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Test_Dungeon,,[9979],[9979],[9979],"[997901,997902,997903,997904,997905,997906]",false,true,41,,[703],true
 9980,9980,개인 거주구역,1,1,9980,Housing,개인 거주구역,117,1,/Game/A_X7_Maps/Samples_Map/Housing/Housing_01,,[9980],[9980],[9980],,false,true,1,,,false
 9981,9981,망자의 균열 1T,1,1,9981,Normal,망자의 균열 1T,1001,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_1T,,[9981],[9981],[9981],,false,true,1,,,false
 9982,9982,망자의 균열 2T,1,1,9982,Normal,망자의 균열 2T,1002,1,/Game/A_X7_Maps/Samples_Map/Dungeon_Test/Battle_Dungeon_2T,,[9982],[9982],[9982],,false,true,1,,,false
