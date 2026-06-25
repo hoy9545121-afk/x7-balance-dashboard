@@ -22,18 +22,20 @@ PROBS: dict[str, list[float]] = {
 
 # energy_per_fail: 실패 1회당 기운 충전%  /  boost: 실패 1회당 성공 확률 상승%p
 # 천장 횟수 = CEILING(100 / energy_per_fail)
-# +1~+3: 델피나드 기운 없음 (안전 구간)
+# +1: 델피나드 기운 없음 (안전 구간, 100% 성공)  /  +2~+10: 델피나드 기운 적용
 ENERGY: dict[str, dict[str, float]] = {
-    '+4' : {'energy_per_fail': 20.0, 'boost': 2.0},   # 천장 5회
-    '+5' : {'energy_per_fail': 15.0, 'boost': 1.5},   # 천장 7회
-    '+6' : {'energy_per_fail': 10.0, 'boost': 1.0},   # 천장 10회
-    '+7' : {'energy_per_fail':  6.0, 'boost': 0.8},   # 천장 17회
-    '+8' : {'energy_per_fail':  4.0, 'boost': 0.6},   # 천장 25회
-    '+9' : {'energy_per_fail':  3.0, 'boost': 0.4},   # 천장 34회
-    '+10': {'energy_per_fail':  2.5, 'boost': 0.4},   # 천장 40회
+    '+2' : {'energy_per_fail': 20.0, 'boost': 4.0},            # 천장 5회
+    '+3' : {'energy_per_fail': 20.0, 'boost': 3.0},            # 천장 5회
+    '+4' : {'energy_per_fail': 20.0, 'boost': 2.0},            # 천장 5회
+    '+5' : {'energy_per_fail': 15.0, 'boost': 1.5},            # 천장 7회
+    '+6' : {'energy_per_fail': 10.0, 'boost': 1.0},            # 천장 10회
+    '+7' : {'energy_per_fail': 100/15, 'boost': 0.8},          # 천장 15회
+    '+8' : {'energy_per_fail':  4.0, 'boost': 0.6},            # 천장 25회
+    '+9' : {'energy_per_fail': 100/30, 'boost': 0.4},          # 천장 30회
+    '+10': {'energy_per_fail':  2.5, 'boost': 0.4},            # 천장 40회
 }
 
-ENH_LIST   = ['+4', '+5', '+6', '+7', '+8', '+9', '+10']
+ENH_LIST   = ['+2', '+3', '+4', '+5', '+6', '+7', '+8', '+9', '+10']
 TIER_LABEL = ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7']
 
 # 티어×강화단계별 기본 골드 비용 (강화 1회당, 인덱스 0=T1..6=T7)
@@ -61,9 +63,9 @@ class EnhanceSession:
     tier_idx: int           # 0=T1 ~ 6=T7
     target_level: int       # 목표 강화 레벨 (4~10)
     current_level: int = 0
-    # pity[k] = [boost_acc%p, energy_acc%]  (k=4~10, 단계별 독립)
+    # pity[k] = [boost_acc%p, energy_acc%]  (k=2~10, 단계별 독립)
     pity: dict = field(
-        default_factory=lambda: {k: [0.0, 0.0] for k in range(4, 11)}
+        default_factory=lambda: {k: [0.0, 0.0] for k in range(2, 11)}
     )
     total_attempts: int = 0
     scrolls_used: int = 0
@@ -84,7 +86,7 @@ def effective_prob(session: EnhanceSession, tlvl: int) -> tuple[float, bool]:
     """
     enh = f'+{tlvl}'
     pb  = PROBS[enh][session.tier_idx]
-    if tlvl >= 4 and enh in ENERGY:
+    if tlvl >= 2 and enh in ENERGY:
         boost_acc, energy_acc = session.pity[tlvl]
         if energy_acc >= 100.0:
             return 1.0, True
@@ -105,8 +107,8 @@ def step_once(
     enh  = f'+{tlvl}'
 
     prev_level     = session.current_level
-    energy_before  = session.pity[tlvl][1] if tlvl >= 4 else 0.0
-    boost_before   = session.pity[tlvl][0] if tlvl >= 4 else 0.0
+    energy_before  = session.pity[tlvl][1] if tlvl >= 2 else 0.0
+    boost_before   = session.pity[tlvl][0] if tlvl >= 2 else 0.0
 
     p_eff, ceiling_active = effective_prob(session, tlvl)
     success = rng.random() < p_eff
@@ -118,14 +120,14 @@ def step_once(
 
     if success:
         session.current_level += 1
-        if tlvl >= 4:
+        if tlvl >= 2:
             session.pity[tlvl] = [0.0, 0.0]   # 성공 시 기운 초기화
         if ceiling_active:
             session.ceiling_hits += 1
     else:
         # 실패 시에만 횟수 차감 (xlsx v8: 성공 시 횟수 유지)
         session.restore_counter -= 1
-        if tlvl >= 4 and enh in ENERGY:
+        if tlvl >= 2 and enh in ENERGY:
             cfg = ENERGY[enh]
             session.pity[tlvl][0] += cfg['boost']
             session.pity[tlvl][1]  = min(
@@ -133,7 +135,7 @@ def step_once(
             )
         # 단계 하락 없음 (xlsx v8: 횟수 차감 방식)
 
-    energy_after = session.pity[tlvl][1] if tlvl >= 4 else 0.0
+    energy_after = session.pity[tlvl][1] if tlvl >= 2 else 0.0
 
     # ── 완료 체크 (복구 판단 전) ──
     if session.current_level >= session.target_level:
@@ -236,7 +238,7 @@ def compute_expected_base_items(
         total = 0.0
         for _ in range(n_sim):
             level, used, attempts = 0, 1.0, 3
-            pity  = {k: [0.0, 0.0] for k in range(4, 11)}
+            pity  = {k: [0.0, 0.0] for k in range(2, 11)}
             guard = 0
 
             while level < target and guard < 300_000:
@@ -245,7 +247,7 @@ def compute_expected_base_items(
                 enh  = f'+{tlvl}'
                 pb   = PROBS[enh][tier_idx]
 
-                if tlvl >= 4 and enh in ENERGY:
+                if tlvl >= 2 and enh in ENERGY:
                     boost_acc, energy_acc = pity[tlvl]
                     p_eff = (
                         1.0 if energy_acc >= 100.0
@@ -256,11 +258,11 @@ def compute_expected_base_items(
 
                 if rng.random() < p_eff:       # 성공
                     level += 1
-                    if tlvl >= 4:
+                    if tlvl >= 2:
                         pity[tlvl] = [0.0, 0.0]
                 else:                          # 실패 — 횟수 차감 (xlsx v8)
                     attempts -= 1
-                    if tlvl >= 4 and enh in ENERGY:
+                    if tlvl >= 2 and enh in ENERGY:
                         cfg = ENERGY[enh]
                         pity[tlvl][0] += cfg['boost']
                         pity[tlvl][1]  = min(

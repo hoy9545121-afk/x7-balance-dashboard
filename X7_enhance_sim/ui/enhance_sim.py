@@ -73,7 +73,7 @@ def _render_interactive(tier_idx: int, target: int, gold_per_attempt: int) -> No
             c2.metric("현재 확률", f"{p_eff * 100:.0f}%", delta=delta)
 
             # 델피나드 기운 게이지
-            if tlvl >= 4 and enh in ENERGY:
+            if tlvl >= 2 and enh in ENERGY:
                 boost_acc, energy_acc = session.pity[tlvl]
                 st.markdown(f"**델피나드 기운 — {energy_acc:.1f}%**")
                 st.progress(min(1.0, energy_acc / 100.0))
@@ -323,7 +323,7 @@ def _render_montecarlo() -> None:
 
     all_pre = st.session_state["mc_all_pre"]
     n_used  = st.session_state.get("mc_n_sim", "?")
-    targets = list(range(4, 11))
+    targets = list(range(2, 11))
 
     st.markdown(f"**예상 노강 소모량** (n={n_used}, 충전석 소모 포함)")
 
@@ -391,9 +391,9 @@ def render_enhance_sim() -> None:
             index=3,
         )
         target = st.selectbox(
-            "목표 단계", list(range(4, 11)),
+            "목표 단계", list(range(2, 11)),
             format_func=lambda v: f"+{v}",
-            index=3,
+            index=5,
         )
         def_gold = default_gold(tier_idx, target)
         gold = st.number_input(
